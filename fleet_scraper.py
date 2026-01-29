@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-US NAVY BIG DECK FLEET TRACKER - Automated Scraper
-Version: 5.1.0
+U.S. NAVY FLEET TRACKER - Automated Scraper
+Version: 6.0.0
 
 Standalone script for GitHub Actions automation.
 Scrapes fleet data and generates a self-contained HTML file.
 
-Data Source: USCarriers.net (with permission)
+Created by @ianellisjones and IEJ Media
 """
 
 import re
 import json
 import math
 from datetime import datetime
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass, asdict
 from collections import defaultdict
 from pathlib import Path
@@ -27,30 +27,30 @@ from bs4 import BeautifulSoup
 
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
-# Ship Database with hull numbers and names
+# Ship Database with hull numbers, names, and HOMEPORTS for fallback location
 SHIP_DATABASE = {
     # Aircraft Carriers (CVN)
-    "CVN68": {"name": "USS Nimitz", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn68history.htm"},
-    "CVN69": {"name": "USS Dwight D. Eisenhower", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn69history.htm"},
-    "CVN70": {"name": "USS Carl Vinson", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn70history.htm"},
-    "CVN71": {"name": "USS Theodore Roosevelt", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn71history.htm"},
-    "CVN72": {"name": "USS Abraham Lincoln", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn72history.htm"},
-    "CVN73": {"name": "USS George Washington", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn73history.htm"},
-    "CVN74": {"name": "USS John C. Stennis", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn74history.htm"},
-    "CVN75": {"name": "USS Harry S. Truman", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn75history.htm"},
-    "CVN76": {"name": "USS Ronald Reagan", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn76history.htm"},
-    "CVN77": {"name": "USS George H.W. Bush", "class": "Nimitz", "type": "CVN", "url": "http://uscarriers.net/cvn77history.htm"},
-    "CVN78": {"name": "USS Gerald R. Ford", "class": "Ford", "type": "CVN", "url": "http://uscarriers.net/cvn78history.htm"},
+    "CVN68": {"name": "USS Nimitz", "class": "Nimitz", "type": "CVN", "homeport": "PACIFIC", "url": "http://uscarriers.net/cvn68history.htm"},
+    "CVN69": {"name": "USS Dwight D. Eisenhower", "class": "Nimitz", "type": "CVN", "homeport": "ATLANTIC", "url": "http://uscarriers.net/cvn69history.htm"},
+    "CVN70": {"name": "USS Carl Vinson", "class": "Nimitz", "type": "CVN", "homeport": "PACIFIC", "url": "http://uscarriers.net/cvn70history.htm"},
+    "CVN71": {"name": "USS Theodore Roosevelt", "class": "Nimitz", "type": "CVN", "homeport": "PACIFIC", "url": "http://uscarriers.net/cvn71history.htm"},
+    "CVN72": {"name": "USS Abraham Lincoln", "class": "Nimitz", "type": "CVN", "homeport": "PACIFIC", "url": "http://uscarriers.net/cvn72history.htm"},
+    "CVN73": {"name": "USS George Washington", "class": "Nimitz", "type": "CVN", "homeport": "WESTPAC", "url": "http://uscarriers.net/cvn73history.htm"},
+    "CVN74": {"name": "USS John C. Stennis", "class": "Nimitz", "type": "CVN", "homeport": "ATLANTIC", "url": "http://uscarriers.net/cvn74history.htm"},
+    "CVN75": {"name": "USS Harry S. Truman", "class": "Nimitz", "type": "CVN", "homeport": "ATLANTIC", "url": "http://uscarriers.net/cvn75history.htm"},
+    "CVN76": {"name": "USS Ronald Reagan", "class": "Nimitz", "type": "CVN", "homeport": "PACIFIC", "url": "http://uscarriers.net/cvn76history.htm"},
+    "CVN77": {"name": "USS George H.W. Bush", "class": "Nimitz", "type": "CVN", "homeport": "ATLANTIC", "url": "http://uscarriers.net/cvn77history.htm"},
+    "CVN78": {"name": "USS Gerald R. Ford", "class": "Ford", "type": "CVN", "homeport": "ATLANTIC", "url": "http://uscarriers.net/cvn78history.htm"},
     # Amphibious Assault Ships (LHA/LHD)
-    "LHD1": {"name": "USS Wasp", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd1history.htm"},
-    "LHD2": {"name": "USS Essex", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd2history.htm"},
-    "LHD3": {"name": "USS Kearsarge", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd3history.htm"},
-    "LHD4": {"name": "USS Boxer", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd4history.htm"},
-    "LHD5": {"name": "USS Bataan", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd5history.htm"},
-    "LHD7": {"name": "USS Iwo Jima", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd7history.htm"},
-    "LHD8": {"name": "USS Makin Island", "class": "Wasp", "type": "LHD", "url": "http://uscarriers.net/lhd8history.htm"},
-    "LHA6": {"name": "USS America", "class": "America", "type": "LHA", "url": "http://uscarriers.net/lha6history.htm"},
-    "LHA7": {"name": "USS Tripoli", "class": "America", "type": "LHA", "url": "http://uscarriers.net/lha7history.htm"},
+    "LHD1": {"name": "USS Wasp", "class": "Wasp", "type": "LHD", "homeport": "ATLANTIC", "url": "http://uscarriers.net/lhd1history.htm"},
+    "LHD2": {"name": "USS Essex", "class": "Wasp", "type": "LHD", "homeport": "PACIFIC", "url": "http://uscarriers.net/lhd2history.htm"},
+    "LHD3": {"name": "USS Kearsarge", "class": "Wasp", "type": "LHD", "homeport": "ATLANTIC", "url": "http://uscarriers.net/lhd3history.htm"},
+    "LHD4": {"name": "USS Boxer", "class": "Wasp", "type": "LHD", "homeport": "PACIFIC", "url": "http://uscarriers.net/lhd4history.htm"},
+    "LHD5": {"name": "USS Bataan", "class": "Wasp", "type": "LHD", "homeport": "ATLANTIC", "url": "http://uscarriers.net/lhd5history.htm"},
+    "LHD7": {"name": "USS Iwo Jima", "class": "Wasp", "type": "LHD", "homeport": "ATLANTIC", "url": "http://uscarriers.net/lhd7history.htm"},
+    "LHD8": {"name": "USS Makin Island", "class": "Wasp", "type": "LHD", "homeport": "PACIFIC", "url": "http://uscarriers.net/lhd8history.htm"},
+    "LHA6": {"name": "USS America", "class": "America", "type": "LHA", "homeport": "PACIFIC", "url": "http://uscarriers.net/lha6history.htm"},
+    "LHA7": {"name": "USS Tripoli", "class": "America", "type": "LHA", "homeport": "WESTPAC", "url": "http://uscarriers.net/lha7history.htm"},
 }
 
 # Comprehensive coordinate database
@@ -76,11 +76,13 @@ LOCATION_COORDS = {
     "Philippines": {"lat": 14.5995, "lon": 120.9842, "region": "WESTPAC"},
     "Malaysia": {"lat": 3.1390, "lon": 101.6869, "region": "INDOPAC"},
     "Okinawa": {"lat": 26.3344, "lon": 127.8056, "region": "WESTPAC"},
+    "Ponce": {"lat": 17.9800, "lon": -66.6141, "region": "SOUTHCOM"},
 
     # STRATEGIC REGIONS / SEAS
     "South China Sea": {"lat": 12.0000, "lon": 114.0000, "region": "WESTPAC"},
     "Western Pacific (WESTPAC)": {"lat": 15.0000, "lon": 135.0000, "region": "WESTPAC"},
     "Philippine Sea": {"lat": 20.0000, "lon": 130.0000, "region": "WESTPAC"},
+    "East China Sea": {"lat": 28.0000, "lon": 125.0000, "region": "WESTPAC"},
     "Red Sea": {"lat": 20.0000, "lon": 38.0000, "region": "CENTCOM"},
     "Persian Gulf": {"lat": 27.0000, "lon": 51.0000, "region": "CENTCOM"},
     "Gulf of Oman": {"lat": 24.5000, "lon": 58.5000, "region": "CENTCOM"},
@@ -95,14 +97,60 @@ LOCATION_COORDS = {
     "Bab el-Mandeb": {"lat": 12.5833, "lon": 43.3333, "region": "CENTCOM"},
     "Sea of Japan": {"lat": 40.0000, "lon": 135.0000, "region": "WESTPAC"},
 
-    # OCEANS
-    "Atlantic Ocean": {"lat": 30.0000, "lon": -45.0000, "region": "ATLANTIC"},
-    "Pacific Ocean": {"lat": 20.0000, "lon": -150.0000, "region": "PACIFIC"},
+    # OCEANS - Default positions based on homeport
+    "Atlantic Ocean": {"lat": 32.0000, "lon": -65.0000, "region": "ATLANTIC"},
+    "Pacific Ocean": {"lat": 25.0000, "lon": -140.0000, "region": "PACIFIC"},
     "Indian Ocean": {"lat": -5.0000, "lon": 75.0000, "region": "INDOPAC"},
-
-    # FALLBACK
-    "Underway / Unknown": {"lat": 0.0000, "lon": 0.0000, "region": "UNKNOWN"},
 }
+
+# Location keywords - ordered list for finding LAST match
+# Format: (location_name, [keywords])
+LOCATION_KEYWORDS = [
+    # Most specific locations first (ports, bases)
+    ("Ponce", ["ponce", "port of ponce"]),
+    ("Okinawa", ["okinawa", "white beach", "east coast of okinawa"]),
+    ("Sasebo", ["sasebo", "juliet basin wharf"]),
+    ("Yokosuka", ["yokosuka"]),
+    ("Norfolk / Portsmouth", ["norfolk", "portsmouth", "virginia beach", "naval station norfolk", "pier 11", "pier 12", "pier 14", "bae systems shipyard", "nassco"]),
+    ("San Diego", ["san diego", "north island", "camp pendleton", "naval base san diego"]),
+    ("Bremerton / Kitsap", ["bremerton", "kitsap", "psns", "puget sound"]),
+    ("Newport News", ["newport news", "huntington ingalls", "outfitting berth"]),
+    ("Pearl Harbor", ["pearl harbor"]),
+    ("Mayport", ["mayport", "naval station mayport"]),
+    ("Everett", ["everett"]),
+    ("Pascagoula", ["pascagoula", "ingalls"]),
+    ("Guam", ["guam", "apra"]),
+    ("Singapore", ["singapore", "changi"]),
+    ("Bahrain", ["bahrain", "manama"]),
+    ("Dubai", ["dubai", "jebel ali"]),
+    ("Busan", ["busan"]),
+    ("Philippines", ["philippines", "manila", "subic"]),
+    ("Malaysia", ["malaysia", "klang"]),
+
+    # Regions / Seas
+    ("Caribbean Sea", ["caribbean", "venezuela", "orchila", "st. croix", "trinidad", "tobago", "puerto rico", "virgin islands", "absolute resolve"]),
+    ("South China Sea", ["south china sea", "spratly islands", "spratly", "luzon"]),
+    ("Western Pacific (WESTPAC)", ["san bernardino strait", "western pacific", "westpac"]),
+    ("Philippine Sea", ["philippine sea"]),
+    ("East China Sea", ["east china sea"]),
+    ("Red Sea", ["red sea"]),
+    ("Persian Gulf", ["persian gulf", "arabian gulf"]),
+    ("Gulf of Oman", ["gulf of oman"]),
+    ("Gulf of Aden", ["gulf of aden"]),
+    ("Arabian Sea", ["arabian sea"]),
+    ("Mediterranean", ["mediterranean", "med sea"]),
+    ("North Sea", ["north sea"]),
+    ("Norwegian Sea", ["norwegian sea"]),
+    ("Strait of Gibraltar", ["gibraltar"]),
+    ("Suez Canal", ["suez"]),
+    ("Bab el-Mandeb", ["bab el-mandeb"]),
+    ("Sea of Japan", ["sea of japan"]),
+
+    # Broad oceans (lowest priority)
+    ("Atlantic Ocean", ["atlantic"]),
+    ("Pacific Ocean", ["pacific"]),
+    ("Indian Ocean", ["indian ocean"]),
+]
 
 
 @dataclass
@@ -148,14 +196,16 @@ def parse_status_entry(text_block: str) -> Tuple[str, str]:
     current_year = "Unknown"
     years_found = re.findall(r'(202[3-7])', text_block)
     if years_found:
-        priority_years = [y for y in years_found if y in ['2024', '2025', '2026']]
+        priority_years = [y for y in years_found if y in ['2025', '2026', '2027']]
+        if not priority_years:
+            priority_years = [y for y in years_found if y in ['2024']]
         current_year = priority_years[-1] if priority_years else years_found[-1]
 
     processed_lines = []
     running_year = current_year
 
     for line in lines:
-        year_match = re.search(r'^202[3-7]', line)
+        year_match = re.search(r'^(202[3-7])', line)
         if year_match:
             running_year = year_match.group(0)
         processed_lines.append({'text': line, 'year': running_year})
@@ -164,10 +214,11 @@ def parse_status_entry(text_block: str) -> Tuple[str, str]:
         "moored", "anchored", "underway", "arrived", "departed",
         "transited", "operations", "returned", "participated", "conducted",
         "moved to", "visited", "pulled into", "sea trials", "flight deck",
-        "undocked", "homeport"
+        "undocked", "homeport", "recently"
     ]
-    allowed_years = ["2024", "2025", "2026", "2027"]
+    allowed_years = ["2025", "2026", "2027"]
 
+    # First try to find 2025/2026/2027 entries
     for entry in reversed(processed_lines):
         text_lower = entry['text'].lower()
         year = entry['year']
@@ -176,72 +227,76 @@ def parse_status_entry(text_block: str) -> Tuple[str, str]:
                 continue
             return year, entry['text']
 
+    # Fallback to 2024 if no recent entries
+    for entry in reversed(processed_lines):
+        text_lower = entry['text'].lower()
+        year = entry['year']
+        if year == "2024" and any(k in text_lower for k in keywords):
+            if text_lower.strip().startswith("from ") and " - " in text_lower:
+                continue
+            return year, entry['text']
+
     return current_year, "No recent status found."
 
 
-def categorize_location(text: str) -> str:
-    """Maps keywords in status text to location tags."""
+def categorize_location(text: str, homeport: str = "ATLANTIC") -> str:
+    """
+    Maps keywords in status text to location tags.
+    IMPORTANT: Finds the LAST mentioned location in the text to get current position.
+    """
     text_lower = text.lower()
 
-    departure_overrides = {
-        "departed san diego": "Pacific Ocean",
-        "departed norfolk": "Atlantic Ocean",
-        "departed pearl harbor": "Pacific Ocean",
-        "departed mayport": "Atlantic Ocean",
-        "departed bremerton": "Pacific Ocean",
-        "departed yokosuka": "Western Pacific (WESTPAC)",
-        "departed sasebo": "Western Pacific (WESTPAC)",
-    }
+    # Check for departure phrases - if ship departed, it's underway
+    departure_patterns = [
+        ("departed san diego", "Pacific Ocean"),
+        ("departed norfolk", "Atlantic Ocean"),
+        ("departed pearl harbor", "Pacific Ocean"),
+        ("departed mayport", "Atlantic Ocean"),
+        ("departed bremerton", "Pacific Ocean"),
+        ("departed yokosuka", "Western Pacific (WESTPAC)"),
+        ("departed sasebo", "Western Pacific (WESTPAC)"),
+    ]
 
-    for phrase, location in departure_overrides.items():
+    # Only use departure override if it's the LAST action mentioned
+    for phrase, loc in departure_patterns:
         if phrase in text_lower:
-            return location
+            # Check if there's a subsequent location mentioned after "departed"
+            dep_idx = text_lower.rfind(phrase)
+            remaining_text = text_lower[dep_idx + len(phrase):]
+            # Look for subsequent locations in remaining text
+            has_subsequent = False
+            for loc_name, keywords in LOCATION_KEYWORDS:
+                for kw in keywords:
+                    if kw in remaining_text:
+                        has_subsequent = True
+                        break
+                if has_subsequent:
+                    break
+            if not has_subsequent:
+                return loc
 
-    location_map = {
-        "South China Sea": ["south china sea", "spratly islands", "spratly", "luzon"],
-        "Western Pacific (WESTPAC)": ["san bernardino strait", "western pacific", "westpac"],
-        "Philippine Sea": ["philippine sea"],
-        "Red Sea": ["red sea"],
-        "Persian Gulf": ["persian gulf", "arabian gulf"],
-        "Gulf of Oman": ["gulf of oman"],
-        "Gulf of Aden": ["gulf of aden"],
-        "Arabian Sea": ["arabian sea"],
-        "Mediterranean": ["mediterranean", "med sea"],
-        "Caribbean Sea": ["caribbean", "st. croix", "trinidad", "tobago", "puerto rico", "virgin islands"],
-        "North Sea": ["north sea"],
-        "Norwegian Sea": ["norwegian sea"],
-        "Strait of Gibraltar": ["gibraltar"],
-        "Suez Canal": ["suez"],
-        "Bab el-Mandeb": ["bab el-mandeb"],
-        "Sea of Japan": ["sea of japan"],
-        "Norfolk / Portsmouth": ["norfolk", "portsmouth", "virginia beach", "naval station norfolk", "pier 1", "pier 11", "pier 12", "pier 14"],
-        "San Diego": ["san diego", "north island", "camp pendleton", "nassco san diego"],
-        "Bremerton / Kitsap": ["bremerton", "kitsap", "psns"],
-        "Newport News": ["newport news", "huntington ingalls", "outfitting berth"],
-        "Yokosuka": ["yokosuka"],
-        "Pearl Harbor": ["pearl harbor"],
-        "Mayport": ["mayport"],
-        "Everett": ["everett"],
-        "Singapore": ["singapore", "changi"],
-        "Bahrain": ["bahrain", "manama"],
-        "Dubai": ["dubai", "jebel ali"],
-        "Busan": ["busan"],
-        "Guam": ["guam", "apra"],
-        "Sasebo": ["sasebo", "juliet basin"],
-        "Malaysia": ["malaysia", "klang"],
-        "Philippines": ["philippines", "manila", "subic"],
-        "Pascagoula": ["pascagoula", "ingalls"],
-        "Okinawa": ["okinawa", "white beach"],
-        "Atlantic Ocean": ["atlantic"],
-        "Pacific Ocean": ["pacific"],
-        "Indian Ocean": ["indian ocean"],
-    }
+    # Find the LAST (rightmost) location mentioned in the text
+    last_match = None
+    last_position = -1
 
-    for label, keywords in location_map.items():
-        if any(k in text_lower for k in keywords):
-            return label
+    for location_name, keywords in LOCATION_KEYWORDS:
+        for keyword in keywords:
+            # Find the last occurrence of this keyword
+            idx = text_lower.rfind(keyword)
+            if idx > last_position:
+                last_position = idx
+                last_match = location_name
 
-    return "Underway / Unknown"
+    if last_match:
+        return last_match
+
+    # No location found - return default based on homeport
+    if homeport == "PACIFIC":
+        return "Pacific Ocean"
+    elif homeport == "WESTPAC":
+        return "Western Pacific (WESTPAC)"
+    else:
+        return "Atlantic Ocean"
 
 
 def extract_date(text: str) -> str:
@@ -252,7 +307,10 @@ def extract_date(text: str) -> str:
 
 
 def apply_location_offsets(ships: List[ShipStatus]) -> List[ShipStatus]:
-    """Applies coordinate offsets to ships at the same location."""
+    """
+    Applies coordinate offsets to ships at the same location.
+    Uses larger offsets for crowded ports like Norfolk and San Diego.
+    """
     location_groups = defaultdict(list)
     for ship in ships:
         location_groups[ship.location].append(ship)
@@ -263,11 +321,23 @@ def apply_location_offsets(ships: List[ShipStatus]) -> List[ShipStatus]:
             group[0].display_lat = group[0].lat
             group[0].display_lon = group[0].lon
         else:
-            offset_distance = 2.0 if count <= 4 else 2.5 if count <= 8 else 3.0
+            # Use larger offsets for crowded ports
+            if count <= 3:
+                offset_distance = 3.0
+            elif count <= 5:
+                offset_distance = 4.0
+            elif count <= 8:
+                offset_distance = 5.0
+            else:
+                offset_distance = 6.0
+
+            # Arrange ships in a circle around the center point
             for i, ship in enumerate(group):
                 angle = (2 * math.pi * i) / count
-                ship.display_lat = ship.lat + offset_distance * math.sin(angle)
-                ship.display_lon = ship.lon + offset_distance * math.cos(angle)
+                # Stagger the radius slightly for better visibility
+                radius = offset_distance * (1.0 + 0.15 * (i % 2))
+                ship.display_lat = ship.lat + radius * math.sin(angle)
+                ship.display_lon = ship.lon + radius * math.cos(angle)
 
     return ships
 
@@ -278,7 +348,7 @@ def scrape_fleet() -> List[ShipStatus]:
     total = len(SHIP_DATABASE)
 
     print("\n" + "="*70)
-    print("  US NAVY BIG DECK FLEET TRACKER - SCANNING")
+    print("  U.S. NAVY FLEET TRACKER - SCANNING")
     print("="*70 + "\n")
 
     for i, (hull, ship_info) in enumerate(SHIP_DATABASE.items(), 1):
@@ -291,13 +361,22 @@ def scrape_fleet() -> List[ShipStatus]:
             continue
 
         year, status = parse_status_entry(raw_text)
-        location = categorize_location(status)
+        location = categorize_location(status, ship_info.get('homeport', 'ATLANTIC'))
         date_str = extract_date(status)
 
         if date_str == "Date Unspecified":
             date_str = year
 
-        coords = LOCATION_COORDS.get(location, LOCATION_COORDS["Underway / Unknown"])
+        coords = LOCATION_COORDS.get(location)
+        if not coords:
+            # Fallback based on homeport
+            homeport = ship_info.get('homeport', 'ATLANTIC')
+            if homeport == "PACIFIC":
+                coords = LOCATION_COORDS["Pacific Ocean"]
+            elif homeport == "WESTPAC":
+                coords = LOCATION_COORDS["Western Pacific (WESTPAC)"]
+            else:
+                coords = LOCATION_COORDS["Atlantic Ocean"]
 
         ship_status = ShipStatus(
             hull=hull,
@@ -351,7 +430,7 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>US NAVY BIG DECK FLEET TRACKER</title>
+    <title>U.S. NAVY FLEET TRACKER</title>
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -411,9 +490,7 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
         .filter-btn {{ font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 6px 14px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 6px; transition: all 0.15s; }}
         .filter-btn:hover {{ border-color: #444; color: #999; }}
         .filter-btn.active {{ background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }}
-        .attribution {{ padding: 10px 16px; border-top: 1px solid #1e1e2e; font-size: 10px; color: #333; text-align: center; font-weight: 500; }}
-        .attribution a {{ color: #444; text-decoration: none; }}
-        .attribution a:hover {{ color: #00ff88; }}
+        .attribution {{ padding: 10px 16px; border-top: 1px solid #1e1e2e; font-size: 10px; color: #444; text-align: center; font-weight: 500; }}
     </style>
 </head>
 <body>
@@ -421,8 +498,8 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
         <header class="header">
             <div class="header-left">
                 <div>
-                    <div class="logo">FLEET TRACKER</div>
-                    <div class="logo-sub">US Navy Big Deck Operations</div>
+                    <div class="logo">U.S. NAVY FLEET TRACKER</div>
+                    <div class="logo-sub">Carrier &amp; Amphibious Assault Ship Operations</div>
                 </div>
             </div>
             <div class="status-bar">
@@ -481,7 +558,7 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
                 <div class="detail-status" id="detailStatus">-</div>
             </div>
             <div class="attribution">
-                Data: <a href="http://uscarriers.net" target="_blank">USCarriers.net</a>
+                Created by @ianellisjones and IEJ Media
             </div>
         </div>
     </div>
@@ -579,7 +656,8 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
 
 def main():
     """Main entry point for the scraper."""
-    print("Starting Fleet Tracker Scraper...")
+    print("Starting U.S. Navy Fleet Tracker...")
+    print("Created by @ianellisjones and IEJ Media\n")
 
     # Scrape fleet data
     fleet_data = scrape_fleet()
