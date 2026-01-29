@@ -720,6 +720,345 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
     return html
 
 
+def generate_mobile_html(ships: List[ShipStatus]) -> str:
+    """Generates mobile-optimized HTML page with vertical layout."""
+
+    ships_data = [asdict(s) for s in ships]
+    ships_json = json.dumps(ships_data)
+
+    cvn_count = len([s for s in ships if s.ship_type == "CVN"])
+    lha_lhd_count = len([s for s in ships if s.ship_type in ["LHA", "LHD"]])
+
+    location_counts = defaultdict(list)
+    for s in ships:
+        location_counts[s.location].append(s.hull)
+    location_summary = json.dumps({loc: hulls for loc, hulls in location_counts.items()})
+
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>U.S. NAVY FLEET TRACKER</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }}
+        html, body {{ background: #0a0a0f; color: #e0e0e0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; min-height: 100vh; overflow-x: hidden; }}
+        .header {{ background: linear-gradient(180deg, #111118 0%, #0a0a0f 100%); border-bottom: 1px solid #1e1e2e; padding: 12px 16px; position: sticky; top: 0; z-index: 100; }}
+        .header-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }}
+        .logo {{ font-size: 14px; font-weight: 700; color: #00ff88; letter-spacing: 0.5px; }}
+        .logo-sub {{ font-size: 9px; font-weight: 500; color: #666; letter-spacing: 1px; margin-top: 2px; text-transform: uppercase; }}
+        .timestamp {{ font-size: 9px; color: #444; font-weight: 500; text-align: right; }}
+        .timestamp span {{ color: #00ff88; }}
+        .stats-row {{ display: flex; justify-content: space-around; gap: 8px; }}
+        .stat {{ text-align: center; flex: 1; padding: 8px 4px; background: rgba(255,255,255,0.02); border-radius: 8px; }}
+        .stat-value {{ font-size: 24px; font-weight: 700; color: #00ffff; }}
+        .stat-value.cvn {{ color: #ff6b6b; }}
+        .stat-value.amphib {{ color: #4ecdc4; }}
+        .stat-label {{ font-size: 8px; font-weight: 600; color: #555; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }}
+        .globe-section {{ width: 100%; height: 45vh; min-height: 280px; max-height: 400px; background: #0a0a0f; position: relative; }}
+        #globe {{ width: 100%; height: 100%; }}
+        .carrier-btn-container {{ padding: 12px 16px; background: #0a0a0f; }}
+        .carrier-btn {{ font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; padding: 14px 20px; background: linear-gradient(135deg, #ff6b6b 0%, #cc4444 100%); border: none; color: #fff; cursor: pointer; border-radius: 10px; width: 100%; box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3); letter-spacing: 0.5px; }}
+        .carrier-btn:active {{ transform: scale(0.98); }}
+        .filter-bar {{ padding: 12px 16px; background: #0d0d14; border-top: 1px solid #1e1e2e; display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+        .filter-btn {{ font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 18px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 8px; white-space: nowrap; flex-shrink: 0; }}
+        .filter-btn.active {{ background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }}
+        .ship-list {{ padding: 12px 16px 100px; }}
+        .location-group {{ margin-bottom: 16px; }}
+        .location-header {{ display: flex; align-items: center; gap: 8px; padding: 12px 14px; background: rgba(0, 255, 136, 0.05); border-radius: 10px; margin-bottom: 10px; }}
+        .location-name {{ flex: 1; font-size: 13px; font-weight: 600; color: #00ff88; }}
+        .location-count {{ font-size: 11px; font-weight: 600; color: #888; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 12px; }}
+        .ship-card {{ background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 10px; margin-bottom: 8px; margin-left: 8px; padding: 14px 16px; }}
+        .ship-card.active {{ border-color: #00ffff; background: rgba(0, 255, 255, 0.08); }}
+        .ship-card.cvn {{ border-left: 4px solid #ff6b6b; }}
+        .ship-card.amphib {{ border-left: 4px solid #4ecdc4; }}
+        .ship-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }}
+        .ship-hull {{ font-size: 16px; font-weight: 700; color: #fff; }}
+        .ship-hull.cvn {{ color: #ff6b6b; }}
+        .ship-hull.amphib {{ color: #4ecdc4; }}
+        .ship-type {{ font-size: 10px; font-weight: 600; padding: 4px 10px; border-radius: 6px; background: rgba(255, 255, 255, 0.06); color: #888; }}
+        .ship-name {{ font-size: 13px; color: #777; font-weight: 500; }}
+        .ship-date {{ font-size: 11px; color: #444; margin-top: 4px; font-weight: 500; }}
+        .detail-panel {{ position: fixed; bottom: 0; left: 0; right: 0; background: #111118; border-top: 1px solid #2a2a3a; padding: 16px; transform: translateY(100%); transition: transform 0.3s ease; z-index: 200; max-height: 50vh; overflow-y: auto; border-radius: 20px 20px 0 0; }}
+        .detail-panel.visible {{ transform: translateY(0); }}
+        .detail-handle {{ width: 40px; height: 4px; background: #333; border-radius: 2px; margin: 0 auto 12px; }}
+        .detail-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }}
+        .detail-title {{ font-size: 16px; font-weight: 700; color: #00ffff; }}
+        .detail-close {{ cursor: pointer; color: #555; font-size: 28px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 8px; }}
+        .detail-row {{ display: flex; margin-bottom: 10px; }}
+        .detail-label {{ width: 80px; font-size: 11px; font-weight: 600; color: #444; text-transform: uppercase; }}
+        .detail-value {{ flex: 1; font-size: 14px; color: #aaa; font-weight: 500; }}
+        .detail-status {{ font-size: 13px; color: #00ff88; line-height: 1.6; padding: 14px; background: rgba(0, 0, 0, 0.3); border-radius: 10px; margin-top: 12px; }}
+        .modal-overlay {{ position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.9); display: flex; align-items: flex-end; justify-content: center; z-index: 300; opacity: 0; visibility: hidden; transition: all 0.3s ease; }}
+        .modal-overlay.visible {{ opacity: 1; visibility: visible; }}
+        .modal {{ background: #111118; border-radius: 20px 20px 0 0; width: 100%; max-height: 85vh; overflow: hidden; transform: translateY(100%); transition: transform 0.3s ease; }}
+        .modal-overlay.visible .modal {{ transform: translateY(0); }}
+        .modal-header {{ padding: 16px 20px; border-bottom: 1px solid #1e1e2e; }}
+        .modal-handle {{ width: 40px; height: 4px; background: #333; border-radius: 2px; margin: 0 auto 12px; }}
+        .modal-title {{ font-size: 16px; font-weight: 700; color: #ff6b6b; text-align: center; }}
+        .modal-subtitle {{ font-size: 10px; color: #666; margin-top: 4px; text-align: center; }}
+        .modal-body {{ padding: 16px; overflow-y: auto; max-height: calc(85vh - 80px); }}
+        .carrier-grid {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }}
+        .carrier-item {{ background: rgba(255, 107, 107, 0.05); border: 1px solid rgba(255, 107, 107, 0.2); border-radius: 12px; padding: 14px; }}
+        .carrier-item:active {{ background: rgba(255, 107, 107, 0.15); }}
+        .carrier-hull {{ font-size: 15px; font-weight: 700; color: #ff6b6b; margin-bottom: 2px; }}
+        .carrier-name {{ font-size: 11px; color: #888; font-weight: 500; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+        .carrier-location {{ font-size: 10px; color: #00ff88; font-weight: 600; padding: 4px 8px; background: rgba(0, 255, 136, 0.1); border-radius: 4px; display: inline-block; }}
+        .attribution {{ padding: 16px; text-align: center; font-size: 10px; color: #444; }}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div>
+                <div class="logo">U.S. NAVY FLEET TRACKER</div>
+                <div class="logo-sub">Carrier &amp; Amphibious Operations</div>
+            </div>
+            <div class="timestamp">Updated<br><span>{timestamp}</span></div>
+        </div>
+        <div class="stats-row">
+            <div class="stat">
+                <div class="stat-value">{len(ships)}</div>
+                <div class="stat-label">Total</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value cvn">{cvn_count}</div>
+                <div class="stat-label">Carriers</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value amphib">{lha_lhd_count}</div>
+                <div class="stat-label">Amphibs</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="globe-section">
+        <div id="globe"></div>
+    </div>
+
+    <div class="carrier-btn-container">
+        <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+    </div>
+
+    <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Ships</button>
+        <button class="filter-btn" data-filter="CVN">Carriers</button>
+        <button class="filter-btn" data-filter="LHA">LHA</button>
+        <button class="filter-btn" data-filter="LHD">LHD</button>
+    </div>
+
+    <div class="ship-list" id="shipList"></div>
+
+    <div class="detail-panel" id="detailPanel">
+        <div class="detail-handle"></div>
+        <div class="detail-header">
+            <div class="detail-title" id="detailTitle">-</div>
+            <span class="detail-close" onclick="closeDetail()">&#x2715;</span>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Class</div>
+            <div class="detail-value" id="detailClass">-</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Location</div>
+            <div class="detail-value" id="detailLocation">-</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Region</div>
+            <div class="detail-value" id="detailRegion">-</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">As Of</div>
+            <div class="detail-value" id="detailDate">-</div>
+        </div>
+        <div class="detail-status" id="detailStatus">-</div>
+    </div>
+
+    <div class="attribution">Created by @ianellisjones and IEJ Media</div>
+
+    <div class="modal-overlay" id="carrierModal" onclick="closeCarrierModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div class="modal-handle"></div>
+                <div class="modal-title">WHERE ARE THE CARRIERS?</div>
+                <div class="modal-subtitle">All 11 U.S. Navy aircraft carriers</div>
+            </div>
+            <div class="modal-body">
+                <div class="carrier-grid" id="carrierGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const shipsData = {ships_json};
+        let activeFilter = 'all';
+        let selectedShip = null;
+
+        function initGlobe() {{
+            const cvnShips = shipsData.filter(s => s.ship_type === 'CVN');
+            const amphibShips = shipsData.filter(s => s.ship_type !== 'CVN');
+
+            const cvnTrace = {{
+                type: 'scattergeo', mode: 'markers+text',
+                lat: cvnShips.map(s => s.display_lat), lon: cvnShips.map(s => s.display_lon),
+                text: cvnShips.map(s => s.hull), textposition: 'top center',
+                textfont: {{ family: 'Inter, sans-serif', size: 8, color: '#ff6b6b', weight: 600 }},
+                hoverinfo: 'text', hovertext: cvnShips.map(s => `${{s.hull}}: ${{s.location}}`),
+                marker: {{ size: 10, color: '#ff6b6b', symbol: 'diamond', line: {{ width: 1, color: '#cc4444' }} }},
+                name: 'CVN', customdata: cvnShips
+            }};
+
+            const amphibTrace = {{
+                type: 'scattergeo', mode: 'markers+text',
+                lat: amphibShips.map(s => s.display_lat), lon: amphibShips.map(s => s.display_lon),
+                text: amphibShips.map(s => s.hull), textposition: 'top center',
+                textfont: {{ family: 'Inter, sans-serif', size: 7, color: '#4ecdc4', weight: 600 }},
+                hoverinfo: 'text', hovertext: amphibShips.map(s => `${{s.hull}}: ${{s.location}}`),
+                marker: {{ size: 8, color: '#4ecdc4', symbol: 'circle', line: {{ width: 1, color: '#2a9d8f' }} }},
+                name: 'LHA/LHD', customdata: amphibShips
+            }};
+
+            const layout = {{
+                geo: {{
+                    projection: {{ type: 'orthographic', rotation: {{ lon: -100, lat: 25 }} }},
+                    showland: true, landcolor: '#1a1a2e', showocean: true, oceancolor: '#0a0a0f',
+                    showlakes: false, showrivers: false, showcountries: true, countrycolor: '#2a2a4e', countrywidth: 0.3,
+                    showcoastlines: true, coastlinecolor: '#00ff88', coastlinewidth: 0.5, showframe: false, bgcolor: 'rgba(0,0,0,0)',
+                    lonaxis: {{ showgrid: false }}, lataxis: {{ showgrid: false }}
+                }},
+                paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', margin: {{ t: 0, b: 0, l: 0, r: 0 }},
+                showlegend: false, dragmode: 'pan'
+            }};
+
+            const config = {{ responsive: true, displayModeBar: false, scrollZoom: true }};
+            Plotly.newPlot('globe', [cvnTrace, amphibTrace], layout, config);
+            document.getElementById('globe').on('plotly_click', function(data) {{
+                if (data.points && data.points.length > 0) {{
+                    const ship = data.points[0].customdata;
+                    if (ship) {{ showDetail(ship); highlightShipCard(ship.hull); }}
+                }}
+            }});
+        }}
+
+        function renderShipList() {{
+            const container = document.getElementById('shipList');
+            const filtered = activeFilter === 'all' ? shipsData : shipsData.filter(s => s.ship_type === activeFilter);
+            const grouped = {{}};
+            filtered.forEach(ship => {{ if (!grouped[ship.location]) grouped[ship.location] = []; grouped[ship.location].push(ship); }});
+            const sortedLocations = Object.keys(grouped).sort((a, b) => grouped[b].length - grouped[a].length);
+            let html = '';
+            sortedLocations.forEach(location => {{
+                const ships = grouped[location];
+                const count = ships.length;
+                html += `<div class="location-group"><div class="location-header" onclick="rotateToLocation('${{location}}')"><span class="location-name">${{location}}</span><span class="location-count">${{count}}</span></div>`;
+                ships.forEach(ship => {{
+                    const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
+                    html += `<div class="ship-card ${{typeClass}}" data-hull="${{ship.hull}}" onclick="selectShip('${{ship.hull}}')"><div class="ship-header"><span class="ship-hull ${{typeClass}}">${{ship.hull}}</span><span class="ship-type">${{ship.ship_type}}</span></div><div class="ship-name">${{ship.name}}</div><div class="ship-date">As of ${{ship.date}}</div></div>`;
+                }});
+                html += '</div>';
+            }});
+            container.innerHTML = html;
+        }}
+
+        function rotateToLocation(location) {{
+            const ship = shipsData.find(s => s.location === location);
+            if (ship) {{
+                Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }});
+                window.scrollTo({{ top: 0, behavior: 'smooth' }});
+            }}
+        }}
+
+        function selectShip(hull) {{
+            const ship = shipsData.find(s => s.hull === hull);
+            if (ship) {{
+                showDetail(ship);
+                highlightShipCard(hull);
+                Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }});
+            }}
+        }}
+
+        function highlightShipCard(hull) {{
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            const card = document.querySelector(`.ship-card[data-hull="${{hull}}"]`);
+            if (card) card.classList.add('active');
+        }}
+
+        function showDetail(ship) {{
+            selectedShip = ship;
+            document.getElementById('detailPanel').classList.add('visible');
+            document.getElementById('detailTitle').textContent = `${{ship.hull}} - ${{ship.name}}`;
+            document.getElementById('detailClass').textContent = `${{ship.ship_class}}-class ${{ship.ship_type}}`;
+            document.getElementById('detailLocation').textContent = ship.location;
+            document.getElementById('detailRegion').textContent = ship.region;
+            document.getElementById('detailDate').textContent = ship.date;
+            document.getElementById('detailStatus').textContent = ship.status;
+        }}
+
+        function closeDetail() {{
+            document.getElementById('detailPanel').classList.remove('visible');
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            selectedShip = null;
+        }}
+
+        function showCarrierModal() {{
+            const carriers = shipsData.filter(s => s.ship_type === 'CVN').sort((a, b) => {{
+                const numA = parseInt(a.hull.replace('CVN', ''));
+                const numB = parseInt(b.hull.replace('CVN', ''));
+                return numA - numB;
+            }});
+            const grid = document.getElementById('carrierGrid');
+            grid.innerHTML = carriers.map(c => `
+                <div class="carrier-item" onclick="selectCarrierFromModal('${{c.hull}}')">
+                    <div class="carrier-hull">${{c.hull}}</div>
+                    <div class="carrier-name">${{c.name}}</div>
+                    <div class="carrier-location">${{c.location}}</div>
+                </div>
+            `).join('');
+            document.getElementById('carrierModal').classList.add('visible');
+            document.body.style.overflow = 'hidden';
+        }}
+
+        function closeCarrierModal(event) {{
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('carrierModal').classList.remove('visible');
+            document.body.style.overflow = '';
+        }}
+
+        function selectCarrierFromModal(hull) {{
+            closeCarrierModal();
+            selectShip(hull);
+            window.scrollTo({{ top: 0, behavior: 'smooth' }});
+        }}
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {{
+            btn.addEventListener('click', function() {{
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                activeFilter = this.dataset.filter;
+                renderShipList();
+            }});
+        }});
+
+        // Swipe down to close detail panel
+        let touchStartY = 0;
+        document.getElementById('detailPanel').addEventListener('touchstart', e => {{ touchStartY = e.touches[0].clientY; }});
+        document.getElementById('detailPanel').addEventListener('touchmove', e => {{
+            if (e.touches[0].clientY - touchStartY > 50) closeDetail();
+        }});
+
+        initGlobe();
+        renderShipList();
+    </script>
+</body>
+</html>'''
+
+    return html
+
+
 # ==============================================================================
 # MAIN
 # ==============================================================================
@@ -736,15 +1075,19 @@ def main():
         print("ERROR: No fleet data scraped!")
         return 1
 
-    # Generate HTML
+    # Generate Desktop HTML
     html_content = generate_globe_html(fleet_data)
-
-    # Save to index.html for GitHub Pages
     output_file = Path("index.html")
     output_file.write_text(html_content, encoding='utf-8')
+    print(f"\n>>> Desktop version saved: {output_file}")
 
-    print(f"\n>>> HTML file saved: {output_file}")
-    print(f"    Ships tracked: {len(fleet_data)}")
+    # Generate Mobile HTML
+    mobile_html = generate_mobile_html(fleet_data)
+    mobile_file = Path("mobile.html")
+    mobile_file.write_text(mobile_html, encoding='utf-8')
+    print(f">>> Mobile version saved: {mobile_file}")
+
+    print(f"\n    Ships tracked: {len(fleet_data)}")
     print(f"    Timestamp: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
 
     return 0
