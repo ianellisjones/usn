@@ -1,0 +1,92 @@
+name: Update DVIDS Daily Digest
+
+on:
+  # Run every 6 hours to capture new content throughout the day
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+  # Also run on push to main (for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'dvids_scraper.py'
+      - '.github/workflows/update-dvids-digest.yml'
+
+# Sets permissions for GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-dvids:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run DVIDS scraper
+        env:
+          DVIDS_API_KEY: ${{ secrets.DVIDS_API_KEY }}
+        run: |
+          # Update API key in script if secret is set
+          if [ -n "$DVIDS_API_KEY" ]; then
+            sed -i "s/DVIDS_API_KEY = \"YOUR_API_KEY_HERE\"/DVIDS_API_KEY = \"$DVIDS_API_KEY\"/" dvids_scraper.py
+          fi
+          python dvids_scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # Reset any changes to the scraper (to not commit the API key)
+          git checkout dvids_scraper.py
+          # Add only the generated files
+          git add dvids.html dvids_data.json
+          git diff --staged --quiet || git commit -m "Auto-update DVIDS digest $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  # Deploy to GitHub Pages
+  deploy:
+    needs: update-dvids
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
