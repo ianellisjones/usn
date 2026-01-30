@@ -1,0 +1,86 @@
+{
+  "generated": "2026-01-30T05:54:44.618921Z",
+  "ship_count": 2,
+  "ships": [
+    {
+      "identifier": {
+        "ship_id": "455188",
+        "mmsi": "368709000",
+        "imo": "9345104",
+        "name": "CARL BRASHEAR",
+        "callsign": null,
+        "flag": null,
+        "ship_type": null
+      },
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "speed": null,
+        "course": null,
+        "heading": null,
+        "status": null,
+        "timestamp": null,
+        "area": null
+      },
+      "voyage": {
+        "destination": null,
+        "eta": null,
+        "draught": null,
+        "current_port": null,
+        "last_port": null,
+        "last_port_time": null
+      },
+      "details": {
+        "length": null,
+        "beam": null,
+        "gross_tonnage": null,
+        "deadweight": null,
+        "year_built": null,
+        "builder": null
+      },
+      "source_url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:455188/mmsi:368709000/imo:9345104/vessel:CARL%20BRASHEAR",
+      "last_updated": "2026-01-30T05:54:30.610573Z",
+      "tracking_link": "https://www.marinetraffic.com/en/ais/details/ships/shipid:455188"
+    },
+    {
+      "identifier": {
+        "ship_id": "359098",
+        "mmsi": "303849000",
+        "imo": "8302416",
+        "name": "HENRY J KAISER",
+        "callsign": null,
+        "flag": null,
+        "ship_type": null
+      },
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "speed": null,
+        "course": null,
+        "heading": null,
+        "status": null,
+        "timestamp": null,
+        "area": null
+      },
+      "voyage": {
+        "destination": null,
+        "eta": null,
+        "draught": null,
+        "current_port": null,
+        "last_port": null,
+        "last_port_time": null
+      },
+      "details": {
+        "length": null,
+        "beam": null,
+        "gross_tonnage": null,
+        "deadweight": null,
+        "year_built": null,
+        "builder": null
+      },
+      "source_url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:359098/mmsi:303849000/imo:8302416/vessel:HENRY_J_KAISER",
+      "last_updated": "2026-01-30T05:54:36.617750Z",
+      "tracking_link": "https://www.marinetraffic.com/en/ais/details/ships/shipid:359098"
+    }
+  ]
+}
