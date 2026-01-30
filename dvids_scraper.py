@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 1.0.0
+Version: 2.1.0
 
-Scrapes daily news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
-and generates a modern web interface sorted by geography/location.
+Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
+and generates a modern web interface sorted by Combatant Command and geography/location.
+Features toggle between Daily (24h) and Weekly (7-day) views.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -41,8 +42,22 @@ BRANCHES = ["Navy", "Marines", "Coast Guard", "Joint"]
 # Maximum results per query
 MAX_RESULTS_PER_QUERY = 100
 
+# Lookback period in days (7 days = 1 week)
+LOOKBACK_DAYS = 7
+
 # User agent for requests
-USER_AGENT = 'DVIDS-News-Aggregator/1.0 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'DVIDS-News-Aggregator/2.1 (Python; +https://github.com/ianellisjones/usn)'
+
+# ==============================================================================
+# COMBATANT COMMAND KEYWORDS
+# ==============================================================================
+
+COMMAND_KEYWORDS = {
+    "INDOPACOM": ["INDOPACOM", "U.S. Indo-Pacific Command", "Indo-Pacific Command"],
+    "CENTCOM": ["CENTCOM", "U.S. Central Command", "Central Command"],
+    "SOUTHCOM": ["SOUTHCOM", "U.S. Southern Command", "Southern Command"],
+    "EUCOM": ["EUCOM", "U.S. European Command", "European Command"],
+}
 
 # ==============================================================================
 # DATA CLASSES
@@ -69,17 +84,20 @@ class DVIDSItem:
     credit: str = ""
     duration: str = ""  # For videos
     aspect_ratio: str = ""
+    commands: List[str] = field(default_factory=list)  # Combatant commands detected
+    hours_old: float = 0.0  # Hours since publication (for daily/weekly filtering)
 
 
 @dataclass
 class DailyDigest:
-    """Data class for a day's worth of DVIDS content."""
+    """Data class for a day's/week's worth of DVIDS content."""
     date: str
     items: List[DVIDSItem]
     total_count: int
     by_country: Dict[str, int]
     by_type: Dict[str, int]
     by_branch: Dict[str, int]
+    by_command: Dict[str, int] = field(default_factory=dict)  # Items by combatant command
 
 
 # ==============================================================================
@@ -276,6 +294,24 @@ def get_asset_details(asset_id: str, asset_type: str) -> Optional[Dict]:
 # DATA PROCESSING
 # ==============================================================================
 
+def detect_commands(text: str) -> List[str]:
+    """Detect combatant command keywords in text."""
+    if not text:
+        return []
+
+    detected = []
+    text_upper = text.upper()
+
+    for command, keywords in COMMAND_KEYWORDS.items():
+        for keyword in keywords:
+            if keyword.upper() in text_upper:
+                if command not in detected:
+                    detected.append(command)
+                break
+
+    return detected
+
+
 def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
     """Parse a raw DVIDS API result into a DVIDSItem."""
     try:
@@ -296,6 +332,7 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
 
         # Date handling
         date_published = raw_item.get("date_published", raw_item.get("date", ""))
+        hours_old = 0.0
         if date_published:
             # Convert to consistent format
             try:
@@ -305,6 +342,13 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
                     dt = datetime.strptime(date_published[:10], "%Y-%m-%d")
                 timestamp = dt.isoformat()
                 date_published = dt.strftime("%b %d, %Y %H:%M UTC")
+                # Calculate hours since publication
+                now = datetime.utcnow()
+                if dt.tzinfo:
+                    dt_naive = dt.replace(tzinfo=None)
+                else:
+                    dt_naive = dt
+                hours_old = (now - dt_naive).total_seconds() / 3600.0
             except (ValueError, TypeError):
                 timestamp = ""
                 date_published = str(date_published)
@@ -340,6 +384,10 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
         duration = raw_item.get("duration", "")
         aspect_ratio = raw_item.get("aspect_ratio", "")
 
+        # Detect combatant commands in title, description, and unit name
+        search_text = f"{title} {description} {unit_name}"
+        commands = detect_commands(search_text)
+
         return DVIDSItem(
             id=item_id,
             title=title,
@@ -359,6 +407,8 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
             credit=credit,
             duration=duration,
             aspect_ratio=aspect_ratio,
+            commands=commands,
+            hours_old=hours_old,
         )
 
     except Exception as e:
@@ -368,15 +418,15 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
 
 def fetch_daily_content(
     date: Optional[datetime] = None,
-    lookback_hours: int = 24,
+    lookback_days: int = LOOKBACK_DAYS,
     branches: List[str] = None
 ) -> List[DVIDSItem]:
     """
-    Fetch all Navy-related content from the past N hours.
+    Fetch all Navy-related content from the past N days.
 
     Args:
         date: Reference date (defaults to now)
-        lookback_hours: How many hours back to search
+        lookback_days: How many days back to search
         branches: List of branches to include
 
     Returns:
@@ -390,11 +440,12 @@ def fetch_daily_content(
 
     # Calculate date range
     to_date = date.strftime("%Y-%m-%dT%H:%M:%SZ")
-    from_date = (date - timedelta(hours=lookback_hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    from_date = (date - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     print(f"\n{'='*70}")
-    print(f"  DVIDS DAILY DIGEST - FETCHING CONTENT")
+    print(f"  DVIDS WEEKLY DIGEST - FETCHING CONTENT")
     print(f"  Time Range: {from_date} to {to_date}")
+    print(f"  ({lookback_days} days)")
     print(f"{'='*70}\n")
 
     all_items = []
@@ -442,11 +493,14 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
     by_country = defaultdict(int)
     by_type = defaultdict(int)
     by_branch = defaultdict(int)
+    by_command = defaultdict(int)
 
     for item in items:
         by_country[item.country] += 1
         by_type[item.type] += 1
         by_branch[item.branch] += 1
+        for cmd in item.commands:
+            by_command[cmd] += 1
 
     return DailyDigest(
         date=date_str,
@@ -455,6 +509,7 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
         by_country=dict(by_country),
         by_type=dict(by_type),
         by_branch=dict(by_branch),
+        by_command=dict(by_command),
     )
 
 
@@ -469,8 +524,14 @@ def generate_dvids_html(digest: DailyDigest) -> str:
     by_country_json = json.dumps(digest.by_country)
     by_type_json = json.dumps(digest.by_type)
     by_branch_json = json.dumps(digest.by_branch)
+    by_command_json = json.dumps(digest.by_command)
 
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+    # Calculate date range for display
+    end_date = datetime.utcnow()
+    start_date = end_date - timedelta(days=LOOKBACK_DAYS)
+    date_range = f"{start_date.strftime('%b %d')} - {end_date.strftime('%b %d, %Y')}"
 
     # Count summaries
     news_count = digest.by_type.get("news", 0)
@@ -482,7 +543,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DVIDS DAILY DIGEST - U.S. Navy News</title>
+    <title>DVIDS DIGEST - U.S. Navy News</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
@@ -504,6 +565,15 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .stat-label {{ font-size: 9px; font-weight: 600; color: #555; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }}
         .timestamp {{ font-size: 11px; color: #444; font-weight: 500; }}
         .timestamp span {{ color: #00ff88; }}
+
+        /* Time Range Toggle */
+        .toggle-container {{ display: flex; align-items: center; gap: 12px; }}
+        .toggle-label {{ font-size: 10px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 1px; }}
+        .toggle-switch {{ display: flex; background: rgba(255,255,255,0.05); border: 1px solid #2a2a3a; border-radius: 8px; overflow: hidden; }}
+        .toggle-btn {{ font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 8px 16px; background: transparent; border: none; color: #666; cursor: pointer; transition: all 0.15s; }}
+        .toggle-btn:hover {{ color: #aaa; }}
+        .toggle-btn.active {{ background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%); color: #000; }}
+        .toggle-btn.active:hover {{ color: #000; }}
 
         /* Main Layout */
         .main-container {{ max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; grid-template-columns: 280px 1fr; gap: 20px; }}
@@ -530,9 +600,12 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .content-area {{ min-height: 80vh; }}
         .content-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }}
         .results-count {{ font-size: 12px; color: #888; }}
-        .view-toggle {{ display: flex; gap: 4px; }}
-        .view-btn {{ font-family: 'Inter', sans-serif; font-size: 11px; padding: 6px 12px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 6px; }}
-        .view-btn.active {{ background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }}
+
+        /* Section Groups */
+        .section-group {{ margin-bottom: 32px; }}
+        .section-title {{ font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #1e1e2e; }}
+        .section-title.command {{ color: #ff6b6b; border-bottom-color: #ff6b6b; }}
+        .section-title.geography {{ color: #00ff88; border-bottom-color: #00ff88; }}
 
         /* Location Groups */
         .location-group {{ margin-bottom: 24px; }}
@@ -633,25 +706,32 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         <div class="header-content">
             <div class="header-left">
                 <div>
-                    <div class="logo">DVIDS DAILY DIGEST</div>
-                    <div class="logo-sub">U.S. Navy &amp; Marine Corps News</div>
+                    <div class="logo" id="digestTitle">DVIDS DAILY DIGEST</div>
+                    <div class="logo-sub" id="digestSubtitle">U.S. Navy &amp; Marine Corps News | Last 24 Hours</div>
+                </div>
+            </div>
+            <div class="toggle-container">
+                <span class="toggle-label">View</span>
+                <div class="toggle-switch">
+                    <button class="toggle-btn active" id="dailyBtn" onclick="setTimeRange('daily')">Daily</button>
+                    <button class="toggle-btn" id="weeklyBtn" onclick="setTimeRange('weekly')">Weekly</button>
                 </div>
             </div>
             <div class="stats-bar">
                 <div class="stat">
-                    <div class="stat-value total">{digest.total_count}</div>
+                    <div class="stat-value total" id="statTotal">{digest.total_count}</div>
                     <div class="stat-label">Total Items</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value news">{news_count}</div>
+                    <div class="stat-value news" id="statNews">{news_count}</div>
                     <div class="stat-label">News</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value image">{image_count}</div>
+                    <div class="stat-value image" id="statImages">{image_count}</div>
                     <div class="stat-label">Images</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value video">{video_count}</div>
+                    <div class="stat-value video" id="statVideos">{video_count}</div>
                     <div class="stat-label">Videos</div>
                 </div>
             </div>
@@ -675,6 +755,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             </div>
 
             <div class="filter-section">
+                <div class="filter-label">Combatant Command</div>
+                <div class="filter-group" id="commandFilters"></div>
+            </div>
+
+            <div class="filter-section">
                 <div class="filter-label">Branch</div>
                 <div class="filter-group" id="branchFilters"></div>
             </div>
@@ -688,10 +773,6 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         <main class="content-area">
             <div class="content-header">
                 <div class="results-count" id="resultsCount">Showing {digest.total_count} items</div>
-                <div class="view-toggle">
-                    <button class="view-btn active" data-view="grid" onclick="setView('grid')">Grid</button>
-                    <button class="view-btn" data-view="list" onclick="setView('list')">List</button>
-                </div>
             </div>
             <div id="contentContainer"></div>
         </main>
@@ -721,17 +802,30 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         const byCountry = {by_country_json};
         const byType = {by_type_json};
         const byBranch = {by_branch_json};
+        const byCommand = {by_command_json};
 
         // Region mapping
         const regionMap = {json.dumps(REGION_MAP)};
+
+        // Command full names
+        const commandNames = {{
+            'INDOPACOM': 'U.S. Indo-Pacific Command',
+            'CENTCOM': 'U.S. Central Command',
+            'SOUTHCOM': 'U.S. Southern Command',
+            'EUCOM': 'U.S. European Command'
+        }};
 
         let currentFilters = {{
             type: 'all',
             branch: 'all',
             country: 'all',
+            command: 'all',
             search: ''
         }};
-        let currentView = 'grid';
+
+        let currentTimeRange = 'daily';  // 'daily' (24h) or 'weekly' (7 days)
+        const HOURS_IN_DAY = 24;
+        const HOURS_IN_WEEK = 24 * 7;
 
         // Initialize filters
         function initFilters() {{
@@ -740,6 +834,17 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             typeContainer.innerHTML = '<button class="filter-btn active" data-type="all" onclick="setTypeFilter(\\'all\\')">All Types <span class="filter-count">{digest.total_count}</span></button>';
             Object.entries(byType).sort((a, b) => b[1] - a[1]).forEach(([type, count]) => {{
                 typeContainer.innerHTML += `<button class="filter-btn" data-type="${{type}}" onclick="setTypeFilter('${{type}}')">${{type.charAt(0).toUpperCase() + type.slice(1)}} <span class="filter-count">${{count}}</span></button>`;
+            }});
+
+            // Command filters
+            const commandContainer = document.getElementById('commandFilters');
+            const cmdTotal = Object.values(byCommand).reduce((a, b) => a + b, 0);
+            commandContainer.innerHTML = '<button class="filter-btn active" data-command="all" onclick="setCommandFilter(\\'all\\')">All Commands <span class="filter-count">' + cmdTotal + '</span></button>';
+            ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM'].forEach(cmd => {{
+                const count = byCommand[cmd] || 0;
+                if (count > 0) {{
+                    commandContainer.innerHTML += `<button class="filter-btn" data-command="${{cmd}}" onclick="setCommandFilter('${{cmd}}')">${{cmd}} <span class="filter-count">${{count}}</span></button>`;
+                }}
             }});
 
             // Branch filters
@@ -763,6 +868,12 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             renderItems();
         }}
 
+        function setCommandFilter(command) {{
+            currentFilters.command = command;
+            document.querySelectorAll('#commandFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.command === command));
+            renderItems();
+        }}
+
         function setBranchFilter(branch) {{
             currentFilters.branch = branch;
             document.querySelectorAll('#branchFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.branch === branch));
@@ -780,17 +891,51 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             renderItems();
         }}
 
-        function setView(view) {{
-            currentView = view;
-            document.querySelectorAll('.view-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.view === view));
+        function setTimeRange(range) {{
+            currentTimeRange = range;
+
+            // Update toggle buttons
+            document.getElementById('dailyBtn').classList.toggle('active', range === 'daily');
+            document.getElementById('weeklyBtn').classList.toggle('active', range === 'weekly');
+
+            // Update header text
+            if (range === 'daily') {{
+                document.getElementById('digestTitle').textContent = 'DVIDS DAILY DIGEST';
+                document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | Last 24 Hours';
+            }} else {{
+                document.getElementById('digestTitle').textContent = 'DVIDS WEEKLY DIGEST';
+                document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | {date_range}';
+            }}
+
+            // Update stats and re-render
+            updateStats();
             renderItems();
         }}
 
+        function updateStats() {{
+            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            const timeFilteredItems = allItems.filter(item => item.hours_old <= maxHours);
+
+            const total = timeFilteredItems.length;
+            const newsCount = timeFilteredItems.filter(i => i.type === 'news').length;
+            const imageCount = timeFilteredItems.filter(i => i.type === 'image').length;
+            const videoCount = timeFilteredItems.filter(i => i.type === 'video').length;
+
+            document.getElementById('statTotal').textContent = total;
+            document.getElementById('statNews').textContent = newsCount;
+            document.getElementById('statImages').textContent = imageCount;
+            document.getElementById('statVideos').textContent = videoCount;
+        }}
+
         function getFilteredItems() {{
+            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
             return allItems.filter(item => {{
+                // Time range filter
+                if (item.hours_old > maxHours) return false;
                 if (currentFilters.type !== 'all' && item.type !== currentFilters.type) return false;
                 if (currentFilters.branch !== 'all' && item.branch !== currentFilters.branch) return false;
                 if (currentFilters.country !== 'all' && item.country !== currentFilters.country) return false;
+                if (currentFilters.command !== 'all' && (!item.commands || !item.commands.includes(currentFilters.command))) return false;
                 if (currentFilters.search && !item.title.toLowerCase().includes(currentFilters.search) && !item.unit_name.toLowerCase().includes(currentFilters.search)) return false;
                 return true;
             }});
@@ -812,54 +957,38 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                 return;
             }}
 
-            // Group by country
-            const grouped = {{}};
-            filtered.forEach(item => {{
-                if (!grouped[item.country]) grouped[item.country] = [];
-                grouped[item.country].push(item);
+            let html = '';
+
+            // SECTION 1: Combatant Commands
+            const commandOrder = ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM'];
+            const commandItems = {{}};
+            const itemsInCommands = new Set();
+
+            commandOrder.forEach(cmd => {{
+                commandItems[cmd] = filtered.filter(item => item.commands && item.commands.includes(cmd));
+                commandItems[cmd].forEach(item => itemsInCommands.add(item.id));
             }});
 
-            // Sort countries by item count
-            const sortedCountries = Object.keys(grouped).sort((a, b) => grouped[b].length - grouped[a].length);
+            const hasCommandItems = commandOrder.some(cmd => commandItems[cmd].length > 0);
 
-            let html = '';
-            sortedCountries.forEach(country => {{
-                const items = grouped[country];
-                const region = regionMap[country] || 'Other';
+            if (hasCommandItems) {{
+                html += '<div class="section-group"><div class="section-title command">COMBATANT COMMANDS</div>';
 
-                html += `
-                    <div class="location-group">
-                        <div class="location-header">
-                            <span class="region-badge">${{region}}</span>
-                            <span class="location-name">${{country}}</span>
-                            <span class="location-count">${{items.length}} item${{items.length > 1 ? 's' : ''}}</span>
-                        </div>
-                `;
+                commandOrder.forEach(cmd => {{
+                    const items = commandItems[cmd];
+                    if (items.length === 0) return;
 
-                if (currentView === 'grid') {{
-                    html += '<div class="items-grid">';
-                    items.forEach(item => {{
-                        html += `
-                            <div class="item-card ${{item.type}}" onclick="showDetail('${{item.id}}')">
-                                ${{item.thumbnail_url ? `<img class="item-thumbnail" src="${{item.thumbnail_url}}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}}
-                                <div class="item-content">
-                                    <div class="item-meta">
-                                        <span class="item-type ${{item.type}}">${{item.type}}</span>
-                                        <span class="item-branch">${{item.branch}}</span>
-                                    </div>
-                                    <div class="item-title">${{item.title}}</div>
-                                    <div class="item-description">${{item.description || ''}}</div>
-                                    <div class="item-footer">
-                                        <span class="item-unit">${{item.unit_name}}</span>
-                                        <span class="item-date">${{item.date_published}}</span>
-                                    </div>
-                                </div>
+                    const fullName = commandNames[cmd] || cmd;
+                    html += `
+                        <div class="location-group">
+                            <div class="location-header" style="background: rgba(255, 107, 107, 0.05);">
+                                <span class="region-badge" style="background: rgba(255, 107, 107, 0.2); color: #ff6b6b;">${{cmd}}</span>
+                                <span class="location-name" style="color: #ff6b6b;">${{fullName}}</span>
+                                <span class="location-count">${{items.length}} item${{items.length > 1 ? 's' : ''}}</span>
                             </div>
-                        `;
-                    }});
-                    html += '</div>';
-                }} else {{
-                    html += '<div class="items-list">';
+                            <div class="items-list">
+                    `;
+
                     items.forEach(item => {{
                         html += `
                             <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')">
@@ -877,11 +1006,62 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                             </div>
                         `;
                     }});
-                    html += '</div>';
-                }}
+
+                    html += '</div></div>';
+                }});
 
                 html += '</div>';
+            }}
+
+            // SECTION 2: By Geography (all items, grouped by country)
+            const grouped = {{}};
+            filtered.forEach(item => {{
+                if (!grouped[item.country]) grouped[item.country] = [];
+                grouped[item.country].push(item);
             }});
+
+            const sortedCountries = Object.keys(grouped).sort((a, b) => grouped[b].length - grouped[a].length);
+
+            if (sortedCountries.length > 0) {{
+                html += '<div class="section-group"><div class="section-title geography">BY GEOGRAPHY</div>';
+
+                sortedCountries.forEach(country => {{
+                    const items = grouped[country];
+                    const region = regionMap[country] || 'Other';
+
+                    html += `
+                        <div class="location-group">
+                            <div class="location-header">
+                                <span class="region-badge">${{region}}</span>
+                                <span class="location-name">${{country}}</span>
+                                <span class="location-count">${{items.length}} item${{items.length > 1 ? 's' : ''}}</span>
+                            </div>
+                            <div class="items-list">
+                    `;
+
+                    items.forEach(item => {{
+                        html += `
+                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')">
+                                <div class="item-row-type">
+                                    <span class="item-type ${{item.type}}">${{item.type}}</span>
+                                </div>
+                                <div class="item-row-main">
+                                    <div class="item-row-title">${{item.title}}</div>
+                                    <div class="item-row-unit">${{item.unit_name}}</div>
+                                </div>
+                                <div class="item-row-meta">
+                                    <div class="item-row-branch">${{item.branch}}</div>
+                                    <div class="item-row-date">${{item.date_published}}</div>
+                                </div>
+                            </div>
+                        `;
+                    }});
+
+                    html += '</div></div>';
+                }});
+
+                html += '</div>';
+            }}
 
             container.innerHTML = html;
         }}
@@ -943,7 +1123,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
         // Initialize
         initFilters();
-        renderItems();
+        setTimeRange('daily');  // Start with daily view
     </script>
 </body>
 </html>'''
@@ -958,8 +1138,8 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 def main():
     """Main entry point for the DVIDS scraper."""
     print("=" * 70)
-    print("  DVIDS DAILY DIGEST - U.S. Navy News Aggregator")
-    print("  Created by @ianellisjones and IEJ Media")
+    print("  DVIDS DIGEST - U.S. Navy News Aggregator")
+    print("  Daily/Weekly Toggle | Created by @ianellisjones and IEJ Media")
     print("=" * 70)
 
     # Check API key
@@ -969,8 +1149,8 @@ def main():
         print("  Then update DVIDS_API_KEY in this script.\n")
         return 1
 
-    # Fetch daily content
-    items = fetch_daily_content(lookback_hours=24)
+    # Fetch weekly content
+    items = fetch_daily_content(lookback_days=LOOKBACK_DAYS)
 
     if not items:
         print("  WARNING: No items fetched. Check your API key and connection.")
@@ -994,6 +1174,7 @@ def main():
         "by_country": digest.by_country,
         "by_type": digest.by_type,
         "by_branch": digest.by_branch,
+        "by_command": digest.by_command,
         "items": [asdict(item) for item in digest.items]
     }
     json_file = Path("dvids_data.json")
@@ -1005,6 +1186,11 @@ def main():
     print(f"    News: {digest.by_type.get('news', 0)}")
     print(f"    Images: {digest.by_type.get('image', 0)}")
     print(f"    Videos: {digest.by_type.get('video', 0)}")
+    print(f"\n  Combatant Commands:")
+    for cmd in ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM']:
+        count = digest.by_command.get(cmd, 0)
+        if count > 0:
+            print(f"    {cmd}: {count}")
     print(f"\n  Top Countries:")
     for country, count in sorted(digest.by_country.items(), key=lambda x: x[1], reverse=True)[:5]:
         print(f"    {country}: {count}")
