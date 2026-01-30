@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IEJ Intel Brief - Global Intelligence Briefing">
+    <title>IEJ - Global Intelligence Briefing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.35;
+            background: #0d1117;
+            color: #c9d1d9;
+            min-height: 100vh;
+        }
+
+        /* Main grid - 3x3 with IEJ in center */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            min-height: 100vh;
+        }
+
+        /* Section styling */
+        .section {
+            border-right: 1px solid #21262d;
+            border-bottom: 1px solid #21262d;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section:nth-child(3n) {
+            border-right: none;
+        }
+
+        .section:nth-child(7),
+        .section:nth-child(8),
+        .section:nth-child(9) {
+            border-bottom: none;
+        }
+
+        .section-header {
+            background: #161b22;
+            color: #8b949e;
+            padding: 10px 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #21262d;
+        }
+
+        /* Center IEJ cell */
+        .center-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
+            border-right: 1px solid #21262d;
+            border-bottom: 1px solid #21262d;
+        }
+
+        .center-cell .logo {
+            font-family: 'Inter', Arial, sans-serif;
+            font-size: 56px;
+            font-weight: 600;
+            color: #58a6ff;
+            letter-spacing: 8px;
+            text-shadow: 0 0 30px rgba(88, 166, 255, 0.3);
+        }
+
+        .center-cell .tagline {
+            font-size: 10px;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 8px;
+        }
+
+        .center-cell .date {
+            font-size: 11px;
+            color: #58a6ff;
+            margin-top: 12px;
+            font-weight: 500;
+        }
+
+        .center-cell .time {
+            font-size: 10px;
+            color: #6e7681;
+            margin-top: 4px;
+        }
+
+        .center-cell .update-note {
+            font-size: 9px;
+            color: #6e7681;
+            margin-top: 15px;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        /* Headlines list */
+        .headlines {
+            padding: 10px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .headline {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #21262d;
+        }
+
+        .headline:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .headline a {
+            color: #c9d1d9;
+            text-decoration: none;
+            font-size: 13px;
+            line-height: 1.4;
+            display: block;
+            transition: color 0.15s ease;
+        }
+
+        .headline a:hover {
+            color: #58a6ff;
+        }
+
+        .headline.breaking a {
+            color: #f85149;
+            font-weight: 500;
+        }
+
+        .headline.high a {
+            color: #d29922;
+        }
+
+        .headline .src {
+            font-size: 10px;
+            color: #6e7681;
+            text-transform: uppercase;
+            margin-top: 3px;
+            letter-spacing: 0.5px;
+        }
+
+        .placeholder {
+            color: #6e7681;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 12px;
+            background: #161b22;
+            border-top: 1px solid #21262d;
+            font-size: 10px;
+            color: #6e7681;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+            .section {
+                border-right: none;
+            }
+            .center-cell .logo {
+                font-size: 42px;
+            }
+        }
+
+        /* Scrollbar styling */
+        .headlines::-webkit-scrollbar {
+            width: 6px;
+        }
+        .headlines::-webkit-scrollbar-track {
+            background: #0d1117;
+        }
+        .headlines::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-grid">
+        <!-- Row 1: Globe | US | Europe -->
+        <div class="section">
+            <div class="section-header">GLOBE</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">US</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">EUROPE</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <!-- Row 2: Asia | IEJ Center | Middle East -->
+        <div class="section">
+            <div class="section-header">ASIA</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <div class="center-cell">
+            <div class="logo">IEJ</div>
+            <div class="tagline">Intel Brief</div>
+            <div class="date" id="current-date"></div>
+            <div class="time" id="current-time"></div>
+            <div class="update-note">
+                Run Colab notebook to<br>fetch latest headlines
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">MIDDLE EAST</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <!-- Row 3: Conflicts | Cybersecurity | Finance -->
+        <div class="section">
+            <div class="section-header">CONFLICTS</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">CYBERSECURITY</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">FINANCE</div>
+            <div class="headlines">
+                <div class="placeholder">Run the Colab notebook to populate headlines</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        IEJ Intel Brief | AI-Aggregated Geopolitics Intelligence
+    </footer>
+
+    <script>
+        // Display current date/time
+        function updateDateTime() {
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', options);
+            document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' });
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
+</body>
+</html>
