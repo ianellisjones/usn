@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.0.0
+Version: 2.1.0
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
+Features toggle between Daily (24h) and Weekly (7-day) views.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -45,7 +46,7 @@ MAX_RESULTS_PER_QUERY = 100
 LOOKBACK_DAYS = 7
 
 # User agent for requests
-USER_AGENT = 'DVIDS-News-Aggregator/2.0 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'DVIDS-News-Aggregator/2.1 (Python; +https://github.com/ianellisjones/usn)'
 
 # ==============================================================================
 # COMBATANT COMMAND KEYWORDS
@@ -84,6 +85,7 @@ class DVIDSItem:
     duration: str = ""  # For videos
     aspect_ratio: str = ""
     commands: List[str] = field(default_factory=list)  # Combatant commands detected
+    hours_old: float = 0.0  # Hours since publication (for daily/weekly filtering)
 
 
 @dataclass
@@ -330,6 +332,7 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
 
         # Date handling
         date_published = raw_item.get("date_published", raw_item.get("date", ""))
+        hours_old = 0.0
         if date_published:
             # Convert to consistent format
             try:
@@ -339,6 +342,13 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
                     dt = datetime.strptime(date_published[:10], "%Y-%m-%d")
                 timestamp = dt.isoformat()
                 date_published = dt.strftime("%b %d, %Y %H:%M UTC")
+                # Calculate hours since publication
+                now = datetime.utcnow()
+                if dt.tzinfo:
+                    dt_naive = dt.replace(tzinfo=None)
+                else:
+                    dt_naive = dt
+                hours_old = (now - dt_naive).total_seconds() / 3600.0
             except (ValueError, TypeError):
                 timestamp = ""
                 date_published = str(date_published)
@@ -398,6 +408,7 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
             duration=duration,
             aspect_ratio=aspect_ratio,
             commands=commands,
+            hours_old=hours_old,
         )
 
     except Exception as e:
@@ -532,7 +543,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DVIDS WEEKLY DIGEST - U.S. Navy News</title>
+    <title>DVIDS DIGEST - U.S. Navy News</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
@@ -554,6 +565,15 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .stat-label {{ font-size: 9px; font-weight: 600; color: #555; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }}
         .timestamp {{ font-size: 11px; color: #444; font-weight: 500; }}
         .timestamp span {{ color: #00ff88; }}
+
+        /* Time Range Toggle */
+        .toggle-container {{ display: flex; align-items: center; gap: 12px; }}
+        .toggle-label {{ font-size: 10px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 1px; }}
+        .toggle-switch {{ display: flex; background: rgba(255,255,255,0.05); border: 1px solid #2a2a3a; border-radius: 8px; overflow: hidden; }}
+        .toggle-btn {{ font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 8px 16px; background: transparent; border: none; color: #666; cursor: pointer; transition: all 0.15s; }}
+        .toggle-btn:hover {{ color: #aaa; }}
+        .toggle-btn.active {{ background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%); color: #000; }}
+        .toggle-btn.active:hover {{ color: #000; }}
 
         /* Main Layout */
         .main-container {{ max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; grid-template-columns: 280px 1fr; gap: 20px; }}
@@ -686,25 +706,32 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         <div class="header-content">
             <div class="header-left">
                 <div>
-                    <div class="logo">DVIDS WEEKLY DIGEST</div>
-                    <div class="logo-sub">U.S. Navy &amp; Marine Corps News | {date_range}</div>
+                    <div class="logo" id="digestTitle">DVIDS DAILY DIGEST</div>
+                    <div class="logo-sub" id="digestSubtitle">U.S. Navy &amp; Marine Corps News | Last 24 Hours</div>
+                </div>
+            </div>
+            <div class="toggle-container">
+                <span class="toggle-label">View</span>
+                <div class="toggle-switch">
+                    <button class="toggle-btn active" id="dailyBtn" onclick="setTimeRange('daily')">Daily</button>
+                    <button class="toggle-btn" id="weeklyBtn" onclick="setTimeRange('weekly')">Weekly</button>
                 </div>
             </div>
             <div class="stats-bar">
                 <div class="stat">
-                    <div class="stat-value total">{digest.total_count}</div>
+                    <div class="stat-value total" id="statTotal">{digest.total_count}</div>
                     <div class="stat-label">Total Items</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value news">{news_count}</div>
+                    <div class="stat-value news" id="statNews">{news_count}</div>
                     <div class="stat-label">News</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value image">{image_count}</div>
+                    <div class="stat-value image" id="statImages">{image_count}</div>
                     <div class="stat-label">Images</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-value video">{video_count}</div>
+                    <div class="stat-value video" id="statVideos">{video_count}</div>
                     <div class="stat-label">Videos</div>
                 </div>
             </div>
@@ -796,6 +823,10 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             search: ''
         }};
 
+        let currentTimeRange = 'daily';  // 'daily' (24h) or 'weekly' (7 days)
+        const HOURS_IN_DAY = 24;
+        const HOURS_IN_WEEK = 24 * 7;
+
         // Initialize filters
         function initFilters() {{
             // Type filters
@@ -860,8 +891,47 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             renderItems();
         }}
 
+        function setTimeRange(range) {{
+            currentTimeRange = range;
+
+            // Update toggle buttons
+            document.getElementById('dailyBtn').classList.toggle('active', range === 'daily');
+            document.getElementById('weeklyBtn').classList.toggle('active', range === 'weekly');
+
+            // Update header text
+            if (range === 'daily') {{
+                document.getElementById('digestTitle').textContent = 'DVIDS DAILY DIGEST';
+                document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | Last 24 Hours';
+            }} else {{
+                document.getElementById('digestTitle').textContent = 'DVIDS WEEKLY DIGEST';
+                document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | {date_range}';
+            }}
+
+            // Update stats and re-render
+            updateStats();
+            renderItems();
+        }}
+
+        function updateStats() {{
+            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            const timeFilteredItems = allItems.filter(item => item.hours_old <= maxHours);
+
+            const total = timeFilteredItems.length;
+            const newsCount = timeFilteredItems.filter(i => i.type === 'news').length;
+            const imageCount = timeFilteredItems.filter(i => i.type === 'image').length;
+            const videoCount = timeFilteredItems.filter(i => i.type === 'video').length;
+
+            document.getElementById('statTotal').textContent = total;
+            document.getElementById('statNews').textContent = newsCount;
+            document.getElementById('statImages').textContent = imageCount;
+            document.getElementById('statVideos').textContent = videoCount;
+        }}
+
         function getFilteredItems() {{
+            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
             return allItems.filter(item => {{
+                // Time range filter
+                if (item.hours_old > maxHours) return false;
                 if (currentFilters.type !== 'all' && item.type !== currentFilters.type) return false;
                 if (currentFilters.branch !== 'all' && item.branch !== currentFilters.branch) return false;
                 if (currentFilters.country !== 'all' && item.country !== currentFilters.country) return false;
@@ -1053,7 +1123,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
         // Initialize
         initFilters();
-        renderItems();
+        setTimeRange('daily');  // Start with daily view
     </script>
 </body>
 </html>'''
@@ -1068,8 +1138,8 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 def main():
     """Main entry point for the DVIDS scraper."""
     print("=" * 70)
-    print("  DVIDS WEEKLY DIGEST - U.S. Navy News Aggregator")
-    print("  Created by @ianellisjones and IEJ Media")
+    print("  DVIDS DIGEST - U.S. Navy News Aggregator")
+    print("  Daily/Weekly Toggle | Created by @ianellisjones and IEJ Media")
     print("=" * 70)
 
     # Check API key
