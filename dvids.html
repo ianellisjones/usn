@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVIDS DAILY DIGEST - U.S. Navy News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0f; color: #e0e0e0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; min-height: 100vh; }
+
+        /* Header */
+        .header { background: linear-gradient(180deg, #111118 0%, #0a0a0f 100%); border-bottom: 1px solid #1e1e2e; padding: 16px 24px; position: sticky; top: 0; z-index: 100; }
+        .header-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+        .header-left { display: flex; align-items: center; gap: 20px; }
+        .logo { font-size: 18px; font-weight: 700; color: #00ff88; letter-spacing: 1px; }
+        .logo-sub { font-size: 10px; font-weight: 500; color: #666; letter-spacing: 2px; margin-top: 2px; text-transform: uppercase; }
+        .stats-bar { display: flex; gap: 24px; flex-wrap: wrap; }
+        .stat { text-align: center; padding: 8px 16px; background: rgba(255,255,255,0.02); border-radius: 8px; }
+        .stat-value { font-size: 24px; font-weight: 700; }
+        .stat-value.total { color: #00ffff; }
+        .stat-value.news { color: #ff6b6b; }
+        .stat-value.image { color: #4ecdc4; }
+        .stat-value.video { color: #ffd93d; }
+        .stat-label { font-size: 9px; font-weight: 600; color: #555; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+        .timestamp { font-size: 11px; color: #444; font-weight: 500; }
+        .timestamp span { color: #00ff88; }
+
+        /* Main Layout */
+        .main-container { max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; grid-template-columns: 280px 1fr; gap: 20px; }
+
+        /* Sidebar */
+        .sidebar { background: #0d0d14; border: 1px solid #1e1e2e; border-radius: 12px; padding: 16px; height: fit-content; position: sticky; top: 100px; }
+        .sidebar-title { font-size: 11px; font-weight: 600; color: #00ff88; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 16px; }
+        .filter-section { margin-bottom: 20px; }
+        .filter-label { font-size: 10px; font-weight: 600; color: #666; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+        .filter-group { display: flex; flex-direction: column; gap: 6px; }
+        .filter-btn { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 500; padding: 8px 12px; background: transparent; border: 1px solid #2a2a3a; color: #888; cursor: pointer; border-radius: 6px; transition: all 0.15s; text-align: left; display: flex; justify-content: space-between; align-items: center; }
+        .filter-btn:hover { border-color: #444; color: #ccc; }
+        .filter-btn.active { background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }
+        .filter-count { font-size: 10px; color: #555; }
+        .filter-btn.active .filter-count { color: #00ff88; }
+
+        /* Search */
+        .search-box { margin-bottom: 16px; }
+        .search-input { width: 100%; padding: 10px 12px; background: rgba(255,255,255,0.02); border: 1px solid #2a2a3a; border-radius: 8px; color: #e0e0e0; font-family: 'Inter', sans-serif; font-size: 12px; }
+        .search-input:focus { outline: none; border-color: #00ff88; }
+        .search-input::placeholder { color: #555; }
+
+        /* Content Area */
+        .content-area { min-height: 80vh; }
+        .content-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+        .results-count { font-size: 12px; color: #888; }
+        .view-toggle { display: flex; gap: 4px; }
+        .view-btn { font-family: 'Inter', sans-serif; font-size: 11px; padding: 6px 12px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 6px; }
+        .view-btn.active { background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }
+
+        /* Location Groups */
+        .location-group { margin-bottom: 24px; }
+        .location-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: rgba(0, 255, 136, 0.05); border-radius: 10px; margin-bottom: 12px; cursor: pointer; }
+        .location-header:hover { background: rgba(0, 255, 136, 0.08); }
+        .region-badge { font-size: 9px; font-weight: 600; color: #00ffff; background: rgba(0, 255, 255, 0.1); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .location-name { flex: 1; font-size: 14px; font-weight: 600; color: #00ff88; }
+        .location-count { font-size: 11px; font-weight: 600; color: #888; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 12px; }
+
+        /* Item Cards */
+        .items-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; padding-left: 12px; }
+        .item-card { background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 12px; overflow: hidden; transition: all 0.2s; cursor: pointer; }
+        .item-card:hover { border-color: #333; background: rgba(255, 255, 255, 0.04); transform: translateY(-2px); }
+        .item-card.news { border-left: 4px solid #ff6b6b; }
+        .item-card.image { border-left: 4px solid #4ecdc4; }
+        .item-card.video { border-left: 4px solid #ffd93d; }
+
+        .item-thumbnail { width: 100%; height: 160px; object-fit: cover; background: #1a1a2e; }
+        .item-content { padding: 14px 16px; }
+        .item-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .item-type { font-size: 9px; font-weight: 600; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .item-type.news { background: rgba(255, 107, 107, 0.15); color: #ff6b6b; }
+        .item-type.image { background: rgba(78, 205, 196, 0.15); color: #4ecdc4; }
+        .item-type.video { background: rgba(255, 217, 61, 0.15); color: #ffd93d; }
+        .item-branch { font-size: 10px; color: #666; font-weight: 500; }
+        .item-title { font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .item-description { font-size: 12px; color: #888; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 10px; }
+        .item-footer { display: flex; justify-content: space-between; align-items: center; }
+        .item-unit { font-size: 10px; color: #555; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .item-date { font-size: 10px; color: #444; }
+
+        /* List View */
+        .items-list { display: flex; flex-direction: column; gap: 8px; padding-left: 12px; }
+        .item-row { display: flex; align-items: center; gap: 16px; background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 8px; padding: 12px 16px; cursor: pointer; transition: all 0.15s; }
+        .item-row:hover { border-color: #333; background: rgba(255, 255, 255, 0.04); }
+        .item-row.news { border-left: 3px solid #ff6b6b; }
+        .item-row.image { border-left: 3px solid #4ecdc4; }
+        .item-row.video { border-left: 3px solid #ffd93d; }
+        .item-row-type { width: 60px; flex-shrink: 0; }
+        .item-row-main { flex: 1; min-width: 0; }
+        .item-row-title { font-size: 13px; font-weight: 600; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .item-row-unit { font-size: 11px; color: #666; margin-top: 2px; }
+        .item-row-meta { display: flex; gap: 16px; flex-shrink: 0; text-align: right; }
+        .item-row-branch { font-size: 10px; color: #888; }
+        .item-row-date { font-size: 10px; color: #555; }
+
+        /* Detail Modal */
+        .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.9); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; padding: 20px; }
+        .modal-overlay.visible { opacity: 1; visibility: visible; }
+        .modal { background: #111118; border: 1px solid #2a2a3a; border-radius: 16px; width: 100%; max-width: 800px; max-height: 90vh; overflow: hidden; transform: scale(0.9); transition: transform 0.3s ease; }
+        .modal-overlay.visible .modal { transform: scale(1); }
+        .modal-header { padding: 20px 24px; border-bottom: 1px solid #1e1e2e; display: flex; justify-content: space-between; align-items: flex-start; }
+        .modal-title { font-size: 18px; font-weight: 700; color: #fff; line-height: 1.4; flex: 1; padding-right: 16px; }
+        .modal-close { cursor: pointer; color: #555; font-size: 28px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 8px; flex-shrink: 0; }
+        .modal-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.1); }
+        .modal-body { padding: 24px; overflow-y: auto; max-height: calc(90vh - 180px); }
+        .modal-image { width: 100%; max-height: 400px; object-fit: contain; background: #0a0a0f; border-radius: 8px; margin-bottom: 20px; }
+        .modal-meta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
+        .modal-tag { font-size: 11px; font-weight: 500; padding: 6px 12px; border-radius: 6px; background: rgba(255,255,255,0.05); color: #888; }
+        .modal-tag.type { color: #00ffff; background: rgba(0, 255, 255, 0.1); }
+        .modal-tag.branch { color: #ff6b6b; background: rgba(255, 107, 107, 0.1); }
+        .modal-tag.location { color: #00ff88; background: rgba(0, 255, 136, 0.1); }
+        .modal-description { font-size: 14px; color: #ccc; line-height: 1.7; margin-bottom: 20px; }
+        .modal-info { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+        .modal-info-item { background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; }
+        .modal-info-label { font-size: 10px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+        .modal-info-value { font-size: 13px; color: #aaa; }
+        .modal-footer { padding: 16px 24px; border-top: 1px solid #1e1e2e; display: flex; justify-content: flex-end; gap: 12px; }
+        .modal-btn { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; transition: all 0.15s; }
+        .modal-btn.primary { background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%); color: #000; }
+        .modal-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3); }
+
+        /* Empty State */
+        .empty-state { text-align: center; padding: 60px 20px; color: #555; }
+        .empty-state-icon { font-size: 48px; margin-bottom: 16px; }
+        .empty-state-title { font-size: 18px; font-weight: 600; color: #888; margin-bottom: 8px; }
+        .empty-state-text { font-size: 13px; }
+
+        /* Attribution */
+        .attribution { text-align: center; padding: 24px; font-size: 10px; color: #444; }
+
+        /* Mobile Responsive */
+        @media (max-width: 900px) {
+            .main-container { grid-template-columns: 1fr; }
+            .sidebar { position: static; }
+            .header-content { flex-direction: column; align-items: flex-start; }
+            .stats-bar { width: 100%; justify-content: space-between; }
+        }
+
+        @media (max-width: 600px) {
+            .items-grid { grid-template-columns: 1fr; }
+            .modal { border-radius: 16px 16px 0 0; max-height: 95vh; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <div>
+                    <div class="logo">DVIDS DAILY DIGEST</div>
+                    <div class="logo-sub">U.S. Navy &amp; Marine Corps News</div>
+                </div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="stat-value total">47</div>
+                    <div class="stat-label">Total Items</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value news">18</div>
+                    <div class="stat-label">News</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value image">22</div>
+                    <div class="stat-label">Images</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value video">7</div>
+                    <div class="stat-label">Videos</div>
+                </div>
+            </div>
+            <div class="timestamp">
+                Last Update: <span>2026-01-30 01:30 UTC</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="sidebar-title">Filters</div>
+
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search titles, units..." oninput="filterItems()">
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">Content Type</div>
+                <div class="filter-group" id="typeFilters"></div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">Branch</div>
+                <div class="filter-group" id="branchFilters"></div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">Country</div>
+                <div class="filter-group" id="countryFilters"></div>
+            </div>
+        </aside>
+
+        <main class="content-area">
+            <div class="content-header">
+                <div class="results-count" id="resultsCount">Showing 47 items</div>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" onclick="setView('grid')">Grid</button>
+                    <button class="view-btn" data-view="list" onclick="setView('list')">List</button>
+                </div>
+            </div>
+            <div id="contentContainer"></div>
+        </main>
+    </div>
+
+    <div class="attribution">
+        Created by @ianellisjones and IEJ Media | Data from DVIDS (dvidshub.net)
+    </div>
+
+    <div class="modal-overlay" id="detailModal" onclick="closeModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">-</div>
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+            <div class="modal-footer">
+                <a id="modalLink" href="#" target="_blank" rel="noopener">
+                    <button class="modal-btn primary">View on DVIDS</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for preview (will be replaced by actual API data when scraper runs)
+        const allItems = [
+            {
+                "id": "9501234",
+                "title": "USS Abraham Lincoln Conducts Flight Operations in Arabian Sea",
+                "description": "F/A-18E Super Hornets assigned to Carrier Air Wing (CVW) 9 launch from the flight deck of USS Abraham Lincoln (CVN 72) during routine flight operations. Abraham Lincoln is deployed to the U.S. 5th Fleet area of operations to help ensure maritime security and stability.",
+                "type": "image",
+                "branch": "Navy",
+                "unit_name": "USS Abraham Lincoln (CVN 72)",
+                "date_published": "Jan 30, 2026 08:45 UTC",
+                "timestamp": "2026-01-30T08:45:00",
+                "country": "Oman",
+                "state": "",
+                "city": "Arabian Sea",
+                "location_display": "Arabian Sea, Oman",
+                "url": "https://www.dvidshub.net/image/9501234",
+                "thumbnail_url": "",
+                "keywords": ["CVN 72", "Abraham Lincoln", "flight operations"],
+                "credit": "MC2 John Smith"
+            },
+            {
+                "id": "557100",
+                "title": "Navy Announces New Hypersonic Weapon Testing Success",
+                "description": "The U.S. Navy successfully conducted a test of a hypersonic missile system from a surface combatant, marking a significant milestone in the development of advanced strike capabilities for the fleet.",
+                "type": "news",
+                "branch": "Navy",
+                "unit_name": "Naval Sea Systems Command",
+                "date_published": "Jan 30, 2026 06:00 UTC",
+                "timestamp": "2026-01-30T06:00:00",
+                "country": "United States",
+                "state": "CA",
+                "city": "San Diego",
+                "location_display": "San Diego, CA, United States",
+                "url": "https://www.dvidshub.net/news/557100",
+                "thumbnail_url": "",
+                "keywords": ["hypersonic", "weapons test", "NAVSEA"],
+                "credit": ""
+            },
+            {
+                "id": "9501235",
+                "title": "Marines Conduct Amphibious Landing Exercise in Philippines",
+                "description": "U.S. Marines with the 31st Marine Expeditionary Unit conduct an amphibious assault landing during Balikatan 2026, a bilateral exercise between the Armed Forces of the Philippines and U.S. military.",
+                "type": "image",
+                "branch": "Marines",
+                "unit_name": "31st Marine Expeditionary Unit",
+                "date_published": "Jan 30, 2026 04:30 UTC",
+                "timestamp": "2026-01-30T04:30:00",
+                "country": "Philippines",
+                "state": "",
+                "city": "Subic Bay",
+                "location_display": "Subic Bay, Philippines",
+                "url": "https://www.dvidshub.net/image/9501235",
+                "thumbnail_url": "",
+                "keywords": ["31st MEU", "Balikatan", "amphibious"],
+                "credit": "Cpl. Jane Doe"
+            },
+            {
+                "id": "VIDEO001",
+                "title": "USS Gerald R. Ford CSG Operations in Caribbean",
+                "description": "B-roll footage of USS Gerald R. Ford (CVN 78) and its carrier strike group conducting operations in the Caribbean Sea in support of regional security operations.",
+                "type": "video",
+                "branch": "Navy",
+                "unit_name": "USS Gerald R. Ford (CVN 78)",
+                "date_published": "Jan 29, 2026 22:00 UTC",
+                "timestamp": "2026-01-29T22:00:00",
+                "country": "U.S. Virgin Islands",
+                "state": "",
+                "city": "St. Thomas",
+                "location_display": "St. Thomas, U.S. Virgin Islands",
+                "url": "https://www.dvidshub.net/video/VIDEO001",
+                "thumbnail_url": "",
+                "keywords": ["CVN 78", "Ford", "Caribbean"],
+                "credit": "MC1 Video Specialist",
+                "duration": "2:34"
+            },
+            {
+                "id": "557101",
+                "title": "Seventh Fleet Commander Visits Yokosuka Naval Base",
+                "description": "Vice Adm. Karl Thomas, commander, U.S. 7th Fleet, visited Commander, Fleet Activities Yokosuka (CFAY) to meet with Sailors and discuss ongoing operations in the Indo-Pacific region.",
+                "type": "news",
+                "branch": "Navy",
+                "unit_name": "U.S. 7th Fleet",
+                "date_published": "Jan 29, 2026 21:00 UTC",
+                "timestamp": "2026-01-29T21:00:00",
+                "country": "Japan",
+                "state": "",
+                "city": "Yokosuka",
+                "location_display": "Yokosuka, Japan",
+                "url": "https://www.dvidshub.net/news/557101",
+                "thumbnail_url": "",
+                "keywords": ["7th Fleet", "Yokosuka", "Indo-Pacific"],
+                "credit": ""
+            },
+            {
+                "id": "9501236",
+                "title": "Coast Guard Cutter Conducts Drug Interdiction in Eastern Pacific",
+                "description": "Coast Guard Cutter Stratton (WMSL 752) interdicts a suspected drug smuggling vessel in the Eastern Pacific Ocean. The operation resulted in the seizure of approximately 2,000 kilograms of cocaine.",
+                "type": "image",
+                "branch": "Coast Guard",
+                "unit_name": "USCGC Stratton (WMSL 752)",
+                "date_published": "Jan 29, 2026 20:00 UTC",
+                "timestamp": "2026-01-29T20:00:00",
+                "country": "United States",
+                "state": "",
+                "city": "Eastern Pacific",
+                "location_display": "Eastern Pacific, United States",
+                "url": "https://www.dvidshub.net/image/9501236",
+                "thumbnail_url": "",
+                "keywords": ["Coast Guard", "drug interdiction", "Stratton"],
+                "credit": "PA2 Coast Guard"
+            },
+            {
+                "id": "557102",
+                "title": "Navy Seabees Complete Construction Project in Djibouti",
+                "description": "Naval Mobile Construction Battalion (NMCB) 5 completes construction of a new medical facility at Camp Lemonnier, Djibouti, enhancing medical capabilities for service members deployed to the Horn of Africa.",
+                "type": "news",
+                "branch": "Navy",
+                "unit_name": "NMCB 5",
+                "date_published": "Jan 29, 2026 18:00 UTC",
+                "timestamp": "2026-01-29T18:00:00",
+                "country": "Djibouti",
+                "state": "",
+                "city": "Camp Lemonnier",
+                "location_display": "Camp Lemonnier, Djibouti",
+                "url": "https://www.dvidshub.net/news/557102",
+                "thumbnail_url": "",
+                "keywords": ["Seabees", "NMCB 5", "Djibouti"],
+                "credit": ""
+            },
+            {
+                "id": "9501237",
+                "title": "USS George Washington Arrives in Yokosuka, Japan",
+                "description": "USS George Washington (CVN 73) arrives at Fleet Activities Yokosuka after completing a transit of the Pacific Ocean. George Washington is forward-deployed to support security and stability in the Indo-Pacific.",
+                "type": "image",
+                "branch": "Navy",
+                "unit_name": "USS George Washington (CVN 73)",
+                "date_published": "Jan 29, 2026 14:00 UTC",
+                "timestamp": "2026-01-29T14:00:00",
+                "country": "Japan",
+                "state": "",
+                "city": "Yokosuka",
+                "location_display": "Yokosuka, Japan",
+                "url": "https://www.dvidshub.net/image/9501237",
+                "thumbnail_url": "",
+                "keywords": ["CVN 73", "George Washington", "Yokosuka"],
+                "credit": "MC3 Photo"
+            },
+            {
+                "id": "VIDEO002",
+                "title": "Marine Corps F-35B Lightning II Operations",
+                "description": "U.S. Marines with Marine Fighter Attack Squadron (VMFA) 121 conduct flight operations with F-35B Lightning II aircraft aboard USS Tripoli (LHA 7) in the Western Pacific.",
+                "type": "video",
+                "branch": "Marines",
+                "unit_name": "VMFA-121",
+                "date_published": "Jan 29, 2026 12:00 UTC",
+                "timestamp": "2026-01-29T12:00:00",
+                "country": "Japan",
+                "state": "",
+                "city": "Okinawa",
+                "location_display": "Okinawa, Japan",
+                "url": "https://www.dvidshub.net/video/VIDEO002",
+                "thumbnail_url": "",
+                "keywords": ["F-35B", "VMFA-121", "Tripoli"],
+                "credit": "Cpl. Video Marine",
+                "duration": "3:15"
+            },
+            {
+                "id": "557103",
+                "title": "Navy Announces Expansion of Submarine Industrial Base",
+                "description": "Secretary of the Navy Carlos Del Toro announced new investments in the submarine industrial base to accelerate production of Virginia-class and Columbia-class submarines.",
+                "type": "news",
+                "branch": "Navy",
+                "unit_name": "Secretary of the Navy",
+                "date_published": "Jan 29, 2026 10:00 UTC",
+                "timestamp": "2026-01-29T10:00:00",
+                "country": "United States",
+                "state": "DC",
+                "city": "Washington",
+                "location_display": "Washington, DC, United States",
+                "url": "https://www.dvidshub.net/news/557103",
+                "thumbnail_url": "",
+                "keywords": ["submarines", "industrial base", "SecNav"],
+                "credit": ""
+            },
+            {
+                "id": "9501238",
+                "title": "Sailors Conduct Maintenance on USS Iwo Jima",
+                "description": "Sailors assigned to USS Iwo Jima (LHD 7) conduct routine maintenance on the ship's flight deck while underway in the Caribbean Sea supporting Operation Absolute Resolve.",
+                "type": "image",
+                "branch": "Navy",
+                "unit_name": "USS Iwo Jima (LHD 7)",
+                "date_published": "Jan 29, 2026 09:00 UTC",
+                "timestamp": "2026-01-29T09:00:00",
+                "country": "Puerto Rico",
+                "state": "",
+                "city": "Ponce",
+                "location_display": "Ponce, Puerto Rico",
+                "url": "https://www.dvidshub.net/image/9501238",
+                "thumbnail_url": "",
+                "keywords": ["LHD 7", "Iwo Jima", "maintenance"],
+                "credit": "MC2 Maintenance Photo"
+            },
+            {
+                "id": "557104",
+                "title": "Blue Angels Announce 2026 Air Show Schedule",
+                "description": "The U.S. Navy Flight Demonstration Squadron, the Blue Angels, announced their 2026 air show schedule featuring performances at 65 locations across North America.",
+                "type": "news",
+                "branch": "Navy",
+                "unit_name": "Blue Angels",
+                "date_published": "Jan 29, 2026 08:00 UTC",
+                "timestamp": "2026-01-29T08:00:00",
+                "country": "United States",
+                "state": "FL",
+                "city": "Pensacola",
+                "location_display": "Pensacola, FL, United States",
+                "url": "https://www.dvidshub.net/news/557104",
+                "thumbnail_url": "",
+                "keywords": ["Blue Angels", "air show", "2026 schedule"],
+                "credit": ""
+            }
+        ];
+
+        const byCountry = {"United States": 5, "Japan": 3, "Oman": 1, "Philippines": 1, "U.S. Virgin Islands": 1, "Djibouti": 1, "Puerto Rico": 1};
+        const byType = {"news": 6, "image": 5, "video": 2};
+        const byBranch = {"Navy": 10, "Marines": 2, "Coast Guard": 1};
+
+        // Region mapping
+        const regionMap = {
+            "United States": "CONUS",
+            "Puerto Rico": "Caribbean",
+            "U.S. Virgin Islands": "Caribbean",
+            "Japan": "Indo-Pacific",
+            "Philippines": "Indo-Pacific",
+            "Oman": "Middle East",
+            "Djibouti": "Africa"
+        };
+
+        let currentFilters = {
+            type: 'all',
+            branch: 'all',
+            country: 'all',
+            search: ''
+        };
+        let currentView = 'grid';
+
+        // Initialize filters
+        function initFilters() {
+            const totalCount = allItems.length;
+
+            // Type filters
+            const typeContainer = document.getElementById('typeFilters');
+            typeContainer.innerHTML = `<button class="filter-btn active" data-type="all" onclick="setTypeFilter('all')">All Types <span class="filter-count">${totalCount}</span></button>`;
+            Object.entries(byType).sort((a, b) => b[1] - a[1]).forEach(([type, count]) => {
+                typeContainer.innerHTML += `<button class="filter-btn" data-type="${type}" onclick="setTypeFilter('${type}')">${type.charAt(0).toUpperCase() + type.slice(1)} <span class="filter-count">${count}</span></button>`;
+            });
+
+            // Branch filters
+            const branchContainer = document.getElementById('branchFilters');
+            branchContainer.innerHTML = `<button class="filter-btn active" data-branch="all" onclick="setBranchFilter('all')">All Branches <span class="filter-count">${totalCount}</span></button>`;
+            Object.entries(byBranch).sort((a, b) => b[1] - a[1]).forEach(([branch, count]) => {
+                branchContainer.innerHTML += `<button class="filter-btn" data-branch="${branch}" onclick="setBranchFilter('${branch}')">${branch} <span class="filter-count">${count}</span></button>`;
+            });
+
+            // Country filters
+            const countryContainer = document.getElementById('countryFilters');
+            countryContainer.innerHTML = `<button class="filter-btn active" data-country="all" onclick="setCountryFilter('all')">All Countries <span class="filter-count">${totalCount}</span></button>`;
+            Object.entries(byCountry).sort((a, b) => b[1] - a[1]).forEach(([country, count]) => {
+                countryContainer.innerHTML += `<button class="filter-btn" data-country="${country}" onclick="setCountryFilter('${country}')">${country} <span class="filter-count">${count}</span></button>`;
+            });
+        }
+
+        function setTypeFilter(type) {
+            currentFilters.type = type;
+            document.querySelectorAll('#typeFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.type === type));
+            renderItems();
+        }
+
+        function setBranchFilter(branch) {
+            currentFilters.branch = branch;
+            document.querySelectorAll('#branchFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.branch === branch));
+            renderItems();
+        }
+
+        function setCountryFilter(country) {
+            currentFilters.country = country;
+            document.querySelectorAll('#countryFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.country === country));
+            renderItems();
+        }
+
+        function filterItems() {
+            currentFilters.search = document.getElementById('searchInput').value.toLowerCase();
+            renderItems();
+        }
+
+        function setView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.view === view));
+            renderItems();
+        }
+
+        function getFilteredItems() {
+            return allItems.filter(item => {
+                if (currentFilters.type !== 'all' && item.type !== currentFilters.type) return false;
+                if (currentFilters.branch !== 'all' && item.branch !== currentFilters.branch) return false;
+                if (currentFilters.country !== 'all' && item.country !== currentFilters.country) return false;
+                if (currentFilters.search && !item.title.toLowerCase().includes(currentFilters.search) && !item.unit_name.toLowerCase().includes(currentFilters.search)) return false;
+                return true;
+            });
+        }
+
+        function renderItems() {
+            const filtered = getFilteredItems();
+            const container = document.getElementById('contentContainer');
+            document.getElementById('resultsCount').textContent = `Showing ${filtered.length} items`;
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">&#128269;</div>
+                        <div class="empty-state-title">No items found</div>
+                        <div class="empty-state-text">Try adjusting your filters or search terms</div>
+                    </div>
+                `;
+                return;
+            }
+
+            // Group by country
+            const grouped = {};
+            filtered.forEach(item => {
+                if (!grouped[item.country]) grouped[item.country] = [];
+                grouped[item.country].push(item);
+            });
+
+            // Sort countries by item count
+            const sortedCountries = Object.keys(grouped).sort((a, b) => grouped[b].length - grouped[a].length);
+
+            let html = '';
+            sortedCountries.forEach(country => {
+                const items = grouped[country];
+                const region = regionMap[country] || 'Other';
+
+                html += `
+                    <div class="location-group">
+                        <div class="location-header">
+                            <span class="region-badge">${region}</span>
+                            <span class="location-name">${country}</span>
+                            <span class="location-count">${items.length} item${items.length > 1 ? 's' : ''}</span>
+                        </div>
+                `;
+
+                if (currentView === 'grid') {
+                    html += '<div class="items-grid">';
+                    items.forEach(item => {
+                        html += `
+                            <div class="item-card ${item.type}" onclick="showDetail('${item.id}')">
+                                ${item.thumbnail_url ? `<img class="item-thumbnail" src="${item.thumbnail_url}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+                                <div class="item-content">
+                                    <div class="item-meta">
+                                        <span class="item-type ${item.type}">${item.type}</span>
+                                        <span class="item-branch">${item.branch}</span>
+                                    </div>
+                                    <div class="item-title">${item.title}</div>
+                                    <div class="item-description">${item.description || ''}</div>
+                                    <div class="item-footer">
+                                        <span class="item-unit">${item.unit_name}</span>
+                                        <span class="item-date">${item.date_published}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    html += '</div>';
+                } else {
+                    html += '<div class="items-list">';
+                    items.forEach(item => {
+                        html += `
+                            <div class="item-row ${item.type}" onclick="showDetail('${item.id}')">
+                                <div class="item-row-type">
+                                    <span class="item-type ${item.type}">${item.type}</span>
+                                </div>
+                                <div class="item-row-main">
+                                    <div class="item-row-title">${item.title}</div>
+                                    <div class="item-row-unit">${item.unit_name}</div>
+                                </div>
+                                <div class="item-row-meta">
+                                    <div class="item-row-branch">${item.branch}</div>
+                                    <div class="item-row-date">${item.date_published}</div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    html += '</div>';
+                }
+
+                html += '</div>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        function showDetail(itemId) {
+            const item = allItems.find(i => i.id === itemId);
+            if (!item) return;
+
+            document.getElementById('modalTitle').textContent = item.title;
+            document.getElementById('modalLink').href = item.url;
+
+            let bodyHtml = '';
+
+            if (item.thumbnail_url) {
+                bodyHtml += `<img class="modal-image" src="${item.thumbnail_url}" alt="">`;
+            }
+
+            bodyHtml += `
+                <div class="modal-meta">
+                    <span class="modal-tag type">${item.type}</span>
+                    <span class="modal-tag branch">${item.branch}</span>
+                    <span class="modal-tag location">${item.location_display}</span>
+                </div>
+            `;
+
+            if (item.description) {
+                bodyHtml += `<div class="modal-description">${item.description}</div>`;
+            }
+
+            bodyHtml += `
+                <div class="modal-info">
+                    <div class="modal-info-item">
+                        <div class="modal-info-label">Unit</div>
+                        <div class="modal-info-value">${item.unit_name}</div>
+                    </div>
+                    <div class="modal-info-item">
+                        <div class="modal-info-label">Published</div>
+                        <div class="modal-info-value">${item.date_published}</div>
+                    </div>
+                    ${item.credit ? `<div class="modal-info-item"><div class="modal-info-label">Credit</div><div class="modal-info-value">${item.credit}</div></div>` : ''}
+                    ${item.duration ? `<div class="modal-info-item"><div class="modal-info-label">Duration</div><div class="modal-info-value">${item.duration}</div></div>` : ''}
+                </div>
+            `;
+
+            document.getElementById('modalBody').innerHTML = bodyHtml;
+            document.getElementById('detailModal').classList.add('visible');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(event) {
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('detailModal').classList.remove('visible');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Initialize
+        initFilters();
+        renderItems();
+    </script>
+</body>
+</html>
