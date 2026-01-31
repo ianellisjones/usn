@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheet Integration Test</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        h1 { color: #00ffff; }
+        h2 { color: #ffff00; margin-top: 30px; }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            background: #111;
+        }
+        .success { border-color: #00ff00; }
+        .error { border-color: #ff0000; color: #ff0000; }
+        .warning { border-color: #ffff00; color: #ffff00; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th { background: #1a1a1a; color: #00ffff; }
+        tr:nth-child(even) { background: #111; }
+        .cvn { color: #ff6b6b; }
+        .lha, .lhd { color: #4ecdc4; }
+        #raw-data {
+            background: #111;
+            padding: 10px;
+            border: 1px solid #333;
+            white-space: pre-wrap;
+            font-size: 11px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>U.S. NAVY FLEET TRACKER - Google Sheet Integration Test</h1>
+
+    <div class="status" id="fetch-status">Fetching data from Google Sheet...</div>
+
+    <h2>Raw CSV Data</h2>
+    <div id="raw-data">Loading...</div>
+
+    <h2>Parsed Ship Data (<span id="ship-count">0</span> ships)</h2>
+    <table id="ship-table">
+        <thead>
+            <tr>
+                <th>Hull</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Type</th>
+                <th>Location</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>Region</th>
+                <th>Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="ship-tbody">
+        </tbody>
+    </table>
+
+    <h2>Validation Results</h2>
+    <div id="validation-results"></div>
+
+    <script>
+        const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRGU8xHLjpCXFMcv6WdRwIIIC_P4EHSkrrOBR-T_lKW9phqM-OTYXSZD9lmGk_87Csvxhn7t7Q-SttX/pub?gid=1036878474&output=csv';
+
+        // Expected ships for validation
+        const EXPECTED_SHIPS = [
+            'CVN68', 'CVN69', 'CVN70', 'CVN71', 'CVN72', 'CVN73', 'CVN74', 'CVN75', 'CVN76', 'CVN77', 'CVN78',
+            'LHD1', 'LHD2', 'LHD3', 'LHD4', 'LHD5', 'LHD7', 'LHD8',
+            'LHA6', 'LHA7'
+        ];
+
+        async function fetchAndTest() {
+            const statusDiv = document.getElementById('fetch-status');
+            const rawDataDiv = document.getElementById('raw-data');
+            const shipTbody = document.getElementById('ship-tbody');
+            const shipCountSpan = document.getElementById('ship-count');
+            const validationDiv = document.getElementById('validation-results');
+
+            try {
+                statusDiv.textContent = 'Fetching data from Google Sheet...';
+
+                const response = await fetch(GOOGLE_SHEET_CSV_URL);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const csvText = await response.text();
+                rawDataDiv.textContent = csvText;
+
+                // Parse CSV
+                const lines = csvText.trim().split('\n');
+                const headers = lines[0].split(',').map(h => h.trim().toLowerCase());
+
+                statusDiv.innerHTML = `<span class="success">SUCCESS: Fetched ${lines.length} lines (1 header + ${lines.length - 1} data rows)</span>`;
+                statusDiv.className = 'status success';
+
+                // Parse ships
+                const ships = [];
+                for (let i = 1; i < lines.length; i++) {
+                    const values = parseCSVLine(lines[i]);
+                    const ship = {};
+                    headers.forEach((h, idx) => {
+                        ship[h] = values[idx] || '';
+                    });
+                    ships.push(ship);
+                }
+
+                shipCountSpan.textContent = ships.length;
+
+                // Populate table
+                ships.forEach(ship => {
+                    const tr = document.createElement('tr');
+                    const typeClass = ship.type === 'CVN' ? 'cvn' : 'lhd';
+                    tr.innerHTML = `
+                        <td class="${typeClass}">${ship.hull || ''}</td>
+                        <td>${ship.name || ''}</td>
+                        <td>${ship.class || ''}</td>
+                        <td class="${typeClass}">${ship.type || ''}</td>
+                        <td>${ship.location || ''}</td>
+                        <td>${ship.lat || ''}</td>
+                        <td>${ship.lon || ''}</td>
+                        <td>${ship.region || ''}</td>
+                        <td>${ship.date || ''}</td>
+                        <td>${ship.status || ''}</td>
+                    `;
+                    shipTbody.appendChild(tr);
+                });
+
+                // Validation
+                const validationResults = [];
+                const foundHulls = ships.map(s => s.hull);
+
+                // Check for expected ships
+                const missingShips = EXPECTED_SHIPS.filter(h => !foundHulls.includes(h));
+                const extraShips = foundHulls.filter(h => !EXPECTED_SHIPS.includes(h));
+
+                if (missingShips.length === 0 && extraShips.length === 0 && ships.length === 20) {
+                    validationResults.push('<div class="status success">All 20 expected ships found!</div>');
+                } else {
+                    if (missingShips.length > 0) {
+                        validationResults.push(`<div class="status error">Missing ships: ${missingShips.join(', ')}</div>`);
+                    }
+                    if (extraShips.length > 0) {
+                        validationResults.push(`<div class="status warning">Extra ships: ${extraShips.join(', ')}</div>`);
+                    }
+                }
+
+                // Check for required columns
+                const requiredCols = ['hull', 'name', 'type', 'lat', 'lon'];
+                const missingCols = requiredCols.filter(c => !headers.includes(c));
+                if (missingCols.length > 0) {
+                    validationResults.push(`<div class="status error">Missing columns: ${missingCols.join(', ')}</div>`);
+                } else {
+                    validationResults.push('<div class="status success">All required columns present (hull, name, type, lat, lon)</div>');
+                }
+
+                // Check for valid coordinates
+                let invalidCoords = 0;
+                ships.forEach(ship => {
+                    const lat = parseFloat(ship.lat);
+                    const lon = parseFloat(ship.lon);
+                    if (isNaN(lat) || isNaN(lon) || lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+                        invalidCoords++;
+                    }
+                });
+                if (invalidCoords === 0) {
+                    validationResults.push('<div class="status success">All coordinates are valid!</div>');
+                } else {
+                    validationResults.push(`<div class="status error">${invalidCoords} ships have invalid coordinates</div>`);
+                }
+
+                validationDiv.innerHTML = validationResults.join('');
+
+            } catch (error) {
+                statusDiv.textContent = `ERROR: ${error.message}`;
+                statusDiv.className = 'status error';
+                rawDataDiv.textContent = `Failed to fetch: ${error.message}`;
+            }
+        }
+
+        // Parse CSV line handling quoted values
+        function parseCSVLine(line) {
+            const result = [];
+            let current = '';
+            let inQuotes = false;
+
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    result.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            result.push(current.trim());
+            return result;
+        }
+
+        // Run test on page load
+        fetchAndTest();
+    </script>
+</body>
+</html>
