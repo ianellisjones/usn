@@ -418,10 +418,11 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
     cvn_count = len([s for s in ships if s.ship_type == "CVN"])
     lha_lhd_count = len([s for s in ships if s.ship_type in ["LHA", "LHD"]])
 
-    location_counts = defaultdict(list)
+    # Group ships by location for clustered display
+    location_groups = defaultdict(list)
     for s in ships:
-        location_counts[s.location].append(s.hull)
-    location_summary = json.dumps({loc: hulls for loc, hulls in location_counts.items()})
+        location_groups[s.location].append(asdict(s))
+    location_groups_json = json.dumps(dict(location_groups))
 
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -491,9 +492,44 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
         .filter-btn:hover {{ border-color: #444; color: #999; }}
         .filter-btn.active {{ background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }}
         .attribution {{ padding: 10px 16px; border-top: 1px solid #1e1e2e; font-size: 10px; color: #444; text-align: center; font-weight: 500; }}
+        .btn-group {{ display: flex; gap: 12px; align-items: center; }}
         .carrier-btn {{ font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #ff6b6b 0%, #cc4444 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3); letter-spacing: 0.5px; }}
         .carrier-btn:hover {{ transform: translateY(-2px); box-shadow: 0 4px 16px rgba(255, 107, 107, 0.4); }}
         .carrier-btn:active {{ transform: translateY(0); }}
+        .cocom-dropdown {{ position: relative; }}
+        .cocom-btn {{ font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #4ecdc4 0%, #2a9d8f 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(78, 205, 196, 0.3); letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px; }}
+        .cocom-btn:hover {{ transform: translateY(-2px); box-shadow: 0 4px 16px rgba(78, 205, 196, 0.4); }}
+        .cocom-btn::after {{ content: '▼'; font-size: 8px; }}
+        .cocom-menu {{ position: absolute; top: 100%; left: 0; margin-top: 8px; background: #111118; border: 1px solid #2a2a3a; border-radius: 10px; min-width: 180px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.2s; z-index: 100; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }}
+        .cocom-dropdown.open .cocom-menu {{ opacity: 1; visibility: visible; transform: translateY(0); }}
+        .cocom-item {{ padding: 12px 16px; cursor: pointer; font-size: 12px; font-weight: 500; color: #888; transition: all 0.15s; border-bottom: 1px solid #1e1e2e; }}
+        .cocom-item:last-child {{ border-bottom: none; }}
+        .cocom-item:hover {{ background: rgba(78, 205, 196, 0.1); color: #4ecdc4; }}
+        .cocom-panel {{ position: absolute; bottom: 20px; left: 20px; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 12px; width: 320px; max-height: 300px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.3s; z-index: 50; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }}
+        .cocom-panel.visible {{ opacity: 1; visibility: visible; transform: translateY(0); }}
+        .cocom-panel-header {{ padding: 14px 16px; border-bottom: 1px solid #1e1e2e; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(180deg, rgba(78, 205, 196, 0.1) 0%, transparent 100%); }}
+        .cocom-panel-title {{ font-size: 13px; font-weight: 700; color: #4ecdc4; }}
+        .cocom-panel-close {{ cursor: pointer; color: #555; font-size: 18px; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 4px; }}
+        .cocom-panel-close:hover {{ color: #ff6b6b; background: rgba(255,107,107,0.1); }}
+        .cocom-panel-body {{ padding: 12px; max-height: 240px; overflow-y: auto; }}
+        .cocom-ship {{ display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; }}
+        .cocom-ship:hover {{ background: rgba(255,255,255,0.05); }}
+        .cocom-ship-icon {{ width: 8px; height: 8px; border-radius: 2px; }}
+        .cocom-ship-icon.cvn {{ background: #ff6b6b; }}
+        .cocom-ship-icon.amphib {{ background: #4ecdc4; }}
+        .cocom-ship-hull {{ font-size: 12px; font-weight: 600; color: #fff; width: 55px; }}
+        .cocom-ship-name {{ font-size: 11px; color: #666; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+        .cocom-ship-loc {{ font-size: 10px; color: #4ecdc4; }}
+        .location-callout {{ position: absolute; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 10px; padding: 12px; min-width: 200px; max-width: 280px; z-index: 60; box-shadow: 0 8px 32px rgba(0,0,0,0.4); pointer-events: auto; }}
+        .location-callout-header {{ font-size: 11px; font-weight: 600; color: #00ff88; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #1e1e2e; }}
+        .location-callout-ship {{ display: flex; align-items: center; gap: 8px; padding: 6px 0; }}
+        .location-callout-icon {{ width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }}
+        .location-callout-icon.cvn {{ background: #ff6b6b; }}
+        .location-callout-icon.amphib {{ background: #4ecdc4; }}
+        .location-callout-hull {{ font-size: 12px; font-weight: 600; color: #fff; }}
+        .location-callout-hull.cvn {{ color: #ff6b6b; }}
+        .location-callout-hull.amphib {{ color: #4ecdc4; }}
+        .location-callout-name {{ font-size: 11px; color: #777; margin-left: auto; }}
         .modal-overlay {{ position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.85); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; }}
         .modal-overlay.visible {{ opacity: 1; visibility: visible; }}
         .modal {{ background: #111118; border: 1px solid #2a2a3a; border-radius: 16px; width: 90%; max-width: 700px; max-height: 85vh; overflow: hidden; transform: scale(0.9); transition: transform 0.3s ease; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); }}
@@ -518,7 +554,7 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
             <div class="header-left">
                 <div>
                     <div class="logo">U.S. NAVY FLEET TRACKER</div>
-                    <div class="logo-sub">Carrier &amp; Amphibious Assault Ship Operations</div>
+                    <div class="logo-sub">Carrier And Amphibious Assault Ship Tracker</div>
                 </div>
             </div>
             <div class="status-bar">
@@ -535,8 +571,20 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
                     <div class="stat-label">Amphibs</div>
                 </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 24px;">
-                <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="btn-group">
+                    <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+                    <div class="cocom-dropdown" id="cocomDropdown">
+                        <button class="cocom-btn" onclick="toggleCocomMenu()">By Theater</button>
+                        <div class="cocom-menu">
+                            <div class="cocom-item" onclick="selectCocom('INDOPACOM')">INDOPACOM</div>
+                            <div class="cocom-item" onclick="selectCocom('CENTCOM')">CENTCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('EUCOM')">EUCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('SOUTHCOM')">SOUTHCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('CONUS')">CONUS</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="timestamp">
                     Last Update: <span>{timestamp}</span>
                 </div>
@@ -544,6 +592,14 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
         </header>
         <div class="globe-container">
             <div id="globe"></div>
+            <div class="cocom-panel" id="cocomPanel">
+                <div class="cocom-panel-header">
+                    <div class="cocom-panel-title" id="cocomPanelTitle">INDOPACOM</div>
+                    <span class="cocom-panel-close" onclick="closeCocomPanel()">&#x2715;</span>
+                </div>
+                <div class="cocom-panel-body" id="cocomPanelBody"></div>
+            </div>
+            <div id="locationCallouts"></div>
         </div>
         <div class="side-panel">
             <div class="panel-header">
@@ -600,33 +656,89 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
     </div>
     <script>
         const shipsData = {ships_json};
-        const locationSummary = {location_summary};
+        const locationGroups = {location_groups_json};
         let activeFilter = 'all';
         let selectedShip = null;
 
+        // COCOM definitions with center coordinates and regions
+        const cocomData = {{
+            'INDOPACOM': {{ name: 'Indo-Pacific Command', lat: 15, lon: 140, regions: ['WESTPAC', 'INDOPAC', 'PACIFIC'] }},
+            'CENTCOM': {{ name: 'Central Command', lat: 20, lon: 55, regions: ['CENTCOM'] }},
+            'EUCOM': {{ name: 'European Command', lat: 45, lon: 10, regions: ['EUCOM'] }},
+            'SOUTHCOM': {{ name: 'Southern Command', lat: 10, lon: -75, regions: ['SOUTHCOM'] }},
+            'CONUS': {{ name: 'Continental U.S.', lat: 35, lon: -100, regions: ['CONUS'] }}
+        }};
+
+        // Locations that should show clustered pins
+        const clusteredLocations = ['Norfolk / Portsmouth', 'San Diego', 'Bremerton / Kitsap', 'Yokosuka', 'Sasebo'];
+
         function initGlobe() {{
-            const cvnShips = shipsData.filter(s => s.ship_type === 'CVN');
-            const amphibShips = shipsData.filter(s => s.ship_type !== 'CVN');
+            // Separate single ships from clustered locations
+            const singleShips = [];
+            const clusterMarkers = [];
 
-            const cvnTrace = {{
-                type: 'scattergeo', mode: 'markers+text',
-                lat: cvnShips.map(s => s.display_lat), lon: cvnShips.map(s => s.display_lon),
-                text: cvnShips.map(s => s.hull), textposition: 'top center',
-                textfont: {{ family: 'Inter, sans-serif', size: 10, color: '#ff6b6b', weight: 600 }},
-                hoverinfo: 'text', hovertext: cvnShips.map(s => `<b>${{s.hull}}</b><br>${{s.name}}<br>${{s.location}}`),
-                marker: {{ size: 12, color: '#ff6b6b', symbol: 'diamond', line: {{ width: 2, color: '#cc4444' }} }},
-                name: 'Carriers (CVN)', customdata: cvnShips
-            }};
+            shipsData.forEach(ship => {{
+                const shipsAtLocation = locationGroups[ship.location] || [];
+                if (shipsAtLocation.length > 1 && clusteredLocations.includes(ship.location)) {{
+                    // Only add one marker per clustered location
+                    if (!clusterMarkers.find(m => m.location === ship.location)) {{
+                        clusterMarkers.push({{
+                            location: ship.location,
+                            lat: ship.lat,
+                            lon: ship.lon,
+                            count: shipsAtLocation.length,
+                            ships: shipsAtLocation
+                        }});
+                    }}
+                }} else {{
+                    singleShips.push(ship);
+                }}
+            }});
 
-            const amphibTrace = {{
-                type: 'scattergeo', mode: 'markers+text',
-                lat: amphibShips.map(s => s.display_lat), lon: amphibShips.map(s => s.display_lon),
-                text: amphibShips.map(s => s.hull), textposition: 'top center',
-                textfont: {{ family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 }},
-                hoverinfo: 'text', hovertext: amphibShips.map(s => `<b>${{s.hull}}</b><br>${{s.name}}<br>${{s.location}}`),
-                marker: {{ size: 10, color: '#4ecdc4', symbol: 'circle', line: {{ width: 2, color: '#2a9d8f' }} }},
-                name: 'Amphibs (LHA/LHD)', customdata: amphibShips
-            }};
+            // Single CVN ships
+            const cvnSingle = singleShips.filter(s => s.ship_type === 'CVN');
+            const amphibSingle = singleShips.filter(s => s.ship_type !== 'CVN');
+
+            const traces = [];
+
+            // CVN trace for single ships
+            if (cvnSingle.length > 0) {{
+                traces.push({{
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: cvnSingle.map(s => s.lat), lon: cvnSingle.map(s => s.lon),
+                    text: cvnSingle.map(s => s.hull), textposition: 'top center',
+                    textfont: {{ family: 'Inter, sans-serif', size: 10, color: '#ff6b6b', weight: 600 }},
+                    hoverinfo: 'text', hovertext: cvnSingle.map(s => `<b>${{s.hull}}</b><br>${{s.name}}<br>${{s.location}}`),
+                    marker: {{ size: 12, color: '#ff6b6b', symbol: 'diamond', line: {{ width: 2, color: '#cc4444' }} }},
+                    name: 'Carriers (CVN)', customdata: cvnSingle
+                }});
+            }}
+
+            // Amphib trace for single ships
+            if (amphibSingle.length > 0) {{
+                traces.push({{
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: amphibSingle.map(s => s.lat), lon: amphibSingle.map(s => s.lon),
+                    text: amphibSingle.map(s => s.hull), textposition: 'top center',
+                    textfont: {{ family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 }},
+                    hoverinfo: 'text', hovertext: amphibSingle.map(s => `<b>${{s.hull}}</b><br>${{s.name}}<br>${{s.location}}`),
+                    marker: {{ size: 10, color: '#4ecdc4', symbol: 'circle', line: {{ width: 2, color: '#2a9d8f' }} }},
+                    name: 'Amphibious Assault Ships (LHA/LHD)', customdata: amphibSingle
+                }});
+            }}
+
+            // Cluster markers (ports with multiple ships)
+            if (clusterMarkers.length > 0) {{
+                traces.push({{
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: clusterMarkers.map(c => c.lat), lon: clusterMarkers.map(c => c.lon),
+                    text: clusterMarkers.map(c => c.count + ' ships'), textposition: 'top center',
+                    textfont: {{ family: 'Inter, sans-serif', size: 9, color: '#00ff88', weight: 600 }},
+                    hoverinfo: 'text', hovertext: clusterMarkers.map(c => `<b>${{c.location}}</b><br>${{c.count}} ships`),
+                    marker: {{ size: 16, color: '#00ff88', symbol: 'circle', line: {{ width: 2, color: '#00cc6a' }}, opacity: 0.9 }},
+                    name: 'Port (multiple ships)', customdata: clusterMarkers.map(c => ({{ isCluster: true, ...c }}))
+                }});
+            }}
 
             const layout = {{
                 geo: {{
@@ -643,13 +755,54 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
             }};
 
             const config = {{ responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'], displaylogo: false, scrollZoom: true }};
-            Plotly.newPlot('globe', [cvnTrace, amphibTrace], layout, config);
+            Plotly.newPlot('globe', traces, layout, config);
+
             document.getElementById('globe').on('plotly_click', function(data) {{
                 if (data.points && data.points.length > 0) {{
-                    const ship = data.points[0].customdata;
-                    if (ship) {{ showDetail(ship); highlightShipCard(ship.hull); }}
+                    const pointData = data.points[0].customdata;
+                    if (pointData && pointData.isCluster) {{
+                        showLocationCallout(pointData, data.points[0]);
+                    }} else if (pointData) {{
+                        showDetail(pointData);
+                        highlightShipCard(pointData.hull);
+                    }}
                 }}
             }});
+        }}
+
+        function showLocationCallout(clusterData, point) {{
+            const container = document.getElementById('locationCallouts');
+            const globeRect = document.getElementById('globe').getBoundingClientRect();
+
+            // Calculate position (offset from click)
+            let html = `<div class="location-callout" style="left: 40px; top: 50%;">
+                <div class="location-callout-header">${{clusterData.location}}</div>`;
+
+            clusterData.ships.forEach(ship => {{
+                const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
+                html += `<div class="location-callout-ship" onclick="selectShipFromCallout('${{ship.hull}}')" style="cursor:pointer;">
+                    <div class="location-callout-icon ${{typeClass}}"></div>
+                    <span class="location-callout-hull ${{typeClass}}">${{ship.hull}}</span>
+                    <span class="location-callout-name">${{ship.name}}</span>
+                </div>`;
+            }});
+
+            html += '</div>';
+            container.innerHTML = html;
+
+            // Close when clicking elsewhere
+            setTimeout(() => {{
+                document.addEventListener('click', closeLocationCallout, {{ once: true }});
+            }}, 100);
+        }}
+
+        function closeLocationCallout() {{
+            document.getElementById('locationCallouts').innerHTML = '';
+        }}
+
+        function selectShipFromCallout(hull) {{
+            closeLocationCallout();
+            selectShip(hull);
         }}
 
         function renderShipList() {{
@@ -672,13 +825,105 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
             container.innerHTML = html;
         }}
 
-        function rotateToLocation(location) {{ const ship = shipsData.find(s => s.location === location); if (ship) Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }}); }}
-        function selectShip(hull) {{ const ship = shipsData.find(s => s.hull === hull); if (ship) {{ showDetail(ship); highlightShipCard(hull); Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }}); }} }}
-        function highlightShipCard(hull) {{ document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active')); const card = document.querySelector(`.ship-card[data-hull="${{hull}}"]`); if (card) {{ card.classList.add('active'); card.scrollIntoView({{ behavior: 'smooth', block: 'center' }}); }} }}
-        function showDetail(ship) {{ selectedShip = ship; document.getElementById('detailPanel').classList.remove('hidden'); document.getElementById('detailTitle').textContent = `${{ship.hull}} - ${{ship.name}}`; document.getElementById('detailClass').textContent = `${{ship.ship_class}}-class ${{ship.ship_type}}`; document.getElementById('detailLocation').textContent = ship.location; document.getElementById('detailRegion').textContent = ship.region; document.getElementById('detailDate').textContent = ship.date; document.getElementById('detailStatus').textContent = ship.status; }}
-        function closeDetail() {{ document.getElementById('detailPanel').classList.add('hidden'); document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active')); selectedShip = null; }}
-        document.querySelectorAll('.filter-btn').forEach(btn => {{ btn.addEventListener('click', function() {{ document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); this.classList.add('active'); activeFilter = this.dataset.filter; renderShipList(); }}); }});
+        function rotateToLocation(location) {{
+            const ship = shipsData.find(s => s.location === location);
+            if (ship) Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }});
+        }}
 
+        function selectShip(hull) {{
+            const ship = shipsData.find(s => s.hull === hull);
+            if (ship) {{
+                showDetail(ship);
+                highlightShipCard(hull);
+                Plotly.relayout('globe', {{ 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }});
+            }}
+        }}
+
+        function highlightShipCard(hull) {{
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            const card = document.querySelector(`.ship-card[data-hull="${{hull}}"]`);
+            if (card) {{ card.classList.add('active'); card.scrollIntoView({{ behavior: 'smooth', block: 'center' }}); }}
+        }}
+
+        function showDetail(ship) {{
+            selectedShip = ship;
+            document.getElementById('detailPanel').classList.remove('hidden');
+            document.getElementById('detailTitle').textContent = `${{ship.hull}} - ${{ship.name}}`;
+            document.getElementById('detailClass').textContent = `${{ship.ship_class}}-class ${{ship.ship_type}}`;
+            document.getElementById('detailLocation').textContent = ship.location;
+            document.getElementById('detailRegion').textContent = ship.region;
+            document.getElementById('detailDate').textContent = ship.date;
+            document.getElementById('detailStatus').textContent = ship.status;
+        }}
+
+        function closeDetail() {{
+            document.getElementById('detailPanel').classList.add('hidden');
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            selectedShip = null;
+        }}
+
+        // COCOM Functions
+        function toggleCocomMenu() {{
+            document.getElementById('cocomDropdown').classList.toggle('open');
+        }}
+
+        function selectCocom(cocom) {{
+            document.getElementById('cocomDropdown').classList.remove('open');
+            const data = cocomData[cocom];
+
+            // Rotate globe to COCOM region
+            Plotly.relayout('globe', {{
+                'geo.projection.rotation.lon': data.lon,
+                'geo.projection.rotation.lat': data.lat
+            }});
+
+            // Find ships in this COCOM
+            const cocomShips = shipsData.filter(s => data.regions.includes(s.region));
+
+            // Show COCOM panel
+            document.getElementById('cocomPanelTitle').textContent = data.name + ' (' + cocomShips.length + ' ships)';
+
+            let html = '';
+            if (cocomShips.length === 0) {{
+                html = '<div style="color:#666;font-size:12px;padding:10px;">No ships currently in this theater</div>';
+            }} else {{
+                cocomShips.forEach(ship => {{
+                    const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
+                    html += `<div class="cocom-ship" onclick="selectShip('${{ship.hull}}')">
+                        <div class="cocom-ship-icon ${{typeClass}}"></div>
+                        <span class="cocom-ship-hull">${{ship.hull}}</span>
+                        <span class="cocom-ship-name">${{ship.name}}</span>
+                        <span class="cocom-ship-loc">${{ship.location}}</span>
+                    </div>`;
+                }});
+            }}
+
+            document.getElementById('cocomPanelBody').innerHTML = html;
+            document.getElementById('cocomPanel').classList.add('visible');
+        }}
+
+        function closeCocomPanel() {{
+            document.getElementById('cocomPanel').classList.remove('visible');
+        }}
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {{
+            if (!e.target.closest('.cocom-dropdown')) {{
+                document.getElementById('cocomDropdown').classList.remove('open');
+            }}
+        }});
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {{
+            btn.addEventListener('click', function() {{
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                activeFilter = this.dataset.filter;
+                renderShipList();
+            }});
+        }});
+
+        // Carrier Modal Functions
         function showCarrierModal() {{
             const carriers = shipsData.filter(s => s.ship_type === 'CVN').sort((a, b) => {{
                 const numA = parseInt(a.hull.replace('CVN', ''));
@@ -709,17 +954,19 @@ def generate_globe_html(ships: List[ShipStatus]) -> str:
         }}
 
         document.addEventListener('keydown', function(e) {{
-            if (e.key === 'Escape') closeCarrierModal();
+            if (e.key === 'Escape') {{
+                closeCarrierModal();
+                closeCocomPanel();
+            }}
         }});
 
-        initGlobe(); renderShipList();
+        initGlobe();
+        renderShipList();
     </script>
 </body>
 </html>'''
 
     return html
-
-
 def generate_mobile_html(ships: List[ShipStatus]) -> str:
     """Generates mobile-optimized HTML page with vertical layout."""
 
