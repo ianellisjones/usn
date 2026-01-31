@@ -1,20 +1,20 @@
 {
-  "date": "2026-01-30",
-  "timestamp": "2026-01-30T20:42:37.224057",
-  "total_count": 399,
+  "date": "2026-01-31",
+  "timestamp": "2026-01-31T00:53:02.490967",
+  "total_count": 401,
   "by_country": {
-    "United States": 340,
+    "United States": 345,
     "Antarctica": 6,
-    "Italy": 5,
+    "Italy": 4,
     "Tunisia": 1,
     "British Indian Ocean Territory": 1,
-    "Kenya": 4,
+    "Kenya": 9,
     "Japan": 11,
     "Ethiopia": 1,
-    "Germany": 8,
+    "Germany": 3,
     "Singapore": 1,
     "Guam": 1,
-    "South Korea": 5,
+    "South Korea": 3,
     "Spain": 2,
     "Bahrain": 2,
     "Slovakia": 3,
@@ -25,21 +25,905 @@
     "Romania": 3
   },
   "by_type": {
-    "news": 115,
+    "video": 86,
     "image": 200,
-    "video": 84
+    "news": 115
   },
   "by_branch": {
-    "Joint": 150,
+    "Marines": 80,
     "Navy": 108,
-    "Marines": 78,
+    "Joint": 150,
     "Coast Guard": 63
   },
   "by_command": {
-    "CENTCOM": 2,
+    "CENTCOM": 3,
     "INDOPACOM": 1
   },
   "items": [
+    {
+      "id": "video:994478",
+      "title": "U.S. Marines with 3rd Bn., 7th Marines execute various platoon attacks during SLTE",
+      "description": "U.S. Marines with 3rd Battalion, 7th Marine Regiment, 1st Marine Division, execute various live-fire platoon attacks and fire support attacks during a service level training exercise at Marine Corps Air-Ground Combat Center, Twentynine Palms, California, Jan. 15-21, 2026. SLTE is designed to be a challenging, realistic training environment that produces combat-ready forces capable of operating as an integrated Marine Air-Ground Task Force across all domains of military operations. (U.S. Marine C...",
+      "type": "video",
+      "branch": "Marines",
+      "unit_name": "1st Marine Division",
+      "date_published": "Jan 30, 2026 23:03 UTC",
+      "timestamp": "2026-01-30T23:03:54+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Marine Corps Air Ground Combat Center Twentynine Palms",
+      "location_display": "Marine Corps Air Ground Combat Center Twentynine Palms, California, United States",
+      "url": "https://www.dvidshub.net/video/994478/us-marines-with-3rd-bn-7th-marines-execute-various-platoon-attacks-during-slte",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994478/DOD_111503697.0000001/122x92_q95.jpg",
+      "keywords": [
+        "Marines",
+        "1st Marine Division",
+        "Blue Diamond",
+        "U.S. Marine Corps",
+        "SLTE",
+        "3/7"
+      ],
+      "credit": "LCpl Dylan Jameson",
+      "duration": 55,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 1.8178107466666666
+    },
+    {
+      "id": "image:9500799",
+      "title": "1st Marine Division unveils Blue Diamond Plaque at Pub 1795",
+      "description": "U.S. Marines with the 1st Marine Division look at a...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "1st Marine Division",
+      "date_published": "Jan 30, 2026 23:03 UTC",
+      "timestamp": "2026-01-30T23:03:44+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Camp Pendleton",
+      "location_display": "Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/image/9500799/1st-marine-division-unveils-blue-diamond-plaque-pub-1795",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500799/122x92_q95.jpg",
+      "keywords": [
+        "Blue Diamond",
+        "1st MARDIV",
+        "Marines",
+        "Plaque",
+        "Pub 1795"
+      ],
+      "credit": "Sgt Calah Thompson",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 1.820423295277778
+    },
+    {
+      "id": "image:9500800",
+      "title": "1st Marine Division unveils Blue Diamond Plaque at Pub 1795",
+      "description": "A recently revealed blue diamond plaque is displayed on...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "1st Marine Division",
+      "date_published": "Jan 30, 2026 23:03 UTC",
+      "timestamp": "2026-01-30T23:03:38+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Camp Pendleton",
+      "location_display": "Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/image/9500800/1st-marine-division-unveils-blue-diamond-plaque-pub-1795",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500800/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Sgt Calah Thompson",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 1.8220899566666668
+    },
+    {
+      "id": "image:9500796",
+      "title": "1st Marine Division unveils Blue Diamond Plaque at Pub 1795",
+      "description": "U.S. Marine Corps Maj. Gen. Thomas Savage, the...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "1st Marine Division",
+      "date_published": "Jan 30, 2026 23:03 UTC",
+      "timestamp": "2026-01-30T23:03:37+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Camp Pendleton",
+      "location_display": "Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/image/9500796/1st-marine-division-unveils-blue-diamond-plaque-pub-1795",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500796/122x92_q95.jpg",
+      "keywords": [
+        "Blue Diamond",
+        "1st MARDIV",
+        "Marines",
+        "Plaque",
+        "Pub 1795"
+      ],
+      "credit": "Sgt Calah Thompson",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 1.8223677441666668
+    },
+    {
+      "id": "image:9500794",
+      "title": "1st Marine Division unveils Blue Diamond Plaque at Pub 1795",
+      "description": "U.S. Marine Corps Maj. Gen. Thomas Savage, the...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "1st Marine Division",
+      "date_published": "Jan 30, 2026 23:03 UTC",
+      "timestamp": "2026-01-30T23:03:37+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Camp Pendleton",
+      "location_display": "Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/image/9500794/1st-marine-division-unveils-blue-diamond-plaque-pub-1795",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500794/122x92_q95.jpg",
+      "keywords": [
+        "Blue Diamond",
+        "1st MarDiv",
+        "Marines",
+        "plaque",
+        "Pub 1795"
+      ],
+      "credit": "Sgt Calah Thompson",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 1.8223677480555553
+    },
+    {
+      "id": "news:557230",
+      "title": "Commanders of Unmanned Surface Vessel Divisions 31, 32, 33 Assume Command",
+      "description": "Commanders of Unmanned Surface Vessel (USV) Divisions 31, 32 and 33 assumed their respective commands during a ceremony at Naval Air Station North Island, Coronado, Jan. 22.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Surface Force, U.S. Pacific Fleet",
+      "date_published": "Jan 30, 2026 22:55 UTC",
+      "timestamp": "2026-01-30T22:55:09+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Coronado",
+      "location_display": "Coronado, California, United States",
+      "url": "https://www.dvidshub.net/news/557230/commanders-unmanned-surface-vessel-divisions-31-32-33-assume-command",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9488770/122x92_q95.jpg",
+      "keywords": [
+        "USVRON 3",
+        "USVRON"
+      ],
+      "credit": "PO1 Claire Alfaro",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 1.9628056788888888
+    },
+    {
+      "id": "video:994548",
+      "title": "B-Roll: Marines evaluate fiber-optic FPV drones during DIU challenge",
+      "description": "U.S. Marines with I Marine Expeditionary Force and small unmanned aircraft system industry professionals conduct a fiber-optic first-person view sUAS evaluation event at Camp Pendleton, California, Jan. 27-29, 2026. I MEF, in partnership with Defense Innovation Unit, evaluated fiber-optic drones for use in signal-degraded environments. (U.S. Marine Corps video by Cpl. Joshua Bustamante)",
+      "type": "video",
+      "branch": "Marines",
+      "unit_name": "I Marine Expeditionary Force",
+      "date_published": "Jan 30, 2026 22:43 UTC",
+      "timestamp": "2026-01-30T22:43:21+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Marine Corps Base Camp Pendleton",
+      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/video/994548/b-roll-marines-evaluate-fiber-optic-fpv-drones-during-diu-challenge",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994548/DOD_111504562.0000001/122x92_q95.jpg",
+      "keywords": [
+        "Drones",
+        "Fiber-Optic",
+        "sUAS",
+        "I MEF",
+        "DIU",
+        "Camp Pendleton"
+      ],
+      "credit": "Cpl Joshua Bustamante",
+      "duration": 233,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.1603106616666667
+    },
+    {
+      "id": "video:994550",
+      "title": "Be the Future of DLA (Mackenzie Haines)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994550/future-dla-mackenzie-haines",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994550/DOD_111504566.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Nutan Chada",
+      "duration": 54,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.2958263852777776
+    },
+    {
+      "id": "video:994549",
+      "title": "Be the Future of DLA (Channon Dillard)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994549/future-dla-channon-dillard",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994549/DOD_111504564.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#DLAPACE",
+        "#DLARecruiting"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 48,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.295826392777778
+    },
+    {
+      "id": "video:994547",
+      "title": "Be the Future of DLA (Kameron Heninburg)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994547/future-dla-kameron-heninburg",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994547/DOD_111504561.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Nutan Chada",
+      "duration": 50,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.2958264025000004
+    },
+    {
+      "id": "video:994546",
+      "title": "Be the Future of DLA (Robert Dicke)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994546/future-dla-robert-dicke",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994546/DOD_111504559.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#DLAPACE",
+        "#DLARecruiting"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 49,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.2958264094444445
+    },
+    {
+      "id": "video:994545",
+      "title": "Be the Future of DLA (Latisha Hopkins)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994545/future-dla-latisha-hopkins",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994545/DOD_111504556.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Nutan Chada",
+      "duration": 58,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.295826414722222
+    },
+    {
+      "id": "video:994544",
+      "title": "Be the Future of DLA (Justin Wilcox)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994544/future-dla-justin-wilcox",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994544/DOD_111504555.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#DLAPACE",
+        "#DLARecruiting"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 38,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.2958264197222222
+    },
+    {
+      "id": "video:994543",
+      "title": "Be the Future of DLA (Lina Simpson)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994543/future-dla-lina-simpson",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994543/DOD_111504552.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Nutan Chada",
+      "duration": 41,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.295826424722222
+    },
+    {
+      "id": "video:994542",
+      "title": "Be the Future of DLA (Antonio Pulliam)",
+      "description": "Ready to take your DLA career beyond the desk? The Defense Logistics Agency\u2019s Pathways to Career Excellence (PACE) Program prepares civilian employees to deploy alongside the military and deliver critical logistics support where it matters most. Gain hands-on experience, expand your skills, and directly support warfighter readiness around the world. Apply to PACE and be part of the mission. Here the stories of current\u00a0and former PACE participants and how the program has helped them in their care...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Jan 30, 2026 22:35 UTC",
+      "timestamp": "2026-01-30T22:35:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/994542/future-dla-antonio-pulliam",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994542/DOD_111504549.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#DLAPACE",
+        "DLARecruiting"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 37,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.295826429444445
+    },
+    {
+      "id": "news:557229",
+      "title": "CENTCOM Urges IRGC to Avoid Escalatory Behavior at Sea",
+      "description": "TAMPA, Fla. \u2013 Yesterday, Iran announced that the Islamic Revolutionary Guard Corps (IRGC) is conducting a two-day live-fire naval exercise in the Strait of Hormuz scheduled to begin on Sunday.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "date_published": "Jan 30, 2026 22:10 UTC",
+      "timestamp": "2026-01-30T22:10:28+00:00",
+      "country": "United States",
+      "state": "Florida",
+      "city": "Tampa",
+      "location_display": "Tampa, Florida, United States",
+      "url": "https://www.dvidshub.net/news/557229/centcom-urges-irgc-avoid-escalatory-behavior-sea",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2411/8761130/122x92_q95.jpg",
+      "keywords": [
+        "CENTCOM"
+      ],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "hours_old": 2.709092670833333
+    },
+    {
+      "id": "image:9501337",
+      "title": "Marines evaluate fiber-optic FPV drones during DIU challenge",
+      "description": "U.S. Marines with I Marine Expeditionary Force and small...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "I Marine Expeditionary Force",
+      "date_published": "Jan 30, 2026 21:37 UTC",
+      "timestamp": "2026-01-30T21:37:41+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Marine Corps Base Camp Pendleton",
+      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
+      "url": "https://www.dvidshub.net/image/9501337/marines-evaluate-fiber-optic-fpv-drones-during-diu-challenge",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501337/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Cpl Joshua Bustamante",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.254589973611111
+    },
+    {
+      "id": "news:557222",
+      "title": "$95M planning contract helps Navy, Marine Corps move projects from concept to execution",
+      "description": "Naval Facilities Engineering Systems Command (NAVFAC) Atlantic awarded AECOM-BAKER ATLANTIC PLANNING JV of Arlington, Virginia, a $95 million firm-fixed-price, indefinite-delivery, indefinite-quantity contract for multi-discipline architect-engineer services supporting Navy and Marine Corps projects.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval Facilities Engineering Systems Command Atlantic",
+      "date_published": "Jan 30, 2026 21:17 UTC",
+      "timestamp": "2026-01-30T21:17:22+00:00",
+      "country": "United States",
+      "state": "Virginia",
+      "city": "Norfolk",
+      "location_display": "Norfolk, Virginia, United States",
+      "url": "https://www.dvidshub.net/news/557222/95m-planning-contract-helps-navy-marine-corps-move-projects-concept-execution",
+      "thumbnail_url": "",
+      "keywords": [
+        "NAVFAC",
+        "MILCON",
+        "NAVFAC Atlantic",
+        "Marine  Corps",
+        "US Navy",
+        "Architect-Engineer Services"
+      ],
+      "credit": "Michael Morris",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 3.5925279325
+    },
+    {
+      "id": "image:9501283",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501283/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501283/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423466388889
+    },
+    {
+      "id": "image:9501281",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501281/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501281/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6034234719444447
+    },
+    {
+      "id": "image:9501279",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501279/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501279/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423475277778
+    },
+    {
+      "id": "image:9501277",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Maj. Gen. Robert Carruthers, the Assistant Adjutant...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "Florida",
+      "city": "",
+      "location_display": "Florida, United States",
+      "url": "https://www.dvidshub.net/image/9501277/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501277/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423478611111
+    },
+    {
+      "id": "image:9501273",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501273/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501273/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423481944444
+    },
+    {
+      "id": "image:9501272",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Maj. Gen. Robert Carruthers, the Assistant Adjutant...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501272/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501272/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423484722222
+    },
+    {
+      "id": "image:9501270",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501270/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501270/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6034234877777775
+    },
+    {
+      "id": "image:9501267",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Lt. Col. Patrick Heffernan, deputy chief of staff of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/image/9501267/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501267/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6034234905555556
+    },
+    {
+      "id": "image:9501264",
+      "title": "Col Heffernan conducts promotion ceremony at SFB",
+      "description": "Maj. Gen. Robert Carruthers, the Assistant Adjutant...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Florida National Guard Public Affairs Office",
+      "date_published": "Jan 30, 2026 21:16 UTC",
+      "timestamp": "2026-01-30T21:16:49+00:00",
+      "country": "United States",
+      "state": "Florida",
+      "city": "",
+      "location_display": "Florida, United States",
+      "url": "https://www.dvidshub.net/image/9501264/col-heffernan-conducts-promotion-ceremony-sfb",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501264/122x92_q95.jpg",
+      "keywords": [
+        "FLARNG"
+      ],
+      "credit": "SSgt Neysa Huertas Quinones",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.603423493611111
+    },
+    {
+      "id": "video:994517",
+      "title": "Serving at Home",
+      "description": "U.S. Army 1st Lt. Jameel Bagby and Spc. Marcus McCutchen discuss their experiences serving in the District of Columbia National Guard while also working as civilian law enforcement officers, highlighting how their dual roles reinforce professionalism, leadership and service to the community. Through their service in the National Guard, they apply skills gained in uniform to support public safety, strengthen partnerships, and remain ready to serve the District and the nation when called upon. (U....",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:54 UTC",
+      "timestamp": "2026-01-30T20:54:28+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "",
+      "location_display": "District of Columbia, United States",
+      "url": "https://www.dvidshub.net/video/994517/serving-home",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994517/DOD_111504291.0000046/122x92_q95.jpg",
+      "keywords": [
+        "JTFDC",
+        "DistrictofColumbia",
+        "National Guard",
+        "DCSafe",
+        "DCSafeAndBeautiful"
+      ],
+      "credit": "Billy Blankenship",
+      "duration": 139,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 3.976104143611111
+    },
+    {
+      "id": "image:9501104",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:53 UTC",
+      "timestamp": "2026-01-30T20:53:39+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501104/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501104/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.9895345741666666
+    },
+    {
+      "id": "image:9501112",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:52 UTC",
+      "timestamp": "2026-01-30T20:52:55+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501112/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501112/122x92_q95.jpg",
+      "keywords": [
+        "JTFDC",
+        "DCSAFE",
+        "National Guard"
+      ],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 4.001756789444444
+    },
+    {
+      "id": "image:9501116",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:52 UTC",
+      "timestamp": "2026-01-30T20:52:11+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501116/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501116/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.013979008611111
+    },
+    {
+      "id": "image:9501120",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:51 UTC",
+      "timestamp": "2026-01-30T20:51:12+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501120/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501120/122x92_q95.jpg",
+      "keywords": [
+        "JTFDC",
+        "DCSAFE",
+        "National Guard"
+      ],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 4.030367904166667
+    },
+    {
+      "id": "image:9501125",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:50 UTC",
+      "timestamp": "2026-01-30T20:50:35+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501125/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501125/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.040645671944445
+    },
+    {
+      "id": "image:9501137",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:49 UTC",
+      "timestamp": "2026-01-30T20:49:30+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501137/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501137/122x92_q95.jpg",
+      "keywords": [
+        "JTFDC",
+        "DCSAFE",
+        "National Guard"
+      ],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.058701216388889
+    },
+    {
+      "id": "image:9501143",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:47 UTC",
+      "timestamp": "2026-01-30T20:47:53+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501143/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501143/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.085645668611111
+    },
+    {
+      "id": "image:9501155",
+      "title": "West Virginia\u2019s Command Sgt. Maj. Visits West Virginia Service Members in Washington, D.C.",
+      "description": "U.S. Army Command Sgt. Maj. James D. Jones, senior...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Joint Task Force DC",
+      "date_published": "Jan 30, 2026 20:47 UTC",
+      "timestamp": "2026-01-30T20:47:12+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/image/9501155/west-virginias-command-sgt-maj-visits-west-virginia-service-members-washington-dc",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501155/122x92_q95.jpg",
+      "keywords": [
+        "JTFDC",
+        "DCSAFE",
+        "National Guard"
+      ],
+      "credit": "SPC Sherald McAulay",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 4.097034553888888
+    },
     {
       "id": "news:557217",
       "title": "DLA Warner Robins prepares for new Warehouse Management System",
@@ -65,7 +949,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.3820288311111111
+      "hours_old": 4.555759293611111
     },
     {
       "id": "image:9501001",
@@ -94,7 +978,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.45805057750000006
+      "hours_old": 4.6317567625
     },
     {
       "id": "news:557215",
@@ -116,7 +1000,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.4617510908333333
+      "hours_old": 4.635481549166666
     },
     {
       "id": "image:9500999",
@@ -145,7 +1029,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.4638839155555555
+      "hours_old": 4.637590101388889
     },
     {
       "id": "news:557214",
@@ -174,7 +1058,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.5717510669444444
+      "hours_old": 4.745481529722222
     },
     {
       "id": "news:556907",
@@ -196,7 +1080,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.5728623125
+      "hours_old": 4.746592778611111
     },
     {
       "id": "image:9500925",
@@ -221,7 +1105,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 0.9103701533333333
+      "hours_old": 5.0843578011111115
     },
     {
       "id": "image:9500926",
@@ -243,7 +1127,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 0.91148126
+      "hours_old": 5.085468906666667
     },
     {
       "id": "news:557210",
@@ -268,7 +1152,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.9134646541666666
+      "hours_old": 5.087527863888889
     },
     {
       "id": "video:994509",
@@ -297,7 +1181,7 @@
       "duration": 86,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 0.9719873197222223
+      "hours_old": 5.145866228888889
     },
     {
       "id": "image:9500893",
@@ -325,7 +1209,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.197905128888889
+      "hours_old": 5.3718122005555555
     },
     {
       "id": "image:9500892",
@@ -353,7 +1237,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1979051341666667
+      "hours_old": 5.371812204444445
     },
     {
       "id": "image:9500889",
@@ -381,7 +1265,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1979051380555554
+      "hours_old": 5.371812208333333
     },
     {
       "id": "image:9500888",
@@ -409,7 +1293,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1981829191666666
+      "hours_old": 5.372089989722222
     },
     {
       "id": "image:9500887",
@@ -437,7 +1321,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1981829252777778
+      "hours_old": 5.372089993055556
     },
     {
       "id": "image:9500883",
@@ -465,7 +1349,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.198182928611111
+      "hours_old": 5.372089996944445
     },
     {
       "id": "image:9500880",
@@ -493,7 +1377,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1981829325
+      "hours_old": 5.372090000277778
     },
     {
       "id": "image:9500876",
@@ -521,7 +1405,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1981829361111112
+      "hours_old": 5.372090003055556
     },
     {
       "id": "video:994486",
@@ -547,7 +1431,7 @@
       "duration": 102,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 1.2876968369444444
+      "hours_old": 5.461381933611111
     },
     {
       "id": "image:9500840",
@@ -573,7 +1457,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.3845367841666667
+      "hours_old": 5.5585244255555555
     },
     {
       "id": "image:9500825",
@@ -595,7 +1479,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.385370123888889
+      "hours_old": 5.559357763611111
     },
     {
       "id": "image:9500817",
@@ -617,7 +1501,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.3864812386111112
+      "hours_old": 5.560468878055556
     },
     {
       "id": "image:9500813",
@@ -643,7 +1527,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.3873145758333334
+      "hours_old": 5.561302214722223
     },
     {
       "id": "image:9500806",
@@ -665,7 +1549,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.388425691111111
+      "hours_old": 5.562413329166667
     },
     {
       "id": "image:9500801",
@@ -687,7 +1571,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.3892590283333335
+      "hours_old": 5.563246665833334
     },
     {
       "id": "image:9500795",
@@ -713,7 +1597,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.3900923652777777
+      "hours_old": 5.564080001944444
     },
     {
       "id": "image:9500819",
@@ -735,7 +1619,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4042590675
+      "hours_old": 5.578246705833333
     },
     {
       "id": "image:9500814",
@@ -757,7 +1641,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4045368486111112
+      "hours_old": 5.578524486944445
     },
     {
       "id": "image:9500812",
@@ -779,7 +1663,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4045368516666668
+      "hours_old": 5.578524490277777
     },
     {
       "id": "image:9500807",
@@ -801,7 +1685,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4048146322222221
+      "hours_old": 5.578802271111111
     },
     {
       "id": "image:9500805",
@@ -823,7 +1707,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4048146352777777
+      "hours_old": 5.578802274166667
     },
     {
       "id": "image:9500804",
@@ -845,7 +1729,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.4048146380555555
+      "hours_old": 5.578802276944444
     },
     {
       "id": "image:9500802",
@@ -867,7 +1751,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.405092418611111
+      "hours_old": 5.5790800575
     },
     {
       "id": "video:994496",
@@ -893,7 +1777,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 1.6581621719444444
+      "hours_old": 5.831913138611112
     },
     {
       "id": "video:994485",
@@ -915,7 +1799,7 @@
       "duration": 86,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 1.774828883888889
+      "hours_old": 5.948579841388889
     },
     {
       "id": "video:994489",
@@ -941,7 +1825,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 1.7878844036111112
+      "hours_old": 5.961635369166667
     },
     {
       "id": "image:9500761",
@@ -963,7 +1847,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.8029726080555555
+      "hours_old": 5.976749641944444
     },
     {
       "id": "image:9500758",
@@ -985,7 +1869,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.802972615
+      "hours_old": 5.976749649166667
     },
     {
       "id": "image:9500755",
@@ -1011,7 +1895,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.802972618611111
+      "hours_old": 5.976749652222223
     },
     {
       "id": "image:9500757",
@@ -1037,7 +1921,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.8032503597222223
+      "hours_old": 5.977027388333334
     },
     {
       "id": "image:9500777",
@@ -1059,7 +1943,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.8032503825000001
+      "hours_old": 5.9770274161111105
     },
     {
       "id": "image:9500759",
@@ -1085,7 +1969,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.8032503894444443
+      "hours_old": 5.977027423611111
     },
     {
       "id": "image:9500764",
@@ -1107,7 +1991,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.911481223888889
+      "hours_old": 6.085468903055556
     },
     {
       "id": "video:994474",
@@ -1136,7 +2020,7 @@
       "duration": 312,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 1.9214317375
+      "hours_old": 6.095310680277779
     },
     {
       "id": "video:994479",
@@ -1165,7 +2049,7 @@
       "duration": 155,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.0989317561111114
+      "hours_old": 6.272810685555556
     },
     {
       "id": "news:557196",
@@ -1193,7 +2077,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.1498066291666666
+      "hours_old": 6.323537091666667
     },
     {
       "id": "video:994481",
@@ -1222,7 +2106,7 @@
       "duration": 196,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.193931777777778
+      "hours_old": 6.367810695
     },
     {
       "id": "news:557199",
@@ -1250,152 +2134,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.279575805555556
-    },
-    {
-      "id": "image:9500741",
-      "title": "NAS Pensacola Participates in Annual Navy Force Protection Exercise",
-      "description": "Naval Air Station (NAS) Pensacola Navy Security Forces...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Air Station Pensacola",
-      "date_published": "Jan 30, 2026 18:23 UTC",
-      "timestamp": "2026-01-30T18:23:40+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Pensacola",
-      "location_display": "Pensacola, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500741/nas-pensacola-participates-annual-navy-force-protection-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500741/122x92_q95.jpg",
-      "keywords": [
-        "Naval Air Station Pensacola",
-        "CNRSE",
-        "NavyReadiness",
-        "CitadelShield",
-        "SolidCurtain",
-        "CNIC"
-      ],
-      "credit": "Garrett Dipuma",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.313703586388889
-    },
-    {
-      "id": "image:9500737",
-      "title": "NAS Pensacola Participates in Annual Navy Force Protection Exercise",
-      "description": "Naval Air Station (NAS) Pensacola Antiterrorism Training...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Air Station Pensacola",
-      "date_published": "Jan 30, 2026 18:23 UTC",
-      "timestamp": "2026-01-30T18:23:40+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Pensacola",
-      "location_display": "Pensacola, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500737/nas-pensacola-participates-annual-navy-force-protection-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500737/122x92_q95.jpg",
-      "keywords": [
-        "Naval Air Station Pensacola",
-        "CNRSE",
-        "NavyReadiness",
-        "CitadelShield",
-        "SolidCurtain",
-        "CNIC"
-      ],
-      "credit": "Garrett Dipuma",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.3137035930555556
-    },
-    {
-      "id": "image:9500736",
-      "title": "NAS Pensacola Participates in Annual Navy Force Protection Exercise",
-      "description": "Naval Air Station (NAS) Pensacola Navy Security Forces...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Air Station Pensacola",
-      "date_published": "Jan 30, 2026 18:23 UTC",
-      "timestamp": "2026-01-30T18:23:40+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Pensacola",
-      "location_display": "Pensacola, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500736/nas-pensacola-participates-annual-navy-force-protection-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500736/122x92_q95.jpg",
-      "keywords": [
-        "Naval Air Station Pensacola",
-        "CNRSE",
-        "NavyReadiness",
-        "CitadelShield",
-        "SolidCurtain",
-        "CNIC"
-      ],
-      "credit": "Garrett Dipuma",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.3137035963888892
-    },
-    {
-      "id": "image:9500734",
-      "title": "NAS Pensacola Participates in Annual Navy Force Protection Exercise",
-      "description": "Naval Air Station (NAS) Pensacola Navy Security Forces...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Air Station Pensacola",
-      "date_published": "Jan 30, 2026 18:23 UTC",
-      "timestamp": "2026-01-30T18:23:40+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Pensacola",
-      "location_display": "Pensacola, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500734/nas-pensacola-participates-annual-navy-force-protection-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500734/122x92_q95.jpg",
-      "keywords": [
-        "Naval Air Station Pensacola",
-        "CNRSE",
-        "NavyReadiness",
-        "CitadelShield",
-        "SolidCurtain",
-        "CNIC"
-      ],
-      "credit": "Garrett Dipuma",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.313703599722222
-    },
-    {
-      "id": "image:9500738",
-      "title": "NAS Pensacola Participates in Annual Navy Force Protection Exercise",
-      "description": "Naval Air Station (NAS) Pensacola Navy Security Forces...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Air Station Pensacola",
-      "date_published": "Jan 30, 2026 18:23 UTC",
-      "timestamp": "2026-01-30T18:23:39+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Pensacola",
-      "location_display": "Pensacola, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500738/nas-pensacola-participates-annual-navy-force-protection-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500738/122x92_q95.jpg",
-      "keywords": [
-        "Naval Air Station Pensacola",
-        "CNRSE",
-        "NavyReadiness",
-        "CitadelShield",
-        "SolidCurtain",
-        "CNIC"
-      ],
-      "credit": "Garrett Dipuma",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.313981367777778
+      "hours_old": 6.453639016944445
     },
     {
       "id": "news:557198",
@@ -1423,7 +2162,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.3617980050000003
+      "hours_old": 6.535861213611111
     },
     {
       "id": "image:9500703",
@@ -1445,7 +2184,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.385092330277778
+      "hours_old": 6.559080010555555
     },
     {
       "id": "news:557179",
@@ -1473,7 +2212,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.468186934166667
+      "hours_old": 6.642250148888889
     },
     {
       "id": "image:9500352",
@@ -1501,7 +2240,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4924949877777776
+      "hours_old": 6.666201168611112
     },
     {
       "id": "image:9500344",
@@ -1529,7 +2268,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4924949938888887
+      "hours_old": 6.666201180833333
     },
     {
       "id": "image:9500336",
@@ -1556,7 +2295,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4927727763888887
+      "hours_old": 6.666478964444445
     },
     {
       "id": "image:9500326",
@@ -1584,7 +2323,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4927727808333335
+      "hours_old": 6.666478968611111
     },
     {
       "id": "image:9500321",
@@ -1606,7 +2345,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 2.492772785277778
+      "hours_old": 6.6664789725
     },
     {
       "id": "image:9500317",
@@ -1628,7 +2367,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4930505688888887
+      "hours_old": 6.666756754166667
     },
     {
       "id": "image:9500313",
@@ -1655,7 +2394,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.493050573055555
+      "hours_old": 6.666756758888889
     },
     {
       "id": "video:994473",
@@ -1683,7 +2422,7 @@
       "duration": 21,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.1323288244444445
+      "hours_old": 7.306079792777778
     },
     {
       "id": "image:9500554",
@@ -1708,7 +2447,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.2636060766666666
+      "hours_old": 7.437312385277777
     },
     {
       "id": "image:9500552",
@@ -1733,7 +2472,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.2636060891666667
+      "hours_old": 7.437312388611111
     },
     {
       "id": "image:9500551",
@@ -1758,7 +2497,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.2636060947222223
+      "hours_old": 7.437312391388889
     },
     {
       "id": "video:994467",
@@ -1786,7 +2525,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.475474655
+      "hours_old": 7.649159802222223
     },
     {
       "id": "image:9500493",
@@ -1815,7 +2554,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.602592492222222
+      "hours_old": 7.776580124722223
     },
     {
       "id": "image:9500491",
@@ -1844,7 +2583,152 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.602592495833333
+      "hours_old": 7.776580129722222
+    },
+    {
+      "id": "image:9500489",
+      "title": "Recruit Training Command Graduation Jan. 29, 2026",
+      "description": "260129-N-MK109-1225 GREAT LAKES, Ill. (Jan. 29, 2026)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Recruit Training Command",
+      "date_published": "Jan 30, 2026 17:06 UTC",
+      "timestamp": "2026-01-30T17:06:19+00:00",
+      "country": "United States",
+      "state": "Illinois",
+      "city": "Great Lakes",
+      "location_display": "Great Lakes, Illinois, United States",
+      "url": "https://www.dvidshub.net/image/9500489/recruit-training-command-graduation-jan-29-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500489/122x92_q95.jpg",
+      "keywords": [
+        "Recruit Training Command",
+        "Great Lakes",
+        "PIR",
+        "Graduation",
+        "Boot Camp",
+        "RTC"
+      ],
+      "credit": "PO2 Mykala Keckeisen",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 7.776857910833334
+    },
+    {
+      "id": "image:9500487",
+      "title": "Recruit Training Command Graduation Jan. 29, 2026",
+      "description": "260129-N-MK109-1209 GREAT LAKES, Ill. (Jan. 29, 2026)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Recruit Training Command",
+      "date_published": "Jan 30, 2026 17:06 UTC",
+      "timestamp": "2026-01-30T17:06:19+00:00",
+      "country": "United States",
+      "state": "Illinois",
+      "city": "Great Lakes",
+      "location_display": "Great Lakes, Illinois, United States",
+      "url": "https://www.dvidshub.net/image/9500487/recruit-training-command-graduation-jan-29-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500487/122x92_q95.jpg",
+      "keywords": [
+        "Recruit Training Command",
+        "Great Lakes",
+        "PIR",
+        "Graduation",
+        "Boot Camp",
+        "RTC"
+      ],
+      "credit": "PO2 Mykala Keckeisen",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 7.776857913611111
+    },
+    {
+      "id": "image:9500486",
+      "title": "Recruit Training Command Graduation Jan. 29, 2026",
+      "description": "260129-N-MK109-1205 GREAT LAKES, Ill. (Jan. 29, 2026) -...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Recruit Training Command",
+      "date_published": "Jan 30, 2026 17:06 UTC",
+      "timestamp": "2026-01-30T17:06:19+00:00",
+      "country": "United States",
+      "state": "Illinois",
+      "city": "Great Lakes",
+      "location_display": "Great Lakes, Illinois, United States",
+      "url": "https://www.dvidshub.net/image/9500486/recruit-training-command-graduation-jan-29-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500486/122x92_q95.jpg",
+      "keywords": [
+        "Recruit Training Command",
+        "Great Lakes",
+        "PIR",
+        "Graduation",
+        "Boot Camp",
+        "RTC"
+      ],
+      "credit": "PO2 Mykala Keckeisen",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 7.776857916666667
+    },
+    {
+      "id": "image:9500485",
+      "title": "Recruit Training Command Graduation Jan. 29, 2026",
+      "description": "260129-N-MK109-1202 GREAT LAKES, Ill. (Jan. 29, 2026)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Recruit Training Command",
+      "date_published": "Jan 30, 2026 17:06 UTC",
+      "timestamp": "2026-01-30T17:06:18+00:00",
+      "country": "United States",
+      "state": "Illinois",
+      "city": "Great Lakes",
+      "location_display": "Great Lakes, Illinois, United States",
+      "url": "https://www.dvidshub.net/image/9500485/recruit-training-command-graduation-jan-29-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500485/122x92_q95.jpg",
+      "keywords": [
+        "Recruit Training Command",
+        "Great Lakes",
+        "PIR",
+        "Graduation",
+        "Boot Camp",
+        "RTC"
+      ],
+      "credit": "PO2 Mykala Keckeisen",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 7.777135697777778
+    },
+    {
+      "id": "image:9500484",
+      "title": "Recruit Training Command Graduation Jan. 29, 2026",
+      "description": "260129-N-MK109-1197 GREAT LAKES, Ill. (Jan. 29, 2026)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Recruit Training Command",
+      "date_published": "Jan 30, 2026 17:06 UTC",
+      "timestamp": "2026-01-30T17:06:18+00:00",
+      "country": "United States",
+      "state": "Illinois",
+      "city": "Great Lakes",
+      "location_display": "Great Lakes, Illinois, United States",
+      "url": "https://www.dvidshub.net/image/9500484/recruit-training-command-graduation-jan-29-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500484/122x92_q95.jpg",
+      "keywords": [
+        "Recruit Training Command",
+        "Great Lakes",
+        "PIR",
+        "Graduation",
+        "Boot Camp",
+        "RTC"
+      ],
+      "credit": "PO2 Mykala Keckeisen",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 7.777135700555555
     },
     {
       "id": "video:994461",
@@ -1873,7 +2757,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.6437177491666666
+      "hours_old": 7.817468713333334
     },
     {
       "id": "image:9499614",
@@ -1895,7 +2779,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.704917089722222
+      "hours_old": 7.878694135833333
     },
     {
       "id": "image:9499612",
@@ -1924,7 +2808,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.7049170933333335
+      "hours_old": 7.878694139722222
     },
     {
       "id": "image:9499611",
@@ -1953,7 +2837,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.705194875
+      "hours_old": 7.878971920833333
     },
     {
       "id": "image:9499610",
@@ -1982,7 +2866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.7051948780555555
+      "hours_old": 7.878971925
     },
     {
       "id": "image:9499609",
@@ -2011,7 +2895,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.705194881388889
+      "hours_old": 7.878971928055556
     },
     {
       "id": "news:557185",
@@ -2038,7 +2922,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 3.9187424819444443
+      "hours_old": 8.092805696388888
     },
     {
       "id": "news:557184",
@@ -2066,7 +2950,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.324020237222222
+      "hours_old": 8.498083445
     },
     {
       "id": "news:557182",
@@ -2091,7 +2975,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.456342095277778
+      "hours_old": 8.630197436388888
     },
     {
       "id": "video:994451",
@@ -2120,7 +3004,7 @@
       "duration": 127,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.014172760277778
+      "hours_old": 9.188134421666668
     },
     {
       "id": "news:557177",
@@ -2142,7 +3026,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 5.210686921388889
+      "hours_old": 9.38475013388889
     },
     {
       "id": "news:557175",
@@ -2171,7 +3055,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 5.300917747222222
+      "hours_old": 9.474648209722222
     },
     {
       "id": "news:557174",
@@ -2198,7 +3082,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 5.533417752777777
+      "hours_old": 9.707148221666666
     },
     {
       "id": "video:994257",
@@ -2227,7 +3111,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.645752449722222
+      "hours_old": 9.819437584444444
     },
     {
       "id": "video:994259",
@@ -2256,7 +3140,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.658252497222222
+      "hours_old": 9.831937632777779
     },
     {
       "id": "image:9500073",
@@ -2278,7 +3162,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.072870088611111
+      "hours_old": 10.24685774277778
     },
     {
       "id": "image:9500071",
@@ -2300,7 +3184,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.0728701025
+      "hours_old": 10.24685775388889
     },
     {
       "id": "news:557171",
@@ -2322,7 +3206,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 6.0729091325
+      "hours_old": 10.246972340555555
     },
     {
       "id": "news:557160",
@@ -2349,7 +3233,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 6.2570759175
+      "hours_old": 10.431139133333334
     },
     {
       "id": "image:9498928",
@@ -2375,7 +3259,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.892495050833333
+      "hours_old": 11.066201298333334
     },
     {
       "id": "image:9498929",
@@ -2401,7 +3285,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.897217289444444
+      "hours_old": 11.070923530555556
     },
     {
       "id": "video:994435",
@@ -2428,7 +3312,7 @@
       "duration": 103,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 6.901585778055556
+      "hours_old": 11.075270908611111
     },
     {
       "id": "image:9498931",
@@ -2454,7 +3338,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.9099950308333336
+      "hours_old": 11.083701284166667
     },
     {
       "id": "image:9498933",
@@ -2480,7 +3364,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.919161725833333
+      "hours_old": 11.092867971944443
     },
     {
       "id": "image:9498936",
@@ -2506,7 +3390,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.925828388333334
+      "hours_old": 11.099534635555555
     },
     {
       "id": "image:9499718",
@@ -2535,7 +3419,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.035127457222223
+      "hours_old": 11.209034533055554
     },
     {
       "id": "image:9499720",
@@ -2564,7 +3448,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.0362385650000006
+      "hours_old": 11.210145641111112
     },
     {
       "id": "image:9499723",
@@ -2593,7 +3477,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.0373496725
+      "hours_old": 11.21125674888889
     },
     {
       "id": "image:9499725",
@@ -2622,7 +3506,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.0381830025
+      "hours_old": 11.212090078333333
     },
     {
       "id": "image:9499726",
@@ -2651,7 +3535,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.039294110277778
+      "hours_old": 11.213201186111112
     },
     {
       "id": "image:9499728",
@@ -2680,7 +3564,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.040405217499999
+      "hours_old": 11.2143122925
     },
     {
       "id": "image:9499729",
@@ -2709,7 +3593,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.041238546944444
+      "hours_old": 11.215145621944444
     },
     {
       "id": "image:9499730",
@@ -2738,7 +3622,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.042349686111111
+      "hours_old": 11.216256762499999
     },
     {
       "id": "image:9499731",
@@ -2767,35 +3651,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.043460793888889
-    },
-    {
-      "id": "image:9499039",
-      "title": "West Virginia Guard Members Continue Metro Patrols",
-      "description": "U.S. Air Force Capt. April McClung, part of the 130th...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 30, 2026 13:39 UTC",
-      "timestamp": "2026-01-30T13:39:53+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9499039/west-virginia-guard-members-continue-metro-patrols",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499039/122x92_q95.jpg",
-      "keywords": [
-        "#JTFDC",
-        "#NationalGuard",
-        "#DistrictofColumbia",
-        "#DCSAFE",
-        "#DCSafeAndBeautiful"
-      ],
-      "credit": "TSgt Renee Crugnale",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 7.045272945555555
+      "hours_old": 11.217367870277778
     },
     {
       "id": "image:9499953",
@@ -2817,7 +3673,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.4221392625
+      "hours_old": 11.595916323055555
     },
     {
       "id": "image:9499963",
@@ -2839,7 +3695,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.422139265555556
+      "hours_old": 11.595916326111112
     },
     {
       "id": "image:9499958",
@@ -2861,7 +3717,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.422139268611112
+      "hours_old": 11.595916329166666
     },
     {
       "id": "video:994421",
@@ -2885,7 +3741,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 8.82825255
+      "hours_old": 13.001937685833333
     },
     {
       "id": "news:557151",
@@ -2909,7 +3765,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.453742503055556
+      "hours_old": 13.627805720833335
     },
     {
       "id": "video:994423",
@@ -2934,7 +3790,7 @@
       "duration": 165,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.787696882777778
+      "hours_old": 14.961382013611113
     },
     {
       "id": "image:9499829",
@@ -2960,7 +3816,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.791759054722222
+      "hours_old": 15.9657467025
     },
     {
       "id": "news:557150",
@@ -2982,7 +3838,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 11.968695632222223
+      "hours_old": 16.14242609777778
     },
     {
       "id": "video:994417",
@@ -3004,7 +3860,7 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 12.197697003611111
+      "hours_old": 16.371382139722222
     },
     {
       "id": "video:994416",
@@ -3029,29 +3885,139 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 12.1979748175
+      "hours_old": 16.37165995
     },
     {
-      "id": "image:9499659",
+      "id": "image:9499622",
       "title": "U.S.-Kenyan partnership advances security cooperation",
       "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "Combined Joint Task Force - Horn of Africa",
       "date_published": "Jan 30, 2026 07:51 UTC",
-      "timestamp": "2026-01-30T07:51:15+00:00",
+      "timestamp": "2026-01-30T07:51:46+00:00",
       "country": "Kenya",
       "state": "",
       "city": "",
       "location_display": "Kenya",
-      "url": "https://www.dvidshub.net/image/9499659/us-kenyan-partnership-advances-security-cooperation",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499659/122x92_q95.jpg",
+      "url": "https://www.dvidshub.net/image/9499622/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499622/122x92_q95.jpg",
       "keywords": [],
       "credit": "SFC Kenneth Tucceri",
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.8558285075
+      "hours_old": 17.020923561666667
+    },
+    {
+      "id": "image:9499651",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:42+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499651/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499651/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 17.02203467
+    },
+    {
+      "id": "image:9499652",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:38+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499652/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499652/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 17.023145778055557
+    },
+    {
+      "id": "image:9499653",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:35+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499653/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499653/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 17.023979126944443
+    },
+    {
+      "id": "image:9499654",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:32+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499654/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499654/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 17.024812456944446
+    },
+    {
+      "id": "image:9499655",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:28+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499655/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499655/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 17.025923564166668
     },
     {
       "id": "image:9499660",
@@ -3073,7 +4039,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.856939615555556
+      "hours_old": 17.03064579638889
     },
     {
       "id": "image:9499688",
@@ -3095,94 +4061,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.863884053333333
-    },
-    {
-      "id": "image:9499712",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps\u202fSgt. Ethan Drake, a combat engineer...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:27 UTC",
-      "timestamp": "2026-01-30T07:27:43+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499712/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499712/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 13.246794189166668
-    },
-    {
-      "id": "image:9499708",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps\u202fCpl. Keshawn Frazier, a radio...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:26 UTC",
-      "timestamp": "2026-01-30T07:26:30+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499708/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499708/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 13.267071963333333
-    },
-    {
-      "id": "image:9499714",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps\u202fSgt. Ethan Drake, a combat engineer...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:25 UTC",
-      "timestamp": "2026-01-30T07:25:36+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499714/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499714/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 13.282071955555557
+      "hours_old": 17.037590211944444
     },
     {
       "id": "image:9499716",
@@ -3211,36 +4090,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.290960840833332
-    },
-    {
-      "id": "image:9499705",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps Sgt. Noah Hane, left, a platoon...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:24 UTC",
-      "timestamp": "2026-01-30T07:24:28+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499705/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499705/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 13.30096084861111
+      "hours_old": 17.46486791888889
     },
     {
       "id": "image:9499721",
@@ -3269,7 +4119,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.310683055
+      "hours_old": 17.484590133055555
     },
     {
       "id": "image:9499702",
@@ -3298,36 +4148,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 13.322349725277778
-    },
-    {
-      "id": "image:9499700",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps Sgt. David Lovaglio, an aircraft...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:22 UTC",
-      "timestamp": "2026-01-30T07:22:25+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499700/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499700/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 13.33512752611111
+      "hours_old": 17.496256804166666
     },
     {
       "id": "image:9499690",
@@ -3356,7 +4177,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.401516302777777
+      "hours_old": 17.575423375277776
     },
     {
       "id": "image:9499689",
@@ -3385,7 +4206,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 13.401516306111112
+      "hours_old": 17.57542337888889
     },
     {
       "id": "image:9499687",
@@ -3414,7 +4235,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.424571782500001
+      "hours_old": 17.598478833333335
     },
     {
       "id": "image:9499685",
@@ -3443,7 +4264,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 13.424571865277779
+      "hours_old": 17.59847893888889
     },
     {
       "id": "image:9499684",
@@ -3472,7 +4293,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.424571869166666
+      "hours_old": 17.598478943055554
     },
     {
       "id": "image:9499682",
@@ -3501,7 +4322,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.424849650833334
+      "hours_old": 17.598756725277777
     },
     {
       "id": "image:9499681",
@@ -3530,7 +4351,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.424849654444444
+      "hours_old": 17.598756729444446
     },
     {
       "id": "image:9499679",
@@ -3559,7 +4380,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.425127384166666
+      "hours_old": 17.599034454444446
     },
     {
       "id": "image:9499678",
@@ -3588,7 +4409,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.425127388611111
+      "hours_old": 17.599034459166667
     },
     {
       "id": "image:9499677",
@@ -3617,7 +4438,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.425405170000001
+      "hours_old": 17.59931224111111
     },
     {
       "id": "image:9499676",
@@ -3646,7 +4467,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.42540517361111
+      "hours_old": 17.59931224583333
     },
     {
       "id": "image:9499670",
@@ -3675,7 +4496,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.42540517722222
+      "hours_old": 17.599312249722225
     },
     {
       "id": "image:9499664",
@@ -3704,7 +4525,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.42568295861111
+      "hours_old": 17.59959003111111
     },
     {
       "id": "image:9499663",
@@ -3733,7 +4554,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.425682962222222
+      "hours_old": 17.599590034722222
     },
     {
       "id": "image:9499662",
@@ -3762,7 +4583,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.547071855
+      "hours_old": 17.720978927222223
     },
     {
       "id": "news:557146",
@@ -3788,7 +4609,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.9256869575
+      "hours_old": 18.09975017472222
     },
     {
       "id": "video:994396",
@@ -3817,7 +4638,7 @@
       "duration": 89,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 14.420106675
+      "hours_old": 18.59385763083333
     },
     {
       "id": "image:9499560",
@@ -3844,7 +4665,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.783147934999999
+      "hours_old": 18.957135583055557
     },
     {
       "id": "image:9499559",
@@ -3871,7 +4692,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.7834257175
+      "hours_old": 18.957413365277777
     },
     {
       "id": "video:993896",
@@ -3893,7 +4714,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.433252571111112
+      "hours_old": 19.606937703055554
     },
     {
       "id": "news:557143",
@@ -3918,7 +4739,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 16.515084481666666
+      "hours_old": 20.688814949999998
     },
     {
       "id": "image:9499465",
@@ -3947,36 +4768,55 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.8212386075
+      "hours_old": 20.995145685277777
     },
     {
-      "id": "image:9499470",
-      "title": "Marines evaluate fiber-optic FPV Drones during DIU challenge",
-      "description": "U.S. Marine Corps Lance Cpl. Juan Paragine, a small...",
+      "id": "image:9499398",
+      "title": "Leadership Briefs New Generation on Medical Readiness",
+      "description": "PATUXENT RIVER, Md. (January 29, 2026) \u2013 U.S. Navy...",
       "type": "image",
-      "branch": "Marines",
-      "unit_name": "I Marine Expeditionary Force",
-      "date_published": "Jan 30, 2026 03:51 UTC",
-      "timestamp": "2026-01-30T03:51:51+00:00",
+      "branch": "Joint",
+      "unit_name": "Naval Health Clinic Patuxent River, Maryland",
+      "date_published": "Jan 30, 2026 03:29 UTC",
+      "timestamp": "2026-01-30T03:29:42+00:00",
       "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9499470/marines-evaluate-fiber-optic-fpv-drones-during-diu-challenge",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499470/122x92_q95.jpg",
+      "state": "Maryland",
+      "city": "Patuxent River",
+      "location_display": "Patuxent River, Maryland, United States",
+      "url": "https://www.dvidshub.net/image/9499398/leadership-briefs-new-generation-medical-readiness",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499398/122x92_q95.jpg",
       "keywords": [
-        "Drones",
-        "Fiber-Optic",
-        "sUAS",
-        "I MEF",
-        "DIU",
-        "Camp Pendleton"
+        "Naval Air Station Patuxent River",
+        "#DHA #AcrossTheMHS #NavyMedicine",
+        "#NMFL; #NAVYMEDICINE"
       ],
-      "credit": "Cpl Joshua Bustamante",
+      "credit": "Maria Scott",
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.8445719375
+      "hours_old": 21.38870132638889
+    },
+    {
+      "id": "image:9499362",
+      "title": "Clinic Leadership Promotes Readiness Training",
+      "description": "Leadership from Naval Branch Health Clinic Patuxent...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Naval Health Clinic Patuxent River, Maryland",
+      "date_published": "Jan 30, 2026 03:29 UTC",
+      "timestamp": "2026-01-30T03:29:42+00:00",
+      "country": "United States",
+      "state": "Maryland",
+      "city": "Patuxent River",
+      "location_display": "Patuxent River, Maryland, United States",
+      "url": "https://www.dvidshub.net/image/9499362/clinic-leadership-promotes-readiness-training",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499362/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Maria Scott",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 21.388701330555556
     },
     {
       "id": "news:557140",
@@ -4002,7 +4842,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 19.274020351388888
+      "hours_old": 23.448083567222223
     },
     {
       "id": "news:557139",
@@ -4030,7 +4870,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 19.46508445611111
+      "hours_old": 23.638814924444446
     },
     {
       "id": "news:557129",
@@ -4059,7 +4899,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 20.04604608
+      "hours_old": 24.21998017916667
     },
     {
       "id": "news:557136",
@@ -4087,7 +4927,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 20.085687006944443
+      "hours_old": 24.259750226944444
     },
     {
       "id": "video:994366",
@@ -4114,7 +4954,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.12186356638889
+      "hours_old": 24.295548700833336
     },
     {
       "id": "news:557015",
@@ -4143,7 +4983,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 20.1693793775
+      "hours_old": 24.34331348527778
     },
     {
       "id": "news:557134",
@@ -4170,7 +5010,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 20.290964719444442
+      "hours_old": 24.465027937777776
     },
     {
       "id": "image:9499164",
@@ -4199,7 +5039,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.358738601111114
+      "hours_old": 24.532645681944445
     },
     {
       "id": "image:9499165",
@@ -4228,7 +5068,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.359849708888888
+      "hours_old": 24.533756789444443
     },
     {
       "id": "image:9499166",
@@ -4257,7 +5097,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.360960816944445
+      "hours_old": 24.5348678975
     },
     {
       "id": "image:9499167",
@@ -4286,7 +5126,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.362071925
+      "hours_old": 24.535979005555557
     },
     {
       "id": "image:9499169",
@@ -4315,7 +5155,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.363183033333335
+      "hours_old": 24.53709011361111
     },
     {
       "id": "image:9499170",
@@ -4344,7 +5184,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.36429414111111
+      "hours_old": 24.538201220833333
     },
     {
       "id": "image:9499171",
@@ -4373,7 +5213,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.36568302638889
+      "hours_old": 24.539590106111113
     },
     {
       "id": "image:9499224",
@@ -4395,7 +5235,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.86297248055556
+      "hours_old": 25.036749527777776
     },
     {
       "id": "image:9499187",
@@ -4421,7 +5261,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.862972494166666
+      "hours_old": 25.036749538333332
     },
     {
       "id": "news:557011",
@@ -4450,7 +5290,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 21.83675115861111
+      "hours_old": 26.0104816275
     },
     {
       "id": "news:557125",
@@ -4477,7 +5317,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 21.89124253138889
+      "hours_old": 26.06530575027778
     },
     {
       "id": "news:557127",
@@ -4505,7 +5345,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.02425109861111
+      "hours_old": 26.197981564444444
     },
     {
       "id": "news:557123",
@@ -4532,7 +5372,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.447306683888886
+      "hours_old": 26.621037152222222
     },
     {
       "id": "news:557121",
@@ -4558,7 +5398,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.455409261944446
+      "hours_old": 26.629472478055558
     },
     {
       "id": "news:557002",
@@ -4586,7 +5426,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.58493494777778
+      "hours_old": 26.758869051666665
     },
     {
       "id": "image:9498914",
@@ -4608,7 +5448,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.58953683611111
+      "hours_old": 26.763524505
     },
     {
       "id": "image:9498911",
@@ -4630,7 +5470,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.589814617222224
+      "hours_old": 26.763802285833336
     },
     {
       "id": "image:9498897",
@@ -4654,7 +5494,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.589814620277778
+      "hours_old": 26.76380228888889
     },
     {
       "id": "video:994351",
@@ -4682,7 +5522,7 @@
       "duration": 175,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.686950558055553
+      "hours_old": 26.860912220833335
     },
     {
       "id": "news:557119",
@@ -4711,7 +5551,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.71715711111111
+      "hours_old": 26.891091225555552
     },
     {
       "id": "video:994349",
@@ -4737,7 +5577,7 @@
       "duration": 103,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 22.739363534444443
+      "hours_old": 26.913048670833334
     },
     {
       "id": "news:557116",
@@ -4765,7 +5605,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.976242518333336
+      "hours_old": 27.15030574361111
     },
     {
       "id": "video:994341",
@@ -4794,7 +5634,7 @@
       "duration": 221,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 23.068376244444444
+      "hours_old": 27.24225515638889
     },
     {
       "id": "video:994277",
@@ -4822,663 +5662,7 @@
       "duration": 130,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 23.405196919166666
-    },
-    {
-      "id": "image:9498895",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Staff Sgt. Warren R. Padilla, section leader,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:09 UTC",
-      "timestamp": "2026-01-29T21:09:03+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498895/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498895/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.55916182472222
-    },
-    {
-      "id": "image:9498898",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "Albanian Armed Forces\u2019 soldiers plot coordinates...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:09 UTC",
-      "timestamp": "2026-01-29T21:09:02+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498898/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498898/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.559439599166666
-    },
-    {
-      "id": "image:9498899",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "Albanian Armed Forces\u2019 soldiers use their binoculars...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:59+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498899/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498899/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.56027292916667
-    },
-    {
-      "id": "image:9498902",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Soldiers with 2nd Battalion, 113th Infantry...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:57+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498902/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498902/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.560828481666665
-    },
-    {
-      "id": "image:9498903",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Staff Sgt. Warren R. Padilla, section leader,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:53+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498903/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498903/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.561939589722222
-    },
-    {
-      "id": "image:9498905",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Sgt. Dwight C. Asberry, squad leader,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:50+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498905/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498905/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.56277292
-    },
-    {
-      "id": "image:9498907",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Sgt. 1st Class Christopher J. Petrizzo, mortar...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:47+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498907/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498907/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.563606249722223
-    },
-    {
-      "id": "image:9498908",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "Albanian Armed Forces\u2019 soldiers plot coordinates...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:44+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498908/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498908/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.564439579166667
-    },
-    {
-      "id": "image:9498909",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Sgt. Ricky Encarnacion, squad leader, left,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:43+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498909/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498909/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.56471735222222
-    },
-    {
-      "id": "image:9498910",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "U.S. Army Staff Sgt. Carmine D. Marchitto, section...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:42+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498910/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498910/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.564995126944446
-    },
-    {
-      "id": "image:9498912",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "Albanian Armed Forces\u2019 soldiers plot coordinates...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:41+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498912/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498912/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.565272900833335
-    },
-    {
-      "id": "image:9498913",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "An Albanian Armed Forces\u2019 soldier uses his binoculars...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:40+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498913/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498913/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.56555067472222
-    },
-    {
-      "id": "image:9498872",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:41+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498872/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498872/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 23.598606226944447
-    },
-    {
-      "id": "image:9498874",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Chantravia Roberson, assigned to the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:37+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498874/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498874/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.59971733472222
-    },
-    {
-      "id": "image:9498878",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Jacob Sellers, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:34+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498878/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498878/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.600550665
-    },
-    {
-      "id": "image:9498883",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:30+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498883/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498883/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 23.601661772499998
-    },
-    {
-      "id": "image:9498885",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Jacob Sellers, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:27+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498885/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498885/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 23.60249510222222
-    },
-    {
-      "id": "image:9498889",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Chantravia Roberson, assigned to the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:24+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498889/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498889/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.60332843222222
-    },
-    {
-      "id": "image:9498891",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:21+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498891/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498891/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 23.6041617625
-    },
-    {
-      "id": "image:9498893",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:17+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498893/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498893/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.605272870555556
-    },
-    {
-      "id": "image:9498894",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Bryan Velasquez, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:14+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498894/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498894/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 23.606106200833334
-    },
-    {
-      "id": "image:9498896",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:11+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498896/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498896/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.606939530277778
-    },
-    {
-      "id": "image:9498904",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Johnny Brown, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:06+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498904/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498904/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 23.60832841472222
+      "hours_old": 27.57888207222222
     },
     {
       "id": "news:557102",
@@ -5507,7 +5691,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.784101585277778
+      "hours_old": 27.958035695555555
     },
     {
       "id": "news:557105",
@@ -5534,7 +5718,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.94429816027778
+      "hours_old": 28.1183613775
     },
     {
       "id": "news:557084",
@@ -5561,7 +5745,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.466520301666666
+      "hours_old": 28.640583513333336
     },
     {
       "id": "news:557083",
@@ -5585,7 +5769,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.76207586083333
+      "hours_old": 28.936139073055557
     },
     {
       "id": "image:9498705",
@@ -5607,7 +5791,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.068148015277778
+      "hours_old": 29.242135664722223
     },
     {
       "id": "image:9498704",
@@ -5629,7 +5813,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.06842579638889
+      "hours_old": 29.242413445277776
     },
     {
       "id": "image:9498701",
@@ -5651,7 +5835,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.068425799444444
+      "hours_old": 29.242413448333334
     },
     {
       "id": "image:9498700",
@@ -5673,7 +5857,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.0684258025
+      "hours_old": 29.242413451388888
     },
     {
       "id": "image:9498697",
@@ -5695,7 +5879,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.068703583055555
+      "hours_old": 29.2426912325
     },
     {
       "id": "image:9498727",
@@ -5717,7 +5901,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.072314644166667
+      "hours_old": 29.246302291944446
     },
     {
       "id": "image:9498726",
@@ -5739,7 +5923,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.07259242611111
+      "hours_old": 29.24658007388889
     },
     {
       "id": "image:9498725",
@@ -5761,7 +5945,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.07259242916667
+      "hours_old": 29.246580077222223
     },
     {
       "id": "image:9498720",
@@ -5783,7 +5967,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.072592432222223
+      "hours_old": 29.246580080277777
     },
     {
       "id": "image:9498718",
@@ -5805,7 +5989,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.07287021361111
+      "hours_old": 29.246857861666665
     },
     {
       "id": "image:9498717",
@@ -5827,7 +6011,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.072870216666665
+      "hours_old": 29.246857865555555
     },
     {
       "id": "image:9498714",
@@ -5849,7 +6033,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.073147997499998
+      "hours_old": 29.247135646388887
     },
     {
       "id": "image:9498713",
@@ -5871,7 +6055,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.073148000277776
+      "hours_old": 29.247135649444445
     },
     {
       "id": "image:9498712",
@@ -5893,7 +6077,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.07314800333333
+      "hours_old": 29.247135652500003
     },
     {
       "id": "image:9498711",
@@ -5915,7 +6099,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.073425784166666
+      "hours_old": 29.24741343333333
     },
     {
       "id": "image:9498709",
@@ -5937,7 +6121,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.073425787222224
+      "hours_old": 29.24741343638889
     },
     {
       "id": "image:9498707",
@@ -5959,7 +6143,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.07370356777778
+      "hours_old": 29.24769121722222
     },
     {
       "id": "video:994330",
@@ -5987,7 +6171,7 @@
       "duration": 53,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.140283902777778
+      "hours_old": 29.31424556972222
     },
     {
       "id": "video:994329",
@@ -6013,7 +6197,7 @@
       "duration": 265,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.156950551111112
+      "hours_old": 29.330912213333335
     },
     {
       "id": "news:557056",
@@ -6042,7 +6226,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 25.35730671
+      "hours_old": 29.531037179166667
     },
     {
       "id": "news:557074",
@@ -6068,7 +6252,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 25.442584436666664
+      "hours_old": 29.616314903611112
     },
     {
       "id": "image:9498686",
@@ -6094,7 +6278,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.44277281833333
+      "hours_old": 29.61647907277778
     },
     {
       "id": "video:994324",
@@ -6118,7 +6302,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.525474635
+      "hours_old": 29.699159773055555
     },
     {
       "id": "video:994323",
@@ -6142,7 +6326,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.52547464027778
+      "hours_old": 29.699159777777776
     },
     {
       "id": "image:9498638",
@@ -6164,7 +6348,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.97825030222222
+      "hours_old": 30.152027349166666
     },
     {
       "id": "image:9498636",
@@ -6186,7 +6370,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.97825030555556
+      "hours_old": 30.1520273525
     },
     {
       "id": "image:9498635",
@@ -6208,7 +6392,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.978250308333333
+      "hours_old": 30.152027355555553
     },
     {
       "id": "image:9498633",
@@ -6230,7 +6414,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.97825031138889
+      "hours_old": 30.15202735861111
     },
     {
       "id": "image:9498631",
@@ -6252,7 +6436,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.978250314166665
+      "hours_old": 30.15202736166667
     },
     {
       "id": "image:9498627",
@@ -6274,7 +6458,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.978250317222223
+      "hours_old": 30.152027364722223
     },
     {
       "id": "news:557034",
@@ -6302,7 +6486,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.155409224722224
+      "hours_old": 30.32947243111111
     },
     {
       "id": "news:557067",
@@ -6328,7 +6512,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.200212689722225
+      "hours_old": 30.374146801111113
     },
     {
       "id": "image:9498561",
@@ -6350,7 +6534,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.268460800833335
+      "hours_old": 30.442367880555555
     },
     {
       "id": "news:557065",
@@ -6377,7 +6561,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.359853664722223
+      "hours_old": 30.53391688
     },
     {
       "id": "news:557064",
@@ -6406,7 +6590,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.380084441111112
+      "hours_old": 30.553814907777777
     },
     {
       "id": "image:9498557",
@@ -6435,7 +6619,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.384161701666667
+      "hours_old": 30.55786795388889
     },
     {
       "id": "image:9498450",
@@ -6457,7 +6641,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.7638058475
+      "hours_old": 30.937582894444446
     },
     {
       "id": "image:9498436",
@@ -6479,7 +6663,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.76380585111111
+      "hours_old": 30.937582898333332
     },
     {
       "id": "image:9498421",
@@ -6501,7 +6685,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 26.763805854722225
+      "hours_old": 30.937582901666666
     },
     {
       "id": "news:557060",
@@ -6530,7 +6714,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.84660157
+      "hours_old": 31.0205356825
     },
     {
       "id": "news:557059",
@@ -6556,7 +6740,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.867909216388888
+      "hours_old": 31.041972426944444
     },
     {
       "id": "news:557044",
@@ -6580,7 +6764,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.954806698888888
+      "hours_old": 31.128537162222223
     },
     {
       "id": "news:556917",
@@ -6609,7 +6793,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.096323850833333
+      "hours_old": 31.270257951666665
     },
     {
       "id": "news:557055",
@@ -6638,7 +6822,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.252306694444442
+      "hours_old": 31.426037167222223
     },
     {
       "id": "image:9498328",
@@ -6666,7 +6850,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.262495076944447
+      "hours_old": 31.436201315555554
     },
     {
       "id": "news:556996",
@@ -6688,7 +6872,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.53202899277778
+      "hours_old": 31.705759464166665
     },
     {
       "id": "video:994251",
@@ -6717,7 +6901,7 @@
       "duration": 57,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 27.585474627777778
+      "hours_old": 31.759159767222222
     },
     {
       "id": "news:557051",
@@ -6739,7 +6923,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.81314002222222
+      "hours_old": 31.986870490555557
     },
     {
       "id": "image:9498287",
@@ -6761,7 +6945,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.81332837805556
+      "hours_old": 31.987034624722224
     },
     {
       "id": "news:556993",
@@ -6788,7 +6972,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.884020418888888
+      "hours_old": 32.05808363777778
     },
     {
       "id": "news:557046",
@@ -6814,7 +6998,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.424806669444447
+      "hours_old": 32.59853713638889
     },
     {
       "id": "image:9498229",
@@ -6840,7 +7024,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 28.42721729388889
+      "hours_old": 32.60092353361111
     },
     {
       "id": "video:994151",
@@ -6868,7 +7052,7 @@
       "duration": 140,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 28.8254747675
+      "hours_old": 32.99915988777778
     },
     {
       "id": "news:557042",
@@ -6890,7 +7074,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.152909212777775
+      "hours_old": 33.32697244444444
     },
     {
       "id": "news:557040",
@@ -6912,7 +7096,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.19346473
+      "hours_old": 33.3675279475
     },
     {
       "id": "news:557026",
@@ -6940,7 +7124,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.31068702416667
+      "hours_old": 33.48475024
     },
     {
       "id": "news:557037",
@@ -6964,7 +7148,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.586242541666667
+      "hours_old": 33.76030577333333
     },
     {
       "id": "news:557035",
@@ -6993,7 +7177,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.763973390833332
+      "hours_old": 33.93770386
     },
     {
       "id": "news:557032",
@@ -7019,7 +7203,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.806195563055557
+      "hours_old": 33.97992603083333
     },
     {
       "id": "image:9498099",
@@ -7041,7 +7225,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.812217383333333
+      "hours_old": 33.985923541666665
     },
     {
       "id": "news:557024",
@@ -7069,7 +7253,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.021520415
+      "hours_old": 34.19558364416667
     },
     {
       "id": "news:557028",
@@ -7094,7 +7278,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.55929809222222
+      "hours_old": 34.73336131111111
     },
     {
       "id": "news:557023",
@@ -7122,7 +7306,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.777712702500004
+      "hours_old": 39.95164681194445
     },
     {
       "id": "video:994240",
@@ -7150,7 +7334,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.01880802611111
+      "hours_old": 40.19249317166666
     },
     {
       "id": "news:557021",
@@ -7172,7 +7356,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.94647338666667
+      "hours_old": 41.12020385555556
     },
     {
       "id": "video:994222",
@@ -7194,7 +7378,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 37.80880809166667
+      "hours_old": 41.982493231944446
     },
     {
       "id": "video:994223",
@@ -7216,58 +7400,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 37.83380808611111
-    },
-    {
-      "id": "video:994206",
-      "title": "U.S. Under Secretary of War for Policy Visit",
-      "description": "United States Under Secretary of War for Policy Elbridge A. Colby visits the Ministry of National Defense and Camp Humphreys to meet with key leaders across South Korea. Secretary Colby meets with the Minister of National Defense An Gyu-Baek, reassuring the importance of the R.O.K.-U.S. alliance. (U.S. Army video by Sgt. Junseo Lee)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Media Bureau Korea (AFN Pacific)",
-      "date_published": "Jan 29, 2026 05:37 UTC",
-      "timestamp": "2026-01-29T05:37:18+00:00",
-      "country": "South Korea",
-      "state": "",
-      "city": "",
-      "location_display": "South Korea",
-      "url": "https://www.dvidshub.net/video/994206/us-under-secretary-war-policy-visit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994206/DOD_111500053.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Elbridge Colby",
-        "United States of America (United States)"
-      ],
-      "credit": "SGT Jun Seo Lee",
-      "duration": 60,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 39.08853041361111
-    },
-    {
-      "id": "video:994214",
-      "title": "U.S. Under Secretary of War for Policy Speaks at Sejong Institute B-roll",
-      "description": "The Undersecretary of War for Policy, Honorable Elbridge Colby visits the Korean Ministry of National Defense and Sejong Institute in Seoul, on January 26th, 2025. He met with key leaders of the southern peninsula to discuss U.S. President Donald Trumps\u2019 interests of striving for a stable, peaceful, relationship with China and the U.S.\u2019s goal of maintaining peace through strength in the Pacific and protecting the interests of the United States and our allies. (U.S. Army Video by SGT Malik Abdul ...",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Media Bureau Korea (AFN Pacific)",
-      "date_published": "Jan 29, 2026 05:37 UTC",
-      "timestamp": "2026-01-29T05:37:14+00:00",
-      "country": "South Korea",
-      "state": "",
-      "city": "",
-      "location_display": "South Korea",
-      "url": "https://www.dvidshub.net/video/994214/us-under-secretary-war-policy-speaks-sejong-institute-b-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994214/DOD_111500170.0000001/122x92_q95.jpg",
-      "keywords": [
-        "USFK",
-        "INDOPACOM",
-        "South Korea"
-      ],
-      "credit": "SGT Malik Abdul and SGT Jun Seo Lee",
-      "duration": 943,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 39.08964151944444
+      "hours_old": 42.00749322611111
     },
     {
       "id": "image:9497698",
@@ -7289,7 +7422,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.34991701138889
+      "hours_old": 43.523694058333334
     },
     {
       "id": "image:9497701",
@@ -7311,7 +7444,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.34991701611111
+      "hours_old": 43.5236940625
     },
     {
       "id": "image:9497691",
@@ -7333,7 +7466,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.34991701944444
+      "hours_old": 43.52369406611111
     },
     {
       "id": "image:9497682",
@@ -7355,7 +7488,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.34991702333333
+      "hours_old": 43.52369407
     },
     {
       "id": "news:556924",
@@ -7384,7 +7517,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.82402044944444
+      "hours_old": 43.99808367444445
     },
     {
       "id": "video:994226",
@@ -7410,7 +7543,7 @@
       "duration": 483,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 39.866030242222216
+      "hours_old": 44.03971539916666
     },
     {
       "id": "video:994221",
@@ -7439,7 +7572,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.69214142944445
+      "hours_old": 44.865826570277775
     },
     {
       "id": "news:557017",
@@ -7468,7 +7601,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.93929816472222
+      "hours_old": 45.113361382222216
     },
     {
       "id": "news:556930",
@@ -7497,7 +7630,36 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 41.84382384333333
+      "hours_old": 46.01775794555555
+    },
+    {
+      "id": "image:9497566",
+      "title": "Key Leader Engagement with MARFORPAC deputy commander and Dr. Brendan Mulvaney",
+      "description": "Dr. Brendan Mulvaney, left, director, China Aerospace...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces, Pacific",
+      "date_published": "Jan 29, 2026 02:14 UTC",
+      "timestamp": "2026-01-29T02:14:03+00:00",
+      "country": "United States",
+      "state": "Hawaii",
+      "city": "Camp H.M. Smith",
+      "location_display": "Camp H.M. Smith, Hawaii, United States",
+      "url": "https://www.dvidshub.net/image/9497566/key-leader-engagement-with-marforpac-deputy-commander-and-dr-brendan-mulvaney",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9497566/122x92_q95.jpg",
+      "keywords": [
+        "Indo-Pacific",
+        "Interoperability",
+        "Key Leaders",
+        "MARFORPAC",
+        "USMC",
+        "CASI"
+      ],
+      "credit": "LCpl Roger Annoh",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 46.64847898805555
     },
     {
       "id": "image:9497483",
@@ -7519,7 +7681,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 43.768528055833336
+      "hours_old": 47.94230510222222
     },
     {
       "id": "image:9497482",
@@ -7541,7 +7703,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 43.76852806
+      "hours_old": 47.942305106388886
     },
     {
       "id": "image:9497480",
@@ -7565,7 +7727,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 43.768528063055555
+      "hours_old": 47.94230510972222
     },
     {
       "id": "image:9497479",
@@ -7587,7 +7749,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 43.76852806666667
+      "hours_old": 47.94230511333333
     },
     {
       "id": "image:9497396",
@@ -7614,7 +7776,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.93241699111111
+      "hours_old": 49.10619403888889
     },
     {
       "id": "image:9497394",
@@ -7636,7 +7798,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.932416994444445
+      "hours_old": 49.10619404222222
     },
     {
       "id": "image:9497392",
@@ -7663,7 +7825,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.9324169975
+      "hours_old": 49.106194045555554
     },
     {
       "id": "image:9497388",
@@ -7690,7 +7852,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.932417004166666
+      "hours_old": 49.10619405166666
     },
     {
       "id": "image:9497398",
@@ -7712,7 +7874,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.93269476472222
+      "hours_old": 49.106471813055556
     },
     {
       "id": "image:9497390",
@@ -7734,7 +7896,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.932694778888894
+      "hours_old": 49.10647182638888
     },
     {
       "id": "video:994086",
@@ -7758,7 +7920,7 @@
       "duration": 223,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.412820745
+      "hours_old": 49.58669964638889
     },
     {
       "id": "news:557009",
@@ -7780,7 +7942,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.20068703388889
+      "hours_old": 50.37475025
     },
     {
       "id": "video:994193",
@@ -7807,7 +7969,7 @@
       "duration": 216,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.3153206825
+      "hours_old": 50.48919959611111
     },
     {
       "id": "video:994197",
@@ -7831,7 +7993,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.99214137444445
+      "hours_old": 51.16582648777778
     },
     {
       "id": "video:994196",
@@ -7853,7 +8015,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.00880804527778
+      "hours_old": 51.182493158611116
     },
     {
       "id": "video:994195",
@@ -7877,7 +8039,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.00880804916667
+      "hours_old": 51.18249316222222
     },
     {
       "id": "video:994194",
@@ -7905,7 +8067,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.413808035277775
+      "hours_old": 51.587493166111116
     },
     {
       "id": "video:994188",
@@ -7932,7 +8094,7 @@
       "duration": 135,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.85032066055556
+      "hours_old": 52.02419957916667
     },
     {
       "id": "video:994186",
@@ -7959,7 +8121,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.00816218777778
+      "hours_old": 52.18191315277778
     },
     {
       "id": "news:556984",
@@ -7981,7 +8143,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.248464855
+      "hours_old": 52.4225280775
     },
     {
       "id": "video:994181",
@@ -8005,7 +8167,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.49186357055555
+      "hours_old": 52.66554870527778
     },
     {
       "id": "news:556975",
@@ -8027,7 +8189,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.64679824527777
+      "hours_old": 52.820861470555556
     },
     {
       "id": "news:556980",
@@ -8056,7 +8218,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.2198067375
+      "hours_old": 53.39353720277777
     },
     {
       "id": "video:994167",
@@ -8082,7 +8244,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.532328866388895
+      "hours_old": 53.70607982944444
     },
     {
       "id": "image:9496806",
@@ -8104,7 +8266,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 49.61075039972222
+      "hours_old": 53.78452744333333
     },
     {
       "id": "image:9496803",
@@ -8126,7 +8288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.61102818083334
+      "hours_old": 53.78480522444444
     },
     {
       "id": "image:9496801",
@@ -8148,7 +8310,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 49.61102818361111
+      "hours_old": 53.784805227499994
     },
     {
       "id": "image:9496800",
@@ -8170,7 +8332,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.61102818638889
+      "hours_old": 53.78480523055556
     },
     {
       "id": "image:9496799",
@@ -8192,7 +8354,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.61130596694444
+      "hours_old": 53.78508301111111
     },
     {
       "id": "image:9496798",
@@ -8214,7 +8376,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.611305969722224
+      "hours_old": 53.785083014166666
     },
     {
       "id": "image:9496796",
@@ -8236,7 +8398,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.61130597305555
+      "hours_old": 53.78508301694444
     },
     {
       "id": "image:9496795",
@@ -8258,7 +8420,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.611583753611114
+      "hours_old": 53.78536079944445
     },
     {
       "id": "video:994166",
@@ -8284,7 +8446,7 @@
       "duration": 105,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.64871777888889
+      "hours_old": 53.822468736388885
     },
     {
       "id": "news:556973",
@@ -8306,7 +8468,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.92318712
+      "hours_old": 54.097250345
     },
     {
       "id": "video:994035",
@@ -8335,7 +8497,7 @@
       "duration": 301,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.94476513888889
+      "hours_old": 54.11864405861112
     },
     {
       "id": "image:9496784",
@@ -8357,7 +8519,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.97991703694444
+      "hours_old": 54.15369408
     },
     {
       "id": "image:9496786",
@@ -8379,7 +8541,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.98019481138889
+      "hours_old": 54.15397185416666
     },
     {
       "id": "news:556968",
@@ -8408,7 +8570,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.06040929027778
+      "hours_old": 54.23447251666666
     },
     {
       "id": "video:994162",
@@ -8434,7 +8596,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.08677332111111
+      "hours_old": 54.26052428027777
     },
     {
       "id": "news:556971",
@@ -8462,7 +8624,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.69290926722222
+      "hours_old": 54.86697248388889
     },
     {
       "id": "news:556970",
@@ -8484,7 +8646,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.09235373055556
+      "hours_old": 55.26641694833334
     },
     {
       "id": "news:556960",
@@ -8508,7 +8670,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.612353739444444
+      "hours_old": 55.78641695666667
     },
     {
       "id": "news:556966",
@@ -8535,7 +8697,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.654298169722225
+      "hours_old": 55.828361387499996
     },
     {
       "id": "news:556961",
@@ -8562,7 +8724,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.426195637777774
+      "hours_old": 56.59992610361111
     },
     {
       "id": "video:994129",
@@ -8587,7 +8749,7 @@
       "duration": 155,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 52.923617230000005
+      "hours_old": 57.09757889305556
     },
     {
       "id": "news:556894",
@@ -8615,7 +8777,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.93786231666667
+      "hours_old": 58.11159278611111
     },
     {
       "id": "news:556945",
@@ -8639,7 +8801,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 54.22874266666667
+      "hours_old": 58.40280589138889
     },
     {
       "id": "news:556943",
@@ -8666,7 +8828,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.714657162777776
+      "hours_old": 58.88859126916667
     },
     {
       "id": "video:994114",
@@ -8690,7 +8852,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.03908583694445
+      "hours_old": 59.212770971944444
     },
     {
       "id": "video:994113",
@@ -8712,7 +8874,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.03908584333333
+      "hours_old": 59.21277097805555
     },
     {
       "id": "video:994112",
@@ -8736,7 +8898,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.039085848611116
+      "hours_old": 59.21277098388889
     },
     {
       "id": "news:556939",
@@ -8758,7 +8920,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.57980672888889
+      "hours_old": 59.753537198611106
     },
     {
       "id": "news:556936",
@@ -8782,127 +8944,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.22263154972222
-    },
-    {
-      "id": "video:994089",
-      "title": "Holistic Health and Fitness Satellite Academy Grand Opening Ceremony (A-Roll)",
-      "description": "A grand opening ceremony for the Holistic Health and Fitness Satellite Academy was held on Jan. 26, 2026, at Rhine Ordnance Barracks, Germany. U.S. Army Brig. Gen. Andrew Cecil, U.S. Army Europe and Africa Deputy Commander for Mobilization and Reserve Affairs, details the importance of the opening of the Holistic Health and Fitness Satellite Academy in the Kaiserslautern Military Community. (Defense Media Activity video by Airman 1st Class Ivory Stoker)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "date_published": "Jan 28, 2026 09:08 UTC",
-      "timestamp": "2026-01-28T09:08:47+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "",
-      "location_display": "Germany",
-      "url": "https://www.dvidshub.net/video/994089/holistic-health-and-fitness-satellite-academy-grand-opening-ceremony-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994089/DOD_111498590.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Holistic Health and Fitness Satellite Academy"
-      ],
-      "credit": "A1C Ivory Stoker",
-      "duration": 268,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 59.56380817055556
-    },
-    {
-      "id": "video:994090",
-      "title": "Holistic Health and Fitness Satellite Academy Grand Opening Ceremony (A-Roll)",
-      "description": "A grand opening ceremony for the Holistic Health and Fitness Satellite Academy was held on Jan. 26, 2026, at Rhine Ordnance Barracks, Germany. Sky Clarke, U.S. Army Europe and Africa Holistic Health and Fitness program manager, details the importance of the opening of the Holistic Health and Fitness Satellite Academy in the Kaiserslautern Military Community. (Defense Media Activity video by Airman 1st Class Ivory Stoker)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "date_published": "Jan 28, 2026 09:08 UTC",
-      "timestamp": "2026-01-28T09:08:46+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "",
-      "location_display": "Germany",
-      "url": "https://www.dvidshub.net/video/994090/holistic-health-and-fitness-satellite-academy-grand-opening-ceremony-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994090/DOD_111498592.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Holistic Health and Fitness Satellite Academy"
-      ],
-      "credit": "A1C Ivory Stoker",
-      "duration": 172,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 59.56408594416667
-    },
-    {
-      "id": "video:994092",
-      "title": "Holistic Health and Fitness Satellite Academy Grand Opening Ceremony (A-Roll)",
-      "description": "A grand opening ceremony for the Holistic Health and Fitness Satellite Academy was held on Jan. 26, 2026, at Rhine Ordnance Barracks, Germany. U.S. Army Command Sgt. Maj. Christopher Mullinax, U.S. Army Europe and Africa Command Sergeant Major, details the importance of the opening of the Holistic Health and Fitness Satellite Academy in the Kaiserslautern Military Community. (Defense Media Activity video by Airman 1st Class Ivory Stoker)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "date_published": "Jan 28, 2026 09:08 UTC",
-      "timestamp": "2026-01-28T09:08:36+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "",
-      "location_display": "Germany",
-      "url": "https://www.dvidshub.net/video/994092/holistic-health-and-fitness-satellite-academy-grand-opening-ceremony-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994092/DOD_111498595.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Holistic Health and Fitness Satellite Academy"
-      ],
-      "credit": "A1C Ivory Stoker",
-      "duration": 196,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 59.56686373416667
-    },
-    {
-      "id": "video:994094",
-      "title": "Holistic Health and Fitness Satellite Academy Grand Opening Ceremony (A-Roll)",
-      "description": "A grand opening ceremony for the Holistic Health and Fitness Satellite Academy was held on Jan. 26, 2026, at Rhine Ordnance Barracks, Germany. U.S. Army Sgt. 1st Class Brett Sheehey, U.S. Army Europe and Africa Holistic Health and Fitness instructor, details the importance of the opening of the Holistic Health and Fitness Satellite Academy in the Kaiserslautern Military Community. (Defense Media Activity video by Airman 1st Class Ivory Stoker)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "date_published": "Jan 28, 2026 09:08 UTC",
-      "timestamp": "2026-01-28T09:08:26+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "",
-      "location_display": "Germany",
-      "url": "https://www.dvidshub.net/video/994094/holistic-health-and-fitness-satellite-academy-grand-opening-ceremony-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994094/DOD_111498623.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Holistic Health and Fitness Satellite Academy"
-      ],
-      "credit": "A1C Ivory Stoker",
-      "duration": 170,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 59.56964150805556
-    },
-    {
-      "id": "video:994096",
-      "title": "Holistic Health and Fitness Satellite Academy Grand Opening Ceremony (B-Roll)",
-      "description": "A grand opening ceremony for the Holistic Health and Fitness Satellite Academy was held on Jan. 26, 2026, at Rhine Ordnance Barracks, Germany. The H2F Satellite Academy will allow for up to 400 H2F integrators annually which will allow for increased lethality. (Defense Media Activity video by Staff Sgt. Juliana Londono)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "date_published": "Jan 28, 2026 09:08 UTC",
-      "timestamp": "2026-01-28T09:08:22+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "",
-      "location_display": "Germany",
-      "url": "https://www.dvidshub.net/video/994096/holistic-health-and-fitness-satellite-academy-grand-opening-ceremony-b-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994096/DOD_111498626.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Holistic Health and Fitness Satellite Academy"
-      ],
-      "credit": "SSgt Juliana Londono",
-      "duration": 343,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 59.57075262666667
+      "hours_old": 62.396694773888896
     },
     {
       "id": "news:556929",
@@ -8931,7 +8973,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.2973537675
+      "hours_old": 65.47141699166667
     },
     {
       "id": "news:556931",
@@ -8960,7 +9002,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.372353761944446
+      "hours_old": 65.54641698750001
     },
     {
       "id": "video:994076",
@@ -8985,7 +9027,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.82519700722222
+      "hours_old": 66.99888214333333
     },
     {
       "id": "video:994068",
@@ -9014,7 +9056,7 @@
       "duration": 168,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.7828207025
+      "hours_old": 67.95669960861112
     },
     {
       "id": "video:994067",
@@ -9043,7 +9085,7 @@
       "duration": 213,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.37393178472222
+      "hours_old": 68.5478107
     },
     {
       "id": "news:556927",
@@ -9072,7 +9114,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.99318709027779
+      "hours_old": 70.16725031583333
     },
     {
       "id": "news:556910",
@@ -9097,7 +9139,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.69980675305555
+      "hours_old": 73.87353721916666
     },
     {
       "id": "video:994013",
@@ -9119,7 +9161,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 70.95361724222222
+      "hours_old": 75.12757890916667
     },
     {
       "id": "news:556904",
@@ -9141,7 +9183,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.72207601361112
+      "hours_old": 75.89613923861111
     },
     {
       "id": "image:9494916",
@@ -9166,7 +9208,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 73.95158369666667
+      "hours_old": 78.12536073972223
     },
     {
       "id": "video:993982",
@@ -9194,7 +9236,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 74.02297474666666
+      "hours_old": 78.19665988222222
     },
     {
       "id": "video:993977",
@@ -9222,7 +9264,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 74.02853036861111
+      "hours_old": 78.20221550111111
     },
     {
       "id": "news:556775",
@@ -9251,7 +9293,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 74.4348068336111
+      "hours_old": 78.60853727333334
     },
     {
       "id": "video:993902",
@@ -9280,7 +9322,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.06865404999999
+      "hours_old": 79.24253295222223
     },
     {
       "id": "video:993790",
@@ -9309,7 +9351,7 @@
       "duration": 185,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.32504295388888
+      "hours_old": 80.49892186277778
     },
     {
       "id": "video:993939",
@@ -9335,7 +9377,7 @@
       "duration": 537,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.82908585361112
+      "hours_old": 81.00277098888888
     },
     {
       "id": "news:556860",
@@ -9364,7 +9406,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.35258454333332
+      "hours_old": 81.52631501361111
     },
     {
       "id": "video:993922",
@@ -9389,7 +9431,7 @@
       "duration": 39,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.25472835694444
+      "hours_old": 82.42869002444445
     },
     {
       "id": "news:556762",
@@ -9416,7 +9458,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.6006401436111
+      "hours_old": 82.77437065694444
     },
     {
       "id": "news:556763",
@@ -9438,7 +9480,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.61814013916666
+      "hours_old": 82.79187065277777
     },
     {
       "id": "news:556766",
@@ -9460,7 +9502,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.71425127444445
+      "hours_old": 82.88798176027778
     },
     {
       "id": "news:556769",
@@ -9487,7 +9529,34 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.76786241111111
+      "hours_old": 82.94159285083335
+    },
+    {
+      "id": "news:556783",
+      "title": "TRICARE authorizes temporary prescription refill waivers for Delaware due to severe weather",
+      "description": "FALLS CHURCH, Virginia \u2013 The Defense Health Agency announced that TRICARE beneficiaries in Delaware may receive emergency prescription refills now through Feb. 4, due to severe weather.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Defense Health Agency",
+      "date_published": "Jan 27, 2026 13:55 UTC",
+      "timestamp": "2026-01-27T13:55:24+00:00",
+      "country": "United States",
+      "state": "Delaware",
+      "city": "",
+      "location_display": "Delaware, United States",
+      "url": "https://www.dvidshub.net/news/556783/tricare-authorizes-temporary-prescription-refill-waivers-delaware-due-severe-weather",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2306/7855365/122x92_q95.jpg",
+      "keywords": [
+        "DHA Spotlight",
+        "disaster alert",
+        "TRICARE  Defense Health Agency",
+        "pharmacy"
+      ],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 82.96020396583333
     },
     {
       "id": "news:556787",
@@ -9509,7 +9578,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.80980682222223
+      "hours_old": 82.98353730777778
     },
     {
       "id": "news:556790",
@@ -9531,7 +9600,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.81564015166667
+      "hours_old": 82.98937063638888
     },
     {
       "id": "news:556784",
@@ -9553,7 +9622,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.82397349277778
+      "hours_old": 82.99770397861111
     },
     {
       "id": "news:556811",
@@ -9580,34 +9649,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.87480685083332
-    },
-    {
-      "id": "news:556852",
-      "title": "Hoosier National Guardsmen conclude severe winter weather response",
-      "description": "Indiana National Guardsmen are scheduled to conclude their severe winter weather response mission, Jan. 27, 2026, following several days of support to civil authorities during a winter weather event impacting central and southern Indiana.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Indiana National Guard Headquarters",
-      "date_published": "Jan 27, 2026 13:48 UTC",
-      "timestamp": "2026-01-27T13:48:55+00:00",
-      "country": "United States",
-      "state": "Indiana",
-      "city": "Indianapolis",
-      "location_display": "Indianapolis, Indiana, United States",
-      "url": "https://www.dvidshub.net/news/556852/hoosier-national-guardsmen-conclude-severe-winter-weather-response",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9493271/122x92_q95.jpg",
-      "keywords": [
-        "Indiana National Guard",
-        "National Guard Bureau",
-        "Operation Southern Snow 2026",
-        "Operation Southern Snow"
-      ],
-      "credit": "SGT Skyler Schendt",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 78.89452903666665
+      "hours_old": 83.04853727861112
     },
     {
       "id": "news:556812",
@@ -9629,7 +9671,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.95647351222223
+      "hours_old": 83.13020395777778
     },
     {
       "id": "news:556817",
@@ -9651,7 +9693,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.02314017500001
+      "hours_old": 83.19687061638888
     },
     {
       "id": "video:993913",
@@ -9678,36 +9720,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 84.06528391638889
-    },
-    {
-      "id": "news:556844",
-      "title": "Modernization in Motion: Navy Tears Down Aging Barracks in Naples",
-      "description": "Naval Facilities Engineering Systems Command Europe, Africa, Central began demolishing a six-story barracks aboard Naval Support Activity Naples Jan. 22, 2026.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval Facilities Engineering Systems Command Europe Africa Central",
-      "date_published": "Jan 27, 2026 07:06 UTC",
-      "timestamp": "2026-01-27T07:06:07+00:00",
-      "country": "Italy",
-      "state": "",
-      "city": "Naples",
-      "location_display": "Naples, Italy",
-      "url": "https://www.dvidshub.net/news/556844/modernization-motion-navy-tears-down-aging-barracks-naples",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9494053/122x92_q95.jpg",
-      "keywords": [
-        "nsa-naples",
-        "navfac-eurafcent",
-        "shore-facilities",
-        "naval-facilities-engineering-command-navfac",
-        "defense-infrastructure",
-        "lifecycle-technical-solutions"
-      ],
-      "credit": "Anthony Cage",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 85.60596491583334
+      "hours_old": 88.23924558416667
     },
     {
       "id": "news:556842",
@@ -9734,7 +9747,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 87.48513157388889
+      "hours_old": 91.65919479916666
     },
     {
       "id": "news:556834",
@@ -9756,7 +9769,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.41119568694444
+      "hours_old": 96.58492615888889
     },
     {
       "id": "news:556832",
@@ -9781,7 +9794,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.63980683805555
+      "hours_old": 96.8135372875
     },
     {
       "id": "news:556829",
@@ -9807,60 +9820,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.55425121916666
-    },
-    {
-      "id": "video:993862",
-      "title": "Minnesota National Guard Supports Community",
-      "description": "Soldiers in the Minnesota National Guard provide free coffee and donuts to community members in Minneapolis, Minnesota, on January 25th, 2026. Minnesota National Guardsmen live, work, and serve in Minnesota. (Minnesota National Guard Photo by Army Staff Sgt. Jorden Newbanks).",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Minnesota National Guard",
-      "date_published": "Jan 26, 2026 22:22 UTC",
-      "timestamp": "2026-01-26T22:22:06+00:00",
-      "country": "United States",
-      "state": "Minnesota",
-      "city": "Minneapolis",
-      "location_display": "Minneapolis, Minnesota, United States",
-      "url": "https://www.dvidshub.net/video/993862/minnesota-national-guard-supports-community",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993862/DOD_111495709.0000001/122x92_q95.jpg",
-      "keywords": [
-        "state active duty",
-        "Minnesota  National Guard"
-      ],
-      "credit": "SSG Jorden Newbanks",
-      "duration": 59,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 94.34186375083334
-    },
-    {
-      "id": "news:556809",
-      "title": "Marine Veteran Brings Global Experience to Lead NAVFAC Washington Public Works",
-      "description": "Scott Kozenski brings more than two decades of construction management and facilities leadership experience to Naval Facilities Engineering Systems Command (NAVFAC) Washington as its new Public Works Director. \n\nKozenski transitions to support critical Navy infrastructure in the National Capital Region from Naval Weapons Station Yorktown, where he served as deputy public works officer supervising more than 130 employees across production, facilities management, environmental divisions and constr...",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval Facilities Engineering Systems Command Washington",
-      "date_published": "Jan 26, 2026 20:29 UTC",
-      "timestamp": "2026-01-26T20:29:11+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/news/556809/marine-veteran-brings-global-experience-lead-navfac-washington-public-works",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9493222/122x92_q95.jpg",
-      "keywords": [
-        "NAVFAC",
-        "NAVFAC Washington",
-        "Public Works Director",
-        "Construction",
-        "U.S. Navy"
-      ],
-      "credit": "Natasha Waldron Anthony",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 96.22152047555555
+      "hours_old": 97.72798169055555
     },
     {
       "id": "news:556802",
@@ -9886,7 +9846,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.60773099666666
+      "hours_old": 100.7815863363889
     },
     {
       "id": "news:556806",
@@ -9915,7 +9875,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.86425122305555
+      "hours_old": 101.03798169472222
     },
     {
       "id": "news:556733",
@@ -9942,7 +9902,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.052453225
+      "hours_old": 101.22630856416667
     },
     {
       "id": "video:993835",
@@ -9966,7 +9926,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 97.12214146333332
+      "hours_old": 101.29582659583333
     },
     {
       "id": "video:993833",
@@ -9990,7 +9950,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 97.12214146777777
+      "hours_old": 101.29582660027778
     },
     {
       "id": "video:993834",
@@ -10014,7 +9974,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 97.12214147555557
+      "hours_old": 101.29582660416666
     },
     {
       "id": "news:556795",
@@ -10043,7 +10003,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 98.03147345000001
+      "hours_old": 102.20520392222221
     },
     {
       "id": "news:556773",
@@ -10072,32 +10032,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 98.47952900944445
-    },
-    {
-      "id": "news:556768",
-      "title": "Walter\u2019s Way: Provider Leadership Driving Patient Access",
-      "description": "Walter\u2019s Way did not begin as a finished program. It began as a provider-led vision shaped by multiple clinicians, including Deputy Director for Medical Services U.S. Army Lt. Col. Elizabeth Simmons, one of the original leaders who helped spearhead the model at Walter Reed National Military Medical Center.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Walter Reed National Military Medical Center",
-      "date_published": "Jan 26, 2026 16:54 UTC",
-      "timestamp": "2026-01-26T16:54:13+00:00",
-      "country": "United States",
-      "state": "Maryland",
-      "city": "Bethesda",
-      "location_display": "Bethesda, Maryland, United States",
-      "url": "https://www.dvidshub.net/news/556768/walters-way-provider-leadership-driving-patient-access",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/graphics/2512/39876/122x92_q95.jpg",
-      "keywords": [
-        "Walter Reed National Military Medical Center",
-        "Walter's Way"
-      ],
-      "credit": "Roan Smith",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 99.80619569000001
+      "hours_old": 102.65325948166668
     },
     {
       "id": "news:556749",
@@ -10126,7 +10061,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.01397346027778
+      "hours_old": 106.18770393222223
     },
     {
       "id": "video:993803",
@@ -10150,7 +10085,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 102.12047480527777
+      "hours_old": 106.29415994166666
     },
     {
       "id": "video:993783",
@@ -10172,29 +10107,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.55880810972222
-    },
-    {
-      "id": "video:993786",
-      "title": "NATO's presence in Romania master",
-      "description": "NATO\u2019s forces in Romania stand ready to enhance security in the Black Sea Region.\n\nFollowing Russia\u2019s full-scale invasion of Ukraine in 2022, Allies agreed to establish a multinational force in Romania. A NATO battlegroup led by the French Army was established at Cincu Training Area. With artillery, heavy armour, reconnaissance troops and mechanised infantry, these forces are a potent deterrent to aggression \u2013 but in the event of a crisis, they can also absorb thousands more troops and grow in s...",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Natochannel",
-      "date_published": "Jan 26, 2026 10:09 UTC",
-      "timestamp": "2026-01-26T10:09:05+00:00",
-      "country": "Romania",
-      "state": "",
-      "city": "",
-      "location_display": "Romania",
-      "url": "https://www.dvidshub.net/video/993786/natos-presence-romania-master",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993786/DOD_111494436.0000001/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": 72,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 106.55880815555555
+      "hours_old": 110.73249324555556
     },
     {
       "id": "video:993785",
@@ -10216,7 +10129,29 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.55880816083334
+      "hours_old": 110.73249328944443
+    },
+    {
+      "id": "video:993786",
+      "title": "NATO's presence in Romania master",
+      "description": "NATO\u2019s forces in Romania stand ready to enhance security in the Black Sea Region.\n\nFollowing Russia\u2019s full-scale invasion of Ukraine in 2022, Allies agreed to establish a multinational force in Romania. A NATO battlegroup led by the French Army was established at Cincu Training Area. With artillery, heavy armour, reconnaissance troops and mechanised infantry, these forces are a potent deterrent to aggression \u2013 but in the event of a crisis, they can also absorb thousands more troops and grow in s...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Natochannel",
+      "date_published": "Jan 26, 2026 10:09 UTC",
+      "timestamp": "2026-01-26T10:09:05+00:00",
+      "country": "Romania",
+      "state": "",
+      "city": "",
+      "location_display": "Romania",
+      "url": "https://www.dvidshub.net/video/993786/natos-presence-romania-master",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993786/DOD_111494436.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "",
+      "duration": 72,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 110.73249329583334
     },
     {
       "id": "video:993773",
@@ -10245,7 +10180,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 112.07809848777778
+      "hours_old": 116.25197740222222
     },
     {
       "id": "video:993774",
@@ -10274,35 +10209,7 @@
       "duration": 111,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 112.08254294666666
-    },
-    {
-      "id": "video:993758",
-      "title": "JTF - DC assists during winter storm",
-      "description": "U.S. Army and Air National Guard members assigned to Joint Task Force\u2013District of Columbia continue the D.C. Safe and Beautiful mission while supporting District authorities during a significant winter storm in Washington, D.C., Jan. 25, 2026. The National Guard\u2019s unique capabilities and long-standing role in civil support enable it to assist local communities and civil authorities during severe weather and emergency conditions. (U.S. Air National Guard video by Tech. Sgt. Andrew Enriquez)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 25, 2026 22:07 UTC",
-      "timestamp": "2026-01-25T22:07:45+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/video/993758/jtf-dc-assists-during-winter-storm",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993758/DOD_111494066.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Snow",
-        "Winter storm",
-        "JTFDC",
-        "DCNG",
-        "DCSAFE"
-      ],
-      "credit": "TSgt Andrew Enriquez",
-      "duration": 94,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 118.58103042138889
+      "hours_old": 116.2564218513889
     },
     {
       "id": "video:993741",
@@ -10331,7 +10238,7 @@
       "duration": 56,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 134.23726518305554
+      "hours_old": 138.4111440952778
     },
     {
       "id": "news:556724",
@@ -10358,7 +10265,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 142.07937942027777
+      "hours_old": 146.25331352027777
     }
   ]
 }
