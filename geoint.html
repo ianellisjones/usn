@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEOINT Dashboard - Fleet, DVIDS & Intel</title>
+    <title>IEJ Dashboard - Fleet, DVIDS & Intel</title>
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -83,8 +83,6 @@
             background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
             color: #0a0a0f;
         }
-
-        .tab-btn .tab-icon { font-size: 14px; }
 
         .timestamp {
             font-size: 11px;
@@ -713,19 +711,13 @@
         <header class="header">
             <div class="header-left">
                 <div>
-                    <div class="logo">GEOINT DASHBOARD</div>
+                    <div class="logo">IEJ DASHBOARD</div>
                     <div class="logo-sub">Fleet Tracking | DVIDS Intel | Breaking News</div>
                 </div>
                 <nav class="tab-nav">
-                    <button class="tab-btn active" data-tab="fleet">
-                        <span class="tab-icon">&#9875;</span> Fleet Tracker
-                    </button>
-                    <button class="tab-btn" data-tab="dvids">
-                        <span class="tab-icon">&#128240;</span> DVIDS Aggregator
-                    </button>
-                    <button class="tab-btn" data-tab="news">
-                        <span class="tab-icon">&#127760;</span> Breaking News
-                    </button>
+                    <button class="tab-btn active" data-tab="fleet">Fleet Tracker</button>
+                    <button class="tab-btn" data-tab="dvids">DVIDS Aggregator</button>
+                    <button class="tab-btn" data-tab="news">Breaking News</button>
                 </nav>
             </div>
             <div class="status-bar" id="statusBar">
@@ -742,12 +734,7 @@
                     <div class="stat-label">Amphibs</div>
                 </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 16px;">
-                <button class="carrier-btn" onclick="showCarrierModal()" id="carrierBtn">Where are the carriers?</button>
-                <div class="timestamp">
-                    Last Update: <span id="lastUpdate">2026-01-31 19:22 UTC</span>
-                </div>
-            </div>
+            <button class="carrier-btn" onclick="showCarrierModal()" id="carrierBtn">Where are the carriers?</button>
         </header>
 
         <!-- Fleet Tracker Tab -->
@@ -790,7 +777,10 @@
                         </div>
                         <div class="detail-status" id="fleetDetailStatus">-</div>
                     </div>
-                    <div class="attribution">Created by @ianellisjones and IEJ Media</div>
+                    <div class="attribution">
+                        <div>Created by @ianellisjones and IEJ Media</div>
+                        <div class="timestamp">Last Update: <span id="lastUpdateFleet">-</span></div>
+                    </div>
                 </div>
             </div>
 
@@ -850,7 +840,10 @@
                         <div class="detail-status" id="dvidsDetailDesc">-</div>
                         <a href="#" class="detail-link" id="dvidsDetailLink" target="_blank">View on DVIDS &#8594;</a>
                     </div>
-                    <div class="attribution">Data from DVIDS | Created by IEJ Media</div>
+                    <div class="attribution">
+                        <div>Data from DVIDS | Created by IEJ Media</div>
+                        <div class="timestamp">Last Update: <span id="lastUpdateDvids">-</span></div>
+                    </div>
                 </div>
             </div>
 
@@ -874,7 +867,10 @@
                         <button class="filter-btn" data-filter="mideast">Mid East</button>
                     </div>
                     <div class="news-list" id="newsList"></div>
-                    <div class="attribution">AI-Aggregated Intel | Created by IEJ Media</div>
+                    <div class="attribution">
+                        <div>AI-Aggregated Intel | Created by IEJ Media</div>
+                        <div class="timestamp">Last Update: <span id="lastUpdateNews">-</span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -973,13 +969,17 @@
             initTabs();
             initFleetTracker();
             loadDvidsData();
-            initNewsSection();
+            loadNewsData();
             updateTimestamp();
         });
 
         function updateTimestamp() {
             const now = new Date();
-            document.getElementById('lastUpdate').textContent = now.toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
+            const ts = now.toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
+            ['lastUpdateFleet', 'lastUpdateDvids', 'lastUpdateNews'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = ts;
+            });
         }
 
         // ============================================================================
@@ -1016,9 +1016,9 @@
             document.getElementById('carrierBtn').style.display = tab === 'fleet' ? 'block' : 'none';
 
             // Initialize globe for the active tab if needed
-            if (tab === 'dvids' && !document.getElementById('dvidsGlobe').hasChildNodes()) {
+            if (tab === 'dvids') {
                 initDvidsGlobe();
-            } else if (tab === 'news' && !document.getElementById('newsGlobe').hasChildNodes()) {
+            } else if (tab === 'news') {
                 initNewsGlobe();
             }
         }
@@ -1229,16 +1229,39 @@
         // DVIDS AGGREGATOR
         // ============================================================================
 
+        let dvidsGlobeInitialized = false;
+
         async function loadDvidsData() {
             try {
+                // Try to load from local file first
                 const response = await fetch('dvids_data.json');
                 if (response.ok) {
                     dvidsData = await response.json();
-                    initDvidsSection();
+                    console.log('Loaded DVIDS data:', dvidsData.total_count, 'items');
+
+                    // Update timestamp if available from data
+                    if (dvidsData.timestamp) {
+                        const el = document.getElementById('lastUpdateDvids');
+                        if (el) el.textContent = dvidsData.timestamp.slice(0, 16).replace('T', ' ') + ' UTC';
+                    }
                 }
             } catch (error) {
-                console.log('DVIDS data not available, using placeholder');
-                initDvidsSection();
+                console.log('DVIDS data not available locally, trying GitHub Pages...');
+                try {
+                    const ghResponse = await fetch('https://ianellisjones.github.io/usn/dvids_data.json');
+                    if (ghResponse.ok) {
+                        dvidsData = await ghResponse.json();
+                        console.log('Loaded DVIDS data from GitHub:', dvidsData.total_count, 'items');
+                    }
+                } catch (e) {
+                    console.log('Could not load DVIDS data from GitHub either');
+                }
+            }
+
+            initDvidsSection();
+            // Update status bar if on DVIDS tab
+            if (activeTab === 'dvids') {
+                updateStatusBar('dvids');
             }
         }
 
@@ -1250,72 +1273,88 @@
         }
 
         function initDvidsGlobe() {
+            if (dvidsGlobeInitialized) return;
+            dvidsGlobeInitialized = true;
+
             const items = dvidsData.items || [];
-
-            // Group items by country
-            const byCountry = {};
-            items.forEach(item => {
-                const country = item.country || 'Unknown';
-                if (!byCountry[country]) byCountry[country] = [];
-                byCountry[country].push(item);
-            });
-
-            // Create traces for each content type
-            const newsItems = [];
-            const imageItems = [];
-            const videoItems = [];
-
-            Object.entries(byCountry).forEach(([country, countryItems]) => {
-                const coords = locationCoords[country];
-                if (!coords) return;
-
-                // Add small offset for each item to spread them out
-                countryItems.forEach((item, idx) => {
-                    const offset = (idx * 0.5) - (countryItems.length * 0.25);
-                    const itemWithCoords = {
-                        ...item,
-                        lat: coords.lat + offset,
-                        lon: coords.lon + (offset * 0.5)
-                    };
-
-                    if (item.type === 'news') newsItems.push(itemWithCoords);
-                    else if (item.type === 'image') imageItems.push(itemWithCoords);
-                    else if (item.type === 'video') videoItems.push(itemWithCoords);
-                });
-            });
-
             const traces = [];
 
-            if (newsItems.length > 0) {
-                traces.push({
-                    type: 'scattergeo', mode: 'markers',
-                    lat: newsItems.map(i => i.lat), lon: newsItems.map(i => i.lon),
-                    hoverinfo: 'text',
-                    hovertext: newsItems.map(i => `<b>NEWS</b><br>${i.title?.substring(0, 50)}...`),
-                    marker: { size: 8, color: '#ff6b6b', symbol: 'circle', opacity: 0.8 },
-                    name: 'News', customdata: newsItems
+            if (items.length > 0) {
+                // Group items by country
+                const byCountry = {};
+                items.forEach(item => {
+                    const country = item.country || 'Unknown';
+                    if (!byCountry[country]) byCountry[country] = [];
+                    byCountry[country].push(item);
                 });
+
+                // Create traces for each content type
+                const newsItems = [];
+                const imageItems = [];
+                const videoItems = [];
+
+                Object.entries(byCountry).forEach(([country, countryItems]) => {
+                    const coords = locationCoords[country];
+                    if (!coords) return;
+
+                    // Add small offset for each item to spread them out
+                    countryItems.forEach((item, idx) => {
+                        const offset = (idx * 0.5) - (countryItems.length * 0.25);
+                        const itemWithCoords = {
+                            ...item,
+                            lat: coords.lat + offset,
+                            lon: coords.lon + (offset * 0.5)
+                        };
+
+                        if (item.type === 'news') newsItems.push(itemWithCoords);
+                        else if (item.type === 'image') imageItems.push(itemWithCoords);
+                        else if (item.type === 'video') videoItems.push(itemWithCoords);
+                    });
+                });
+
+                if (newsItems.length > 0) {
+                    traces.push({
+                        type: 'scattergeo', mode: 'markers',
+                        lat: newsItems.map(i => i.lat), lon: newsItems.map(i => i.lon),
+                        hoverinfo: 'text',
+                        hovertext: newsItems.map(i => `<b>NEWS</b><br>${i.title?.substring(0, 50)}...`),
+                        marker: { size: 8, color: '#ff6b6b', symbol: 'circle', opacity: 0.8 },
+                        name: 'News', customdata: newsItems
+                    });
+                }
+
+                if (imageItems.length > 0) {
+                    traces.push({
+                        type: 'scattergeo', mode: 'markers',
+                        lat: imageItems.map(i => i.lat), lon: imageItems.map(i => i.lon),
+                        hoverinfo: 'text',
+                        hovertext: imageItems.map(i => `<b>IMAGE</b><br>${i.title?.substring(0, 50)}...`),
+                        marker: { size: 7, color: '#4ecdc4', symbol: 'circle', opacity: 0.8 },
+                        name: 'Images', customdata: imageItems
+                    });
+                }
+
+                if (videoItems.length > 0) {
+                    traces.push({
+                        type: 'scattergeo', mode: 'markers',
+                        lat: videoItems.map(i => i.lat), lon: videoItems.map(i => i.lon),
+                        hoverinfo: 'text',
+                        hovertext: videoItems.map(i => `<b>VIDEO</b><br>${i.title?.substring(0, 50)}...`),
+                        marker: { size: 9, color: '#ffd93d', symbol: 'triangle-up', opacity: 0.8 },
+                        name: 'Videos', customdata: videoItems
+                    });
+                }
             }
 
-            if (imageItems.length > 0) {
+            // Always create globe, even if no data (shows empty globe)
+            if (traces.length === 0) {
+                // Add placeholder trace so globe renders
                 traces.push({
                     type: 'scattergeo', mode: 'markers',
-                    lat: imageItems.map(i => i.lat), lon: imageItems.map(i => i.lon),
-                    hoverinfo: 'text',
-                    hovertext: imageItems.map(i => `<b>IMAGE</b><br>${i.title?.substring(0, 50)}...`),
-                    marker: { size: 7, color: '#4ecdc4', symbol: 'circle', opacity: 0.8 },
-                    name: 'Images', customdata: imageItems
-                });
-            }
-
-            if (videoItems.length > 0) {
-                traces.push({
-                    type: 'scattergeo', mode: 'markers',
-                    lat: videoItems.map(i => i.lat), lon: videoItems.map(i => i.lon),
-                    hoverinfo: 'text',
-                    hovertext: videoItems.map(i => `<b>VIDEO</b><br>${i.title?.substring(0, 50)}...`),
-                    marker: { size: 9, color: '#ffd93d', symbol: 'triangle-up', opacity: 0.8 },
-                    name: 'Videos', customdata: videoItems
+                    lat: [0], lon: [0],
+                    marker: { size: 0, opacity: 0 },
+                    hoverinfo: 'none',
+                    showlegend: false
                 });
             }
 
@@ -1491,20 +1530,93 @@
         // BREAKING NEWS
         // ============================================================================
 
+        let newsGlobeInitialized = false;
+
+        async function loadNewsData() {
+            try {
+                // Try to load news data from local file
+                const response = await fetch('news_data.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    newsData = data;
+                    console.log('Loaded news data');
+                }
+            } catch (error) {
+                console.log('News data not available locally, trying GitHub Pages...');
+                try {
+                    const ghResponse = await fetch('https://ianellisjones.github.io/usn/news_data.json');
+                    if (ghResponse.ok) {
+                        const data = await ghResponse.json();
+                        newsData = data;
+                        console.log('Loaded news data from GitHub');
+                    }
+                } catch (e) {
+                    console.log('Could not load news data, using sample headlines');
+                    // Use sample headlines for demonstration
+                    newsData = {
+                        categories: {
+                            globe: [
+                                { title: "Global tensions rise as trade negotiations stall", source: "Reuters", url: "#", breaking: true },
+                                { title: "UN Security Council convenes emergency session", source: "AP News", url: "#" },
+                                { title: "International climate summit reaches breakthrough agreement", source: "BBC World", url: "#" }
+                            ],
+                            us: [
+                                { title: "Pentagon announces new defense strategy priorities", source: "Defense News", url: "#", breaking: true },
+                                { title: "Navy expands Pacific presence amid regional tensions", source: "Navy Times", url: "#", high: true },
+                                { title: "Congress debates new military funding bill", source: "The Hill", url: "#" }
+                            ],
+                            europe: [
+                                { title: "NATO allies increase defense spending commitments", source: "Stars & Stripes", url: "#" },
+                                { title: "European nations strengthen eastern border security", source: "Politico EU", url: "#" }
+                            ],
+                            asia: [
+                                { title: "Indo-Pacific Command conducts multilateral exercises", source: "PACOM", url: "#", high: true },
+                                { title: "South China Sea tensions escalate following incident", source: "SCMP", url: "#" },
+                                { title: "Japan announces defense modernization plans", source: "Nikkei", url: "#" }
+                            ],
+                            mideast: [
+                                { title: "Fifth Fleet maintains presence in Arabian Gulf", source: "NAVCENT", url: "#" },
+                                { title: "Regional powers engage in diplomatic talks", source: "Al Jazeera", url: "#" }
+                            ],
+                            conflicts: [
+                                { title: "Humanitarian crisis worsens in conflict zone", source: "UN News", url: "#", breaking: true },
+                                { title: "Peacekeeping forces deploy to volatile region", source: "Reuters", url: "#" }
+                            ],
+                            cyber: [
+                                { title: "Major cyber attack targets critical infrastructure", source: "CyberScoop", url: "#", breaking: true },
+                                { title: "Defense agencies enhance cybersecurity protocols", source: "FCW", url: "#" }
+                            ],
+                            finance: [
+                                { title: "Defense stocks surge on new contract announcements", source: "Bloomberg", url: "#" },
+                                { title: "Military budget allocation shifts priorities", source: "Defense One", url: "#" }
+                            ]
+                        }
+                    };
+                }
+            }
+
+            initNewsSection();
+            if (activeTab === 'news') {
+                updateStatusBar('news');
+            }
+        }
+
         function initNewsSection() {
             initNewsFilters();
             renderNewsList();
         }
 
         function initNewsGlobe() {
-            // Create a simple globe for news visualization
-            // This could show news hotspots by region
+            if (newsGlobeInitialized) return;
+            newsGlobeInitialized = true;
 
+            // Create a simple globe for news visualization with region markers
             const regions = [
                 { name: 'US', lat: 39.8, lon: -98.5, count: newsData.categories.us?.length || 0 },
                 { name: 'Europe', lat: 50, lon: 10, count: newsData.categories.europe?.length || 0 },
                 { name: 'Asia', lat: 35, lon: 105, count: newsData.categories.asia?.length || 0 },
-                { name: 'Middle East', lat: 29, lon: 47, count: newsData.categories.mideast?.length || 0 }
+                { name: 'Middle East', lat: 29, lon: 47, count: newsData.categories.mideast?.length || 0 },
+                { name: 'Global', lat: 20, lon: -30, count: newsData.categories.globe?.length || 0 }
             ];
 
             const trace = {
@@ -1517,7 +1629,7 @@
                 hoverinfo: 'text',
                 hovertext: regions.map(r => `<b>${r.name}</b><br>${r.count} headlines`),
                 marker: {
-                    size: regions.map(r => Math.max(10, Math.min(30, r.count * 2))),
+                    size: regions.map(r => Math.max(12, Math.min(35, 10 + r.count * 3))),
                     color: '#58a6ff',
                     opacity: 0.7,
                     line: { width: 2, color: '#3d8bfd' }
