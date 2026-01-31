@@ -1,14 +1,14 @@
 {
   "date": "2026-01-31",
-  "timestamp": "2026-01-31T06:22:26.646560",
-  "total_count": 397,
+  "timestamp": "2026-01-31T12:18:51.586335",
+  "total_count": 395,
   "by_country": {
-    "United States": 351,
+    "United States": 341,
     "Antarctica": 6,
     "Italy": 4,
     "Tunisia": 1,
     "British Indian Ocean Territory": 1,
-    "Kenya": 1,
+    "Kenya": 9,
     "Japan": 11,
     "Ethiopia": 1,
     "Germany": 3,
@@ -24,12 +24,12 @@
     "Romania": 3
   },
   "by_type": {
-    "video": 83,
     "image": 200,
-    "news": 114
+    "news": 114,
+    "video": 81
   },
   "by_branch": {
-    "Marines": 76,
+    "Marines": 74,
     "Navy": 108,
     "Joint": 150,
     "Coast Guard": 63
@@ -39,35 +39,6 @@
     "INDOPACOM": 1
   },
   "items": [
-    {
-      "id": "video:994478",
-      "title": "U.S. Marines with 3rd Bn., 7th Marines execute various platoon attacks during SLTE",
-      "description": "U.S. Marines with 3rd Battalion, 7th Marine Regiment, 1st Marine Division, execute various live-fire platoon attacks and fire support attacks during a service level training exercise at Marine Corps Air-Ground Combat Center, Twentynine Palms, California, Jan. 15-21, 2026. SLTE is designed to be a challenging, realistic training environment that produces combat-ready forces capable of operating as an integrated Marine Air-Ground Task Force across all domains of military operations. (U.S. Marine C...",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "1st Marine Division",
-      "date_published": "Jan 30, 2026 23:03 UTC",
-      "timestamp": "2026-01-30T23:03:54+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Air Ground Combat Center Twentynine Palms",
-      "location_display": "Marine Corps Air Ground Combat Center Twentynine Palms, California, United States",
-      "url": "https://www.dvidshub.net/video/994478/us-marines-with-3rd-bn-7th-marines-execute-various-platoon-attacks-during-slte",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/994478/DOD_111503697.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Marines",
-        "1st Marine Division",
-        "Blue Diamond",
-        "U.S. Marine Corps",
-        "SLTE",
-        "3/7"
-      ],
-      "credit": "LCpl Dylan Jameson",
-      "duration": 55,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 7.307715379444445
-    },
     {
       "id": "image:9500799",
       "title": "1st Marine Division unveils Blue Diamond Plaque at Pub 1795",
@@ -94,7 +65,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.310311082222222
+      "hours_old": 13.250650490833333
     },
     {
       "id": "image:9500800",
@@ -116,7 +87,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.311977743611111
+      "hours_old": 13.252317151944444
     },
     {
       "id": "image:9500796",
@@ -144,7 +115,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.312255530833334
+      "hours_old": 13.25259494
     },
     {
       "id": "image:9500794",
@@ -172,7 +143,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.312255534722222
+      "hours_old": 13.252594943888889
     },
     {
       "id": "news:557230",
@@ -197,7 +168,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 7.452612857222222
+      "hours_old": 13.392970659444444
     },
     {
       "id": "video:994548",
@@ -226,7 +197,7 @@
       "duration": 233,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.6502152966666666
+      "hours_old": 13.590546713333334
     },
     {
       "id": "video:994550",
@@ -248,7 +219,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869753055556
+      "hours_old": 13.726130788333334
     },
     {
       "id": "video:994549",
@@ -273,7 +244,7 @@
       "duration": 48,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.7858697602777776
+      "hours_old": 13.726130796666668
     },
     {
       "id": "video:994547",
@@ -295,7 +266,7 @@
       "duration": 50,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869766666667
+      "hours_old": 13.726130803333334
     },
     {
       "id": "video:994546",
@@ -320,7 +291,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869773333334
+      "hours_old": 13.726130809444445
     },
     {
       "id": "video:994545",
@@ -342,7 +313,7 @@
       "duration": 58,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869779166667
+      "hours_old": 13.726130814722223
     },
     {
       "id": "video:994544",
@@ -367,7 +338,7 @@
       "duration": 38,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869784166667
+      "hours_old": 13.726130819722222
     },
     {
       "id": "video:994543",
@@ -389,7 +360,7 @@
       "duration": 41,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869789444444
+      "hours_old": 13.72613082638889
     },
     {
       "id": "video:994542",
@@ -414,7 +385,7 @@
       "duration": 37,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.785869794444444
+      "hours_old": 13.726130831666667
     },
     {
       "id": "news:557229",
@@ -440,7 +411,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 8.199109694444445
+      "hours_old": 14.13938368888889
     },
     {
       "id": "image:9501337",
@@ -462,7 +433,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.744477760833334
+      "hours_old": 14.68481717
     },
     {
       "id": "news:557222",
@@ -491,7 +462,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.082335104444445
+      "hours_old": 15.022692901944446
     },
     {
       "id": "image:9501283",
@@ -515,7 +486,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456566944445
+      "hours_old": 15.03372294388889
     },
     {
       "id": "image:9501281",
@@ -537,7 +508,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.09345657111111
+      "hours_old": 15.033722949166666
     },
     {
       "id": "image:9501279",
@@ -561,7 +532,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.09345657611111
+      "hours_old": 15.033722952222224
     },
     {
       "id": "image:9501277",
@@ -585,7 +556,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456579722222
+      "hours_old": 15.033722955555556
     },
     {
       "id": "image:9501273",
@@ -607,7 +578,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456583055556
+      "hours_old": 15.033722970555555
     },
     {
       "id": "image:9501272",
@@ -631,7 +602,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456586111111
+      "hours_old": 15.033722975
     },
     {
       "id": "image:9501270",
@@ -655,7 +626,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456589722223
+      "hours_old": 15.033722978611111
     },
     {
       "id": "image:9501267",
@@ -677,7 +648,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456593055556
+      "hours_old": 15.033722981666667
     },
     {
       "id": "image:9501264",
@@ -701,7 +672,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.093456597222222
+      "hours_old": 15.033722984722223
     },
     {
       "id": "video:994517",
@@ -729,7 +700,7 @@
       "duration": 139,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 9.466147524444445
+      "hours_old": 15.406408546666666
     },
     {
       "id": "image:9501104",
@@ -751,7 +722,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.479567673611111
+      "hours_old": 15.419834051666665
     },
     {
       "id": "image:9501112",
@@ -777,7 +748,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 9.491789969444445
+      "hours_old": 15.432056266111111
     },
     {
       "id": "image:9501116",
@@ -799,7 +770,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.504012188333332
+      "hours_old": 15.444278484722222
     },
     {
       "id": "image:9501120",
@@ -825,7 +796,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 9.520401084166666
+      "hours_old": 15.460667381111111
     },
     {
       "id": "image:9501125",
@@ -847,7 +818,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.530678851666668
+      "hours_old": 15.470945147777778
     },
     {
       "id": "image:9501137",
@@ -873,7 +844,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.548734396111112
+      "hours_old": 15.489000689166666
     },
     {
       "id": "image:9501143",
@@ -895,7 +866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.575678848333332
+      "hours_old": 15.5159451425
     },
     {
       "id": "image:9501155",
@@ -921,7 +892,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 9.58706773361111
+      "hours_old": 15.527334027222222
     },
     {
       "id": "news:557217",
@@ -948,7 +919,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.04577632
+      "hours_old": 15.986050313055555
     },
     {
       "id": "image:9501001",
@@ -977,7 +948,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.121789944444444
+      "hours_old": 16.06205623638889
     },
     {
       "id": "news:557215",
@@ -999,7 +970,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.1254985775
+      "hours_old": 16.065772571666667
     },
     {
       "id": "image:9500999",
@@ -1028,7 +999,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.127623281666667
+      "hours_old": 16.067889573888888
     },
     {
       "id": "news:557214",
@@ -1057,7 +1028,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.235498553333333
+      "hours_old": 16.1757725475
     },
     {
       "id": "news:556907",
@@ -1079,7 +1050,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.236609807777779
+      "hours_old": 16.17688380888889
     },
     {
       "id": "image:9500925",
@@ -1104,7 +1075,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 10.574192121666666
+      "hours_old": 16.514541032777778
     },
     {
       "id": "image:9500926",
@@ -1126,7 +1097,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 10.575303227222221
+      "hours_old": 16.515652138055554
     },
     {
       "id": "news:557210",
@@ -1151,7 +1122,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.577335044166666
+      "hours_old": 16.51769284638889
     },
     {
       "id": "video:994509",
@@ -1180,7 +1151,7 @@
       "duration": 86,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.635770874444445
+      "hours_old": 16.57610229222222
     },
     {
       "id": "image:9500893",
@@ -1208,7 +1179,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861699988333335
+      "hours_old": 16.802039396111113
     },
     {
       "id": "image:9500892",
@@ -1236,7 +1207,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861699993055556
+      "hours_old": 16.802039401111113
     },
     {
       "id": "image:9500889",
@@ -1264,7 +1235,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861699996944445
+      "hours_old": 16.802039405833334
     },
     {
       "id": "image:9500888",
@@ -1292,7 +1263,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861977778333335
+      "hours_old": 16.802317187499998
     },
     {
       "id": "image:9500887",
@@ -1320,7 +1291,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861977782222223
+      "hours_old": 16.80231719111111
     },
     {
       "id": "image:9500883",
@@ -1348,7 +1319,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861977785555554
+      "hours_old": 16.80231719472222
     },
     {
       "id": "image:9500880",
@@ -1376,7 +1347,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.86197778888889
+      "hours_old": 16.802317198055555
     },
     {
       "id": "image:9500876",
@@ -1404,7 +1375,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.861977792222222
+      "hours_old": 16.802317201111112
     },
     {
       "id": "video:994486",
@@ -1430,7 +1401,7 @@
       "duration": 102,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.951425292222222
+      "hours_old": 16.891686336944446
     },
     {
       "id": "image:9500840",
@@ -1456,7 +1427,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 11.048358759166666
+      "hours_old": 16.988707714166665
     },
     {
       "id": "image:9500825",
@@ -1478,7 +1449,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.049192096666665
+      "hours_old": 16.98954105111111
     },
     {
       "id": "image:9500817",
@@ -1500,7 +1471,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 11.05030321138889
+      "hours_old": 16.990652165555556
     },
     {
       "id": "image:9500813",
@@ -1526,7 +1497,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 11.051136547777777
+      "hours_old": 16.991485502499998
     },
     {
       "id": "image:9500806",
@@ -1548,7 +1519,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.052247662222223
+      "hours_old": 16.992596616944446
     },
     {
       "id": "image:9500801",
@@ -1570,7 +1541,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.05308099861111
+      "hours_old": 16.993429953611113
     },
     {
       "id": "image:9500795",
@@ -1596,7 +1567,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.053914335
+      "hours_old": 16.99426329111111
     },
     {
       "id": "image:9500819",
@@ -1618,7 +1589,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.068081037222223
+      "hours_old": 17.008429983333333
     },
     {
       "id": "image:9500814",
@@ -1640,7 +1611,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.068358818333333
+      "hours_old": 17.008707764444445
     },
     {
       "id": "image:9500812",
@@ -1662,7 +1633,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.06835882138889
+      "hours_old": 17.0087077675
     },
     {
       "id": "image:9500807",
@@ -1684,7 +1655,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.0686366025
+      "hours_old": 17.00898554861111
     },
     {
       "id": "image:9500805",
@@ -1706,7 +1677,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.068636605555556
+      "hours_old": 17.008985551666665
     },
     {
       "id": "image:9500804",
@@ -1728,7 +1699,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.06863660888889
+      "hours_old": 17.008985554444443
     },
     {
       "id": "image:9500802",
@@ -1750,7 +1721,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.068914390277778
+      "hours_old": 17.00926333611111
     },
     {
       "id": "video:994496",
@@ -1776,7 +1747,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.321890325
+      "hours_old": 17.26218196638889
     },
     {
       "id": "video:994485",
@@ -1798,7 +1769,7 @@
       "duration": 86,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 11.438557019444444
+      "hours_old": 17.378848669722224
     },
     {
       "id": "video:994489",
@@ -1824,7 +1795,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.451612539444444
+      "hours_old": 17.39190419638889
     },
     {
       "id": "image:9500761",
@@ -1846,7 +1817,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.466689509166667
+      "hours_old": 17.407006852222224
     },
     {
       "id": "image:9500758",
@@ -1868,7 +1839,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.466689515833334
+      "hours_old": 17.407006859722223
     },
     {
       "id": "image:9500755",
@@ -1894,7 +1865,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.46668952
+      "hours_old": 17.407006863055557
     },
     {
       "id": "image:9500757",
@@ -1920,7 +1891,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.4669672575
+      "hours_old": 17.407284597777778
     },
     {
       "id": "image:9500777",
@@ -1942,7 +1913,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.466967283333332
+      "hours_old": 17.407284621666665
     },
     {
       "id": "image:9500759",
@@ -1968,7 +1939,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.466967290277777
+      "hours_old": 17.40728463388889
     },
     {
       "id": "image:9500764",
@@ -1990,7 +1961,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 11.575303198611111
+      "hours_old": 17.515652154166666
     },
     {
       "id": "video:994474",
@@ -2019,7 +1990,7 @@
       "duration": 312,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.585215306944445
+      "hours_old": 17.525546724166666
     },
     {
       "id": "video:994479",
@@ -2048,7 +2019,7 @@
       "duration": 155,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.762715313333334
+      "hours_old": 17.703046730833332
     },
     {
       "id": "news:557196",
@@ -2076,7 +2047,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 11.813554115277778
+      "hours_old": 17.753828109722225
     },
     {
       "id": "video:994481",
@@ -2105,7 +2076,7 @@
       "duration": 196,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.857715328888888
+      "hours_old": 17.7980467475
     },
     {
       "id": "news:557199",
@@ -2133,7 +2104,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 11.94344619527778
+      "hours_old": 17.883803997777775
     },
     {
       "id": "image:9500741",
@@ -2162,7 +2133,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.977525561944443
+      "hours_old": 17.91787450888889
     },
     {
       "id": "image:9500737",
@@ -2191,7 +2162,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.97752557
+      "hours_old": 17.917874517222224
     },
     {
       "id": "image:9500736",
@@ -2220,7 +2191,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.977525574166666
+      "hours_old": 17.91787452138889
     },
     {
       "id": "image:9500734",
@@ -2249,7 +2220,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.9775255775
+      "hours_old": 17.917874525000002
     },
     {
       "id": "image:9500738",
@@ -2278,7 +2249,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 11.97780334361111
+      "hours_old": 17.91815229166667
     },
     {
       "id": "news:557198",
@@ -2306,7 +2277,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 12.025668392222222
+      "hours_old": 17.966026194166666
     },
     {
       "id": "image:9500703",
@@ -2328,7 +2299,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.048914304166667
+      "hours_old": 17.98926326111111
     },
     {
       "id": "news:557179",
@@ -2356,7 +2327,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 12.1320573325
+      "hours_old": 18.07241511638889
     },
     {
       "id": "image:9500352",
@@ -2384,7 +2355,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.156234301944444
+      "hours_old": 18.09650064361111
     },
     {
       "id": "image:9500344",
@@ -2412,7 +2383,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.1562343125
+      "hours_old": 18.09650065527778
     },
     {
       "id": "image:9500336",
@@ -2439,7 +2410,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.156512096111111
+      "hours_old": 18.09677843888889
     },
     {
       "id": "image:9500326",
@@ -2467,7 +2438,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.1565121025
+      "hours_old": 18.096778443055555
     },
     {
       "id": "image:9500321",
@@ -2489,7 +2460,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 12.156512106666668
+      "hours_old": 18.096778447222224
     },
     {
       "id": "image:9500317",
@@ -2511,7 +2482,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.15678988861111
+      "hours_old": 18.09705622888889
     },
     {
       "id": "image:9500313",
@@ -2538,7 +2509,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.156789891944445
+      "hours_old": 18.097056232499998
     },
     {
       "id": "video:994473",
@@ -2566,7 +2537,7 @@
       "duration": 21,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 12.796056972777777
+      "hours_old": 18.73634862222222
     },
     {
       "id": "image:9500554",
@@ -2591,7 +2562,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.927345489166667
+      "hours_old": 18.867611876944444
     },
     {
       "id": "image:9500552",
@@ -2616,7 +2587,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.927345493333334
+      "hours_old": 18.867611880555557
     },
     {
       "id": "image:9500551",
@@ -2641,7 +2612,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.927345496944444
+      "hours_old": 18.86761188361111
     },
     {
       "id": "video:994467",
@@ -2669,7 +2640,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 13.139203157222223
+      "hours_old": 19.079464203333334
     },
     {
       "id": "image:9500493",
@@ -2698,7 +2669,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.266414469722221
+      "hours_old": 19.206763416944447
     },
     {
       "id": "image:9500491",
@@ -2727,7 +2698,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.266414473333334
+      "hours_old": 19.206763420555557
     },
     {
       "id": "video:994461",
@@ -2756,7 +2727,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 13.307445886111111
+      "hours_old": 19.24773754111111
     },
     {
       "id": "image:9499614",
@@ -2778,7 +2749,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.368633996944446
+      "hours_old": 19.30895134
     },
     {
       "id": "image:9499612",
@@ -2807,7 +2778,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.368634000277778
+      "hours_old": 19.30895134333333
     },
     {
       "id": "image:9499611",
@@ -2836,7 +2807,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.368911781944444
+      "hours_old": 19.309229125833337
     },
     {
       "id": "image:9499610",
@@ -2865,7 +2836,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.368911785555555
+      "hours_old": 19.309229129722222
     },
     {
       "id": "image:9499609",
@@ -2894,7 +2865,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.368911788611111
+      "hours_old": 19.309229133055556
     },
     {
       "id": "news:557185",
@@ -2921,7 +2892,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.582612874722221
+      "hours_old": 19.52297069222222
     },
     {
       "id": "news:557184",
@@ -2949,7 +2920,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.987890623333334
+      "hours_old": 19.928248425555555
     },
     {
       "id": "news:557182",
@@ -2974,7 +2945,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 14.120118313333332
+      "hours_old": 20.060440727777777
     },
     {
       "id": "video:994451",
@@ -3003,7 +2974,7 @@
       "duration": 127,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 14.677994193888889
+      "hours_old": 20.618335647777776
     },
     {
       "id": "news:557177",
@@ -3025,7 +2996,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 14.874557312222223
+      "hours_old": 20.81491513111111
     },
     {
       "id": "news:557175",
@@ -3054,7 +3025,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 14.964665233333333
+      "hours_old": 20.904939228055554
     },
     {
       "id": "news:557174",
@@ -3081,7 +3052,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 15.19716523888889
+      "hours_old": 21.13743923361111
     },
     {
       "id": "video:994257",
@@ -3110,7 +3081,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.309480950833333
+      "hours_old": 21.24974198611111
     },
     {
       "id": "video:994259",
@@ -3139,7 +3110,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.32198101388889
+      "hours_old": 21.262242033055553
     },
     {
       "id": "image:9500073",
@@ -3161,7 +3132,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 15.73669205888889
+      "hours_old": 21.677041005277776
     },
     {
       "id": "image:9500071",
@@ -3183,7 +3154,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 15.736692067777778
+      "hours_old": 21.677041021666668
     },
     {
       "id": "news:557171",
@@ -3205,7 +3176,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 15.736779518888888
+      "hours_old": 21.677137321111115
     },
     {
       "id": "news:557160",
@@ -3232,7 +3203,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 15.920946321944443
+      "hours_old": 21.861304124444445
     },
     {
       "id": "image:9498928",
@@ -3258,7 +3229,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.556234445277777
+      "hours_old": 22.496500793333333
     },
     {
       "id": "image:9498929",
@@ -3284,7 +3255,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.560956664444443
+      "hours_old": 22.501223025277778
     },
     {
       "id": "video:994435",
@@ -3311,7 +3282,7 @@
       "duration": 103,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 16.565314279722223
+      "hours_old": 22.50557531
     },
     {
       "id": "image:9498931",
@@ -3337,7 +3308,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.57373442111111
+      "hours_old": 22.514000775833335
     },
     {
       "id": "image:9498933",
@@ -3363,7 +3334,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.582901105833333
+      "hours_old": 22.523167466666663
     },
     {
       "id": "image:9498936",
@@ -3389,7 +3360,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.589567769166667
+      "hours_old": 22.52983413
     },
     {
       "id": "image:9499718",
@@ -3418,7 +3389,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.698922320555557
+      "hours_old": 22.63926173138889
     },
     {
       "id": "image:9499720",
@@ -3447,7 +3418,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.700033428333334
+      "hours_old": 22.640372839166666
     },
     {
       "id": "image:9499723",
@@ -3476,7 +3447,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.701144535833333
+      "hours_old": 22.641483946944444
     },
     {
       "id": "image:9499725",
@@ -3505,7 +3476,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.70197786527778
+      "hours_old": 22.642317276944446
     },
     {
       "id": "image:9499726",
@@ -3534,7 +3505,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.703088973055557
+      "hours_old": 22.643428384444444
     },
     {
       "id": "image:9499728",
@@ -3563,7 +3534,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.70420007972222
+      "hours_old": 22.64453949111111
     },
     {
       "id": "image:9499729",
@@ -3592,7 +3563,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.70503340861111
+      "hours_old": 22.64537282
     },
     {
       "id": "image:9499730",
@@ -3621,7 +3592,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 16.706144549444446
+      "hours_old": 22.646483961111112
     },
     {
       "id": "image:9499731",
@@ -3650,7 +3621,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.707255657222223
+      "hours_old": 22.64759506805556
     },
     {
       "id": "image:9499953",
@@ -3672,7 +3643,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.08585616027778
+      "hours_old": 23.026173501111113
     },
     {
       "id": "image:9499963",
@@ -3694,7 +3665,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.085856163888888
+      "hours_old": 23.026173504722223
     },
     {
       "id": "image:9499958",
@@ -3716,7 +3687,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.085856166944442
+      "hours_old": 23.0261735075
     },
     {
       "id": "video:994421",
@@ -3740,7 +3711,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 18.4919810675
+      "hours_old": 24.43224209222222
     },
     {
       "id": "news:557151",
@@ -3764,7 +3735,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 19.11761289888889
+      "hours_old": 25.05797070527778
     },
     {
       "id": "video:994423",
@@ -3789,7 +3760,7 @@
       "duration": 165,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.45142538472222
+      "hours_old": 26.391686415
     },
     {
       "id": "image:9499829",
@@ -3815,7 +3786,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.455581023611114
+      "hours_old": 27.39592997
     },
     {
       "id": "news:557150",
@@ -3837,7 +3808,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 21.632443124999998
+      "hours_old": 27.572717120555556
     },
     {
       "id": "video:994417",
@@ -3859,7 +3830,7 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.8614255225
+      "hours_old": 27.80168654611111
     },
     {
       "id": "video:994416",
@@ -3884,7 +3855,212 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.86170333305556
+      "hours_old": 27.801964361666666
+    },
+    {
+      "id": "image:9499622",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:46+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499622/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499622/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.451223059722224
+    },
+    {
+      "id": "image:9499651",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:42+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499651/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499651/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.4523341675
+    },
+    {
+      "id": "image:9499652",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:38+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499652/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499652/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.45344527472222
+    },
+    {
+      "id": "image:9499653",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:35+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499653/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499653/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.45427862444444
+    },
+    {
+      "id": "image:9499654",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:32+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499654/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499654/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.45511195472222
+    },
+    {
+      "id": "image:9499655",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:28+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499655/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499655/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.456223062777777
+    },
+    {
+      "id": "image:9499660",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:51 UTC",
+      "timestamp": "2026-01-30T07:51:11+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499660/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499660/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.460945294166667
+    },
+    {
+      "id": "image:9499688",
+      "title": "U.S.-Kenyan partnership advances security cooperation",
+      "description": "Members from U.S. Africa Command joined U.S. AFRICOM...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Combined Joint Task Force - Horn of Africa",
+      "date_published": "Jan 30, 2026 07:50 UTC",
+      "timestamp": "2026-01-30T07:50:46+00:00",
+      "country": "Kenya",
+      "state": "",
+      "city": "",
+      "location_display": "Kenya",
+      "url": "https://www.dvidshub.net/image/9499688/us-kenyan-partnership-advances-security-cooperation",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499688/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "SFC Kenneth Tucceri",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.4678897075
+    },
+    {
+      "id": "image:9499714",
+      "title": "11th MEU Marines Conduct TRAP Exercise",
+      "description": "U.S. Marine Corps\u202fSgt. Ethan Drake, a combat engineer...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 30, 2026 07:25 UTC",
+      "timestamp": "2026-01-30T07:25:36+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Barstow",
+      "location_display": "Barstow, California, United States",
+      "url": "https://www.dvidshub.net/image/9499714/11th-meu-marines-conduct-trap-exercise",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499714/122x92_q95.jpg",
+      "keywords": [
+        "Blue-Green Team",
+        "Marines",
+        "USS Portland",
+        "Pride of the Pacific",
+        "TRAP",
+        "Integration"
+      ],
+      "credit": "Cpl Avery Wayland",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 28.886206223055556
     },
     {
       "id": "image:9499716",
@@ -3913,7 +4089,36 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.954755713333334
+      "hours_old": 28.895095107499998
+    },
+    {
+      "id": "image:9499705",
+      "title": "11th MEU Marines Conduct TRAP Exercise",
+      "description": "U.S. Marine Corps Sgt. Noah Hane, left, a platoon...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 30, 2026 07:24 UTC",
+      "timestamp": "2026-01-30T07:24:28+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Barstow",
+      "location_display": "Barstow, California, United States",
+      "url": "https://www.dvidshub.net/image/9499705/11th-meu-marines-conduct-trap-exercise",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499705/122x92_q95.jpg",
+      "keywords": [
+        "Blue-Green Team",
+        "Marines",
+        "USS Portland",
+        "Pride of the Pacific",
+        "TRAP",
+        "Integration"
+      ],
+      "credit": "Cpl Avery Wayland",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 28.905095116111113
     },
     {
       "id": "image:9499721",
@@ -3942,36 +4147,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.974477927222225
-    },
-    {
-      "id": "image:9499702",
-      "title": "11th MEU Marines Conduct TRAP Exercise",
-      "description": "U.S. Marine Corps\u202fSgt. David Lovaglio, an aircraft...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 30, 2026 07:23 UTC",
-      "timestamp": "2026-01-30T07:23:11+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Barstow",
-      "location_display": "Barstow, California, United States",
-      "url": "https://www.dvidshub.net/image/9499702/11th-meu-marines-conduct-trap-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499702/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "USS Portland",
-        "Pride of the Pacific",
-        "TRAP",
-        "Integration"
-      ],
-      "credit": "Cpl Avery Wayland",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 22.9861445975
+      "hours_old": 28.914817343333336
     },
     {
       "id": "image:9499690",
@@ -4000,7 +4176,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.06531116138889
+      "hours_old": 29.005650537777775
     },
     {
       "id": "image:9499689",
@@ -4029,7 +4205,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 23.065311165
+      "hours_old": 29.0056505425
     },
     {
       "id": "image:9499687",
@@ -4058,7 +4234,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.088366622777777
+      "hours_old": 29.028706029722223
     },
     {
       "id": "image:9499685",
@@ -4087,7 +4263,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 23.088366724166665
+      "hours_old": 29.02870613111111
     },
     {
       "id": "image:9499684",
@@ -4116,7 +4292,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.088366728055558
+      "hours_old": 29.02870613611111
     },
     {
       "id": "image:9499682",
@@ -4145,7 +4321,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.088644510277778
+      "hours_old": 29.028983917777776
     },
     {
       "id": "image:9499681",
@@ -4174,7 +4350,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.088644515
+      "hours_old": 29.02898392194444
     },
     {
       "id": "image:9499679",
@@ -4203,7 +4379,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.08892223972222
+      "hours_old": 29.029261657777777
     },
     {
       "id": "image:9499678",
@@ -4232,7 +4408,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.088922244722223
+      "hours_old": 29.029261662777778
     },
     {
       "id": "image:9499677",
@@ -4261,7 +4437,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.08920002638889
+      "hours_old": 29.029539444444445
     },
     {
       "id": "image:9499676",
@@ -4290,7 +4466,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.089200030277777
+      "hours_old": 29.029539448888887
     },
     {
       "id": "image:9499670",
@@ -4319,7 +4495,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.089200033888886
+      "hours_old": 29.029539452500003
     },
     {
       "id": "image:9499664",
@@ -4348,7 +4524,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.08947781638889
+      "hours_old": 29.029817234166664
     },
     {
       "id": "image:9499663",
@@ -4377,7 +4553,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.089477820277775
+      "hours_old": 29.029817238333333
     },
     {
       "id": "image:9499662",
@@ -4406,7 +4582,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.210866713055555
+      "hours_old": 29.151206148055554
     },
     {
       "id": "news:557146",
@@ -4432,7 +4608,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.58955735833333
+      "hours_old": 29.529915159444442
     },
     {
       "id": "video:994396",
@@ -4461,7 +4637,7 @@
       "duration": 89,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 24.083834808888888
+      "hours_old": 30.02412646111111
     },
     {
       "id": "image:9499560",
@@ -4488,7 +4664,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.44696990361111
+      "hours_old": 30.38731885027778
     },
     {
       "id": "image:9499559",
@@ -4515,7 +4691,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.44724768611111
+      "hours_old": 30.3875966325
     },
     {
       "id": "video:993896",
@@ -4537,7 +4713,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.09698108611111
+      "hours_old": 31.037242109999998
     },
     {
       "id": "news:557143",
@@ -4562,36 +4738,55 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.178831975277777
+      "hours_old": 32.11910596888889
     },
     {
-      "id": "image:9499465",
-      "title": "Marines evaluate fiber-optic FPV Drones during DIU challenge",
-      "description": "U.S. Marines with I Marine Expeditionary Force and small...",
+      "id": "image:9499398",
+      "title": "Leadership Briefs New Generation on Medical Readiness",
+      "description": "PATUXENT RIVER, Md. (January 29, 2026) \u2013 U.S. Navy...",
       "type": "image",
-      "branch": "Marines",
-      "unit_name": "I Marine Expeditionary Force",
-      "date_published": "Jan 30, 2026 03:53 UTC",
-      "timestamp": "2026-01-30T03:53:15+00:00",
+      "branch": "Joint",
+      "unit_name": "Naval Health Clinic Patuxent River, Maryland",
+      "date_published": "Jan 30, 2026 03:29 UTC",
+      "timestamp": "2026-01-30T03:29:42+00:00",
       "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9499465/marines-evaluate-fiber-optic-fpv-drones-during-diu-challenge",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499465/122x92_q95.jpg",
+      "state": "Maryland",
+      "city": "Patuxent River",
+      "location_display": "Patuxent River, Maryland, United States",
+      "url": "https://www.dvidshub.net/image/9499398/leadership-briefs-new-generation-medical-readiness",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499398/122x92_q95.jpg",
       "keywords": [
-        "Drones",
-        "I MEF",
-        "sUAS",
-        "DIU",
-        "Fiber-Optic",
-        "Camp Pendleton"
+        "Naval Air Station Patuxent River",
+        "#DHA #AcrossTheMHS #NavyMedicine",
+        "#NMFL; #NAVYMEDICINE"
       ],
-      "credit": "Cpl Joshua Bustamante",
+      "credit": "Maria Scott",
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.485033479166667
+      "hours_old": 32.81900082222222
+    },
+    {
+      "id": "image:9499362",
+      "title": "Clinic Leadership Promotes Readiness Training",
+      "description": "Leadership from Naval Branch Health Clinic Patuxent...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Naval Health Clinic Patuxent River, Maryland",
+      "date_published": "Jan 30, 2026 03:29 UTC",
+      "timestamp": "2026-01-30T03:29:42+00:00",
+      "country": "United States",
+      "state": "Maryland",
+      "city": "Patuxent River",
+      "location_display": "Patuxent River, Maryland, United States",
+      "url": "https://www.dvidshub.net/image/9499362/clinic-leadership-promotes-readiness-training",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9499362/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Maria Scott",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 32.819000826944446
     },
     {
       "id": "news:557140",
@@ -4617,7 +4812,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.93789075333333
+      "hours_old": 34.87824855777778
     },
     {
       "id": "news:557139",
@@ -4645,7 +4840,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.12883194888889
+      "hours_old": 35.0691059425
     },
     {
       "id": "news:557129",
@@ -4674,7 +4869,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.709852283611113
+      "hours_old": 35.65019691777778
     },
     {
       "id": "news:557136",
@@ -4702,7 +4897,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.749557413055555
+      "hours_old": 35.68991520111111
     },
     {
       "id": "video:994366",
@@ -4729,7 +4924,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.785592067222222
+      "hours_old": 35.725853102500004
     },
     {
       "id": "news:557015",
@@ -4758,7 +4953,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.83318558777778
+      "hours_old": 35.773530221111116
     },
     {
       "id": "news:557134",
@@ -4785,7 +4980,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.954835115833333
+      "hours_old": 35.89519292194444
     },
     {
       "id": "image:9499164",
@@ -4814,7 +5009,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.02253347527778
+      "hours_old": 35.96287288194444
     },
     {
       "id": "image:9499165",
@@ -4843,7 +5038,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.02364458222222
+      "hours_old": 35.963983989999996
     },
     {
       "id": "image:9499166",
@@ -4872,7 +5067,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.02475569027778
+      "hours_old": 35.96509509777778
     },
     {
       "id": "image:9499167",
@@ -4901,7 +5096,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.025866797777777
+      "hours_old": 35.96620620555556
     },
     {
       "id": "image:9499169",
@@ -4930,7 +5125,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.02697790111111
+      "hours_old": 35.96731731277778
     },
     {
       "id": "image:9499170",
@@ -4959,7 +5154,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.028089008888887
+      "hours_old": 35.968428420555554
     },
     {
       "id": "image:9499171",
@@ -4988,7 +5183,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.02947789388889
+      "hours_old": 35.96981730583333
     },
     {
       "id": "image:9499224",
@@ -5010,7 +5205,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.526689380277777
+      "hours_old": 36.46700672027778
     },
     {
       "id": "image:9499187",
@@ -5036,7 +5231,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.52668939138889
+      "hours_old": 36.46700673
     },
     {
       "id": "news:557011",
@@ -5065,7 +5260,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.50049865361111
+      "hours_old": 37.440772646111114
     },
     {
       "id": "news:557125",
@@ -5092,7 +5287,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.555112935833332
+      "hours_old": 37.49547072638889
     },
     {
       "id": "news:557127",
@@ -5120,7 +5315,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.687998588333333
+      "hours_old": 37.6282725825
     },
     {
       "id": "news:557123",
@@ -5147,7 +5342,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.11105417638889
+      "hours_old": 38.05132817027778
     },
     {
       "id": "news:557121",
@@ -5173,7 +5368,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.119279666666664
+      "hours_old": 38.059637469444446
     },
     {
       "id": "news:557002",
@@ -5201,7 +5396,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.24874115583333
+      "hours_old": 38.189085784444444
     },
     {
       "id": "image:9498914",
@@ -5223,7 +5418,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 32.25335880527778
+      "hours_old": 38.19370775138889
     },
     {
       "id": "image:9498911",
@@ -5245,7 +5440,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 32.253636586666666
+      "hours_old": 38.19398553277778
     },
     {
       "id": "image:9498897",
@@ -5269,7 +5464,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 32.25363658972223
+      "hours_old": 38.193985535833335
     },
     {
       "id": "video:994351",
@@ -5297,7 +5492,7 @@
       "duration": 175,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 32.35077199111111
+      "hours_old": 38.291113446666664
     },
     {
       "id": "news:557119",
@@ -5326,7 +5521,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.38096333
+      "hours_old": 38.32130795305555
     },
     {
       "id": "video:994349",
@@ -5352,7 +5547,7 @@
       "duration": 103,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 32.40309203722222
+      "hours_old": 38.34335307305556
     },
     {
       "id": "news:557116",
@@ -5380,7 +5575,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.64011291944445
+      "hours_old": 38.58047072055555
     },
     {
       "id": "video:994341",
@@ -5409,7 +5604,7 @@
       "duration": 221,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 32.732159790000004
+      "hours_old": 38.672491209444445
     },
     {
       "id": "video:994277",
@@ -5437,373 +5632,7 @@
       "duration": 130,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.06892543111111
-    },
-    {
-      "id": "image:9498912",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "Albanian Armed Forces\u2019 soldiers plot coordinates...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:41+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498912/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498912/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.22901227
-    },
-    {
-      "id": "image:9498913",
-      "title": "New Jersey Albania Call For Fire training",
-      "description": "An Albanian Armed Forces\u2019 soldier uses his binoculars...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "New Jersey National Guard",
-      "date_published": "Jan 29, 2026 21:08 UTC",
-      "timestamp": "2026-01-29T21:08:40+00:00",
-      "country": "United States",
-      "state": "New Jersey",
-      "city": "Joint Base McGuire-Dix-Lakehurst",
-      "location_display": "Joint Base McGuire-Dix-Lakehurst, New Jersey, United States",
-      "url": "https://www.dvidshub.net/image/9498913/new-jersey-albania-call-fire-training",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498913/122x92_q95.jpg",
-      "keywords": [
-        "State Partnership Program",
-        "SPP",
-        "New Jersey National Guard",
-        "NJNG",
-        "Republic of Albania",
-        "Military-to-military engagements"
-      ],
-      "credit": "Mark Olsen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.229290043611115
-    },
-    {
-      "id": "image:9498872",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:41+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498872/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498872/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 33.262345595
-    },
-    {
-      "id": "image:9498874",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Chantravia Roberson, assigned to the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:37+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498874/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498874/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.26345670305555
-    },
-    {
-      "id": "image:9498878",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Jacob Sellers, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:34+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498878/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498878/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.26429003305556
-    },
-    {
-      "id": "image:9498883",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:30+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498883/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498883/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 33.26540114083333
-    },
-    {
-      "id": "image:9498885",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Jacob Sellers, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:27+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498885/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498885/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 33.26623447083333
-    },
-    {
-      "id": "image:9498889",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Chantravia Roberson, assigned to the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:24+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498889/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498889/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.26706780083333
-    },
-    {
-      "id": "image:9498891",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:21+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498891/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498891/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 33.26790113083334
-    },
-    {
-      "id": "image:9498893",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:17+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498893/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498893/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.269012238888884
-    },
-    {
-      "id": "image:9498894",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Bryan Velasquez, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:14+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498894/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498894/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 33.26984556805555
-    },
-    {
-      "id": "image:9498896",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Sgt. Justin Breedlove, U.S. Army Sgt....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:11+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498896/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498896/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.270678897500005
-    },
-    {
-      "id": "image:9498904",
-      "title": "Alabama National Guard supports D.C. Safe and Beautiful mission",
-      "description": "U.S. Army Spc. Johnny Brown, assigned to the Alabama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Joint Task Force DC",
-      "date_published": "Jan 29, 2026 21:06 UTC",
-      "timestamp": "2026-01-29T21:06:06+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/9498904/alabama-national-guard-supports-dc-safe-and-beautiful-mission",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498904/122x92_q95.jpg",
-      "keywords": [
-        "JTFDC",
-        "DistrictofColumbia",
-        "National Guard",
-        "DCSafe",
-        "DCSafeAndBeautiful"
-      ],
-      "credit": "Billy Blankenship",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.272067782777775
+      "hours_old": 39.00918647277778
     },
     {
       "id": "news:557102",
@@ -5832,7 +5661,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.44790779833333
+      "hours_old": 39.38825241777778
     },
     {
       "id": "news:557105",
@@ -5859,7 +5688,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.60816856611111
+      "hours_old": 39.548526368611114
     },
     {
       "id": "news:557084",
@@ -5886,7 +5715,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.130390703055554
+      "hours_old": 40.07074851972222
     },
     {
       "id": "news:557083",
@@ -5910,7 +5739,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.42594626277778
+      "hours_old": 40.366304065
     },
     {
       "id": "image:9498705",
@@ -5932,7 +5761,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.731969990277776
+      "hours_old": 40.67231893666666
     },
     {
       "id": "image:9498704",
@@ -5954,7 +5783,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73224777111111
+      "hours_old": 40.67259671777778
     },
     {
       "id": "image:9498701",
@@ -5976,7 +5805,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.732247774444446
+      "hours_old": 40.67259672111111
     },
     {
       "id": "image:9498700",
@@ -5998,7 +5827,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73224777777778
+      "hours_old": 40.672596724444446
     },
     {
       "id": "image:9498697",
@@ -6020,7 +5849,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73252555861111
+      "hours_old": 40.67287450555556
     },
     {
       "id": "image:9498727",
@@ -6042,7 +5871,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73613661555556
+      "hours_old": 40.676485561388894
     },
     {
       "id": "image:9498726",
@@ -6064,7 +5893,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73641439777778
+      "hours_old": 40.67676334361111
     },
     {
       "id": "image:9498725",
@@ -6086,7 +5915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73641440138889
+      "hours_old": 40.67676334722222
     },
     {
       "id": "image:9498720",
@@ -6108,7 +5937,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.736414404722225
+      "hours_old": 40.676763350555554
     },
     {
       "id": "image:9498718",
@@ -6130,7 +5959,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.736692186111114
+      "hours_old": 40.67704113138889
     },
     {
       "id": "image:9498717",
@@ -6152,7 +5981,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73669219
+      "hours_old": 40.677041135277776
     },
     {
       "id": "image:9498714",
@@ -6174,7 +6003,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73696997111111
+      "hours_old": 40.677318916666664
     },
     {
       "id": "image:9498713",
@@ -6196,7 +6025,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73696997416666
+      "hours_old": 40.67731892027778
     },
     {
       "id": "image:9498712",
@@ -6218,7 +6047,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73696997722222
+      "hours_old": 40.67731892361111
     },
     {
       "id": "image:9498711",
@@ -6240,7 +6069,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.73724775833333
+      "hours_old": 40.67759670472222
     },
     {
       "id": "image:9498709",
@@ -6262,7 +6091,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.737247761666666
+      "hours_old": 40.67759670805555
     },
     {
       "id": "image:9498707",
@@ -6284,7 +6113,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.7375255425
+      "hours_old": 40.67787448916667
     },
     {
       "id": "video:994330",
@@ -6312,7 +6141,7 @@
       "duration": 53,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 34.804105336388886
+      "hours_old": 40.7444467925
     },
     {
       "id": "video:994329",
@@ -6338,7 +6167,7 @@
       "duration": 265,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 34.82077198361111
+      "hours_old": 40.761113439166664
     },
     {
       "id": "news:557056",
@@ -6367,7 +6196,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.02105420444445
+      "hours_old": 40.96132819722222
     },
     {
       "id": "news:557074",
@@ -6393,7 +6222,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.10633192861111
+      "hours_old": 41.04660592055556
     },
     {
       "id": "image:9498686",
@@ -6419,7 +6248,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.10651220638889
+      "hours_old": 41.046778565277776
     },
     {
       "id": "video:994324",
@@ -6443,7 +6272,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.18920313777778
+      "hours_old": 41.129464175277775
     },
     {
       "id": "video:994323",
@@ -6467,7 +6296,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.1892031425
+      "hours_old": 41.12946418000001
     },
     {
       "id": "image:9498638",
@@ -6489,7 +6318,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.641967191666666
+      "hours_old": 41.58228454111111
     },
     {
       "id": "image:9498636",
@@ -6511,7 +6340,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.641967195
+      "hours_old": 41.58228454444444
     },
     {
       "id": "image:9498635",
@@ -6533,7 +6362,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.64196719833333
+      "hours_old": 41.582284547499995
     },
     {
       "id": "image:9498633",
@@ -6555,7 +6384,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.64196720138889
+      "hours_old": 41.58228455055555
     },
     {
       "id": "image:9498631",
@@ -6577,7 +6406,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.64196720444445
+      "hours_old": 41.58228455361112
     },
     {
       "id": "image:9498627",
@@ -6599,7 +6428,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.6419672075
+      "hours_old": 41.582284556944444
     },
     {
       "id": "news:557034",
@@ -6627,7 +6456,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.819279622222226
+      "hours_old": 41.75963743277778
     },
     {
       "id": "news:557067",
@@ -6653,7 +6482,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.86401890416667
+      "hours_old": 41.80436354194445
     },
     {
       "id": "image:9498561",
@@ -6675,7 +6504,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.93225566833333
+      "hours_old": 41.872595079722224
     },
     {
       "id": "news:557065",
@@ -6702,7 +6531,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.02372406166666
+      "hours_old": 41.964081863055554
     },
     {
       "id": "news:557064",
@@ -6731,7 +6560,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.04383193333333
+      "hours_old": 41.984105925
     },
     {
       "id": "image:9498557",
@@ -6760,7 +6589,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.04790109111111
+      "hours_old": 41.988167445833334
     },
     {
       "id": "image:9498450",
@@ -6782,7 +6611,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.42752276611111
+      "hours_old": 42.367840085833336
     },
     {
       "id": "image:9498436",
@@ -6804,7 +6633,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.427522769444444
+      "hours_old": 42.36784008972222
     },
     {
       "id": "image:9498421",
@@ -6826,7 +6655,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.42752277305556
+      "hours_old": 42.367840093333335
     },
     {
       "id": "news:557060",
@@ -6855,7 +6684,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.51040778583334
+      "hours_old": 42.450752424166666
     },
     {
       "id": "news:557059",
@@ -6881,7 +6710,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.53177961305556
+      "hours_old": 42.47213744111111
     },
     {
       "id": "news:557044",
@@ -6905,7 +6734,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.61855419166667
+      "hours_old": 42.55882818055556
     },
     {
       "id": "news:556917",
@@ -6934,7 +6763,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.76013005611111
+      "hours_old": 42.70047469
     },
     {
       "id": "news:557055",
@@ -6963,7 +6792,35 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.91605418638889
+      "hours_old": 42.856328185555554
+    },
+    {
+      "id": "image:9498328",
+      "title": "Check out the new TRICARE Dental Program premiums starting March 1",
+      "description": "Know your premium rates to plan your budget and avoid...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Defense Health Agency",
+      "date_published": "Jan 29, 2026 17:26 UTC",
+      "timestamp": "2026-01-29T17:26:51+00:00",
+      "country": "United States",
+      "state": "Virginia",
+      "city": "Falls Church",
+      "location_display": "Falls Church, Virginia, United States",
+      "url": "https://www.dvidshub.net/image/9498328/check-out-new-tricare-dental-program-premiums-starting-march-1",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498328/122x92_q95.jpg",
+      "keywords": [
+        "Costs",
+        "TRICARE",
+        "Premiums",
+        "TRICARE Dental Program",
+        "TDP"
+      ],
+      "credit": "Jackson Luck",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 42.86650081055556
     },
     {
       "id": "news:556996",
@@ -6985,7 +6842,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 37.19577648944445
+      "hours_old": 43.136050489166664
     },
     {
       "id": "video:994251",
@@ -7014,7 +6871,7 @@
       "duration": 57,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 37.2492031325
+      "hours_old": 43.18946417
     },
     {
       "id": "news:557051",
@@ -7036,7 +6893,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 37.476887514999994
+      "hours_old": 43.41716150888889
     },
     {
       "id": "image:9498287",
@@ -7058,7 +6915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.47706776583334
+      "hours_old": 43.417334117222225
     },
     {
       "id": "news:556993",
@@ -7085,7 +6942,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 37.547890824166664
+      "hours_old": 43.48824863083333
     },
     {
       "id": "news:557046",
@@ -7111,7 +6968,33 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.088554161944444
+      "hours_old": 44.02882815416667
+    },
+    {
+      "id": "image:9498229",
+      "title": "The Big Game is set and so are the patron savings through the Jan. 26 \u2013 Feb. 8 Commissary Sales Flyer",
+      "description": "The Big Game is set and so are the savings as your...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Defense Commissary Agency",
+      "date_published": "Jan 29, 2026 16:16 UTC",
+      "timestamp": "2026-01-29T16:16:58+00:00",
+      "country": "United States",
+      "state": "Virginia",
+      "city": "Fort Lee",
+      "location_display": "Fort Lee, Virginia, United States",
+      "url": "https://www.dvidshub.net/image/9498229/big-game-set-and-so-patron-savings-through-jan-26-feb-8-commissary-sales-flyer",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498229/122x92_q95.jpg",
+      "keywords": [
+        "commissary benefit",
+        "commissary sales flyer",
+        "Defense Commissary Agency - DeCA"
+      ],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "square",
+      "commands": [],
+      "hours_old": 44.031223028333336
     },
     {
       "id": "video:994151",
@@ -7139,7 +7022,7 @@
       "duration": 140,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 38.48920328416667
+      "hours_old": 44.429464288055556
     },
     {
       "id": "news:557042",
@@ -7161,7 +7044,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.81677963166667
+      "hours_old": 44.757137437500006
     },
     {
       "id": "news:557040",
@@ -7183,7 +7066,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.85733512972222
+      "hours_old": 44.79769293194444
     },
     {
       "id": "news:557026",
@@ -7211,7 +7094,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.97455742805556
+      "hours_old": 44.91491523055555
     },
     {
       "id": "news:557037",
@@ -7235,7 +7118,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.25011296027778
+      "hours_old": 45.19047076194445
     },
     {
       "id": "news:557035",
@@ -7264,7 +7147,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.42772088666666
+      "hours_old": 45.367994880000005
     },
     {
       "id": "news:557032",
@@ -7290,7 +7173,29 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.46994305555556
+      "hours_old": 45.41021704916667
+    },
+    {
+      "id": "image:9498099",
+      "title": "Feb. 11 application deadline approaching fast for Scholarships for Military Children",
+      "description": "The Feb. 11 deadline approaches to submit applications...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Defense Commissary Agency",
+      "date_published": "Jan 29, 2026 14:53 UTC",
+      "timestamp": "2026-01-29T14:53:52+00:00",
+      "country": "United States",
+      "state": "Virginia",
+      "city": "Fort Lee",
+      "location_display": "Fort Lee, Virginia, United States",
+      "url": "https://www.dvidshub.net/image/9498099/feb-11-application-deadline-approaching-fast-scholarships-military-children",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9498099/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 45.416223037222224
     },
     {
       "id": "news:557024",
@@ -7318,7 +7223,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.68539082916667
+      "hours_old": 45.62574862555555
     },
     {
       "id": "news:557028",
@@ -7343,7 +7248,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.22316849694444
+      "hours_old": 46.163526302222216
     },
     {
       "id": "news:557023",
@@ -7371,7 +7276,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 45.441518914444444
+      "hours_old": 51.381863547500004
     },
     {
       "id": "video:994240",
@@ -7399,7 +7304,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.682536536111115
+      "hours_old": 51.622797573611116
     },
     {
       "id": "news:557021",
@@ -7421,7 +7326,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.61022088194444
+      "hours_old": 52.550494874444446
     },
     {
       "id": "video:994222",
@@ -7443,7 +7348,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.472536608333336
+      "hours_old": 53.41279763916667
     },
     {
       "id": "video:994223",
@@ -7465,29 +7370,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.4975366025
-    },
-    {
-      "id": "image:9497682",
-      "title": "Coast Guard, partners search for missing man off Kauai",
-      "description": "A Coast Guard Air Station Barbers Point MH-65 Dolphin...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Jan 29, 2026 05:21 UTC",
-      "timestamp": "2026-01-29T05:21:34+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Kilauea",
-      "location_display": "Kilauea, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9497682/coast-guard-partners-search-missing-man-off-kauai",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9497682/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.0136338875
+      "hours_old": 53.43779763333334
     },
     {
       "id": "image:9497698",
@@ -7509,7 +7392,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.0136339125
+      "hours_old": 54.9539512475
     },
     {
       "id": "image:9497701",
@@ -7531,7 +7414,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.01363391694445
+      "hours_old": 54.95395125138889
     },
     {
       "id": "image:9497691",
@@ -7553,7 +7436,29 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.013633920833335
+      "hours_old": 54.95395125666666
+    },
+    {
+      "id": "image:9497682",
+      "title": "Coast Guard, partners search for missing man off Kauai",
+      "description": "A Coast Guard Air Station Barbers Point MH-65 Dolphin...",
+      "type": "image",
+      "branch": "Coast Guard",
+      "unit_name": "U.S. Coast Guard Oceania",
+      "date_published": "Jan 29, 2026 05:21 UTC",
+      "timestamp": "2026-01-29T05:21:34+00:00",
+      "country": "United States",
+      "state": "Hawaii",
+      "city": "Kilauea",
+      "location_display": "Kilauea, Hawaii, United States",
+      "url": "https://www.dvidshub.net/image/9497682/coast-guard-partners-search-missing-man-off-kauai",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9497682/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 54.95395126083333
     },
     {
       "id": "news:556924",
@@ -7582,7 +7487,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.48789085944444
+      "hours_old": 55.42824866111111
     },
     {
       "id": "video:994226",
@@ -7608,7 +7513,7 @@
       "duration": 483,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.52975875222222
+      "hours_old": 55.47001980027778
     },
     {
       "id": "video:994221",
@@ -7637,7 +7542,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.355869946111106
+      "hours_old": 56.29613097666667
     },
     {
       "id": "news:557017",
@@ -7666,7 +7571,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.60316857083333
+      "hours_old": 56.54352637333333
     },
     {
       "id": "news:556930",
@@ -7695,7 +7600,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.507630049999996
+      "hours_old": 57.44797468361111
     },
     {
       "id": "image:9497566",
@@ -7724,7 +7629,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 52.138366775
+      "hours_old": 58.07870618666667
     },
     {
       "id": "image:9497483",
@@ -7746,7 +7651,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.432244955
+      "hours_old": 59.3725622925
     },
     {
       "id": "image:9497482",
@@ -7768,7 +7673,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.43224495944444
+      "hours_old": 59.372562296666665
     },
     {
       "id": "image:9497480",
@@ -7792,7 +7697,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.43224496277777
+      "hours_old": 59.3725623
     },
     {
       "id": "image:9497479",
@@ -7814,7 +7719,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.432244966111114
+      "hours_old": 59.37256230472222
     },
     {
       "id": "image:9497396",
@@ -7841,7 +7746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.59613389416666
+      "hours_old": 60.53645123027778
     },
     {
       "id": "image:9497394",
@@ -7863,7 +7768,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.59613389805556
+      "hours_old": 60.53645123416667
     },
     {
       "id": "image:9497392",
@@ -7890,7 +7795,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.59613390222223
+      "hours_old": 60.536451237499996
     },
     {
       "id": "image:9497388",
@@ -7917,7 +7822,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.59613390916667
+      "hours_old": 60.53645124416666
     },
     {
       "id": "image:9497398",
@@ -7939,7 +7844,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 54.59641166861111
+      "hours_old": 60.536729004444446
     },
     {
       "id": "image:9497390",
@@ -7961,7 +7866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.59641168361111
+      "hours_old": 60.53672901888889
     },
     {
       "id": "news:557009",
@@ -7983,7 +7888,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.864557438611115
+      "hours_old": 61.80491524138889
     },
     {
       "id": "video:994193",
@@ -8010,7 +7915,7 @@
       "duration": 216,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.979104229444445
+      "hours_old": 61.919435648888886
     },
     {
       "id": "video:994197",
@@ -8034,7 +7939,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.65586988916667
+      "hours_old": 62.596130888611114
     },
     {
       "id": "video:994196",
@@ -8056,7 +7961,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.67253656055556
+      "hours_old": 62.61279756027778
     },
     {
       "id": "video:994195",
@@ -8080,7 +7985,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.672536565277774
+      "hours_old": 62.61279756416667
     },
     {
       "id": "video:994194",
@@ -8108,7 +8013,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 57.077536548611114
+      "hours_old": 63.017797568055556
     },
     {
       "id": "video:994188",
@@ -8135,7 +8040,7 @@
       "duration": 135,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 57.51410421305556
+      "hours_old": 63.45443563111111
     },
     {
       "id": "video:994186",
@@ -8162,7 +8067,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 57.67189033583334
+      "hours_old": 63.61218198027778
     },
     {
       "id": "news:556984",
@@ -8184,7 +8089,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.91233526305556
+      "hours_old": 63.85269306527778
     },
     {
       "id": "video:994181",
@@ -8208,7 +8113,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 58.155592078888894
+      "hours_old": 64.09585310638889
     },
     {
       "id": "news:556975",
@@ -8230,7 +8135,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.31066865666667
+      "hours_old": 64.25102645833333
     },
     {
       "id": "news:556980",
@@ -8259,7 +8164,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.88355423055555
+      "hours_old": 64.82382822583334
     },
     {
       "id": "video:994167",
@@ -8285,7 +8190,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.19605700722222
+      "hours_old": 65.13634865722221
     },
     {
       "id": "image:9496806",
@@ -8307,7 +8212,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 59.27446730166666
+      "hours_old": 65.21478464694445
     },
     {
       "id": "image:9496803",
@@ -8329,7 +8234,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27474508305556
+      "hours_old": 65.21506242833333
     },
     {
       "id": "image:9496801",
@@ -8351,7 +8256,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 59.27474508833333
+      "hours_old": 65.21506243138889
     },
     {
       "id": "image:9496800",
@@ -8373,7 +8278,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27474509138889
+      "hours_old": 65.21506243444445
     },
     {
       "id": "image:9496799",
@@ -8395,7 +8300,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27502287222222
+      "hours_old": 65.21534021527778
     },
     {
       "id": "image:9496798",
@@ -8417,7 +8322,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27502287527778
+      "hours_old": 65.21534021833334
     },
     {
       "id": "image:9496796",
@@ -8439,7 +8344,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27502287916667
+      "hours_old": 65.21534022222222
     },
     {
       "id": "image:9496795",
@@ -8461,7 +8366,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.27530066055555
+      "hours_old": 65.21561800305555
     },
     {
       "id": "video:994166",
@@ -8487,7 +8392,7 @@
       "duration": 105,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.312445914166666
+      "hours_old": 65.25273756499999
     },
     {
       "id": "news:556973",
@@ -8509,7 +8414,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.587057530277775
+      "hours_old": 65.5274153375
     },
     {
       "id": "video:994035",
@@ -8538,7 +8443,7 @@
       "duration": 301,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.60854868305555
+      "hours_old": 65.5488801088889
     },
     {
       "id": "image:9496784",
@@ -8560,7 +8465,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.64363393111111
+      "hours_old": 65.58395127222222
     },
     {
       "id": "image:9496786",
@@ -8582,7 +8487,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.64391170555556
+      "hours_old": 65.58422904638888
     },
     {
       "id": "news:556968",
@@ -8611,7 +8516,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.72427970166667
+      "hours_old": 65.66463750472222
     },
     {
       "id": "video:994162",
@@ -8637,7 +8542,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.75050145777777
+      "hours_old": 65.69079310805556
     },
     {
       "id": "news:556971",
@@ -8665,7 +8570,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.356779672777776
+      "hours_old": 66.29713747527778
     },
     {
       "id": "news:556970",
@@ -8687,7 +8592,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.7562241375
+      "hours_old": 66.69658193416666
     },
     {
       "id": "news:556960",
@@ -8711,7 +8616,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.276224141388894
+      "hours_old": 67.21658194444444
     },
     {
       "id": "news:556966",
@@ -8738,7 +8643,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.318168576388885
+      "hours_old": 67.25852638250001
     },
     {
       "id": "news:556961",
@@ -8765,7 +8670,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 62.089943131111106
+      "hours_old": 68.03021713166666
     },
     {
       "id": "video:994129",
@@ -8790,7 +8695,7 @@
       "duration": 155,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 62.58743866333333
+      "hours_old": 68.52778011944444
     },
     {
       "id": "news:556894",
@@ -8818,7 +8723,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 63.60160981138889
+      "hours_old": 69.54188381277777
     },
     {
       "id": "news:556945",
@@ -8842,7 +8747,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 63.89261307638889
+      "hours_old": 69.83297087805556
     },
     {
       "id": "news:556943",
@@ -8869,7 +8774,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.37846337305555
+      "hours_old": 70.31880801222222
     },
     {
       "id": "video:994114",
@@ -8893,7 +8798,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.70281435305556
+      "hours_old": 70.64307537166667
     },
     {
       "id": "video:994113",
@@ -8915,7 +8820,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.70281435888889
+      "hours_old": 70.64307537833334
     },
     {
       "id": "video:994112",
@@ -8939,7 +8844,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.70281436472223
+      "hours_old": 70.64307538388888
     },
     {
       "id": "news:556939",
@@ -8961,7 +8866,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.24355422527778
+      "hours_old": 71.18382822111111
     },
     {
       "id": "news:556936",
@@ -8985,7 +8890,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.88650195916667
+      "hours_old": 73.82685975166666
     },
     {
       "id": "news:556929",
@@ -9014,7 +8919,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.96122417694444
+      "hours_old": 76.90158198416667
     },
     {
       "id": "news:556931",
@@ -9043,7 +8948,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.0362241725
+      "hours_old": 76.97658197916667
     },
     {
       "id": "video:994076",
@@ -9068,7 +8973,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 72.4889255261111
+      "hours_old": 78.42918655027778
     },
     {
       "id": "video:994068",
@@ -9097,7 +9002,7 @@
       "duration": 168,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 73.44660424305556
+      "hours_old": 79.38693565861112
     },
     {
       "id": "video:994067",
@@ -9126,7 +9031,7 @@
       "duration": 213,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 74.03771533388888
+      "hours_old": 79.97804675305555
     },
     {
       "id": "news:556927",
@@ -9155,7 +9060,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 75.65705750083333
+      "hours_old": 81.59741530222222
     },
     {
       "id": "news:556910",
@@ -9180,7 +9085,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.36355424805555
+      "hours_old": 85.30382824916667
     },
     {
       "id": "video:994013",
@@ -9202,7 +9107,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 80.61743867611112
+      "hours_old": 86.5577801325
     },
     {
       "id": "news:556904",
@@ -9224,7 +9129,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 81.38594642472222
+      "hours_old": 87.32630422166666
     },
     {
       "id": "image:9494916",
@@ -9249,7 +9154,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 83.61530060111112
+      "hours_old": 89.55561794194445
     },
     {
       "id": "video:993982",
@@ -9277,7 +9182,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.68670326333333
+      "hours_old": 89.62696428250001
     },
     {
       "id": "video:993977",
@@ -9305,7 +9210,36 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.69225888416668
+      "hours_old": 89.63251991249999
+    },
+    {
+      "id": "news:556775",
+      "title": "Freeze-Dried Plasma meets needs of Joint Force, Combatant Commands for future conflicts",
+      "description": "The battlefield of tomorrow demands medical innovations today, and within the Defense Health Agency, the Warfighter Protection and Acute Care project management office is at the forefront of this critical mission. Part of the Operational Medical Systems Program Management Office, WPAC is laser-focused on delivering medical solutions that empower warfighters to operate with confidence, even in the most austere and high-risk environments.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Operational Medical Systems - Warfighter Protection and Acute Care",
+      "date_published": "Jan 27, 2026 18:16 UTC",
+      "timestamp": "2026-01-27T18:16:30+00:00",
+      "country": "United States",
+      "state": "Maryland",
+      "city": "Fort Detrick",
+      "location_display": "Fort Detrick, Maryland, United States",
+      "url": "https://www.dvidshub.net/news/556775/freeze-dried-plasma-meets-needs-joint-force-combatant-commands-future-conflicts",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9492762/122x92_q95.jpg",
+      "keywords": [
+        "acquisition",
+        "Freeze-Dried Plasma",
+        "Defense Health Agency (DHA)",
+        "Operational Medical Systems",
+        "Department of War (DOW)",
+        "blood replacement"
+      ],
+      "credit": "T. T. Parish",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 90.03882834305556
     },
     {
       "id": "video:993902",
@@ -9334,7 +9268,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 84.73243758944443
+      "hours_old": 90.6727690025
     },
     {
       "id": "video:993939",
@@ -9360,7 +9294,7 @@
       "duration": 537,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 86.49281436972221
+      "hours_old": 92.4330753888889
     },
     {
       "id": "news:556860",
@@ -9389,7 +9323,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 87.01633203916667
+      "hours_old": 92.95660603916667
     },
     {
       "id": "video:993922",
@@ -9414,34 +9348,7 @@
       "duration": 39,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.91854979083334
-    },
-    {
-      "id": "news:556762",
-      "title": "TRICARE authorizes temporary prescription refill waivers for Maryland due to severe weather",
-      "description": "FALLS CHURCH, Virginia \u2013 The Defense Health Agency announced that TRICARE beneficiaries in Maryland may receive emergency prescription refills now through Feb. 2, due to severe weather.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Defense Health Agency",
-      "date_published": "Jan 27, 2026 14:06 UTC",
-      "timestamp": "2026-01-27T14:06:33+00:00",
-      "country": "United States",
-      "state": "Maryland",
-      "city": "",
-      "location_display": "Maryland, United States",
-      "url": "https://www.dvidshub.net/news/556762/tricare-authorizes-temporary-prescription-refill-waivers-maryland-due-severe-weather",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2306/7855365/122x92_q95.jpg",
-      "keywords": [
-        "DHA Spotlight",
-        "TRICARE  Defense Health Agency",
-        "pharmacy",
-        "(WMEC-630) Alert"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 88.26438764305556
+      "hours_old": 93.85889124777778
     },
     {
       "id": "news:556763",
@@ -9463,7 +9370,29 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.28188763833333
+      "hours_old": 94.22216168583334
+    },
+    {
+      "id": "news:556766",
+      "title": "TRICARE authorizes temporary prescription refill waivers for New York due to severe weather",
+      "description": "FALLS CHURCH, Virginia \u2013 The Defense Health Agency announced that TRICARE beneficiaries in New York may receive emergency prescription refills now through Feb. 2, due to severe weather.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Defense Health Agency",
+      "date_published": "Jan 27, 2026 13:59 UTC",
+      "timestamp": "2026-01-27T13:59:44+00:00",
+      "country": "United States",
+      "state": "New York",
+      "city": "",
+      "location_display": "New York, United States",
+      "url": "https://www.dvidshub.net/news/556766/tricare-authorizes-temporary-prescription-refill-waivers-new-york-due-severe-weather",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2306/7855365/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 94.31827278388889
     },
     {
       "id": "news:556769",
@@ -9490,7 +9419,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.43160990861112
+      "hours_old": 94.37188389055555
     },
     {
       "id": "news:556783",
@@ -9517,7 +9446,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.4502210238889
+      "hours_old": 94.39049498444444
     },
     {
       "id": "news:556787",
@@ -9539,7 +9468,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.473554345
+      "hours_old": 94.4138283261111
     },
     {
       "id": "news:556790",
@@ -9561,7 +9490,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.47938767416666
+      "hours_old": 94.41966165555556
     },
     {
       "id": "news:556784",
@@ -9583,7 +9512,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.48772101583333
+      "hours_old": 94.42799499694443
     },
     {
       "id": "news:556811",
@@ -9610,34 +9539,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.53855433666666
-    },
-    {
-      "id": "news:556852",
-      "title": "Hoosier National Guardsmen conclude severe winter weather response",
-      "description": "Indiana National Guardsmen are scheduled to conclude their severe winter weather response mission, Jan. 27, 2026, following several days of support to civil authorities during a winter weather event impacting central and southern Indiana.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Indiana National Guard Headquarters",
-      "date_published": "Jan 27, 2026 13:48 UTC",
-      "timestamp": "2026-01-27T13:48:55+00:00",
-      "country": "United States",
-      "state": "Indiana",
-      "city": "Indianapolis",
-      "location_display": "Indianapolis, Indiana, United States",
-      "url": "https://www.dvidshub.net/news/556852/hoosier-national-guardsmen-conclude-severe-winter-weather-response",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9493271/122x92_q95.jpg",
-      "keywords": [
-        "Indiana National Guard",
-        "National Guard Bureau",
-        "Operation Southern Snow 2026",
-        "Operation Southern Snow"
-      ],
-      "credit": "SGT Skyler Schendt",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 88.55827653638889
+      "hours_old": 94.47882831333332
     },
     {
       "id": "news:556812",
@@ -9659,7 +9561,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.62022099916666
+      "hours_old": 94.56049497527779
     },
     {
       "id": "news:556817",
@@ -9681,7 +9583,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.68688766138888
+      "hours_old": 94.62716163750001
     },
     {
       "id": "video:993913",
@@ -9708,7 +9610,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 93.72910535055556
+      "hours_old": 99.66944680777777
     },
     {
       "id": "news:556842",
@@ -9735,7 +9637,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.149001985
+      "hours_old": 103.08935978694444
     },
     {
       "id": "news:556834",
@@ -9757,7 +9659,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.07494318916666
+      "hours_old": 108.01521718583334
     },
     {
       "id": "news:556832",
@@ -9782,7 +9684,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.30355432305556
+      "hours_old": 108.24382830027777
     },
     {
       "id": "news:556829",
@@ -9808,7 +9710,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 103.21799871666667
+      "hours_old": 109.15827271583333
     },
     {
       "id": "news:556802",
@@ -9834,7 +9736,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.27150721222222
+      "hours_old": 112.21182963583334
     },
     {
       "id": "news:556806",
@@ -9863,7 +9765,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.52799872083334
+      "hours_old": 112.46827272111112
     },
     {
       "id": "news:556733",
@@ -9890,7 +9792,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.71622943999999
+      "hours_old": 112.6565518663889
     },
     {
       "id": "video:993835",
@@ -9914,7 +9816,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.78586997833332
+      "hours_old": 112.72613100194445
     },
     {
       "id": "video:993833",
@@ -9938,7 +9840,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.78586998305555
+      "hours_old": 112.72613100666666
     },
     {
       "id": "video:993834",
@@ -9962,7 +9864,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.78586999083333
+      "hours_old": 112.72613101055556
     },
     {
       "id": "news:556795",
@@ -9991,7 +9893,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 107.69522094777777
+      "hours_old": 113.63549494833333
     },
     {
       "id": "news:556773",
@@ -10020,7 +9922,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 108.14327650722223
+      "hours_old": 114.08355050777777
     },
     {
       "id": "news:556768",
@@ -10045,7 +9947,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 109.46994320694445
+      "hours_old": 115.41021723666667
     },
     {
       "id": "news:556749",
@@ -10074,7 +9976,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 111.67772095777778
+      "hours_old": 117.61799495833334
     },
     {
       "id": "video:993803",
@@ -10098,7 +10000,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 111.78420332027777
+      "hours_old": 117.72446435277777
     },
     {
       "id": "video:993783",
@@ -10120,29 +10022,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 116.22253662805555
-    },
-    {
-      "id": "video:993786",
-      "title": "NATO's presence in Romania master",
-      "description": "NATO\u2019s forces in Romania stand ready to enhance security in the Black Sea Region.\n\nFollowing Russia\u2019s full-scale invasion of Ukraine in 2022, Allies agreed to establish a multinational force in Romania. A NATO battlegroup led by the French Army was established at Cincu Training Area. With artillery, heavy armour, reconnaissance troops and mechanised infantry, these forces are a potent deterrent to aggression \u2013 but in the event of a crisis, they can also absorb thousands more troops and grow in s...",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Natochannel",
-      "date_published": "Jan 26, 2026 10:09 UTC",
-      "timestamp": "2026-01-26T10:09:05+00:00",
-      "country": "Romania",
-      "state": "",
-      "city": "",
-      "location_display": "Romania",
-      "url": "https://www.dvidshub.net/video/993786/natos-presence-romania-master",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993786/DOD_111494436.0000001/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": 72,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 116.22253667083332
+      "hours_old": 122.16279765194446
     },
     {
       "id": "video:993785",
@@ -10164,7 +10044,29 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 116.2225366763889
+      "hours_old": 122.1627977
+    },
+    {
+      "id": "video:993786",
+      "title": "NATO's presence in Romania master",
+      "description": "NATO\u2019s forces in Romania stand ready to enhance security in the Black Sea Region.\n\nFollowing Russia\u2019s full-scale invasion of Ukraine in 2022, Allies agreed to establish a multinational force in Romania. A NATO battlegroup led by the French Army was established at Cincu Training Area. With artillery, heavy armour, reconnaissance troops and mechanised infantry, these forces are a potent deterrent to aggression \u2013 but in the event of a crisis, they can also absorb thousands more troops and grow in s...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Natochannel",
+      "date_published": "Jan 26, 2026 10:09 UTC",
+      "timestamp": "2026-01-26T10:09:05+00:00",
+      "country": "Romania",
+      "state": "",
+      "city": "",
+      "location_display": "Romania",
+      "url": "https://www.dvidshub.net/video/993786/natos-presence-romania-master",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993786/DOD_111494436.0000001/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "",
+      "duration": 72,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 122.16279770583333
     },
     {
       "id": "video:993773",
@@ -10193,36 +10095,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 121.74188202833334
-    },
-    {
-      "id": "video:993774",
-      "title": "11th MEU\u202fMarines, Sailors\u202fConduct Embassy Reinforcement Training Event",
-      "description": "U.S. Marines and Sailors with India Company, Battalion Landing Team 3/5, 11th Marine Expeditionary Unit, participate in an embassy reinforcement training event on Marine Corps Base Camp Pendleton, California, Jan. 24, 2026. The 11th MEU is currently underway aboard the Boxer Amphibious Ready Group in the U.S. 3rd Fleet area of operations conducting integrated training that enhances lethality and warfighting readiness. (U.S. Marine Corps video by Cpl. Oliver Nisbet)",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Jan 26, 2026 04:37 UTC",
-      "timestamp": "2026-01-26T04:37:35+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/video/993774/11th-meu-marines-sailors-conduct-embassy-reinforcement-training-event",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2601/993774/DOD_111494317.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Blue-Green Team",
-        "Marines",
-        "Sailors",
-        "Pride of the Pacific",
-        "USS Boxer",
-        "BLT 3/5"
-      ],
-      "credit": "Cpl Oliver Nisbet",
-      "duration": 111,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 121.74632648444445
+      "hours_old": 127.68221345305555
     }
   ]
 }
