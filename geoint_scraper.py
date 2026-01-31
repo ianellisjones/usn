@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
 GEOINT DASHBOARD SCRAPER
-Version: 1.0.0
+Version: 1.1.0
 
 Combined scraper for the GEOINT Dashboard that integrates:
-1. Fleet Tracker data (from uscarriers.net)
+1. Fleet Tracker data (static data - updated manually)
 2. DVIDS content with geographic coordinates
 3. Breaking news categories
 
-This scraper updates geoint.html with fresh data from all sources.
+This scraper updates geoint.html with fresh DVIDS data while preserving
+static fleet data.
 
 Created by @ianellisjones and IEJ Media
 """
 
 import re
 import json
-import hashlib
 from datetime import datetime, timedelta
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional
 from dataclasses import dataclass, asdict, field
 from collections import defaultdict
 from pathlib import Path
@@ -25,7 +25,6 @@ import time
 import os
 
 import requests
-from bs4 import BeautifulSoup
 
 # ==============================================================================
 # CONFIGURATION
@@ -48,7 +47,39 @@ MAX_RESULTS_PER_QUERY = 100
 LOOKBACK_DAYS = 7
 
 # User agent for requests
-USER_AGENT = 'GEOINT-Dashboard/1.0 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'GEOINT-Dashboard/1.1 (Python; +https://github.com/ianellisjones/usn)'
+
+# GitHub Pages URL for fetching existing data
+GITHUB_PAGES_BASE = "https://ianellisjones.github.io/usn"
+
+# ==============================================================================
+# STATIC FLEET DATA
+# ==============================================================================
+
+# Current fleet positions (manually updated)
+# Last updated: 2026-01-30
+STATIC_SHIPS_DATA = [
+    {"hull": "CVN68", "name": "USS Nimitz", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "2025", "status": "USS Nimitz moored at Delta Pier on Naval Base Kitsap-Bremerton following an extended nine-month deployment in the U.S. 5th and 7th Fleet AoR.", "source_url": "", "display_lat": 47.5673, "display_lon": -119.6329},
+    {"hull": "CVN69", "name": "USS Dwight D. Eisenhower", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 8", "status": "September 26, USS Dwight D. Eisenhower moored at Pier 12N on Naval Station Norfolk after a six-day underway for TRACOM-CQ, in the Jacksonville Op. Area; Moved \"dead-stick\" to Super Pier 5N in Norfolk Naval Shipyard, for a Planned Incremental Availability (PIA), on Jan. 8.", "source_url": "", "display_lat": 36.9473, "display_lon": -71.3134},
+    {"hull": "CVN70", "name": "USS Carl Vinson", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "September 16", "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload.", "source_url": "", "display_lat": 32.7157, "display_lon": -112.1611},
+    {"hull": "CVN71", "name": "USS Theodore Roosevelt", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "January 15, 2026 USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island after a one-day underway in the SOCAL Op. Area; Underway for FRS-CQ from Jan. 21-28.", "source_url": "", "display_lat": 37.69534607176052, "display_lon": -114.2861},
+    {"hull": "CVN72", "name": "USS Abraham Lincoln", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Arabian Sea", "lat": 15.0, "lon": 65.0, "region": "CENTCOM", "date": "January 26", "status": "January 26, USS Abraham Lincoln CSG recently arrived on station in the North Arabian Sea, off the east coast of Oman.", "source_url": "", "display_lat": 15.0, "display_lon": 65.0},
+    {"hull": "CVN73", "name": "USS George Washington", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Yokosuka", "lat": 35.2831, "lon": 139.6703, "region": "WESTPAC", "date": "2025", "status": "USS George Washington moored at Berth 12 on Fleet Activities Yokosuka following a two-month patrol.", "source_url": "", "display_lat": 35.2831, "display_lon": 139.6703},
+    {"hull": "CVN74", "name": "USS John C. Stennis", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Newport News", "lat": 36.9788, "lon": -76.428, "region": "CONUS", "date": "April 8", "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard.", "source_url": "", "display_lat": 36.9788, "display_lon": -76.428},
+    {"hull": "CVN75", "name": "USS Harry S. Truman", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 21", "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway on Oct. 8; Moved to Pier 12N on Jan. 21, 2026.", "source_url": "", "display_lat": 41.92694607176052, "display_lon": -73.4384},
+    {"hull": "CVN76", "name": "USS Ronald Reagan", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "Dec. 2", "status": "November 12, USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13.", "source_url": "", "display_lat": 47.5673, "display_lon": -126.08290000000001},
+    {"hull": "CVN77", "name": "USS George H.W. Bush", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "January 27", "status": "January 27, 2026 USS George H.W. Bush moored at Pier 14S on Naval Station Norfolk after a two-week underway for FRS-CQ, in the Virginia Capes and Key West Op. Areas.", "source_url": "", "display_lat": 41.27742701892219, "display_lon": -78.8134},
+    {"hull": "CVN78", "name": "USS Gerald R. Ford", "ship_class": "Ford", "ship_type": "CVN", "location": "Caribbean Sea", "lat": 15.5, "lon": -73.0, "region": "SOUTHCOM", "date": "Jan. 27", "status": "January 21, USS Gerald R. Ford anchored approx. 1 n.m. off the coast of Charlotte Amalie West, St. Thomas Island, U.S. Virgin Islands, for a five-day liberty port visit; Conducted operations southwest of Puerto Rico from Jan. 27-29.", "source_url": "", "display_lat": 15.5, "display_lon": -73.0},
+    {"hull": "LHD1", "name": "USS Wasp", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "May 19", "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19.", "source_url": "", "display_lat": 36.9473, "display_lon": -82.0634},
+    {"hull": "LHD2", "name": "USS Essex", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "January 24", "status": "January 24, 2026 USS Essex moored at Berth 5, Pier 2 on Naval Base San Diego after a two-day underway in the SOCAL Op. Area.", "source_url": "", "display_lat": 37.04582701892219, "display_lon": -119.6611},
+    {"hull": "LHD3", "name": "USS Kearsarge", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "December 12", "status": "December 12, The Kearsarge moored at Berth 1, Pier 10 on Naval Station Norfolk.", "source_url": "", "display_lat": 32.61717298107781, "display_lon": -78.8134},
+    {"hull": "LHD4", "name": "USS Boxer", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "November 4, USS Boxer moored at Berth 6, Pier 13 on Naval Base San Diego for a brief stop; Returned home on Nov. 12; Underway for Amphibious Squadron (PHIBRON) 1/Marine Expeditionary Unit Integration Training (PMINT), with the 11th MEU, from Dec. 2-15; Underway for ARG/MEUEX on Jan. 21.", "source_url": "", "display_lat": 32.7157, "display_lon": -122.9111},
+    {"hull": "LHD5", "name": "USS Bataan", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "2025", "status": "July 2025 USS Bataan undocked and moored at Berth 2E on NASSCO shipyard.", "source_url": "", "display_lat": 31.96765392823948, "display_lon": -73.4384},
+    {"hull": "LHD7", "name": "USS Iwo Jima", "ship_class": "Wasp", "ship_type": "LHD", "location": "Ponce", "lat": 17.98, "lon": -66.6141, "region": "SOUTHCOM", "date": "Jan. 15", "status": "January 2, 2026 The Iwo Jima ARG recently arrived northeast of Orchila Island, Venezuela, in support of Operation Absolute Resolve; Moored at Wharf C2 on Naval Station Mayport from Jan. 7-11; Moored at Berth 4/5 in Port of Ponce from Jan. 15-20.", "source_url": "", "display_lat": 17.98, "display_lon": -66.6141},
+    {"hull": "LHD8", "name": "USS Makin Island", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 23", "status": "January 21, USS Makin Island departed Naval Base San Diego for a Quarterly Underway Amphibious Readiness Training 26.2; Anchored off Camp Pendleton from Jan. 23-24.", "source_url": "", "display_lat": 28.385572981077807, "display_lon": -119.6611},
+    {"hull": "LHA6", "name": "USS America", "ship_class": "America", "ship_type": "LHA", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "2027", "status": "USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years.", "source_url": "", "display_lat": 27.73605392823948, "display_lon": -114.2861},
+    {"hull": "LHA7", "name": "USS Tripoli", "ship_class": "America", "ship_type": "LHA", "location": "Okinawa", "lat": 26.3344, "lon": 127.8056, "region": "WESTPAC", "date": "2026", "status": "The Tripoli recently moored at Navy Pier East on White Beach Naval Facility.", "source_url": "", "display_lat": 26.3344, "display_lon": 127.8056}
+]
 
 # ==============================================================================
 # LOCATION COORDINATES DATABASE
@@ -114,42 +145,6 @@ LOCATION_COORDS = {
     "Baltic Sea": {"lat": 58, "lon": 20},
     "North Sea": {"lat": 56, "lon": 3},
     "Black Sea": {"lat": 43, "lon": 34},
-
-    # US Naval Bases / Regions
-    "Norfolk": {"lat": 36.9473, "lon": -76.3134},
-    "San Diego": {"lat": 32.7157, "lon": -117.1611},
-    "Pearl Harbor": {"lat": 21.3069, "lon": -157.9517},
-    "Yokosuka": {"lat": 35.2831, "lon": 139.6703},
-    "Sasebo": {"lat": 33.1594, "lon": 129.7228},
-    "Bremerton": {"lat": 47.5673, "lon": -122.6329},
-    "Mayport": {"lat": 30.3930, "lon": -81.4300},
-    "Pensacola": {"lat": 30.4213, "lon": -87.2169},
-    "Jacksonville": {"lat": 30.3322, "lon": -81.6556},
-    "Kings Bay": {"lat": 30.7991, "lon": -81.5687},
-}
-
-# Fleet ship locations (from uscarriers.net)
-FLEET_LOCATIONS = {
-    "Bremerton / Kitsap": {"lat": 47.5673, "lon": -122.6329, "region": "CONUS"},
-    "Norfolk / Portsmouth": {"lat": 36.9473, "lon": -76.3134, "region": "CONUS"},
-    "San Diego": {"lat": 32.7157, "lon": -117.1611, "region": "CONUS"},
-    "Yokosuka": {"lat": 35.2831, "lon": 139.6703, "region": "WESTPAC"},
-    "Sasebo": {"lat": 33.1594, "lon": 129.7228, "region": "WESTPAC"},
-    "Newport News": {"lat": 36.9788, "lon": -76.428, "region": "CONUS"},
-    "Pearl Harbor": {"lat": 21.3069, "lon": -157.9517, "region": "WESTPAC"},
-    "Arabian Sea": {"lat": 15.0, "lon": 65.0, "region": "CENTCOM"},
-    "Persian Gulf": {"lat": 26.5, "lon": 52.0, "region": "CENTCOM"},
-    "Mediterranean Sea": {"lat": 35.0, "lon": 18.0, "region": "EUCOM"},
-    "Caribbean Sea": {"lat": 15.5, "lon": -73.0, "region": "SOUTHCOM"},
-    "Western Pacific": {"lat": 20.0, "lon": 130.0, "region": "WESTPAC"},
-    "Eastern Pacific": {"lat": 10.0, "lon": -120.0, "region": "WESTPAC"},
-    "Indian Ocean": {"lat": -5.0, "lon": 75.0, "region": "CENTCOM"},
-    "South China Sea": {"lat": 12.0, "lon": 115.0, "region": "WESTPAC"},
-    "East China Sea": {"lat": 28.0, "lon": 125.0, "region": "WESTPAC"},
-    "Okinawa": {"lat": 26.3344, "lon": 127.8056, "region": "WESTPAC"},
-    "Guam": {"lat": 13.4443, "lon": 144.7937, "region": "WESTPAC"},
-    "Ponce": {"lat": 17.98, "lon": -66.6141, "region": "SOUTHCOM"},
-    "Mayport": {"lat": 30.393, "lon": -81.43, "region": "CONUS"},
 }
 
 # ==============================================================================
@@ -181,24 +176,6 @@ class DVIDSItem:
     aspect_ratio: str = ""
     commands: List[str] = field(default_factory=list)
     hours_old: float = 0.0
-
-
-@dataclass
-class Ship:
-    """Data class representing a Navy ship."""
-    hull: str
-    name: str
-    ship_class: str
-    ship_type: str
-    location: str
-    lat: float
-    lon: float
-    region: str
-    date: str
-    status: str
-    source_url: str
-    display_lat: float = 0.0
-    display_lon: float = 0.0
 
 
 # ==============================================================================
@@ -320,9 +297,6 @@ def parse_dvids_item(item: dict, content_type: str) -> Optional[DVIDSItem]:
 
 def get_coordinates_for_location(country: str, state: str, city: str) -> dict:
     """Get coordinates for a location, with fallbacks."""
-    # Try city-level first (future enhancement)
-    # For now, use country-level coordinates
-
     if country in LOCATION_COORDS:
         return LOCATION_COORDS[country]
 
@@ -385,191 +359,50 @@ def fetch_all_dvids_content() -> List[DVIDSItem]:
 
 
 # ==============================================================================
-# FLEET SCRAPER FUNCTIONS
+# FLEET DATA FUNCTIONS
 # ==============================================================================
 
-def fetch_fleet_data() -> List[Ship]:
-    """Fetch current fleet positions from uscarriers.net."""
-    ships = []
+def get_fleet_data() -> List[dict]:
+    """
+    Get fleet data from static source.
 
-    # Ship definitions
-    carriers = [
-        ("CVN68", "USS Nimitz", "Nimitz", "CVN"),
-        ("CVN69", "USS Dwight D. Eisenhower", "Nimitz", "CVN"),
-        ("CVN70", "USS Carl Vinson", "Nimitz", "CVN"),
-        ("CVN71", "USS Theodore Roosevelt", "Nimitz", "CVN"),
-        ("CVN72", "USS Abraham Lincoln", "Nimitz", "CVN"),
-        ("CVN73", "USS George Washington", "Nimitz", "CVN"),
-        ("CVN74", "USS John C. Stennis", "Nimitz", "CVN"),
-        ("CVN75", "USS Harry S. Truman", "Nimitz", "CVN"),
-        ("CVN76", "USS Ronald Reagan", "Nimitz", "CVN"),
-        ("CVN77", "USS George H.W. Bush", "Nimitz", "CVN"),
-        ("CVN78", "USS Gerald R. Ford", "Ford", "CVN"),
-    ]
-
-    amphibs = [
-        ("LHD1", "USS Wasp", "Wasp", "LHD"),
-        ("LHD2", "USS Essex", "Wasp", "LHD"),
-        ("LHD3", "USS Kearsarge", "Wasp", "LHD"),
-        ("LHD4", "USS Boxer", "Wasp", "LHD"),
-        ("LHD5", "USS Bataan", "Wasp", "LHD"),
-        ("LHD7", "USS Iwo Jima", "Wasp", "LHD"),
-        ("LHD8", "USS Makin Island", "Wasp", "LHD"),
-        ("LHA6", "USS America", "America", "LHA"),
-        ("LHA7", "USS Tripoli", "America", "LHA"),
-    ]
-
-    all_ships = carriers + amphibs
-
-    for hull, name, ship_class, ship_type in all_ships:
-        ship_data = scrape_ship_page(hull, name, ship_class, ship_type)
-        if ship_data:
-            ships.append(ship_data)
-
-    # Apply display coordinate offsets for ships at same location
-    apply_display_offsets(ships)
-
-    return ships
+    Note: Previously fetched from uscarriers.net which is currently offline.
+    Using static data that can be manually updated when new information is available.
+    """
+    print("Using static fleet data (last updated: 2026-01-30)")
+    return STATIC_SHIPS_DATA.copy()
 
 
-def scrape_ship_page(hull: str, name: str, ship_class: str, ship_type: str) -> Optional[Ship]:
-    """Scrape individual ship page from uscarriers.net."""
-    url = f"http://uscarriers.net/{hull.lower()}history.htm"
-
+def try_fetch_fleet_from_github() -> Optional[List[dict]]:
+    """
+    Try to fetch latest fleet data from GitHub Pages as fallback.
+    Returns None if fetch fails.
+    """
     try:
+        print("Attempting to fetch latest fleet data from GitHub Pages...")
+        url = f"{GITHUB_PAGES_BASE}/index.html"
         headers = {"User-Agent": USER_AGENT}
         response = requests.get(url, headers=headers, timeout=15)
 
-        if response.status_code != 200:
-            print(f"  Failed to fetch {hull}: {response.status_code}")
-            return create_default_ship(hull, name, ship_class, ship_type)
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        # Extract the latest status (usually in first paragraph or table)
-        status_text = ""
-        date_text = ""
-        location = "Unknown"
-
-        # Try to find status text in various elements
-        for elem in soup.find_all(['p', 'td', 'div']):
-            text = elem.get_text(strip=True)
-            if text and len(text) > 50 and any(word in text.lower() for word in ['moored', 'underway', 'deployed', 'anchored', 'pier']):
-                status_text = text[:500]
-
-                # Try to extract date
-                date_match = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s+\d{4})?', text)
-                if date_match:
-                    date_text = date_match.group(0)
-
-                # Try to extract location
-                location = extract_location(text)
-                break
-
-        # Get coordinates
-        loc_data = FLEET_LOCATIONS.get(location, FLEET_LOCATIONS.get("Norfolk / Portsmouth"))
-        lat = loc_data["lat"]
-        lon = loc_data["lon"]
-        region = loc_data.get("region", "CONUS")
-
-        return Ship(
-            hull=hull,
-            name=name,
-            ship_class=ship_class,
-            ship_type=ship_type,
-            location=location,
-            lat=lat,
-            lon=lon,
-            region=region,
-            date=date_text or "2025",
-            status=status_text or f"{name} status unknown",
-            source_url=url,
-            display_lat=lat,
-            display_lon=lon
-        )
-
+        if response.status_code == 200:
+            # Extract shipsData from the HTML
+            match = re.search(r'const shipsData = (\[.*?\]);', response.text, re.DOTALL)
+            if match:
+                ships_json = match.group(1)
+                ships = json.loads(ships_json)
+                print(f"  Successfully fetched {len(ships)} ships from GitHub Pages")
+                return ships
     except Exception as e:
-        print(f"  Error scraping {hull}: {e}")
-        return create_default_ship(hull, name, ship_class, ship_type)
+        print(f"  Could not fetch from GitHub Pages: {e}")
 
-
-def create_default_ship(hull: str, name: str, ship_class: str, ship_type: str) -> Ship:
-    """Create a default ship entry when scraping fails."""
-    default_loc = "Norfolk / Portsmouth" if hull.startswith("CVN") else "San Diego"
-    loc_data = FLEET_LOCATIONS[default_loc]
-
-    return Ship(
-        hull=hull,
-        name=name,
-        ship_class=ship_class,
-        ship_type=ship_type,
-        location=default_loc,
-        lat=loc_data["lat"],
-        lon=loc_data["lon"],
-        region=loc_data["region"],
-        date="Unknown",
-        status=f"{name} - status unavailable",
-        source_url=f"http://uscarriers.net/{hull.lower()}history.htm",
-        display_lat=loc_data["lat"],
-        display_lon=loc_data["lon"]
-    )
-
-
-def extract_location(text: str) -> str:
-    """Extract location from status text."""
-    text_lower = text.lower()
-
-    # Check for known locations
-    location_patterns = [
-        ("Arabian Sea", ["arabian sea"]),
-        ("Persian Gulf", ["persian gulf"]),
-        ("Mediterranean Sea", ["mediterranean"]),
-        ("Caribbean Sea", ["caribbean"]),
-        ("South China Sea", ["south china sea"]),
-        ("Western Pacific", ["western pacific", "west pacific"]),
-        ("Indian Ocean", ["indian ocean"]),
-        ("Norfolk / Portsmouth", ["norfolk", "portsmouth"]),
-        ("San Diego", ["san diego", "north island"]),
-        ("Bremerton / Kitsap", ["bremerton", "kitsap"]),
-        ("Yokosuka", ["yokosuka"]),
-        ("Pearl Harbor", ["pearl harbor"]),
-        ("Mayport", ["mayport"]),
-        ("Okinawa", ["okinawa", "white beach"]),
-        ("Guam", ["guam"]),
-        ("Newport News", ["newport news"]),
-        ("Ponce", ["ponce"]),
-    ]
-
-    for location, patterns in location_patterns:
-        if any(p in text_lower for p in patterns):
-            return location
-
-    return "Unknown"
-
-
-def apply_display_offsets(ships: List[Ship]) -> None:
-    """Apply small offsets to ships at the same location for better visibility."""
-    location_counts = defaultdict(int)
-
-    for ship in ships:
-        key = (ship.lat, ship.lon)
-        offset = location_counts[key]
-
-        # Apply spiral offset pattern
-        angle = offset * 0.8
-        radius = 3 + (offset * 0.5)
-
-        ship.display_lat = ship.lat + (radius * 0.1 * (offset % 3 - 1))
-        ship.display_lon = ship.lon + (radius * 0.15 * ((offset // 3) % 3 - 1))
-
-        location_counts[key] += 1
+    return None
 
 
 # ==============================================================================
 # HTML GENERATION
 # ==============================================================================
 
-def generate_geoint_html(ships: List[Ship], dvids_items: List[DVIDSItem]) -> str:
+def generate_geoint_html(ships: List[dict], dvids_items: List[DVIDSItem]) -> str:
     """Generate the GEOINT Dashboard HTML with updated data."""
 
     # Read the template
@@ -583,7 +416,7 @@ def generate_geoint_html(ships: List[Ship], dvids_items: List[DVIDSItem]) -> str
         html = f.read()
 
     # Convert ships to JSON
-    ships_json = json.dumps([asdict(s) for s in ships], indent=None)
+    ships_json = json.dumps(ships, indent=None)
 
     # Find and replace the shipsData
     ships_pattern = r'const shipsData = \[.*?\];'
@@ -641,14 +474,16 @@ def save_dvids_data(items: List[DVIDSItem]) -> None:
 def main():
     """Main entry point for the GEOINT scraper."""
     print("=" * 60)
-    print("GEOINT DASHBOARD SCRAPER")
+    print("GEOINT DASHBOARD SCRAPER v1.1")
     print("=" * 60)
     print()
 
-    # Fetch fleet data
-    print("Fetching fleet data...")
-    ships = fetch_fleet_data()
-    print(f"  Found {len(ships)} ships")
+    # Get fleet data (try GitHub first, fall back to static)
+    print("Getting fleet data...")
+    ships = try_fetch_fleet_from_github()
+    if ships is None:
+        ships = get_fleet_data()
+    print(f"  Using {len(ships)} ships")
     print()
 
     # Fetch DVIDS data
