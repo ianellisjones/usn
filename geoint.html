@@ -1232,12 +1232,15 @@
         let dvidsGlobeInitialized = false;
 
         async function loadDvidsData() {
+            let loaded = false;
+
             try {
                 // Try to load from local file first
                 const response = await fetch('dvids_data.json');
                 if (response.ok) {
                     dvidsData = await response.json();
                     console.log('Loaded DVIDS data:', dvidsData.total_count, 'items');
+                    loaded = true;
 
                     // Update timestamp if available from data
                     if (dvidsData.timestamp) {
@@ -1246,12 +1249,17 @@
                     }
                 }
             } catch (error) {
-                console.log('DVIDS data not available locally, trying GitHub Pages...');
+                console.log('DVIDS data not available locally');
+            }
+
+            if (!loaded) {
+                console.log('Trying GitHub Pages for DVIDS data...');
                 try {
                     const ghResponse = await fetch('https://ianellisjones.github.io/usn/dvids_data.json');
                     if (ghResponse.ok) {
                         dvidsData = await ghResponse.json();
                         console.log('Loaded DVIDS data from GitHub:', dvidsData.total_count, 'items');
+                        loaded = true;
                     }
                 } catch (e) {
                     console.log('Could not load DVIDS data from GitHub either');
@@ -1533,66 +1541,76 @@
         let newsGlobeInitialized = false;
 
         async function loadNewsData() {
+            let loaded = false;
+
             try {
                 // Try to load news data from local file
                 const response = await fetch('news_data.json');
                 if (response.ok) {
-                    const data = await response.json();
-                    newsData = data;
-                    console.log('Loaded news data');
+                    newsData = await response.json();
+                    console.log('Loaded news data from local file');
+                    loaded = true;
                 }
             } catch (error) {
-                console.log('News data not available locally, trying GitHub Pages...');
+                console.log('News data not available locally');
+            }
+
+            if (!loaded) {
+                console.log('Trying GitHub Pages for news data...');
                 try {
                     const ghResponse = await fetch('https://ianellisjones.github.io/usn/news_data.json');
                     if (ghResponse.ok) {
-                        const data = await ghResponse.json();
-                        newsData = data;
+                        newsData = await ghResponse.json();
                         console.log('Loaded news data from GitHub');
+                        loaded = true;
                     }
                 } catch (e) {
-                    console.log('Could not load news data, using sample headlines');
-                    // Use sample headlines for demonstration
-                    newsData = {
-                        categories: {
-                            globe: [
-                                { title: "Global tensions rise as trade negotiations stall", source: "Reuters", url: "#", breaking: true },
-                                { title: "UN Security Council convenes emergency session", source: "AP News", url: "#" },
-                                { title: "International climate summit reaches breakthrough agreement", source: "BBC World", url: "#" }
-                            ],
-                            us: [
-                                { title: "Pentagon announces new defense strategy priorities", source: "Defense News", url: "#", breaking: true },
-                                { title: "Navy expands Pacific presence amid regional tensions", source: "Navy Times", url: "#", high: true },
-                                { title: "Congress debates new military funding bill", source: "The Hill", url: "#" }
-                            ],
-                            europe: [
-                                { title: "NATO allies increase defense spending commitments", source: "Stars & Stripes", url: "#" },
-                                { title: "European nations strengthen eastern border security", source: "Politico EU", url: "#" }
-                            ],
-                            asia: [
-                                { title: "Indo-Pacific Command conducts multilateral exercises", source: "PACOM", url: "#", high: true },
-                                { title: "South China Sea tensions escalate following incident", source: "SCMP", url: "#" },
-                                { title: "Japan announces defense modernization plans", source: "Nikkei", url: "#" }
-                            ],
-                            mideast: [
-                                { title: "Fifth Fleet maintains presence in Arabian Gulf", source: "NAVCENT", url: "#" },
-                                { title: "Regional powers engage in diplomatic talks", source: "Al Jazeera", url: "#" }
-                            ],
-                            conflicts: [
-                                { title: "Humanitarian crisis worsens in conflict zone", source: "UN News", url: "#", breaking: true },
-                                { title: "Peacekeeping forces deploy to volatile region", source: "Reuters", url: "#" }
-                            ],
-                            cyber: [
-                                { title: "Major cyber attack targets critical infrastructure", source: "CyberScoop", url: "#", breaking: true },
-                                { title: "Defense agencies enhance cybersecurity protocols", source: "FCW", url: "#" }
-                            ],
-                            finance: [
-                                { title: "Defense stocks surge on new contract announcements", source: "Bloomberg", url: "#" },
-                                { title: "Military budget allocation shifts priorities", source: "Defense One", url: "#" }
-                            ]
-                        }
-                    };
+                    console.log('Could not load news data from GitHub');
                 }
+            }
+
+            // Use sample headlines if no data loaded
+            if (!loaded) {
+                console.log('Using sample headlines');
+                newsData = {
+                    categories: {
+                        globe: [
+                            { title: "Global tensions rise as trade negotiations stall", source: "Reuters", url: "#", breaking: true },
+                            { title: "UN Security Council convenes emergency session", source: "AP News", url: "#" },
+                            { title: "International climate summit reaches breakthrough agreement", source: "BBC World", url: "#" }
+                        ],
+                        us: [
+                            { title: "Pentagon announces new defense strategy priorities", source: "Defense News", url: "#", breaking: true },
+                            { title: "Navy expands Pacific presence amid regional tensions", source: "Navy Times", url: "#", high: true },
+                            { title: "Congress debates new military funding bill", source: "The Hill", url: "#" }
+                        ],
+                        europe: [
+                            { title: "NATO allies increase defense spending commitments", source: "Stars & Stripes", url: "#" },
+                            { title: "European nations strengthen eastern border security", source: "Politico EU", url: "#" }
+                        ],
+                        asia: [
+                            { title: "Indo-Pacific Command conducts multilateral exercises", source: "PACOM", url: "#", high: true },
+                            { title: "South China Sea tensions escalate following incident", source: "SCMP", url: "#" },
+                            { title: "Japan announces defense modernization plans", source: "Nikkei", url: "#" }
+                        ],
+                        mideast: [
+                            { title: "Fifth Fleet maintains presence in Arabian Gulf", source: "NAVCENT", url: "#" },
+                            { title: "Regional powers engage in diplomatic talks", source: "Al Jazeera", url: "#" }
+                        ],
+                        conflicts: [
+                            { title: "Humanitarian crisis worsens in conflict zone", source: "UN News", url: "#", breaking: true },
+                            { title: "Peacekeeping forces deploy to volatile region", source: "Reuters", url: "#" }
+                        ],
+                        cyber: [
+                            { title: "Major cyber attack targets critical infrastructure", source: "CyberScoop", url: "#", breaking: true },
+                            { title: "Defense agencies enhance cybersecurity protocols", source: "FCW", url: "#" }
+                        ],
+                        finance: [
+                            { title: "Defense stocks surge on new contract announcements", source: "Bloomberg", url: "#" },
+                            { title: "Military budget allocation shifts priorities", source: "Defense One", url: "#" }
+                        ]
+                    }
+                };
             }
 
             initNewsSection();
