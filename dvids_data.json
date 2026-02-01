@@ -1,10 +1,10 @@
 {
   "date": "2026-02-01",
-  "timestamp": "2026-02-01T00:43:27.578350",
+  "timestamp": "2026-02-01T01:05:35.135923",
   "total_count": 414,
   "by_country": {
-    "United States": 358,
-    "Pacific Ocean": 12,
+    "United States": 353,
+    "Pacific Ocean": 17,
     "At Sea": 2,
     "Arabian Sea": 1,
     "Antarctica": 3,
@@ -43,6 +43,87 @@
   },
   "items": [
     {
+      "id": "image:9502204",
+      "title": "228th Theater Tactical Signal Brigade vehicle-recovery teams continue Winter Storm Gianna response",
+      "description": "A vehicle-recovery team (VRT) of the 228th Theater...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "South Carolina National Guard",
+      "date_published": "Feb 01, 2026 00:44 UTC",
+      "timestamp": "2026-02-01T00:44:55+00:00",
+      "country": "United States",
+      "state": "South Carolina",
+      "city": "Cherokee",
+      "location_display": "Cherokee, South Carolina, United States",
+      "url": "https://www.dvidshub.net/image/9502204/228th-theater-tactical-signal-brigade-vehicle-recovery-teams-continue-winter-storm-gianna-response",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2602/9502204/122x92_q95.jpg",
+      "keywords": [
+        "South Carolina National Guard",
+        "Winter weather",
+        "228th TTSB",
+        "winter storm Gianna"
+      ],
+      "credit": "SFC Roberto Di Giovine",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.34414900000000004
+    },
+    {
+      "id": "image:9502202",
+      "title": "228th Theater Tactical Signal Brigade vehicle-recovery teams continue Winter Storm Gianna response",
+      "description": "A vehicle-recovery team (VRT) of the 228th Theater...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "South Carolina National Guard",
+      "date_published": "Feb 01, 2026 00:44 UTC",
+      "timestamp": "2026-02-01T00:44:31+00:00",
+      "country": "United States",
+      "state": "South Carolina",
+      "city": "Cherokee",
+      "location_display": "Cherokee, South Carolina, United States",
+      "url": "https://www.dvidshub.net/image/9502202/228th-theater-tactical-signal-brigade-vehicle-recovery-teams-continue-winter-storm-gianna-response",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2602/9502202/122x92_q95.jpg",
+      "keywords": [
+        "South Carolina National Guard",
+        "Winter weather",
+        "228th TTSB",
+        "winter storm Gianna"
+      ],
+      "credit": "SFC Roberto Di Giovine",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.35081567027777777
+    },
+    {
+      "id": "image:9502199",
+      "title": "228th Theater Tactical Signal Brigade vehicle-recovery teams continue Winter Storm Gianna response",
+      "description": "A vehicle-recovery team (VRT) of the 228th Theater...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "South Carolina National Guard",
+      "date_published": "Feb 01, 2026 00:43 UTC",
+      "timestamp": "2026-02-01T00:43:24+00:00",
+      "country": "United States",
+      "state": "South Carolina",
+      "city": "Cherokee",
+      "location_display": "Cherokee, South Carolina, United States",
+      "url": "https://www.dvidshub.net/image/9502199/228th-theater-tactical-signal-brigade-vehicle-recovery-teams-continue-winter-storm-gianna-response",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2602/9502199/122x92_q95.jpg",
+      "keywords": [
+        "South Carolina National Guard",
+        "Winter weather",
+        "228th TTSB",
+        "winter storm Gianna"
+      ],
+      "credit": "SFC Roberto Di Giovine",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.3694267477777778
+    },
+    {
       "id": "image:9502198",
       "title": "228th Theater Tactical Signal Brigade vehicle-recovery teams continue Winter Storm Gianna response",
       "description": "A vehicle-recovery team (VRT) of the 228th Theater...",
@@ -67,7 +148,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.025919749444444445
+      "hours_old": 0.3947045288888889
     },
     {
       "id": "image:9502191",
@@ -96,7 +177,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.0359197525
+      "hours_old": 0.4047045183333333
     },
     {
       "id": "image:9502190",
@@ -125,7 +206,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.041197521111111114
+      "hours_old": 0.4099822836111111
     },
     {
       "id": "image:9502189",
@@ -154,7 +235,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.05480863555555556
+      "hours_old": 0.4235933983333333
     },
     {
       "id": "news:557250",
@@ -182,7 +263,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 1.4957369752777776
+      "hours_old": 1.8645290191666666
     },
     {
       "id": "image:9502166",
@@ -209,7 +290,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5336975113888889
+      "hours_old": 1.9024822733333333
     },
     {
       "id": "image:9502165",
@@ -231,7 +312,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5336975147222223
+      "hours_old": 1.9024822769444445
     },
     {
       "id": "image:9502164",
@@ -258,7 +339,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5336975175
+      "hours_old": 1.9024822802777779
     },
     {
       "id": "image:9502179",
@@ -280,7 +361,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5361974752777776
+      "hours_old": 1.9049822349999999
     },
     {
       "id": "image:9502178",
@@ -307,7 +388,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5364752563888888
+      "hours_old": 1.9052600163888889
     },
     {
       "id": "image:9502177",
@@ -329,7 +410,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5364752594444444
+      "hours_old": 1.9052600197222223
     },
     {
       "id": "image:9502175",
@@ -356,7 +437,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5364752622222222
+      "hours_old": 1.9052600225
     },
     {
       "id": "image:9502174",
@@ -378,7 +459,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5364752652777778
+      "hours_old": 1.9052600255555556
     },
     {
       "id": "image:9502173",
@@ -405,7 +486,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5364752683333334
+      "hours_old": 1.9052600286111112
     },
     {
       "id": "image:9502172",
@@ -427,7 +508,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5367530491666668
+      "hours_old": 1.9055378102777778
     },
     {
       "id": "image:9502171",
@@ -454,7 +535,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5367530519444443
+      "hours_old": 1.9055378133333334
     },
     {
       "id": "image:9502170",
@@ -476,7 +557,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.536753055
+      "hours_old": 1.9055378169444446
     },
     {
       "id": "image:9502169",
@@ -503,7 +584,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.5367530577777777
+      "hours_old": 1.9055378200000002
     },
     {
       "id": "image:9502168",
@@ -525,7 +606,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.536753061111111
+      "hours_old": 1.9055378230555557
     },
     {
       "id": "image:9502167",
@@ -547,7 +628,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5370308419444445
+      "hours_old": 1.905815603888889
     },
     {
       "id": "image:9502131",
@@ -576,7 +657,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.9520308055555557
+      "hours_old": 2.3208156255555554
     },
     {
       "id": "image:9502116",
@@ -603,7 +684,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.9600863569444444
+      "hours_old": 2.328871188611111
     },
     {
       "id": "image:9502132",
@@ -631,7 +712,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2125863394444445
+      "hours_old": 2.5813711988888888
     },
     {
       "id": "image:9502115",
@@ -659,7 +740,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.229253020833333
+      "hours_old": 2.598037883055556
     },
     {
       "id": "video:994579",
@@ -688,7 +769,7 @@
       "duration": 68,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.2666053119444447
+      "hours_old": 2.6353949749999996
     },
     {
       "id": "video:994580",
@@ -710,7 +791,7 @@
       "duration": 110,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.2924387002777777
+      "hours_old": 2.66122837
     },
     {
       "id": "video:994600",
@@ -732,7 +813,7 @@
       "duration": 85,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.3349386952777778
+      "hours_old": 2.703728375277778
     },
     {
       "id": "image:9502133",
@@ -760,7 +841,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3550863427777777
+      "hours_old": 2.7238712025
     },
     {
       "id": "image:9502117",
@@ -787,7 +868,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3564752344444444
+      "hours_old": 2.7252600947222225
     },
     {
       "id": "image:9502118",
@@ -815,7 +896,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3578641286111113
+      "hours_old": 2.7266489869444444
     },
     {
       "id": "image:9502140",
@@ -842,7 +923,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.359253
+      "hours_old": 2.728037783333333
     },
     {
       "id": "image:9502141",
@@ -869,7 +950,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3648085586111107
+      "hours_old": 2.7335933427777777
     },
     {
       "id": "video:994602",
@@ -898,7 +979,7 @@
       "duration": 76,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.3643831136111113
+      "hours_old": 2.7331727750000003
     },
     {
       "id": "image:9502143",
@@ -925,7 +1006,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.366752996666667
+      "hours_old": 2.7355377797222222
     },
     {
       "id": "video:994607",
@@ -947,7 +1028,7 @@
       "duration": 119,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.396049785833333
+      "hours_old": 2.7648394522222226
     },
     {
       "id": "video:994608",
@@ -969,7 +1050,7 @@
       "duration": 116,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.439938619722222
+      "hours_old": 2.808728283611111
     },
     {
       "id": "video:994610",
@@ -998,7 +1079,145 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.557716505833333
+      "hours_old": 2.926506182222222
+    },
+    {
+      "id": "image:9501960",
+      "title": "11th MEU Marines Conduct Tactical Combat Casualty Care Training Aboard USS Comstock",
+      "description": "U.S. Marines with Kilo Company, Battalion Landing Team...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 31, 2026 21:52 UTC",
+      "timestamp": "2026-01-31T21:52:16+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9501960/11th-meu-marines-conduct-tactical-combat-casualty-care-training-aboard-uss-comstock",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501960/122x92_q95.jpg",
+      "keywords": [
+        "Integration",
+        "USS Comstock",
+        "Blue-Green Team",
+        "Pride of the Pacific",
+        "Marines",
+        "Sailors"
+      ],
+      "credit": "Sgt Trent A. Henry",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.220488881111111
+    },
+    {
+      "id": "image:9501959",
+      "title": "11th MEU Marines Conduct Tactical Combat Casualty Care Training Aboard USS Comstock",
+      "description": "U.S. Navy Hospital Corpsman 3rd Class Haley Harding with...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 31, 2026 21:52 UTC",
+      "timestamp": "2026-01-31T21:52:15+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9501959/11th-meu-marines-conduct-tactical-combat-casualty-care-training-aboard-uss-comstock",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501959/122x92_q95.jpg",
+      "keywords": [
+        "Integration",
+        "USS Comstock",
+        "Blue-Green Team",
+        "Pride of the Pacific",
+        "Marines",
+        "Sailors"
+      ],
+      "credit": "Sgt Trent A. Henry",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.2207666630555556
+    },
+    {
+      "id": "image:9501958",
+      "title": "11th MEU Marines Conduct Tactical Combat Casualty Care Training Aboard USS Comstock",
+      "description": "U.S. Marine Corps Cpl. Jamarieo Barkley, a fire team...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 31, 2026 21:52 UTC",
+      "timestamp": "2026-01-31T21:52:15+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9501958/11th-meu-marines-conduct-tactical-combat-casualty-care-training-aboard-uss-comstock",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501958/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Sgt Trent A. Henry",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.2207666666666666
+    },
+    {
+      "id": "image:9501957",
+      "title": "11th MEU Marines Conduct Tactical Combat Casualty Care Training Aboard USS Comstock",
+      "description": "A U.S. Marine with Kilo Company, Battalion Landing Team...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 31, 2026 21:52 UTC",
+      "timestamp": "2026-01-31T21:52:15+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9501957/11th-meu-marines-conduct-tactical-combat-casualty-care-training-aboard-uss-comstock",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501957/122x92_q95.jpg",
+      "keywords": [
+        "Integration",
+        "USS Comstock",
+        "Blue-Green Team",
+        "Pride of the Pacific",
+        "Marines",
+        "Sailors"
+      ],
+      "credit": "Sgt Trent A. Henry",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.22076667
+    },
+    {
+      "id": "image:9501956",
+      "title": "11th MEU Marines Conduct Tactical Combat Casualty Care Training Aboard USS Comstock",
+      "description": "A U.S. Marine with Kilo Company, Battalion Landing Team...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Jan 31, 2026 21:52 UTC",
+      "timestamp": "2026-01-31T21:52:14+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9501956/11th-meu-marines-conduct-tactical-combat-casualty-care-training-aboard-uss-comstock",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501956/122x92_q95.jpg",
+      "keywords": [
+        "Integration",
+        "USS Comstock",
+        "Blue-Green Team",
+        "Pride of the Pacific",
+        "Marines",
+        "Sailors"
+      ],
+      "credit": "Sgt Trent A. Henry",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.2210444516666668
     },
     {
       "id": "video:994611",
@@ -1022,7 +1241,7 @@
       "duration": 436,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 4.6774387144444445
+      "hours_old": 5.046228390555555
     },
     {
       "id": "news:557249",
@@ -1050,7 +1269,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 5.651292562499999
+      "hours_old": 6.020084601944444
     },
     {
       "id": "image:9502079",
@@ -1078,7 +1297,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.710641882222221
+      "hours_old": 6.0794266652777775
     },
     {
       "id": "image:9502080",
@@ -1106,7 +1325,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.711475212222223
+      "hours_old": 6.080259995
     },
     {
       "id": "image:9502082",
@@ -1134,7 +1353,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.712308542222223
+      "hours_old": 6.081093324999999
     },
     {
       "id": "image:9502083",
@@ -1162,7 +1381,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.713141871944445
+      "hours_old": 6.081926654444445
     },
     {
       "id": "image:9502084",
@@ -1190,7 +1409,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.713975201944445
+      "hours_old": 6.082759984166667
     },
     {
       "id": "image:9502085",
@@ -1218,7 +1437,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.71508631
+      "hours_old": 6.0838710916666665
     },
     {
       "id": "image:9502086",
@@ -1246,7 +1465,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.715919640277778
+      "hours_old": 6.084704420833333
     },
     {
       "id": "image:9502088",
@@ -1274,7 +1493,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.7170307480555556
+      "hours_old": 6.085815528333334
     },
     {
       "id": "image:9502089",
@@ -1302,7 +1521,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.7178640775
+      "hours_old": 6.086648857777778
     },
     {
       "id": "image:9502066",
@@ -1329,7 +1548,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.335364046666667
+      "hours_old": 6.704148824444444
     },
     {
       "id": "image:9502054",
@@ -1357,7 +1576,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.509530718055555
+      "hours_old": 6.878315496944444
     },
     {
       "id": "image:9502055",
@@ -1383,7 +1602,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.527864035833333
+      "hours_old": 6.896648814166667
     },
     {
       "id": "video:994618",
@@ -1411,7 +1630,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 6.866962002222222
+      "hours_old": 7.235727701111111
     },
     {
       "id": "image:9502033",
@@ -1438,7 +1657,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.3103640711111115
+      "hours_old": 7.679148851111111
     },
     {
       "id": "image:9502037",
@@ -1465,7 +1684,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.318975166388889
+      "hours_old": 7.687759945555555
     },
     {
       "id": "image:9502036",
@@ -1492,7 +1711,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.318975170833333
+      "hours_old": 7.687759949999999
     },
     {
       "id": "image:9502035",
@@ -1519,7 +1738,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.319252952222222
+      "hours_old": 7.688037731666666
     },
     {
       "id": "image:9502034",
@@ -1546,7 +1765,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.319252956944445
+      "hours_old": 7.688037736111111
     },
     {
       "id": "image:9502032",
@@ -1573,152 +1792,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.319530740833334
-    },
-    {
-      "id": "image:9501533",
-      "title": "Lima Company Motivational Run",
-      "description": "Families and guests of Lima Company, 3rd Recruit...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Jan 31, 2026 14:27 UTC",
-      "timestamp": "2026-01-31T14:27:21+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/image/9501533/lima-company-motivational-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501533/122x92_q95.jpg",
-      "keywords": [
-        "Lima Company",
-        "Recruit Training",
-        "MCRD San Diego",
-        "Marines",
-        "Marine Corps",
-        "Motivational Run"
-      ],
-      "credit": "LCpl Kevin Alonso",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 10.26696213888889
-    },
-    {
-      "id": "image:9501532",
-      "title": "Lima Company Motivational Run",
-      "description": "U.S. Marines with Lima Company, 3rd Recruit Training...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Jan 31, 2026 14:27 UTC",
-      "timestamp": "2026-01-31T14:27:21+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/image/9501532/lima-company-motivational-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501532/122x92_q95.jpg",
-      "keywords": [
-        "Lima Company",
-        "Recruit Training",
-        "MCRD San Diego",
-        "Marines",
-        "Marine Corps",
-        "Motivational Run"
-      ],
-      "credit": "LCpl Kevin Alonso",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 10.266962142222223
-    },
-    {
-      "id": "image:9501530",
-      "title": "Lima Company Motivational Run",
-      "description": "U.S. Marines with Lima Company, 3rd Recruit Training...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Jan 31, 2026 14:27 UTC",
-      "timestamp": "2026-01-31T14:27:20+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/image/9501530/lima-company-motivational-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501530/122x92_q95.jpg",
-      "keywords": [
-        "Lima Company",
-        "Recruit Training",
-        "MCRD San Diego",
-        "Marines",
-        "Marine Corps",
-        "Motivational Run"
-      ],
-      "credit": "LCpl Kevin Alonso",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 10.267239923888889
-    },
-    {
-      "id": "image:9501529",
-      "title": "Lima Company Motivational Run",
-      "description": "U.S. Marines with Lima Company, 3rd Recruit Training...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Jan 31, 2026 14:27 UTC",
-      "timestamp": "2026-01-31T14:27:20+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/image/9501529/lima-company-motivational-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501529/122x92_q95.jpg",
-      "keywords": [
-        "Lima Company",
-        "Recruit Training",
-        "MCRD San Diego",
-        "Marines",
-        "Marine Corps",
-        "Motivational Run"
-      ],
-      "credit": "LCpl Kevin Alonso",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 10.267239926666665
-    },
-    {
-      "id": "image:9501527",
-      "title": "Lima Company Motivational Run",
-      "description": "A U.S. Marine with Lima Company, 3rd Recruit Training...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Jan 31, 2026 14:27 UTC",
-      "timestamp": "2026-01-31T14:27:19+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/image/9501527/lima-company-motivational-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9501527/122x92_q95.jpg",
-      "keywords": [
-        "Lima Company",
-        "Recruit Training",
-        "MCRD San Diego",
-        "Marines",
-        "Marine Corps",
-        "Motivational Run"
-      ],
-      "credit": "LCpl Kevin Alonso",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 10.267517708055555
+      "hours_old": 7.688315521111111
     },
     {
       "id": "video:994510",
@@ -1743,7 +1817,7 @@
       "duration": 4827,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.613827497777777
+      "hours_old": 10.982617160833332
     },
     {
       "id": "video:994515",
@@ -1767,7 +1841,7 @@
       "duration": 86,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.771312080000001
+      "hours_old": 12.140123635833334
     },
     {
       "id": "video:994583",
@@ -1797,7 +1871,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 15.565201003333334
+      "hours_old": 15.93401256138889
     },
     {
       "id": "video:994590",
@@ -1821,7 +1895,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 15.572978777222222
+      "hours_old": 15.941790334999999
     },
     {
       "id": "video:994594",
@@ -1851,7 +1925,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 15.579367661388888
+      "hours_old": 15.948179218611111
     },
     {
       "id": "video:994577",
@@ -1880,7 +1954,7 @@
       "duration": 64,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 17.756883025
+      "hours_old": 18.12567268833333
     },
     {
       "id": "image:9501862",
@@ -1909,7 +1983,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.762795391111112
+      "hours_old": 18.131599891388888
     },
     {
       "id": "image:9501869",
@@ -1938,7 +2012,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.058073165277776
+      "hours_old": 18.426877665555555
     },
     {
       "id": "image:9501868",
@@ -1967,7 +2041,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.072517539722224
+      "hours_old": 18.441322041111114
     },
     {
       "id": "image:9501866",
@@ -1996,7 +2070,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.072517551666667
+      "hours_old": 18.441322045555555
     },
     {
       "id": "image:9501864",
@@ -2025,7 +2099,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.072795335277778
+      "hours_old": 18.44159983222222
     },
     {
       "id": "image:9501863",
@@ -2054,7 +2128,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.072795339722223
+      "hours_old": 18.441599835833333
     },
     {
       "id": "image:9501861",
@@ -2083,7 +2157,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.073073120555556
+      "hours_old": 18.441877616944442
     },
     {
       "id": "image:9501860",
@@ -2112,7 +2186,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.073073124166665
+      "hours_old": 18.44187762055556
     },
     {
       "id": "image:9501859",
@@ -2141,7 +2215,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.588906461111108
+      "hours_old": 18.95771095888889
     },
     {
       "id": "image:9501858",
@@ -2170,7 +2244,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.588906465277777
+      "hours_old": 18.957710963055554
     },
     {
       "id": "image:9501857",
@@ -2199,7 +2273,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.58890646861111
+      "hours_old": 18.957710966666664
     },
     {
       "id": "video:994576",
@@ -2228,7 +2302,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 19.47271637361111
+      "hours_old": 19.841506035277774
     },
     {
       "id": "video:994573",
@@ -2257,7 +2331,7 @@
       "duration": 219,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.879383058055556
+      "hours_old": 21.248172721666666
     },
     {
       "id": "news:557236",
@@ -2286,7 +2360,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.459070358055556
+      "hours_old": 23.827862398055558
     },
     {
       "id": "image:9501635",
@@ -2308,7 +2382,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.76669019722222
+      "hours_old": 24.135503525833332
     },
     {
       "id": "image:9501629",
@@ -2330,7 +2404,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 23.7666902075
+      "hours_old": 24.135503536111113
     },
     {
       "id": "image:9501627",
@@ -2358,7 +2432,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 23.766690211944447
+      "hours_old": 24.13550354138889
     },
     {
       "id": "image:9501596",
@@ -2387,7 +2461,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.517795373888887
+      "hours_old": 24.886599871666665
     },
     {
       "id": "image:9501595",
@@ -2416,7 +2490,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.51779537722222
+      "hours_old": 24.886599875277778
     },
     {
       "id": "image:9501598",
@@ -2445,7 +2519,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.518073144166664
+      "hours_old": 24.886877640833333
     },
     {
       "id": "image:9501597",
@@ -2474,7 +2548,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.518073148055556
+      "hours_old": 24.886877645833334
     },
     {
       "id": "image:9501594",
@@ -2503,7 +2577,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.51807315861111
+      "hours_old": 24.88687765666667
     },
     {
       "id": "image:9501593",
@@ -2532,7 +2606,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.518073161666663
+      "hours_old": 24.886877661944446
     },
     {
       "id": "news:557234",
@@ -2561,7 +2635,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.51816911611111
+      "hours_old": 24.886980639166666
     },
     {
       "id": "video:994526",
@@ -2590,7 +2664,7 @@
       "duration": 283,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 24.99271644194444
+      "hours_old": 25.361506102777778
     },
     {
       "id": "video:994539",
@@ -2617,7 +2691,7 @@
       "duration": 155,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 24.995850954722222
+      "hours_old": 25.364616653888888
     },
     {
       "id": "video:994535",
@@ -2639,7 +2713,7 @@
       "duration": 255,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.084660881944444
+      "hours_old": 25.4534505425
     },
     {
       "id": "image:9500799",
@@ -2667,7 +2741,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.660573083888888
+      "hours_old": 26.029377581111113
     },
     {
       "id": "image:9500800",
@@ -2689,7 +2763,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.662239745833332
+      "hours_old": 26.031044242500002
     },
     {
       "id": "image:9500796",
@@ -2717,7 +2791,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.6625175325
+      "hours_old": 26.031322032777776
     },
     {
       "id": "image:9500794",
@@ -2745,7 +2819,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.66251753638889
+      "hours_old": 26.03132203722222
     },
     {
       "id": "news:557230",
@@ -2770,7 +2844,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 25.802869839166664
+      "hours_old": 26.171669799166665
     },
     {
       "id": "video:994548",
@@ -2799,7 +2873,7 @@
       "duration": 233,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.000494159166664
+      "hours_old": 26.36928382138889
     },
     {
       "id": "video:994550",
@@ -2821,7 +2895,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.136128688333333
+      "hours_old": 26.50489437972222
     },
     {
       "id": "video:994549",
@@ -2846,7 +2920,7 @@
       "duration": 48,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.13612869527778
+      "hours_old": 26.504894388055558
     },
     {
       "id": "video:994547",
@@ -2868,7 +2942,7 @@
       "duration": 50,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.13612870111111
+      "hours_old": 26.50489439472222
     },
     {
       "id": "video:994546",
@@ -2893,7 +2967,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.136128706388888
+      "hours_old": 26.504894400555557
     },
     {
       "id": "video:994545",
@@ -2915,7 +2989,7 @@
       "duration": 58,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.136128711666668
+      "hours_old": 26.504894406111113
     },
     {
       "id": "video:994544",
@@ -2940,7 +3014,7 @@
       "duration": 38,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.13612871833333
+      "hours_old": 26.50489441138889
     },
     {
       "id": "video:994543",
@@ -2962,7 +3036,7 @@
       "duration": 41,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.136128723055553
+      "hours_old": 26.50489441666667
     },
     {
       "id": "video:994542",
@@ -2987,7 +3061,7 @@
       "duration": 37,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.13612872777778
+      "hours_old": 26.504894421666666
     },
     {
       "id": "news:557229",
@@ -3013,7 +3087,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 26.549348145
+      "hours_old": 26.918140185
     },
     {
       "id": "image:9501337",
@@ -3035,7 +3109,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.094739805555555
+      "hours_old": 27.463544303611112
     },
     {
       "id": "news:557222",
@@ -3064,7 +3138,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.43259208944444
+      "hours_old": 27.801392052500002
     },
     {
       "id": "video:994517",
@@ -3092,7 +3166,7 @@
       "duration": 139,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 27.816406459444444
+      "hours_old": 28.185172204166665
     },
     {
       "id": "news:557217",
@@ -3119,7 +3193,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.39601477222222
+      "hours_old": 28.764806811388887
     },
     {
       "id": "news:557215",
@@ -3141,7 +3215,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.47573703861111
+      "hours_old": 28.84452907888889
     },
     {
       "id": "news:557214",
@@ -3170,7 +3244,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.58573700166667
+      "hours_old": 28.954529040833336
     },
     {
       "id": "news:556907",
@@ -3192,7 +3266,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.586848251666666
+      "hours_old": 28.955640301666666
     },
     {
       "id": "image:9500925",
@@ -3217,7 +3291,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 28.924462121666668
+      "hours_old": 29.293272745555555
     },
     {
       "id": "image:9500926",
@@ -3239,7 +3313,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 28.92557322777778
+      "hours_old": 29.29438385083333
     },
     {
       "id": "news:557210",
@@ -3264,7 +3338,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.927592021666666
+      "hours_old": 29.29639198583333
     },
     {
       "id": "video:994509",
@@ -3293,7 +3367,7 @@
       "duration": 86,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 28.986049745555555
+      "hours_old": 29.354839409999997
     },
     {
       "id": "image:9500893",
@@ -3321,7 +3395,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.211962061111112
+      "hours_old": 29.58076656138889
     },
     {
       "id": "image:9500892",
@@ -3349,7 +3423,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.211962064722222
+      "hours_old": 29.580766565
     },
     {
       "id": "image:9500889",
@@ -3377,7 +3451,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.21196206805556
+      "hours_old": 29.580766568333335
     },
     {
       "id": "image:9500888",
@@ -3405,7 +3479,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.21223984888889
+      "hours_old": 29.581044349444443
     },
     {
       "id": "image:9500887",
@@ -3433,7 +3507,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.2122398525
+      "hours_old": 29.581044356388887
     },
     {
       "id": "image:9500883",
@@ -3461,7 +3535,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.21223985611111
+      "hours_old": 29.581044364722224
     },
     {
       "id": "image:9500880",
@@ -3489,7 +3563,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.212239859166665
+      "hours_old": 29.581044369166666
     },
     {
       "id": "image:9500876",
@@ -3517,7 +3591,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.212239861944443
+      "hours_old": 29.581044376111112
     },
     {
       "id": "video:994486",
@@ -3543,7 +3617,7 @@
       "duration": 102,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.301684292222223
+      "hours_old": 29.670449991388892
     },
     {
       "id": "image:9500840",
@@ -3569,7 +3643,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.398628760277777
+      "hours_old": 29.767439380277775
     },
     {
       "id": "image:9500825",
@@ -3591,7 +3665,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.39946209777778
+      "hours_old": 29.76827271777778
     },
     {
       "id": "image:9500817",
@@ -3613,7 +3687,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.400573211944444
+      "hours_old": 29.76938383222222
     },
     {
       "id": "image:9500813",
@@ -3639,7 +3713,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.401406548333334
+      "hours_old": 29.770217168888887
     },
     {
       "id": "image:9500806",
@@ -3661,7 +3735,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.402517663055555
+      "hours_old": 29.771328283611112
     },
     {
       "id": "image:9500801",
@@ -3683,7 +3757,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.40335099944444
+      "hours_old": 29.772161620555554
     },
     {
       "id": "image:9500795",
@@ -3709,7 +3783,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.404184335833335
+      "hours_old": 29.77299495833333
     },
     {
       "id": "image:9500819",
@@ -3731,7 +3805,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.418351034999997
+      "hours_old": 29.78716166194444
     },
     {
       "id": "image:9500814",
@@ -3753,7 +3827,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.418628815833333
+      "hours_old": 29.787439443055554
     },
     {
       "id": "image:9500812",
@@ -3775,7 +3849,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.418628818888887
+      "hours_old": 29.787439446388888
     },
     {
       "id": "image:9500807",
@@ -3797,7 +3871,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.418906599444444
+      "hours_old": 29.78771722722222
     },
     {
       "id": "image:9500805",
@@ -3819,7 +3893,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.4189066025
+      "hours_old": 29.787717230555558
     },
     {
       "id": "image:9500804",
@@ -3841,7 +3915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.41890660527778
+      "hours_old": 29.78771723361111
     },
     {
       "id": "image:9500802",
@@ -3863,7 +3937,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.41918438638889
+      "hours_old": 29.78799501527778
     },
     {
       "id": "video:994496",
@@ -3889,7 +3963,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.672150304166667
+      "hours_old": 30.040962531944444
     },
     {
       "id": "video:994485",
@@ -3911,7 +3985,7 @@
       "duration": 86,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 29.788817012222225
+      "hours_old": 30.157629235833333
     },
     {
       "id": "video:994489",
@@ -3937,7 +4011,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.80187253388889
+      "hours_old": 30.1706847625
     },
     {
       "id": "image:9500761",
@@ -3959,7 +4033,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.816968110833333
+      "hours_old": 30.185781445555556
     },
     {
       "id": "image:9500758",
@@ -3981,7 +4055,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.81696811722222
+      "hours_old": 30.185781456388888
     },
     {
       "id": "image:9500755",
@@ -4007,7 +4081,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.816968120277778
+      "hours_old": 30.18578145972222
     },
     {
       "id": "image:9500757",
@@ -4033,7 +4107,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.81724585777778
+      "hours_old": 30.186059190277778
     },
     {
       "id": "image:9500777",
@@ -4055,7 +4129,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.817245885
+      "hours_old": 30.18605921888889
     },
     {
       "id": "image:9500759",
@@ -4081,7 +4155,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.81724589166667
+      "hours_old": 30.186059230555557
     },
     {
       "id": "image:9500764",
@@ -4103,7 +4177,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.925573199722223
+      "hours_old": 30.29438382027778
     },
     {
       "id": "video:994474",
@@ -4132,7 +4206,7 @@
       "duration": 312,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.935494180833334
+      "hours_old": 30.304283844722224
     },
     {
       "id": "video:994479",
@@ -4161,7 +4235,7 @@
       "duration": 155,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 30.112994185555557
+      "hours_old": 30.48178385
     },
     {
       "id": "news:557196",
@@ -4189,7 +4263,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.163792568333335
+      "hours_old": 30.53258460777778
     },
     {
       "id": "video:994481",
@@ -4218,7 +4292,7 @@
       "duration": 196,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 30.20799420694444
+      "hours_old": 30.576783870833335
     },
     {
       "id": "news:557199",
@@ -4246,7 +4320,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.293703178055555
+      "hours_old": 30.662503137777776
     },
     {
       "id": "image:9500741",
@@ -4275,7 +4349,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.327795553055555
+      "hours_old": 30.696606190277777
     },
     {
       "id": "image:9500737",
@@ -4304,7 +4378,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.327795559722222
+      "hours_old": 30.6966061975
     },
     {
       "id": "image:9500736",
@@ -4333,7 +4407,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.327795563055556
+      "hours_old": 30.69660620166667
     },
     {
       "id": "image:9500734",
@@ -4362,7 +4436,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.32779556611111
+      "hours_old": 30.696606205000002
     },
     {
       "id": "image:9500738",
@@ -4391,7 +4465,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.328073334166668
+      "hours_old": 30.696883971944445
     },
     {
       "id": "news:557198",
@@ -4419,7 +4493,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.375925373333335
+      "hours_old": 30.744725334166667
     },
     {
       "id": "image:9500703",
@@ -4441,7 +4515,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.399184306944445
+      "hours_old": 30.767994927222222
     },
     {
       "id": "news:557179",
@@ -4469,90 +4543,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.482314318055554
-    },
-    {
-      "id": "image:9500352",
-      "title": "Awards Ceremony at Naval Hospital Jacksonville \u2013 Jan. 30, 2026",
-      "description": "260130-N-ME175-1007 Jacksonville, FL. (Jan. 30, 2026)...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Naval Hospital Jacksonville",
-      "date_published": "Jan 30, 2026 18:13 UTC",
-      "timestamp": "2026-01-30T18:13:03+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Jacksonville",
-      "location_display": "Jacksonville, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500352/awards-ceremony-naval-hospital-jacksonville-jan-30-2026",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500352/122x92_q95.jpg",
-      "keywords": [
-        "Navy medicine",
-        "Years of Service award",
-        "acrossthemhs",
-        "award",
-        "civilian"
-      ],
-      "credit": "Julie Lucas",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 30.50647531138889
-    },
-    {
-      "id": "image:9500344",
-      "title": "Awards Ceremony at Naval Hospital Jacksonville \u2013 Jan. 30, 2026",
-      "description": "260130-N-ME175-1006 Jacksonville, FL. (Jan. 30, 2026)...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Naval Hospital Jacksonville",
-      "date_published": "Jan 30, 2026 18:13 UTC",
-      "timestamp": "2026-01-30T18:13:03+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Jacksonville",
-      "location_display": "Jacksonville, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500344/awards-ceremony-naval-hospital-jacksonville-jan-30-2026",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500344/122x92_q95.jpg",
-      "keywords": [
-        "Navy medicine",
-        "End of Tour Award",
-        "acrossthemhs",
-        "award",
-        "cpo"
-      ],
-      "credit": "Julie Lucas",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 30.50647531611111
-    },
-    {
-      "id": "image:9500336",
-      "title": "Awards Ceremony at Naval Hospital Jacksonville \u2013 Jan. 30, 2026",
-      "description": "260130-N-ME175-1005 Jacksonville, FL. (Jan. 30, 2026)...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Naval Hospital Jacksonville",
-      "date_published": "Jan 30, 2026 18:13 UTC",
-      "timestamp": "2026-01-30T18:13:02+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "Jacksonville",
-      "location_display": "Jacksonville, Florida, United States",
-      "url": "https://www.dvidshub.net/image/9500336/awards-ceremony-naval-hospital-jacksonville-jan-30-2026",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500336/122x92_q95.jpg",
-      "keywords": [
-        "Navy medicine",
-        "joint service",
-        "acrossthemhs",
-        "award"
-      ],
-      "credit": "Julie Lucas",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 30.50675309722222
+      "hours_old": 30.851114280833333
     },
     {
       "id": "video:994473",
@@ -4580,7 +4571,7 @@
       "duration": 21,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 31.146316958611113
+      "hours_old": 31.51512918666667
     },
     {
       "id": "video:994467",
@@ -4608,7 +4599,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 31.48946209833333
+      "hours_old": 31.85822780888889
     },
     {
       "id": "image:9500493",
@@ -4637,7 +4628,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 31.616684458055552
+      "hours_old": 31.985495097777775
     },
     {
       "id": "image:9500491",
@@ -4666,7 +4657,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 31.616684461944445
+      "hours_old": 31.985495105000002
     },
     {
       "id": "video:994461",
@@ -4695,7 +4686,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 31.65770588361111
+      "hours_old": 32.02651810722222
     },
     {
       "id": "image:9499614",
@@ -4717,7 +4708,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 31.71891259277778
+      "hours_old": 32.08772593916667
     },
     {
       "id": "image:9499612",
@@ -4746,7 +4737,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 31.718912596111114
+      "hours_old": 32.08772594333333
     },
     {
       "id": "news:557185",
@@ -4773,7 +4764,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.93286985888889
+      "hours_old": 32.30166981777778
     },
     {
       "id": "news:557184",
@@ -4801,7 +4792,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.338147604722224
+      "hours_old": 32.70694756527778
     },
     {
       "id": "news:557182",
@@ -4826,7 +4817,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.47039900138889
+      "hours_old": 32.83921609944444
     },
     {
       "id": "video:994451",
@@ -4855,7 +4846,7 @@
       "duration": 127,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.02825650472222
+      "hours_old": 33.39706805972222
     },
     {
       "id": "news:557177",
@@ -4877,7 +4868,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.22481429583333
+      "hours_old": 33.593614255
     },
     {
       "id": "news:557175",
@@ -4906,7 +4897,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.314903685833336
+      "hours_old": 33.68369572583333
     },
     {
       "id": "news:557174",
@@ -4933,7 +4924,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.54740369638889
+      "hours_old": 33.91619573611111
     },
     {
       "id": "video:994257",
@@ -4962,7 +4953,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.659739889444445
+      "hours_old": 34.028505591666665
     },
     {
       "id": "video:994259",
@@ -4991,7 +4982,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.672239903333335
+      "hours_old": 34.04100564083333
     },
     {
       "id": "image:9500073",
@@ -5013,7 +5004,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.08696206972222
+      "hours_old": 34.455772690277776
     },
     {
       "id": "image:9500071",
@@ -5035,7 +5026,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 34.08696208083333
+      "hours_old": 34.45577270027778
     },
     {
       "id": "news:557171",
@@ -5057,7 +5048,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.087036500555556
+      "hours_old": 34.45583646083333
     },
     {
       "id": "news:557160",
@@ -5084,7 +5075,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.27120330388889
+      "hours_old": 34.640003264444445
     },
     {
       "id": "video:994435",
@@ -5111,7 +5102,7 @@
       "duration": 103,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 34.91557319527778
+      "hours_old": 35.28433891555556
     },
     {
       "id": "image:9499953",
@@ -5133,7 +5124,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.43613476083333
+      "hours_old": 35.80494809444444
     },
     {
       "id": "image:9499963",
@@ -5155,7 +5146,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.43613476388889
+      "hours_old": 35.80494809777778
     },
     {
       "id": "image:9499958",
@@ -5177,7 +5168,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.436134770277775
+      "hours_old": 35.804948100833336
     },
     {
       "id": "video:994421",
@@ -5201,7 +5192,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.8422399625
+      "hours_old": 37.21100571472222
     },
     {
       "id": "news:557151",
@@ -5225,7 +5216,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 37.46786988555556
+      "hours_old": 37.83666984777778
     },
     {
       "id": "video:994423",
@@ -5250,7 +5241,7 @@
       "duration": 165,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 38.80168431472222
+      "hours_old": 39.170450020555556
     },
     {
       "id": "image:9499829",
@@ -5276,7 +5267,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.80585102277778
+      "hours_old": 40.174661648333334
     },
     {
       "id": "news:557150",
@@ -5298,7 +5289,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.98268157138889
+      "hours_old": 40.35147361944444
     },
     {
       "id": "video:994417",
@@ -5320,7 +5311,7 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.21168444027777
+      "hours_old": 40.58045017
     },
     {
       "id": "video:994416",
@@ -5345,7 +5336,7 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.21196224527778
+      "hours_old": 40.58072798138888
     },
     {
       "id": "image:9499690",
@@ -5374,7 +5365,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.41557322888889
+      "hours_old": 41.784377746666664
     },
     {
       "id": "image:9499689",
@@ -5403,7 +5394,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 41.415573232777774
+      "hours_old": 41.784377751111116
     },
     {
       "id": "image:9499687",
@@ -5432,7 +5423,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43862862277778
+      "hours_old": 41.80743312027778
     },
     {
       "id": "image:9499685",
@@ -5461,7 +5452,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 41.438628791944446
+      "hours_old": 41.80743331055555
     },
     {
       "id": "image:9499684",
@@ -5490,7 +5481,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43862879555555
+      "hours_old": 41.807433314166666
     },
     {
       "id": "image:9499682",
@@ -5519,7 +5510,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.438906576388895
+      "hours_old": 41.807711095833334
     },
     {
       "id": "image:9499681",
@@ -5548,7 +5539,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43890658
+      "hours_old": 41.80771109972222
     },
     {
       "id": "image:9499679",
@@ -5577,7 +5568,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43918430944445
+      "hours_old": 41.80798882416667
     },
     {
       "id": "image:9499678",
@@ -5606,7 +5597,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.439184313888894
+      "hours_old": 41.80798882888889
     },
     {
       "id": "image:9499677",
@@ -5635,7 +5626,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.439462094999996
+      "hours_old": 41.80826661166666
     },
     {
       "id": "image:9499676",
@@ -5664,7 +5655,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43946209916666
+      "hours_old": 41.80826661555556
     },
     {
       "id": "image:9499670",
@@ -5693,7 +5684,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.439462103055554
+      "hours_old": 41.808266619444446
     },
     {
       "id": "image:9499664",
@@ -5722,7 +5713,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.43973988416667
+      "hours_old": 41.808544400833334
     },
     {
       "id": "image:9499663",
@@ -5751,7 +5742,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.439739887777776
+      "hours_old": 41.80854440555555
     },
     {
       "id": "image:9499662",
@@ -5780,7 +5771,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.56112878083333
+      "hours_old": 41.92993329861111
     },
     {
       "id": "news:557146",
@@ -5806,7 +5797,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 41.93981434055556
+      "hours_old": 42.30861430222222
     },
     {
       "id": "video:994396",
@@ -5835,7 +5826,7 @@
       "duration": 89,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.4340948
+      "hours_old": 42.802907024166664
     },
     {
       "id": "image:9499560",
@@ -5862,7 +5853,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.79723990361111
+      "hours_old": 43.16605052777778
     },
     {
       "id": "image:9499559",
@@ -5889,7 +5880,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.797517685555555
+      "hours_old": 43.16632831027778
     },
     {
       "id": "video:993896",
@@ -5911,7 +5902,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.44724000361111
+      "hours_old": 43.816005733888886
     },
     {
       "id": "news:557143",
@@ -5936,7 +5927,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.52907042722222
+      "hours_old": 44.89786247194445
     },
     {
       "id": "news:557140",
@@ -5962,7 +5953,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 47.28814773722222
+      "hours_old": 47.65694769805556
     },
     {
       "id": "news:557139",
@@ -5990,7 +5981,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 47.47907040277778
+      "hours_old": 47.847862445555556
     },
     {
       "id": "news:557129",
@@ -6019,7 +6010,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.06011362805556
+      "hours_old": 48.42892516277778
     },
     {
       "id": "news:557136",
@@ -6047,7 +6038,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.099814396666666
+      "hours_old": 48.468614357777774
     },
     {
       "id": "video:994366",
@@ -6074,7 +6065,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.13585100583334
+      "hours_old": 48.50461670833334
     },
     {
       "id": "news:557015",
@@ -6103,7 +6094,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.183446935
+      "hours_old": 48.55225846611111
     },
     {
       "id": "news:557134",
@@ -6130,7 +6121,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.30509210194444
+      "hours_old": 48.673892064444445
     },
     {
       "id": "image:9499224",
@@ -6152,7 +6143,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.87696799416666
+      "hours_old": 49.24578132361111
     },
     {
       "id": "image:9499187",
@@ -6178,7 +6169,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.87696799777778
+      "hours_old": 49.2457813275
     },
     {
       "id": "news:557011",
@@ -6207,7 +6198,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.85073710305556
+      "hours_old": 50.21952914861111
     },
     {
       "id": "news:557125",
@@ -6234,7 +6225,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.905369917222224
+      "hours_old": 50.274169879166664
     },
     {
       "id": "news:557127",
@@ -6262,7 +6253,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.03823704444444
+      "hours_old": 50.40702908638889
     },
     {
       "id": "news:557123",
@@ -6289,7 +6280,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.46129263027778
+      "hours_old": 50.83008467361111
     },
     {
       "id": "news:557121",
@@ -6315,7 +6306,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.46953664916667
+      "hours_old": 50.83833660916667
     },
     {
       "id": "news:557002",
@@ -6343,7 +6334,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.59900250111111
+      "hours_old": 50.96781403222222
     },
     {
       "id": "image:9498914",
@@ -6365,7 +6356,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 50.603628803888896
+      "hours_old": 50.97243942972222
     },
     {
       "id": "image:9498911",
@@ -6387,7 +6378,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 50.603906585
+      "hours_old": 50.97271721111111
     },
     {
       "id": "image:9498897",
@@ -6411,7 +6402,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 50.60390658777778
+      "hours_old": 50.972717214166664
     },
     {
       "id": "video:994351",
@@ -6439,7 +6430,7 @@
       "duration": 175,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.70103430722222
+      "hours_old": 51.06984586361111
     },
     {
       "id": "news:557119",
@@ -6468,7 +6459,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.73122468388889
+      "hours_old": 51.100036206388886
     },
     {
       "id": "video:994349",
@@ -6494,7 +6485,7 @@
       "duration": 103,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 50.75335099638889
+      "hours_old": 51.12211667777778
     },
     {
       "id": "news:557116",
@@ -6522,7 +6513,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.99036990166667
+      "hours_old": 51.359169863611115
     },
     {
       "id": "video:994341",
@@ -6551,7 +6542,7 @@
       "duration": 221,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.08243869
+      "hours_old": 51.45122836416667
     },
     {
       "id": "video:994277",
@@ -6579,7 +6570,7 @@
       "duration": 130,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.41918438083333
+      "hours_old": 51.787950080555554
     },
     {
       "id": "news:557102",
@@ -6608,7 +6599,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.798169146111114
+      "hours_old": 52.16698067638889
     },
     {
       "id": "news:557105",
@@ -6635,7 +6626,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.95842554916666
+      "hours_old": 52.327225508611114
     },
     {
       "id": "news:557084",
@@ -6662,7 +6653,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.48064768555555
+      "hours_old": 52.84944764722222
     },
     {
       "id": "news:557083",
@@ -6686,7 +6677,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.77620324555556
+      "hours_old": 53.14500320722222
     },
     {
       "id": "image:9498705",
@@ -6708,7 +6699,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08223998194445
+      "hours_old": 53.451050617499995
     },
     {
       "id": "image:9498704",
@@ -6730,7 +6721,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08251776277778
+      "hours_old": 53.45132839861111
     },
     {
       "id": "image:9498701",
@@ -6752,7 +6743,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08251776555556
+      "hours_old": 53.4513284025
     },
     {
       "id": "image:9498700",
@@ -6774,7 +6765,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08251776861111
+      "hours_old": 53.45132840583333
     },
     {
       "id": "image:9498697",
@@ -6796,7 +6787,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08279554944444
+      "hours_old": 53.45160618694444
     },
     {
       "id": "image:9498727",
@@ -6818,7 +6809,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.086406611388895
+      "hours_old": 53.45521724055556
     },
     {
       "id": "image:9498726",
@@ -6840,7 +6831,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.086684393055556
+      "hours_old": 53.455495023055555
     },
     {
       "id": "image:9498725",
@@ -6862,7 +6853,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08668439611111
+      "hours_old": 53.45549502638889
     },
     {
       "id": "image:9498720",
@@ -6884,7 +6875,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.086684399166664
+      "hours_old": 53.45549502972222
     },
     {
       "id": "image:9498718",
@@ -6906,7 +6897,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08696217972223
+      "hours_old": 53.45577281083334
     },
     {
       "id": "image:9498717",
@@ -6928,7 +6919,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.086962183333334
+      "hours_old": 53.455772816111114
     },
     {
       "id": "image:9498714",
@@ -6950,7 +6941,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08723996388889
+      "hours_old": 53.456050597499996
     },
     {
       "id": "image:9498713",
@@ -6972,7 +6963,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08723996722222
+      "hours_old": 53.45605060083333
     },
     {
       "id": "image:9498712",
@@ -6994,7 +6985,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08723997027778
+      "hours_old": 53.45605060416667
     },
     {
       "id": "image:9498711",
@@ -7016,7 +7007,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.087517750833335
+      "hours_old": 53.45632838555556
     },
     {
       "id": "image:9498709",
@@ -7038,7 +7029,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08751775388889
+      "hours_old": 53.456328388888885
     },
     {
       "id": "image:9498707",
@@ -7060,7 +7051,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.08779553472222
+      "hours_old": 53.45660616972223
     },
     {
       "id": "video:994330",
@@ -7088,7 +7079,7 @@
       "duration": 53,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 53.15436765194445
+      "hours_old": 53.52317920861111
     },
     {
       "id": "video:994329",
@@ -7114,7 +7105,7 @@
       "duration": 265,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 53.171034295
+      "hours_old": 53.53984585055556
     },
     {
       "id": "news:557056",
@@ -7143,7 +7134,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.371292654722225
+      "hours_old": 53.7400847
     },
     {
       "id": "news:557074",
@@ -7169,7 +7160,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.456570382222225
+      "hours_old": 53.82536242472222
     },
     {
       "id": "video:994324",
@@ -7193,7 +7184,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 53.539462074999996
+      "hours_old": 53.90822777972222
     },
     {
       "id": "video:994323",
@@ -7217,7 +7208,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 53.53946207972223
+      "hours_old": 53.90822778444444
     },
     {
       "id": "image:9498638",
@@ -7239,7 +7230,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.99224580527778
+      "hours_old": 54.361059124722225
     },
     {
       "id": "image:9498636",
@@ -7261,7 +7252,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.99224580888889
+      "hours_old": 54.36105912972222
     },
     {
       "id": "image:9498635",
@@ -7283,7 +7274,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.99224581194444
+      "hours_old": 54.36105913361111
     },
     {
       "id": "image:9498633",
@@ -7305,7 +7296,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.992245815000004
+      "hours_old": 54.3610591375
     },
     {
       "id": "image:9498631",
@@ -7327,7 +7318,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.99224581833333
+      "hours_old": 54.361059141111106
     },
     {
       "id": "image:9498627",
@@ -7349,7 +7340,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 53.992245821666664
+      "hours_old": 54.36105914416667
     },
     {
       "id": "news:557034",
@@ -7377,7 +7368,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.169536604722225
+      "hours_old": 54.53833656527778
     },
     {
       "id": "news:557067",
@@ -7403,7 +7394,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.214280252222224
+      "hours_old": 54.58309178194444
     },
     {
       "id": "news:557065",
@@ -7430,7 +7421,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.37398104416666
+      "hours_old": 54.742781005
     },
     {
       "id": "news:557064",
@@ -7459,7 +7450,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.39407038777778
+      "hours_old": 54.76286243027778
     },
     {
       "id": "image:9498450",
@@ -7481,7 +7472,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.77780134916667
+      "hours_old": 55.146614703055555
     },
     {
       "id": "image:9498436",
@@ -7503,7 +7494,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.77780135388889
+      "hours_old": 55.14661470666667
     },
     {
       "id": "image:9498421",
@@ -7525,7 +7516,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 54.77780135722222
+      "hours_old": 55.14661471055555
     },
     {
       "id": "news:557060",
@@ -7554,7 +7545,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.86066913472222
+      "hours_old": 55.22948066361111
     },
     {
       "id": "news:557059",
@@ -7580,7 +7571,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.882036595277775
+      "hours_old": 55.25083655638889
     },
     {
       "id": "news:557044",
@@ -7604,7 +7595,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.968792640555556
+      "hours_old": 55.33758468472222
     },
     {
       "id": "news:556917",
@@ -7633,7 +7624,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.11039140055556
+      "hours_old": 55.479202935
     },
     {
       "id": "news:557055",
@@ -7662,7 +7653,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.26629264444444
+      "hours_old": 55.63508468916666
     },
     {
       "id": "news:556996",
@@ -7684,7 +7675,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.54601493222223
+      "hours_old": 55.914806983333335
     },
     {
       "id": "video:994251",
@@ -7713,7 +7704,7 @@
       "duration": 57,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.59946210277778
+      "hours_old": 55.96822777416667
     },
     {
       "id": "news:557051",
@@ -7735,7 +7726,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.827125969166666
+      "hours_old": 56.195918013055554
     },
     {
       "id": "news:556993",
@@ -7762,7 +7753,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.898147807499996
+      "hours_old": 56.26694776555556
     },
     {
       "id": "news:557046",
@@ -7788,7 +7779,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 56.43879261583333
+      "hours_old": 56.80758465888889
     },
     {
       "id": "video:994151",
@@ -7816,7 +7807,7 @@
       "duration": 140,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.839462193888885
+      "hours_old": 57.20822791638889
     },
     {
       "id": "news:557042",
@@ -7838,7 +7829,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.16703661472222
+      "hours_old": 57.535836575833336
     },
     {
       "id": "news:557040",
@@ -7860,7 +7851,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.2075921125
+      "hours_old": 57.57639207444445
     },
     {
       "id": "news:557026",
@@ -7888,7 +7879,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.324814410277774
+      "hours_old": 57.69361437083334
     },
     {
       "id": "news:557037",
@@ -7912,7 +7903,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.600369943333334
+      "hours_old": 57.96916990388889
     },
     {
       "id": "news:557035",
@@ -7941,7 +7932,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.777959335
+      "hours_old": 58.146751381111116
     },
     {
       "id": "news:557032",
@@ -7967,7 +7958,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.820181509444446
+      "hours_old": 58.188973552499995
     },
     {
       "id": "news:557024",
@@ -7995,7 +7986,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.035647812777775
+      "hours_old": 58.404447771111116
     },
     {
       "id": "news:557028",
@@ -8020,7 +8011,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.573425478888886
+      "hours_old": 58.94222544055556
     },
     {
       "id": "news:557023",
@@ -8048,7 +8039,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 63.791780261666666
+      "hours_old": 64.1605917925
     },
     {
       "id": "video:994240",
@@ -8076,7 +8067,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.03279548777778
+      "hours_old": 64.40156118166666
     },
     {
       "id": "news:557021",
@@ -8098,7 +8089,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.96045933083333
+      "hours_old": 65.32925137694444
     },
     {
       "id": "video:994222",
@@ -8120,7 +8111,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 65.82279553722222
+      "hours_old": 66.1915612613889
     },
     {
       "id": "video:994223",
@@ -8142,7 +8133,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 65.84779553194444
+      "hours_old": 66.21656125527778
     },
     {
       "id": "image:9497698",
@@ -8164,7 +8155,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.36391251083333
+      "hours_old": 67.73272584555556
     },
     {
       "id": "image:9497701",
@@ -8186,7 +8177,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.36391251472222
+      "hours_old": 67.73272584972223
     },
     {
       "id": "image:9497691",
@@ -8208,7 +8199,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.36391251805556
+      "hours_old": 67.73272585361111
     },
     {
       "id": "image:9497682",
@@ -8230,7 +8221,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.3639125211111
+      "hours_old": 67.73272586055556
     },
     {
       "id": "news:556924",
@@ -8259,7 +8250,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.8381478486111
+      "hours_old": 68.20694780166667
     },
     {
       "id": "video:994226",
@@ -8285,7 +8276,7 @@
       "duration": 483,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.88001768611112
+      "hours_old": 68.24878340833334
     },
     {
       "id": "video:994221",
@@ -8314,7 +8305,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.70612887472222
+      "hours_old": 69.07489459916667
     },
     {
       "id": "news:557017",
@@ -8343,7 +8334,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.95342555416666
+      "hours_old": 69.32222551333334
     },
     {
       "id": "news:556930",
@@ -8372,7 +8363,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.857891395
+      "hours_old": 70.2267029263889
     },
     {
       "id": "image:9497483",
@@ -8394,7 +8385,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 71.78252355833334
+      "hours_old": 72.15133688861111
     },
     {
       "id": "image:9497482",
@@ -8416,7 +8407,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 71.78252356222222
+      "hours_old": 72.15133689222222
     },
     {
       "id": "image:9497480",
@@ -8440,7 +8431,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 71.78252356527777
+      "hours_old": 72.15133689583334
     },
     {
       "id": "image:9497479",
@@ -8462,7 +8453,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 71.78252356833333
+      "hours_old": 72.15133689916667
     },
     {
       "id": "image:9497396",
@@ -8489,7 +8480,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.94641249444444
+      "hours_old": 73.31522582861112
     },
     {
       "id": "image:9497394",
@@ -8511,7 +8502,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.94641249805557
+      "hours_old": 73.31522583194445
     },
     {
       "id": "image:9497392",
@@ -8538,7 +8529,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.94641250111111
+      "hours_old": 73.31522583527779
     },
     {
       "id": "image:9497388",
@@ -8565,7 +8556,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.9464125075
+      "hours_old": 73.31522584222222
     },
     {
       "id": "image:9497398",
@@ -8587,7 +8578,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 72.94669026888889
+      "hours_old": 73.31550360277778
     },
     {
       "id": "image:9497390",
@@ -8609,7 +8600,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.94669028222224
+      "hours_old": 73.31550361666666
     },
     {
       "id": "news:557009",
@@ -8631,7 +8622,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 74.21481442083333
+      "hours_old": 74.58361438083332
     },
     {
       "id": "video:994193",
@@ -8658,7 +8649,7 @@
       "duration": 216,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 74.32938313
+      "hours_old": 74.69817280194444
     },
     {
       "id": "video:994197",
@@ -8682,7 +8673,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.00612880305555
+      "hours_old": 75.37489449638889
     },
     {
       "id": "video:994196",
@@ -8704,7 +8695,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.02279547388889
+      "hours_old": 75.39156116722222
     },
     {
       "id": "video:994195",
@@ -8728,7 +8719,7 @@
       "duration": 1407,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.02279547833334
+      "hours_old": 75.3915611713889
     },
     {
       "id": "video:994194",
@@ -8756,7 +8747,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.4277954825
+      "hours_old": 75.79656117555555
     },
     {
       "id": "video:994188",
@@ -8783,7 +8774,7 @@
       "duration": 135,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.86438308333332
+      "hours_old": 76.23317274833335
     },
     {
       "id": "video:994186",
@@ -8810,7 +8801,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.02215031694445
+      "hours_old": 76.39096254638889
     },
     {
       "id": "news:556984",
@@ -8832,7 +8823,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 76.26259224694444
+      "hours_old": 76.63139220527778
     },
     {
       "id": "video:994181",
@@ -8856,7 +8847,7 @@
       "duration": 1414,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.50585100972224
+      "hours_old": 76.87461671361112
     },
     {
       "id": "news:556975",
@@ -8878,7 +8869,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 76.66092564722223
+      "hours_old": 77.02972559833333
     },
     {
       "id": "news:556980",
@@ -8907,7 +8898,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.23379267722223
+      "hours_old": 77.602584725
     },
     {
       "id": "video:994167",
@@ -8933,7 +8924,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 77.546317
+      "hours_old": 77.91512922361112
     },
     {
       "id": "image:9496806",
@@ -8955,7 +8946,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 77.62474590138889
+      "hours_old": 77.99355924083333
     },
     {
       "id": "image:9496803",
@@ -8977,7 +8968,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.6250236825
+      "hours_old": 77.9938370225
     },
     {
       "id": "image:9496801",
@@ -8999,7 +8990,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 77.62502368527778
+      "hours_old": 77.99383702722223
     },
     {
       "id": "image:9496800",
@@ -9021,7 +9012,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.62502368833333
+      "hours_old": 77.99383703027777
     },
     {
       "id": "image:9496799",
@@ -9043,7 +9034,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.62530146972223
+      "hours_old": 77.99411481194444
     },
     {
       "id": "image:9496798",
@@ -9065,7 +9056,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.6253014725
+      "hours_old": 77.99411481527778
     },
     {
       "id": "image:9496796",
@@ -9087,7 +9078,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.62530147527778
+      "hours_old": 77.99411481833333
     },
     {
       "id": "image:9496795",
@@ -9109,7 +9100,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.62557925638889
+      "hours_old": 77.9943925988889
     },
     {
       "id": "video:994166",
@@ -9135,7 +9126,7 @@
       "duration": 105,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 77.66270590555555
+      "hours_old": 78.03151812944445
     },
     {
       "id": "news:556973",
@@ -9157,7 +9148,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.93731452055555
+      "hours_old": 78.3061144725
     },
     {
       "id": "video:994035",
@@ -9186,7 +9177,7 @@
       "duration": 301,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 77.95882759388888
+      "hours_old": 78.32761727500001
     },
     {
       "id": "image:9496784",
@@ -9208,7 +9199,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.99391253527777
+      "hours_old": 78.3627258675
     },
     {
       "id": "image:9496786",
@@ -9230,7 +9221,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 77.99419030944445
+      "hours_old": 78.36300364194445
     },
     {
       "id": "news:556968",
@@ -9259,7 +9250,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.07453668611112
+      "hours_old": 78.44333664499999
     },
     {
       "id": "video:994162",
@@ -9285,7 +9276,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.10076145111111
+      "hours_old": 78.46957367416667
     },
     {
       "id": "news:556971",
@@ -9313,7 +9304,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.70703665527778
+      "hours_old": 79.07583661500001
     },
     {
       "id": "news:556970",
@@ -9335,7 +9326,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.10648112083334
+      "hours_old": 79.47528108055556
     },
     {
       "id": "news:556960",
@@ -9359,7 +9350,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.62648112555556
+      "hours_old": 79.99528108472222
     },
     {
       "id": "news:556966",
@@ -9386,7 +9377,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.66842556
+      "hours_old": 80.03722551944445
     },
     {
       "id": "news:556961",
@@ -9413,7 +9404,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 80.44018157694445
+      "hours_old": 80.80897362555555
     },
     {
       "id": "video:994129",
@@ -9438,7 +9429,7 @@
       "duration": 155,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 80.93770097944444
+      "hours_old": 81.30651253555556
     },
     {
       "id": "news:556894",
@@ -9466,7 +9457,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 81.95184825583334
+      "hours_old": 82.3206403063889
     },
     {
       "id": "news:556945",
@@ -9490,7 +9481,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 82.24287006499999
+      "hours_old": 82.61167001833334
     },
     {
       "id": "news:556943",
@@ -9517,7 +9508,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.72872471861112
+      "hours_old": 83.09753624972222
     },
     {
       "id": "video:994114",
@@ -9541,7 +9532,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.05307327444446
+      "hours_old": 83.42183897972222
     },
     {
       "id": "video:994113",
@@ -9563,7 +9554,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.05307328
+      "hours_old": 83.42183898527779
     },
     {
       "id": "video:994112",
@@ -9587,7 +9578,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.05307328555556
+      "hours_old": 83.42183899694444
     },
     {
       "id": "news:556939",
@@ -9609,7 +9600,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 83.59379267333334
+      "hours_old": 83.96258472055555
     },
     {
       "id": "news:556936",
@@ -9633,7 +9624,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 86.23675894777777
+      "hours_old": 86.60555890138889
     },
     {
       "id": "news:556929",
@@ -9662,7 +9653,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.311481165
+      "hours_old": 89.68028111833334
     },
     {
       "id": "news:556931",
@@ -9691,7 +9682,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.38648116
+      "hours_old": 89.75528111388888
     },
     {
       "id": "video:994076",
@@ -9716,7 +9707,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 90.83918444388888
+      "hours_old": 91.20795017388889
     },
     {
       "id": "video:994068",
@@ -9745,7 +9736,7 @@
       "duration": 168,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.7968831536111
+      "hours_old": 92.16567282499999
     },
     {
       "id": "video:994067",
@@ -9774,7 +9765,7 @@
       "duration": 213,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 92.38799423555555
+      "hours_old": 92.75678390583334
     },
     {
       "id": "news:556927",
@@ -9803,7 +9794,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.00731448472222
+      "hours_old": 94.3761144425
     },
     {
       "id": "news:556910",
@@ -9828,7 +9819,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.71379269222223
+      "hours_old": 98.08258474138889
     },
     {
       "id": "video:994013",
@@ -9850,7 +9841,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.96770099111112
+      "hours_old": 99.33651254805555
     },
     {
       "id": "news:556904",
@@ -9872,7 +9863,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.73620341472223
+      "hours_old": 100.10500336611112
     },
     {
       "id": "image:9494916",
@@ -9897,7 +9888,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 101.96557919472221
+      "hours_old": 102.33439254861112
     },
     {
       "id": "video:993982",
@@ -9925,7 +9916,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 102.03696218833333
+      "hours_old": 102.40572790777777
     },
     {
       "id": "video:993977",
@@ -9953,7 +9944,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 102.042517805
+      "hours_old": 102.4112835325
     },
     {
       "id": "video:993902",
@@ -9982,7 +9973,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 103.08271650055556
+      "hours_old": 103.4515061725
     },
     {
       "id": "video:993939",
@@ -10008,7 +9999,7 @@
       "duration": 537,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 104.84307329055555
+      "hours_old": 105.2118390088889
     },
     {
       "id": "news:556860",
@@ -10037,7 +10028,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 105.36657048222223
+      "hours_old": 105.73536253305556
     },
     {
       "id": "video:993922",
@@ -10062,7 +10053,7 @@
       "duration": 39,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.26881211805555
+      "hours_old": 106.6376236761111
     },
     {
       "id": "news:556766",
@@ -10084,7 +10075,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.72823722166667
+      "hours_old": 107.09702929833333
     },
     {
       "id": "news:556769",
@@ -10111,7 +10102,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.78184832916666
+      "hours_old": 107.15064040444443
     },
     {
       "id": "news:556783",
@@ -10138,7 +10129,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.8004594236111
+      "hours_old": 107.16925149555556
     },
     {
       "id": "news:556787",
@@ -10160,7 +10151,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.82379276583333
+      "hours_old": 107.19258484027779
     },
     {
       "id": "news:556790",
@@ -10182,7 +10173,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.829626095
+      "hours_old": 107.19841816916667
     },
     {
       "id": "news:556784",
@@ -10204,7 +10195,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.83795943638889
+      "hours_old": 107.20675151138889
     },
     {
       "id": "news:556811",
@@ -10231,7 +10222,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.88879275277777
+      "hours_old": 107.25758482027778
     },
     {
       "id": "news:556812",
@@ -10253,7 +10244,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.97045941416667
+      "hours_old": 107.33925148111112
     },
     {
       "id": "news:556817",
@@ -10275,7 +10266,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 107.03712607666668
+      "hours_old": 107.40591813972222
     },
     {
       "id": "video:993913",
@@ -10302,7 +10293,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 112.07936767722222
+      "hours_old": 112.44817923555554
     },
     {
       "id": "news:556842",
@@ -10329,7 +10320,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.49925897527777
+      "hours_old": 115.86805892666666
     },
     {
       "id": "news:556834",
@@ -10351,7 +10342,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.42518162555557
+      "hours_old": 120.79397368416667
     },
     {
       "id": "news:556832",
@@ -10376,7 +10367,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.65379274
+      "hours_old": 121.02258480194445
     },
     {
       "id": "news:556829",
@@ -10402,7 +10393,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 121.56823715833333
+      "hours_old": 121.93702921027779
     },
     {
       "id": "news:556802",
@@ -10428,7 +10419,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.62178790055555
+      "hours_old": 124.99060499888888
     },
     {
       "id": "news:556806",
@@ -10457,7 +10448,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.8782371625
+      "hours_old": 125.24702921472222
     },
     {
       "id": "news:556733",
@@ -10484,7 +10475,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.06651012777778
+      "hours_old": 125.43532722694445
     },
     {
       "id": "video:993835",
@@ -10508,7 +10499,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 125.13612889555556
+      "hours_old": 125.50489462638889
     },
     {
       "id": "video:993833",
@@ -10532,7 +10523,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 125.1361289
+      "hours_old": 125.50489463111111
     },
     {
       "id": "video:993834",
@@ -10556,7 +10547,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 125.13612890444443
+      "hours_old": 125.50489463527778
     },
     {
       "id": "news:556795",
@@ -10585,7 +10576,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 126.04545938944445
+      "hours_old": 126.41425144166666
     },
     {
       "id": "news:556773",
@@ -10614,7 +10605,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.49351494833334
+      "hours_old": 126.86230700138888
     },
     {
       "id": "news:556749",
@@ -10643,7 +10634,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.02795939916666
+      "hours_old": 130.39675145277778
     },
     {
       "id": "video:993803",
@@ -10667,7 +10658,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 130.13446224166668
+      "hours_old": 130.50322797277778
     },
     {
       "id": "video:993783",
@@ -10689,7 +10680,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 134.57279554638887
+      "hours_old": 134.94156127472223
     },
     {
       "id": "video:993773",
@@ -10718,7 +10709,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 140.09216094055554
+      "hours_old": 140.4609506222222
     }
   ]
 }
