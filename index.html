@@ -64,9 +64,44 @@
         .filter-btn:hover { border-color: #444; color: #999; }
         .filter-btn.active { background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }
         .attribution { padding: 10px 16px; border-top: 1px solid #1e1e2e; font-size: 10px; color: #444; text-align: center; font-weight: 500; }
+        .btn-group { display: flex; gap: 12px; align-items: center; }
         .carrier-btn { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #ff6b6b 0%, #cc4444 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3); letter-spacing: 0.5px; }
         .carrier-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(255, 107, 107, 0.4); }
         .carrier-btn:active { transform: translateY(0); }
+        .cocom-dropdown { position: relative; }
+        .cocom-btn { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #4ecdc4 0%, #2a9d8f 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(78, 205, 196, 0.3); letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px; }
+        .cocom-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(78, 205, 196, 0.4); }
+        .cocom-btn::after { content: '▼'; font-size: 8px; }
+        .cocom-menu { position: absolute; top: 100%; left: 0; margin-top: 8px; background: #111118; border: 1px solid #2a2a3a; border-radius: 10px; min-width: 180px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.2s; z-index: 100; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        .cocom-dropdown.open .cocom-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+        .cocom-item { padding: 12px 16px; cursor: pointer; font-size: 12px; font-weight: 500; color: #888; transition: all 0.15s; border-bottom: 1px solid #1e1e2e; }
+        .cocom-item:last-child { border-bottom: none; }
+        .cocom-item:hover { background: rgba(78, 205, 196, 0.1); color: #4ecdc4; }
+        .cocom-panel { position: absolute; bottom: 20px; left: 20px; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 12px; width: 320px; max-height: 300px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.3s; z-index: 50; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        .cocom-panel.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+        .cocom-panel-header { padding: 14px 16px; border-bottom: 1px solid #1e1e2e; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(180deg, rgba(78, 205, 196, 0.1) 0%, transparent 100%); }
+        .cocom-panel-title { font-size: 13px; font-weight: 700; color: #4ecdc4; }
+        .cocom-panel-close { cursor: pointer; color: #555; font-size: 18px; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+        .cocom-panel-close:hover { color: #ff6b6b; background: rgba(255,107,107,0.1); }
+        .cocom-panel-body { padding: 12px; max-height: 240px; overflow-y: auto; }
+        .cocom-ship { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; }
+        .cocom-ship:hover { background: rgba(255,255,255,0.05); }
+        .cocom-ship-icon { width: 8px; height: 8px; border-radius: 2px; }
+        .cocom-ship-icon.cvn { background: #ff6b6b; }
+        .cocom-ship-icon.amphib { background: #4ecdc4; }
+        .cocom-ship-hull { font-size: 12px; font-weight: 600; color: #fff; width: 55px; }
+        .cocom-ship-name { font-size: 11px; color: #666; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .cocom-ship-loc { font-size: 10px; color: #4ecdc4; }
+        .location-callout { position: absolute; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 10px; padding: 12px; min-width: 200px; max-width: 280px; z-index: 60; box-shadow: 0 8px 32px rgba(0,0,0,0.4); pointer-events: auto; }
+        .location-callout-header { font-size: 11px; font-weight: 600; color: #00ff88; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #1e1e2e; }
+        .location-callout-ship { display: flex; align-items: center; gap: 8px; padding: 6px 0; }
+        .location-callout-icon { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+        .location-callout-icon.cvn { background: #ff6b6b; }
+        .location-callout-icon.amphib { background: #4ecdc4; }
+        .location-callout-hull { font-size: 12px; font-weight: 600; color: #fff; }
+        .location-callout-hull.cvn { color: #ff6b6b; }
+        .location-callout-hull.amphib { color: #4ecdc4; }
+        .location-callout-name { font-size: 11px; color: #777; margin-left: auto; }
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.85); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
         .modal-overlay.visible { opacity: 1; visibility: visible; }
         .modal { background: #111118; border: 1px solid #2a2a3a; border-radius: 16px; width: 90%; max-width: 700px; max-height: 85vh; overflow: hidden; transform: scale(0.9); transition: transform 0.3s ease; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); }
@@ -91,7 +126,7 @@
             <div class="header-left">
                 <div>
                     <div class="logo">U.S. NAVY FLEET TRACKER</div>
-                    <div class="logo-sub">Carrier &amp; Amphibious Assault Ship Operations</div>
+                    <div class="logo-sub">Carrier And Amphibious Assault Ship Tracker</div>
                 </div>
             </div>
             <div class="status-bar">
@@ -108,15 +143,35 @@
                     <div class="stat-label">Amphibs</div>
                 </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 24px;">
-                <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="btn-group">
+                    <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+                    <div class="cocom-dropdown" id="cocomDropdown">
+                        <button class="cocom-btn" onclick="toggleCocomMenu()">By Theater</button>
+                        <div class="cocom-menu">
+                            <div class="cocom-item" onclick="selectCocom('INDOPACOM')">INDOPACOM</div>
+                            <div class="cocom-item" onclick="selectCocom('CENTCOM')">CENTCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('EUCOM')">EUCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('SOUTHCOM')">SOUTHCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('CONUS')">CONUS</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="timestamp">
-                    Last Update: <span>2026-01-30 06:45 UTC</span>
+                    Last Update: <span>2026-02-01 06:46 UTC</span>
                 </div>
             </div>
         </header>
         <div class="globe-container">
             <div id="globe"></div>
+            <div class="cocom-panel" id="cocomPanel">
+                <div class="cocom-panel-header">
+                    <div class="cocom-panel-title" id="cocomPanelTitle">INDOPACOM</div>
+                    <span class="cocom-panel-close" onclick="closeCocomPanel()">&#x2715;</span>
+                </div>
+                <div class="cocom-panel-body" id="cocomPanelBody"></div>
+            </div>
+            <div id="locationCallouts"></div>
         </div>
         <div class="side-panel">
             <div class="panel-header">
@@ -172,34 +227,90 @@
         </div>
     </div>
     <script>
-        const shipsData = [{"hull": "CVN68", "name": "USS Nimitz", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "2025", "status": ", USS Nimitz  moored at Delta Pier on Naval Base Kitsap-Bremerton following an extended nine-month deployment in the U.S. 5th and 7th Fleet AoR.", "source_url": "http://uscarriers.net/cvn68history.htm", "display_lat": 47.5673, "display_lon": -119.6329}, {"hull": "CVN69", "name": "USS Dwight D. Eisenhower", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 8", "status": "September 26, USS Dwight D. Eisenhower moored at Pier 12N on Naval Station Norfolk after a six-day underway for TRACOM-CQ, in the Jacksonville Op. Area; Moved \"dead-stick\" to Super Pier 5N in Norfolk Naval Shipyard, for a Planned Incremental Availability (PIA), on Jan. 8.", "source_url": "http://uscarriers.net/cvn69history.htm", "display_lat": 36.9473, "display_lon": -71.3134}, {"hull": "CVN70", "name": "USS Carl Vinson", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "September 16", "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload.", "source_url": "http://uscarriers.net/cvn70history.htm", "display_lat": 32.7157, "display_lon": -112.1611}, {"hull": "CVN71", "name": "USS Theodore Roosevelt", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "January 15, 2026  USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island after a one-day underway in the SOCAL Op. Area; Underway for FRS-CQ from Jan. 21-28.", "source_url": "http://uscarriers.net/cvn71history.htm", "display_lat": 37.69534607176052, "display_lon": -114.2861}, {"hull": "CVN72", "name": "USS Abraham Lincoln", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Arabian Sea", "lat": 15.0, "lon": 65.0, "region": "CENTCOM", "date": "January 26", "status": "January 26, USS Abraham Lincoln CSG recently arrived on station in the North Arabian Sea, off the east coast of Oman.", "source_url": "http://uscarriers.net/cvn72history.htm", "display_lat": 15.0, "display_lon": 65.0}, {"hull": "CVN73", "name": "USS George Washington", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Yokosuka", "lat": 35.2831, "lon": 139.6703, "region": "WESTPAC", "date": "2025", "status": ", USS George Washington moored at Berth 12 on Fleet Activities Yokosuka following a two-month patrol.", "source_url": "http://uscarriers.net/cvn73history.htm", "display_lat": 35.2831, "display_lon": 139.6703}, {"hull": "CVN74", "name": "USS John C. Stennis", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Newport News", "lat": 36.9788, "lon": -76.428, "region": "CONUS", "date": "April 8", "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard.", "source_url": "http://uscarriers.net/cvn74history.htm", "display_lat": 36.9788, "display_lon": -76.428}, {"hull": "CVN75", "name": "USS Harry S. Truman", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 21", "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21, 2026.", "source_url": "http://uscarriers.net/cvn75history.htm", "display_lat": 41.92694607176052, "display_lon": -73.4384}, {"hull": "CVN76", "name": "USS Ronald Reagan", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "Dec. 2", "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13.", "source_url": "http://uscarriers.net/cvn76history.htm", "display_lat": 47.5673, "display_lon": -126.08290000000001}, {"hull": "CVN77", "name": "USS George H.W. Bush", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "January 27", "status": "January 27, 2026 USS George H.W. Bush moored at Pier 14S on Naval Station Norfolk after a two-week underway for FRS-CQ, in the Virginia Capes and Key West Op. Areas.", "source_url": "http://uscarriers.net/cvn77history.htm", "display_lat": 41.27742701892219, "display_lon": -78.8134}, {"hull": "CVN78", "name": "USS Gerald R. Ford", "ship_class": "Ford", "ship_type": "CVN", "location": "Caribbean Sea", "lat": 15.5, "lon": -73.0, "region": "SOUTHCOM", "date": "Jan. 27", "status": "January 21,  USS Gerard R. Ford anchored approx. 1 n.m. off the coast of Charlotte Amalie West, St. Thomas Island, U.S. Virgin Islands, for a five-day liberty port visit; Conducted operations southwest of Puerto Rico from Jan. 27-29.", "source_url": "http://uscarriers.net/cvn78history.htm", "display_lat": 15.5, "display_lon": -73.0}, {"hull": "LHD1", "name": "USS Wasp", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "May 19", "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19.", "source_url": "http://uscarriers.net/lhd1history.htm", "display_lat": 36.9473, "display_lon": -82.0634}, {"hull": "LHD2", "name": "USS Essex", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "January 24", "status": "January 24, 2026 USS Essex moored at Berth 5, Pier 2 on Naval Base San Diego after a two-day underway in the SOCAL Op. Area.", "source_url": "http://uscarriers.net/lhd2history.htm", "display_lat": 37.04582701892219, "display_lon": -119.6611}, {"hull": "LHD3", "name": "USS Kearsarge", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "December 12", "status": "December 12, The Kearsarge moored at Berth 1, Pier 10 on Naval Station Norfolk.", "source_url": "http://uscarriers.net/lhd3history.htm", "display_lat": 32.61717298107781, "display_lon": -78.8134}, {"hull": "LHD4", "name": "USS Boxer", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "November 4, USS Boxer moored at Berth 6, Pier 13 on Naval Base San Diego for a brief stop; Returned home on Nov. 12; Underway for Amphibious Squadron (PHIBRON) 1/Marine Expeditionary Unit Integration Training (PMINT), with the 11th MEU, from Dec. 2-15; Underway for ARG/MEUEX on Jan. 21.", "source_url": "http://uscarriers.net/lhd4history.htm", "display_lat": 32.7157, "display_lon": -122.9111}, {"hull": "LHD5", "name": "USS Bataan", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "2025", "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard.", "source_url": "http://uscarriers.net/lhd5history.htm", "display_lat": 31.96765392823948, "display_lon": -73.4384}, {"hull": "LHD7", "name": "USS Iwo Jima", "ship_class": "Wasp", "ship_type": "LHD", "location": "Ponce", "lat": 17.98, "lon": -66.6141, "region": "SOUTHCOM", "date": "Jan. 15", "status": "January 2, 2026 The Iwo Jima ARG recently arrived northeast of Orchila Island, Venezuela, in support of Operation Absolute Resolve; Moored at Wharf C2 on Naval Station Mayport from Jan. 7-11; Moored at Berth 4/5 in Port of Ponce from Jan. 15-20.", "source_url": "http://uscarriers.net/lhd7history.htm", "display_lat": 17.98, "display_lon": -66.6141}, {"hull": "LHD8", "name": "USS Makin Island", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 23", "status": "January 21, USS Makin Island departed Naval Base San Diego for a Quarterly Underway Amphibious Readiness Training 26.2; Anchored off Camp Pendleton from Jan. 23-24.", "source_url": "http://uscarriers.net/lhd8history.htm", "display_lat": 28.385572981077807, "display_lon": -119.6611}, {"hull": "LHA6", "name": "USS America", "ship_class": "America", "ship_type": "LHA", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "2027", "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years.", "source_url": "http://uscarriers.net/lha6history.htm", "display_lat": 27.73605392823948, "display_lon": -114.2861}, {"hull": "LHA7", "name": "USS Tripoli", "ship_class": "America", "ship_type": "LHA", "location": "Okinawa", "lat": 26.3344, "lon": 127.8056, "region": "WESTPAC", "date": "2026", "status": "The Tripoli recently moored at Navy Pier East on White Beach Naval Facility.", "source_url": "http://uscarriers.net/lha7history.htm", "display_lat": 26.3344, "display_lon": 127.8056}];
-        const locationSummary = {"Bremerton / Kitsap": ["CVN68", "CVN76"], "Norfolk / Portsmouth": ["CVN69", "CVN75", "CVN77", "LHD1", "LHD3", "LHD5"], "San Diego": ["CVN70", "CVN71", "LHD2", "LHD4", "LHD8", "LHA6"], "Arabian Sea": ["CVN72"], "Yokosuka": ["CVN73"], "Newport News": ["CVN74"], "Caribbean Sea": ["CVN78"], "Ponce": ["LHD7"], "Okinawa": ["LHA7"]};
+        const shipsData = [{"hull": "CVN68", "name": "USS Nimitz", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "2025", "status": ", USS Nimitz  moored at Delta Pier on Naval Base Kitsap-Bremerton following an extended nine-month deployment in the U.S. 5th and 7th Fleet AoR.", "source_url": "http://uscarriers.net/cvn68history.htm", "display_lat": 47.5673, "display_lon": -119.6329}, {"hull": "CVN69", "name": "USS Dwight D. Eisenhower", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 8", "status": "September 26, USS Dwight D. Eisenhower moored at Pier 12N on Naval Station Norfolk after a six-day underway for TRACOM-CQ, in the Jacksonville Op. Area; Moved \"dead-stick\" to Super Pier 5N in Norfolk Naval Shipyard, for a Planned Incremental Availability (PIA), on Jan. 8.", "source_url": "http://uscarriers.net/cvn69history.htm", "display_lat": 36.9473, "display_lon": -71.3134}, {"hull": "CVN70", "name": "USS Carl Vinson", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "September 16", "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload.", "source_url": "http://uscarriers.net/cvn70history.htm", "display_lat": 32.7157, "display_lon": -112.1611}, {"hull": "CVN71", "name": "USS Theodore Roosevelt", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 30", "status": "January 15, 2026  USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island after a one-day underway in the SOCAL Op. Area; Underway for FRS-CQ from Jan. 21-28; Underway again on Jan. 30.", "source_url": "http://uscarriers.net/cvn71history.htm", "display_lat": 37.69534607176052, "display_lon": -114.2861}, {"hull": "CVN72", "name": "USS Abraham Lincoln", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Arabian Sea", "lat": 15.0, "lon": 65.0, "region": "CENTCOM", "date": "Jan. 27", "status": "January 26, USS Abraham Lincoln CSG recently arrived on station in the North Arabian Sea, off the east coast of Oman; Conducted a replenishment-at-sea with the USNS Carl Brashear (T-AKE 7) on Jan. 27.", "source_url": "http://uscarriers.net/cvn72history.htm", "display_lat": 15.0, "display_lon": 65.0}, {"hull": "CVN73", "name": "USS George Washington", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Yokosuka", "lat": 35.2831, "lon": 139.6703, "region": "WESTPAC", "date": "2025", "status": ", USS George Washington moored at Berth 12 on Fleet Activities Yokosuka following a two-month patrol.", "source_url": "http://uscarriers.net/cvn73history.htm", "display_lat": 35.2831, "display_lon": 139.6703}, {"hull": "CVN74", "name": "USS John C. Stennis", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Newport News", "lat": 36.9788, "lon": -76.428, "region": "CONUS", "date": "April 8", "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard.", "source_url": "http://uscarriers.net/cvn74history.htm", "display_lat": 36.9788, "display_lon": -76.428}, {"hull": "CVN75", "name": "USS Harry S. Truman", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 21", "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21, 2026.", "source_url": "http://uscarriers.net/cvn75history.htm", "display_lat": 41.92694607176052, "display_lon": -73.4384}, {"hull": "CVN76", "name": "USS Ronald Reagan", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "Dec. 2", "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13.", "source_url": "http://uscarriers.net/cvn76history.htm", "display_lat": 47.5673, "display_lon": -126.08290000000001}, {"hull": "CVN77", "name": "USS George H.W. Bush", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "January 27", "status": "January 27, 2026 USS George H.W. Bush moored at Pier 14S on Naval Station Norfolk after a two-week underway for FRS-CQ, in the Virginia Capes and Key West Op. Areas.", "source_url": "http://uscarriers.net/cvn77history.htm", "display_lat": 41.27742701892219, "display_lon": -78.8134}, {"hull": "CVN78", "name": "USS Gerald R. Ford", "ship_class": "Ford", "ship_type": "CVN", "location": "Caribbean Sea", "lat": 15.5, "lon": -73.0, "region": "SOUTHCOM", "date": "Jan. 27", "status": "January 21,  USS Gerard R. Ford anchored approx. 1 n.m. off the coast of Charlotte Amalie West, St. Thomas Island, U.S. Virgin Islands, for a five-day liberty port visit;  Conducted a replenishment-at-sea with the USNS Supply on Jan. 27; Conducted operations southwest of Puerto Rico from Jan. 27-31.", "source_url": "http://uscarriers.net/cvn78history.htm", "display_lat": 15.5, "display_lon": -73.0}, {"hull": "LHD1", "name": "USS Wasp", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "May 19", "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19.", "source_url": "http://uscarriers.net/lhd1history.htm", "display_lat": 36.9473, "display_lon": -82.0634}, {"hull": "LHD2", "name": "USS Essex", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "January 24", "status": "January 24, 2026 USS Essex moored at Berth 5, Pier 2 on Naval Base San Diego after a two-day underway in the SOCAL Op. Area.", "source_url": "http://uscarriers.net/lhd2history.htm", "display_lat": 37.04582701892219, "display_lon": -119.6611}, {"hull": "LHD3", "name": "USS Kearsarge", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "December 12", "status": "December 12, The Kearsarge moored at Berth 1, Pier 10 on Naval Station Norfolk.", "source_url": "http://uscarriers.net/lhd3history.htm", "display_lat": 32.61717298107781, "display_lon": -78.8134}, {"hull": "LHD4", "name": "USS Boxer", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "November 4, USS Boxer moored at Berth 6, Pier 13 on Naval Base San Diego for a brief stop; Returned home on Nov. 12; Underway for Amphibious Squadron (PHIBRON) 1/Marine Expeditionary Unit Integration Training (PMINT), with the 11th MEU, from Dec. 2-15; Underway for ARG/MEUEX on Jan. 21.", "source_url": "http://uscarriers.net/lhd4history.htm", "display_lat": 32.7157, "display_lon": -122.9111}, {"hull": "LHD5", "name": "USS Bataan", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "2025", "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard.", "source_url": "http://uscarriers.net/lhd5history.htm", "display_lat": 31.96765392823948, "display_lon": -73.4384}, {"hull": "LHD7", "name": "USS Iwo Jima", "ship_class": "Wasp", "ship_type": "LHD", "location": "Ponce", "lat": 17.98, "lon": -66.6141, "region": "SOUTHCOM", "date": "Jan. 15", "status": "January 2, 2026 The Iwo Jima ARG recently arrived northeast of Orchila Island, Venezuela, in support of Operation Absolute Resolve; Moored at Wharf C2 on Naval Station Mayport from Jan. 7-11; Moored at Berth 4/5 in Port of Ponce from Jan. 15-20.", "source_url": "http://uscarriers.net/lhd7history.htm", "display_lat": 17.98, "display_lon": -66.6141}, {"hull": "LHD8", "name": "USS Makin Island", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 30", "status": "January 21, USS Makin Island departed Naval Base San Diego for a Quarterly Underway Amphibious Readiness Training 26.2; Anchored off Camp Pendleton from Jan. 23-24; Moored at Berth 5, Pier 8 on Jan. 30.", "source_url": "http://uscarriers.net/lhd8history.htm", "display_lat": 28.385572981077807, "display_lon": -119.6611}, {"hull": "LHA6", "name": "USS America", "ship_class": "America", "ship_type": "LHA", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "2027", "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years.", "source_url": "http://uscarriers.net/lha6history.htm", "display_lat": 27.73605392823948, "display_lon": -114.2861}, {"hull": "LHA7", "name": "USS Tripoli", "ship_class": "America", "ship_type": "LHA", "location": "Okinawa", "lat": 26.3344, "lon": 127.8056, "region": "WESTPAC", "date": "2026", "status": "The Tripoli  moored at Navy Pier East on White Beach Naval Facility for a two-day port call.", "source_url": "http://uscarriers.net/lha7history.htm", "display_lat": 26.3344, "display_lon": 127.8056}];
+        const locationGroups = {"Bremerton / Kitsap": [{"hull": "CVN68", "name": "USS Nimitz", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "2025", "status": ", USS Nimitz  moored at Delta Pier on Naval Base Kitsap-Bremerton following an extended nine-month deployment in the U.S. 5th and 7th Fleet AoR.", "source_url": "http://uscarriers.net/cvn68history.htm", "display_lat": 47.5673, "display_lon": -119.6329}, {"hull": "CVN76", "name": "USS Ronald Reagan", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Bremerton / Kitsap", "lat": 47.5673, "lon": -122.6329, "region": "CONUS", "date": "Dec. 2", "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13.", "source_url": "http://uscarriers.net/cvn76history.htm", "display_lat": 47.5673, "display_lon": -126.08290000000001}], "Norfolk / Portsmouth": [{"hull": "CVN69", "name": "USS Dwight D. Eisenhower", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 8", "status": "September 26, USS Dwight D. Eisenhower moored at Pier 12N on Naval Station Norfolk after a six-day underway for TRACOM-CQ, in the Jacksonville Op. Area; Moved \"dead-stick\" to Super Pier 5N in Norfolk Naval Shipyard, for a Planned Incremental Availability (PIA), on Jan. 8.", "source_url": "http://uscarriers.net/cvn69history.htm", "display_lat": 36.9473, "display_lon": -71.3134}, {"hull": "CVN75", "name": "USS Harry S. Truman", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "Jan. 21", "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21, 2026.", "source_url": "http://uscarriers.net/cvn75history.htm", "display_lat": 41.92694607176052, "display_lon": -73.4384}, {"hull": "CVN77", "name": "USS George H.W. Bush", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "January 27", "status": "January 27, 2026 USS George H.W. Bush moored at Pier 14S on Naval Station Norfolk after a two-week underway for FRS-CQ, in the Virginia Capes and Key West Op. Areas.", "source_url": "http://uscarriers.net/cvn77history.htm", "display_lat": 41.27742701892219, "display_lon": -78.8134}, {"hull": "LHD1", "name": "USS Wasp", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "May 19", "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19.", "source_url": "http://uscarriers.net/lhd1history.htm", "display_lat": 36.9473, "display_lon": -82.0634}, {"hull": "LHD3", "name": "USS Kearsarge", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "December 12", "status": "December 12, The Kearsarge moored at Berth 1, Pier 10 on Naval Station Norfolk.", "source_url": "http://uscarriers.net/lhd3history.htm", "display_lat": 32.61717298107781, "display_lon": -78.8134}, {"hull": "LHD5", "name": "USS Bataan", "ship_class": "Wasp", "ship_type": "LHD", "location": "Norfolk / Portsmouth", "lat": 36.9473, "lon": -76.3134, "region": "CONUS", "date": "2025", "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard.", "source_url": "http://uscarriers.net/lhd5history.htm", "display_lat": 31.96765392823948, "display_lon": -73.4384}], "San Diego": [{"hull": "CVN70", "name": "USS Carl Vinson", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "September 16", "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload.", "source_url": "http://uscarriers.net/cvn70history.htm", "display_lat": 32.7157, "display_lon": -112.1611}, {"hull": "CVN71", "name": "USS Theodore Roosevelt", "ship_class": "Nimitz", "ship_type": "CVN", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 30", "status": "January 15, 2026  USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island after a one-day underway in the SOCAL Op. Area; Underway for FRS-CQ from Jan. 21-28; Underway again on Jan. 30.", "source_url": "http://uscarriers.net/cvn71history.htm", "display_lat": 37.69534607176052, "display_lon": -114.2861}, {"hull": "LHD2", "name": "USS Essex", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "January 24", "status": "January 24, 2026 USS Essex moored at Berth 5, Pier 2 on Naval Base San Diego after a two-day underway in the SOCAL Op. Area.", "source_url": "http://uscarriers.net/lhd2history.htm", "display_lat": 37.04582701892219, "display_lon": -119.6611}, {"hull": "LHD4", "name": "USS Boxer", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 21", "status": "November 4, USS Boxer moored at Berth 6, Pier 13 on Naval Base San Diego for a brief stop; Returned home on Nov. 12; Underway for Amphibious Squadron (PHIBRON) 1/Marine Expeditionary Unit Integration Training (PMINT), with the 11th MEU, from Dec. 2-15; Underway for ARG/MEUEX on Jan. 21.", "source_url": "http://uscarriers.net/lhd4history.htm", "display_lat": 32.7157, "display_lon": -122.9111}, {"hull": "LHD8", "name": "USS Makin Island", "ship_class": "Wasp", "ship_type": "LHD", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "Jan. 30", "status": "January 21, USS Makin Island departed Naval Base San Diego for a Quarterly Underway Amphibious Readiness Training 26.2; Anchored off Camp Pendleton from Jan. 23-24; Moored at Berth 5, Pier 8 on Jan. 30.", "source_url": "http://uscarriers.net/lhd8history.htm", "display_lat": 28.385572981077807, "display_lon": -119.6611}, {"hull": "LHA6", "name": "USS America", "ship_class": "America", "ship_type": "LHA", "location": "San Diego", "lat": 32.7157, "lon": -117.1611, "region": "CONUS", "date": "2027", "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years.", "source_url": "http://uscarriers.net/lha6history.htm", "display_lat": 27.73605392823948, "display_lon": -114.2861}], "Arabian Sea": [{"hull": "CVN72", "name": "USS Abraham Lincoln", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Arabian Sea", "lat": 15.0, "lon": 65.0, "region": "CENTCOM", "date": "Jan. 27", "status": "January 26, USS Abraham Lincoln CSG recently arrived on station in the North Arabian Sea, off the east coast of Oman; Conducted a replenishment-at-sea with the USNS Carl Brashear (T-AKE 7) on Jan. 27.", "source_url": "http://uscarriers.net/cvn72history.htm", "display_lat": 15.0, "display_lon": 65.0}], "Yokosuka": [{"hull": "CVN73", "name": "USS George Washington", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Yokosuka", "lat": 35.2831, "lon": 139.6703, "region": "WESTPAC", "date": "2025", "status": ", USS George Washington moored at Berth 12 on Fleet Activities Yokosuka following a two-month patrol.", "source_url": "http://uscarriers.net/cvn73history.htm", "display_lat": 35.2831, "display_lon": 139.6703}], "Newport News": [{"hull": "CVN74", "name": "USS John C. Stennis", "ship_class": "Nimitz", "ship_type": "CVN", "location": "Newport News", "lat": 36.9788, "lon": -76.428, "region": "CONUS", "date": "April 8", "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard.", "source_url": "http://uscarriers.net/cvn74history.htm", "display_lat": 36.9788, "display_lon": -76.428}], "Caribbean Sea": [{"hull": "CVN78", "name": "USS Gerald R. Ford", "ship_class": "Ford", "ship_type": "CVN", "location": "Caribbean Sea", "lat": 15.5, "lon": -73.0, "region": "SOUTHCOM", "date": "Jan. 27", "status": "January 21,  USS Gerard R. Ford anchored approx. 1 n.m. off the coast of Charlotte Amalie West, St. Thomas Island, U.S. Virgin Islands, for a five-day liberty port visit;  Conducted a replenishment-at-sea with the USNS Supply on Jan. 27; Conducted operations southwest of Puerto Rico from Jan. 27-31.", "source_url": "http://uscarriers.net/cvn78history.htm", "display_lat": 15.5, "display_lon": -73.0}], "Ponce": [{"hull": "LHD7", "name": "USS Iwo Jima", "ship_class": "Wasp", "ship_type": "LHD", "location": "Ponce", "lat": 17.98, "lon": -66.6141, "region": "SOUTHCOM", "date": "Jan. 15", "status": "January 2, 2026 The Iwo Jima ARG recently arrived northeast of Orchila Island, Venezuela, in support of Operation Absolute Resolve; Moored at Wharf C2 on Naval Station Mayport from Jan. 7-11; Moored at Berth 4/5 in Port of Ponce from Jan. 15-20.", "source_url": "http://uscarriers.net/lhd7history.htm", "display_lat": 17.98, "display_lon": -66.6141}], "Okinawa": [{"hull": "LHA7", "name": "USS Tripoli", "ship_class": "America", "ship_type": "LHA", "location": "Okinawa", "lat": 26.3344, "lon": 127.8056, "region": "WESTPAC", "date": "2026", "status": "The Tripoli  moored at Navy Pier East on White Beach Naval Facility for a two-day port call.", "source_url": "http://uscarriers.net/lha7history.htm", "display_lat": 26.3344, "display_lon": 127.8056}]};
         let activeFilter = 'all';
         let selectedShip = null;
 
+        // COCOM definitions with center coordinates and regions
+        const cocomData = {
+            'INDOPACOM': { name: 'Indo-Pacific Command', lat: 15, lon: 140, regions: ['WESTPAC', 'INDOPAC', 'PACIFIC'] },
+            'CENTCOM': { name: 'Central Command', lat: 20, lon: 55, regions: ['CENTCOM'] },
+            'EUCOM': { name: 'European Command', lat: 45, lon: 10, regions: ['EUCOM'] },
+            'SOUTHCOM': { name: 'Southern Command', lat: 10, lon: -75, regions: ['SOUTHCOM'] },
+            'CONUS': { name: 'Continental U.S.', lat: 35, lon: -100, regions: ['CONUS'] }
+        };
+
+        // Locations that should show clustered pins
+        const clusteredLocations = ['Norfolk / Portsmouth', 'San Diego', 'Bremerton / Kitsap', 'Yokosuka', 'Sasebo'];
+
         function initGlobe() {
-            const cvnShips = shipsData.filter(s => s.ship_type === 'CVN');
-            const amphibShips = shipsData.filter(s => s.ship_type !== 'CVN');
+            // Separate single ships from clustered locations
+            const singleShips = [];
+            const clusterMarkers = [];
 
-            const cvnTrace = {
-                type: 'scattergeo', mode: 'markers+text',
-                lat: cvnShips.map(s => s.display_lat), lon: cvnShips.map(s => s.display_lon),
-                text: cvnShips.map(s => s.hull), textposition: 'top center',
-                textfont: { family: 'Inter, sans-serif', size: 10, color: '#ff6b6b', weight: 600 },
-                hoverinfo: 'text', hovertext: cvnShips.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
-                marker: { size: 12, color: '#ff6b6b', symbol: 'diamond', line: { width: 2, color: '#cc4444' } },
-                name: 'Carriers (CVN)', customdata: cvnShips
-            };
+            shipsData.forEach(ship => {
+                const shipsAtLocation = locationGroups[ship.location] || [];
+                if (shipsAtLocation.length > 1 && clusteredLocations.includes(ship.location)) {
+                    // Only add one marker per clustered location
+                    if (!clusterMarkers.find(m => m.location === ship.location)) {
+                        clusterMarkers.push({
+                            location: ship.location,
+                            lat: ship.lat,
+                            lon: ship.lon,
+                            count: shipsAtLocation.length,
+                            ships: shipsAtLocation
+                        });
+                    }
+                } else {
+                    singleShips.push(ship);
+                }
+            });
 
-            const amphibTrace = {
-                type: 'scattergeo', mode: 'markers+text',
-                lat: amphibShips.map(s => s.display_lat), lon: amphibShips.map(s => s.display_lon),
-                text: amphibShips.map(s => s.hull), textposition: 'top center',
-                textfont: { family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 },
-                hoverinfo: 'text', hovertext: amphibShips.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
-                marker: { size: 10, color: '#4ecdc4', symbol: 'circle', line: { width: 2, color: '#2a9d8f' } },
-                name: 'Amphibs (LHA/LHD)', customdata: amphibShips
-            };
+            // Single CVN ships
+            const cvnSingle = singleShips.filter(s => s.ship_type === 'CVN');
+            const amphibSingle = singleShips.filter(s => s.ship_type !== 'CVN');
+
+            const traces = [];
+
+            // CVN trace for single ships
+            if (cvnSingle.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: cvnSingle.map(s => s.lat), lon: cvnSingle.map(s => s.lon),
+                    text: cvnSingle.map(s => s.hull), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 10, color: '#ff6b6b', weight: 600 },
+                    hoverinfo: 'text', hovertext: cvnSingle.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
+                    marker: { size: 12, color: '#ff6b6b', symbol: 'diamond', line: { width: 2, color: '#cc4444' } },
+                    name: 'Carriers (CVN)', customdata: cvnSingle
+                });
+            }
+
+            // Amphib trace for single ships
+            if (amphibSingle.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: amphibSingle.map(s => s.lat), lon: amphibSingle.map(s => s.lon),
+                    text: amphibSingle.map(s => s.hull), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 },
+                    hoverinfo: 'text', hovertext: amphibSingle.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
+                    marker: { size: 10, color: '#4ecdc4', symbol: 'circle', line: { width: 2, color: '#2a9d8f' } },
+                    name: 'Amphibious Assault Ships (LHA/LHD)', customdata: amphibSingle
+                });
+            }
+
+            // Cluster markers (ports with multiple ships)
+            if (clusterMarkers.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: clusterMarkers.map(c => c.lat), lon: clusterMarkers.map(c => c.lon),
+                    text: clusterMarkers.map(c => c.count + ' ships'), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#00ff88', weight: 600 },
+                    hoverinfo: 'text', hovertext: clusterMarkers.map(c => `<b>${c.location}</b><br>${c.count} ships`),
+                    marker: { size: 16, color: '#00ff88', symbol: 'circle', line: { width: 2, color: '#00cc6a' }, opacity: 0.9 },
+                    name: 'Port (multiple ships)', customdata: clusterMarkers.map(c => ({ isCluster: true, ...c }))
+                });
+            }
 
             const layout = {
                 geo: {
@@ -216,13 +327,54 @@
             };
 
             const config = { responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'], displaylogo: false, scrollZoom: true };
-            Plotly.newPlot('globe', [cvnTrace, amphibTrace], layout, config);
+            Plotly.newPlot('globe', traces, layout, config);
+
             document.getElementById('globe').on('plotly_click', function(data) {
                 if (data.points && data.points.length > 0) {
-                    const ship = data.points[0].customdata;
-                    if (ship) { showDetail(ship); highlightShipCard(ship.hull); }
+                    const pointData = data.points[0].customdata;
+                    if (pointData && pointData.isCluster) {
+                        showLocationCallout(pointData, data.points[0]);
+                    } else if (pointData) {
+                        showDetail(pointData);
+                        highlightShipCard(pointData.hull);
+                    }
                 }
             });
+        }
+
+        function showLocationCallout(clusterData, point) {
+            const container = document.getElementById('locationCallouts');
+            const globeRect = document.getElementById('globe').getBoundingClientRect();
+
+            // Calculate position (offset from click)
+            let html = `<div class="location-callout" style="left: 40px; top: 50%;">
+                <div class="location-callout-header">${clusterData.location}</div>`;
+
+            clusterData.ships.forEach(ship => {
+                const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
+                html += `<div class="location-callout-ship" onclick="selectShipFromCallout('${ship.hull}')" style="cursor:pointer;">
+                    <div class="location-callout-icon ${typeClass}"></div>
+                    <span class="location-callout-hull ${typeClass}">${ship.hull}</span>
+                    <span class="location-callout-name">${ship.name}</span>
+                </div>`;
+            });
+
+            html += '</div>';
+            container.innerHTML = html;
+
+            // Close when clicking elsewhere
+            setTimeout(() => {
+                document.addEventListener('click', closeLocationCallout, { once: true });
+            }, 100);
+        }
+
+        function closeLocationCallout() {
+            document.getElementById('locationCallouts').innerHTML = '';
+        }
+
+        function selectShipFromCallout(hull) {
+            closeLocationCallout();
+            selectShip(hull);
         }
 
         function renderShipList() {
@@ -245,13 +397,105 @@
             container.innerHTML = html;
         }
 
-        function rotateToLocation(location) { const ship = shipsData.find(s => s.location === location); if (ship) Plotly.relayout('globe', { 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }); }
-        function selectShip(hull) { const ship = shipsData.find(s => s.hull === hull); if (ship) { showDetail(ship); highlightShipCard(hull); Plotly.relayout('globe', { 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) }); } }
-        function highlightShipCard(hull) { document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active')); const card = document.querySelector(`.ship-card[data-hull="${hull}"]`); if (card) { card.classList.add('active'); card.scrollIntoView({ behavior: 'smooth', block: 'center' }); } }
-        function showDetail(ship) { selectedShip = ship; document.getElementById('detailPanel').classList.remove('hidden'); document.getElementById('detailTitle').textContent = `${ship.hull} - ${ship.name}`; document.getElementById('detailClass').textContent = `${ship.ship_class}-class ${ship.ship_type}`; document.getElementById('detailLocation').textContent = ship.location; document.getElementById('detailRegion').textContent = ship.region; document.getElementById('detailDate').textContent = ship.date; document.getElementById('detailStatus').textContent = ship.status; }
-        function closeDetail() { document.getElementById('detailPanel').classList.add('hidden'); document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active')); selectedShip = null; }
-        document.querySelectorAll('.filter-btn').forEach(btn => { btn.addEventListener('click', function() { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); this.classList.add('active'); activeFilter = this.dataset.filter; renderShipList(); }); });
+        function rotateToLocation(location) {
+            const ship = shipsData.find(s => s.location === location);
+            if (ship) Plotly.relayout('globe', { 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) });
+        }
 
+        function selectShip(hull) {
+            const ship = shipsData.find(s => s.hull === hull);
+            if (ship) {
+                showDetail(ship);
+                highlightShipCard(hull);
+                Plotly.relayout('globe', { 'geo.projection.rotation.lon': ship.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, ship.lat)) });
+            }
+        }
+
+        function highlightShipCard(hull) {
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            const card = document.querySelector(`.ship-card[data-hull="${hull}"]`);
+            if (card) { card.classList.add('active'); card.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+        }
+
+        function showDetail(ship) {
+            selectedShip = ship;
+            document.getElementById('detailPanel').classList.remove('hidden');
+            document.getElementById('detailTitle').textContent = `${ship.hull} - ${ship.name}`;
+            document.getElementById('detailClass').textContent = `${ship.ship_class}-class ${ship.ship_type}`;
+            document.getElementById('detailLocation').textContent = ship.location;
+            document.getElementById('detailRegion').textContent = ship.region;
+            document.getElementById('detailDate').textContent = ship.date;
+            document.getElementById('detailStatus').textContent = ship.status;
+        }
+
+        function closeDetail() {
+            document.getElementById('detailPanel').classList.add('hidden');
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            selectedShip = null;
+        }
+
+        // COCOM Functions
+        function toggleCocomMenu() {
+            document.getElementById('cocomDropdown').classList.toggle('open');
+        }
+
+        function selectCocom(cocom) {
+            document.getElementById('cocomDropdown').classList.remove('open');
+            const data = cocomData[cocom];
+
+            // Rotate globe to COCOM region
+            Plotly.relayout('globe', {
+                'geo.projection.rotation.lon': data.lon,
+                'geo.projection.rotation.lat': data.lat
+            });
+
+            // Find ships in this COCOM
+            const cocomShips = shipsData.filter(s => data.regions.includes(s.region));
+
+            // Show COCOM panel
+            document.getElementById('cocomPanelTitle').textContent = data.name + ' (' + cocomShips.length + ' ships)';
+
+            let html = '';
+            if (cocomShips.length === 0) {
+                html = '<div style="color:#666;font-size:12px;padding:10px;">No ships currently in this theater</div>';
+            } else {
+                cocomShips.forEach(ship => {
+                    const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
+                    html += `<div class="cocom-ship" onclick="selectShip('${ship.hull}')">
+                        <div class="cocom-ship-icon ${typeClass}"></div>
+                        <span class="cocom-ship-hull">${ship.hull}</span>
+                        <span class="cocom-ship-name">${ship.name}</span>
+                        <span class="cocom-ship-loc">${ship.location}</span>
+                    </div>`;
+                });
+            }
+
+            document.getElementById('cocomPanelBody').innerHTML = html;
+            document.getElementById('cocomPanel').classList.add('visible');
+        }
+
+        function closeCocomPanel() {
+            document.getElementById('cocomPanel').classList.remove('visible');
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.cocom-dropdown')) {
+                document.getElementById('cocomDropdown').classList.remove('open');
+            }
+        });
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                activeFilter = this.dataset.filter;
+                renderShipList();
+            });
+        });
+
+        // Carrier Modal Functions
         function showCarrierModal() {
             const carriers = shipsData.filter(s => s.ship_type === 'CVN').sort((a, b) => {
                 const numA = parseInt(a.hull.replace('CVN', ''));
@@ -282,10 +526,14 @@
         }
 
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') closeCarrierModal();
+            if (e.key === 'Escape') {
+                closeCarrierModal();
+                closeCocomPanel();
+            }
         });
 
-        initGlobe(); renderShipList();
+        initGlobe();
+        renderShipList();
     </script>
 </body>
 </html>
