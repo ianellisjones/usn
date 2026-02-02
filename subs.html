@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. NAVY SUBMARINE TRACKER</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0f; color: #e0e0e0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; overflow: hidden; height: 100vh; }
+        .container { display: grid; grid-template-columns: 1fr 380px; grid-template-rows: auto 1fr; height: 100vh; gap: 0; }
+        .header { grid-column: 1 / -1; background: linear-gradient(180deg, #111118 0%, #0a0a0f 100%); border-bottom: 1px solid #1e1e2e; padding: 14px 28px; display: flex; justify-content: space-between; align-items: center; }
+        .header-left { display: flex; align-items: center; gap: 20px; }
+        .logo { font-size: 20px; font-weight: 700; color: #00ff88; letter-spacing: 1px; }
+        .logo-sub { font-size: 11px; font-weight: 500; color: #666; letter-spacing: 2px; margin-top: 2px; text-transform: uppercase; }
+        .status-bar { display: flex; gap: 30px; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 28px; font-weight: 700; color: #00ffff; }
+        .stat-value.deployed { color: #00ff88; }
+        .stat-value.active { color: #4ecdc4; }
+        .stat-value.maintenance { color: #ff6b6b; }
+        .stat-label { font-size: 10px; font-weight: 600; color: #555; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px; }
+        .timestamp { font-size: 11px; color: #444; font-weight: 500; }
+        .timestamp span { color: #00ff88; }
+        .globe-container { background: #0a0a0f; position: relative; }
+        #globe { width: 100%; height: 100%; }
+        .side-panel { background: #0d0d14; border-left: 1px solid #1e1e2e; display: flex; flex-direction: column; overflow: hidden; }
+        .panel-header { padding: 16px 20px; border-bottom: 1px solid #1e1e2e; }
+        .panel-title { font-size: 12px; font-weight: 600; color: #00ff88; letter-spacing: 2px; text-transform: uppercase; }
+        .legend { padding: 12px 16px; border-bottom: 1px solid #1e1e2e; display: flex; gap: 16px; flex-wrap: wrap; }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 10px; color: #888; }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+        .legend-dot.deployed { background: #00ff88; }
+        .legend-dot.active { background: #4ecdc4; }
+        .legend-dot.maintenance { background: #ff6b6b; }
+        .ship-list { flex: 1; overflow-y: auto; padding: 12px; }
+        .ship-list::-webkit-scrollbar { width: 5px; }
+        .ship-list::-webkit-scrollbar-track { background: #0a0a0f; }
+        .ship-list::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+        .location-group { margin-bottom: 16px; }
+        .location-header { display: flex; align-items: center; gap: 8px; padding: 8px 12px; background: rgba(0, 255, 136, 0.05); border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: background 0.2s; }
+        .location-header:hover { background: rgba(0, 255, 136, 0.1); }
+        .location-name { flex: 1; font-size: 12px; font-weight: 600; color: #00ff88; }
+        .location-count { font-size: 11px; font-weight: 600; color: #888; background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 10px; }
+        .ship-card { background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 8px; margin-bottom: 6px; margin-left: 12px; padding: 10px 14px; cursor: pointer; transition: all 0.15s ease; }
+        .ship-card:hover { border-color: #333; background: rgba(255, 255, 255, 0.04); }
+        .ship-card.active { border-color: #00ffff; background: rgba(0, 255, 255, 0.08); }
+        .ship-card.deployed { border-left: 3px solid #00ff88; }
+        .ship-card.active-status { border-left: 3px solid #4ecdc4; }
+        .ship-card.maintenance { border-left: 3px solid #ff6b6b; }
+        .ship-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+        .ship-name { font-size: 13px; font-weight: 700; color: #fff; }
+        .ship-name.deployed { color: #00ff88; }
+        .ship-name.active-status { color: #4ecdc4; }
+        .ship-name.maintenance { color: #ff6b6b; }
+        .ship-class { font-size: 9px; font-weight: 600; padding: 3px 8px; border-radius: 4px; background: rgba(255, 255, 255, 0.06); color: #888; }
+        .ship-hull { font-size: 11px; color: #666; font-weight: 500; }
+        .ship-status { font-size: 10px; color: #444; margin-top: 4px; font-weight: 500; }
+        .detail-panel { background: #111118; border-top: 1px solid #1e1e2e; padding: 16px; max-height: 250px; overflow-y: auto; }
+        .detail-panel.hidden { display: none; }
+        .detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+        .detail-title { font-size: 15px; font-weight: 700; color: #00ffff; }
+        .detail-close { cursor: pointer; color: #555; font-size: 18px; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+        .detail-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.1); }
+        .detail-row { display: flex; margin-bottom: 8px; }
+        .detail-label { width: 70px; font-size: 10px; font-weight: 600; color: #444; text-transform: uppercase; }
+        .detail-value { flex: 1; font-size: 13px; color: #aaa; font-weight: 500; }
+        .filter-bar { padding: 12px 16px; border-bottom: 1px solid #1e1e2e; display: flex; gap: 8px; flex-wrap: wrap; }
+        .filter-btn { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 6px 12px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 6px; transition: all 0.15s; }
+        .filter-btn:hover { border-color: #444; color: #999; }
+        .filter-btn.active { background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }
+        .attribution { padding: 10px 16px; border-top: 1px solid #1e1e2e; font-size: 10px; color: #444; text-align: center; }
+        .btn-group { display: flex; gap: 12px; align-items: center; }
+        .sub-btn { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #4ecdc4 0%, #2a9d8f 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(78, 205, 196, 0.3); }
+        .sub-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(78, 205, 196, 0.4); }
+        .cocom-dropdown { position: relative; }
+        .cocom-btn { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 10px 20px; background: linear-gradient(135deg, #6c5ce7 0%, #4a3fc7 100%); border: none; color: #fff; cursor: pointer; border-radius: 8px; transition: all 0.2s; box-shadow: 0 2px 8px rgba(108, 92, 231, 0.3); display: flex; align-items: center; gap: 8px; }
+        .cocom-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(108, 92, 231, 0.4); }
+        .cocom-btn::after { content: '▼'; font-size: 8px; }
+        .cocom-menu { position: absolute; top: 100%; left: 0; margin-top: 8px; background: #111118; border: 1px solid #2a2a3a; border-radius: 10px; min-width: 180px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.2s; z-index: 100; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        .cocom-dropdown.open .cocom-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+        .cocom-item { padding: 12px 16px; cursor: pointer; font-size: 12px; font-weight: 500; color: #888; transition: all 0.15s; border-bottom: 1px solid #1e1e2e; }
+        .cocom-item:last-child { border-bottom: none; }
+        .cocom-item:hover { background: rgba(108, 92, 231, 0.1); color: #6c5ce7; }
+        .cocom-panel { position: absolute; bottom: 20px; left: 20px; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 12px; width: 340px; max-height: 350px; overflow: hidden; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.3s; z-index: 50; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        .cocom-panel.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+        .cocom-panel-header { padding: 14px 16px; border-bottom: 1px solid #1e1e2e; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(180deg, rgba(108, 92, 231, 0.1) 0%, transparent 100%); }
+        .cocom-panel-title { font-size: 13px; font-weight: 700; color: #6c5ce7; }
+        .cocom-panel-close { cursor: pointer; color: #555; font-size: 18px; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+        .cocom-panel-close:hover { color: #ff6b6b; background: rgba(255,107,107,0.1); }
+        .cocom-panel-body { padding: 12px; max-height: 280px; overflow-y: auto; }
+        .cocom-ship { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; }
+        .cocom-ship:hover { background: rgba(255,255,255,0.05); }
+        .cocom-ship-icon { width: 8px; height: 8px; border-radius: 50%; }
+        .cocom-ship-icon.deployed { background: #00ff88; }
+        .cocom-ship-icon.active-status { background: #4ecdc4; }
+        .cocom-ship-icon.maintenance { background: #ff6b6b; }
+        .cocom-ship-name { font-size: 11px; font-weight: 600; color: #fff; flex: 1; }
+        .cocom-ship-class { font-size: 10px; color: #666; }
+        .cocom-ship-loc { font-size: 10px; color: #6c5ce7; }
+        .location-callout { position: absolute; background: rgba(17, 17, 24, 0.95); border: 1px solid #2a2a3a; border-radius: 10px; padding: 12px; min-width: 220px; max-width: 300px; z-index: 60; box-shadow: 0 8px 32px rgba(0,0,0,0.4); pointer-events: auto; }
+        .location-callout-header { font-size: 11px; font-weight: 600; color: #00ff88; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #1e1e2e; }
+        .location-callout-ship { display: flex; align-items: center; gap: 8px; padding: 5px 0; cursor: pointer; }
+        .location-callout-ship:hover { background: rgba(255,255,255,0.03); margin: 0 -8px; padding: 5px 8px; border-radius: 4px; }
+        .location-callout-icon { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+        .location-callout-icon.deployed { background: #00ff88; }
+        .location-callout-icon.active-status { background: #4ecdc4; }
+        .location-callout-icon.maintenance { background: #ff6b6b; }
+        .location-callout-name { font-size: 11px; font-weight: 600; color: #fff; flex: 1; }
+        .location-callout-class { font-size: 10px; color: #666; }
+        .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.85); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+        .modal-overlay.visible { opacity: 1; visibility: visible; }
+        .modal { background: #111118; border: 1px solid #2a2a3a; border-radius: 16px; width: 90%; max-width: 800px; max-height: 85vh; overflow: hidden; transform: scale(0.9); transition: transform 0.3s ease; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); }
+        .modal-overlay.visible .modal { transform: scale(1); }
+        .modal-header { padding: 20px 24px; border-bottom: 1px solid #1e1e2e; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(180deg, #1a1a22 0%, #111118 100%); }
+        .modal-title { font-size: 18px; font-weight: 700; color: #4ecdc4; }
+        .modal-subtitle { font-size: 11px; color: #666; margin-top: 4px; }
+        .modal-close { cursor: pointer; color: #555; font-size: 24px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+        .modal-close:hover { color: #ff6b6b; background: rgba(255, 107, 107, 0.1); }
+        .modal-body { padding: 16px 24px 24px; overflow-y: auto; max-height: calc(85vh - 100px); }
+        .sub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+        .sub-item { background: rgba(78, 205, 196, 0.05); border: 1px solid rgba(78, 205, 196, 0.2); border-radius: 10px; padding: 12px 14px; cursor: pointer; transition: all 0.15s; }
+        .sub-item:hover { background: rgba(78, 205, 196, 0.1); border-color: rgba(78, 205, 196, 0.4); transform: translateY(-2px); }
+        .sub-item.deployed { border-left: 3px solid #00ff88; }
+        .sub-item.active-status { border-left: 3px solid #4ecdc4; }
+        .sub-item.maintenance { border-left: 3px solid #ff6b6b; }
+        .sub-item-name { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 2px; }
+        .sub-item-hull { font-size: 10px; color: #666; margin-bottom: 6px; }
+        .sub-item-location { font-size: 10px; color: #00ff88; font-weight: 600; padding: 3px 8px; background: rgba(0, 255, 136, 0.1); border-radius: 4px; display: inline-block; }
+        .loading-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #0a0a0f; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 2000; }
+        .loading-overlay.hidden { display: none; }
+        .loading-spinner { width: 50px; height: 50px; border: 3px solid #1e1e2e; border-top-color: #4ecdc4; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loading-text { margin-top: 20px; font-size: 14px; color: #4ecdc4; }
+        .loading-subtext { margin-top: 8px; font-size: 11px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading Submarine Fleet...</div>
+        <div class="loading-subtext">Fetching from Google Sheets</div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-left">
+                <div>
+                    <div class="logo">U.S. NAVY SUBMARINE TRACKER</div>
+                    <div class="logo-sub">Silent Service Fleet Operations</div>
+                </div>
+            </div>
+            <div class="status-bar">
+                <div class="stat">
+                    <div class="stat-value" id="totalCount">--</div>
+                    <div class="stat-label">Total Subs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value deployed" id="deployedCount">--</div>
+                    <div class="stat-label">Deployed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value active" id="activeCount">--</div>
+                    <div class="stat-label">Active</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value maintenance" id="maintenanceCount">--</div>
+                    <div class="stat-label">Maintenance</div>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="btn-group">
+                    <button class="sub-btn" onclick="showSubModal()">Where are the subs?</button>
+                    <div class="cocom-dropdown" id="cocomDropdown">
+                        <button class="cocom-btn" onclick="toggleCocomMenu()">By Theater</button>
+                        <div class="cocom-menu">
+                            <div class="cocom-item" onclick="selectCocom('INDOPACOM')">INDOPACOM</div>
+                            <div class="cocom-item" onclick="selectCocom('EUCOM')">EUCOM</div>
+                            <div class="cocom-item" onclick="selectCocom('CONUS_ATLANTIC')">CONUS Atlantic</div>
+                            <div class="cocom-item" onclick="selectCocom('CONUS_PACIFIC')">CONUS Pacific</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timestamp">
+                    Data Source: <span>Google Sheets</span>
+                </div>
+            </div>
+        </header>
+        <div class="globe-container">
+            <div id="globe"></div>
+            <div class="cocom-panel" id="cocomPanel">
+                <div class="cocom-panel-header">
+                    <div class="cocom-panel-title" id="cocomPanelTitle">Theater</div>
+                    <span class="cocom-panel-close" onclick="closeCocomPanel()">&#x2715;</span>
+                </div>
+                <div class="cocom-panel-body" id="cocomPanelBody"></div>
+            </div>
+            <div id="locationCallouts"></div>
+        </div>
+        <div class="side-panel">
+            <div class="panel-header">
+                <div class="panel-title">Submarine Fleet Status</div>
+            </div>
+            <div class="legend">
+                <div class="legend-item"><div class="legend-dot deployed"></div>Deployed</div>
+                <div class="legend-item"><div class="legend-dot active"></div>Active/Underway</div>
+                <div class="legend-item"><div class="legend-dot maintenance"></div>Maintenance</div>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="SSN">SSN</button>
+                <button class="filter-btn" data-filter="SSGN">SSGN</button>
+                <button class="filter-btn" data-filter="SSBN">SSBN</button>
+                <button class="filter-btn" data-filter="deployed">Deployed</button>
+                <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+            </div>
+            <div class="ship-list" id="shipList"></div>
+            <div class="detail-panel hidden" id="detailPanel">
+                <div class="detail-header">
+                    <div class="detail-title" id="detailTitle">-</div>
+                    <span class="detail-close" onclick="closeDetail()">&#x2715;</span>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Hull</div>
+                    <div class="detail-value" id="detailHull">-</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Class</div>
+                    <div class="detail-value" id="detailClass">-</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Type</div>
+                    <div class="detail-value" id="detailType">-</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Location</div>
+                    <div class="detail-value" id="detailLocation">-</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Status</div>
+                    <div class="detail-value" id="detailStatus">-</div>
+                </div>
+            </div>
+            <div class="attribution">
+                Created by @ianellisjones and IEJ Media
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="subModal" onclick="closeSubModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div>
+                    <div class="modal-title">WHERE ARE THE SUBMARINES?</div>
+                    <div class="modal-subtitle">Current positions of all U.S. Navy submarines</div>
+                </div>
+                <span class="modal-close" onclick="closeSubModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="sub-grid" id="subGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Google Sheet CSV URL
+        const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRgDqSYB-WEgvsXOgvKqaBbXAw7qxHkY_1bMH2UHp1v4NjwWJ1hHR2lr4w5zopBnI_5PzDJPyM34pA2/pub?output=csv';
+
+        // Location coordinates
+        const LOCATION_COORDS = {
+            'Norfolk': { lat: 36.9466, lon: -76.3134, region: 'CONUS_ATLANTIC' },
+            'Groton': { lat: 41.3502, lon: -72.0877, region: 'CONUS_ATLANTIC' },
+            'Kings Bay, GA': { lat: 30.7966, lon: -81.5156, region: 'CONUS_ATLANTIC' },
+            'Kings Bay': { lat: 30.7966, lon: -81.5156, region: 'CONUS_ATLANTIC' },
+            'Newport News': { lat: 36.9788, lon: -76.4280, region: 'CONUS_ATLANTIC' },
+            'Maine': { lat: 43.9142, lon: -69.8200, region: 'CONUS_ATLANTIC' },
+            'San Diego': { lat: 32.7157, lon: -117.1611, region: 'CONUS_PACIFIC' },
+            'Bremerton': { lat: 47.5673, lon: -122.6329, region: 'CONUS_PACIFIC' },
+            'Pearl Harbor': { lat: 21.3545, lon: -157.9698, region: 'INDOPACOM' },
+            'Pearl Harbor, HI': { lat: 21.3545, lon: -157.9698, region: 'INDOPACOM' },
+            'Guam': { lat: 13.4443, lon: 144.7937, region: 'INDOPACOM' },
+            'Philippine Sea': { lat: 20.0, lon: 130.0, region: 'INDOPACOM' },
+            'North Atlantic Ocean': { lat: 40.0, lon: -45.0, region: 'CONUS_ATLANTIC' },
+            'North Pacific Ocean': { lat: 35.0, lon: -160.0, region: 'INDOPACOM' },
+            'Med Sea': { lat: 35.0, lon: 18.0, region: 'EUCOM' },
+            'Mediterranean': { lat: 35.0, lon: 18.0, region: 'EUCOM' },
+            'Atlantic Ocean': { lat: 35.0, lon: -50.0, region: 'CONUS_ATLANTIC' },
+            'Pacific Ocean': { lat: 25.0, lon: -140.0, region: 'INDOPACOM' }
+        };
+
+        // COCOM data
+        const cocomData = {
+            'INDOPACOM': { name: 'Indo-Pacific Command', lat: 20, lon: 150, regions: ['INDOPACOM'] },
+            'EUCOM': { name: 'European Command', lat: 45, lon: 10, regions: ['EUCOM'] },
+            'CONUS_ATLANTIC': { name: 'CONUS Atlantic', lat: 35, lon: -70, regions: ['CONUS_ATLANTIC'] },
+            'CONUS_PACIFIC': { name: 'CONUS Pacific', lat: 40, lon: -125, regions: ['CONUS_PACIFIC'] }
+        };
+
+        // Hardcoded submarine data (fallback)
+        const HARDCODED_SUBS = [
+            { name: 'USS Pasadena', hull: 'SSN-752', class: 'Los Angeles', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS Albany', hull: 'SSN-753', class: 'Los Angeles', type: 'SSN', location: 'Groton', status: 'Active' },
+            { name: 'USS Boise', hull: 'SSN-764', class: 'Los Angeles', type: 'SSN', location: 'Norfolk', status: 'Maintenance' },
+            { name: 'USS New Hampshire', hull: 'SSN-778', class: 'Virginia', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS New Mexico', hull: 'SSN-779', class: 'Virginia', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS John Warner', hull: 'SSN-785', class: 'Virginia', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS Washington', hull: 'SSN-787', class: 'Virginia', type: 'SSN', location: 'Maine', status: 'Active' },
+            { name: 'USS Oregon', hull: 'SSN-793', class: 'Virginia', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS New Jersey', hull: 'SSN-796', class: 'Virginia', type: 'SSN', location: 'Newport News', status: 'Maintenance' },
+            { name: 'USS Newport News', hull: 'SSN-750', class: 'Los Angeles', type: 'SSN', location: 'North Atlantic Ocean', status: 'Deployed' },
+            { name: 'USS Montpelier', hull: 'SSN-765', class: 'Los Angeles', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS Hartford', hull: 'SSN-768', class: 'Los Angeles', type: 'SSN', location: 'Groton', status: 'Active' },
+            { name: 'USS Toledo', hull: 'SSN-769', class: 'Los Angeles', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Cheyenne', hull: 'SSN-773', class: 'Los Angeles', type: 'SSN', location: 'North Atlantic Ocean', status: 'Deployed' },
+            { name: 'USS Virginia', hull: 'SSN-774', class: 'Virginia', type: 'SSN', location: 'Norfolk', status: 'Active' },
+            { name: 'USS Texas', hull: 'SSN-775', class: 'Virginia', type: 'SSN', location: 'North Atlantic Ocean', status: 'Deployed' },
+            { name: 'USS California', hull: 'SSN-781', class: 'Virginia', type: 'SSN', location: 'Groton', status: 'Active' },
+            { name: 'USS North Dakota', hull: 'SSN-784', class: 'Virginia', type: 'SSN', location: 'Maine', status: 'Active' },
+            { name: 'USS Indiana', hull: 'SSN-789', class: 'Virginia', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS South Dakota', hull: 'SSN-790', class: 'Virginia', type: 'SSN', location: 'North Atlantic Ocean', status: 'Deployed' },
+            { name: 'USS Delaware', hull: 'SSN-791', class: 'Virginia', type: 'SSN', location: 'Groton', status: 'Active' },
+            { name: 'USS Hyman G. Rickover', hull: 'SSN-795', class: 'Virginia', type: 'SSN', location: 'Groton', status: 'Active' },
+            { name: 'USS Iowa', hull: 'SSN-797', class: 'Virginia', type: 'SSN', location: 'North Atlantic Ocean', status: 'Deployed' },
+            { name: 'USS Scranton', hull: 'SSN-756', class: 'Los Angeles', type: 'SSN', location: 'San Diego', status: 'Active' },
+            { name: 'USS Alexandria', hull: 'SSN-757', class: 'Los Angeles', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Santa Fe', hull: 'SSN-763', class: 'Los Angeles', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Hampton', hull: 'SSN-767', class: 'Los Angeles', type: 'SSN', location: 'Maine', status: 'Active' },
+            { name: 'USS Greeneville', hull: 'SSN-772', class: 'Los Angeles', type: 'SSN', location: 'Philippine Sea', status: 'Deployed' },
+            { name: 'USS Columbus', hull: 'SSN-762', class: 'Los Angeles', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Charlotte', hull: 'SSN-766', class: 'Los Angeles', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Tucson', hull: 'SSN-770', class: 'Los Angeles', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Columbia', hull: 'SSN-771', class: 'Los Angeles', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Hawaii', hull: 'SSN-776', class: 'Virginia', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS North Carolina', hull: 'SSN-777', class: 'Virginia', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Missouri', hull: 'SSN-780', class: 'Virginia', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Mississippi', hull: 'SSN-782', class: 'Virginia', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Illinois', hull: 'SSN-786', class: 'Virginia', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Colorado', hull: 'SSN-788', class: 'Virginia', type: 'SSN', location: 'Pearl Harbor, HI', status: 'Active' },
+            { name: 'USS Vermont', hull: 'SSN-792', class: 'Virginia', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Montana', hull: 'SSN-794', class: 'Virginia', type: 'SSN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Connecticut', hull: 'SSN-22', class: 'Seawolf', type: 'SSN', location: 'Bremerton', status: 'Maintenance' },
+            { name: 'USS Seawolf', hull: 'SSN-21', class: 'Seawolf', type: 'SSN', location: 'Philippine Sea', status: 'Deployed' },
+            { name: 'USS Jimmy Carter', hull: 'SSN-23', class: 'Seawolf', type: 'SSN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Asheville', hull: 'SSN-758', class: 'Los Angeles', type: 'SSN', location: 'Guam', status: 'Active' },
+            { name: 'USS Jefferson City', hull: 'SSN-759', class: 'Los Angeles', type: 'SSN', location: 'Guam', status: 'Active' },
+            { name: 'USS Annapolis', hull: 'SSN-760', class: 'Los Angeles', type: 'SSN', location: 'Guam', status: 'Active' },
+            { name: 'USS Springfield', hull: 'SSN-761', class: 'Los Angeles', type: 'SSN', location: 'Guam', status: 'Active' },
+            { name: 'USS Minnesota', hull: 'SSN-783', class: 'Virginia', type: 'SSN', location: 'Guam', status: 'Active' },
+            { name: 'USS Florida', hull: 'SSGN-728', class: 'Ohio', type: 'SSGN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Georgia', hull: 'SSGN-729', class: 'Ohio', type: 'SSGN', location: 'Med Sea', status: 'Deployed' },
+            { name: 'USS Ohio', hull: 'SSGN-726', class: 'Ohio', type: 'SSGN', location: 'Guam', status: 'Active' },
+            { name: 'USS Michigan', hull: 'SSGN-727', class: 'Ohio', type: 'SSGN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Alaska', hull: 'SSBN-732', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Tennessee', hull: 'SSBN-734', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS West Virginia', hull: 'SSBN-736', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Maryland', hull: 'SSBN-738', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Rhode Island', hull: 'SSBN-740', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Wyoming', hull: 'SSBN-742', class: 'Ohio', type: 'SSBN', location: 'Kings Bay, GA', status: 'Active' },
+            { name: 'USS Henry M. Jackson', hull: 'SSBN-730', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Alabama', hull: 'SSBN-731', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Nevada', hull: 'SSBN-733', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Pennsylvania', hull: 'SSBN-735', class: 'Ohio', type: 'SSBN', location: 'North Pacific Ocean', status: 'Deployed' },
+            { name: 'USS Kentucky', hull: 'SSBN-737', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Nebraska', hull: 'SSBN-739', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Maine', hull: 'SSBN-741', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' },
+            { name: 'USS Louisiana', hull: 'SSBN-743', class: 'Ohio', type: 'SSBN', location: 'Bremerton', status: 'Active' }
+        ];
+
+        let subsData = [];
+        let activeFilter = 'all';
+        let selectedSub = null;
+
+        // Parse CSV line
+        function parseCSVLine(line) {
+            const result = [];
+            let current = '';
+            let inQuotes = false;
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    result.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            result.push(current.trim());
+            return result;
+        }
+
+        // Fetch Google Sheet data
+        async function fetchSheetData() {
+            try {
+                const response = await fetch(GOOGLE_SHEET_CSV_URL);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const csvText = await response.text();
+                const lines = csvText.trim().split('\n');
+                const headers = parseCSVLine(lines[0]).map(h => h.toLowerCase().trim());
+
+                const subs = [];
+                for (let i = 1; i < lines.length; i++) {
+                    const values = parseCSVLine(lines[i]);
+                    const sub = {};
+                    headers.forEach((h, idx) => {
+                        sub[h] = values[idx] || '';
+                    });
+
+                    // Normalize and add coordinates
+                    const location = sub.location || sub['last location'] || 'Unknown';
+                    const coords = LOCATION_COORDS[location] || { lat: 0, lon: 0, region: 'CONUS_ATLANTIC' };
+
+                    subs.push({
+                        name: sub.name || sub['sub name'] || '',
+                        hull: sub.hull || '',
+                        class: sub.class || '',
+                        type: sub.type || 'SSN',
+                        location: location,
+                        lat: coords.lat,
+                        lon: coords.lon,
+                        region: coords.region,
+                        status: sub.status || 'Active'
+                    });
+                }
+                return subs.filter(s => s.name);
+            } catch (error) {
+                console.error('Error fetching sheet, using hardcoded data:', error);
+                return HARDCODED_SUBS.map(sub => {
+                    const coords = LOCATION_COORDS[sub.location] || { lat: 0, lon: 0, region: 'CONUS_ATLANTIC' };
+                    return { ...sub, lat: coords.lat, lon: coords.lon, region: coords.region };
+                });
+            }
+        }
+
+        function getStatusClass(status) {
+            const s = (status || '').toLowerCase();
+            if (s.includes('deploy') || s.includes('sea') || s.includes('ocean')) return 'deployed';
+            if (s.includes('maint') || s.includes('repair') || s.includes('inactive')) return 'maintenance';
+            return 'active-status';
+        }
+
+        function initGlobe() {
+            // Group by location
+            const locationGroups = {};
+            subsData.forEach(sub => {
+                if (!locationGroups[sub.location]) locationGroups[sub.location] = [];
+                locationGroups[sub.location].push(sub);
+            });
+
+            const singleSubs = [];
+            const clusterMarkers = [];
+
+            Object.entries(locationGroups).forEach(([location, subs]) => {
+                if (subs.length === 1) {
+                    singleSubs.push(subs[0]);
+                } else {
+                    clusterMarkers.push({
+                        location,
+                        lat: subs[0].lat,
+                        lon: subs[0].lon,
+                        count: subs.length,
+                        subs: subs
+                    });
+                }
+            });
+
+            const traces = [];
+
+            // Deployed subs (single)
+            const deployedSingle = singleSubs.filter(s => getStatusClass(s.status) === 'deployed');
+            if (deployedSingle.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: deployedSingle.map(s => s.lat), lon: deployedSingle.map(s => s.lon),
+                    text: deployedSingle.map(s => s.name.replace('USS ', '')), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#00ff88', weight: 600 },
+                    hoverinfo: 'text', hovertext: deployedSingle.map(s => `<b>${s.name}</b><br>${s.hull}<br>${s.location}`),
+                    marker: { size: 10, color: '#00ff88', symbol: 'circle', line: { width: 2, color: '#00cc6a' } },
+                    name: 'Deployed', customdata: deployedSingle
+                });
+            }
+
+            // Active subs (single)
+            const activeSingle = singleSubs.filter(s => getStatusClass(s.status) === 'active-status');
+            if (activeSingle.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: activeSingle.map(s => s.lat), lon: activeSingle.map(s => s.lon),
+                    text: activeSingle.map(s => s.name.replace('USS ', '')), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 },
+                    hoverinfo: 'text', hovertext: activeSingle.map(s => `<b>${s.name}</b><br>${s.hull}<br>${s.location}`),
+                    marker: { size: 10, color: '#4ecdc4', symbol: 'circle', line: { width: 2, color: '#2a9d8f' } },
+                    name: 'Active', customdata: activeSingle
+                });
+            }
+
+            // Maintenance subs (single)
+            const maintSingle = singleSubs.filter(s => getStatusClass(s.status) === 'maintenance');
+            if (maintSingle.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: maintSingle.map(s => s.lat), lon: maintSingle.map(s => s.lon),
+                    text: maintSingle.map(s => s.name.replace('USS ', '')), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#ff6b6b', weight: 600 },
+                    hoverinfo: 'text', hovertext: maintSingle.map(s => `<b>${s.name}</b><br>${s.hull}<br>${s.location}`),
+                    marker: { size: 10, color: '#ff6b6b', symbol: 'circle', line: { width: 2, color: '#cc4444' } },
+                    name: 'Maintenance', customdata: maintSingle
+                });
+            }
+
+            // Cluster markers
+            if (clusterMarkers.length > 0) {
+                traces.push({
+                    type: 'scattergeo', mode: 'markers+text',
+                    lat: clusterMarkers.map(c => c.lat), lon: clusterMarkers.map(c => c.lon),
+                    text: clusterMarkers.map(c => c.count + ' subs'), textposition: 'top center',
+                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#6c5ce7', weight: 600 },
+                    hoverinfo: 'text', hovertext: clusterMarkers.map(c => `<b>${c.location}</b><br>${c.count} submarines`),
+                    marker: { size: 16, color: '#6c5ce7', symbol: 'circle', line: { width: 2, color: '#4a3fc7' }, opacity: 0.9 },
+                    name: 'Multiple Subs', customdata: clusterMarkers.map(c => ({ isCluster: true, ...c }))
+                });
+            }
+
+            const layout = {
+                geo: {
+                    projection: { type: 'orthographic', rotation: { lon: -100, lat: 30 } },
+                    showland: true, landcolor: '#1a1a2e', showocean: true, oceancolor: '#0a0a0f',
+                    showlakes: false, showrivers: false, showcountries: true, countrycolor: '#2a2a4e', countrywidth: 0.5,
+                    showcoastlines: true, coastlinecolor: '#4ecdc4', coastlinewidth: 0.8, showframe: false, bgcolor: 'rgba(0,0,0,0)',
+                    lonaxis: { showgrid: true, gridcolor: 'rgba(78, 205, 196, 0.08)', gridwidth: 0.5 },
+                    lataxis: { showgrid: true, gridcolor: 'rgba(78, 205, 196, 0.08)', gridwidth: 0.5 }
+                },
+                paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', margin: { t: 0, b: 0, l: 0, r: 0 },
+                showlegend: true, legend: { x: 0.02, y: 0.98, bgcolor: 'rgba(10, 10, 15, 0.9)', bordercolor: '#1e1e2e', borderwidth: 1, font: { family: 'Inter, sans-serif', size: 11, color: '#888' } },
+                dragmode: 'pan'
+            };
+
+            const config = { responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['toImage', 'sendDataToCloud'], displaylogo: false, scrollZoom: true };
+            Plotly.newPlot('globe', traces, layout, config);
+
+            document.getElementById('globe').on('plotly_click', function(data) {
+                if (data.points && data.points.length > 0) {
+                    const pointData = data.points[0].customdata;
+                    if (pointData && pointData.isCluster) {
+                        showLocationCallout(pointData, data.event);
+                    } else if (pointData) {
+                        showDetail(pointData);
+                        highlightShipCard(pointData.name);
+                    }
+                }
+            });
+        }
+
+        function showLocationCallout(clusterData, event) {
+            const container = document.getElementById('locationCallouts');
+            let html = `<div class="location-callout" style="left: 40px; top: 50%; transform: translateY(-50%);">
+                <div class="location-callout-header">${clusterData.location} (${clusterData.count} subs)</div>`;
+
+            clusterData.subs.forEach(sub => {
+                const statusClass = getStatusClass(sub.status);
+                html += `<div class="location-callout-ship" onclick="selectSubFromCallout('${sub.name}')">
+                    <div class="location-callout-icon ${statusClass}"></div>
+                    <span class="location-callout-name">${sub.name}</span>
+                    <span class="location-callout-class">${sub.type}</span>
+                </div>`;
+            });
+
+            html += '</div>';
+            container.innerHTML = html;
+
+            setTimeout(() => {
+                document.addEventListener('click', closeLocationCallout, { once: true });
+            }, 100);
+        }
+
+        function closeLocationCallout() {
+            document.getElementById('locationCallouts').innerHTML = '';
+        }
+
+        function selectSubFromCallout(name) {
+            closeLocationCallout();
+            selectSub(name);
+        }
+
+        function renderShipList() {
+            const container = document.getElementById('shipList');
+            let filtered = subsData;
+
+            if (activeFilter === 'SSN') filtered = subsData.filter(s => s.type === 'SSN');
+            else if (activeFilter === 'SSGN') filtered = subsData.filter(s => s.type === 'SSGN');
+            else if (activeFilter === 'SSBN') filtered = subsData.filter(s => s.type === 'SSBN');
+            else if (activeFilter === 'deployed') filtered = subsData.filter(s => getStatusClass(s.status) === 'deployed');
+            else if (activeFilter === 'maintenance') filtered = subsData.filter(s => getStatusClass(s.status) === 'maintenance');
+
+            const grouped = {};
+            filtered.forEach(sub => { if (!grouped[sub.location]) grouped[sub.location] = []; grouped[sub.location].push(sub); });
+            const sortedLocations = Object.keys(grouped).sort((a, b) => grouped[b].length - grouped[a].length);
+
+            let html = '';
+            sortedLocations.forEach(location => {
+                const subs = grouped[location];
+                const count = subs.length;
+                html += `<div class="location-group"><div class="location-header" onclick="rotateToLocation('${location}')"><span class="location-name">${location}</span><span class="location-count">${count}</span></div>`;
+                subs.forEach(sub => {
+                    const statusClass = getStatusClass(sub.status);
+                    html += `<div class="ship-card ${statusClass}" data-name="${sub.name}" onclick="selectSub('${sub.name}')">
+                        <div class="ship-header"><span class="ship-name ${statusClass}">${sub.name}</span><span class="ship-class">${sub.type}</span></div>
+                        <div class="ship-hull">${sub.hull} - ${sub.class}-class</div>
+                        <div class="ship-status">Status: ${sub.status}</div>
+                    </div>`;
+                });
+                html += '</div>';
+            });
+            container.innerHTML = html;
+        }
+
+        function rotateToLocation(location) {
+            const sub = subsData.find(s => s.location === location);
+            if (sub) Plotly.relayout('globe', { 'geo.projection.rotation.lon': sub.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, sub.lat)) });
+        }
+
+        function selectSub(name) {
+            const sub = subsData.find(s => s.name === name);
+            if (sub) {
+                showDetail(sub);
+                highlightShipCard(name);
+                Plotly.relayout('globe', { 'geo.projection.rotation.lon': sub.lon, 'geo.projection.rotation.lat': Math.max(-60, Math.min(60, sub.lat)) });
+            }
+        }
+
+        function highlightShipCard(name) {
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            const card = document.querySelector(`.ship-card[data-name="${name}"]`);
+            if (card) { card.classList.add('active'); card.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+        }
+
+        function showDetail(sub) {
+            selectedSub = sub;
+            document.getElementById('detailPanel').classList.remove('hidden');
+            document.getElementById('detailTitle').textContent = sub.name;
+            document.getElementById('detailHull').textContent = sub.hull;
+            document.getElementById('detailClass').textContent = `${sub.class}-class`;
+            document.getElementById('detailType').textContent = sub.type;
+            document.getElementById('detailLocation').textContent = sub.location;
+            document.getElementById('detailStatus').textContent = sub.status;
+        }
+
+        function closeDetail() {
+            document.getElementById('detailPanel').classList.add('hidden');
+            document.querySelectorAll('.ship-card').forEach(card => card.classList.remove('active'));
+            selectedSub = null;
+        }
+
+        function toggleCocomMenu() {
+            document.getElementById('cocomDropdown').classList.toggle('open');
+        }
+
+        function selectCocom(cocom) {
+            document.getElementById('cocomDropdown').classList.remove('open');
+            const data = cocomData[cocom];
+            Plotly.relayout('globe', { 'geo.projection.rotation.lon': data.lon, 'geo.projection.rotation.lat': data.lat });
+            const cocomSubs = subsData.filter(s => data.regions.includes(s.region));
+            document.getElementById('cocomPanelTitle').textContent = data.name + ' (' + cocomSubs.length + ' subs)';
+
+            let html = '';
+            if (cocomSubs.length === 0) {
+                html = '<div style="color:#666;font-size:12px;padding:10px;">No submarines currently in this theater</div>';
+            } else {
+                cocomSubs.forEach(sub => {
+                    const statusClass = getStatusClass(sub.status);
+                    html += `<div class="cocom-ship" onclick="selectSub('${sub.name}')">
+                        <div class="cocom-ship-icon ${statusClass}"></div>
+                        <span class="cocom-ship-name">${sub.name}</span>
+                        <span class="cocom-ship-class">${sub.type}</span>
+                        <span class="cocom-ship-loc">${sub.location}</span>
+                    </div>`;
+                });
+            }
+
+            document.getElementById('cocomPanelBody').innerHTML = html;
+            document.getElementById('cocomPanel').classList.add('visible');
+        }
+
+        function closeCocomPanel() {
+            document.getElementById('cocomPanel').classList.remove('visible');
+        }
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.cocom-dropdown')) {
+                document.getElementById('cocomDropdown').classList.remove('open');
+            }
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                activeFilter = this.dataset.filter;
+                renderShipList();
+            });
+        });
+
+        function showSubModal() {
+            const subs = [...subsData].sort((a, b) => a.name.localeCompare(b.name));
+            const grid = document.getElementById('subGrid');
+            grid.innerHTML = subs.map(s => {
+                const statusClass = getStatusClass(s.status);
+                return `<div class="sub-item ${statusClass}" onclick="selectSubFromModal('${s.name}')">
+                    <div class="sub-item-name">${s.name}</div>
+                    <div class="sub-item-hull">${s.hull} - ${s.class}</div>
+                    <div class="sub-item-location">${s.location}</div>
+                </div>`;
+            }).join('');
+            document.getElementById('subModal').classList.add('visible');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSubModal(event) {
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('subModal').classList.remove('visible');
+            document.body.style.overflow = '';
+        }
+
+        function selectSubFromModal(name) {
+            closeSubModal();
+            selectSub(name);
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeSubModal();
+                closeCocomPanel();
+            }
+        });
+
+        async function init() {
+            try {
+                subsData = await fetchSheetData();
+
+                // Update counts
+                const deployedCount = subsData.filter(s => getStatusClass(s.status) === 'deployed').length;
+                const activeCount = subsData.filter(s => getStatusClass(s.status) === 'active-status').length;
+                const maintenanceCount = subsData.filter(s => getStatusClass(s.status) === 'maintenance').length;
+
+                document.getElementById('totalCount').textContent = subsData.length;
+                document.getElementById('deployedCount').textContent = deployedCount;
+                document.getElementById('activeCount').textContent = activeCount;
+                document.getElementById('maintenanceCount').textContent = maintenanceCount;
+
+                document.getElementById('loadingOverlay').classList.add('hidden');
+
+                initGlobe();
+                renderShipList();
+
+                console.log(`Loaded ${subsData.length} submarines`);
+            } catch (error) {
+                document.getElementById('loadingOverlay').innerHTML = `
+                    <div style="color: #ff6b6b; text-align: center; padding: 20px;">
+                        <h2 style="margin-bottom: 10px;">Failed to load data</h2>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>
