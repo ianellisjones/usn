@@ -735,34 +735,29 @@
             }
         });
 
-        async function init() {
-            try {
-                subsData = await fetchSheetData();
+        function init() {
+            // Use hardcoded data directly
+            subsData = HARDCODED_SUBS.map(sub => {
+                const coords = LOCATION_COORDS[sub.location] || { lat: 0, lon: 0, region: 'CONUS_ATLANTIC' };
+                return { ...sub, lat: coords.lat, lon: coords.lon, region: coords.region };
+            });
 
-                // Update counts
-                const deployedCount = subsData.filter(s => getStatusClass(s.status) === 'deployed').length;
-                const activeCount = subsData.filter(s => getStatusClass(s.status) === 'active-status').length;
-                const maintenanceCount = subsData.filter(s => getStatusClass(s.status) === 'maintenance').length;
+            // Update counts
+            const deployedCount = subsData.filter(s => getStatusClass(s.status) === 'deployed').length;
+            const activeCount = subsData.filter(s => getStatusClass(s.status) === 'active-status').length;
+            const maintenanceCount = subsData.filter(s => getStatusClass(s.status) === 'maintenance').length;
 
-                document.getElementById('totalCount').textContent = subsData.length;
-                document.getElementById('deployedCount').textContent = deployedCount;
-                document.getElementById('activeCount').textContent = activeCount;
-                document.getElementById('maintenanceCount').textContent = maintenanceCount;
+            document.getElementById('totalCount').textContent = subsData.length;
+            document.getElementById('deployedCount').textContent = deployedCount;
+            document.getElementById('activeCount').textContent = activeCount;
+            document.getElementById('maintenanceCount').textContent = maintenanceCount;
 
-                document.getElementById('loadingOverlay').classList.add('hidden');
+            document.getElementById('loadingOverlay').classList.add('hidden');
 
-                initGlobe();
-                renderShipList();
+            initGlobe();
+            renderShipList();
 
-                console.log(`Loaded ${subsData.length} submarines`);
-            } catch (error) {
-                document.getElementById('loadingOverlay').innerHTML = `
-                    <div style="color: #ff6b6b; text-align: center; padding: 20px;">
-                        <h2 style="margin-bottom: 10px;">Failed to load data</h2>
-                        <p>${error.message}</p>
-                    </div>
-                `;
-            }
+            console.log('Loaded ' + subsData.length + ' submarines');
         }
 
         init();
