@@ -148,7 +148,7 @@
             <div class="header-left">
                 <div>
                     <div class="logo">U.S. NAVY SUBMARINE TRACKER</div>
-                    <div class="logo-sub">Silent Service Fleet Operations</div>
+                    <div class="logo-sub">Status of U.S. Navy Submarine Fleet</div>
                 </div>
             </div>
             <div class="status-bar">
@@ -513,12 +513,10 @@
             // Cluster markers
             if (clusterMarkers.length > 0) {
                 traces.push({
-                    type: 'scattergeo', mode: 'markers+text',
+                    type: 'scattergeo', mode: 'markers',
                     lat: clusterMarkers.map(c => c.lat), lon: clusterMarkers.map(c => c.lon),
-                    text: clusterMarkers.map(c => c.count + ' subs'), textposition: 'top center',
-                    textfont: { family: 'Inter, sans-serif', size: 9, color: '#6c5ce7', weight: 600 },
                     hoverinfo: 'text', hovertext: clusterMarkers.map(c => `<b>${c.location}</b><br>${c.count} submarines`),
-                    marker: { size: 16, color: '#6c5ce7', symbol: 'circle', line: { width: 2, color: '#4a3fc7' }, opacity: 0.9 },
+                    marker: { size: 16, color: '#ff9500', symbol: 'circle', line: { width: 2, color: '#cc7700' }, opacity: 0.9 },
                     name: 'Multiple Subs', customdata: clusterMarkers.map(c => ({ isCluster: true, ...c }))
                 });
             }
@@ -555,7 +553,28 @@
 
         function showLocationCallout(clusterData, event) {
             const container = document.getElementById('locationCallouts');
-            let html = `<div class="location-callout" style="left: 40px; top: 50%; transform: translateY(-50%);">
+
+            // Get mouse position
+            const mouseX = event.clientX || event.pageX || 100;
+            const mouseY = event.clientY || event.pageY || 100;
+
+            // Calculate position - try to show near cursor with offset
+            const calloutWidth = 260;
+            const calloutHeight = Math.min(300, 50 + clusterData.count * 28);
+            const padding = 15;
+
+            // Determine horizontal position - show to right of cursor, or left if near right edge
+            let left = mouseX + padding;
+            if (left + calloutWidth > window.innerWidth - 400) { // 400 for side panel
+                left = mouseX - calloutWidth - padding;
+            }
+            left = Math.max(20, left);
+
+            // Determine vertical position - center on cursor, adjust if near edges
+            let top = mouseY - calloutHeight / 2;
+            top = Math.max(80, Math.min(window.innerHeight - calloutHeight - 20, top));
+
+            let html = `<div class="location-callout" style="left: ${left}px; top: ${top}px;">
                 <div class="location-callout-header">${clusterData.location} (${clusterData.count} subs)</div>`;
 
             clusterData.subs.forEach(sub => {
