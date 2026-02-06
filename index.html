@@ -143,22 +143,17 @@
                     <div class="stat-label">Amphibs</div>
                 </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 16px;">
-                <div class="btn-group">
-                    <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
-                    <div class="cocom-dropdown" id="cocomDropdown">
-                        <button class="cocom-btn" onclick="toggleCocomMenu()">By Theater</button>
-                        <div class="cocom-menu">
-                            <div class="cocom-item" onclick="selectCocom('INDOPACOM')">INDOPACOM</div>
-                            <div class="cocom-item" onclick="selectCocom('CENTCOM')">CENTCOM</div>
-                            <div class="cocom-item" onclick="selectCocom('EUCOM')">EUCOM</div>
-                            <div class="cocom-item" onclick="selectCocom('SOUTHCOM')">SOUTHCOM</div>
-                            <div class="cocom-item" onclick="selectCocom('CONUS')">CONUS</div>
-                        </div>
+            <div class="btn-group">
+                <button class="carrier-btn" onclick="showCarrierModal()">Where are the carriers?</button>
+                <div class="cocom-dropdown" id="cocomDropdown">
+                    <button class="cocom-btn" onclick="toggleCocomMenu()">By Theater</button>
+                    <div class="cocom-menu">
+                        <div class="cocom-item" onclick="selectCocom('INDOPACOM')">INDOPACOM</div>
+                        <div class="cocom-item" onclick="selectCocom('CENTCOM')">CENTCOM</div>
+                        <div class="cocom-item" onclick="selectCocom('EUCOM')">EUCOM</div>
+                        <div class="cocom-item" onclick="selectCocom('SOUTHCOM')">SOUTHCOM</div>
+                        <div class="cocom-item" onclick="selectCocom('CONUS')">CONUS</div>
                     </div>
-                </div>
-                <div class="timestamp">
-                    Last Update: <span>2026-02-05 06:57 UTC</span>
                 </div>
             </div>
         </header>
@@ -209,6 +204,9 @@
             </div>
             <div class="attribution">
                 Created by @ianellisjones and IEJ Media
+                <div class="timestamp" style="margin-top: 6px;">
+                    Last Update: <span>2026-02-05 06:57 UTC</span>
+                </div>
             </div>
         </div>
     </div>
@@ -281,7 +279,7 @@
                     text: cvnSingle.map(s => s.hull), textposition: 'top center',
                     textfont: { family: 'Inter, sans-serif', size: 10, color: '#ff6b6b', weight: 600 },
                     hoverinfo: 'text', hovertext: cvnSingle.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
-                    marker: { size: 12, color: '#ff6b6b', symbol: 'diamond', line: { width: 2, color: '#cc4444' } },
+                    marker: { size: 11, color: '#ff6b6b', symbol: 'diamond', line: { width: 2, color: '#cc4444' } },
                     name: 'Carriers (CVN)', customdata: cvnSingle
                 });
             }
@@ -294,21 +292,21 @@
                     text: amphibSingle.map(s => s.hull), textposition: 'top center',
                     textfont: { family: 'Inter, sans-serif', size: 9, color: '#4ecdc4', weight: 600 },
                     hoverinfo: 'text', hovertext: amphibSingle.map(s => `<b>${s.hull}</b><br>${s.name}<br>${s.location}`),
-                    marker: { size: 10, color: '#4ecdc4', symbol: 'circle', line: { width: 2, color: '#2a9d8f' } },
+                    marker: { size: 11, color: '#4ecdc4', symbol: 'circle', line: { width: 2, color: '#2a9d8f' } },
                     name: 'Amphibious Assault Ships (LHA/LHD)', customdata: amphibSingle
                 });
             }
 
-            // Cluster markers (ports with multiple ships)
+            // Cluster markers (ports with multiple ships) - hidden from legend
             if (clusterMarkers.length > 0) {
                 traces.push({
                     type: 'scattergeo', mode: 'markers+text',
                     lat: clusterMarkers.map(c => c.lat), lon: clusterMarkers.map(c => c.lon),
-                    text: clusterMarkers.map(c => c.count + ' ships'), textposition: 'top center',
+                    text: clusterMarkers.map(c => c.location + ' (' + c.count + ')'), textposition: 'top center',
                     textfont: { family: 'Inter, sans-serif', size: 9, color: '#00ff88', weight: 600 },
                     hoverinfo: 'text', hovertext: clusterMarkers.map(c => `<b>${c.location}</b><br>${c.count} ships`),
-                    marker: { size: 16, color: '#00ff88', symbol: 'circle', line: { width: 2, color: '#00cc6a' }, opacity: 0.9 },
-                    name: 'Port (multiple ships)', customdata: clusterMarkers.map(c => ({ isCluster: true, ...c }))
+                    marker: { size: 11, color: '#00ff88', symbol: 'circle', line: { width: 2, color: '#00cc6a' }, opacity: 0.9 },
+                    showlegend: false, customdata: clusterMarkers.map(c => ({ isCluster: true, ...c }))
                 });
             }
 
@@ -333,7 +331,7 @@
                 if (data.points && data.points.length > 0) {
                     const pointData = data.points[0].customdata;
                     if (pointData && pointData.isCluster) {
-                        showLocationCallout(pointData, data.points[0]);
+                        showLocationCallout(pointData, data.event);
                     } else if (pointData) {
                         showDetail(pointData);
                         highlightShipCard(pointData.hull);
@@ -342,13 +340,31 @@
             });
         }
 
-        function showLocationCallout(clusterData, point) {
+        function showLocationCallout(clusterData, event) {
             const container = document.getElementById('locationCallouts');
-            const globeRect = document.getElementById('globe').getBoundingClientRect();
 
-            // Calculate position (offset from click)
-            let html = `<div class="location-callout" style="left: 40px; top: 50%;">
-                <div class="location-callout-header">${clusterData.location}</div>`;
+            // Get mouse position
+            const mouseX = event.clientX || event.pageX || 100;
+            const mouseY = event.clientY || event.pageY || 100;
+
+            // Calculate position - show near cursor
+            const calloutWidth = 260;
+            const calloutHeight = Math.min(280, 50 + clusterData.ships.length * 36);
+            const padding = 15;
+
+            // Position to right of cursor, or left if near right edge
+            let left = mouseX + padding;
+            if (left + calloutWidth > window.innerWidth - 380) {
+                left = mouseX - calloutWidth - padding;
+            }
+            left = Math.max(20, left);
+
+            // Center vertically on cursor, adjust if near edges
+            let top = mouseY - calloutHeight / 2;
+            top = Math.max(80, Math.min(window.innerHeight - calloutHeight - 20, top));
+
+            let html = `<div class="location-callout" style="left: ${left}px; top: ${top}px;">
+                <div class="location-callout-header">${clusterData.location} (${clusterData.ships.length} ships)</div>`;
 
             clusterData.ships.forEach(ship => {
                 const typeClass = ship.ship_type === 'CVN' ? 'cvn' : 'amphib';
