@@ -1,0 +1,82 @@
+name: Update Destroyer Tracker
+
+on:
+  # Run daily at 7:00 AM UTC (1 hour after fleet tracker)
+  schedule:
+    - cron: '0 7 * * *'
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+  # Also run on push to main (for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'destroyer_scraper.py'
+      - '.github/workflows/update-destroyer-tracker.yml'
+
+# Sets permissions for GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run destroyer scraper
+        run: python destroyer_scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add destroyers.html
+          git diff --staged --quiet || git commit -m "Auto-update destroyer tracker $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  # Deploy to GitHub Pages
+  deploy:
+    needs: update-tracker
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main  # Ensure we get the latest commit
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
