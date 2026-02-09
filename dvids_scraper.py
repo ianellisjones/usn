@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.1.0
+Version: 2.2.0
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
 Features toggle between Daily (24h) and Weekly (7-day) views.
+Highlights deployment-related content with special tags.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -46,7 +47,7 @@ MAX_RESULTS_PER_QUERY = 100
 LOOKBACK_DAYS = 7
 
 # User agent for requests
-USER_AGENT = 'DVIDS-News-Aggregator/2.1 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'DVIDS-News-Aggregator/2.2 (Python; +https://github.com/ianellisjones/usn)'
 
 # ==============================================================================
 # COMBATANT COMMAND KEYWORDS
@@ -58,6 +59,12 @@ COMMAND_KEYWORDS = {
     "SOUTHCOM": ["SOUTHCOM", "U.S. Southern Command", "Southern Command"],
     "EUCOM": ["EUCOM", "U.S. European Command", "European Command"],
 }
+
+# ==============================================================================
+# DEPLOYMENT KEYWORDS
+# ==============================================================================
+
+DEPLOYMENT_KEYWORDS = ["deploy", "deploys", "deployed", "deployment"]
 
 # ==============================================================================
 # DATA CLASSES
@@ -86,6 +93,7 @@ class DVIDSItem:
     aspect_ratio: str = ""
     commands: List[str] = field(default_factory=list)  # Combatant commands detected
     hours_old: float = 0.0  # Hours since publication (for daily/weekly filtering)
+    is_deployment: bool = False  # Whether this item is deployment-related
 
 
 @dataclass
@@ -98,6 +106,7 @@ class DailyDigest:
     by_type: Dict[str, int]
     by_branch: Dict[str, int]
     by_command: Dict[str, int] = field(default_factory=dict)  # Items by combatant command
+    deployment_count: int = 0  # Number of deployment-related items
 
 
 # ==============================================================================
@@ -312,6 +321,19 @@ def detect_commands(text: str) -> List[str]:
     return detected
 
 
+def detect_deployment(text: str) -> bool:
+    """Detect deployment-related keywords in text."""
+    if not text:
+        return False
+
+    text_lower = text.lower()
+    for keyword in DEPLOYMENT_KEYWORDS:
+        if keyword.lower() in text_lower:
+            return True
+
+    return False
+
+
 def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
     """Parse a raw DVIDS API result into a DVIDSItem."""
     try:
@@ -388,6 +410,9 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
         search_text = f"{title} {description} {unit_name}"
         commands = detect_commands(search_text)
 
+        # Detect deployment-related content
+        is_deployment = detect_deployment(search_text)
+
         return DVIDSItem(
             id=item_id,
             title=title,
@@ -409,6 +434,7 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
             aspect_ratio=aspect_ratio,
             commands=commands,
             hours_old=hours_old,
+            is_deployment=is_deployment,
         )
 
     except Exception as e:
@@ -494,6 +520,7 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
     by_type = defaultdict(int)
     by_branch = defaultdict(int)
     by_command = defaultdict(int)
+    deployment_count = 0
 
     for item in items:
         by_country[item.country] += 1
@@ -501,6 +528,8 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
         by_branch[item.branch] += 1
         for cmd in item.commands:
             by_command[cmd] += 1
+        if item.is_deployment:
+            deployment_count += 1
 
     return DailyDigest(
         date=date_str,
@@ -510,6 +539,7 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
         by_type=dict(by_type),
         by_branch=dict(by_branch),
         by_command=dict(by_command),
+        deployment_count=deployment_count,
     )
 
 
@@ -525,6 +555,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
     by_type_json = json.dumps(digest.by_type)
     by_branch_json = json.dumps(digest.by_branch)
     by_command_json = json.dumps(digest.by_command)
+    deployment_count = digest.deployment_count
 
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -630,6 +661,8 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .item-type.news {{ background: rgba(255, 107, 107, 0.15); color: #ff6b6b; }}
         .item-type.image {{ background: rgba(78, 205, 196, 0.15); color: #4ecdc4; }}
         .item-type.video {{ background: rgba(255, 217, 61, 0.15); color: #ffd93d; }}
+        .deployment-tag {{ font-size: 8px; font-weight: 700; padding: 3px 6px; border-radius: 4px; background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: #000; text-transform: uppercase; letter-spacing: 0.5px; margin-left: 6px; animation: pulse 2s infinite; }}
+        @keyframes pulse {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.7; }} }}
         .item-branch {{ font-size: 10px; color: #666; font-weight: 500; }}
         .item-title {{ font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
         .item-description {{ font-size: 12px; color: #888; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 10px; }}
@@ -755,6 +788,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             </div>
 
             <div class="filter-section">
+                <div class="filter-label">Deployments</div>
+                <div class="filter-group" id="deploymentFilters"></div>
+            </div>
+
+            <div class="filter-section">
                 <div class="filter-label">Combatant Command</div>
                 <div class="filter-group" id="commandFilters"></div>
             </div>
@@ -803,6 +841,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         const byType = {by_type_json};
         const byBranch = {by_branch_json};
         const byCommand = {by_command_json};
+        const deploymentCount = {deployment_count};
 
         // Region mapping
         const regionMap = {json.dumps(REGION_MAP)};
@@ -820,6 +859,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             branch: 'all',
             country: 'all',
             command: 'all',
+            deployment: 'all',
             search: ''
         }};
 
@@ -835,6 +875,13 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             Object.entries(byType).sort((a, b) => b[1] - a[1]).forEach(([type, count]) => {{
                 typeContainer.innerHTML += `<button class="filter-btn" data-type="${{type}}" onclick="setTypeFilter('${{type}}')">${{type.charAt(0).toUpperCase() + type.slice(1)}} <span class="filter-count">${{count}}</span></button>`;
             }});
+
+            // Deployment filters
+            const deployContainer = document.getElementById('deploymentFilters');
+            deployContainer.innerHTML = '<button class="filter-btn active" data-deployment="all" onclick="setDeploymentFilter(\\'all\\')">All Content <span class="filter-count">{digest.total_count}</span></button>';
+            if (deploymentCount > 0) {{
+                deployContainer.innerHTML += `<button class="filter-btn" data-deployment="only" onclick="setDeploymentFilter('only')" style="background: rgba(255, 107, 53, 0.1); border-color: #ff6b35; color: #ff6b35;">DEPLOYMENTS ONLY <span class="filter-count">${{deploymentCount}}</span></button>`;
+            }}
 
             // Command filters
             const commandContainer = document.getElementById('commandFilters');
@@ -883,6 +930,12 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         function setCountryFilter(country) {{
             currentFilters.country = country;
             document.querySelectorAll('#countryFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.country === country));
+            renderItems();
+        }}
+
+        function setDeploymentFilter(deployment) {{
+            currentFilters.deployment = deployment;
+            document.querySelectorAll('#deploymentFilters .filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.deployment === deployment));
             renderItems();
         }}
 
@@ -936,6 +989,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                 if (currentFilters.branch !== 'all' && item.branch !== currentFilters.branch) return false;
                 if (currentFilters.country !== 'all' && item.country !== currentFilters.country) return false;
                 if (currentFilters.command !== 'all' && (!item.commands || !item.commands.includes(currentFilters.command))) return false;
+                if (currentFilters.deployment === 'only' && !item.is_deployment) return false;
                 if (currentFilters.search && !item.title.toLowerCase().includes(currentFilters.search) && !item.unit_name.toLowerCase().includes(currentFilters.search)) return false;
                 return true;
             }});
@@ -958,6 +1012,42 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             }}
 
             let html = '';
+
+            // SECTION 0: Deployments (highlighted at top)
+            const deploymentItems = filtered.filter(item => item.is_deployment);
+            if (deploymentItems.length > 0) {{
+                html += '<div class="section-group"><div class="section-title" style="color: #ff6b35; border-bottom-color: #ff6b35;">DEPLOYMENTS</div>';
+                html += `
+                    <div class="location-group">
+                        <div class="location-header" style="background: rgba(255, 107, 53, 0.08);">
+                            <span class="region-badge" style="background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: #000;">DEPLOY</span>
+                            <span class="location-name" style="color: #ff6b35;">Ships &amp; Units Deploying</span>
+                            <span class="location-count">${{deploymentItems.length}} item${{deploymentItems.length > 1 ? 's' : ''}}</span>
+                        </div>
+                        <div class="items-list">
+                `;
+
+                deploymentItems.forEach(item => {{
+                    html += `
+                        <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')" style="border-left-color: #ff6b35;">
+                            <div class="item-row-type">
+                                <span class="item-type ${{item.type}}">${{item.type}}</span>
+                                <span class="deployment-tag">DEPLOY</span>
+                            </div>
+                            <div class="item-row-main">
+                                <div class="item-row-title">${{item.title}}</div>
+                                <div class="item-row-unit">${{item.unit_name}}</div>
+                            </div>
+                            <div class="item-row-meta">
+                                <div class="item-row-branch">${{item.branch}}</div>
+                                <div class="item-row-date">${{item.date_published}}</div>
+                            </div>
+                        </div>
+                    `;
+                }});
+
+                html += '</div></div></div>';
+            }}
 
             // SECTION 1: Combatant Commands
             const commandOrder = ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM'];
@@ -990,10 +1080,12 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                     `;
 
                     items.forEach(item => {{
+                        const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
                         html += `
-                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')">
+                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')"${{item.is_deployment ? ' style="border-left-color: #ff6b35;"' : ''}}>
                                 <div class="item-row-type">
                                     <span class="item-type ${{item.type}}">${{item.type}}</span>
+                                    ${{deployTag}}
                                 </div>
                                 <div class="item-row-main">
                                     <div class="item-row-title">${{item.title}}</div>
@@ -1040,10 +1132,12 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                     `;
 
                     items.forEach(item => {{
+                        const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
                         html += `
-                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')">
+                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')"${{item.is_deployment ? ' style="border-left-color: #ff6b35;"' : ''}}>
                                 <div class="item-row-type">
                                     <span class="item-type ${{item.type}}">${{item.type}}</span>
+                                    ${{deployTag}}
                                 </div>
                                 <div class="item-row-main">
                                     <div class="item-row-title">${{item.title}}</div>
@@ -1079,11 +1173,13 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                 bodyHtml += `<img class="modal-image" src="${{item.thumbnail_url}}" alt="">`;
             }}
 
+            const deployBadge = item.is_deployment ? '<span class="modal-tag" style="background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: #000; font-weight: 700;">DEPLOYMENT</span>' : '';
             bodyHtml += `
                 <div class="modal-meta">
                     <span class="modal-tag type">${{item.type}}</span>
                     <span class="modal-tag branch">${{item.branch}}</span>
                     <span class="modal-tag location">${{item.location_display}}</span>
+                    ${{deployBadge}}
                 </div>
             `;
 
@@ -1186,6 +1282,7 @@ def main():
     print(f"    News: {digest.by_type.get('news', 0)}")
     print(f"    Images: {digest.by_type.get('image', 0)}")
     print(f"    Videos: {digest.by_type.get('video', 0)}")
+    print(f"    Deployments: {digest.deployment_count}")
     print(f"\n  Combatant Commands:")
     for cmd in ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM']:
         count = digest.by_command.get(cmd, 0)
