@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.2.0
+Version: 2.3.0
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
 Features toggle between Daily (24h) and Weekly (7-day) views.
 Highlights deployment-related content with special tags.
+Includes grid/list view toggle and manual refresh option.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -47,17 +48,30 @@ MAX_RESULTS_PER_QUERY = 100
 LOOKBACK_DAYS = 7
 
 # User agent for requests
-USER_AGENT = 'DVIDS-News-Aggregator/2.2 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'DVIDS-News-Aggregator/2.3 (Python; +https://github.com/ianellisjones/usn)'
 
 # ==============================================================================
 # COMBATANT COMMAND KEYWORDS
 # ==============================================================================
 
 COMMAND_KEYWORDS = {
-    "INDOPACOM": ["INDOPACOM", "U.S. Indo-Pacific Command", "Indo-Pacific Command"],
-    "CENTCOM": ["CENTCOM", "U.S. Central Command", "Central Command"],
-    "SOUTHCOM": ["SOUTHCOM", "U.S. Southern Command", "Southern Command"],
-    "EUCOM": ["EUCOM", "U.S. European Command", "European Command"],
+    "INDOPACOM": [
+        "INDOPACOM", "USINDOPACOM", "U.S. Indo-Pacific Command", "Indo-Pacific Command",
+        "US Indo-Pacific", "PACOM", "Pacific Command", "7th Fleet", "Seventh Fleet",
+        "3rd Fleet", "Third Fleet", "Pacific Fleet", "PACFLT", "Indo-Pacific"
+    ],
+    "CENTCOM": [
+        "CENTCOM", "USCENTCOM", "U.S. Central Command", "Central Command",
+        "5th Fleet", "Fifth Fleet", "NAVCENT", "Middle East"
+    ],
+    "SOUTHCOM": [
+        "SOUTHCOM", "USSOUTHCOM", "U.S. Southern Command", "Southern Command",
+        "4th Fleet", "Fourth Fleet", "NAVSO", "South America", "Caribbean"
+    ],
+    "EUCOM": [
+        "EUCOM", "USEUCOM", "U.S. European Command", "European Command",
+        "6th Fleet", "Sixth Fleet", "NAVEUR", "NAVAF"
+    ],
 }
 
 # ==============================================================================
@@ -406,8 +420,9 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
         duration = raw_item.get("duration", "")
         aspect_ratio = raw_item.get("aspect_ratio", "")
 
-        # Detect combatant commands in title, description, and unit name
-        search_text = f"{title} {description} {unit_name}"
+        # Detect combatant commands in title, description, unit name, and keywords
+        keywords_text = " ".join(keywords) if keywords else ""
+        search_text = f"{title} {description} {unit_name} {keywords_text}"
         commands = detect_commands(search_text)
 
         # Detect deployment-related content
@@ -606,6 +621,18 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .toggle-btn.active {{ background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%); color: #000; }}
         .toggle-btn.active:hover {{ color: #000; }}
 
+        /* Refresh Button */
+        .refresh-btn {{ font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; padding: 8px 14px; background: rgba(0, 255, 255, 0.1); border: 1px solid #00ffff; color: #00ffff; border-radius: 6px; cursor: pointer; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }}
+        .refresh-btn:hover {{ background: rgba(0, 255, 255, 0.2); transform: translateY(-1px); }}
+        .refresh-btn svg {{ width: 14px; height: 14px; }}
+
+        /* View Toggle (List/Grid) */
+        .view-toggle {{ display: flex; gap: 4px; }}
+        .view-btn {{ font-family: 'Inter', sans-serif; width: 32px; height: 32px; background: transparent; border: 1px solid #2a2a3a; color: #666; cursor: pointer; border-radius: 6px; display: flex; align-items: center; justify-content: center; transition: all 0.15s; }}
+        .view-btn:hover {{ border-color: #444; color: #aaa; }}
+        .view-btn.active {{ background: rgba(0, 255, 136, 0.1); border-color: #00ff88; color: #00ff88; }}
+        .view-btn svg {{ width: 16px; height: 16px; }}
+
         /* Main Layout */
         .main-container {{ max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; grid-template-columns: 280px 1fr; gap: 20px; }}
 
@@ -771,6 +798,14 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             <div class="timestamp">
                 Last Update: <span>{timestamp}</span>
             </div>
+            <a href="https://github.com/ianellisjones/usn/actions/workflows/update-dvids-digest.yml" target="_blank" rel="noopener" style="text-decoration: none;">
+                <button class="refresh-btn" title="Manually trigger update via GitHub Actions">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                    </svg>
+                    REFRESH
+                </button>
+            </a>
         </div>
     </header>
 
@@ -811,6 +846,20 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         <main class="content-area">
             <div class="content-header">
                 <div class="results-count" id="resultsCount">Showing {digest.total_count} items</div>
+                <div class="view-toggle">
+                    <button class="view-btn active" id="listViewBtn" onclick="setViewMode('list')" title="List View">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
+                            <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+                        </svg>
+                    </button>
+                    <button class="view-btn" id="gridViewBtn" onclick="setViewMode('grid')" title="Grid View">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
             <div id="contentContainer"></div>
         </main>
@@ -864,6 +913,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         }};
 
         let currentTimeRange = 'daily';  // 'daily' (24h) or 'weekly' (7 days)
+        let currentViewMode = 'list';  // 'list' or 'grid'
         const HOURS_IN_DAY = 24;
         const HOURS_IN_WEEK = 24 * 7;
 
@@ -965,6 +1015,17 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             renderItems();
         }}
 
+        function setViewMode(mode) {{
+            currentViewMode = mode;
+
+            // Update toggle buttons
+            document.getElementById('listViewBtn').classList.toggle('active', mode === 'list');
+            document.getElementById('gridViewBtn').classList.toggle('active', mode === 'grid');
+
+            // Re-render with new view
+            renderItems();
+        }}
+
         function updateStats() {{
             const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
             const timeFilteredItems = allItems.filter(item => item.hours_old <= maxHours);
@@ -995,6 +1056,52 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             }});
         }}
 
+        function renderItemHtml(item, forceListView = false) {{
+            const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
+            const deployStyle = item.is_deployment ? ' style="border-left-color: #ff6b35;"' : '';
+
+            if (currentViewMode === 'grid' && !forceListView) {{
+                // Grid view with thumbnail
+                const thumbnail = item.thumbnail_url || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%231a1a2e" width="100" height="100"/><text x="50" y="55" text-anchor="middle" fill="%23444" font-size="12">' + item.type + '</text></svg>';
+                return `
+                    <div class="item-card ${{item.type}}" onclick="showDetail('${{item.id}}')"${{deployStyle}}>
+                        <img class="item-thumbnail" src="${{thumbnail}}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231a1a2e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23444%22 font-size=%2212%22>${{item.type}}</text></svg>'">
+                        <div class="item-content">
+                            <div class="item-meta">
+                                <span class="item-type ${{item.type}}">${{item.type}}</span>
+                                ${{deployTag}}
+                                <span class="item-branch">${{item.branch}}</span>
+                            </div>
+                            <div class="item-title">${{item.title}}</div>
+                            <div class="item-description">${{item.description || ''}}</div>
+                            <div class="item-footer">
+                                <span class="item-unit">${{item.unit_name}}</span>
+                                <span class="item-date">${{item.date_published}}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }} else {{
+                // List view
+                return `
+                    <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')"${{deployStyle}}>
+                        <div class="item-row-type">
+                            <span class="item-type ${{item.type}}">${{item.type}}</span>
+                            ${{deployTag}}
+                        </div>
+                        <div class="item-row-main">
+                            <div class="item-row-title">${{item.title}}</div>
+                            <div class="item-row-unit">${{item.unit_name}}</div>
+                        </div>
+                        <div class="item-row-meta">
+                            <div class="item-row-branch">${{item.branch}}</div>
+                            <div class="item-row-date">${{item.date_published}}</div>
+                        </div>
+                    </div>
+                `;
+            }}
+        }}
+
         function renderItems() {{
             const filtered = getFilteredItems();
             const container = document.getElementById('contentContainer');
@@ -1015,6 +1122,8 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
             // SECTION 0: Deployments (highlighted at top)
             const deploymentItems = filtered.filter(item => item.is_deployment);
+            const containerClass = currentViewMode === 'grid' ? 'items-grid' : 'items-list';
+
             if (deploymentItems.length > 0) {{
                 html += '<div class="section-group"><div class="section-title" style="color: #ff6b35; border-bottom-color: #ff6b35;">DEPLOYMENTS</div>';
                 html += `
@@ -1024,26 +1133,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                             <span class="location-name" style="color: #ff6b35;">Ships &amp; Units Deploying</span>
                             <span class="location-count">${{deploymentItems.length}} item${{deploymentItems.length > 1 ? 's' : ''}}</span>
                         </div>
-                        <div class="items-list">
+                        <div class="${{containerClass}}">
                 `;
 
                 deploymentItems.forEach(item => {{
-                    html += `
-                        <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')" style="border-left-color: #ff6b35;">
-                            <div class="item-row-type">
-                                <span class="item-type ${{item.type}}">${{item.type}}</span>
-                                <span class="deployment-tag">DEPLOY</span>
-                            </div>
-                            <div class="item-row-main">
-                                <div class="item-row-title">${{item.title}}</div>
-                                <div class="item-row-unit">${{item.unit_name}}</div>
-                            </div>
-                            <div class="item-row-meta">
-                                <div class="item-row-branch">${{item.branch}}</div>
-                                <div class="item-row-date">${{item.date_published}}</div>
-                            </div>
-                        </div>
-                    `;
+                    html += renderItemHtml(item);
                 }});
 
                 html += '</div></div></div>';
@@ -1076,27 +1170,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                                 <span class="location-name" style="color: #ff6b6b;">${{fullName}}</span>
                                 <span class="location-count">${{items.length}} item${{items.length > 1 ? 's' : ''}}</span>
                             </div>
-                            <div class="items-list">
+                            <div class="${{containerClass}}">
                     `;
 
                     items.forEach(item => {{
-                        const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
-                        html += `
-                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')"${{item.is_deployment ? ' style="border-left-color: #ff6b35;"' : ''}}>
-                                <div class="item-row-type">
-                                    <span class="item-type ${{item.type}}">${{item.type}}</span>
-                                    ${{deployTag}}
-                                </div>
-                                <div class="item-row-main">
-                                    <div class="item-row-title">${{item.title}}</div>
-                                    <div class="item-row-unit">${{item.unit_name}}</div>
-                                </div>
-                                <div class="item-row-meta">
-                                    <div class="item-row-branch">${{item.branch}}</div>
-                                    <div class="item-row-date">${{item.date_published}}</div>
-                                </div>
-                            </div>
-                        `;
+                        html += renderItemHtml(item);
                     }});
 
                     html += '</div></div>';
@@ -1128,27 +1206,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
                                 <span class="location-name">${{country}}</span>
                                 <span class="location-count">${{items.length}} item${{items.length > 1 ? 's' : ''}}</span>
                             </div>
-                            <div class="items-list">
+                            <div class="${{containerClass}}">
                     `;
 
                     items.forEach(item => {{
-                        const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
-                        html += `
-                            <div class="item-row ${{item.type}}" onclick="showDetail('${{item.id}}')"${{item.is_deployment ? ' style="border-left-color: #ff6b35;"' : ''}}>
-                                <div class="item-row-type">
-                                    <span class="item-type ${{item.type}}">${{item.type}}</span>
-                                    ${{deployTag}}
-                                </div>
-                                <div class="item-row-main">
-                                    <div class="item-row-title">${{item.title}}</div>
-                                    <div class="item-row-unit">${{item.unit_name}}</div>
-                                </div>
-                                <div class="item-row-meta">
-                                    <div class="item-row-branch">${{item.branch}}</div>
-                                    <div class="item-row-date">${{item.date_published}}</div>
-                                </div>
-                            </div>
-                        `;
+                        html += renderItemHtml(item);
                     }});
 
                     html += '</div></div>';
