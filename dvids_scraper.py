@@ -58,7 +58,7 @@ COMMAND_KEYWORDS = {
     "INDOPACOM": [
         "INDOPACOM", "USINDOPACOM", "U.S. Indo-Pacific Command", "Indo-Pacific Command",
         "US Indo-Pacific", "PACOM", "Pacific Command", "7th Fleet", "Seventh Fleet",
-        "3rd Fleet", "Third Fleet", "Pacific Fleet", "PACFLT", "Indo-Pacific"
+        "PACFLT", "Indo-Pacific"
     ],
     "CENTCOM": [
         "CENTCOM", "USCENTCOM", "U.S. Central Command", "Central Command",
