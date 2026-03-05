@@ -1,0 +1,83 @@
+{
+  "generated": "2026-03-05T19:48:27.788569+00:00",
+  "news_count": 0,
+  "dvids_count": 20,
+  "news": [],
+  "dvids": [
+    {
+      "id": "video:998350",
+      "title": "U.S. Forces Conduct Precision Strikes in Iran",
+      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-05T16:25:09+00:00",
+      "url": "https://www.dvidshub.net/video/998350/us-forces-conduct-precision-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998349",
+      "title": "U.S. Forces Conduct Precision Strikes in Iran",
+      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-05T16:25:08+00:00",
+      "url": "https://www.dvidshub.net/video/998349/us-forces-conduct-precision-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998348",
+      "title": "U.S. Forces Conduct Precision Strikes in Iran",
+      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-05T16:25:08+00:00",
+      "url": "https://www.dvidshub.net/video/998348/us-forces-conduct-precision-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998347",
+      "title": "U.S. Forces Conduct Precision Strikes in Iran",
+      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-05T16:25:07+00:00",
+      "url": "https://www.dvidshub.net/video/998347/us-forces-conduct-precision-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998319",
+      "title": "B-1B Lancers return from CONUS-to-CONUS mission",
+      "desc": "U.S. Air Force B-1B Lancers return from a CONUS-to CONUS mission in support of Operation Epic Fury, March 4, 2026. (U.S. Air Force video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-05T16:19:22+00:00",
+      "url": "https://www.dvidshub.net/video/998319/b-1b-lancers-return-conus-conus-mission",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
+}
