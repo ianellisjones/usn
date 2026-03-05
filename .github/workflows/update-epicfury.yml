@@ -1,0 +1,87 @@
+name: Update Operation Epic Fury Dashboard
+
+on:
+  # 06:00 ET = 11:00 UTC (EST) / 10:00 UTC (EDT after Mar 8)
+  # 12:00 ET = 17:00 UTC (EST) / 16:00 UTC (EDT)
+  # 00:00 ET = 05:00 UTC (EST) / 04:00 UTC (EDT)
+  # Using EST times year-round; offset is minor (~1 article window)
+  schedule:
+    - cron: '0 11 * * *'   # 06:00 ET morning update
+    - cron: '0 17 * * *'   # 12:00 ET noon update
+    - cron: '0 5  * * *'   # 00:00 ET midnight update
+
+  # Manual trigger from GitHub Actions tab (for live refresh / breaking news)
+  workflow_dispatch:
+
+  # Also run on scraper changes
+  push:
+    branches:
+      - main
+    paths:
+      - 'epicfury_scraper.py'
+      - '.github/workflows/update-epicfury.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-epicfury:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Epic Fury scraper
+        env:
+          DVIDS_API_KEY: ${{ secrets.DVIDS_API_KEY }}
+        run: python epicfury_scraper.py
+
+      - name: Commit and push updated dashboard
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add epicfury.html epicfury_data.json
+          git diff --staged --quiet || git commit -m "Auto-update Epic Fury dashboard $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  deploy:
+    needs: update-epicfury
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
