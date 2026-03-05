@@ -6,7 +6,7 @@
 <title>Operation Epic Fury — Live Updates</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<!-- Plotly loaded at end of body so it doesn't block initial render -->
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -30,8 +30,13 @@
   --mono:        'JetBrains Mono', 'Courier New', monospace;
 }
 
-html, body {
+html {
   height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   font-family: var(--font);
   background: var(--bg-page);
@@ -179,7 +184,8 @@ html, body {
 
 /* ── MAIN GRID ── */
 #main {
-  height: calc(100vh - 52px);
+  flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 8px;
@@ -793,6 +799,11 @@ function buildGlobeTraces(theater) {
 }
 
 function initGlobe() {
+  if (typeof Plotly === 'undefined') {
+    document.getElementById('globe').innerHTML =
+      '<div class="state-msg" style="padding-top:40px"><div class="icon">🗺️</div>Map loading…</div>';
+    return;
+  }
   const layout = {
     margin: { t: 0, b: 0, l: 0, r: 0 },
     paper_bgcolor: '#FFFFFF',
@@ -1047,7 +1058,7 @@ async function refreshAll() {
 // INIT
 // ─────────────────────────────────────────────
 (function init() {
-  initGlobe();
+  // Globe init fires from Plotly onload (see bottom of body)
   renderDVIDS();
   renderOSINT();
   refreshAll();
@@ -1055,8 +1066,11 @@ async function refreshAll() {
 
 // Globe must resize with panel
 window.addEventListener('resize', () => {
-  if (globeInitialized) Plotly.relayout('globe', {});
+  if (globeInitialized && typeof Plotly !== 'undefined') Plotly.relayout('globe', {});
 });
 </script>
+
+<!-- Plotly loaded AFTER page content renders to avoid blocking -->
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" onload="initGlobe()"></script>
 </body>
 </html>
