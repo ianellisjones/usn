@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operation Epic Fury — Live Updates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-page:     #F1F5F9;
+  --bg-card:     #FFFFFF;
+  --bg-header:   #0D1117;
+  --bg-panel-hd: #F8FAFC;
+  --text-1:      #0F172A;
+  --text-2:      #475569;
+  --text-3:      #94A3B8;
+  --border:      #E2E8F0;
+  --border-2:    #CBD5E1;
+  --centcom:     #DC2626;
+  --eucom:       #2563EB;
+  --logistics:   #059669;
+  --sub:         #7C3AED;
+  --live:        #10B981;
+  --warn:        #F59E0B;
+  --font:        'Inter', system-ui, sans-serif;
+  --mono:        'JetBrains Mono', 'Courier New', monospace;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font);
+  background: var(--bg-page);
+  color: var(--text-1);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* ── HEADER ── */
+#header {
+  height: 52px;
+  background: var(--bg-header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 12px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #1E2733;
+}
+.hd-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 0;
+}
+.hd-op-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: #F8FAFC;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+}
+.hd-op-sub {
+  font-size: 9px;
+  color: #64748B;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.hd-center {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.h-counter {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  background: #161B22;
+  border: 1px solid #30363D;
+  border-radius: 6px;
+  padding: 5px 12px;
+}
+.h-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: #4ADE80;
+  letter-spacing: 0.05em;
+}
+.h-value {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 700;
+  color: #4ADE80;
+  letter-spacing: -0.02em;
+  min-width: 2ch;
+  text-align: center;
+}
+.h-sep {
+  font-family: var(--mono);
+  font-size: 18px;
+  font-weight: 700;
+  color: #22C55E;
+  opacity: 0.5;
+  line-height: 1;
+}
+.day-badge {
+  background: #161B22;
+  border: 1px solid #30363D;
+  border-radius: 6px;
+  padding: 5px 14px;
+  text-align: center;
+}
+.day-label {
+  font-size: 9px;
+  color: #64748B;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.day-value {
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: #F8FAFC;
+  letter-spacing: 0.05em;
+}
+.hd-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--live);
+  animation: pulse-green 2s infinite;
+  flex-shrink: 0;
+}
+@keyframes pulse-green {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
+  50% { opacity: 0.7; box-shadow: 0 0 0 4px rgba(16,185,129,0); }
+}
+.last-updated {
+  font-size: 10px;
+  color: #64748B;
+  font-family: var(--mono);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.refresh-btn {
+  background: transparent;
+  border: 1px solid #30363D;
+  color: #94A3B8;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: var(--font);
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.refresh-btn:hover { border-color: var(--live); color: var(--live); }
+.refresh-btn.loading { border-color: var(--warn); color: var(--warn); pointer-events: none; }
+
+/* ── MAIN GRID ── */
+#main {
+  height: calc(100vh - 52px);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+/* ── PANELS ── */
+.panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+.panel-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-panel-hd);
+  flex-shrink: 0;
+  gap: 8px;
+  min-height: 34px;
+}
+.panel-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-1);
+}
+.panel-body {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-2) transparent;
+}
+.panel-body::-webkit-scrollbar { width: 4px; }
+.panel-body::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
+.panel-body::-webkit-scrollbar-track { background: transparent; }
+
+/* ── RIGHT COLUMN ── */
+#panel-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+}
+#panel-right .panel { flex: 1; min-height: 0; }
+
+/* ── THEATER BADGE ── */
+.badge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.badge-centcom { background: #FEF2F2; color: var(--centcom); }
+.badge-eucom   { background: #EFF6FF; color: var(--eucom); }
+.badge-joint   { background: #F0FDF4; color: var(--logistics); }
+.badge-live    { background: #F0FDF4; color: var(--live); display: flex; align-items: center; gap: 4px; }
+
+/* ── FILTER BUTTONS ── */
+.filter-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.flt-btn {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid var(--border-2);
+  background: transparent;
+  color: var(--text-2);
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+.flt-btn:hover, .flt-btn.active {
+  background: var(--text-1);
+  color: white;
+  border-color: var(--text-1);
+}
+
+/* ── NEWS FEED ── */
+.article {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.article:hover { background: #F8FAFC; }
+.article:last-child { border-bottom: none; }
+.article-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+.article-source {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--centcom);
+}
+.article-time {
+  font-size: 9px;
+  color: var(--text-3);
+  font-family: var(--mono);
+  flex-shrink: 0;
+}
+.article-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-1);
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.article-desc {
+  font-size: 11px;
+  color: var(--text-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── GLOBE ── */
+#panel-globe {
+  overflow: hidden;
+}
+#globe {
+  flex: 1;
+  min-height: 0;
+}
+.globe-hd-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.asset-count {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--text-3);
+  font-family: var(--mono);
+  letter-spacing: 0.05em;
+}
+#ship-tooltip {
+  position: absolute;
+  background: #0D1117;
+  color: #F8FAFC;
+  border: 1px solid #30363D;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 11px;
+  pointer-events: none;
+  display: none;
+  z-index: 100;
+  max-width: 200px;
+  line-height: 1.5;
+}
+.tip-name { font-weight: 700; font-size: 12px; }
+.tip-hull { color: #94A3B8; font-family: var(--mono); font-size: 10px; }
+.tip-loc  { color: #4ADE80; font-size: 11px; margin-top: 3px; }
+.tip-type { color: #94A3B8; font-size: 10px; }
+
+/* ── LEGEND ── */
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 10px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-panel-hd);
+  flex-shrink: 0;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+.legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── DVIDS ITEMS ── */
+.dvids-item {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.dvids-item:hover { background: #F8FAFC; }
+.dvids-item:last-child { border-bottom: none; }
+.dvids-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+.dvids-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-1);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dvids-meta {
+  font-size: 10px;
+  color: var(--text-3);
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.dvids-unit { color: var(--text-2); font-weight: 500; }
+
+/* ── OSINT PANEL ── */
+.osint-account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.osint-account:hover { background: #F8FAFC; }
+.osint-account:last-child { border-bottom: none; }
+.osint-avatar {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  background: var(--bg-page);
+  border: 1px solid var(--border-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-2);
+  flex-shrink: 0;
+}
+.osint-info { min-width: 0; flex: 1; }
+.osint-handle {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--eucom);
+  font-family: var(--mono);
+}
+.osint-desc {
+  font-size: 10px;
+  color: var(--text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.osint-link {
+  font-size: 9px;
+  color: var(--text-3);
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+/* ── LOADING / EMPTY ── */
+.state-msg {
+  padding: 20px;
+  text-align: center;
+  color: var(--text-3);
+  font-size: 12px;
+}
+.state-msg .icon { font-size: 24px; margin-bottom: 6px; }
+.loading-bar {
+  height: 2px;
+  background: linear-gradient(90deg, var(--eucom) 0%, var(--live) 50%, var(--eucom) 100%);
+  background-size: 200% 100%;
+  animation: loading-slide 1.5s infinite;
+}
+@keyframes loading-slide {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* ── SCROLLBAR EVERYWHERE ── */
+* { scrollbar-width: thin; scrollbar-color: var(--border-2) transparent; }
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     HEADER
+══════════════════════════════════════════════ -->
+<div id="header">
+  <div class="hd-left">
+    <div class="hd-op-name">⚡ Operation Epic Fury</div>
+    <div class="hd-op-sub">US–Israel–Iran · Live Operations Dashboard</div>
+  </div>
+
+  <div class="hd-center">
+    <div class="h-counter" title="Hours since H+0 (28 Feb 2026 01:15 EST)">
+      <span class="h-label">H+</span>
+      <span class="h-value" id="h-hh">000</span>
+      <span class="h-sep">:</span>
+      <span class="h-value" id="h-mm">00</span>
+      <span class="h-sep">:</span>
+      <span class="h-value" id="h-ss">00</span>
+    </div>
+    <div class="day-badge">
+      <div class="day-label">Operation</div>
+      <div class="day-value" id="day-val">DAY 1</div>
+    </div>
+  </div>
+
+  <div class="hd-right">
+    <div class="status-dot"></div>
+    <div class="last-updated" id="last-updated">—</div>
+    <button class="refresh-btn" id="refresh-btn" onclick="refreshAll()">
+      <span id="refresh-icon">↻</span> LIVE REFRESH
+    </button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     MAIN GRID
+══════════════════════════════════════════════ -->
+<div id="main">
+
+  <!-- LEFT: NEWS FEED -->
+  <div class="panel" id="panel-news">
+    <div class="panel-hd">
+      <div class="panel-title">Intel Feed</div>
+      <div class="filter-row" id="src-filters">
+        <button class="flt-btn active" data-src="all" onclick="filterNews('all',this)">All</button>
+      </div>
+    </div>
+    <div id="loading-news" class="loading-bar"></div>
+    <div class="panel-body" id="news-body">
+      <div class="state-msg"><div class="icon">📡</div>Fetching intel feeds…</div>
+    </div>
+  </div>
+
+  <!-- CENTER: GLOBE -->
+  <div class="panel" id="panel-globe">
+    <div class="panel-hd">
+      <div class="panel-title">US Forces — CENTCOM / EUCOM</div>
+      <div class="globe-hd-right">
+        <div class="filter-row">
+          <button class="flt-btn active" onclick="filterTheater('all',this)">All</button>
+          <button class="flt-btn" onclick="filterTheater('CENTCOM',this)">CENTCOM</button>
+          <button class="flt-btn" onclick="filterTheater('EUCOM',this)">EUCOM</button>
+        </div>
+        <span class="asset-count" id="asset-count">29 ASSETS</span>
+      </div>
+    </div>
+    <div id="globe"></div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>Carrier (CVN)</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#DC2626"></div>CENTCOM</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div>EUCOM</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#059669"></div>Logistics</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#7C3AED"></div>SSGN/ESB</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#6B7280"></div>In Port</div>
+    </div>
+  </div>
+
+  <!-- RIGHT: DVIDS + OSINT -->
+  <div id="panel-right">
+
+    <!-- DVIDS -->
+    <div class="panel">
+      <div class="panel-hd">
+        <div class="panel-title">DVIDS — DoD Official</div>
+        <div class="badge badge-centcom">CENTCOM / EUCOM</div>
+      </div>
+      <div id="loading-dvids" class="loading-bar"></div>
+      <div class="panel-body" id="dvids-body">
+        <div class="state-msg"><div class="icon">🛡️</div>Loading DoD content…</div>
+      </div>
+    </div>
+
+    <!-- OSINT -->
+    <div class="panel">
+      <div class="panel-hd">
+        <div class="panel-title">OSINT Watch</div>
+        <div class="badge badge-live"><div class="status-dot" style="width:5px;height:5px;animation:none;background:var(--live)"></div>Vetted Sources</div>
+      </div>
+      <div class="panel-body" id="osint-body">
+        <!-- populated by JS -->
+      </div>
+    </div>
+
+  </div><!-- /panel-right -->
+</div><!-- /main -->
+
+<div id="ship-tooltip"></div>
+
+<!-- ══════════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════════ -->
+<script>
+// ─────────────────────────────────────────────
+// CONSTANTS
+// ─────────────────────────────────────────────
+const OP_START = new Date('2026-02-28T06:15:00Z'); // 01:15 EST
+
+const NEWS_KEYWORDS = [
+  // Operation names
+  'epic fury','operation epic fury','roaring lion','operation roaring lion',
+  // US forces
+  'centcom','central command','5th fleet','fifth fleet','u.s. central command',
+  'eucom','european command','6th fleet','sixth fleet','u.s. european command',
+  'carrier strike group','expeditionary strike group',
+  // Ships (key)
+  'uss abraham lincoln','uss gerald r. ford','uss ford',
+  // Conflict parties
+  'iran','iranian','tehran','irgc','islamic revolutionary guard',
+  'israel','israeli','idf',
+  // Conflict geography
+  'strait of hormuz','persian gulf','gulf of oman','arabian sea','red sea',
+  // Conflict actors
+  'hezbollah','houthi','houthis','yemen',
+  // Conflict terms
+  'missile strike','air strike','ballistic missile','cruise missile',
+  'air defense','nuclear','middle east','mideast',
+];
+
+const RSS_FEEDS = [
+  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',                              name: 'BBC' },
+  { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',                   name: 'NYT' },
+  { url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',                              name: 'WSJ' },
+  { url: 'https://news.usni.org/feed',                                               name: 'USNI' },
+  { url: 'https://www.thedrive.com/the-war-zone/rss',                                name: 'TWZ' },
+  { url: 'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml',        name: 'DefNews' },
+  { url: 'https://breakingdefense.com/feed/',                                        name: 'BreakDef' },
+  { url: 'https://www.militarytimes.com/arc/outboundfeeds/rss/',                     name: 'MilTimes' },
+  { url: 'https://taskandpurpose.com/feed/',                                         name: 'T&P' },
+  { url: 'https://foreignpolicy.com/feed/',                                          name: 'FP' },
+  { url: 'https://www.stripes.com/news/rss',                                         name: 'S&S' },
+  { url: 'https://www.aljazeera.com/xml/rss/all.xml',                                name: 'AJE' },
+  { url: 'https://feeds.reuters.com/reuters/worldNews',                              name: 'Reuters' },
+];
+
+const DVIDS_DATA = []; // replaced by epicfury_scraper.py at build time
+
+const OSINT_ACCOUNTS = [
+  { handle: '@SentDefender',      name: 'Sentinel',         desc: 'OSINT — Middle East / Iran conflict analyst',    url: 'https://x.com/SentDefender' },
+  { handle: '@CENTCOM',           name: 'CENTCOM',          desc: 'US Central Command — Official',                  url: 'https://x.com/CENTCOM' },
+  { handle: '@DeptofWar',         name: 'Dept of War',      desc: 'Defense & national security news aggregator',    url: 'https://x.com/DeptofWar' },
+  { handle: '@TheIntelFrog',      name: 'Intel Frog',       desc: 'OSINT — regional intelligence analysis',         url: 'https://x.com/TheIntelFrog' },
+  { handle: '@ianellisjones',     name: 'Ian E. Jones',     desc: 'Journalist / defense analyst',                   url: 'https://x.com/ianellisjones' },
+  { handle: '@BarakRavid',        name: 'Barak Ravid',      desc: 'Axios — national security & US-Israel',         url: 'https://x.com/BarakRavid' },
+  { handle: '@ByChrisGordon',     name: 'Chris Gordon',     desc: 'AP national security reporter',                  url: 'https://x.com/ByChrisGordon' },
+  { handle: '@IntelSchizo',       name: 'IntelSchizo',      desc: 'OSINT / intelligence open-source analysis',      url: 'https://x.com/IntelSchizo' },
+  { handle: '@TheWarZoneWire',    name: 'TWZ Wire',         desc: 'The War Zone — breaking defense news',           url: 'https://x.com/TheWarZoneWire' },
+  { handle: '@AviationIntel',     name: 'Aviation Intel',   desc: 'Aviation OSINT — military aircraft tracking',    url: 'https://x.com/AviationIntel' },
+  { handle: '@TheAviationist',    name: 'Aviationist',      desc: 'Military aviation journalism & analysis',         url: 'https://x.com/TheAviationist' },
+  { handle: '@BreakingDefence',   name: 'Breaking Defence', desc: 'Breaking Defence — global defense news',          url: 'https://x.com/BreakingDefence' },
+];
+
+// ─────────────────────────────────────────────
+// SHIP DATA — 29 ASSETS (CENTCOM + EUCOM)
+// ─────────────────────────────────────────────
+const SHIPS = [
+  // ── CENTCOM: Arabian Sea ──
+  { name:'USS Abraham Lincoln',    hull:'CVN-72',  type:'CVN',   cls:'Nimitz',       theater:'CENTCOM', loc:'Arabian Sea',       lat: 17.5, lon: 62.0, status:'Deployed · CSG flagship' },
+  { name:'USS Spruance',           hull:'DDG-111', type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Arabian Sea',       lat: 16.0, lon: 60.5, status:'Deployed · Lincoln CSG' },
+  { name:'USS Michael Murphy',     hull:'DDG-112', type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Arabian Sea',       lat: 18.3, lon: 63.8, status:'Deployed · Lincoln CSG' },
+  { name:'USS Frank E. Petersen Jr.',hull:'DDG-121',type:'DDG',  cls:'Arleigh Burke',theater:'CENTCOM', loc:'Arabian Sea',       lat: 16.5, lon: 64.5, status:'Deployed · Lincoln CSG' },
+  { name:'USS Canberra',           hull:'LCS-30',  type:'LCS',   cls:'Independence', theater:'CENTCOM', loc:'Arabian Sea',       lat: 19.2, lon: 60.8, status:'Deployed · CENTCOM' },
+  { name:'USS Santa Barbara',      hull:'LCS-32',  type:'LCS',   cls:'Independence', theater:'CENTCOM', loc:'Arabian Sea',       lat: 15.0, lon: 62.8, status:'Deployed · CENTCOM' },
+  { name:'USNS Henry J. Kaiser',   hull:'T-AO-187',type:'T-AO',  cls:'Henry Kaiser', theater:'CENTCOM', loc:'Arabian Sea',       lat: 17.2, lon: 63.5, status:'Underway replenishment' },
+
+  // ── CENTCOM: Persian Gulf ──
+  { name:'USS Mitscher',           hull:'DDG-57',  type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Persian Gulf',      lat: 26.5, lon: 52.0, status:'Deployed · 5th Fleet' },
+  { name:'USS McFaul',             hull:'DDG-74',  type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Persian Gulf',      lat: 27.5, lon: 50.5, status:'Deployed · 5th Fleet' },
+  { name:'USS Tulsa',              hull:'LCS-16',  type:'LCS',   cls:'Freedom',      theater:'CENTCOM', loc:'Persian Gulf',      lat: 26.0, lon: 54.0, status:'Deployed · 5th Fleet' },
+  { name:'USNS Carl Brashear',     hull:'T-AKE-7', type:'T-AKE', cls:'Lewis & Clark',theater:'CENTCOM', loc:'Persian Gulf',      lat: 27.0, lon: 51.5, status:'Combat logistics force' },
+
+  // ── CENTCOM: Red Sea ──
+  { name:'USS Delbert D. Black',   hull:'DDG-119', type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Red Sea',           lat: 18.5, lon: 38.8, status:'Deployed · Red Sea ops' },
+
+  // ── CENTCOM: Indian Ocean ──
+  { name:'USS Pinckney',           hull:'DDG-91',  type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Indian Ocean',      lat: 10.5, lon: 68.0, status:'Deployed · CENTCOM' },
+  { name:'USS John Finn',          hull:'DDG-113', type:'DDG',   cls:'Arleigh Burke',theater:'CENTCOM', loc:'Indian Ocean',      lat:  9.0, lon: 70.5, status:'Deployed · CENTCOM' },
+
+  // ── CENTCOM: Duqm, Oman ──
+  { name:'USNS Catawba',           hull:'T-ATF-168',type:'T-ATF',cls:'Apache',       theater:'CENTCOM', loc:'Duqm, Oman',        lat: 19.65,lon: 57.71,status:'Forward support · Duqm' },
+
+  // ── EUCOM: Mediterranean (underway) ──
+  { name:'USS Gerald R. Ford',     hull:'CVN-78',  type:'CVN',   cls:'Gerald R. Ford',theater:'EUCOM',  loc:'Mediterranean Sea', lat: 37.5, lon: 18.0, status:'Deployed · CSG flagship' },
+  { name:'USS Mahan',              hull:'DDG-72',  type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 35.8, lon: 16.0, status:'Deployed · Ford CSG' },
+  { name:'USS Bainbridge',         hull:'DDG-96',  type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 38.5, lon: 20.5, status:'Deployed · Ford CSG' },
+  { name:'USS Winston S. Churchill',hull:'DDG-81', type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 36.0, lon: 14.0, status:'Deployed · Ford CSG' },
+  { name:'USS Thomas Hudner',      hull:'DDG-116', type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 38.0, lon: 22.0, status:'Deployed · 6th Fleet' },
+  { name:'USS Roosevelt',          hull:'DDG-80',  type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 36.5, lon: 12.0, status:'Deployed · 6th Fleet' },
+  { name:'USS Georgia',            hull:'SSGN-729',type:'SSGN',  cls:'Ohio',         theater:'EUCOM',   loc:'Mediterranean Sea', lat: 39.0, lon: 24.5, status:'Deployed · 6th Fleet (SSGN)' },
+  { name:'USNS William McLean',    hull:'T-AKE-12',type:'T-AKE', cls:'Lewis & Clark',theater:'EUCOM',   loc:'Mediterranean Sea', lat: 35.0, lon: 19.0, status:'Combat logistics force' },
+  { name:'USNS Marie Tharp',       hull:'T-AGS-66',type:'T-AGS', cls:'Pathfinder',   theater:'EUCOM',   loc:'Mediterranean Sea', lat: 39.5, lon: 15.5, status:'Survey ship · 6th Fleet' },
+
+  // ── EUCOM: In Port ──
+  { name:'USS Mount Whitney',      hull:'LCC-20',  type:'LCC',   cls:'Blue Ridge',   theater:'EUCOM',   loc:'Port of Genoa, Italy',lat:44.41,lon: 8.95, status:'In port · 6th Fleet flagship' },
+  { name:'USS Oscar Austin',       hull:'DDG-79',  type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Rota, Spain',       lat: 36.62,lon:-6.36, status:'Homeport · Rota' },
+  { name:'USS Bulkeley',           hull:'DDG-84',  type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Rota, Spain',       lat: 36.60,lon:-6.40, status:'Homeport · Rota' },
+  { name:'USS Paul Ignatius',      hull:'DDG-117', type:'DDG',   cls:'Arleigh Burke',theater:'EUCOM',   loc:'Rota, Spain',       lat: 36.64,lon:-6.32, status:'Homeport · Rota' },
+  { name:'USS Lewis B. Puller',    hull:'ESB-3',   type:'ESB',   cls:'Montford Point',theater:'EUCOM',  loc:'Rijeka, Croatia',   lat: 45.33,lon: 14.44,status:'In port · ESB' },
+];
+
+// ─────────────────────────────────────────────
+// H+ COUNTER (live, every second)
+// ─────────────────────────────────────────────
+function updateCounter() {
+  const diff = Date.now() - OP_START.getTime();
+  if (diff < 0) return;
+  const totalSec = Math.floor(diff / 1000);
+  const ss = totalSec % 60;
+  const totalMin = Math.floor(totalSec / 60);
+  const mm = totalMin % 60;
+  const hh = Math.floor(totalMin / 60);
+  const day = Math.floor(hh / 24) + 1;
+  document.getElementById('h-hh').textContent = String(hh).padStart(3,'0');
+  document.getElementById('h-mm').textContent = String(mm).padStart(2,'0');
+  document.getElementById('h-ss').textContent = String(ss).padStart(2,'0');
+  document.getElementById('day-val').textContent = 'DAY ' + day;
+}
+setInterval(updateCounter, 1000);
+updateCounter();
+
+// ─────────────────────────────────────────────
+// GLOBE
+// ─────────────────────────────────────────────
+let currentTheater = 'all';
+let globeInitialized = false;
+
+function shipColor(s) {
+  if (s.type === 'CVN')  return '#F59E0B';
+  if (s.type === 'SSGN' || s.type === 'ESB') return '#7C3AED';
+  if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return '#059669';
+  return s.theater === 'CENTCOM' ? '#DC2626' : '#2563EB';
+}
+function shipSize(s) {
+  if (s.type === 'CVN')  return 16;
+  if (s.type === 'LCC')  return 12;
+  if (s.type === 'SSGN') return 11;
+  if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return 8;
+  return 10;
+}
+function shipSymbol(s) {
+  if (s.type === 'CVN')  return 'star';
+  if (s.type === 'SSGN') return 'triangle-down';
+  if (['T-AKE','T-AO','T-ATF','T-AGS','T-AGS'].includes(s.type)) return 'diamond';
+  return 'circle';
+}
+function inPortOpacity(s) {
+  return ['In port','Homeport','Port'].some(p => s.status.toLowerCase().includes(p.toLowerCase())) ? 0.5 : 1.0;
+}
+
+function buildGlobeTraces(theater) {
+  const filtered = theater === 'all' ? SHIPS : SHIPS.filter(s => s.theater === theater);
+  document.getElementById('asset-count').textContent = filtered.length + ' ASSETS';
+
+  const trace = {
+    type: 'scattergeo',
+    mode: 'markers+text',
+    lat: filtered.map(s => s.lat),
+    lon: filtered.map(s => s.lon),
+    text: filtered.map(s => s.hull),
+    textposition: filtered.map(s => 'top center'),
+    textfont: { size: 8, color: '#475569', family: "'JetBrains Mono', monospace" },
+    hovertemplate: filtered.map(s =>
+      `<b>${s.name}</b><br>${s.hull} · ${s.type}<br>📍 ${s.loc}<br>${s.status}<extra></extra>`
+    ),
+    marker: {
+      size: filtered.map(s => shipSize(s)),
+      color: filtered.map(s => shipColor(s)),
+      symbol: filtered.map(s => shipSymbol(s)),
+      opacity: filtered.map(s => inPortOpacity(s)),
+      line: { width: filtered.map(s => s.type === 'CVN' ? 2 : 0.5), color: '#FFFFFF' },
+    },
+    showlegend: false,
+  };
+  return [trace];
+}
+
+function initGlobe() {
+  const layout = {
+    margin: { t: 0, b: 0, l: 0, r: 0 },
+    paper_bgcolor: '#FFFFFF',
+    geo: {
+      projection: { type: 'natural earth', scale: 1.6 },
+      center: { lat: 30, lon: 35 },
+      lataxis: { range: [0, 60] },
+      lonaxis: { range: [-20, 80] },
+      showland: true,
+      landcolor: '#F1F5F9',
+      showocean: true,
+      oceancolor: '#EFF6FF',
+      showrivers: false,
+      showcountries: true,
+      countrycolor: '#CBD5E1',
+      showcoastlines: true,
+      coastlinecolor: '#94A3B8',
+      bgcolor: '#FFFFFF',
+      framecolor: '#E2E8F0',
+      showframe: true,
+    },
+    dragmode: 'pan',
+    clickmode: 'event',
+  };
+
+  const config = {
+    displayModeBar: false,
+    responsive: true,
+    scrollZoom: true,
+  };
+
+  Plotly.newPlot('globe', buildGlobeTraces('all'), layout, config);
+  globeInitialized = true;
+
+  // Tooltip on hover
+  document.getElementById('globe').on('plotly_hover', function(d) {
+    const pt = d.points[0];
+    const s = SHIPS.find(x => x.hull === pt.text);
+    if (!s) return;
+    const tip = document.getElementById('ship-tooltip');
+    tip.innerHTML = `<div class="tip-name">${s.name}</div>
+      <div class="tip-hull">${s.hull} · ${s.type} · ${s.cls}</div>
+      <div class="tip-loc">📍 ${s.loc}</div>
+      <div class="tip-type">${s.status}</div>`;
+    tip.style.display = 'block';
+    tip.style.left = (d.event.clientX + 14) + 'px';
+    tip.style.top  = (d.event.clientY - 10) + 'px';
+  });
+  document.getElementById('globe').on('plotly_unhover', function() {
+    document.getElementById('ship-tooltip').style.display = 'none';
+  });
+}
+
+function filterTheater(theater, btn) {
+  currentTheater = theater;
+  document.querySelectorAll('#panel-globe .flt-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  if (globeInitialized) {
+    Plotly.react('globe', buildGlobeTraces(theater));
+  }
+}
+
+// ─────────────────────────────────────────────
+// NEWS FEED
+// ─────────────────────────────────────────────
+let allArticles = [];
+let activeSource = 'all';
+
+function passesFilter(a) {
+  const txt = (a.title + ' ' + a.desc).toLowerCase();
+  return NEWS_KEYWORDS.some(kw => txt.includes(kw));
+}
+
+function timeAgo(dateStr) {
+  try {
+    const d = new Date(dateStr);
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 60)   return 'just now';
+    if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+    if (diff < 86400)return Math.floor(diff/3600) + 'h ago';
+    return Math.floor(diff/86400) + 'd ago';
+  } catch { return ''; }
+}
+
+async function fetchOneFeed(feed) {
+  const proxy = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feed.url);
+  const res = await fetch(proxy, { signal: AbortSignal.timeout(12000) });
+  const json = await res.json();
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(json.contents, 'text/xml');
+  const items = xml.querySelectorAll('item');
+  return Array.from(items).map(item => {
+    const link = item.querySelector('link')?.textContent?.trim()
+               || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim()
+               || '';
+    const desc = item.querySelector('description')?.textContent || '';
+    return {
+      title: item.querySelector('title')?.textContent?.trim() || '',
+      link,
+      desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 200),
+      pubDate: item.querySelector('pubDate')?.textContent?.trim()
+             || item.querySelector('date')?.textContent?.trim() || '',
+      source: feed.name,
+    };
+  });
+}
+
+function renderNews(articles) {
+  const body = document.getElementById('news-body');
+  const toShow = activeSource === 'all'
+    ? articles
+    : articles.filter(a => a.source === activeSource);
+
+  if (!toShow.length) {
+    body.innerHTML = '<div class="state-msg"><div class="icon">📭</div>No matching articles</div>';
+    return;
+  }
+
+  body.innerHTML = toShow.map(a => `
+    <div class="article" onclick="window.open('${a.link}','_blank')">
+      <div class="article-top">
+        <span class="article-source">${a.source}</span>
+        <span class="article-time">${timeAgo(a.pubDate)}</span>
+      </div>
+      <div class="article-title">${a.title}</div>
+      ${a.desc ? `<div class="article-desc">${a.desc}</div>` : ''}
+    </div>`).join('');
+}
+
+function filterNews(src, btn) {
+  activeSource = src;
+  document.querySelectorAll('#src-filters .flt-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderNews(allArticles);
+}
+
+async function fetchAllNews() {
+  document.getElementById('loading-news').style.display = 'block';
+  const results = await Promise.allSettled(RSS_FEEDS.map(fetchOneFeed));
+
+  const sources = new Set();
+  allArticles = [];
+
+  results.forEach((r, i) => {
+    if (r.status === 'fulfilled') {
+      const filtered = r.value.filter(passesFilter);
+      filtered.forEach(a => sources.add(a.source));
+      allArticles.push(...filtered);
+    }
+  });
+
+  // Sort by date desc
+  allArticles.sort((a, b) => {
+    try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
+  });
+
+  // Build source filter buttons
+  const row = document.getElementById('src-filters');
+  row.innerHTML = `<button class="flt-btn active" onclick="filterNews('all',this)">All</button>`;
+  [...sources].sort().forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'flt-btn';
+    btn.textContent = s;
+    btn.onclick = function() { filterNews(s, this); };
+    row.appendChild(btn);
+  });
+
+  document.getElementById('loading-news').style.display = 'none';
+  renderNews(allArticles);
+}
+
+// ─────────────────────────────────────────────
+// DVIDS
+// ─────────────────────────────────────────────
+function renderDVIDS() {
+  const body = document.getElementById('dvids-body');
+  document.getElementById('loading-dvids').style.display = 'none';
+
+  if (!DVIDS_DATA || !DVIDS_DATA.length) {
+    body.innerHTML = `<div class="state-msg">
+      <div class="icon">🛡️</div>
+      <div>DoD content updates at 06:00, 12:00, 24:00 ET</div>
+      <div style="margin-top:6px;font-size:10px;color:var(--text-3)">Powered by DVIDS API</div>
+    </div>`;
+    return;
+  }
+
+  body.innerHTML = DVIDS_DATA.map(item => {
+    const theater = (item.commands || []).includes('CENTCOM') ? 'centcom'
+                  : (item.commands || []).includes('EUCOM') ? 'eucom' : 'joint';
+    return `<div class="dvids-item" onclick="window.open('${item.url}','_blank')">
+      <div class="dvids-top">
+        <span class="badge badge-${theater}">${theater.toUpperCase()}</span>
+        <span class="article-time">${timeAgo(item.timestamp)}</span>
+      </div>
+      <div class="dvids-title">${item.title}</div>
+      <div class="dvids-meta">
+        <span class="dvids-unit">${item.unit_name || ''}</span>
+        ${item.location_display ? `· <span>${item.location_display}</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────
+// OSINT ACCOUNTS
+// ─────────────────────────────────────────────
+function renderOSINT() {
+  const body = document.getElementById('osint-body');
+  body.innerHTML = OSINT_ACCOUNTS.map(a => {
+    const initials = a.handle.replace('@','').substring(0,2).toUpperCase();
+    return `<a class="osint-account" href="${a.url}" target="_blank" rel="noopener">
+      <div class="osint-avatar">${initials}</div>
+      <div class="osint-info">
+        <div class="osint-handle">${a.handle}</div>
+        <div class="osint-desc">${a.desc}</div>
+      </div>
+      <div class="osint-link">↗</div>
+    </a>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────
+// REFRESH
+// ─────────────────────────────────────────────
+function setLastUpdated() {
+  const now = new Date();
+  const t = now.toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', timeZone:'America/New_York', hour12:false });
+  const d = now.toLocaleDateString('en-US', { month:'short', day:'numeric', timeZone:'America/New_York' });
+  document.getElementById('last-updated').textContent = d + ' · ' + t + ' ET';
+}
+
+async function refreshAll() {
+  const btn = document.getElementById('refresh-btn');
+  const icon = document.getElementById('refresh-icon');
+  btn.classList.add('loading');
+  icon.textContent = '⟳';
+  btn.querySelector('span:last-child') && (btn.lastChild.textContent = ' REFRESHING…');
+
+  try {
+    await fetchAllNews();
+  } catch(e) {
+    console.warn('News fetch error:', e);
+  }
+
+  setLastUpdated();
+  btn.classList.remove('loading');
+  icon.textContent = '↻';
+}
+
+// ─────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────
+(function init() {
+  initGlobe();
+  renderDVIDS();
+  renderOSINT();
+  refreshAll();
+})();
+
+// Globe must resize with panel
+window.addEventListener('resize', () => {
+  if (globeInitialized) Plotly.relayout('globe', {});
+});
+</script>
+</body>
+</html>
