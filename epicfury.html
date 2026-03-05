@@ -1058,7 +1058,22 @@ async function refreshAll() {
 // INIT
 // ─────────────────────────────────────────────
 (function init() {
-  // Globe init fires from Plotly onload (see bottom of body)
+  // Load server-side cached news first (instant display, no live fetch needed)
+  if (typeof CACHED_NEWS_DATA !== 'undefined' && CACHED_NEWS_DATA.length) {
+    allArticles = CACHED_NEWS_DATA;
+    renderNews(allArticles);
+    const cachedSources = [...new Set(CACHED_NEWS_DATA.map(a => a.source))].sort();
+    const row = document.getElementById('src-filters');
+    row.innerHTML = '<button class="flt-btn active" onclick="filterNews(\'all\',this)">All</button>';
+    cachedSources.forEach(s => {
+      const b = document.createElement('button');
+      b.className = 'flt-btn'; b.textContent = s;
+      b.onclick = function() { filterNews(s, this); };
+      row.appendChild(b);
+    });
+    document.getElementById('loading-news').style.display = 'none';
+  }
+  // Globe init fires from Plotly onload at bottom of body (non-blocking)
   renderDVIDS();
   renderOSINT();
   refreshAll();
