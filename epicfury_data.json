@@ -1,9 +1,69 @@
 {
-  "generated": "2026-03-06T11:37:02.914339+00:00",
+  "generated": "2026-03-06T17:27:12.951379+00:00",
   "news_count": 0,
-  "dvids_count": 17,
+  "dvids_count": 21,
   "news": [],
   "dvids": [
+    {
+      "id": "video:998342",
+      "title": "USS Abraham Lincoln supports Operation Epic Fury",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN-72) conducts flight operations in support of Operation Epic Fury, March 4, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-06T12:53:31+00:00",
+      "url": "https://www.dvidshub.net/video/998342/uss-abraham-lincoln-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998352",
+      "title": "USS Bulkeley (DDG 84) supports Operation Epic Fury",
+      "desc": "Arleigh Burke-class guided missile destroyer USS Bulkeley (DDG 84) fires Tomahawk Land Attack Missiles in support of Operation Epic Fury, March 4, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-06T12:51:14+00:00",
+      "url": "https://www.dvidshub.net/video/998352/uss-bulkeley-ddg-84-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998321",
+      "title": "USS Thomas Hudner supports Operation Epic Fury",
+      "desc": "USS Thomas Hudner (DDG-116) fires Tomahawk Land Attack Missiles in support of Operation Epic Fury, March 4, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-06T12:48:30+00:00",
+      "url": "https://www.dvidshub.net/video/998321/uss-thomas-hudner-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:998343",
+      "title": "USS Abraham Lincoln (CVN 72) supports Operation Epic Fury",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln supports Operation Epic Fury, March 4, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-06T12:45:49+00:00",
+      "url": "https://www.dvidshub.net/video/998343/uss-abraham-lincoln-cvn-72-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:998453",
       "title": "Hegseth, Centcom Commander Brief Press",
@@ -13,66 +73,6 @@
       "unit_name": "War.gov",
       "timestamp": "2026-03-05T23:28:05+00:00",
       "url": "https://www.dvidshub.net/video/998453/hegseth-centcom-commander-brief-press",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:559488",
-      "title": "Crucial EFAC Assistance Eases Transition for Evacuated Military Families",
-      "desc": "Naval District Washington (NDW) is providing crucial support services for American citizens returning to the United States after the state department began evacuating non‑emergency U.S. government personnel and their families from the Middle East. The evacuations follow the launch of U.S. combat ope",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "timestamp": "2026-03-05T20:41:38+00:00",
-      "url": "https://www.dvidshub.net/news/559488/crucial-efac-assistance-eases-transition-evacuated-military-families",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998350",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:09+00:00",
-      "url": "https://www.dvidshub.net/video/998350/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998349",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:08+00:00",
-      "url": "https://www.dvidshub.net/video/998349/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998319",
-      "title": "B-1B Lancers return from CONUS-to-CONUS mission",
-      "desc": "U.S. Air Force B-1B Lancers return from a CONUS-to CONUS mission in support of Operation Epic Fury, March 4, 2026. (U.S. Air Force video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:19:22+00:00",
-      "url": "https://www.dvidshub.net/video/998319/b-1b-lancers-return-conus-conus-mission",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
