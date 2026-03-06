@@ -1,9 +1,39 @@
 {
-  "generated": "2026-03-05T19:48:27.788569+00:00",
+  "generated": "2026-03-06T05:44:06.414220+00:00",
   "news_count": 0,
-  "dvids_count": 20,
+  "dvids_count": 17,
   "news": [],
   "dvids": [
+    {
+      "id": "video:998453",
+      "title": "Hegseth, Centcom Commander Brief Press",
+      "desc": "Secretary of War Pete Hegseth and Navy Adm. Brad Cooper, commander of U.S. Central Command, conduct a news conference at U.S. Central Command in Tampa, Fla., March 5, 2026.",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-03-05T23:28:05+00:00",
+      "url": "https://www.dvidshub.net/video/998453/hegseth-centcom-commander-brief-press",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:559488",
+      "title": "Crucial EFAC Assistance Eases Transition for Evacuated Military Families",
+      "desc": "Naval District Washington (NDW) is providing crucial support services for American citizens returning to the United States after the state department began evacuating non‑emergency U.S. government personnel and their families from the Middle East. The evacuations follow the launch of U.S. combat ope",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval District Washington",
+      "timestamp": "2026-03-05T20:41:38+00:00",
+      "url": "https://www.dvidshub.net/news/559488/crucial-efac-assistance-eases-transition-evacuated-military-families",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:998350",
       "title": "U.S. Forces Conduct Precision Strikes in Iran",
@@ -28,36 +58,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-03-05T16:25:08+00:00",
       "url": "https://www.dvidshub.net/video/998349/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998348",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:08+00:00",
-      "url": "https://www.dvidshub.net/video/998348/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998347",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:07+00:00",
-      "url": "https://www.dvidshub.net/video/998347/us-forces-conduct-precision-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
