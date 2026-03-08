@@ -1,18 +1,18 @@
 {
-  "generated": "2026-03-07T17:13:23.792467+00:00",
+  "generated": "2026-03-08T05:42:18.806521+00:00",
   "news_count": 0,
-  "dvids_count": 29,
+  "dvids_count": 24,
   "news": [],
   "dvids": [
     {
-      "id": "image:9552659",
-      "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "A U.S. Air Force aircrew member climbs the ladder of a...",
+      "id": "image:9554543",
+      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
+      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-06T19:43:56+00:00",
-      "url": "https://www.dvidshub.net/image/9552659/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-08T02:22:11+00:00",
+      "url": "https://www.dvidshub.net/image/9554543/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9552673",
-      "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "A U.S. Air Force B-1B Lancer prepares to taxi prior to...",
+      "id": "image:9554545",
+      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
+      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-06T19:43:05+00:00",
-      "url": "https://www.dvidshub.net/image/9552673/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-08T02:21:51+00:00",
+      "url": "https://www.dvidshub.net/image/9554545/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9552679",
-      "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "A U.S. Air Force maintainer conducts pre-flight...",
+      "id": "image:9554544",
+      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
+      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-06T19:42:11+00:00",
-      "url": "https://www.dvidshub.net/image/9552679/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-08T02:21:26+00:00",
+      "url": "https://www.dvidshub.net/image/9554544/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9552688",
-      "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "U.S. Air Force B-1B Lancers taxi prior to take off in...",
-      "type": "image",
+      "id": "video:998712",
+      "title": "USS Gerald R. Ford supports Operation Epic Fury",
+      "desc": "USS Gerald R. Ford conducts flight operations in support of Operation Epic Fury. Operation Epic Fury involves the largest regional concentration of American military firepower in a generation. (U.S. Navy Video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-06T19:41:04+00:00",
-      "url": "https://www.dvidshub.net/image/9552688/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-08T01:30:52+00:00",
+      "url": "https://www.dvidshub.net/video/998712/uss-gerald-r-ford-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9552698",
+      "id": "video:998661",
       "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "A U.S. Air Force B-1B Lancer takes off in support of...",
-      "type": "image",
+      "desc": "U.S. Air Force Airmen from the 34th and 37th Bomb Squadron prepare and deploy B-1B Lancer jets in support of Operation Epic Fury, March 6, 2026. (U.S. Air Force video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-06T19:39:21+00:00",
-      "url": "https://www.dvidshub.net/image/9552698/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-07T17:20:42+00:00",
+      "url": "https://www.dvidshub.net/video/998661/b-1b-lancers-support-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
