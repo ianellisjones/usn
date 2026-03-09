@@ -1,36 +1,21 @@
 {
-  "generated": "2026-03-09T11:39:07.068147+00:00",
+  "generated": "2026-03-09T17:40:40.969709+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "image:9555212",
-      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
-      "type": "image",
+      "id": "video:998831",
+      "title": "Operation Epic Fury",
+      "desc": "President Donald J. Trump and Secretary of War Pete Hegseth speak on Operation Epic Fury Mar. 7, 2026. (Courtesy Video)",
+      "type": "video",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T19:01:57+00:00",
-      "url": "https://www.dvidshub.net/image/9555212/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-09T12:51:21+00:00",
+      "url": "https://www.dvidshub.net/video/998831/operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9555194",
-      "title": "USS John Finn (DDG 113) supports Operation Epic Fury",
-      "desc": "A U.S. Navy Sailor stands watch in the combat...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T19:00:29+00:00",
-      "url": "https://www.dvidshub.net/image/9555194/uss-john-finn-ddg-113-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
