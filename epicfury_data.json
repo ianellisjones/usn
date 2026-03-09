@@ -1,18 +1,18 @@
 {
-  "generated": "2026-03-08T17:16:02.166375+00:00",
+  "generated": "2026-03-09T05:57:27.311745+00:00",
   "news_count": 0,
-  "dvids_count": 24,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
-      "id": "image:9554543",
+      "id": "image:9555212",
       "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
       "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T02:22:11+00:00",
-      "url": "https://www.dvidshub.net/image/9554543/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
+      "timestamp": "2026-03-08T19:01:57+00:00",
+      "url": "https://www.dvidshub.net/image/9555212/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9554545",
-      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
+      "id": "image:9555194",
+      "title": "USS John Finn (DDG 113) supports Operation Epic Fury",
+      "desc": "A U.S. Navy Sailor stands watch in the combat...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T02:21:51+00:00",
-      "url": "https://www.dvidshub.net/image/9554545/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
+      "timestamp": "2026-03-08T19:00:29+00:00",
+      "url": "https://www.dvidshub.net/image/9555194/uss-john-finn-ddg-113-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,44 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9554544",
-      "title": "USS Delbert D. Black (DDG 119) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T02:21:26+00:00",
-      "url": "https://www.dvidshub.net/image/9554544/uss-delbert-d-black-ddg-119-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998712",
-      "title": "USS Gerald R. Ford supports Operation Epic Fury",
-      "desc": "USS Gerald R. Ford conducts flight operations in support of Operation Epic Fury. Operation Epic Fury involves the largest regional concentration of American military firepower in a generation. (U.S. Navy Video)",
+      "id": "video:998765",
+      "title": "B-1B bombers support Operation Epic Fury",
+      "desc": "B-1B Lancers deploy in support of Operation Epic Fury, March 7, 2026. (U.S. Air Force video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T01:30:52+00:00",
-      "url": "https://www.dvidshub.net/video/998712/uss-gerald-r-ford-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998661",
-      "title": "B-1B Lancers support Operation Epic Fury",
-      "desc": "U.S. Air Force Airmen from the 34th and 37th Bomb Squadron prepare and deploy B-1B Lancer jets in support of Operation Epic Fury, March 6, 2026. (U.S. Air Force video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-07T17:20:42+00:00",
-      "url": "https://www.dvidshub.net/video/998661/b-1b-lancers-support-operation-epic-fury",
+      "timestamp": "2026-03-08T18:52:01+00:00",
+      "url": "https://www.dvidshub.net/video/998765/b-1b-bombers-support-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
