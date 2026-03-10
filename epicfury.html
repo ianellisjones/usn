@@ -193,6 +193,7 @@ body {
   padding: 8px;
   overflow: hidden;
 }
+#main > * { min-width: 0; min-height: 0; }
 
 /* ── PANELS ── */
 .panel {
@@ -342,11 +343,14 @@ body {
   flex-direction: column;
   overflow: hidden;
   min-height: 0;
+  background: #0a0a0f;
 }
 #globe {
   flex: 1;
   min-height: 0;
-  background: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  background: #0a0a0f;
 }
 /* ── SITREP ── */
 #sitrep-section {
@@ -939,7 +943,7 @@ function buildGlobeTraces(theater) {
     lon: filtered.map(s => s.lon),
     text: filtered.map(s => s.hull),
     textposition: filtered.map(() => 'top center'),
-    textfont: { size: 7, color: 'rgba(255,255,255,0.8)', family: "'JetBrains Mono', monospace" },
+    textfont: { size: 8, color: '#00ff88', family: "'JetBrains Mono', monospace" },
     hovertemplate: filtered.map(s =>
       `<b>${s.name}</b><br>${s.hull} · ${s.type}<br>${s.loc}<br>${s.status}<extra></extra>`
     ),
@@ -958,28 +962,22 @@ function buildGlobeTraces(theater) {
 
 const GLOBE_LAYOUT = {
   margin: { t: 0, b: 0, l: 0, r: 0 },
-  paper_bgcolor: '#FFFFFF',
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor:  'rgba(0,0,0,0)',
   geo: {
     projection: { type: 'orthographic', rotation: { lon: 38, lat: 28, roll: 0 } },
-    showland: true,
-    landcolor: '#1e1e2e',
-    showocean: true,
-    oceancolor: '#111118',
-    showlakes: false,
-    showrivers: false,
-    showcountries: true,
-    countrycolor: '#3a3a5a',
-    countrywidth: 0.5,
-    showcoastlines: true,
-    coastlinecolor: '#4a4a6a',
-    coastlinewidth: 0.8,
-    bgcolor: '#FFFFFF',
-    showframe: false,
-    lonaxis: { showgrid: true, gridcolor: 'rgba(255,255,255,0.05)', gridwidth: 0.5 },
-    lataxis: { showgrid: true, gridcolor: 'rgba(255,255,255,0.05)', gridwidth: 0.5 },
+    showland: true,      landcolor: '#1a1a2e',
+    showocean: true,     oceancolor: '#0a0a0f',
+    showlakes: false,    showrivers: false,
+    showcountries: true, countrycolor: '#2a2a4e', countrywidth: 0.5,
+    showcoastlines: true, coastlinecolor: '#00ff88', coastlinewidth: 0.8,
+    showframe: false,    bgcolor: 'rgba(0,0,0,0)',
+    lonaxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
+    lataxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
   },
   dragmode: 'pan',
   clickmode: 'event',
+  showlegend: false,
 };
 
 const GLOBE_CONFIG = {
@@ -1071,31 +1069,46 @@ const CORS_PROXIES = [
 ];
 
 async function fetchOneFeed(feed) {
-  for (const proxy of CORS_PROXIES) {
-    try {
-      const res = await fetch(proxy.wrap(feed.url), { signal: AbortSignal.timeout(12000) });
-      if (!res.ok) continue;
-      const raw = proxy.json ? (await res.json()).contents : await res.text();
-      if (!raw) continue;
-      const xml = new DOMParser().parseFromString(raw, 'text/xml');
-      const items = xml.querySelectorAll('item');
-      if (!items.length) continue;
-      return Array.from(items).map(item => {
-        const link = item.querySelector('link')?.textContent?.trim()
-                   || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim() || '';
-        const desc = item.querySelector('description')?.textContent || '';
-        return {
-          title: item.querySelector('title')?.textContent?.trim() || '',
-          link,
-          desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 220),
-          pubDate: item.querySelector('pubDate')?.textContent?.trim()
-                 || item.querySelector('date')?.textContent?.trim() || '',
-          source: feed.name,
-        };
-      });
-    } catch { /* try next proxy */ }
+  // Only try first proxy — fail fast (6s) rather than double-attempting slowly
+  const proxy = CORS_PROXIES[0];
+  try {
+    const res = await fetch(proxy.wrap(feed.url), { signal: AbortSignal.timeout(6000) });
+    if (!res.ok) throw new Error('bad status');
+    const raw = (await res.json()).contents;
+    if (!raw) throw new Error('empty');
+    const xml = new DOMParser().parseFromString(raw, 'text/xml');
+    const items = xml.querySelectorAll('item');
+    if (!items.length) throw new Error('no items');
+    return Array.from(items).map(item => {
+      const link = item.querySelector('link')?.textContent?.trim()
+                 || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim() || '';
+      const desc = item.querySelector('description')?.textContent || '';
+      return {
+        title: item.querySelector('title')?.textContent?.trim() || '',
+        link,
+        desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 220),
+        pubDate: item.querySelector('pubDate')?.textContent?.trim()
+               || item.querySelector('date')?.textContent?.trim() || '',
+        source: feed.name,
+      };
+    });
+  } catch {
+    return [];
   }
-  return [];
+}
+
+function rebuildFilters(articles) {
+  const sources = new Set(articles.map(a => a.source));
+  const row = document.getElementById('src-filters');
+  const active = row.querySelector('.flt-btn.active')?.textContent || 'All';
+  row.innerHTML = `<button class="flt-btn${active==='All'?' active':''}" onclick="filterNews('all',this)">All</button>`;
+  [...sources].sort().forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'flt-btn' + (active===s?' active':'');
+    btn.textContent = s;
+    btn.onclick = function() { filterNews(s, this); };
+    row.appendChild(btn);
+  });
 }
 
 function renderNews(articles) {
@@ -1129,38 +1142,29 @@ function filterNews(src, btn) {
 
 async function fetchAllNews() {
   document.getElementById('loading-news').style.display = 'block';
-  const results = await Promise.allSettled(RSS_FEEDS.map(fetchOneFeed));
-
-  const sources = new Set();
   allArticles = [];
 
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      const filtered = r.value.filter(passesFilter);
-      filtered.forEach(a => sources.add(a.source));
+  // Progressive: render as each feed resolves (fast feeds appear immediately)
+  const promises = RSS_FEEDS.map(feed =>
+    fetchOneFeed(feed).then(items => {
+      const filtered = items.filter(passesFilter);
+      if (!filtered.length) return;
       allArticles.push(...filtered);
-    }
-  });
+      allArticles.sort((a, b) => {
+        try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
+      });
+      rebuildFilters(allArticles);
+      renderNews(allArticles);
+      renderSITREP(allArticles);
+    }).catch(() => {})
+  );
 
-  // Sort by date desc
-  allArticles.sort((a, b) => {
-    try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
-  });
-
-  // Build source filter buttons
-  const row = document.getElementById('src-filters');
-  row.innerHTML = `<button class="flt-btn active" onclick="filterNews('all',this)">All</button>`;
-  [...sources].sort().forEach(s => {
-    const btn = document.createElement('button');
-    btn.className = 'flt-btn';
-    btn.textContent = s;
-    btn.onclick = function() { filterNews(s, this); };
-    row.appendChild(btn);
-  });
-
+  await Promise.allSettled(promises);
   document.getElementById('loading-news').style.display = 'none';
-  renderNews(allArticles);
-  renderSITREP(allArticles);
+  if (!allArticles.length) {
+    document.getElementById('news-body').innerHTML =
+      '<div class="state-msg">No articles loaded — check network or try refreshing</div>';
+  }
 }
 
 // ─────────────────────────────────────────────
@@ -1360,18 +1364,10 @@ async function refreshAll() {
   // Load server-side cached news first (instant display, no live fetch needed)
   if (typeof CACHED_NEWS_DATA !== 'undefined' && CACHED_NEWS_DATA.length) {
     allArticles = CACHED_NEWS_DATA;
+    rebuildFilters(allArticles);
     renderNews(allArticles);
-    const cachedSources = [...new Set(CACHED_NEWS_DATA.map(a => a.source))].sort();
-    const row = document.getElementById('src-filters');
-    row.innerHTML = '<button class="flt-btn active" onclick="filterNews(\'all\',this)">All</button>';
-    cachedSources.forEach(s => {
-      const b = document.createElement('button');
-      b.className = 'flt-btn'; b.textContent = s;
-      b.onclick = function() { filterNews(s, this); };
-      row.appendChild(b);
-    });
-    document.getElementById('loading-news').style.display = 'none';
     renderSITREP(allArticles);
+    document.getElementById('loading-news').style.display = 'none';
   }
   // Globe init fires from Plotly onload at bottom of body (non-blocking)
   renderDVIDS();
