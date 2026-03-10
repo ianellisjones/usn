@@ -1,33 +1,18 @@
 {
-  "generated": "2026-03-09T17:40:40.969709+00:00",
+  "generated": "2026-03-10T05:44:44.321324+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "video:998831",
-      "title": "Operation Epic Fury",
-      "desc": "President Donald J. Trump and Secretary of War Pete Hegseth speak on Operation Epic Fury Mar. 7, 2026. (Courtesy Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-09T12:51:21+00:00",
-      "url": "https://www.dvidshub.net/video/998831/operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998765",
-      "title": "B-1B bombers support Operation Epic Fury",
-      "desc": "B-1B Lancers deploy in support of Operation Epic Fury, March 7, 2026. (U.S. Air Force video)",
+      "id": "video:998861",
+      "title": "Frank E. Petersen Jr. Supports Operation Epic Fury",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Frank E. Petersen Jr. (DDG 121) fires a Tomahawk Land Attack Missile (TLAM) during operations in support of Operation Epic Fury in the U.S. Central Command area of responsibility, March 9, 2026. (U.S. Navy video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-08T18:52:01+00:00",
-      "url": "https://www.dvidshub.net/video/998765/b-1b-bombers-support-operation-epic-fury",
+      "timestamp": "2026-03-09T21:36:18+00:00",
+      "url": "https://www.dvidshub.net/video/998861/frank-e-petersen-jr-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
