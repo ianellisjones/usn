@@ -1,9 +1,54 @@
 {
-  "generated": "2026-03-10T11:39:32.243037+00:00",
+  "generated": "2026-03-10T17:39:23.949495+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9558720",
+      "title": "Operation Epic Fury Press Briefing",
+      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
+      "timestamp": "2026-03-10T14:51:30+00:00",
+      "url": "https://www.dvidshub.net/image/9558720/operation-epic-fury-press-briefing",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9558718",
+      "title": "Operation Epic Fury Press Briefing",
+      "desc": "Secretary of War Pete Hegseth and the Chairman of the...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
+      "timestamp": "2026-03-10T14:51:30+00:00",
+      "url": "https://www.dvidshub.net/image/9558718/operation-epic-fury-press-briefing",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9558529",
+      "title": "Operation Epic Fury First 10 Days",
+      "desc": "Map detailing the first 10 days of Operation Epic Fury....",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
+      "timestamp": "2026-03-10T13:41:07+00:00",
+      "url": "https://www.dvidshub.net/image/9558529/operation-epic-fury-first-10-days",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:998861",
       "title": "Frank E. Petersen Jr. Supports Operation Epic Fury",
