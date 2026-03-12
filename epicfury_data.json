@@ -1,9 +1,54 @@
 {
-  "generated": "2026-03-12T11:37:27.192751+00:00",
+  "generated": "2026-03-12T17:42:00.628780+00:00",
   "news_count": 0,
   "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:999349",
+      "title": "Operation Epic Fury",
+      "desc": "Secretary of War Pete Hegseth speak on Operation Epic at the Pentagon, Washington, D.C., Mar. 10, 2026. (DoW video by U.S. Army Staff Sgt. Dennis Buzard)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-12T17:39:54+00:00",
+      "url": "https://www.dvidshub.net/video/999349/operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:999341",
+      "title": "Eucom, Transcom Commanders Testify on Budget Request",
+      "desc": "Air Force Gen. Alexus Grynkewich, commander of U.S. European Command and Supreme Allied Commander Europe, and Air Force Gen. Randall Reed, commander of U.S. Transportation Command, testify during a U.S. Senate Committee on Armed Services hearing in Washington, March 12, 2026. The topics include Euco",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-03-12T17:03:06+00:00",
+      "url": "https://www.dvidshub.net/video/999341/eucom-transcom-commanders-testify-budget-request",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:560369",
+      "title": "Statement on USS Gerald R. Ford",
+      "desc": "On March 12, USS Gerald R. Ford (CVN 78) experienced a fire that originated in the ship’s main laundry spaces. The cause of the fire was not combat-related and is contained.\n\nThere is no damage to the ship’s propulsion plant, and the aircraft carrier remains fully operational.\n\nTwo Sailors are curre",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-03-12T14:32:24+00:00",
+      "url": "https://www.dvidshub.net/news/560369/statement-uss-gerald-r-ford",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:999119",
       "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
@@ -16,51 +61,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9558720",
-      "title": "Operation Epic Fury Press Briefing",
-      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
-      "timestamp": "2026-03-10T14:51:30+00:00",
-      "url": "https://www.dvidshub.net/image/9558720/operation-epic-fury-press-briefing",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9558718",
-      "title": "Operation Epic Fury Press Briefing",
-      "desc": "Secretary of War Pete Hegseth and the Chairman of the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
-      "timestamp": "2026-03-10T14:51:30+00:00",
-      "url": "https://www.dvidshub.net/image/9558718/operation-epic-fury-press-briefing",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9558529",
-      "title": "Operation Epic Fury First 10 Days",
-      "desc": "Map detailing the first 10 days of Operation Epic Fury....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
-      "timestamp": "2026-03-10T13:41:07+00:00",
-      "url": "https://www.dvidshub.net/image/9558529/operation-epic-fury-first-10-days",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
