@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-11T17:41:57.240133+00:00",
+  "generated": "2026-03-12T05:50:54.133741+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
@@ -61,21 +61,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998861",
-      "title": "Frank E. Petersen Jr. Supports Operation Epic Fury",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Frank E. Petersen Jr. (DDG 121) fires a Tomahawk Land Attack Missile (TLAM) during operations in support of Operation Epic Fury in the U.S. Central Command area of responsibility, March 9, 2026. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-09T21:36:18+00:00",
-      "url": "https://www.dvidshub.net/video/998861/frank-e-petersen-jr-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
