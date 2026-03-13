@@ -1,21 +1,36 @@
 {
-  "generated": "2026-03-12T17:42:00.628780+00:00",
+  "generated": "2026-03-13T05:48:38.111582+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
     {
-      "id": "video:999349",
-      "title": "Operation Epic Fury",
-      "desc": "Secretary of War Pete Hegseth speak on Operation Epic at the Pentagon, Washington, D.C., Mar. 10, 2026. (DoW video by U.S. Army Staff Sgt. Dennis Buzard)",
-      "type": "video",
+      "id": "image:9562560",
+      "title": "USS Spruance (DDG 111) supports Operation Epic Fury",
+      "desc": "The commanding officer of Arleigh Burke-class...",
+      "type": "image",
       "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-12T17:39:54+00:00",
-      "url": "https://www.dvidshub.net/video/999349/operation-epic-fury",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-12T20:03:05+00:00",
+      "url": "https://www.dvidshub.net/image/9562560/uss-spruance-ddg-111-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:999345",
+      "title": "USS Gerald R. Ford Conducts Flight Operations During Operation Epic Fury",
+      "desc": "The world's largest aircraft carrier, USS Gerald R. Ford (CVN 78), conducts flight operations during Operation Epic Fury, March 8, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-12T19:30:29+00:00",
+      "url": "https://www.dvidshub.net/video/999345/uss-gerald-r-ford-conducts-flight-operations-during-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     },
