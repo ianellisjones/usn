@@ -1,24 +1,9 @@
 {
-  "generated": "2026-03-13T05:48:38.111582+00:00",
+  "generated": "2026-03-13T11:37:55.053790+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9562560",
-      "title": "USS Spruance (DDG 111) supports Operation Epic Fury",
-      "desc": "The commanding officer of Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-12T20:03:05+00:00",
-      "url": "https://www.dvidshub.net/image/9562560/uss-spruance-ddg-111-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:999345",
       "title": "USS Gerald R. Ford Conducts Flight Operations During Operation Epic Fury",
