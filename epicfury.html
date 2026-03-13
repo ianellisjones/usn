@@ -49,14 +49,14 @@ body {
 /* ── HEADER ── */
 #header {
   height: 52px;
-  background: var(--bg-header);
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
   gap: 12px;
   flex-shrink: 0;
-  border-bottom: 1px solid #1E2733;
+  border-bottom: 1px solid var(--border);
 }
 .hd-left {
   display: flex;
@@ -67,7 +67,7 @@ body {
 .hd-op-name {
   font-size: 14px;
   font-weight: 800;
-  color: #F8FAFC;
+  color: var(--text-1);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   line-height: 1;
@@ -75,7 +75,7 @@ body {
 }
 .hd-op-sub {
   font-size: 9px;
-  color: #64748B;
+  color: var(--text-3);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 2px;
@@ -90,8 +90,8 @@ body {
   display: flex;
   align-items: baseline;
   gap: 3px;
-  background: #161B22;
-  border: 1px solid #30363D;
+  background: var(--bg-page);
+  border: 1px solid var(--border-2);
   border-radius: 6px;
   padding: 5px 12px;
 }
@@ -99,14 +99,14 @@ body {
   font-family: var(--mono);
   font-size: 11px;
   font-weight: 600;
-  color: #4ADE80;
+  color: var(--live);
   letter-spacing: 0.05em;
 }
 .h-value {
   font-family: var(--mono);
   font-size: 22px;
   font-weight: 700;
-  color: #4ADE80;
+  color: var(--live);
   letter-spacing: -0.02em;
   min-width: 2ch;
   text-align: center;
@@ -115,20 +115,20 @@ body {
   font-family: var(--mono);
   font-size: 18px;
   font-weight: 700;
-  color: #22C55E;
+  color: var(--live);
   opacity: 0.5;
   line-height: 1;
 }
 .day-badge {
-  background: #161B22;
-  border: 1px solid #30363D;
+  background: var(--bg-page);
+  border: 1px solid var(--border-2);
   border-radius: 6px;
   padding: 5px 14px;
   text-align: center;
 }
 .day-label {
   font-size: 9px;
-  color: #64748B;
+  color: var(--text-3);
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -136,7 +136,7 @@ body {
   font-family: var(--mono);
   font-size: 16px;
   font-weight: 700;
-  color: #F8FAFC;
+  color: var(--text-1);
   letter-spacing: 0.05em;
 }
 .hd-right {
@@ -165,8 +165,8 @@ body {
 }
 .refresh-btn {
   background: transparent;
-  border: 1px solid #30363D;
-  color: #94A3B8;
+  border: 1px solid var(--border-2);
+  color: var(--text-2);
   border-radius: 5px;
   padding: 5px 12px;
   font-size: 11px;
@@ -188,11 +188,12 @@ body {
   flex: 1;
   min-height: 0;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
   padding: 8px;
   overflow: hidden;
 }
+#main > * { min-width: 0; min-height: 0; }
 
 /* ── PANELS ── */
 .panel {
@@ -285,25 +286,37 @@ body {
 
 /* ── NEWS FEED ── */
 .article {
-  padding: 9px 10px;
+  padding: 6px 10px;
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   transition: background 0.1s;
 }
 .article:hover { background: #F8FAFC; }
 .article:last-child { border-bottom: none; }
-.article-top {
+.article-hed {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 3px;
+  align-items: baseline;
+  gap: 4px;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 .article-source {
   font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--centcom);
+  flex-shrink: 0;
+}
+.article-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
 }
 .article-time {
   font-size: 9px;
@@ -311,34 +324,123 @@ body {
   font-family: var(--mono);
   flex-shrink: 0;
 }
-.article-title {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-1);
-  line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-bottom: 2px;
-}
 .article-desc {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-2);
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1px;
 }
 
 /* ── GLOBE ── */
 #panel-globe {
   overflow: hidden;
 }
+#globe-wrap {
+  flex: 0 0 56%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  background: #0a0a0f;
+}
 #globe {
   flex: 1;
   min-height: 0;
+  width: 100%;
+  height: 100%;
+  background: #0a0a0f;
 }
+/* ── SITREP ── */
+#sitrep-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  border-top: 1px solid var(--border);
+}
+#sitrep-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-2) transparent;
+}
+.sitrep-item {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+  line-height: 1.4;
+}
+.sitrep-item:last-child { border-bottom: none; }
+.sitrep-bullet {
+  color: var(--centcom);
+  font-weight: 700;
+  flex-shrink: 0;
+  font-size: 10px;
+}
+.sitrep-source {
+  font-weight: 700;
+  color: var(--centcom);
+  font-size: 9px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-family: var(--mono);
+}
+.sitrep-text {
+  color: var(--text-1);
+  font-size: 11px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sitrep-text:hover { color: var(--eucom); }
+/* ── SHIP CALLOUT ── */
+#ship-callout {
+  position: fixed;
+  background: #FFFFFF;
+  border: 1px solid var(--border-2);
+  border-radius: 8px;
+  padding: 10px 14px;
+  min-width: 200px;
+  max-width: 260px;
+  z-index: 200;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  pointer-events: auto;
+}
+.callout-name { font-size: 13px; font-weight: 700; color: var(--text-1); margin-bottom: 4px; }
+.callout-hull { font-size: 10px; color: var(--text-3); font-family: var(--mono); margin-bottom: 6px; }
+.callout-row { font-size: 11px; color: var(--text-2); padding: 2px 0; }
+.callout-row strong { color: var(--text-1); }
+.callout-close {
+  position: absolute; top: 6px; right: 8px;
+  font-size: 14px; color: var(--text-3); cursor: pointer; line-height: 1;
+}
+.callout-close:hover { color: var(--text-1); }
+/* ── DVIDS CALLOUT ── */
+#dvids-callout {
+  position: fixed;
+  background: #FFFFFF;
+  border: 1px solid var(--border-2);
+  border-radius: 8px;
+  padding: 12px 14px;
+  min-width: 240px;
+  max-width: 320px;
+  z-index: 200;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.dvids-callout-title { font-size: 12px; font-weight: 700; color: var(--text-1); margin-bottom: 6px; line-height: 1.4; }
+.dvids-callout-desc { font-size: 11px; color: var(--text-2); line-height: 1.5; margin-bottom: 8px; }
+.dvids-callout-meta { font-size: 9px; color: var(--text-3); font-family: var(--mono); }
+.dvids-callout-link { font-size: 10px; color: var(--eucom); cursor: pointer; margin-top: 6px; display: block; }
+.dvids-callout-link:hover { text-decoration: underline; }
 .globe-hd-right {
   display: flex;
   align-items: center;
@@ -504,7 +606,7 @@ body {
   color: var(--text-3);
   font-size: 12px;
 }
-.state-msg .icon { font-size: 24px; margin-bottom: 6px; }
+.state-msg .icon { display: none; }
 .loading-bar {
   height: 2px;
   background: linear-gradient(90deg, var(--eucom) 0%, var(--live) 50%, var(--eucom) 100%);
@@ -529,8 +631,8 @@ body {
 ══════════════════════════════════════════════ -->
 <div id="header">
   <div class="hd-left">
-    <div class="hd-op-name">⚡ Operation Epic Fury</div>
-    <div class="hd-op-sub">US–Israel–Iran · Live Operations Dashboard</div>
+    <div class="hd-op-name">Operation Epic Fury</div>
+    <div class="hd-op-sub">US — Israel — Iran · Live Operations Dashboard</div>
   </div>
 
   <div class="hd-center">
@@ -572,31 +674,44 @@ body {
     </div>
     <div id="loading-news" class="loading-bar"></div>
     <div class="panel-body" id="news-body">
-      <div class="state-msg"><div class="icon">📡</div>Fetching intel feeds…</div>
+      <div class="state-msg">Fetching intel feeds...</div>
     </div>
   </div>
 
-  <!-- CENTER: GLOBE -->
+  <!-- CENTER: GLOBE + SITREP -->
   <div class="panel" id="panel-globe">
-    <div class="panel-hd">
-      <div class="panel-title">US Forces — CENTCOM / EUCOM</div>
-      <div class="globe-hd-right">
-        <div class="filter-row">
-          <button class="flt-btn active" onclick="filterTheater('all',this)">All</button>
-          <button class="flt-btn" onclick="filterTheater('CENTCOM',this)">CENTCOM</button>
-          <button class="flt-btn" onclick="filterTheater('EUCOM',this)">EUCOM</button>
+    <!-- Globe section -->
+    <div id="globe-wrap">
+      <div class="panel-hd">
+        <div class="panel-title">US Forces — CENTCOM / EUCOM</div>
+        <div class="globe-hd-right">
+          <div class="filter-row">
+            <button class="flt-btn active" onclick="filterTheater('all',this)">All</button>
+            <button class="flt-btn" onclick="filterTheater('CENTCOM',this)">CENTCOM</button>
+            <button class="flt-btn" onclick="filterTheater('EUCOM',this)">EUCOM</button>
+          </div>
+          <span class="asset-count" id="asset-count">29 ASSETS</span>
         </div>
-        <span class="asset-count" id="asset-count">29 ASSETS</span>
+      </div>
+      <div id="globe"></div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>CVN</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#DC2626"></div>CENTCOM</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div>EUCOM</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#059669"></div>Logistics</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#7C3AED"></div>SSGN/ESB</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#94A3B8; opacity:0.5"></div>In Port</div>
       </div>
     </div>
-    <div id="globe"></div>
-    <div class="legend">
-      <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>Carrier (CVN)</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#DC2626"></div>CENTCOM</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div>EUCOM</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#059669"></div>Logistics</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#7C3AED"></div>SSGN/ESB</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#6B7280"></div>In Port</div>
+    <!-- SITREP section -->
+    <div id="sitrep-section">
+      <div class="panel-hd">
+        <div class="panel-title">SITREP — Latest Developments</div>
+        <div class="last-updated" id="sitrep-updated" style="color:var(--text-3)"></div>
+      </div>
+      <div id="sitrep-body">
+        <div class="state-msg">Fetching intelligence feeds...</div>
+      </div>
     </div>
   </div>
 
@@ -611,7 +726,7 @@ body {
       </div>
       <div id="loading-dvids" class="loading-bar"></div>
       <div class="panel-body" id="dvids-body">
-        <div class="state-msg"><div class="icon">🛡️</div>Loading DoD content…</div>
+        <div class="state-msg">Loading DoD content...</div>
       </div>
     </div>
 
@@ -633,6 +748,14 @@ body {
 </div><!-- /main -->
 
 <div id="ship-tooltip"></div>
+<div id="ship-callout" style="display:none">
+  <div class="callout-close" onclick="document.getElementById('ship-callout').style.display='none'">x</div>
+  <div id="callout-content"></div>
+</div>
+<div id="dvids-callout" style="display:none">
+  <div class="callout-close" onclick="document.getElementById('dvids-callout').style.display='none'">x</div>
+  <div id="dvids-callout-content"></div>
+</div>
 
 <!-- ══════════════════════════════════════════════
      JAVASCRIPT
@@ -665,19 +788,33 @@ const NEWS_KEYWORDS = [
 ];
 
 const RSS_FEEDS = [
+  // Wire / Broadcast
+  { url: 'https://feeds.reuters.com/reuters/worldNews',                              name: 'Reuters' },
   { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',                              name: 'BBC' },
   { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',                   name: 'NYT' },
   { url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',                              name: 'WSJ' },
+  { url: 'https://www.aljazeera.com/xml/rss/all.xml',                                name: 'AJE' },
+  { url: 'https://abcnews.go.com/abcnews/internationalheadlines',                    name: 'ABC' },
+  { url: 'https://www.cbsnews.com/latest/rss/world',                                 name: 'CBS' },
+  // Defense / National Security
   { url: 'https://news.usni.org/feed',                                               name: 'USNI' },
   { url: 'https://www.thedrive.com/the-war-zone/rss',                                name: 'TWZ' },
   { url: 'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml',        name: 'DefNews' },
   { url: 'https://breakingdefense.com/feed/',                                        name: 'BreakDef' },
   { url: 'https://www.militarytimes.com/arc/outboundfeeds/rss/',                     name: 'MilTimes' },
   { url: 'https://taskandpurpose.com/feed/',                                         name: 'T&P' },
-  { url: 'https://foreignpolicy.com/feed/',                                          name: 'FP' },
   { url: 'https://www.stripes.com/news/rss',                                         name: 'S&S' },
-  { url: 'https://www.aljazeera.com/xml/rss/all.xml',                                name: 'AJE' },
-  { url: 'https://feeds.reuters.com/reuters/worldNews',                              name: 'Reuters' },
+  { url: 'https://www.defensedaily.com/feed',                                        name: 'DefDaily' },
+  // Foreign Policy / Geopolitics
+  { url: 'https://foreignpolicy.com/feed/',                                          name: 'FP' },
+  { url: 'https://www.politico.com/rss/politicofeed.xml',                            name: 'Politico' },
+  { url: 'https://feeds.washingtonpost.com/rss/world',                               name: 'WaPo' },
+  { url: 'https://feeds.npr.org/1004/rss.xml',                                       name: 'NPR' },
+  // Regional (Israel / Middle East)
+  { url: 'https://www.timesofisrael.com/feed/',                                      name: 'TOI' },
+  { url: 'https://www.haaretz.com/srv/haaretz-feed.xml',                             name: 'Haaretz' },
+  { url: 'https://www.jpost.com/rss/rssfeedspoliticsandcontroversies.aspx',          name: 'JPost' },
+  { url: 'https://arab.news/rss',                                                    name: 'ArabNews' },
 ];
 
 const CACHED_NEWS_DATA = [];
@@ -809,17 +946,18 @@ function buildGlobeTraces(theater) {
     lat: filtered.map(s => s.lat),
     lon: filtered.map(s => s.lon),
     text: filtered.map(s => s.hull),
-    textposition: filtered.map(s => 'top center'),
-    textfont: { size: 8, color: '#475569', family: "'JetBrains Mono', monospace" },
+    textposition: filtered.map(() => 'top center'),
+    textfont: { size: 8, color: '#00ff88', family: "'JetBrains Mono', monospace" },
     hovertemplate: filtered.map(s =>
-      `<b>${s.name}</b><br>${s.hull} · ${s.type}<br>📍 ${s.loc}<br>${s.status}<extra></extra>`
+      `<b>${s.name}</b><br>${s.hull} · ${s.type}<br>${s.loc}<br>${s.status}<extra></extra>`
     ),
+    customdata: filtered,
     marker: {
       size: filtered.map(s => shipSize(s)),
       color: filtered.map(s => shipColor(s)),
       symbol: filtered.map(s => shipSymbol(s)),
       opacity: filtered.map(s => inPortOpacity(s)),
-      line: { width: filtered.map(s => s.type === 'CVN' ? 2 : 0.5), color: '#FFFFFF' },
+      line: { width: filtered.map(s => s.type === 'CVN' ? 2 : 1), color: 'rgba(255,255,255,0.4)' },
     },
     showlegend: false,
   };
@@ -828,27 +966,22 @@ function buildGlobeTraces(theater) {
 
 const GLOBE_LAYOUT = {
   margin: { t: 0, b: 0, l: 0, r: 0 },
-  paper_bgcolor: '#FFFFFF',
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor:  'rgba(0,0,0,0)',
   geo: {
-    projection: { type: 'natural earth', scale: 1.6 },
-    center: { lat: 30, lon: 35 },
-    lataxis: { range: [0, 60] },
-    lonaxis: { range: [-20, 80] },
-    showland: true,
-    landcolor: '#F1F5F9',
-    showocean: true,
-    oceancolor: '#EFF6FF',
-    showrivers: false,
-    showcountries: true,
-    countrycolor: '#CBD5E1',
-    showcoastlines: true,
-    coastlinecolor: '#94A3B8',
-    bgcolor: '#FFFFFF',
-    framecolor: '#E2E8F0',
-    showframe: true,
+    projection: { type: 'orthographic', rotation: { lon: 38, lat: 28, roll: 0 } },
+    showland: true,      landcolor: '#1a1a2e',
+    showocean: true,     oceancolor: '#0a0a0f',
+    showlakes: false,    showrivers: false,
+    showcountries: true, countrycolor: '#2a2a4e', countrywidth: 0.5,
+    showcoastlines: true, coastlinecolor: '#00ff88', coastlinewidth: 0.8,
+    showframe: false,    bgcolor: 'rgba(0,0,0,0)',
+    lonaxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
+    lataxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
   },
   dragmode: 'pan',
   clickmode: 'event',
+  showlegend: false,
 };
 
 const GLOBE_CONFIG = {
@@ -857,32 +990,46 @@ const GLOBE_CONFIG = {
   scrollZoom: true,
 };
 
+function showShipCallout(s, clientX, clientY) {
+  const el = document.getElementById('ship-callout');
+  const content = document.getElementById('callout-content');
+  content.innerHTML = `
+    <div class="callout-name">${s.name}</div>
+    <div class="callout-hull">${s.hull} &middot; ${s.type} &middot; ${s.cls}</div>
+    <div class="callout-row"><strong>Location:</strong> ${s.loc}</div>
+    <div class="callout-row"><strong>Theater:</strong> ${s.theater}</div>
+    <div class="callout-row"><strong>Status:</strong> ${s.status}</div>`;
+  // Position near click, keep on screen
+  const W = window.innerWidth, H = window.innerHeight;
+  const w = 260, h = 140;
+  const x = Math.min(clientX + 16, W - w - 10);
+  const y = Math.min(clientY - 10, H - h - 10);
+  el.style.left = x + 'px';
+  el.style.top  = y + 'px';
+  el.style.display = 'block';
+}
+
 function initGlobe() {
   if (typeof Plotly === 'undefined') {
     document.getElementById('globe').innerHTML =
-      '<div class="state-msg" style="padding-top:40px"><div class="icon">🗺️</div>Map loading…</div>';
+      '<div class="state-msg" style="padding-top:40px">Map loading...</div>';
     return;
   }
 
   Plotly.newPlot('globe', buildGlobeTraces('all'), GLOBE_LAYOUT, GLOBE_CONFIG);
   globeInitialized = true;
 
-  // Tooltip on hover
-  document.getElementById('globe').on('plotly_hover', function(d) {
-    const pt = d.points[0];
-    const s = SHIPS.find(x => x.hull === pt.text);
+  // Click callout
+  document.getElementById('globe').on('plotly_click', function(d) {
+    if (!d.points || !d.points.length) return;
+    const s = d.points[0].customdata;
     if (!s) return;
-    const tip = document.getElementById('ship-tooltip');
-    tip.innerHTML = `<div class="tip-name">${s.name}</div>
-      <div class="tip-hull">${s.hull} · ${s.type} · ${s.cls}</div>
-      <div class="tip-loc">📍 ${s.loc}</div>
-      <div class="tip-type">${s.status}</div>`;
-    tip.style.display = 'block';
-    tip.style.left = (d.event.clientX + 14) + 'px';
-    tip.style.top  = (d.event.clientY - 10) + 'px';
+    showShipCallout(s, d.event.clientX, d.event.clientY);
   });
-  document.getElementById('globe').on('plotly_unhover', function() {
-    document.getElementById('ship-tooltip').style.display = 'none';
+
+  // Hide callout when clicking on blank globe area
+  document.getElementById('globe').on('plotly_relayout', function() {
+    document.getElementById('ship-callout').style.display = 'none';
   });
 }
 
@@ -901,7 +1048,7 @@ function filterTheater(theater, btn) {
 let allArticles = [];
 let activeSource = 'all';
 
-const DEFENSE_SOURCES = new Set(['USNI','TWZ','DefNews','BreakDef','MilTimes','T&P','S&S']);
+const DEFENSE_SOURCES = new Set(['USNI','TWZ','DefNews','BreakDef','MilTimes','T&P','S&S','DefDaily']);
 
 function passesFilter(a) {
   if (DEFENSE_SOURCES.has(a.source)) return true; // all defense pub content is relevant
@@ -926,31 +1073,46 @@ const CORS_PROXIES = [
 ];
 
 async function fetchOneFeed(feed) {
-  for (const proxy of CORS_PROXIES) {
-    try {
-      const res = await fetch(proxy.wrap(feed.url), { signal: AbortSignal.timeout(12000) });
-      if (!res.ok) continue;
-      const raw = proxy.json ? (await res.json()).contents : await res.text();
-      if (!raw) continue;
-      const xml = new DOMParser().parseFromString(raw, 'text/xml');
-      const items = xml.querySelectorAll('item');
-      if (!items.length) continue;
-      return Array.from(items).map(item => {
-        const link = item.querySelector('link')?.textContent?.trim()
-                   || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim() || '';
-        const desc = item.querySelector('description')?.textContent || '';
-        return {
-          title: item.querySelector('title')?.textContent?.trim() || '',
-          link,
-          desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 220),
-          pubDate: item.querySelector('pubDate')?.textContent?.trim()
-                 || item.querySelector('date')?.textContent?.trim() || '',
-          source: feed.name,
-        };
-      });
-    } catch { /* try next proxy */ }
+  // Only try first proxy — fail fast (6s) rather than double-attempting slowly
+  const proxy = CORS_PROXIES[0];
+  try {
+    const res = await fetch(proxy.wrap(feed.url), { signal: AbortSignal.timeout(6000) });
+    if (!res.ok) throw new Error('bad status');
+    const raw = (await res.json()).contents;
+    if (!raw) throw new Error('empty');
+    const xml = new DOMParser().parseFromString(raw, 'text/xml');
+    const items = xml.querySelectorAll('item');
+    if (!items.length) throw new Error('no items');
+    return Array.from(items).map(item => {
+      const link = item.querySelector('link')?.textContent?.trim()
+                 || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim() || '';
+      const desc = item.querySelector('description')?.textContent || '';
+      return {
+        title: item.querySelector('title')?.textContent?.trim() || '',
+        link,
+        desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 220),
+        pubDate: item.querySelector('pubDate')?.textContent?.trim()
+               || item.querySelector('date')?.textContent?.trim() || '',
+        source: feed.name,
+      };
+    });
+  } catch {
+    return [];
   }
-  return [];
+}
+
+function rebuildFilters(articles) {
+  const sources = new Set(articles.map(a => a.source));
+  const row = document.getElementById('src-filters');
+  const active = row.querySelector('.flt-btn.active')?.textContent || 'All';
+  row.innerHTML = `<button class="flt-btn${active==='All'?' active':''}" onclick="filterNews('all',this)">All</button>`;
+  [...sources].sort().forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'flt-btn' + (active===s?' active':'');
+    btn.textContent = s;
+    btn.onclick = function() { filterNews(s, this); };
+    row.appendChild(btn);
+  });
 }
 
 function renderNews(articles) {
@@ -960,17 +1122,17 @@ function renderNews(articles) {
     : articles.filter(a => a.source === activeSource);
 
   if (!toShow.length) {
-    body.innerHTML = '<div class="state-msg"><div class="icon">📭</div>No matching articles</div>';
+    body.innerHTML = '<div class="state-msg">No matching articles</div>';
     return;
   }
 
   body.innerHTML = toShow.map(a => `
     <div class="article" onclick="window.open('${a.link}','_blank')">
-      <div class="article-top">
-        <span class="article-source">${a.source}</span>
+      <div class="article-hed">
+        <span class="article-source">${a.source}:</span>
+        <span class="article-title">${a.title}</span>
         <span class="article-time">${timeAgo(a.pubDate)}</span>
       </div>
-      <div class="article-title">${a.title}</div>
       ${a.desc ? `<div class="article-desc">${a.desc}</div>` : ''}
     </div>`).join('');
 }
@@ -984,58 +1146,107 @@ function filterNews(src, btn) {
 
 async function fetchAllNews() {
   document.getElementById('loading-news').style.display = 'block';
-  const results = await Promise.allSettled(RSS_FEEDS.map(fetchOneFeed));
-
-  const sources = new Set();
   allArticles = [];
 
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      const filtered = r.value.filter(passesFilter);
-      filtered.forEach(a => sources.add(a.source));
+  // Progressive: render as each feed resolves (fast feeds appear immediately)
+  const promises = RSS_FEEDS.map(feed =>
+    fetchOneFeed(feed).then(items => {
+      const filtered = items.filter(passesFilter);
+      if (!filtered.length) return;
       allArticles.push(...filtered);
-    }
-  });
+      allArticles.sort((a, b) => {
+        try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
+      });
+      rebuildFilters(allArticles);
+      renderNews(allArticles);
+      renderSITREP(allArticles);
+    }).catch(() => {})
+  );
 
-  // Sort by date desc
-  allArticles.sort((a, b) => {
-    try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
-  });
-
-  // Build source filter buttons
-  const row = document.getElementById('src-filters');
-  row.innerHTML = `<button class="flt-btn active" onclick="filterNews('all',this)">All</button>`;
-  [...sources].sort().forEach(s => {
-    const btn = document.createElement('button');
-    btn.className = 'flt-btn';
-    btn.textContent = s;
-    btn.onclick = function() { filterNews(s, this); };
-    row.appendChild(btn);
-  });
-
+  await Promise.allSettled(promises);
   document.getElementById('loading-news').style.display = 'none';
-  renderNews(allArticles);
+  if (!allArticles.length) {
+    document.getElementById('news-body').innerHTML =
+      '<div class="state-msg">No articles loaded — check network or try refreshing</div>';
+  }
+}
+
+// ─────────────────────────────────────────────
+// SITREP
+// ─────────────────────────────────────────────
+function renderSITREP(articles) {
+  const body = document.getElementById('sitrep-body');
+  if (!body) return;
+  // Take top 12 most recent articles for SITREP bullets
+  const top = articles.slice(0, 12);
+  if (!top.length) {
+    body.innerHTML = '<div class="state-msg">Awaiting intelligence feeds...</div>';
+    return;
+  }
+  const now = new Date().toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', timeZone:'America/New_York', hour12:false });
+  const sitrep = document.getElementById('sitrep-updated');
+  if (sitrep) sitrep.textContent = 'Updated ' + now + ' ET';
+
+  body.innerHTML = top.map(a => {
+    const firstSentence = (a.desc || a.title).split(/\.\s/)[0].replace(/\.\.\.$/, '').trim();
+    return `<div class="sitrep-item">
+      <span class="sitrep-bullet">—</span>
+      <div>
+        <span class="sitrep-source">${a.source}</span>
+        <span class="sitrep-text" onclick="window.open('${a.link}','_blank')" title="${a.title}">
+          ${firstSentence || a.title}
+        </span>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // ─────────────────────────────────────────────
 // DVIDS
 // ─────────────────────────────────────────────
+function showDVIDSCallout(idx, evt) {
+  document.getElementById('ship-callout').style.display = 'none';
+  const item = _dvidsUnique[idx];
+  if (!item) return;
+  const el = document.getElementById('dvids-callout');
+  const full = (item.desc || '').replace(/\.\.\.$/, '').trim();
+  document.getElementById('dvids-callout-content').innerHTML = `
+    <div class="dvids-callout-title">${item.title}</div>
+    ${full ? `<div class="dvids-callout-desc">${full}</div>` : ''}
+    <div class="dvids-callout-meta">${item.unit_name || ''} &middot; ${timeAgo(item.timestamp)}</div>
+    <a class="dvids-callout-link" href="${item.url}" target="_blank" rel="noopener">Open on DVIDS</a>`;
+  const W = window.innerWidth, H = window.innerHeight;
+  const w = 320, h = 200;
+  const x = Math.min(evt.clientX + 12, W - w - 10);
+  const y = Math.min(evt.clientY - 10, H - h - 10);
+  el.style.left = x + 'px';
+  el.style.top  = y + 'px';
+  el.style.display = 'block';
+  evt.stopPropagation();
+}
+
+let _dvidsUnique = [];
+
 function renderDVIDS() {
   const body = document.getElementById('dvids-body');
   document.getElementById('loading-dvids').style.display = 'none';
 
   if (!DVIDS_DATA || !DVIDS_DATA.length) {
-    body.innerHTML = `<div class="state-msg">
-      <div class="icon">🛡️</div>
-      <div>DoD content updates at 06:00, 12:00, 24:00 ET</div>
-      <div style="margin-top:6px;font-size:10px;color:var(--text-3)">Powered by DVIDS API</div>
-    </div>`;
+    body.innerHTML = '<div class="state-msg">DoD content updates at 06:00, 12:00, 00:00 ET</div>';
     return;
   }
 
-  body.innerHTML = DVIDS_DATA.map(item => {
-    const firstSentence = (item.desc || '').split(/\.[\s]/)[0].replace(/\.\.\.$/, '').trim();
-    return `<div class="dvids-item" onclick="window.open('${item.url}','_blank')">
+  // Deduplicate by title — keep most recent per unique title
+  const seen = new Map();
+  DVIDS_DATA.forEach(item => {
+    const key = item.title.trim().toLowerCase();
+    if (!seen.has(key) || item.timestamp > seen.get(key).timestamp) seen.set(key, item);
+  });
+  _dvidsUnique = [...seen.values()].sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+
+  body.innerHTML = _dvidsUnique.map((item, i) => {
+    const firstSentence = (item.desc || '').split(/\.\s/)[0].replace(/\.\.\.$/, '').trim();
+    return `<div class="dvids-item" onclick="showDVIDSCallout(${i}, event)">
       <div class="dvids-row">
         <span class="dvids-title">${item.title}</span>
         <span class="article-time" style="flex-shrink:0">${timeAgo(item.timestamp)}</span>
@@ -1136,7 +1347,7 @@ async function refreshAll() {
   const btn = document.getElementById('refresh-btn');
   const icon = document.getElementById('refresh-icon');
   btn.classList.add('loading');
-  icon.textContent = '⟳';
+  icon.textContent = '...';
   btn.querySelector('span:last-child') && (btn.lastChild.textContent = ' REFRESHING…');
 
   try {
@@ -1157,16 +1368,9 @@ async function refreshAll() {
   // Load server-side cached news first (instant display, no live fetch needed)
   if (typeof CACHED_NEWS_DATA !== 'undefined' && CACHED_NEWS_DATA.length) {
     allArticles = CACHED_NEWS_DATA;
+    rebuildFilters(allArticles);
     renderNews(allArticles);
-    const cachedSources = [...new Set(CACHED_NEWS_DATA.map(a => a.source))].sort();
-    const row = document.getElementById('src-filters');
-    row.innerHTML = '<button class="flt-btn active" onclick="filterNews(\'all\',this)">All</button>';
-    cachedSources.forEach(s => {
-      const b = document.createElement('button');
-      b.className = 'flt-btn'; b.textContent = s;
-      b.onclick = function() { filterNews(s, this); };
-      row.appendChild(b);
-    });
+    renderSITREP(allArticles);
     document.getElementById('loading-news').style.display = 'none';
   }
   // Globe init fires from Plotly onload at bottom of body (non-blocking)
@@ -1178,6 +1382,14 @@ async function refreshAll() {
 // Globe must resize with panel
 window.addEventListener('resize', () => {
   if (globeInitialized && typeof Plotly !== 'undefined') Plotly.relayout('globe', {});
+});
+
+// Close callouts on outside click
+document.addEventListener('click', e => {
+  const shipC = document.getElementById('ship-callout');
+  const dvidsC = document.getElementById('dvids-callout');
+  if (shipC && !shipC.contains(e.target)) shipC.style.display = 'none';
+  if (dvidsC && !dvidsC.contains(e.target)) dvidsC.style.display = 'none';
 });
 </script>
 
