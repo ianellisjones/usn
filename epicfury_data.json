@@ -1,18 +1,18 @@
 {
-  "generated": "2026-03-05T19:48:27.788569+00:00",
+  "generated": "2026-03-13T17:27:16.894273+00:00",
   "news_count": 0,
-  "dvids_count": 20,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
-      "id": "video:998350",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "id": "video:999345",
+      "title": "USS Gerald R. Ford Conducts Flight Operations During Operation Epic Fury",
+      "desc": "The world's largest aircraft carrier, USS Gerald R. Ford (CVN 78), conducts flight operations during Operation Epic Fury, March 8, 2026. (U.S. Navy Video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:09+00:00",
-      "url": "https://www.dvidshub.net/video/998350/us-forces-conduct-precision-strikes-iran",
+      "timestamp": "2026-03-12T19:30:29+00:00",
+      "url": "https://www.dvidshub.net/video/999345/uss-gerald-r-ford-conducts-flight-operations-during-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,29 @@
       "location_display": ""
     },
     {
-      "id": "video:998349",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "id": "video:999341",
+      "title": "Eucom, Transcom Commanders Testify on Budget Request",
+      "desc": "Air Force Gen. Alexus Grynkewich, commander of U.S. European Command and Supreme Allied Commander Europe, and Air Force Gen. Randall Reed, commander of U.S. Transportation Command, testify during a U.S. Senate Committee on Armed Services hearing in Washington, March 12, 2026. The topics include Euco",
       "type": "video",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:08+00:00",
-      "url": "https://www.dvidshub.net/video/998349/us-forces-conduct-precision-strikes-iran",
+      "unit_name": "War.gov",
+      "timestamp": "2026-03-12T17:03:06+00:00",
+      "url": "https://www.dvidshub.net/video/999341/eucom-transcom-commanders-testify-budget-request",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:560369",
+      "title": "Statement on USS Gerald R. Ford",
+      "desc": "On March 12, USS Gerald R. Ford (CVN 78) experienced a fire that originated in the ship’s main laundry spaces. The cause of the fire was not combat-related and is contained.\n\nThere is no damage to the ship’s propulsion plant, and the aircraft carrier remains fully operational.\n\nTwo Sailors are curre",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-03-12T14:32:24+00:00",
+      "url": "https://www.dvidshub.net/news/560369/statement-uss-gerald-r-ford",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,44 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "video:998348",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
+      "id": "video:999119",
+      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 11, 2026. (U.S. Central Command Video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:08+00:00",
-      "url": "https://www.dvidshub.net/video/998348/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998347",
-      "title": "U.S. Forces Conduct Precision Strikes in Iran",
-      "desc": "U.S. forces conduct precision strikes in Iran, targeting the Iranian regime's command and control facilities, air defense capabilities, missile and drone launch sites, and military airfields. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:25:07+00:00",
-      "url": "https://www.dvidshub.net/video/998347/us-forces-conduct-precision-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:998319",
-      "title": "B-1B Lancers return from CONUS-to-CONUS mission",
-      "desc": "U.S. Air Force B-1B Lancers return from a CONUS-to CONUS mission in support of Operation Epic Fury, March 4, 2026. (U.S. Air Force video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-05T16:19:22+00:00",
-      "url": "https://www.dvidshub.net/video/998319/b-1b-lancers-return-conus-conus-mission",
+      "timestamp": "2026-03-11T12:29:07+00:00",
+      "url": "https://www.dvidshub.net/video/999119/centcom-commander-provides-update-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
