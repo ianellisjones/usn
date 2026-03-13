@@ -4,826 +4,277 @@
 <!-- LAST_BUILT: 2026-03-13 17:27 UTC -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Operation Epic Fury — Live Updates</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-<!-- Plotly loaded at end of body so it doesn't block initial render -->
+<title>Operation Epic Fury — Live Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
 :root {
-  --bg-page:     #F1F5F9;
-  --bg-card:     #FFFFFF;
-  --bg-header:   #0D1117;
-  --bg-panel-hd: #F8FAFC;
-  --text-1:      #0F172A;
-  --text-2:      #475569;
-  --text-3:      #94A3B8;
-  --border:      #E2E8F0;
-  --border-2:    #CBD5E1;
-  --centcom:     #DC2626;
-  --eucom:       #2563EB;
-  --logistics:   #059669;
-  --sub:         #7C3AED;
-  --live:        #10B981;
-  --warn:        #F59E0B;
-  --font:        'Inter', system-ui, sans-serif;
-  --mono:        'JetBrains Mono', 'Courier New', monospace;
+  --bg:      #F1F5F9;
+  --card:    #FFFFFF;
+  --hd-bg:   #F8FAFC;
+  --t1:      #0F172A;
+  --t2:      #475569;
+  --t3:      #94A3B8;
+  --border:  #E2E8F0;
+  --border2: #CBD5E1;
+  --red:     #DC2626;
+  --blue:    #2563EB;
+  --green:   #10B981;
+  --yellow:  #F59E0B;
+  --purple:  #7C3AED;
+  --teal:    #059669;
+  --mono:    'JetBrains Mono', monospace;
 }
 
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  font-family: var(--font);
-  background: var(--bg-page);
-  color: var(--text-1);
-  font-size: 13px;
-  line-height: 1.4;
-}
+html,body { height:100%; overflow:hidden; }
+body { display:flex; flex-direction:column; font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--t1); font-size:13px; line-height:1.4; }
 
 /* ── HEADER ── */
-#header {
-  height: 52px;
-  background: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  gap: 12px;
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--border);
+#hdr {
+  height:50px; background:#fff; border-bottom:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 16px; gap:12px; flex-shrink:0;
 }
-.hd-left {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  min-width: 0;
-}
-.hd-op-name {
-  font-size: 14px;
-  font-weight: 800;
-  color: var(--text-1);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  line-height: 1;
-  white-space: nowrap;
-}
-.hd-op-sub {
-  font-size: 9px;
-  color: var(--text-3);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-top: 2px;
-}
-.hd-center {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-shrink: 0;
-}
-.h-counter {
-  display: flex;
-  align-items: baseline;
-  gap: 3px;
-  background: var(--bg-page);
-  border: 1px solid var(--border-2);
-  border-radius: 6px;
-  padding: 5px 12px;
-}
-.h-label {
-  font-family: var(--mono);
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--live);
-  letter-spacing: 0.05em;
-}
-.h-value {
-  font-family: var(--mono);
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--live);
-  letter-spacing: -0.02em;
-  min-width: 2ch;
-  text-align: center;
-}
-.h-sep {
-  font-family: var(--mono);
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--live);
-  opacity: 0.5;
-  line-height: 1;
-}
-.day-badge {
-  background: var(--bg-page);
-  border: 1px solid var(--border-2);
-  border-radius: 6px;
-  padding: 5px 14px;
-  text-align: center;
-}
-.day-label {
-  font-size: 9px;
-  color: var(--text-3);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.day-value {
-  font-family: var(--mono);
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-1);
-  letter-spacing: 0.05em;
-}
-.hd-right {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-}
-.status-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--live);
-  animation: pulse-green 2s infinite;
-  flex-shrink: 0;
-}
-@keyframes pulse-green {
-  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
-  50% { opacity: 0.7; box-shadow: 0 0 0 4px rgba(16,185,129,0); }
-}
-.last-updated {
-  font-size: 10px;
-  color: #64748B;
-  font-family: var(--mono);
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-}
-.refresh-btn {
-  background: transparent;
-  border: 1px solid var(--border-2);
-  color: var(--text-2);
-  border-radius: 5px;
-  padding: 5px 12px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  font-family: var(--font);
-  transition: all 0.15s;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  white-space: nowrap;
-}
-.refresh-btn:hover { border-color: var(--live); color: var(--live); }
-.refresh-btn.loading { border-color: var(--warn); color: var(--warn); pointer-events: none; }
+.hdr-title { font-size:13px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--t1); }
+.hdr-sub   { font-size:9px; color:var(--t3); letter-spacing:.1em; text-transform:uppercase; margin-top:1px; }
+.hdr-mid   { display:flex; align-items:center; gap:14px; }
+.h-counter { display:flex; align-items:baseline; gap:2px; background:var(--bg); border:1px solid var(--border2); border-radius:6px; padding:4px 12px; }
+.h-lbl     { font-family:var(--mono); font-size:10px; font-weight:600; color:var(--green); }
+.h-val     { font-family:var(--mono); font-size:20px; font-weight:700; color:var(--green); min-width:2ch; text-align:center; }
+.h-sep     { font-family:var(--mono); font-size:16px; color:var(--green); opacity:.5; }
+.day-box   { background:var(--bg); border:1px solid var(--border2); border-radius:6px; padding:4px 14px; text-align:center; }
+.day-lbl   { font-size:9px; color:var(--t3); letter-spacing:.1em; text-transform:uppercase; }
+.day-val   { font-family:var(--mono); font-size:14px; font-weight:700; color:var(--t1); }
+.hdr-right { display:flex; align-items:center; gap:10px; }
+.pulse-dot { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(16,185,129,.4)} 50%{opacity:.7;box-shadow:0 0 0 4px rgba(16,185,129,0)} }
+.ts        { font-size:10px; color:var(--t3); font-family:var(--mono); }
+.refresh-btn { background:transparent; border:1px solid var(--border2); color:var(--t2); border-radius:5px; padding:5px 12px; font-size:11px; font-weight:600; letter-spacing:.05em; cursor:pointer; font-family:Inter,sans-serif; }
+.refresh-btn:hover { border-color:var(--green); color:var(--green); }
 
-/* ── MAIN GRID ── */
-#main {
-  flex: 1;
-  min-height: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 8px;
-  padding: 8px;
-  overflow: hidden;
-}
-#main > * { min-width: 0; min-height: 0; }
+/* ── GRID ── */
+#main { flex:1; min-height:0; display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; padding:8px; overflow:hidden; }
+#main > * { min-width:0; min-height:0; }
 
-/* ── PANELS ── */
-.panel {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  min-height: 0;
-}
-.panel-hd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 7px 10px;
-  border-bottom: 1px solid var(--border);
-  background: var(--bg-panel-hd);
-  flex-shrink: 0;
-  gap: 8px;
-  min-height: 34px;
-}
-.panel-title {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-1);
-}
-.panel-body {
-  flex: 1;
-  overflow-y: auto;
-  min-height: 0;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-2) transparent;
-}
-.panel-body::-webkit-scrollbar { width: 4px; }
-.panel-body::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
-.panel-body::-webkit-scrollbar-track { background: transparent; }
+/* ── PANEL ── */
+.panel { background:var(--card); border:1px solid var(--border); border-radius:8px; display:flex; flex-direction:column; overflow:hidden; min-height:0; }
+.panel-hd { display:flex; align-items:center; justify-content:space-between; padding:6px 10px; border-bottom:1px solid var(--border); background:var(--hd-bg); flex-shrink:0; gap:8px; min-height:32px; }
+.panel-title { font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--t1); }
+.panel-body { flex:1; overflow-y:auto; min-height:0; scrollbar-width:thin; scrollbar-color:var(--border2) transparent; }
+.panel-body::-webkit-scrollbar { width:4px; }
+.panel-body::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
 
 /* ── RIGHT COLUMN ── */
-#panel-right {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  min-height: 0;
-}
-#panel-right .panel { flex: 1; min-height: 0; }
-
-/* ── THEATER BADGE ── */
-.badge {
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 2px 7px;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
-.badge-centcom { background: #FEF2F2; color: var(--centcom); }
-.badge-eucom   { background: #EFF6FF; color: var(--eucom); }
-.badge-joint   { background: #F0FDF4; color: var(--logistics); }
-.badge-live    { background: #F0FDF4; color: var(--live); display: flex; align-items: center; gap: 4px; }
+#col-right { display:flex; flex-direction:column; gap:8px; min-height:0; }
+#col-right .panel { flex:1; min-height:0; }
 
 /* ── FILTER BUTTONS ── */
-.filter-row {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-.flt-btn {
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 2px 7px;
-  border-radius: 3px;
-  border: 1px solid var(--border-2);
-  background: transparent;
-  color: var(--text-2);
-  cursor: pointer;
-  transition: all 0.12s;
-  white-space: nowrap;
-}
-.flt-btn:hover, .flt-btn.active {
-  background: var(--text-1);
-  color: white;
-  border-color: var(--text-1);
-}
+.flt-row { display:flex; gap:4px; flex-wrap:wrap; }
+.flt-btn { font-size:9px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; padding:2px 7px; border-radius:3px; border:1px solid var(--border2); background:transparent; color:var(--t2); cursor:pointer; }
+.flt-btn:hover,.flt-btn.active { background:var(--t1); color:#fff; border-color:var(--t1); }
+
+/* ── BADGE ── */
+.badge { font-size:9px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:2px 7px; border-radius:3px; flex-shrink:0; }
+.badge-red  { background:#FEF2F2; color:var(--red); }
+.badge-live { background:#F0FDF4; color:var(--green); display:flex; align-items:center; gap:4px; }
+.live-dot   { width:5px; height:5px; border-radius:50%; background:var(--green); }
+
+/* ── LOADING BAR ── */
+.load-bar { height:2px; background:linear-gradient(90deg,var(--blue),var(--green),var(--blue)); background-size:200%; animation:slide 1.5s infinite; }
+@keyframes slide { 0%{background-position:100%} 100%{background-position:-100%} }
 
 /* ── NEWS FEED ── */
-.article {
-  padding: 6px 10px;
-  border-bottom: 1px solid var(--border);
-  cursor: pointer;
-  transition: background 0.1s;
-}
-.article:hover { background: #F8FAFC; }
-.article:last-child { border-bottom: none; }
-.article-hed {
-  display: flex;
-  align-items: baseline;
-  gap: 4px;
-  flex-wrap: nowrap;
-  overflow: hidden;
-}
-.article-source {
-  font-size: 9px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--centcom);
-  flex-shrink: 0;
-}
-.article-title {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-1);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  flex: 1;
-  min-width: 0;
-}
-.article-time {
-  font-size: 9px;
-  color: var(--text-3);
-  font-family: var(--mono);
-  flex-shrink: 0;
-}
-.article-desc {
-  font-size: 10px;
-  color: var(--text-2);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 1px;
-}
+.article { padding:6px 10px; border-bottom:1px solid var(--border); cursor:pointer; }
+.article:hover { background:#F8FAFC; }
+.article:last-child { border-bottom:none; }
+.art-hed { display:flex; align-items:baseline; gap:4px; overflow:hidden; }
+.art-src  { font-size:9px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--red); flex-shrink:0; }
+.art-ttl  { font-size:11px; font-weight:600; color:var(--t1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1; min-width:0; }
+.art-time { font-size:9px; color:var(--t3); font-family:var(--mono); flex-shrink:0; }
+.art-desc { font-size:10px; color:var(--t2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:1px; }
+.state-msg { padding:20px; text-align:center; color:var(--t3); font-size:12px; }
 
 /* ── GLOBE ── */
-#panel-globe {
-  overflow: hidden;
-}
-#globe-wrap {
-  flex: 0 0 56%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  min-height: 0;
-  background: #0a0a0f;
-}
-#globe {
-  flex: 1;
-  min-height: 0;
-  width: 100%;
-  height: 100%;
-  background: #0a0a0f;
-}
+#globe-wrap { flex:0 0 56%; display:flex; flex-direction:column; overflow:hidden; background:#0a0a0f; }
+#globe      { flex:1; min-height:0; width:100%; background:#0a0a0f; }
+.globe-legend { display:flex; align-items:center; gap:10px; padding:4px 10px; border-top:1px solid #1e1e2e; background:#0d0d14; flex-shrink:0; }
+.leg-item   { display:flex; align-items:center; gap:5px; font-size:9px; color:#888; font-weight:600; letter-spacing:.05em; text-transform:uppercase; }
+.leg-dot    { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+
 /* ── SITREP ── */
-#sitrep-section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  min-height: 0;
-  border-top: 1px solid var(--border);
-}
-#sitrep-body {
-  flex: 1;
-  overflow-y: auto;
-  padding: 8px 10px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-2) transparent;
-}
-.sitrep-item {
-  display: flex;
-  gap: 8px;
-  align-items: baseline;
-  padding: 4px 0;
-  border-bottom: 1px solid var(--border);
-  font-size: 11px;
-  line-height: 1.4;
-}
-.sitrep-item:last-child { border-bottom: none; }
-.sitrep-bullet {
-  color: var(--centcom);
-  font-weight: 700;
-  flex-shrink: 0;
-  font-size: 10px;
-}
-.sitrep-source {
-  font-weight: 700;
-  color: var(--centcom);
-  font-size: 9px;
-  flex-shrink: 0;
-  text-transform: uppercase;
-  font-family: var(--mono);
-}
-.sitrep-text {
-  color: var(--text-1);
-  font-size: 11px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  cursor: pointer;
-}
-.sitrep-text:hover { color: var(--eucom); }
-/* ── SHIP CALLOUT ── */
-#ship-callout {
-  position: fixed;
-  background: #FFFFFF;
-  border: 1px solid var(--border-2);
-  border-radius: 8px;
-  padding: 10px 14px;
-  min-width: 200px;
-  max-width: 260px;
-  z-index: 200;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-  pointer-events: auto;
-}
-.callout-name { font-size: 13px; font-weight: 700; color: var(--text-1); margin-bottom: 4px; }
-.callout-hull { font-size: 10px; color: var(--text-3); font-family: var(--mono); margin-bottom: 6px; }
-.callout-row { font-size: 11px; color: var(--text-2); padding: 2px 0; }
-.callout-row strong { color: var(--text-1); }
-.callout-close {
-  position: absolute; top: 6px; right: 8px;
-  font-size: 14px; color: var(--text-3); cursor: pointer; line-height: 1;
-}
-.callout-close:hover { color: var(--text-1); }
-/* ── DVIDS CALLOUT ── */
-#dvids-callout {
-  position: fixed;
-  background: #FFFFFF;
-  border: 1px solid var(--border-2);
-  border-radius: 8px;
-  padding: 12px 14px;
-  min-width: 240px;
-  max-width: 320px;
-  z-index: 200;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-}
-.dvids-callout-title { font-size: 12px; font-weight: 700; color: var(--text-1); margin-bottom: 6px; line-height: 1.4; }
-.dvids-callout-desc { font-size: 11px; color: var(--text-2); line-height: 1.5; margin-bottom: 8px; }
-.dvids-callout-meta { font-size: 9px; color: var(--text-3); font-family: var(--mono); }
-.dvids-callout-link { font-size: 10px; color: var(--eucom); cursor: pointer; margin-top: 6px; display: block; }
-.dvids-callout-link:hover { text-decoration: underline; }
-.globe-hd-right {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.asset-count {
-  font-size: 9px;
-  font-weight: 700;
-  color: var(--text-3);
-  font-family: var(--mono);
-  letter-spacing: 0.05em;
-}
-#ship-tooltip {
-  position: absolute;
-  background: #0D1117;
-  color: #F8FAFC;
-  border: 1px solid #30363D;
-  border-radius: 6px;
-  padding: 8px 12px;
-  font-size: 11px;
-  pointer-events: none;
-  display: none;
-  z-index: 100;
-  max-width: 200px;
-  line-height: 1.5;
-}
-.tip-name { font-weight: 700; font-size: 12px; }
-.tip-hull { color: #94A3B8; font-family: var(--mono); font-size: 10px; }
-.tip-loc  { color: #4ADE80; font-size: 11px; margin-top: 3px; }
-.tip-type { color: #94A3B8; font-size: 10px; }
+#sitrep-section { flex:1; display:flex; flex-direction:column; overflow:hidden; min-height:0; border-top:1px solid var(--border); }
+#sitrep-body    { flex:1; overflow-y:auto; padding:6px 10px; scrollbar-width:thin; scrollbar-color:var(--border2) transparent; }
+.sit-item       { display:flex; gap:6px; align-items:baseline; padding:3px 0; border-bottom:1px solid var(--border); font-size:11px; }
+.sit-item:last-child { border-bottom:none; }
+.sit-dash   { color:var(--red); font-weight:700; flex-shrink:0; }
+.sit-src    { font-size:9px; font-weight:800; color:var(--red); flex-shrink:0; font-family:var(--mono); text-transform:uppercase; }
+.sit-text   { color:var(--t1); overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; cursor:pointer; }
+.sit-text:hover { color:var(--blue); }
 
-/* ── LEGEND ── */
-.legend {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 4px 10px;
-  border-top: 1px solid var(--border);
-  background: var(--bg-panel-hd);
-  flex-shrink: 0;
-}
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--text-2);
-}
-.legend-dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
+/* ── DVIDS ── */
+.dv-item    { padding:5px 10px; border-bottom:1px solid var(--border); cursor:pointer; }
+.dv-item:hover { background:#F8FAFC; }
+.dv-item:last-child { border-bottom:none; }
+.dv-row     { display:flex; align-items:baseline; gap:8px; }
+.dv-title   { font-size:11px; font-weight:600; color:var(--t1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1; min-width:0; }
+.dv-desc    { font-size:10px; color:var(--t2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:1px; }
+.ts-sm      { font-size:9px; color:var(--t3); font-family:var(--mono); flex-shrink:0; }
 
-/* ── DVIDS ITEMS ── */
-.dvids-item {
-  padding: 5px 10px;
-  border-bottom: 1px solid var(--border);
-  cursor: pointer;
-  transition: background 0.1s;
-}
-.dvids-item:hover { background: #F8FAFC; }
-.dvids-item:last-child { border-bottom: none; }
-.dvids-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 8px;
-}
-.dvids-title {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-1);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  flex: 1;
-  min-width: 0;
-}
-.dvids-desc {
-  font-size: 10px;
-  color: var(--text-2);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 1px;
-}
+/* ── OSINT ── */
+.osint-acct { display:flex; align-items:center; gap:8px; padding:6px 10px; border-bottom:1px solid var(--border); text-decoration:none; }
+.osint-acct:hover { background:#F8FAFC; }
+.osint-acct:last-child { border-bottom:none; }
+.osint-av   { width:26px; height:26px; border-radius:50%; background:var(--bg); border:1px solid var(--border2); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; color:var(--t2); flex-shrink:0; }
+.osint-info { min-width:0; flex:1; }
+.osint-hdl  { font-size:11px; font-weight:700; color:var(--blue); font-family:var(--mono); }
+.osint-desc { font-size:10px; color:var(--t2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.osint-lnk  { font-size:9px; color:var(--t3); flex-shrink:0; }
+.osint-posts{ padding:3px 10px 5px 44px; border-bottom:1px solid var(--border); }
+.osint-post { font-size:10px; color:var(--t2); padding:2px 0; border-top:1px solid var(--border); display:flex; gap:6px; align-items:baseline; cursor:pointer; }
+.osint-post:first-child { border-top:none; }
+.osint-post:hover { color:var(--t1); }
+.op-time    { font-family:var(--mono); font-size:9px; color:var(--t3); flex-shrink:0; }
+.op-txt     { overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+.load-posts-btn { font-size:9px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; background:none; border:1px solid var(--border2); border-radius:4px; padding:2px 8px; cursor:pointer; color:var(--t2); }
+.load-posts-btn:hover { background:var(--bg); }
+.load-posts-btn.spin  { opacity:.5; pointer-events:none; }
 
-/* ── OSINT PANEL ── */
-.osint-account {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 10px;
-  border-bottom: 1px solid var(--border);
-  text-decoration: none;
-  cursor: pointer;
-  transition: background 0.1s;
-}
-.osint-account:hover { background: #F8FAFC; }
-.osint-account:last-child { border-bottom: none; }
-.osint-avatar {
-  width: 26px; height: 26px;
-  border-radius: 50%;
-  background: var(--bg-page);
-  border: 1px solid var(--border-2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  font-weight: 700;
-  color: var(--text-2);
-  flex-shrink: 0;
-}
-.osint-info { min-width: 0; flex: 1; }
-.osint-handle {
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--eucom);
-  font-family: var(--mono);
-}
-.osint-desc {
-  font-size: 10px;
-  color: var(--text-2);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.osint-posts { padding: 4px 10px 6px 44px; border-bottom: 1px solid var(--border); }
-.osint-post {
-  font-size: 10px;
-  color: var(--text-2);
-  padding: 3px 0;
-  border-top: 1px solid var(--border);
-  display: flex;
-  gap: 6px;
-  align-items: baseline;
-}
-.osint-post:first-child { border-top: none; }
-.osint-post-time { font-family: var(--mono); font-size: 9px; color: var(--text-3); flex-shrink: 0; }
-.osint-post-text { overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-.osint-load-btn {
-  font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-  background: none; border: 1px solid var(--border-2); border-radius: 4px;
-  padding: 2px 8px; cursor: pointer; color: var(--text-2);
-}
-.osint-load-btn:hover { background: var(--bg-page); }
-.osint-load-btn.loading { opacity: 0.5; pointer-events: none; }
-.osint-link {
-  font-size: 9px;
-  color: var(--text-3);
-  flex-shrink: 0;
-  opacity: 0.6;
-}
+/* ── CALLOUT ── */
+.callout { position:fixed; background:#fff; border:1px solid var(--border2); border-radius:8px; padding:10px 14px; max-width:260px; z-index:300; box-shadow:0 4px 20px rgba(0,0,0,.12); display:none; }
+.co-close { position:absolute; top:5px; right:8px; font-size:13px; color:var(--t3); cursor:pointer; line-height:1; font-family:var(--mono); }
+.co-close:hover { color:var(--t1); }
+.co-name  { font-size:13px; font-weight:700; color:var(--t1); margin-bottom:3px; }
+.co-sub   { font-size:10px; color:var(--t3); font-family:var(--mono); margin-bottom:6px; }
+.co-row   { font-size:11px; color:var(--t2); padding:2px 0; line-height:1.4; }
+.co-row strong { color:var(--t1); }
+.co-link  { font-size:10px; color:var(--blue); cursor:pointer; margin-top:6px; display:block; }
+.co-link:hover { text-decoration:underline; }
 
-/* ── LOADING / EMPTY ── */
-.state-msg {
-  padding: 20px;
-  text-align: center;
-  color: var(--text-3);
-  font-size: 12px;
-}
-.state-msg .icon { display: none; }
-.loading-bar {
-  height: 2px;
-  background: linear-gradient(90deg, var(--eucom) 0%, var(--live) 50%, var(--eucom) 100%);
-  background-size: 200% 100%;
-  animation: loading-slide 1.5s infinite;
-}
-@keyframes loading-slide {
-  0% { background-position: 100% 0; }
-  100% { background-position: -100% 0; }
-}
-
-/* ── SCROLLBAR EVERYWHERE ── */
-* { scrollbar-width: thin; scrollbar-color: var(--border-2) transparent; }
-*::-webkit-scrollbar { width: 4px; height: 4px; }
-*::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
+/* scrollbars */
+* { scrollbar-width:thin; scrollbar-color:var(--border2) transparent; }
+*::-webkit-scrollbar { width:4px; height:4px; }
+*::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
 </style>
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════════
-     HEADER
-══════════════════════════════════════════════ -->
-<div id="header">
-  <div class="hd-left">
-    <div class="hd-op-name">Operation Epic Fury</div>
-    <div class="hd-op-sub">US — Israel — Iran · Live Operations Dashboard</div>
+<div id="hdr">
+  <div>
+    <div class="hdr-title">Operation Epic Fury</div>
+    <div class="hdr-sub">US — Israel — Iran · Live Operations Dashboard</div>
   </div>
-
-  <div class="hd-center">
-    <div class="h-counter" title="Hours since H+0 (28 Feb 2026 01:15 EST)">
-      <span class="h-label">H+</span>
-      <span class="h-value" id="h-hh">000</span>
+  <div class="hdr-mid">
+    <div class="h-counter" title="H+0 = 28 Feb 2026 01:15 EST">
+      <span class="h-lbl">H+</span>
+      <span class="h-val" id="h-hh">000</span>
       <span class="h-sep">:</span>
-      <span class="h-value" id="h-mm">00</span>
+      <span class="h-val" id="h-mm">00</span>
       <span class="h-sep">:</span>
-      <span class="h-value" id="h-ss">00</span>
+      <span class="h-val" id="h-ss">00</span>
     </div>
-    <div class="day-badge">
-      <div class="day-label">Operation</div>
-      <div class="day-value" id="day-val">DAY 1</div>
+    <div class="day-box">
+      <div class="day-lbl">Operation</div>
+      <div class="day-val" id="day-val">DAY 1</div>
     </div>
   </div>
-
-  <div class="hd-right">
-    <div class="status-dot"></div>
-    <div class="last-updated" id="last-updated">—</div>
-    <button class="refresh-btn" id="refresh-btn" onclick="refreshAll()">
-      <span id="refresh-icon">↻</span> LIVE REFRESH
-    </button>
+  <div class="hdr-right">
+    <div class="pulse-dot"></div>
+    <div class="ts" id="last-updated">--</div>
+    <button class="refresh-btn" onclick="doRefresh()">&#8635; REFRESH</button>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     MAIN GRID
-══════════════════════════════════════════════ -->
 <div id="main">
 
-  <!-- LEFT: NEWS FEED -->
-  <div class="panel" id="panel-news">
+  <!-- LEFT: INTEL FEED -->
+  <div class="panel">
     <div class="panel-hd">
       <div class="panel-title">Intel Feed</div>
-      <div class="filter-row" id="src-filters">
-        <button class="flt-btn active" data-src="all" onclick="filterNews('all',this)">All</button>
+      <div class="flt-row" id="src-filters">
+        <button class="flt-btn active" onclick="filterNews('all',this)">All</button>
       </div>
     </div>
-    <div id="loading-news" class="loading-bar"></div>
-    <div class="panel-body" id="news-body">
-      <div class="state-msg">Fetching intel feeds...</div>
-    </div>
+    <div id="load-news" class="load-bar"></div>
+    <div class="panel-body" id="news-body"><div class="state-msg">Fetching feeds...</div></div>
   </div>
 
   <!-- CENTER: GLOBE + SITREP -->
   <div class="panel" id="panel-globe">
-    <!-- Globe section -->
     <div id="globe-wrap">
-      <div class="panel-hd">
-        <div class="panel-title">US Forces — CENTCOM / EUCOM</div>
-        <div class="globe-hd-right">
-          <div class="filter-row">
-            <button class="flt-btn active" onclick="filterTheater('all',this)">All</button>
-            <button class="flt-btn" onclick="filterTheater('CENTCOM',this)">CENTCOM</button>
-            <button class="flt-btn" onclick="filterTheater('EUCOM',this)">EUCOM</button>
+      <div class="panel-hd" style="background:#111118; border-color:#1e1e2e;">
+        <div class="panel-title" style="color:#ccc;">US Forces — CENTCOM / EUCOM</div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div class="flt-row">
+            <button class="flt-btn" style="border-color:#333;color:#888;" onclick="filterTheater('all',this)">All</button>
+            <button class="flt-btn" style="border-color:#333;color:#888;" onclick="filterTheater('CENTCOM',this)">CENTCOM</button>
+            <button class="flt-btn" style="border-color:#333;color:#888;" onclick="filterTheater('EUCOM',this)">EUCOM</button>
           </div>
-          <span class="asset-count" id="asset-count">29 ASSETS</span>
+          <span id="asset-count" style="font-size:9px;font-weight:700;color:#555;font-family:var(--mono);">29 ASSETS</span>
         </div>
       </div>
       <div id="globe"></div>
-      <div class="legend">
-        <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>CVN</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#DC2626"></div>CENTCOM</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div>EUCOM</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#059669"></div>Logistics</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#7C3AED"></div>SSGN/ESB</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#94A3B8; opacity:0.5"></div>In Port</div>
+      <div class="globe-legend">
+        <div class="leg-item"><div class="leg-dot" style="background:#F59E0B"></div>CVN</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#DC2626"></div>CENTCOM</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#2563EB"></div>EUCOM</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#059669"></div>Logistics</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#7C3AED"></div>SSGN/ESB</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#555;opacity:.6"></div>In Port</div>
       </div>
     </div>
-    <!-- SITREP section -->
     <div id="sitrep-section">
       <div class="panel-hd">
-        <div class="panel-title">SITREP — Latest Developments</div>
-        <div class="last-updated" id="sitrep-updated" style="color:var(--text-3)"></div>
+        <div class="panel-title">SITREP</div>
+        <div class="ts" id="sitrep-ts"></div>
       </div>
-      <div id="sitrep-body">
-        <div class="state-msg">Fetching intelligence feeds...</div>
-      </div>
+      <div id="sitrep-body"><div class="state-msg">Loading...</div></div>
     </div>
   </div>
 
   <!-- RIGHT: DVIDS + OSINT -->
-  <div id="panel-right">
-
-    <!-- DVIDS -->
+  <div id="col-right">
     <div class="panel">
       <div class="panel-hd">
         <div class="panel-title">DVIDS — DoD Official</div>
-        <div class="badge badge-centcom">CENTCOM / EUCOM</div>
+        <div class="badge badge-red">CENTCOM/EUCOM</div>
       </div>
-      <div id="loading-dvids" class="loading-bar"></div>
-      <div class="panel-body" id="dvids-body">
-        <div class="state-msg">Loading DoD content...</div>
-      </div>
+      <div id="load-dvids" class="load-bar"></div>
+      <div class="panel-body" id="dvids-body"><div class="state-msg">Loading...</div></div>
     </div>
-
-    <!-- OSINT -->
     <div class="panel">
       <div class="panel-hd">
         <div class="panel-title">OSINT Watch</div>
-        <div style="display:flex;align-items:center;gap:8px">
-          <button class="osint-load-btn" id="osint-load-btn" onclick="loadOSINTPosts()">Load Posts</button>
-          <div class="badge badge-live"><div class="status-dot" style="width:5px;height:5px;animation:none;background:var(--live)"></div>Vetted Sources</div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <button class="load-posts-btn" id="posts-btn" onclick="loadPosts()">Load Posts</button>
+          <div class="badge badge-live"><div class="live-dot"></div>Vetted</div>
         </div>
       </div>
-      <div class="panel-body" id="osint-body">
-        <!-- populated by JS -->
-      </div>
+      <div class="panel-body" id="osint-body"></div>
     </div>
+  </div>
 
-  </div><!-- /panel-right -->
-</div><!-- /main -->
-
-<div id="ship-tooltip"></div>
-<div id="ship-callout" style="display:none">
-  <div class="callout-close" onclick="document.getElementById('ship-callout').style.display='none'">x</div>
-  <div id="callout-content"></div>
-</div>
-<div id="dvids-callout" style="display:none">
-  <div class="callout-close" onclick="document.getElementById('dvids-callout').style.display='none'">x</div>
-  <div id="dvids-callout-content"></div>
 </div>
 
-<!-- ══════════════════════════════════════════════
-     JAVASCRIPT
-══════════════════════════════════════════════ -->
+<!-- Callouts -->
+<div class="callout" id="ship-callout">
+  <div class="co-close" onclick="this.parentElement.style.display='none'">x</div>
+  <div id="ship-callout-body"></div>
+</div>
+<div class="callout" id="dvids-callout">
+  <div class="co-close" onclick="this.parentElement.style.display='none'">x</div>
+  <div id="dvids-callout-body"></div>
+</div>
+
 <script>
-// ─────────────────────────────────────────────
-// CONSTANTS
-// ─────────────────────────────────────────────
-const OP_START = new Date('2026-02-28T06:15:00Z'); // 01:15 EST
-
-const NEWS_KEYWORDS = [
-  // Operation names
-  'epic fury','operation epic fury','roaring lion','operation roaring lion',
-  // US forces
-  'centcom','central command','5th fleet','fifth fleet','u.s. central command',
-  'eucom','european command','6th fleet','sixth fleet','u.s. european command',
-  'carrier strike group','expeditionary strike group',
-  // Ships (key)
-  'uss abraham lincoln','uss gerald r. ford','uss ford',
-  // Conflict parties
-  'iran','iranian','tehran','irgc','islamic revolutionary guard',
-  'israel','israeli','idf',
-  // Conflict geography
-  'strait of hormuz','persian gulf','gulf of oman','arabian sea','red sea',
-  // Conflict actors
-  'hezbollah','houthi','houthis','yemen',
-  // Conflict terms
-  'missile strike','air strike','ballistic missile','cruise missile',
-  'air defense','nuclear','middle east','mideast',
-];
-
-const RSS_FEEDS = [
-  // Wire / Broadcast
-  { url: 'https://feeds.reuters.com/reuters/worldNews',                              name: 'Reuters' },
-  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',                              name: 'BBC' },
-  { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',                   name: 'NYT' },
-  { url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',                              name: 'WSJ' },
-  { url: 'https://www.aljazeera.com/xml/rss/all.xml',                                name: 'AJE' },
-  { url: 'https://abcnews.go.com/abcnews/internationalheadlines',                    name: 'ABC' },
-  { url: 'https://www.cbsnews.com/latest/rss/world',                                 name: 'CBS' },
-  // Defense / National Security
-  { url: 'https://news.usni.org/feed',                                               name: 'USNI' },
-  { url: 'https://www.thedrive.com/the-war-zone/rss',                                name: 'TWZ' },
-  { url: 'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml',        name: 'DefNews' },
-  { url: 'https://breakingdefense.com/feed/',                                        name: 'BreakDef' },
-  { url: 'https://www.militarytimes.com/arc/outboundfeeds/rss/',                     name: 'MilTimes' },
-  { url: 'https://taskandpurpose.com/feed/',                                         name: 'T&P' },
-  { url: 'https://www.stripes.com/news/rss',                                         name: 'S&S' },
-  { url: 'https://www.defensedaily.com/feed',                                        name: 'DefDaily' },
-  // Foreign Policy / Geopolitics
-  { url: 'https://foreignpolicy.com/feed/',                                          name: 'FP' },
-  { url: 'https://www.politico.com/rss/politicofeed.xml',                            name: 'Politico' },
-  { url: 'https://feeds.washingtonpost.com/rss/world',                               name: 'WaPo' },
-  { url: 'https://feeds.npr.org/1004/rss.xml',                                       name: 'NPR' },
-  // Regional (Israel / Middle East)
-  { url: 'https://www.timesofisrael.com/feed/',                                      name: 'TOI' },
-  { url: 'https://www.haaretz.com/srv/haaretz-feed.xml',                             name: 'Haaretz' },
-  { url: 'https://www.jpost.com/rss/rssfeedspoliticsandcontroversies.aspx',          name: 'JPost' },
-  { url: 'https://arab.news/rss',                                                    name: 'ArabNews' },
-];
-
+// ── DATA ──────────────────────────────────────────────────────────────────
+const OP_START = new Date('2026-02-28T06:15:00Z');
 const CACHED_NEWS_DATA = [];
 const DVIDS_DATA = [{"id":"video:999345","title":"USS Gerald R. Ford Conducts Flight Operations During Operation Epic Fury","desc":"The world's largest aircraft carrier, USS Gerald R. Ford (CVN 78), conducts flight operations during Operation Epic Fury, March 8, 2026. (U.S. Navy Video)","type":"video","branch":"Joint","unit_name":"U.S. Central Command Public Affairs","timestamp":"2026-03-12T19:30:29+00:00","url":"https://www.dvidshub.net/video/999345/uss-gerald-r-ford-conducts-flight-operations-during-operation-epic-fury","thumbnail_url":"","commands":["CENTCOM"],"location_display":""},{"id":"video:999341","title":"Eucom, Transcom Commanders Testify on Budget Request","desc":"Air Force Gen. Alexus Grynkewich, commander of U.S. European Command and Supreme Allied Commander Europe, and Air Force Gen. Randall Reed, commander of U.S. Transportation Command, testify during a U.S. Senate Committee on Armed Services hearing in Washington, March 12, 2026. The topics include Euco","type":"video","branch":"Joint","unit_name":"War.gov","timestamp":"2026-03-12T17:03:06+00:00","url":"https://www.dvidshub.net/video/999341/eucom-transcom-commanders-testify-budget-request","thumbnail_url":"","commands":["EUCOM"],"location_display":""},{"id":"news:560369","title":"Statement on USS Gerald R. Ford","desc":"On March 12, USS Gerald R. Ford (CVN 78) experienced a fire that originated in the ship’s main laundry spaces. The cause of the fire was not combat-related and is contained.
 
 There is no damage to the ship’s propulsion plant, and the aircraft carrier remains fully operational.
 
 Two Sailors are curre","type":"news","branch":"Navy","unit_name":"U.S. Naval Forces Central Command / U.S. 5th Fleet","timestamp":"2026-03-12T14:32:24+00:00","url":"https://www.dvidshub.net/news/560369/statement-uss-gerald-r-ford","thumbnail_url":"","commands":["CENTCOM"],"location_display":""},{"id":"video:999119","title":"CENTCOM Commander Provides Update on Operation Epic Fury","desc":"U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 11, 2026. (U.S. Central Command Video)","type":"video","branch":"Joint","unit_name":"U.S. Central Command Public Affairs","timestamp":"2026-03-11T12:29:07+00:00","url":"https://www.dvidshub.net/video/999119/centcom-commander-provides-update-operation-epic-fury","thumbnail_url":"","commands":["CENTCOM"],"location_display":""}]; // replaced by epicfury_scraper.py at build time
-
 const OSINT_ACCOUNTS = [
   { handle: '@SentDefender',      name: 'Sentinel',         desc: 'OSINT — Middle East / Iran conflict analyst',    url: 'https://x.com/SentDefender' },
   { handle: '@CENTCOM',           name: 'CENTCOM',          desc: 'US Central Command — Official',                  url: 'https://x.com/CENTCOM' },
@@ -838,8 +289,6 @@ const OSINT_ACCOUNTS = [
   { handle: '@TheAviationist',    name: 'Aviationist',      desc: 'Military aviation journalism & analysis',         url: 'https://x.com/TheAviationist' },
   { handle: '@BreakingDefence',   name: 'Breaking Defence', desc: 'Breaking Defence — global defense news',          url: 'https://x.com/BreakingDefence' },
 ];
-
-// ─────────────────────────────────────────────
 // SHIP DATA — 29 ASSETS (CENTCOM + EUCOM)
 // ─────────────────────────────────────────────
 const SHIPS = [
@@ -887,513 +336,432 @@ const SHIPS = [
   { name:'USS Lewis B. Puller',    hull:'ESB-3',   type:'ESB',   cls:'Montford Point',theater:'EUCOM',  loc:'Rijeka, Croatia',   lat: 45.33,lon: 14.44,status:'In port · ESB' },
 ];
 
-// ─────────────────────────────────────────────
-// H+ COUNTER (live, every second)
-// ─────────────────────────────────────────────
-function updateCounter() {
-  const diff = Date.now() - OP_START.getTime();
+const NEWS_KEYWORDS = [
+  'epic fury','operation epic fury','roaring lion',
+  'centcom','central command','5th fleet','eucom','european command','6th fleet',
+  'carrier strike group',
+  'uss abraham lincoln','uss gerald r. ford','uss ford',
+  'iran','iranian','tehran','irgc','islamic revolutionary guard',
+  'israel','israeli','idf',
+  'strait of hormuz','persian gulf','gulf of oman','arabian sea','red sea',
+  'hezbollah','houthi','houthis','yemen',
+  'missile strike','air strike','ballistic missile','cruise missile',
+  'air defense','nuclear','middle east','mideast',
+];
+
+const DEFENSE_SRCS = new Set(['USNI','TWZ','DefNews','BreakDef','MilTimes','T&P','S&S','DefDaily']);
+
+const RSS_FEEDS = [
+  {url:'https://feeds.reuters.com/reuters/worldNews',          name:'Reuters'},
+  {url:'https://feeds.bbci.co.uk/news/world/rss.xml',          name:'BBC'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',name:'NYT'},
+  {url:'https://feeds.a.dj.com/rss/RSSWorldNews.xml',          name:'WSJ'},
+  {url:'https://www.aljazeera.com/xml/rss/all.xml',            name:'AJE'},
+  {url:'https://abcnews.go.com/abcnews/internationalheadlines', name:'ABC'},
+  {url:'https://www.cbsnews.com/latest/rss/world',             name:'CBS'},
+  {url:'https://news.usni.org/feed',                           name:'USNI'},
+  {url:'https://www.thedrive.com/the-war-zone/rss',            name:'TWZ'},
+  {url:'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml', name:'DefNews'},
+  {url:'https://breakingdefense.com/feed/',                    name:'BreakDef'},
+  {url:'https://www.militarytimes.com/arc/outboundfeeds/rss/', name:'MilTimes'},
+  {url:'https://taskandpurpose.com/feed/',                     name:'T&P'},
+  {url:'https://www.stripes.com/news/rss',                     name:'S&S'},
+  {url:'https://foreignpolicy.com/feed/',                      name:'FP'},
+  {url:'https://www.politico.com/rss/politicofeed.xml',        name:'Politico'},
+  {url:'https://feeds.washingtonpost.com/rss/world',           name:'WaPo'},
+  {url:'https://feeds.npr.org/1004/rss.xml',                   name:'NPR'},
+  {url:'https://www.timesofisrael.com/feed/',                  name:'TOI'},
+  {url:'https://www.haaretz.com/srv/haaretz-feed.xml',         name:'Haaretz'},
+  {url:'https://www.jpost.com/rss/rssfeedspoliticsandcontroversies.aspx', name:'JPost'},
+];
+
+// ── H+ COUNTER ──────────────────────────────────────────────────────────
+function tickCounter() {
+  var diff = Date.now() - OP_START.getTime();
   if (diff < 0) return;
-  const totalSec = Math.floor(diff / 1000);
-  const ss = totalSec % 60;
-  const totalMin = Math.floor(totalSec / 60);
-  const mm = totalMin % 60;
-  const hh = Math.floor(totalMin / 60);
-  const day = Math.floor(hh / 24) + 1;
+  var totalSec = Math.floor(diff / 1000);
+  var ss = totalSec % 60;
+  var totalMin = Math.floor(totalSec / 60);
+  var mm = totalMin % 60;
+  var hh = Math.floor(totalMin / 60);
+  var day = Math.floor(hh / 24) + 1;
   document.getElementById('h-hh').textContent = String(hh).padStart(3,'0');
   document.getElementById('h-mm').textContent = String(mm).padStart(2,'0');
   document.getElementById('h-ss').textContent = String(ss).padStart(2,'0');
   document.getElementById('day-val').textContent = 'DAY ' + day;
 }
-setInterval(updateCounter, 1000);
-updateCounter();
+tickCounter();
+setInterval(tickCounter, 1000);
 
-// ─────────────────────────────────────────────
-// GLOBE
-// ─────────────────────────────────────────────
-let currentTheater = 'all';
-let globeInitialized = false;
+// ── GLOBE ────────────────────────────────────────────────────────────────
+var globeReady = false;
+var currentTheater = 'all';
 
 function shipColor(s) {
-  if (s.type === 'CVN')  return '#F59E0B';
-  if (s.type === 'SSGN' || s.type === 'ESB') return '#7C3AED';
+  if (s.type==='CVN') return '#F59E0B';
+  if (s.type==='SSGN'||s.type==='ESB') return '#7C3AED';
   if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return '#059669';
-  return s.theater === 'CENTCOM' ? '#DC2626' : '#2563EB';
+  return s.theater==='CENTCOM' ? '#DC2626' : '#2563EB';
 }
 function shipSize(s) {
-  if (s.type === 'CVN')  return 16;
-  if (s.type === 'LCC')  return 12;
-  if (s.type === 'SSGN') return 11;
-  if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return 8;
-  return 10;
+  if (s.type==='CVN') return 14;
+  if (s.type==='LCC') return 11;
+  if (s.type==='SSGN') return 10;
+  if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return 7;
+  return 9;
 }
 function shipSymbol(s) {
-  if (s.type === 'CVN')  return 'star';
-  if (s.type === 'SSGN') return 'triangle-down';
-  if (['T-AKE','T-AO','T-ATF','T-AGS','T-AGS'].includes(s.type)) return 'diamond';
+  if (s.type==='CVN') return 'star';
+  if (s.type==='SSGN') return 'triangle-down';
+  if (['T-AKE','T-AO','T-ATF','T-AGS'].includes(s.type)) return 'diamond';
   return 'circle';
 }
-function inPortOpacity(s) {
-  return ['In port','Homeport','Port'].some(p => s.status.toLowerCase().includes(p.toLowerCase())) ? 0.5 : 1.0;
-}
+function isInPort(s) { return /in port|homeport|port/i.test(s.status); }
 
-function buildGlobeTraces(theater) {
-  const filtered = theater === 'all' ? SHIPS : SHIPS.filter(s => s.theater === theater);
-  document.getElementById('asset-count').textContent = filtered.length + ' ASSETS';
-
-  const trace = {
-    type: 'scattergeo',
-    mode: 'markers+text',
-    lat: filtered.map(s => s.lat),
-    lon: filtered.map(s => s.lon),
-    text: filtered.map(s => s.hull),
-    textposition: filtered.map(() => 'top center'),
-    textfont: { size: 8, color: '#00ff88', family: "'JetBrains Mono', monospace" },
-    hovertemplate: filtered.map(s =>
-      `<b>${s.name}</b><br>${s.hull} · ${s.type}<br>${s.loc}<br>${s.status}<extra></extra>`
-    ),
-    customdata: filtered,
+function buildTraces(theater) {
+  var list = theater==='all' ? SHIPS : SHIPS.filter(function(s){ return s.theater===theater; });
+  document.getElementById('asset-count').textContent = list.length + ' ASSETS';
+  return [{
+    type:'scattergeo', mode:'markers+text',
+    lat: list.map(function(s){ return s.lat; }),
+    lon: list.map(function(s){ return s.lon; }),
+    text: list.map(function(s){ return s.hull; }),
+    textposition: list.map(function(){ return 'top center'; }),
+    textfont: { size:8, color:'#00ff88', family:'JetBrains Mono, monospace' },
+    customdata: list,
+    hovertemplate: list.map(function(s){
+      return '<b>'+s.name+'</b><br>'+s.hull+' \xb7 '+s.type+'<br>'+s.loc+'<br>'+s.status+'<extra></extra>';
+    }),
     marker: {
-      size: filtered.map(s => shipSize(s)),
-      color: filtered.map(s => shipColor(s)),
-      symbol: filtered.map(s => shipSymbol(s)),
-      opacity: filtered.map(s => inPortOpacity(s)),
-      line: { width: filtered.map(s => s.type === 'CVN' ? 2 : 1), color: 'rgba(255,255,255,0.4)' },
+      size: list.map(shipSize),
+      color: list.map(shipColor),
+      symbol: list.map(shipSymbol),
+      opacity: list.map(function(s){ return isInPort(s)?0.45:1; }),
+      line: { width:1, color:'rgba(255,255,255,0.3)' }
     },
-    showlegend: false,
-  };
-  return [trace];
+    showlegend: false
+  }];
 }
 
-const GLOBE_LAYOUT = {
-  margin: { t: 0, b: 0, l: 0, r: 0 },
+var GLOBE_LAYOUT = {
+  margin: {t:0,b:0,l:0,r:0},
   paper_bgcolor: 'rgba(0,0,0,0)',
   plot_bgcolor:  'rgba(0,0,0,0)',
   geo: {
-    projection: { type: 'orthographic', rotation: { lon: 38, lat: 28, roll: 0 } },
-    showland: true,      landcolor: '#1a1a2e',
-    showocean: true,     oceancolor: '#0a0a0f',
-    showlakes: false,    showrivers: false,
-    showcountries: true, countrycolor: '#2a2a4e', countrywidth: 0.5,
-    showcoastlines: true, coastlinecolor: '#00ff88', coastlinewidth: 0.8,
-    showframe: false,    bgcolor: 'rgba(0,0,0,0)',
-    lonaxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
-    lataxis: { showgrid: true, gridcolor: 'rgba(0,255,136,0.06)', gridwidth: 0.5 },
+    projection: { type:'orthographic', rotation:{lon:38,lat:28,roll:0} },
+    showland:true,      landcolor:'#1a1a2e',
+    showocean:true,     oceancolor:'#0a0a0f',
+    showlakes:false,    showrivers:false,
+    showcountries:true, countrycolor:'#2a2a4e', countrywidth:0.5,
+    showcoastlines:true, coastlinecolor:'#00ff88', coastlinewidth:0.8,
+    showframe:false,    bgcolor:'rgba(0,0,0,0)',
+    lonaxis:{ showgrid:true, gridcolor:'rgba(0,255,136,0.08)', gridwidth:0.5 },
+    lataxis:{ showgrid:true, gridcolor:'rgba(0,255,136,0.08)', gridwidth:0.5 }
   },
-  dragmode: 'pan',
-  clickmode: 'event',
-  showlegend: false,
+  dragmode:'pan', clickmode:'event', showlegend:false
 };
-
-const GLOBE_CONFIG = {
-  displayModeBar: false,
-  responsive: true,
-  scrollZoom: true,
-};
-
-function showShipCallout(s, clientX, clientY) {
-  const el = document.getElementById('ship-callout');
-  const content = document.getElementById('callout-content');
-  content.innerHTML = `
-    <div class="callout-name">${s.name}</div>
-    <div class="callout-hull">${s.hull} &middot; ${s.type} &middot; ${s.cls}</div>
-    <div class="callout-row"><strong>Location:</strong> ${s.loc}</div>
-    <div class="callout-row"><strong>Theater:</strong> ${s.theater}</div>
-    <div class="callout-row"><strong>Status:</strong> ${s.status}</div>`;
-  // Position near click, keep on screen
-  const W = window.innerWidth, H = window.innerHeight;
-  const w = 260, h = 140;
-  const x = Math.min(clientX + 16, W - w - 10);
-  const y = Math.min(clientY - 10, H - h - 10);
-  el.style.left = x + 'px';
-  el.style.top  = y + 'px';
-  el.style.display = 'block';
-}
+var GLOBE_CONFIG = { responsive:true, displayModeBar:false, scrollZoom:true };
 
 function initGlobe() {
-  if (typeof Plotly === 'undefined') {
-    document.getElementById('globe').innerHTML =
-      '<div class="state-msg" style="padding-top:40px">Map loading...</div>';
-    return;
-  }
-
-  Plotly.newPlot('globe', buildGlobeTraces('all'), GLOBE_LAYOUT, GLOBE_CONFIG);
-  globeInitialized = true;
-
-  // Click callout
+  if (typeof Plotly === 'undefined') return;
+  Plotly.newPlot('globe', buildTraces('all'), GLOBE_LAYOUT, GLOBE_CONFIG);
+  globeReady = true;
   document.getElementById('globe').on('plotly_click', function(d) {
-    if (!d.points || !d.points.length) return;
-    const s = d.points[0].customdata;
+    if (!d.points||!d.points.length) return;
+    var s = d.points[0].customdata;
     if (!s) return;
     showShipCallout(s, d.event.clientX, d.event.clientY);
-  });
-
-  // Hide callout when clicking on blank globe area
-  document.getElementById('globe').on('plotly_relayout', function() {
-    document.getElementById('ship-callout').style.display = 'none';
   });
 }
 
 function filterTheater(theater, btn) {
   currentTheater = theater;
-  document.querySelectorAll('#panel-globe .flt-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('#panel-globe .flt-btn').forEach(function(b){ b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
-  if (globeInitialized) {
-    Plotly.react('globe', buildGlobeTraces(theater), GLOBE_LAYOUT, GLOBE_CONFIG);
-  }
+  if (globeReady) Plotly.react('globe', buildTraces(theater), GLOBE_LAYOUT, GLOBE_CONFIG);
 }
 
-// ─────────────────────────────────────────────
-// NEWS FEED
-// ─────────────────────────────────────────────
-let allArticles = [];
-let activeSource = 'all';
+function showShipCallout(s, cx, cy) {
+  var el = document.getElementById('ship-callout');
+  document.getElementById('ship-callout-body').innerHTML =
+    '<div class="co-name">'+s.name+'</div>'+
+    '<div class="co-sub">'+s.hull+' \xb7 '+s.type+' \xb7 '+s.cls+'</div>'+
+    '<div class="co-row"><strong>Location:</strong> '+s.loc+'</div>'+
+    '<div class="co-row"><strong>Theater:</strong> '+s.theater+'</div>'+
+    '<div class="co-row"><strong>Status:</strong> '+s.status+'</div>';
+  var W=window.innerWidth, H=window.innerHeight;
+  el.style.left = Math.min(cx+16,W-280)+ 'px';
+  el.style.top  = Math.min(cy-10,H-160)+ 'px';
+  el.style.display = 'block';
+}
 
-const DEFENSE_SOURCES = new Set(['USNI','TWZ','DefNews','BreakDef','MilTimes','T&P','S&S','DefDaily']);
+// ── TIME HELPER ──────────────────────────────────────────────────────────
+function timeAgo(str) {
+  try {
+    var d = new Date(str), diff = (Date.now()-d.getTime())/1000;
+    if (diff<60) return 'just now';
+    if (diff<3600) return Math.floor(diff/60)+'m ago';
+    if (diff<86400) return Math.floor(diff/3600)+'h ago';
+    return Math.floor(diff/86400)+'d ago';
+  } catch(e){ return ''; }
+}
+
+// ── NEWS FEED ────────────────────────────────────────────────────────────
+var allArticles = [];
+var activeSrc = 'all';
 
 function passesFilter(a) {
-  if (DEFENSE_SOURCES.has(a.source)) return true; // all defense pub content is relevant
-  const txt = (a.title + ' ' + a.desc).toLowerCase();
-  return NEWS_KEYWORDS.some(kw => txt.includes(kw));
-}
-
-function timeAgo(dateStr) {
-  try {
-    const d = new Date(dateStr);
-    const diff = (Date.now() - d.getTime()) / 1000;
-    if (diff < 60)   return 'just now';
-    if (diff < 3600) return Math.floor(diff/60) + 'm ago';
-    if (diff < 86400)return Math.floor(diff/3600) + 'h ago';
-    return Math.floor(diff/86400) + 'd ago';
-  } catch { return ''; }
-}
-
-const CORS_PROXIES = [
-  { wrap: url => 'https://api.allorigins.win/get?url=' + encodeURIComponent(url), json: true },
-  { wrap: url => 'https://corsproxy.io/?' + encodeURIComponent(url), json: false },
-];
-
-async function fetchOneFeed(feed) {
-  // Only try first proxy — fail fast (6s) rather than double-attempting slowly
-  const proxy = CORS_PROXIES[0];
-  try {
-    const res = await fetch(proxy.wrap(feed.url), { signal: AbortSignal.timeout(6000) });
-    if (!res.ok) throw new Error('bad status');
-    const raw = (await res.json()).contents;
-    if (!raw) throw new Error('empty');
-    const xml = new DOMParser().parseFromString(raw, 'text/xml');
-    const items = xml.querySelectorAll('item');
-    if (!items.length) throw new Error('no items');
-    return Array.from(items).map(item => {
-      const link = item.querySelector('link')?.textContent?.trim()
-                 || item.getElementsByTagNameNS('*','origLink')[0]?.textContent?.trim() || '';
-      const desc = item.querySelector('description')?.textContent || '';
-      return {
-        title: item.querySelector('title')?.textContent?.trim() || '',
-        link,
-        desc: desc.replace(/<[^>]+>/g, '').trim().substring(0, 220),
-        pubDate: item.querySelector('pubDate')?.textContent?.trim()
-               || item.querySelector('date')?.textContent?.trim() || '',
-        source: feed.name,
-      };
-    });
-  } catch {
-    return [];
-  }
-}
-
-function rebuildFilters(articles) {
-  const sources = new Set(articles.map(a => a.source));
-  const row = document.getElementById('src-filters');
-  const active = row.querySelector('.flt-btn.active')?.textContent || 'All';
-  row.innerHTML = `<button class="flt-btn${active==='All'?' active':''}" onclick="filterNews('all',this)">All</button>`;
-  [...sources].sort().forEach(s => {
-    const btn = document.createElement('button');
-    btn.className = 'flt-btn' + (active===s?' active':'');
-    btn.textContent = s;
-    btn.onclick = function() { filterNews(s, this); };
-    row.appendChild(btn);
-  });
+  if (DEFENSE_SRCS.has(a.source)) return true;
+  var txt = (a.title+' '+a.desc).toLowerCase();
+  return NEWS_KEYWORDS.some(function(kw){ return txt.indexOf(kw)>=0; });
 }
 
 function renderNews(articles) {
-  const body = document.getElementById('news-body');
-  const toShow = activeSource === 'all'
-    ? articles
-    : articles.filter(a => a.source === activeSource);
-
-  if (!toShow.length) {
-    body.innerHTML = '<div class="state-msg">No matching articles</div>';
-    return;
-  }
-
-  body.innerHTML = toShow.map(a => `
-    <div class="article" onclick="window.open('${a.link}','_blank')">
-      <div class="article-hed">
-        <span class="article-source">${a.source}:</span>
-        <span class="article-title">${a.title}</span>
-        <span class="article-time">${timeAgo(a.pubDate)}</span>
-      </div>
-      ${a.desc ? `<div class="article-desc">${a.desc}</div>` : ''}
-    </div>`).join('');
+  var body = document.getElementById('news-body');
+  var list = activeSrc==='all' ? articles : articles.filter(function(a){ return a.source===activeSrc; });
+  if (!list.length) { body.innerHTML='<div class="state-msg">No matching articles</div>'; return; }
+  body.innerHTML = list.map(function(a) {
+    return '<div class="article" onclick="window.open(\''+a.link+'\',\'_blank\')">'+
+      '<div class="art-hed">'+
+        '<span class="art-src">'+a.source+':</span> '+
+        '<span class="art-ttl">'+a.title+'</span>'+
+        '<span class="art-time">'+timeAgo(a.pubDate)+'</span>'+
+      '</div>'+
+      (a.desc ? '<div class="art-desc">'+a.desc+'</div>' : '')+
+    '</div>';
+  }).join('');
 }
 
 function filterNews(src, btn) {
-  activeSource = src;
-  document.querySelectorAll('#src-filters .flt-btn').forEach(b => b.classList.remove('active'));
+  activeSrc = src;
+  document.querySelectorAll('#src-filters .flt-btn').forEach(function(b){ b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
   renderNews(allArticles);
 }
 
+function rebuildFilters() {
+  var sources = {};
+  allArticles.forEach(function(a){ sources[a.source]=true; });
+  var row = document.getElementById('src-filters');
+  row.innerHTML = '<button class="flt-btn'+(activeSrc==='all'?' active':'')+'" onclick="filterNews(\'all\',this)">All</button>';
+  Object.keys(sources).sort().forEach(function(s) {
+    var b = document.createElement('button');
+    b.className = 'flt-btn'+(activeSrc===s?' active':'');
+    b.textContent = s;
+    b.onclick = function(){ filterNews(s,this); };
+    row.appendChild(b);
+  });
+}
+
+async function fetchOneFeed(feed) {
+  try {
+    var url = 'https://api.allorigins.win/get?url='+encodeURIComponent(feed.url);
+    var res = await fetch(url, {signal:AbortSignal.timeout(6000)});
+    if (!res.ok) return [];
+    var data = await res.json();
+    if (!data.contents) return [];
+    var xml = new DOMParser().parseFromString(data.contents, 'text/xml');
+    var items = xml.querySelectorAll('item');
+    if (!items.length) return [];
+    return Array.from(items).map(function(item) {
+      var link = item.querySelector('link')?.textContent?.trim() || '';
+      var desc = item.querySelector('description')?.textContent || '';
+      return {
+        title: item.querySelector('title')?.textContent?.trim() || '',
+        link: link,
+        desc: desc.replace(/<[^>]+>/g,'').trim().substring(0,220),
+        pubDate: item.querySelector('pubDate')?.textContent?.trim() || '',
+        source: feed.name
+      };
+    });
+  } catch(e) { return []; }
+}
+
 async function fetchAllNews() {
-  document.getElementById('loading-news').style.display = 'block';
+  document.getElementById('load-news').style.display = 'block';
   allArticles = [];
-
-  // Progressive: render as each feed resolves (fast feeds appear immediately)
-  const promises = RSS_FEEDS.map(feed =>
-    fetchOneFeed(feed).then(items => {
-      const filtered = items.filter(passesFilter);
+  var promises = RSS_FEEDS.map(function(feed) {
+    return fetchOneFeed(feed).then(function(items) {
+      var filtered = items.filter(passesFilter);
       if (!filtered.length) return;
-      allArticles.push(...filtered);
-      allArticles.sort((a, b) => {
-        try { return new Date(b.pubDate) - new Date(a.pubDate); } catch { return 0; }
-      });
-      rebuildFilters(allArticles);
+      allArticles = allArticles.concat(filtered);
+      allArticles.sort(function(a,b){ try{return new Date(b.pubDate)-new Date(a.pubDate);}catch(e){return 0;} });
+      rebuildFilters();
       renderNews(allArticles);
-      renderSITREP(allArticles);
-    }).catch(() => {})
-  );
-
+      renderSITREP();
+    });
+  });
   await Promise.allSettled(promises);
-  document.getElementById('loading-news').style.display = 'none';
+  document.getElementById('load-news').style.display = 'none';
   if (!allArticles.length) {
-    document.getElementById('news-body').innerHTML =
-      '<div class="state-msg">No articles loaded — check network or try refreshing</div>';
+    document.getElementById('news-body').innerHTML = '<div class="state-msg">No articles loaded. Check network.</div>';
   }
 }
 
-// ─────────────────────────────────────────────
-// SITREP
-// ─────────────────────────────────────────────
-function renderSITREP(articles) {
-  const body = document.getElementById('sitrep-body');
+// ── SITREP ───────────────────────────────────────────────────────────────
+function renderSITREP() {
+  var body = document.getElementById('sitrep-body');
   if (!body) return;
-  // Take top 12 most recent articles for SITREP bullets
-  const top = articles.slice(0, 12);
-  if (!top.length) {
-    body.innerHTML = '<div class="state-msg">Awaiting intelligence feeds...</div>';
-    return;
-  }
-  const now = new Date().toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', timeZone:'America/New_York', hour12:false });
-  const sitrep = document.getElementById('sitrep-updated');
-  if (sitrep) sitrep.textContent = 'Updated ' + now + ' ET';
-
-  body.innerHTML = top.map(a => {
-    const firstSentence = (a.desc || a.title).split(/\.\s/)[0].replace(/\.\.\.$/, '').trim();
-    return `<div class="sitrep-item">
-      <span class="sitrep-bullet">—</span>
-      <div>
-        <span class="sitrep-source">${a.source}</span>
-        <span class="sitrep-text" onclick="window.open('${a.link}','_blank')" title="${a.title}">
-          ${firstSentence || a.title}
-        </span>
-      </div>
-    </div>`;
+  var top = allArticles.slice(0,12);
+  if (!top.length) { body.innerHTML='<div class="state-msg">Awaiting feeds...</div>'; return; }
+  var now = new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',timeZone:'America/New_York',hour12:false});
+  var tsEl = document.getElementById('sitrep-ts');
+  if (tsEl) tsEl.textContent = now+' ET';
+  body.innerHTML = top.map(function(a) {
+    var first = (a.desc||a.title).split(/\. /)[0].replace(/\.\.\.$/,'').trim();
+    return '<div class="sit-item">'+
+      '<span class="sit-dash">&#8212;</span>'+
+      '<div>'+
+        '<span class="sit-src">'+a.source+'</span> '+
+        '<span class="sit-text" onclick="window.open(\''+a.link+'\',\'_blank\')">'+
+          (first||a.title)+
+        '</span>'+
+      '</div>'+
+    '</div>';
   }).join('');
 }
 
-// ─────────────────────────────────────────────
-// DVIDS
-// ─────────────────────────────────────────────
+// ── DVIDS ────────────────────────────────────────────────────────────────
+var dvidsItems = [];
+
 function showDVIDSCallout(idx, evt) {
-  document.getElementById('ship-callout').style.display = 'none';
-  const item = _dvidsUnique[idx];
-  if (!item) return;
-  const el = document.getElementById('dvids-callout');
-  const full = (item.desc || '').replace(/\.\.\.$/, '').trim();
-  document.getElementById('dvids-callout-content').innerHTML = `
-    <div class="dvids-callout-title">${item.title}</div>
-    ${full ? `<div class="dvids-callout-desc">${full}</div>` : ''}
-    <div class="dvids-callout-meta">${item.unit_name || ''} &middot; ${timeAgo(item.timestamp)}</div>
-    <a class="dvids-callout-link" href="${item.url}" target="_blank" rel="noopener">Open on DVIDS</a>`;
-  const W = window.innerWidth, H = window.innerHeight;
-  const w = 320, h = 200;
-  const x = Math.min(evt.clientX + 12, W - w - 10);
-  const y = Math.min(evt.clientY - 10, H - h - 10);
-  el.style.left = x + 'px';
-  el.style.top  = y + 'px';
-  el.style.display = 'block';
+  var item = dvidsItems[idx]; if (!item) return;
+  document.getElementById('ship-callout').style.display='none';
+  var el = document.getElementById('dvids-callout');
+  var desc = (item.desc||'').replace(/\.\.\.$/,'').trim();
+  document.getElementById('dvids-callout-body').innerHTML =
+    '<div class="co-name" style="font-size:12px;line-height:1.4;">'+item.title+'</div>'+
+    (desc ? '<div class="co-row" style="margin-top:6px;">'+desc+'</div>' : '')+
+    '<div class="co-sub" style="margin-top:6px;">'+
+      (item.unit_name||'')+' \xb7 '+timeAgo(item.timestamp)+
+    '</div>'+
+    '<a class="co-link" href="'+item.url+'" target="_blank">Open on DVIDS</a>';
+  var W=window.innerWidth, H=window.innerHeight;
+  el.style.left = Math.min(evt.clientX+12,W-320)+'px';
+  el.style.top  = Math.min(evt.clientY-10,H-200)+'px';
+  el.style.display='block';
   evt.stopPropagation();
 }
 
-let _dvidsUnique = [];
-
 function renderDVIDS() {
-  const body = document.getElementById('dvids-body');
-  document.getElementById('loading-dvids').style.display = 'none';
-
-  if (!DVIDS_DATA || !DVIDS_DATA.length) {
-    body.innerHTML = '<div class="state-msg">DoD content updates at 06:00, 12:00, 00:00 ET</div>';
+  var body = document.getElementById('dvids-body');
+  document.getElementById('load-dvids').style.display='none';
+  if (!DVIDS_DATA||!DVIDS_DATA.length) {
+    body.innerHTML='<div class="state-msg">DoD content updates at 06:00/12:00/00:00 ET</div>';
     return;
   }
-
-  // Deduplicate by title — keep most recent per unique title
-  const seen = new Map();
-  DVIDS_DATA.forEach(item => {
-    const key = item.title.trim().toLowerCase();
-    if (!seen.has(key) || item.timestamp > seen.get(key).timestamp) seen.set(key, item);
+  var seen = {};
+  DVIDS_DATA.forEach(function(item) {
+    var k = item.title.trim().toLowerCase();
+    if (!seen[k]||item.timestamp>seen[k].timestamp) seen[k]=item;
   });
-  _dvidsUnique = [...seen.values()].sort((a, b) => b.timestamp.localeCompare(a.timestamp));
-
-  body.innerHTML = _dvidsUnique.map((item, i) => {
-    const firstSentence = (item.desc || '').split(/\.\s/)[0].replace(/\.\.\.$/, '').trim();
-    return `<div class="dvids-item" onclick="showDVIDSCallout(${i}, event)">
-      <div class="dvids-row">
-        <span class="dvids-title">${item.title}</span>
-        <span class="article-time" style="flex-shrink:0">${timeAgo(item.timestamp)}</span>
-      </div>
-      ${firstSentence ? `<div class="dvids-desc">${firstSentence}</div>` : ''}
-    </div>`;
+  dvidsItems = Object.values(seen).sort(function(a,b){ return b.timestamp.localeCompare(a.timestamp); });
+  body.innerHTML = dvidsItems.map(function(item,i) {
+    var first = (item.desc||'').split(/\.\s/)[0].replace(/\.\.\.$/,'').trim();
+    return '<div class="dv-item" onclick="showDVIDSCallout('+i+',event)">'+
+      '<div class="dv-row"><span class="dv-title">'+item.title+'</span><span class="ts-sm">'+timeAgo(item.timestamp)+'</span></div>'+
+      (first ? '<div class="dv-desc">'+first+'</div>' : '')+
+    '</div>';
   }).join('');
 }
 
-// ─────────────────────────────────────────────
-// OSINT ACCOUNTS
-// ─────────────────────────────────────────────
+// ── OSINT ────────────────────────────────────────────────────────────────
 function renderOSINT() {
-  const body = document.getElementById('osint-body');
-  body.innerHTML = OSINT_ACCOUNTS.map(a => {
-    const initials = a.handle.replace('@','').substring(0,2).toUpperCase();
-    const slug = a.handle.replace('@','');
-    return `<a class="osint-account" href="${a.url}" target="_blank" rel="noopener">
-      <div class="osint-avatar">${initials}</div>
-      <div class="osint-info">
-        <div class="osint-handle">${a.handle}</div>
-        <div class="osint-desc">${a.desc}</div>
-      </div>
-      <div class="osint-link">↗</div>
-    </a>
-    <div class="osint-posts" id="posts-${slug}" style="display:none"></div>`;
+  var body = document.getElementById('osint-body');
+  body.innerHTML = OSINT_ACCOUNTS.map(function(a) {
+    var initials = a.handle.replace('@','').substring(0,2).toUpperCase();
+    var slug = a.handle.replace('@','');
+    return '<a class="osint-acct" href="'+a.url+'" target="_blank" rel="noopener">'+
+      '<div class="osint-av">'+initials+'</div>'+
+      '<div class="osint-info">'+
+        '<div class="osint-hdl">'+a.handle+'</div>'+
+        '<div class="osint-desc">'+a.desc+'</div>'+
+      '</div>'+
+      '<div class="osint-lnk">&#8599;</div>'+
+    '</a>'+
+    '<div class="osint-posts" id="posts-'+slug+'" style="display:none"></div>';
   }).join('');
 }
 
-async function loadOSINTPosts() {
-  const btn = document.getElementById('osint-load-btn');
-  btn.classList.add('loading');
-  btn.textContent = 'Loading…';
-
-  // Try two nitter instances
-  const NITTER = ['https://nitter.poast.org', 'https://nitter.privacydev.net'];
-  let anyLoaded = false;
-
-  await Promise.allSettled(OSINT_ACCOUNTS.map(async a => {
-    const slug = a.handle.replace('@','');
-    const container = document.getElementById('posts-' + slug);
+async function loadPosts() {
+  var btn = document.getElementById('posts-btn');
+  btn.classList.add('spin'); btn.textContent='Loading...';
+  var NITTER = ['https://nitter.poast.org','https://nitter.privacydev.net'];
+  var anyLoaded = false;
+  await Promise.allSettled(OSINT_ACCOUNTS.map(async function(a) {
+    var slug = a.handle.replace('@','');
+    var container = document.getElementById('posts-'+slug);
     if (!container) return;
-
-    for (const base of NITTER) {
+    for (var i=0;i<NITTER.length;i++) {
       try {
-        const rssUrl = `${base}/${slug}/rss`;
-        const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(rssUrl);
-        const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+        var rssUrl = NITTER[i]+'/'+slug+'/rss';
+        var res = await fetch('https://api.allorigins.win/get?url='+encodeURIComponent(rssUrl),{signal:AbortSignal.timeout(8000)});
         if (!res.ok) continue;
-        const { contents } = await res.json();
-        if (!contents) continue;
-        const xml = new DOMParser().parseFromString(contents, 'text/xml');
-        const items = Array.from(xml.querySelectorAll('item')).slice(0, 3);
+        var data = await res.json();
+        if (!data.contents) continue;
+        var xml = new DOMParser().parseFromString(data.contents,'text/xml');
+        var items = Array.from(xml.querySelectorAll('item')).slice(0,3);
         if (!items.length) continue;
-
-        const html = items.map(item => {
-          const text = (item.querySelector('description')?.textContent || '')
-            .replace(/<[^>]+>/g, '').trim().substring(0, 180);
-          const pubDate = item.querySelector('pubDate')?.textContent || '';
-          const link = item.querySelector('link')?.textContent?.trim() || a.url;
-          // rewrite nitter link → twitter
-          const xLink = link.replace(/https:\/\/nitter\.[^/]+/, 'https://x.com');
-          return `<div class="osint-post" onclick="window.open('${xLink}','_blank');event.stopPropagation()" style="cursor:pointer">
-            <span class="osint-post-time">${timeAgo(pubDate)}</span>
-            <span class="osint-post-text">${text}</span>
-          </div>`;
+        container.innerHTML = items.map(function(item) {
+          var txt = (item.querySelector('description')?.textContent||''). replace(/<[^>]+>/g,'').trim().substring(0,160);
+          var ts = item.querySelector('pubDate')?.textContent||''
+          var lnk = (item.querySelector('link')?.textContent?.trim()||a.url).replace(/https:\/\/nitter\.[^/]+/,'https://x.com');
+          return '<div class="osint-post" onclick="window.open(\''+lnk+'\',\'_blank\')">'+
+            '<span class="op-time">'+timeAgo(ts)+'</span>'+
+            '<span class="op-txt">'+txt+'</span>'+
+          '</div>';
         }).join('');
-
-        container.innerHTML = html;
-        container.style.display = 'block';
-        anyLoaded = true;
-        break;
-      } catch { /* try next instance */ }
+        container.style.display='block';
+        anyLoaded=true; break;
+      } catch(e){}
     }
   }));
-
-  btn.classList.remove('loading');
-  if (anyLoaded) {
-    btn.textContent = 'Refresh Posts';
-  } else {
-    btn.textContent = 'Posts unavailable';
-    btn.style.color = 'var(--warn)';
-    setTimeout(() => { btn.textContent = 'Retry'; btn.style.color = ''; }, 3000);
-  }
+  btn.classList.remove('spin');
+  btn.textContent = anyLoaded ? 'Refresh' : 'Retry';
 }
 
-// ─────────────────────────────────────────────
-// REFRESH
-// ─────────────────────────────────────────────
-function setLastUpdated() {
-  const now = new Date();
-  const t = now.toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', timeZone:'America/New_York', hour12:false });
-  const d = now.toLocaleDateString('en-US', { month:'short', day:'numeric', timeZone:'America/New_York' });
-  document.getElementById('last-updated').textContent = d + ' · ' + t + ' ET';
+// ── REFRESH ──────────────────────────────────────────────────────────────
+function setTimestamp() {
+  var now = new Date();
+  var t = now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',timeZone:'America/New_York',hour12:false});
+  var d = now.toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/New_York'});
+  document.getElementById('last-updated').textContent = d+' '+t+' ET';
 }
 
-async function refreshAll() {
-  const btn = document.getElementById('refresh-btn');
-  const icon = document.getElementById('refresh-icon');
-  btn.classList.add('loading');
-  icon.textContent = '...';
-  btn.querySelector('span:last-child') && (btn.lastChild.textContent = ' REFRESHING…');
-
-  try {
-    await fetchAllNews();
-  } catch(e) {
-    console.warn('News fetch error:', e);
-  }
-
-  setLastUpdated();
-  btn.classList.remove('loading');
-  icon.textContent = '↻';
+async function doRefresh() {
+  var btn = document.querySelector('.refresh-btn');
+  btn.textContent = 'Refreshing...';
+  btn.disabled = true;
+  try { await fetchAllNews(); } catch(e) { console.warn(e); }
+  setTimestamp();
+  btn.textContent = '\u21BB REFRESH';
+  btn.disabled = false;
 }
 
-// ─────────────────────────────────────────────
-// INIT
-// ─────────────────────────────────────────────
-(function init() {
-  // Load server-side cached news first (instant display, no live fetch needed)
-  if (typeof CACHED_NEWS_DATA !== 'undefined' && CACHED_NEWS_DATA.length) {
-    allArticles = CACHED_NEWS_DATA;
-    rebuildFilters(allArticles);
+// ── INIT ─────────────────────────────────────────────────────────────────
+(function() {
+  if (CACHED_NEWS_DATA && CACHED_NEWS_DATA.length) {
+    allArticles = CACHED_NEWS_DATA.slice();
+    rebuildFilters();
     renderNews(allArticles);
-    renderSITREP(allArticles);
-    document.getElementById('loading-news').style.display = 'none';
+    renderSITREP();
+    document.getElementById('load-news').style.display='none';
   }
-  // Globe init fires from Plotly onload at bottom of body (non-blocking)
   renderDVIDS();
   renderOSINT();
-  refreshAll();
+  doRefresh();
 })();
 
-// Globe must resize with panel
-window.addEventListener('resize', () => {
-  if (globeInitialized && typeof Plotly !== 'undefined') Plotly.relayout('globe', {});
+window.addEventListener('resize', function() {
+  if (globeReady && typeof Plotly!=='undefined') Plotly.relayout('globe',{});
 });
-
-// Close callouts on outside click
-document.addEventListener('click', e => {
-  const shipC = document.getElementById('ship-callout');
-  const dvidsC = document.getElementById('dvids-callout');
-  if (shipC && !shipC.contains(e.target)) shipC.style.display = 'none';
-  if (dvidsC && !dvidsC.contains(e.target)) dvidsC.style.display = 'none';
+document.addEventListener('click', function(e) {
+  var sc=document.getElementById('ship-callout'), dc=document.getElementById('dvids-callout');
+  if (sc&&!sc.contains(e.target)) sc.style.display='none';
+  if (dc&&!dc.contains(e.target)) dc.style.display='none';
 });
 </script>
-
-<!-- Plotly loaded AFTER page content renders to avoid blocking -->
+<!-- Plotly loads after content — calls initGlobe() when ready -->
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" onload="initGlobe()"></script>
 </body>
 </html>
