@@ -1,9 +1,24 @@
 {
-  "generated": "2026-03-14T11:32:18.803146+00:00",
+  "generated": "2026-03-14T17:18:35.131994+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:999553",
+      "title": "U.S. forces Execute large-scale Precision Strike on Kharg Island, Iran",
+      "desc": "U.S. forces executed a large-scale precision strike on Kharg Island, Iran, during Operation Epic Fury, March 13, 2026. The strike destroyed naval mine storage facilities, missile storage bunkers, and multiple other military sites. U.S. forces successfully struck more than 90 Iranian military targets",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-14T11:46:56+00:00",
+      "url": "https://www.dvidshub.net/video/999553/us-forces-execute-large-scale-precision-strike-kharg-island-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:999519",
       "title": "USS Abraham Lincoln Conducts Flight Operations During Operation Epic Fury",
