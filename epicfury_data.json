@@ -1,18 +1,18 @@
 {
-  "generated": "2026-03-13T17:27:16.894273+00:00",
+  "generated": "2026-03-14T05:44:07.875350+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
-      "id": "video:999345",
-      "title": "USS Gerald R. Ford Conducts Flight Operations During Operation Epic Fury",
-      "desc": "The world's largest aircraft carrier, USS Gerald R. Ford (CVN 78), conducts flight operations during Operation Epic Fury, March 8, 2026. (U.S. Navy Video)",
+      "id": "video:999519",
+      "title": "USS Abraham Lincoln Conducts Flight Operations During Operation Epic Fury",
+      "desc": "USS Abraham Lincoln (CVN 72) conducts flight operations during Operation Epic Fury, March 12, 2026. (U.S. Navy Video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-12T19:30:29+00:00",
-      "url": "https://www.dvidshub.net/video/999345/uss-gerald-r-ford-conducts-flight-operations-during-operation-epic-fury",
+      "timestamp": "2026-03-13T22:30:51+00:00",
+      "url": "https://www.dvidshub.net/video/999519/uss-abraham-lincoln-conducts-flight-operations-during-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -43,21 +43,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-03-12T14:32:24+00:00",
       "url": "https://www.dvidshub.net/news/560369/statement-uss-gerald-r-ford",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:999119",
-      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 11, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-11T12:29:07+00:00",
-      "url": "https://www.dvidshub.net/video/999119/centcom-commander-provides-update-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
