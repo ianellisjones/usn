@@ -10,6 +10,7 @@ on:
       - main
     paths:
       - '*.html'
+      - 'osint-v2/**'
 
 permissions:
   contents: read
