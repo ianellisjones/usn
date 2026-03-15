@@ -24,7 +24,7 @@
     <div class="topbar-center">
       <span class="h-counter" id="h-counter">H+0000</span>
       <span class="day-counter" id="day-counter">DAY 1</span>
-      <span class="utc-clock" id="utc-clock">01 JAN 2026 00:00:00Z</span>
+      <span class="utc-clock" id="utc-clock">01 JAN 2026 00:00:00 EDT</span>
     </div>
     <div class="topbar-right">
       <div class="live-indicator">
@@ -32,7 +32,7 @@
         <span class="live-text">LIVE</span>
       </div>
       <button class="btn-ghost" id="btn-refresh" onclick="refreshAll()">REFRESH</button>
-      <span class="last-updated" id="last-updated">Last updated: --:--Z</span>
+      <span class="last-updated" id="last-updated">Last updated: --:-- EDT</span>
     </div>
   </div>
 
@@ -178,7 +178,8 @@
 // ============================================================
 // CONFIGURATION
 // ============================================================
-const H_HOUR = Date.UTC(2025, 1, 28, 6, 15, 0); // Feb 28, 2025 06:15 UTC
+// H-Hour: Feb 28, 2026 01:15 AM EST (UTC-5) = 06:15 UTC
+const H_HOUR = Date.UTC(2026, 1, 28, 6, 15, 0);
 const CORS_PROXIES = [
   'https://api.allorigins.win/raw?url=',
   'https://corsproxy.io/?'
@@ -188,9 +189,15 @@ const KEYWORDS = [
   'cruise missile','tomahawk','jassm','israel','idf','roaring lion','retaliation',
   'irgc','houthi','strait of hormuz','fifth fleet','sixth fleet','navy',
   'abraham lincoln','gerald ford','f-35','bomber','sortie','pentagon',
-  'middle east','gulf of oman','arabian sea','red sea','mediterranean'
+  'middle east','gulf of oman','arabian sea','red sea','mediterranean',
+  'operation','military','missile','drone','air strike','bomb','warship',
+  'nuclear','sanctions','iranian','hezbollah','deployment','combat',
+  'theater','centcom','eucom','forces','troops','defense','attack'
 ];
 const MONTH_NAMES = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+
+// EDT offset: UTC-4 (Eastern Daylight Time, active Mar-Nov)
+const EDT_OFFSET = -4;
 
 let shipsData = [];
 let statsData = {};
@@ -199,28 +206,38 @@ let feedCache = {};
 let lastRefreshTime = null;
 let currentSort = { field: 'type', asc: true };
 let legendVisibility = {};
-let currentGlobeScale = 1.8;
+let currentGlobeScale = 1.2;
 
 // ============================================================
 // CLOCK MODULE
 // ============================================================
+function toEDT(date) {
+  return new Date(date.getTime() + EDT_OFFSET * 3600000);
+}
+
 function updateClock() {
   const now = Date.now();
   const elapsed = now - H_HOUR;
-  const hours = Math.floor(elapsed / 3600000);
-  const days = Math.floor(hours / 24) + 1;
 
-  document.getElementById('h-counter').textContent = 'H+' + hours;
-  document.getElementById('day-counter').textContent = 'DAY ' + days;
+  if (elapsed < 0) {
+    document.getElementById('h-counter').textContent = 'H-HOUR PENDING';
+    document.getElementById('day-counter').textContent = '';
+  } else {
+    const hours = Math.floor(elapsed / 3600000);
+    const days = Math.floor(hours / 24) + 1;
+    document.getElementById('h-counter').textContent = 'H+' + hours;
+    document.getElementById('day-counter').textContent = 'DAY ' + days;
+  }
 
-  const d = new Date();
-  const day = String(d.getUTCDate()).padStart(2, '0');
-  const month = MONTH_NAMES[d.getUTCMonth()];
-  const year = d.getUTCFullYear();
-  const hh = String(d.getUTCHours()).padStart(2, '0');
-  const mm = String(d.getUTCMinutes()).padStart(2, '0');
-  const ss = String(d.getUTCSeconds()).padStart(2, '0');
-  document.getElementById('utc-clock').textContent = `${day} ${month} ${year} ${hh}:${mm}:${ss}Z`;
+  // Display clock in EDT
+  const edt = toEDT(new Date());
+  const day = String(edt.getUTCDate()).padStart(2, '0');
+  const month = MONTH_NAMES[edt.getUTCMonth()];
+  const year = edt.getUTCFullYear();
+  const hh = String(edt.getUTCHours()).padStart(2, '0');
+  const mm = String(edt.getUTCMinutes()).padStart(2, '0');
+  const ss = String(edt.getUTCSeconds()).padStart(2, '0');
+  document.getElementById('utc-clock').textContent = `${day} ${month} ${year} ${hh}:${mm}:${ss} EDT`;
 }
 
 setInterval(updateClock, 1000);
@@ -298,7 +315,7 @@ function initGlobe() {
     geo: {
       projection: {
         type: 'orthographic',
-        rotation: { lon: -48, lat: -24 },
+        rotation: { lon: -40, lat: -25 },
         scale: currentGlobeScale
       },
       showland: true,
@@ -433,11 +450,11 @@ function globeZoom(dir) {
 }
 
 function globeReset() {
-  currentGlobeScale = 1.8;
+  currentGlobeScale = 1.2;
   Plotly.relayout('globe', {
-    'geo.projection.rotation.lon': -48,
-    'geo.projection.rotation.lat': -24,
-    'geo.projection.scale': 1.8
+    'geo.projection.rotation.lon': -40,
+    'geo.projection.rotation.lat': -25,
+    'geo.projection.scale': 1.2
   });
 }
 
@@ -573,14 +590,14 @@ function renderEvents() {
   const sorted = [...eventsData].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   list.innerHTML = sorted.map(e => {
-    const d = new Date(e.date);
-    const day = String(d.getUTCDate()).padStart(2, '0');
-    const month = MONTH_NAMES[d.getUTCMonth()];
-    const hh = String(d.getUTCHours()).padStart(2, '0');
-    const mm = String(d.getUTCMinutes()).padStart(2, '0');
+    const edt = toEDT(new Date(e.date));
+    const day = String(edt.getUTCDate()).padStart(2, '0');
+    const month = MONTH_NAMES[edt.getUTCMonth()];
+    const hh = String(edt.getUTCHours()).padStart(2, '0');
+    const mm = String(edt.getUTCMinutes()).padStart(2, '0');
     return `<div class="event-item">
       <span class="event-dot ${e.type}"></span>
-      <span class="event-time">${day} ${month} ${hh}:${mm}Z</span>
+      <span class="event-time">${day} ${month} ${hh}:${mm} EDT</span>
       <span class="event-text">${e.text}</span>
     </div>`;
   }).join('');
@@ -652,27 +669,41 @@ async function fetchNewsFeeds() {
   banner.classList.add('show');
 
   const feeds = [
-    { name: 'TWZ', url: 'https://www.thedrive.com/the-war-zone/feed', color: '#3B82F6' },
-    { name: 'REUTERS', url: 'https://feeds.reuters.com/reuters/worldNews', color: '#F59E0B' },
-    { name: 'BBC', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', color: '#EF4444' },
-    { name: 'AP', url: 'https://rsshub.app/apnews/topics/world-news', color: '#22C55E' }
+    { name: 'BBC', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', color: '#6B7280' },
+    { name: 'BBC-ME', url: 'http://feeds.bbci.co.uk/news/world/middle_east/rss.xml', color: '#6B7280' },
+    { name: 'REUTERS', url: 'https://feeds.reuters.com/reuters/worldNews', color: '#6B7280' },
+    { name: 'AP', url: 'https://rsshub.app/apnews/topics/world-news', color: '#6B7280' },
+    { name: 'ALJAZEERA', url: 'https://www.aljazeera.com/xml/rss/all.xml', color: '#6B7280' },
+    { name: 'TWZ', url: 'https://www.thedrive.com/the-war-zone/feed', color: '#6B7280' },
+    { name: 'NPR', url: 'https://feeds.npr.org/1004/rss.xml', color: '#6B7280' },
+    { name: 'GUARDIAN', url: 'https://www.theguardian.com/world/middleeast/rss', color: '#6B7280' },
+    { name: 'CNN', url: 'http://rss.cnn.com/rss/edition_meast.rss', color: '#6B7280' },
+    { name: 'FRANCE24', url: 'https://www.france24.com/en/middle-east/rss', color: '#6B7280' },
+    { name: 'CENTCOM', url: 'https://www.centcom.mil/MEDIA/PRESS-RELEASES/RSS/', color: '#6B7280' },
+    { name: 'DOD', url: 'https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20', color: '#6B7280' }
   ];
 
   let allItems = [];
   const body = document.getElementById('news-body');
 
-  // Fetch sequentially with small delays to avoid overwhelming proxies
-  for (const feed of feeds) {
-    try {
-      const xml = await fetchWithProxy(feed.url);
-      const items = parseRSSItems(xml, feed.name, feed.color);
-      allItems = allItems.concat(items);
+  // Fetch all feeds in parallel for speed
+  const results = await Promise.allSettled(
+    feeds.map(async feed => {
+      try {
+        const xml = await fetchWithProxy(feed.url);
+        return parseRSSItems(xml, feed.name, feed.color);
+      } catch (e) { return []; }
+    })
+  );
 
-      // Render progressively as feeds arrive
-      allItems.sort((a, b) => b.timestamp - a.timestamp);
-      renderNewsFeed(allItems, body);
-    } catch (e) { /* skip failed feed */ }
-  }
+  results.forEach(r => {
+    if (r.status === 'fulfilled' && r.value) {
+      allItems = allItems.concat(r.value);
+    }
+  });
+
+  allItems.sort((a, b) => b.timestamp - a.timestamp);
+  renderNewsFeed(allItems, body);
 
   if (allItems.length === 0) {
     body.innerHTML = `<div class="empty-state">
@@ -904,9 +935,10 @@ function refreshAll() {
   }, 3000);
 
   lastRefreshTime = new Date();
-  const hh = String(lastRefreshTime.getUTCHours()).padStart(2, '0');
-  const mm = String(lastRefreshTime.getUTCMinutes()).padStart(2, '0');
-  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm}Z`;
+  const edt = toEDT(lastRefreshTime);
+  const hh = String(edt.getUTCHours()).padStart(2, '0');
+  const mm = String(edt.getUTCMinutes()).padStart(2, '0');
+  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm} EDT`;
 }
 
 // Auto-refresh feeds
@@ -944,9 +976,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   setTimeout(fetchDVIDSFeed, 4000);
 
   lastRefreshTime = new Date();
-  const hh = String(lastRefreshTime.getUTCHours()).padStart(2, '0');
-  const mm = String(lastRefreshTime.getUTCMinutes()).padStart(2, '0');
-  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm}Z`;
+  const edt = toEDT(lastRefreshTime);
+  const hh = String(edt.getUTCHours()).padStart(2, '0');
+  const mm = String(edt.getUTCMinutes()).padStart(2, '0');
+  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm} EDT`;
 });
 </script>
 </body>
