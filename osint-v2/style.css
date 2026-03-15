@@ -340,6 +340,8 @@ html, body {
   padding: 1px 5px;
   border-radius: 2px;
   line-height: 14px;
+  background: rgba(107, 114, 128, 0.15) !important;
+  color: #9AA0A8 !important;
 }
 
 .feed-time {
@@ -456,11 +458,22 @@ html, body {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 #globe {
   width: 100%;
   height: 100%;
+}
+
+/* Force Plotly geo subplot to fill full container */
+#globe .geo .bg {
+  fill: transparent !important;
+}
+
+#globe .main-svg {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* MAP LEGEND */
