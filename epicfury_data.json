@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-14T17:18:35.131994+00:00",
+  "generated": "2026-03-15T06:04:50.645561+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -13,51 +13,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-03-14T11:46:56+00:00",
       "url": "https://www.dvidshub.net/video/999553/us-forces-execute-large-scale-precision-strike-kharg-island-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:999519",
-      "title": "USS Abraham Lincoln Conducts Flight Operations During Operation Epic Fury",
-      "desc": "USS Abraham Lincoln (CVN 72) conducts flight operations during Operation Epic Fury, March 12, 2026. (U.S. Navy Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-13T22:30:51+00:00",
-      "url": "https://www.dvidshub.net/video/999519/uss-abraham-lincoln-conducts-flight-operations-during-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:999341",
-      "title": "Eucom, Transcom Commanders Testify on Budget Request",
-      "desc": "Air Force Gen. Alexus Grynkewich, commander of U.S. European Command and Supreme Allied Commander Europe, and Air Force Gen. Randall Reed, commander of U.S. Transportation Command, testify during a U.S. Senate Committee on Armed Services hearing in Washington, March 12, 2026. The topics include Euco",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "War.gov",
-      "timestamp": "2026-03-12T17:03:06+00:00",
-      "url": "https://www.dvidshub.net/video/999341/eucom-transcom-commanders-testify-budget-request",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:560369",
-      "title": "Statement on USS Gerald R. Ford",
-      "desc": "On March 12, USS Gerald R. Ford (CVN 78) experienced a fire that originated in the ship’s main laundry spaces. The cause of the fire was not combat-related and is contained.\n\nThere is no damage to the ship’s propulsion plant, and the aircraft carrier remains fully operational.\n\nTwo Sailors are curre",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-03-12T14:32:24+00:00",
-      "url": "https://www.dvidshub.net/news/560369/statement-uss-gerald-r-ford",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
