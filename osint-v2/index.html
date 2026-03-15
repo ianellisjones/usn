@@ -348,12 +348,18 @@ function initGlobe() {
     scrollZoom: true
   };
 
-  Plotly.newPlot('globe', traces, layout, config);
+  Plotly.newPlot('globe', traces, layout, config).then(() => {
+    // Force resize after render to match container dimensions
+    Plotly.Plots.resize('globe');
+  });
 
   const globeEl = document.getElementById('globe');
   globeEl.on('plotly_hover', onShipHover);
   globeEl.on('plotly_unhover', onShipUnhover);
   globeEl.on('plotly_click', onShipClick);
+
+  // Resize globe when window resizes
+  window.addEventListener('resize', () => { Plotly.Plots.resize('globe'); });
 
   buildLegend();
 }
