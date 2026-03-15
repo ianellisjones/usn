@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operation Epic Fury - OSINT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <!-- TOP BAR -->
+  <div id="topbar">
+    <div class="topbar-left">
+      <svg class="topbar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/>
+        <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
+        <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
+      </svg>
+      <span class="op-name">Operation Epic Fury</span>
+      <div class="topbar-divider"></div>
+      <span class="op-sub">Roaring Lion</span>
+    </div>
+    <div class="topbar-center">
+      <span class="h-counter" id="h-counter">H+0000</span>
+      <span class="day-counter" id="day-counter">DAY 1</span>
+      <span class="utc-clock" id="utc-clock">01 JAN 2026 00:00:00Z</span>
+    </div>
+    <div class="topbar-right">
+      <div class="live-indicator">
+        <div class="live-dot"></div>
+        <span class="live-text">LIVE</span>
+      </div>
+      <button class="btn-ghost" id="btn-refresh" onclick="refreshAll()">REFRESH</button>
+      <span class="last-updated" id="last-updated">Last updated: --:--Z</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main">
+    <!-- LEFT PANEL: NEWS FEED -->
+    <div id="left-panel">
+      <div class="panel-header">
+        <div class="panel-title">News Feed</div>
+        <div class="panel-subtitle">Filtered from trusted sources</div>
+      </div>
+      <div class="updating-banner" id="news-updating">Updating...</div>
+      <div class="panel-body" id="news-body">
+        <div class="skeleton skeleton-line long"></div>
+        <div class="skeleton skeleton-line medium"></div>
+        <div class="skeleton skeleton-line short"></div>
+        <div class="skeleton skeleton-line long"></div>
+        <div class="skeleton skeleton-line medium"></div>
+        <div class="skeleton skeleton-line short"></div>
+        <div class="skeleton skeleton-line long"></div>
+        <div class="skeleton skeleton-line medium"></div>
+      </div>
+    </div>
+
+    <!-- CENTER COLUMN -->
+    <div id="center-column">
+      <!-- CENTER TOP: GLOBE -->
+      <div id="center-top">
+        <div id="globe-container">
+          <div id="globe"></div>
+          <!-- LEGEND -->
+          <div id="map-legend">
+            <button class="legend-toggle" id="legend-toggle" onclick="toggleLegend()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 6h18M3 12h18M3 18h18"/>
+              </svg>
+            </button>
+            <div class="legend-panel" id="legend-panel"></div>
+          </div>
+          <!-- MAP CONTROLS -->
+          <div class="map-controls">
+            <button class="map-btn" onclick="globeZoom(1)">+</button>
+            <button class="map-btn" onclick="globeZoom(-1)">-</button>
+            <button class="map-btn" onclick="globeReset()" title="Reset view">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                <path d="M3 3v5h5"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- SHIP CALLOUT (hidden by default) -->
+        <div class="ship-callout" id="ship-callout" style="display:none;">
+          <div class="callout-caret"></div>
+          <div class="callout-name" id="callout-name"></div>
+          <div class="callout-hull" id="callout-hull"></div>
+          <div class="callout-row"><span class="callout-label">GROUP</span><span class="callout-value" id="callout-group"></span></div>
+          <div class="callout-row"><span class="callout-label">AREA</span><span class="callout-value" id="callout-area"></span></div>
+          <div class="callout-row"><span class="callout-label">STATUS</span><span class="callout-value" id="callout-status"></span></div>
+        </div>
+      </div>
+
+      <!-- CENTER BOTTOM: STATS DASHBOARD -->
+      <div id="center-bottom">
+        <div id="stats-section">
+          <div class="panel-header">
+            <div class="panel-title">Op Stats</div>
+          </div>
+          <div class="stats-grid" id="stats-grid"></div>
+        </div>
+        <div id="force-section">
+          <div class="panel-header">
+            <div class="panel-title">Force Disposition</div>
+          </div>
+          <div class="force-table-wrap">
+            <table class="force-table" id="force-table">
+              <thead>
+                <tr>
+                  <th onclick="sortTable('name')">Ship <span class="sort-arrow" id="sort-name"></span></th>
+                  <th onclick="sortTable('hull')">Hull <span class="sort-arrow" id="sort-hull"></span></th>
+                  <th onclick="sortTable('type')">Type <span class="sort-arrow" id="sort-type"></span></th>
+                  <th onclick="sortTable('group')">Group <span class="sort-arrow" id="sort-group"></span></th>
+                  <th onclick="sortTable('location')">Location <span class="sort-arrow" id="sort-location"></span></th>
+                  <th onclick="sortTable('status')">Status <span class="sort-arrow" id="sort-status"></span></th>
+                </tr>
+              </thead>
+              <tbody id="force-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="events-section">
+          <div class="panel-header">
+            <div class="panel-title">Key Events</div>
+          </div>
+          <div class="events-list" id="events-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div id="right-panel">
+      <!-- OSINT FEED -->
+      <div id="osint-feed">
+        <div class="panel-header">
+          <div class="panel-title">OSINT Feed</div>
+          <div class="panel-subtitle">Curated X accounts</div>
+        </div>
+        <div class="updating-banner" id="osint-updating">Updating...</div>
+        <div class="panel-body" id="osint-body">
+          <div class="skeleton skeleton-line long"></div>
+          <div class="skeleton skeleton-line medium"></div>
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-line long"></div>
+          <div class="skeleton skeleton-line medium"></div>
+        </div>
+      </div>
+      <!-- DVIDS FEED -->
+      <div id="dvids-feed">
+        <div class="panel-header">
+          <div class="panel-title">DVIDS</div>
+          <div class="panel-subtitle">Military media feed</div>
+        </div>
+        <div class="updating-banner" id="dvids-updating">Updating...</div>
+        <div class="panel-body" id="dvids-body">
+          <div class="skeleton skeleton-line long"></div>
+          <div class="skeleton skeleton-line medium"></div>
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-line long"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div id="bottombar">
+    <span>SOURCES: CENTCOM &bull; DVIDS &bull; TWZ &bull; REUTERS &bull; BBC &bull; AP &bull; ISW</span>
+    <span>UNCLASSIFIED // OSINT</span>
+    <span>&copy; 2026 IEJ MEDIA</span>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// CONFIGURATION
+// ============================================================
+const H_HOUR = Date.UTC(2025, 1, 28, 6, 15, 0); // Feb 28, 2025 06:15 UTC
+const CORS_PROXIES = [
+  'https://api.allorigins.win/raw?url=',
+  'https://corsproxy.io/?'
+];
+const KEYWORDS = [
+  'iran','epic fury','centcom','strike','tehran','persian gulf','b-2','carrier',
+  'cruise missile','tomahawk','jassm','israel','idf','roaring lion','retaliation',
+  'irgc','houthi','strait of hormuz','fifth fleet','sixth fleet','navy',
+  'abraham lincoln','gerald ford','f-35','bomber','sortie','pentagon',
+  'middle east','gulf of oman','arabian sea','red sea','mediterranean'
+];
+const MONTH_NAMES = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+
+let shipsData = [];
+let statsData = {};
+let eventsData = [];
+let feedCache = {};
+let lastRefreshTime = null;
+let currentSort = { field: 'type', asc: true };
+let legendVisibility = {};
+let currentGlobeScale = 1.8;
+
+// ============================================================
+// CLOCK MODULE
+// ============================================================
+function updateClock() {
+  const now = Date.now();
+  const elapsed = now - H_HOUR;
+  const hours = Math.floor(elapsed / 3600000);
+  const days = Math.floor(hours / 24) + 1;
+
+  document.getElementById('h-counter').textContent = 'H+' + hours;
+  document.getElementById('day-counter').textContent = 'DAY ' + days;
+
+  const d = new Date();
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = MONTH_NAMES[d.getUTCMonth()];
+  const year = d.getUTCFullYear();
+  const hh = String(d.getUTCHours()).padStart(2, '0');
+  const mm = String(d.getUTCMinutes()).padStart(2, '0');
+  const ss = String(d.getUTCSeconds()).padStart(2, '0');
+  document.getElementById('utc-clock').textContent = `${day} ${month} ${year} ${hh}:${mm}:${ss}Z`;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+async function loadJSON(url) {
+  const resp = await fetch(url);
+  return resp.json();
+}
+
+async function loadAllData() {
+  const [ships, stats, events] = await Promise.all([
+    loadJSON('data/ships.json'),
+    loadJSON('data/stats.json'),
+    loadJSON('data/events.json')
+  ]);
+  shipsData = ships;
+  statsData = stats;
+  eventsData = events;
+
+  renderStats();
+  renderForceTable();
+  renderEvents();
+  initGlobe();
+}
+
+// ============================================================
+// GLOBE MODULE
+// ============================================================
+const COLOR_MAP = {
+  blue: '#3B82F6',
+  red: '#EF4444',
+  green: '#22C55E',
+  amber: '#F59E0B',
+  purple: '#A855F7',
+  cyan: '#06B6D4'
+};
+
+const COLOR_STROKE = {
+  blue: '#2563EB',
+  red: '#DC2626',
+  green: '#16A34A',
+  amber: '#D97706',
+  purple: '#9333EA',
+  cyan: '#0891B2'
+};
+
+const SIZE_MAP = {
+  Carrier: 14,
+  Destroyer: 9,
+  LCS: 8,
+  USNS: 8,
+  Command: 8,
+  Expeditionary: 8,
+  Submarine: 9
+};
+
+const TYPE_GROUPS = [
+  { key: 'Carrier', label: 'Carrier (CVN)', color: '#3B82F6' },
+  { key: 'Destroyer', label: 'Destroyer (DDG)', color: '#EF4444' },
+  { key: 'LCS', label: 'LCS', color: '#F59E0B' },
+  { key: 'USNS', label: 'USNS/MSC', color: '#22C55E' },
+  { key: 'Submarine', label: 'Submarine', color: '#A855F7' },
+  { key: 'Command', label: 'Command Ship', color: '#06B6D4' },
+  { key: 'Expeditionary', label: 'Expeditionary (ESB)', color: '#06B6D4' }
+];
+
+function initGlobe() {
+  const traces = buildTraces();
+
+  const layout = {
+    geo: {
+      projection: {
+        type: 'orthographic',
+        rotation: { lon: -48, lat: -24 },
+        scale: currentGlobeScale
+      },
+      showland: true,
+      landcolor: '#1A1E25',
+      showocean: true,
+      oceancolor: '#0B0D0F',
+      showcountries: true,
+      countrycolor: '#2A2E35',
+      countrywidth: 0.5,
+      showcoastlines: true,
+      coastlinecolor: '#363B44',
+      coastlinewidth: 0.6,
+      showlakes: false,
+      showrivers: false,
+      showframe: false,
+      bgcolor: 'rgba(0,0,0,0)',
+      lonaxis: { showgrid: true, gridcolor: 'rgba(42,46,53,0.4)', gridwidth: 0.5 },
+      lataxis: { showgrid: true, gridcolor: 'rgba(42,46,53,0.4)', gridwidth: 0.5 }
+    },
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    margin: { t: 0, b: 0, l: 0, r: 0 },
+    showlegend: false,
+    dragmode: 'pan'
+  };
+
+  const config = {
+    responsive: true,
+    displayModeBar: false,
+    scrollZoom: true
+  };
+
+  Plotly.newPlot('globe', traces, layout, config);
+
+  const globeEl = document.getElementById('globe');
+  globeEl.on('plotly_hover', onShipHover);
+  globeEl.on('plotly_unhover', onShipUnhover);
+  globeEl.on('plotly_click', onShipClick);
+
+  buildLegend();
+}
+
+function buildTraces() {
+  const grouped = {};
+  shipsData.forEach(s => {
+    const key = s.type;
+    if (!grouped[key]) grouped[key] = [];
+    if (legendVisibility[key] === false) return;
+    grouped[key].push(s);
+  });
+
+  const traces = [];
+  for (const [type, ships] of Object.entries(grouped)) {
+    if (ships.length === 0) continue;
+    traces.push({
+      type: 'scattergeo',
+      mode: 'markers',
+      lat: ships.map(s => s.lat),
+      lon: ships.map(s => s.lon),
+      text: ships.map(s => s.name),
+      hoverinfo: 'none',
+      marker: {
+        size: ships.map(s => SIZE_MAP[s.type] || 8),
+        color: ships.map(s => COLOR_MAP[s.color]),
+        line: { width: 1, color: ships.map(s => COLOR_STROKE[s.color]) },
+        opacity: 0.95
+      },
+      customdata: ships,
+      name: type
+    });
+  }
+  return traces;
+}
+
+function onShipHover(data) {
+  if (!data.points || !data.points[0]) return;
+  const ship = data.points[0].customdata;
+  if (!ship || !ship.name) return;
+
+  const callout = document.getElementById('ship-callout');
+  const dot = `<span style="color:${COLOR_MAP[ship.color]}; font-size:10px;">&#9679;</span>`;
+  document.getElementById('callout-name').innerHTML = dot + ' ' + ship.name;
+  document.getElementById('callout-hull').textContent = ship.hull + ' | ' + ship.type;
+  document.getElementById('callout-group').textContent = ship.group;
+  document.getElementById('callout-area').textContent = ship.location;
+
+  const statusEl = document.getElementById('callout-status');
+  statusEl.textContent = ship.status;
+  if (ship.status === 'On Station') statusEl.style.color = '#22C55E';
+  else if (ship.status === 'In Port') statusEl.style.color = '#3B82F6';
+  else if (ship.status === 'Deployed') statusEl.style.color = '#A855F7';
+  else statusEl.style.color = '#F59E0B';
+
+  const evt = data.event;
+  const container = document.getElementById('center-top');
+  const rect = container.getBoundingClientRect();
+  let x = (evt.clientX || evt.pageX) - rect.left + 16;
+  let y = (evt.clientY || evt.pageY) - rect.top - 20;
+
+  if (x + 280 > rect.width) x = x - 296;
+  if (y + 140 > rect.height) y = rect.height - 150;
+  if (y < 0) y = 10;
+
+  callout.style.left = x + 'px';
+  callout.style.top = y + 'px';
+  callout.style.display = 'block';
+}
+
+function onShipUnhover() {
+  document.getElementById('ship-callout').style.display = 'none';
+}
+
+function onShipClick(data) {
+  if (!data.points || !data.points[0]) return;
+  const ship = data.points[0].customdata;
+  if (!ship || !ship.name) return;
+  flyTo(ship.lat, ship.lon);
+}
+
+function flyTo(lat, lon) {
+  Plotly.relayout('globe', {
+    'geo.projection.rotation.lon': -lon,
+    'geo.projection.rotation.lat': -lat,
+    'geo.projection.scale': 3
+  });
+  currentGlobeScale = 3;
+}
+
+function globeZoom(dir) {
+  currentGlobeScale = Math.max(0.8, Math.min(6, currentGlobeScale + dir * 0.4));
+  Plotly.relayout('globe', { 'geo.projection.scale': currentGlobeScale });
+}
+
+function globeReset() {
+  currentGlobeScale = 1.8;
+  Plotly.relayout('globe', {
+    'geo.projection.rotation.lon': -48,
+    'geo.projection.rotation.lat': -24,
+    'geo.projection.scale': 1.8
+  });
+}
+
+function buildLegend() {
+  const counts = {};
+  shipsData.forEach(s => {
+    const key = s.type;
+    counts[key] = (counts[key] || 0) + 1;
+  });
+
+  // Merge Command and Expeditionary for display
+  const displayGroups = [
+    { key: 'Carrier', label: 'Carrier (CVN)', color: '#3B82F6' },
+    { key: 'Destroyer', label: 'Destroyer (DDG)', color: '#EF4444' },
+    { key: 'LCS', label: 'LCS', color: '#F59E0B' },
+    { key: 'USNS', label: 'USNS/MSC', color: '#22C55E' },
+    { key: 'Submarine', label: 'Submarine', color: '#A855F7' },
+    { key: 'Command/ESB', label: 'Command/ESB', color: '#06B6D4', keys: ['Command', 'Expeditionary'] }
+  ];
+
+  let html = '<div class="legend-header">NAVAL FORCES <button class="legend-close" onclick="toggleLegend()">-</button></div>';
+  let total = 0;
+
+  displayGroups.forEach(g => {
+    const keys = g.keys || [g.key];
+    let count = 0;
+    keys.forEach(k => { count += (counts[k] || 0); });
+    total += count;
+    const disabled = keys.some(k => legendVisibility[k] === false);
+    const cls = disabled ? 'legend-item disabled' : 'legend-item';
+    const dataKeys = keys.join(',');
+    html += `<div class="${cls}" onclick="toggleShipType('${dataKeys}')">
+      <span class="legend-dot" style="background:${g.color}"></span>
+      ${g.label}
+      <span class="legend-count">${count}</span>
+    </div>`;
+  });
+
+  html += `<div class="legend-total">${total} SHIPS</div>`;
+  document.getElementById('legend-panel').innerHTML = html;
+}
+
+function toggleLegend() {
+  document.getElementById('legend-panel').classList.toggle('open');
+}
+
+function toggleShipType(keys) {
+  keys.split(',').forEach(k => {
+    legendVisibility[k] = legendVisibility[k] === false ? true : false;
+  });
+  const traces = buildTraces();
+  Plotly.react('globe', traces, document.getElementById('globe').layout);
+  buildLegend();
+}
+
+// ============================================================
+// STATS MODULE
+// ============================================================
+function renderStats() {
+  const grid = document.getElementById('stats-grid');
+  const items = [
+    { label: 'Sorties Flown', value: statsData.sorties_flown },
+    { label: 'Targets Struck', value: statsData.targets_struck },
+    { label: 'TLAMs Launched', value: statsData.tlams_launched },
+    { label: 'JASSM-ER Employed', value: statsData.jassm_employed },
+    { label: 'Ships Deployed', value: shipsData.length },
+    { label: 'Aircraft in Theater', value: statsData.aircraft_in_theater },
+    { label: 'Enemy Retaliation', value: statsData.enemy_retaliation },
+    { label: 'BDA Confirmed', value: statsData.bda_confirmed + '%' }
+  ];
+
+  grid.innerHTML = items.map(i => `
+    <div class="stat-card">
+      <div class="stat-label">${i.label}</div>
+      <div class="stat-value">${typeof i.value === 'number' ? i.value.toLocaleString() : i.value}</div>
+    </div>
+  `).join('');
+}
+
+// ============================================================
+// FORCE TABLE MODULE
+// ============================================================
+function renderForceTable() {
+  const tbody = document.getElementById('force-tbody');
+  const sorted = [...shipsData].sort((a, b) => {
+    const va = a[currentSort.field] || '';
+    const vb = b[currentSort.field] || '';
+    const cmp = va < vb ? -1 : va > vb ? 1 : 0;
+    return currentSort.asc ? cmp : -cmp;
+  });
+
+  tbody.innerHTML = sorted.map(s => {
+    const statusClass = s.status === 'On Station' ? 'on-station' :
+      s.status === 'In Port' ? 'in-port' :
+      s.status === 'Deployed' ? 'deployed' : 'in-transit';
+    return `<tr onclick="flyTo(${s.lat}, ${s.lon})">
+      <td title="${s.name}">${s.name}</td>
+      <td>${s.hull}</td>
+      <td>${s.type}</td>
+      <td>${s.group}</td>
+      <td>${s.location}</td>
+      <td><span class="status-dot status-${statusClass}"></span>${s.status}</td>
+    </tr>`;
+  }).join('');
+
+  // Update sort arrows
+  document.querySelectorAll('.sort-arrow').forEach(el => {
+    el.textContent = '';
+    el.classList.remove('active');
+  });
+  const arrow = document.getElementById('sort-' + currentSort.field);
+  if (arrow) {
+    arrow.textContent = currentSort.asc ? '\u25B2' : '\u25BC';
+    arrow.classList.add('active');
+  }
+}
+
+function sortTable(field) {
+  if (currentSort.field === field) {
+    currentSort.asc = !currentSort.asc;
+  } else {
+    currentSort.field = field;
+    currentSort.asc = true;
+  }
+  renderForceTable();
+}
+
+// ============================================================
+// EVENTS MODULE
+// ============================================================
+function renderEvents() {
+  const list = document.getElementById('events-list');
+  const sorted = [...eventsData].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  list.innerHTML = sorted.map(e => {
+    const d = new Date(e.date);
+    const day = String(d.getUTCDate()).padStart(2, '0');
+    const month = MONTH_NAMES[d.getUTCMonth()];
+    const hh = String(d.getUTCHours()).padStart(2, '0');
+    const mm = String(d.getUTCMinutes()).padStart(2, '0');
+    return `<div class="event-item">
+      <span class="event-dot ${e.type}"></span>
+      <span class="event-time">${day} ${month} ${hh}:${mm}Z</span>
+      <span class="event-text">${e.text}</span>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// FEEDS MODULE
+// ============================================================
+function timeAgo(dateStr) {
+  const now = Date.now();
+  const then = new Date(dateStr).getTime();
+  const diff = now - then;
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'now';
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  const days = Math.floor(hrs / 24);
+  return days + 'd ago';
+}
+
+function matchesKeywords(text) {
+  if (!text) return false;
+  const lower = text.toLowerCase();
+  return KEYWORDS.some(kw => lower.includes(kw));
+}
+
+async function fetchWithProxy(url) {
+  for (const proxy of CORS_PROXIES) {
+    try {
+      const resp = await fetch(proxy + encodeURIComponent(url), { signal: AbortSignal.timeout(10000) });
+      if (resp.ok) return await resp.text();
+    } catch (e) { /* try next proxy */ }
+  }
+  return null;
+}
+
+function parseRSSItems(xmlText, sourceName, sourceColor) {
+  if (!xmlText) return [];
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const results = [];
+
+  items.forEach(item => {
+    const title = item.querySelector('title')?.textContent || '';
+    const desc = item.querySelector('description')?.textContent || '';
+    const link = item.querySelector('link')?.textContent || '';
+    const pubDate = item.querySelector('pubDate')?.textContent || '';
+
+    if (matchesKeywords(title) || matchesKeywords(desc)) {
+      results.push({
+        source: sourceName,
+        sourceColor: sourceColor,
+        title: title.replace(/<[^>]*>/g, '').trim(),
+        description: desc.replace(/<[^>]*>/g, '').trim().substring(0, 200),
+        link: link,
+        date: pubDate,
+        timestamp: new Date(pubDate).getTime() || 0
+      });
+    }
+  });
+
+  return results;
+}
+
+async function fetchNewsFeeds() {
+  const banner = document.getElementById('news-updating');
+  banner.classList.add('show');
+
+  const feeds = [
+    { name: 'TWZ', url: 'https://www.thedrive.com/the-war-zone/feed', color: '#3B82F6' },
+    { name: 'REUTERS', url: 'https://feeds.reuters.com/reuters/worldNews', color: '#F59E0B' },
+    { name: 'BBC', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', color: '#EF4444' },
+    { name: 'AP', url: 'https://rsshub.app/apnews/topics/world-news', color: '#22C55E' }
+  ];
+
+  let allItems = [];
+  const body = document.getElementById('news-body');
+
+  // Fetch sequentially with small delays to avoid overwhelming proxies
+  for (const feed of feeds) {
+    try {
+      const xml = await fetchWithProxy(feed.url);
+      const items = parseRSSItems(xml, feed.name, feed.color);
+      allItems = allItems.concat(items);
+
+      // Render progressively as feeds arrive
+      allItems.sort((a, b) => b.timestamp - a.timestamp);
+      renderNewsFeed(allItems, body);
+    } catch (e) { /* skip failed feed */ }
+  }
+
+  if (allItems.length === 0) {
+    body.innerHTML = `<div class="empty-state">
+      <div class="empty-state-text">No filtered news available. RSS feeds may be temporarily unavailable.</div>
+    </div>`;
+  }
+
+  banner.classList.remove('show');
+  feedCache.news = { data: allItems, time: Date.now() };
+}
+
+function renderNewsFeed(items, container) {
+  container.innerHTML = items.map(item => `
+    <div class="feed-item" onclick="window.open('${safeUrl(item.link)}', '_blank')">
+      <div class="feed-meta">
+        <span class="feed-source" style="background:${item.sourceColor}20; color:${item.sourceColor}">${item.source}</span>
+        <span class="feed-time">${timeAgo(item.date)}</span>
+      </div>
+      <div class="feed-title">${escapeHtml(item.title)}</div>
+    </div>
+  `).join('');
+}
+
+// OSINT Feed
+async function fetchOSINTFeed() {
+  const banner = document.getElementById('osint-updating');
+  banner.classList.add('show');
+  const body = document.getElementById('osint-body');
+
+  const accounts = [
+    { handle: 'CENTCOM', name: 'US Central Command' },
+    { handle: 'DVIDSHUB', name: 'DVIDS' },
+    { handle: 'THEWARZONEWIRE', name: 'The War Zone' },
+    { handle: 'THESTUDYOFWAR', name: 'Institute for the Study of War' },
+    { handle: 'IANELLISJONES', name: 'IEJ' }
+  ];
+
+  const nitterInstances = [
+    'https://nitter.privacydev.net',
+    'https://nitter.poast.org',
+    'https://nitter.1d4.us'
+  ];
+
+  let allPosts = [];
+  const cutoff = Date.now() - (48 * 3600 * 1000);
+
+  for (const account of accounts) {
+    let fetched = false;
+
+    // Try Nitter RSS
+    for (const instance of nitterInstances) {
+      if (fetched) break;
+      try {
+        const url = `${instance}/${account.handle}/rss`;
+        const xml = await fetchWithProxy(url);
+        if (xml && !xml.includes('Rate limited') && !xml.includes('Error')) {
+          const items = parseNitterRSS(xml, account.handle);
+          const recent = items.filter(i => i.timestamp > cutoff).slice(0, 5);
+          allPosts = allPosts.concat(recent);
+          fetched = true;
+        }
+      } catch (e) { /* try next instance */ }
+    }
+
+    // Try RSSHub fallback
+    if (!fetched) {
+      try {
+        const url = `https://rsshub.app/twitter/user/${account.handle}`;
+        const xml = await fetchWithProxy(url);
+        if (xml) {
+          const items = parseNitterRSS(xml, account.handle);
+          const recent = items.filter(i => i.timestamp > cutoff).slice(0, 5);
+          allPosts = allPosts.concat(recent);
+          fetched = true;
+        }
+      } catch (e) { /* skip */ }
+    }
+  }
+
+  if (allPosts.length > 0) {
+    allPosts.sort((a, b) => b.timestamp - a.timestamp);
+    allPosts = allPosts.slice(0, 25);
+    renderOSINTFeed(allPosts, body);
+  } else {
+    body.innerHTML = `<div class="empty-state">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--text-tertiary)">
+        <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9"/>
+      </svg>
+      <div class="empty-state-text">Connect X API for live OSINT feed.<br>Nitter instances currently unavailable.</div>
+    </div>`;
+  }
+
+  banner.classList.remove('show');
+  feedCache.osint = { data: allPosts, time: Date.now() };
+}
+
+function parseNitterRSS(xmlText, handle) {
+  if (!xmlText) return [];
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item');
+  const results = [];
+
+  items.forEach(item => {
+    const title = item.querySelector('title')?.textContent || '';
+    const desc = item.querySelector('description')?.textContent || '';
+    const link = item.querySelector('link')?.textContent || '';
+    const pubDate = item.querySelector('pubDate')?.textContent || '';
+
+    const text = (title + ' ' + desc).replace(/<[^>]*>/g, '').trim();
+    results.push({
+      handle: '@' + handle,
+      text: text.substring(0, 280),
+      link: link,
+      date: pubDate,
+      timestamp: new Date(pubDate).getTime() || 0
+    });
+  });
+
+  return results;
+}
+
+function renderOSINTFeed(posts, container) {
+  container.innerHTML = posts.map(p => `
+    <div class="osint-item" onclick="window.open('${safeUrl(p.link)}', '_blank')">
+      <div class="feed-meta">
+        <span class="osint-handle">${escapeHtml(p.handle)}</span>
+        <span class="feed-time">${timeAgo(p.date)}</span>
+      </div>
+      <div class="osint-text">${escapeHtml(p.text)}</div>
+    </div>
+  `).join('');
+}
+
+// DVIDS Feed
+async function fetchDVIDSFeed() {
+  const banner = document.getElementById('dvids-updating');
+  banner.classList.add('show');
+  const body = document.getElementById('dvids-body');
+
+  const keywords = 'Epic Fury,Iran,Fifth Fleet,Sixth Fleet,carrier strike group,CENTCOM';
+  const apiUrl = `https://api.dvidshub.net/search?q=${encodeURIComponent(keywords)}&max_results=15&sort=date&type=news,video,image`;
+
+  try {
+    const resp = await fetch(apiUrl, { signal: AbortSignal.timeout(10000) });
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data.results && data.results.length > 0) {
+        renderDVIDSFeed(data.results, body);
+        feedCache.dvids = { data: data.results, time: Date.now() };
+        banner.classList.remove('show');
+        return;
+      }
+    }
+  } catch (e) { /* try proxy fallback */ }
+
+  // Fallback: try via CORS proxy
+  try {
+    const text = await fetchWithProxy(apiUrl);
+    if (text) {
+      const data = JSON.parse(text);
+      if (data.results && data.results.length > 0) {
+        renderDVIDSFeed(data.results, body);
+        feedCache.dvids = { data: data.results, time: Date.now() };
+        banner.classList.remove('show');
+        return;
+      }
+    }
+  } catch (e) { /* show placeholder */ }
+
+  // Final fallback: show placeholder
+  body.innerHTML = `<div class="empty-state">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--text-tertiary)">
+      <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+    </svg>
+    <div class="empty-state-text">DVIDS feed loading...<br>Set DVIDS_API_KEY for full access.</div>
+  </div>`;
+
+  banner.classList.remove('show');
+}
+
+function renderDVIDSFeed(items, container) {
+  container.innerHTML = items.map(item => {
+    const type = (item.type || 'news').toLowerCase();
+    const badgeClass = type === 'video' ? 'badge-video' :
+      type === 'image' ? 'badge-image' :
+      type === 'audio' ? 'badge-audio' : 'badge-news';
+    const date = item.date_published || item.date || '';
+    const unit = item.unit_name || item.credit || '';
+    const url = item.url || '#';
+
+    return `<div class="dvids-item" onclick="window.open('${safeUrl(url)}', '_blank')">
+      <div class="feed-meta">
+        <span class="badge ${badgeClass}">${type.toUpperCase()}</span>
+        <span class="feed-time">${timeAgo(date)}</span>
+      </div>
+      <div class="feed-title">${escapeHtml(item.title || '')}</div>
+      <div class="dvids-unit">${escapeHtml(unit)}</div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// REFRESH
+// ============================================================
+function refreshAll() {
+  const btn = document.getElementById('btn-refresh');
+  btn.classList.add('active');
+  setTimeout(() => btn.classList.remove('active'), 1000);
+
+  // Only re-fetch if cache is > 5 minutes old
+  const now = Date.now();
+  const cacheLimit = 5 * 60 * 1000;
+
+  if (!feedCache.news || (now - feedCache.news.time) > cacheLimit) {
+    fetchNewsFeeds();
+  }
+
+  setTimeout(() => {
+    if (!feedCache.osint || (now - feedCache.osint.time) > cacheLimit) {
+      fetchOSINTFeed();
+    }
+  }, 1500);
+
+  setTimeout(() => {
+    if (!feedCache.dvids || (now - feedCache.dvids.time) > cacheLimit) {
+      fetchDVIDSFeed();
+    }
+  }, 3000);
+
+  lastRefreshTime = new Date();
+  const hh = String(lastRefreshTime.getUTCHours()).padStart(2, '0');
+  const mm = String(lastRefreshTime.getUTCMinutes()).padStart(2, '0');
+  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm}Z`;
+}
+
+// Auto-refresh feeds
+setInterval(() => { fetchNewsFeeds(); }, 10 * 60 * 1000);
+setInterval(() => { fetchOSINTFeed(); }, 10 * 60 * 1000);
+setInterval(() => { fetchDVIDSFeed(); }, 15 * 60 * 1000);
+
+// ============================================================
+// UTILITIES
+// ============================================================
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function safeUrl(url) {
+  if (!url) return '#';
+  try {
+    const u = new URL(url);
+    if (u.protocol === 'http:' || u.protocol === 'https:') return u.href;
+  } catch (e) {}
+  return '#';
+}
+
+// ============================================================
+// INITIALIZATION
+// ============================================================
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadAllData();
+
+  // Stagger feed fetches
+  fetchNewsFeeds();
+  setTimeout(fetchOSINTFeed, 2000);
+  setTimeout(fetchDVIDSFeed, 4000);
+
+  lastRefreshTime = new Date();
+  const hh = String(lastRefreshTime.getUTCHours()).padStart(2, '0');
+  const mm = String(lastRefreshTime.getUTCMinutes()).padStart(2, '0');
+  document.getElementById('last-updated').textContent = `Last updated: ${hh}:${mm}Z`;
+});
+</script>
+</body>
+</html>

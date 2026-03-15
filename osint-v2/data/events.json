@@ -1,0 +1,17 @@
+[
+  {"date": "2026-03-15T03:42:00Z", "text": "B-2 strikes IRGC facility, Isfahan", "type": "strike"},
+  {"date": "2026-03-14T18:15:00Z", "text": "TLAM salvo from DDG-57, Bandar Abbas targets", "type": "strike"},
+  {"date": "2026-03-14T12:00:00Z", "text": "CENTCOM: 47 targets struck overnight", "type": "assessment"},
+  {"date": "2026-03-13T22:30:00Z", "text": "Iranian BM launch detected, no damage", "type": "hostile"},
+  {"date": "2026-03-13T14:00:00Z", "text": "IDF confirms Roaring Lion ops in south Lebanon", "type": "event"},
+  {"date": "2026-03-13T08:20:00Z", "text": "F-35C sorties from CVN-72, 12 targets struck", "type": "strike"},
+  {"date": "2026-03-12T21:45:00Z", "text": "Houthi anti-ship missile intercepted, Red Sea", "type": "hostile"},
+  {"date": "2026-03-12T16:30:00Z", "text": "DDG-119 engages Houthi drone swarm", "type": "strike"},
+  {"date": "2026-03-12T10:00:00Z", "text": "CENTCOM: Phase 2 operations commence", "type": "event"},
+  {"date": "2026-03-11T23:15:00Z", "text": "B-2 Spirit sortie over Iran confirmed", "type": "strike"},
+  {"date": "2026-03-11T17:00:00Z", "text": "Pentagon briefing: 89% BDA rate achieved", "type": "assessment"},
+  {"date": "2026-03-11T09:30:00Z", "text": "IRGC naval assets repositioning in Strait of Hormuz", "type": "hostile"},
+  {"date": "2026-03-10T20:00:00Z", "text": "CVN-78 Ford CSG enters Eastern Med", "type": "event"},
+  {"date": "2026-03-10T14:45:00Z", "text": "JASSM-ER strikes on Natanz enrichment facility", "type": "strike"},
+  {"date": "2026-03-10T06:00:00Z", "text": "Operation Epic Fury Phase 1 initiated", "type": "event"}
+]
