@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.3.0
+Version: 2.4.0
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
 Features toggle between Daily (24h) and Weekly (7-day) views.
 Highlights deployment-related content with special tags.
-Includes grid/list view toggle and manual refresh option.
+Includes grid/list view toggle, manual refresh option, and HOT SHOTS popular images tab.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -48,7 +48,7 @@ MAX_RESULTS_PER_QUERY = 100
 LOOKBACK_DAYS = 7
 
 # User agent for requests
-USER_AGENT = 'DVIDS-News-Aggregator/2.3 (Python; +https://github.com/ianellisjones/usn)'
+USER_AGENT = 'DVIDS-News-Aggregator/2.4 (Python; +https://github.com/ianellisjones/usn)'
 
 # ==============================================================================
 # COMBATANT COMMAND KEYWORDS
@@ -558,19 +558,66 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
     )
 
 
+def fetch_hot_shots(lookback_days: int = LOOKBACK_DAYS) -> List[DVIDSItem]:
+    """
+    Fetch the most popular Navy images from DVIDS, sorted by popularity.
+
+    Args:
+        lookback_days: How many days back to search
+
+    Returns:
+        List of DVIDSItem objects sorted by popularity
+    """
+    date = datetime.utcnow()
+    to_date = date.strftime("%Y-%m-%dT%H:%M:%SZ")
+    from_date = (date - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    print(f"\n  Fetching HOT SHOTS (top 50 popular images)...")
+
+    all_items = []
+    seen_ids = set()
+
+    for branch in BRANCHES:
+        results = search_dvids(
+            content_type="image",
+            branch=branch,
+            from_date=from_date,
+            to_date=to_date,
+            max_results=50,
+            sort="popularity"
+        )
+
+        for raw_item in results:
+            item = parse_dvids_item(raw_item)
+            if item and item.id not in seen_ids:
+                seen_ids.add(item.id)
+                all_items.append(item)
+
+        time.sleep(0.5)
+
+    # Already sorted by popularity from API, but limit to top 50
+    all_items = all_items[:50]
+
+    print(f"  HOT SHOTS: {len(all_items)} popular images found")
+
+    return all_items
+
+
 # ==============================================================================
 # HTML GENERATION
 # ==============================================================================
 
-def generate_dvids_html(digest: DailyDigest) -> str:
+def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) -> str:
     """Generate the DVIDS News HTML page."""
 
     items_json = json.dumps([asdict(item) for item in digest.items])
+    hot_shots_json = json.dumps([asdict(item) for item in (hot_shots or [])])
     by_country_json = json.dumps(digest.by_country)
     by_type_json = json.dumps(digest.by_type)
     by_branch_json = json.dumps(digest.by_branch)
     by_command_json = json.dumps(digest.by_command)
     deployment_count = digest.deployment_count
+    hot_shots_count = len(hot_shots) if hot_shots else 0
 
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -625,6 +672,30 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         .refresh-btn {{ font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600; padding: 8px 14px; background: rgba(0, 255, 255, 0.1); border: 1px solid #00ffff; color: #00ffff; border-radius: 6px; cursor: pointer; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }}
         .refresh-btn:hover {{ background: rgba(0, 255, 255, 0.2); transform: translateY(-1px); }}
         .refresh-btn svg {{ width: 14px; height: 14px; }}
+
+        /* HOT SHOTS Tab */
+        .tab-switch {{ display: flex; background: rgba(255,255,255,0.05); border: 1px solid #2a2a3a; border-radius: 8px; overflow: hidden; }}
+        .tab-btn {{ font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 8px 16px; background: transparent; border: none; color: #666; cursor: pointer; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }}
+        .tab-btn:hover {{ color: #aaa; }}
+        .tab-btn.active {{ background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%); color: #000; }}
+        .tab-btn.active:hover {{ color: #000; }}
+        .tab-btn.hotshots.active {{ background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%); color: #fff; }}
+        .tab-btn.hotshots:not(.active) {{ color: #ff6b6b; }}
+        .hotshots-badge {{ font-size: 9px; font-weight: 700; background: rgba(255, 107, 107, 0.2); color: #ff6b6b; padding: 2px 6px; border-radius: 4px; }}
+        .tab-btn.hotshots.active .hotshots-badge {{ background: rgba(255, 255, 255, 0.3); color: #fff; }}
+
+        /* HOT SHOTS Grid */
+        .hotshots-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }}
+        .hotshot-card {{ background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 12px; overflow: hidden; transition: all 0.2s; cursor: pointer; }}
+        .hotshot-card:hover {{ border-color: #ff6b6b; background: rgba(255, 255, 255, 0.04); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15); }}
+        .hotshot-image {{ width: 100%; height: 220px; object-fit: cover; background: #1a1a2e; }}
+        .hotshot-info {{ padding: 14px 16px; }}
+        .hotshot-rank {{ font-size: 11px; font-weight: 700; color: #ff6b6b; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }}
+        .hotshot-rank-num {{ font-size: 14px; font-weight: 800; background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
+        .hotshot-title {{ font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
+        .hotshot-meta {{ display: flex; justify-content: space-between; align-items: center; }}
+        .hotshot-unit {{ font-size: 10px; color: #666; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+        .hotshot-date {{ font-size: 10px; color: #555; }}
 
         /* View Toggle (List/Grid) */
         .view-toggle {{ display: flex; gap: 4px; }}
@@ -757,6 +828,8 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
         @media (max-width: 600px) {{
             .items-grid {{ grid-template-columns: 1fr; }}
+            .hotshots-grid {{ grid-template-columns: 1fr; }}
+            .tab-switch {{ flex-wrap: wrap; }}
             .modal {{ border-radius: 16px 16px 0 0; max-height: 95vh; }}
         }}
     </style>
@@ -772,9 +845,10 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             </div>
             <div class="toggle-container">
                 <span class="toggle-label">View</span>
-                <div class="toggle-switch">
-                    <button class="toggle-btn active" id="dailyBtn" onclick="setTimeRange('daily')">Daily</button>
-                    <button class="toggle-btn" id="weeklyBtn" onclick="setTimeRange('weekly')">Weekly</button>
+                <div class="tab-switch">
+                    <button class="tab-btn active" id="dailyBtn" onclick="setTab('daily')">Daily</button>
+                    <button class="tab-btn" id="weeklyBtn" onclick="setTab('weekly')">Weekly</button>
+                    <button class="tab-btn hotshots" id="hotshotsBtn" onclick="setTab('hotshots')">HOT SHOTS <span class="hotshots-badge">{hot_shots_count}</span></button>
                 </div>
             </div>
             <div class="stats-bar">
@@ -886,6 +960,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
     <script>
         const allItems = {items_json};
+        const hotShotsItems = {hot_shots_json};
         const byCountry = {by_country_json};
         const byType = {by_type_json};
         const byBranch = {by_branch_json};
@@ -912,7 +987,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             search: ''
         }};
 
-        let currentTimeRange = 'daily';  // 'daily' (24h) or 'weekly' (7 days)
+        let currentTab = 'daily';  // 'daily', 'weekly', or 'hotshots'
         let currentViewMode = 'list';  // 'list' or 'grid'
         const HOURS_IN_DAY = 24;
         const HOURS_IN_WEEK = 24 * 7;
@@ -994,20 +1069,37 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             renderItems();
         }}
 
-        function setTimeRange(range) {{
-            currentTimeRange = range;
+        function setTab(tab) {{
+            currentTab = tab;
 
             // Update toggle buttons
-            document.getElementById('dailyBtn').classList.toggle('active', range === 'daily');
-            document.getElementById('weeklyBtn').classList.toggle('active', range === 'weekly');
+            document.getElementById('dailyBtn').classList.toggle('active', tab === 'daily');
+            document.getElementById('weeklyBtn').classList.toggle('active', tab === 'weekly');
+            document.getElementById('hotshotsBtn').classList.toggle('active', tab === 'hotshots');
 
             // Update header text
-            if (range === 'daily') {{
+            if (tab === 'daily') {{
                 document.getElementById('digestTitle').textContent = 'DVIDS DAILY DIGEST';
                 document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | Last 24 Hours';
-            }} else {{
+            }} else if (tab === 'weekly') {{
                 document.getElementById('digestTitle').textContent = 'DVIDS WEEKLY DIGEST';
                 document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | {date_range}';
+            }} else {{
+                document.getElementById('digestTitle').textContent = 'DVIDS HOT SHOTS';
+                document.getElementById('digestSubtitle').textContent = 'Most Popular Navy Images | Sorted by Popularity';
+            }}
+
+            // Show/hide sidebar and view toggle for hot shots
+            const sidebar = document.querySelector('.sidebar');
+            const viewToggle = document.querySelector('.view-toggle');
+            if (tab === 'hotshots') {{
+                sidebar.style.display = 'none';
+                viewToggle.style.display = 'none';
+                document.querySelector('.main-container').style.gridTemplateColumns = '1fr';
+            }} else {{
+                sidebar.style.display = '';
+                viewToggle.style.display = '';
+                document.querySelector('.main-container').style.gridTemplateColumns = '280px 1fr';
             }}
 
             // Update stats and re-render
@@ -1027,7 +1119,16 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         }}
 
         function updateStats() {{
-            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            if (currentTab === 'hotshots') {{
+                const hsDaily = hotShotsItems.filter(i => i.hours_old <= HOURS_IN_DAY);
+                const hsAll = hotShotsItems;
+                document.getElementById('statTotal').textContent = hsAll.length;
+                document.getElementById('statNews').textContent = '-';
+                document.getElementById('statImages').textContent = hsAll.length;
+                document.getElementById('statVideos').textContent = '-';
+                return;
+            }}
+            const maxHours = currentTab === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
             const timeFilteredItems = allItems.filter(item => item.hours_old <= maxHours);
 
             const total = timeFilteredItems.length;
@@ -1042,7 +1143,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
         }}
 
         function getFilteredItems() {{
-            const maxHours = currentTimeRange === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            const maxHours = currentTab === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
             return allItems.filter(item => {{
                 // Time range filter
                 if (item.hours_old > maxHours) return false;
@@ -1102,7 +1203,54 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             }}
         }}
 
+        function renderHotShots() {{
+            const container = document.getElementById('contentContainer');
+            const items = hotShotsItems;
+
+            if (items.length === 0) {{
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">&#128293;</div>
+                        <div class="empty-state-title">No hot shots available</div>
+                        <div class="empty-state-text">Popular images will appear here once data is loaded</div>
+                    </div>
+                `;
+                return;
+            }}
+
+            document.getElementById('resultsCount').textContent = `Top ${{items.length}} most popular images`;
+
+            let html = '<div class="section-group"><div class="section-title" style="color: #ff6b6b; border-bottom-color: #ff6b6b;">TOP PHOTOS BY POPULARITY</div>';
+            html += '<div class="hotshots-grid">';
+
+            items.forEach((item, index) => {{
+                const thumbnail = item.thumbnail_url || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%231a1a2e" width="100" height="100"/><text x="50" y="55" text-anchor="middle" fill="%23444" font-size="12">IMAGE</text></svg>';
+                html += `
+                    <div class="hotshot-card" onclick="showDetail('${{item.id}}', true)">
+                        <img class="hotshot-image" src="${{thumbnail}}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231a1a2e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23444%22 font-size=%2212%22>IMAGE</text></svg>'">
+                        <div class="hotshot-info">
+                            <div class="hotshot-rank"><span class="hotshot-rank-num">#${{index + 1}}</span> HOT SHOT</div>
+                            <div class="hotshot-title">${{item.title}}</div>
+                            <div class="hotshot-meta">
+                                <span class="hotshot-unit">${{item.unit_name}}</span>
+                                <span class="hotshot-date">${{item.date_published}}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }});
+
+            html += '</div></div>';
+            container.innerHTML = html;
+        }}
+
         function renderItems() {{
+            // HOT SHOTS tab has its own renderer
+            if (currentTab === 'hotshots') {{
+                renderHotShots();
+                return;
+            }}
+
             const filtered = getFilteredItems();
             const container = document.getElementById('contentContainer');
             document.getElementById('resultsCount').textContent = `Showing ${{filtered.length}} items`;
@@ -1222,8 +1370,11 @@ def generate_dvids_html(digest: DailyDigest) -> str:
             container.innerHTML = html;
         }}
 
-        function showDetail(itemId) {{
-            const item = allItems.find(i => i.id === itemId);
+        function showDetail(itemId, fromHotShots = false) {{
+            let item = allItems.find(i => i.id === itemId);
+            if (!item && (fromHotShots || currentTab === 'hotshots')) {{
+                item = hotShotsItems.find(i => i.id === itemId);
+            }}
             if (!item) return;
 
             document.getElementById('modalTitle').textContent = item.title;
@@ -1281,7 +1432,7 @@ def generate_dvids_html(digest: DailyDigest) -> str:
 
         // Initialize
         initFilters();
-        setTimeRange('daily');  // Start with daily view
+        setTab('daily');  // Start with daily view
     </script>
 </body>
 </html>'''
@@ -1315,11 +1466,14 @@ def main():
         # Create empty digest for display
         items = []
 
+    # Fetch HOT SHOTS (most popular images)
+    hot_shots = fetch_hot_shots(lookback_days=LOOKBACK_DAYS)
+
     # Create digest
     digest = create_daily_digest(items)
 
     # Generate HTML
-    html_content = generate_dvids_html(digest)
+    html_content = generate_dvids_html(digest, hot_shots=hot_shots)
     output_file = Path("dvids.html")
     output_file.write_text(html_content, encoding='utf-8')
     print(f"\n>>> HTML saved: {output_file}")
@@ -1345,6 +1499,7 @@ def main():
     print(f"    Images: {digest.by_type.get('image', 0)}")
     print(f"    Videos: {digest.by_type.get('video', 0)}")
     print(f"    Deployments: {digest.deployment_count}")
+    print(f"    Hot Shots: {len(hot_shots)}")
     print(f"\n  Combatant Commands:")
     for cmd in ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM']:
         count = digest.by_command.get(cmd, 0)
