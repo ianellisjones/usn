@@ -1,0 +1,25 @@
+{
+  "rss_feeds": [
+    {"name": "TWZ", "url": "https://www.thedrive.com/the-war-zone/feed", "color": "#3B82F6"},
+    {"name": "REUTERS", "url": "https://feeds.reuters.com/reuters/worldNews", "color": "#F59E0B"},
+    {"name": "BBC", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "color": "#EF4444"},
+    {"name": "AP", "url": "https://rsshub.app/apnews/topics/world-news", "color": "#22C55E"},
+    {"name": "CENTCOM", "url": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/", "color": "#E8EAED"}
+  ],
+  "osint_accounts": [
+    {"handle": "CENTCOM", "name": "US Central Command"},
+    {"handle": "DVIDSHUB", "name": "DVIDS"},
+    {"handle": "THEWARZONEWIRE", "name": "The War Zone"},
+    {"handle": "THESTUDYOFWAR", "name": "Institute for the Study of War"},
+    {"handle": "IANELLISJONES", "name": "IEJ"}
+  ],
+  "keywords": [
+    "Iran", "Epic Fury", "CENTCOM", "strike", "Tehran", "Persian Gulf",
+    "B-2", "carrier", "cruise missile", "Tomahawk", "JASSM", "Israel",
+    "IDF", "Roaring Lion", "retaliation", "IRGC", "Houthi",
+    "Strait of Hormuz", "fifth fleet", "sixth fleet", "Navy",
+    "Abraham Lincoln", "Gerald Ford", "F-35", "bomber", "sortie",
+    "Pentagon", "Middle East", "Gulf of Oman", "Arabian Sea",
+    "Red Sea", "Mediterranean"
+  ]
+}
