@@ -1,9 +1,24 @@
 {
-  "generated": "2026-03-17T05:58:33.696938+00:00",
+  "generated": "2026-03-17T11:48:52.990459+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9568534",
+      "title": "USS Gerald R. Ford (CVN 78) supports Operation Epic Fury",
+      "desc": "The world’s largest aircraft carrier, USS Gerald R....",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-17T11:12:49+00:00",
+      "url": "https://www.dvidshub.net/image/9568534/uss-gerald-r-ford-cvn-78-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:999775",
       "title": "USS Gerald R. Ford supports Operation Epic Fury",
