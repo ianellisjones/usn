@@ -1,39 +1,9 @@
 {
-  "generated": "2026-03-17T17:52:53.367382+00:00",
+  "generated": "2026-03-18T06:02:26.152258+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
-    {
-      "id": "video:999860",
-      "title": "USS Pinckney (DDG 91) supports Operation Epic Fury",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Pinckney (DDG 91) fires a Tomahawk Land Attack Missile (TLAM) during Operation Epic Fury. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-17T15:48:39+00:00",
-      "url": "https://www.dvidshub.net/video/999860/uss-pinckney-ddg-91-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:999784",
-      "title": "USS Milius Supports Operation Epic Fury",
-      "desc": "U.S. Navy Arleigh Burke-class guided-missile destroyer USS Milius (DDG 69) fires Tomahawk Land Attack Missiles during Operation Epic Fury. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-17T15:19:17+00:00",
-      "url": "https://www.dvidshub.net/video/999784/uss-milius-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:560697",
       "title": "UCT One Transfers Expeditionary Engineering Mission from Dive Detachment Bravo to Charlie",
