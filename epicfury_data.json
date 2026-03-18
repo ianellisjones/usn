@@ -1,9 +1,39 @@
 {
-  "generated": "2026-03-18T11:52:07.045649+00:00",
+  "generated": "2026-03-18T17:53:02.323400+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1000049",
+      "title": "Senior Leaders Testify On Military Posture, National Security Challenges in Europe",
+      "desc": "Daniel Zimmerman, assistant secretary of war for international security affairs, and Air Force Gen. Alexus Grynkewich, commander of U.S. European Command, testify on U.S. military posture and national security challenges in Europe during a House Armed Services Committee hearing in Washington, March ",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-03-18T17:41:05+00:00",
+      "url": "https://www.dvidshub.net/video/1000049/senior-leaders-testify-military-posture-national-security-challenges-europe",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1000043",
+      "title": "Operation Epic Fury Update",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 16, 2026. (DoW Courtesy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-18T16:27:15+00:00",
+      "url": "https://www.dvidshub.net/video/1000043/operation-epic-fury-update",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:560697",
       "title": "UCT One Transfers Expeditionary Engineering Mission from Dive Detachment Bravo to Charlie",
