@@ -1,18 +1,18 @@
 {
-  "generated": "2026-03-19T11:41:53.678902+00:00",
+  "generated": "2026-03-19T17:47:27.868047+00:00",
   "news_count": 0,
-  "dvids_count": 28,
+  "dvids_count": 20,
   "news": [],
   "dvids": [
     {
-      "id": "image:9571869",
-      "title": "USS Abraham Lincoln (CVN 72) supports Operation Epic Fury",
-      "desc": "U.S. Sailors prepare an F/A-18F Super Hornet, attached...",
-      "type": "image",
+      "id": "video:1000024",
+      "title": "USS Abraham Lincoln Conducts Night Flight Operations",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) conducts night flight operations during Operation Epic Fury, March 17, 2026. (U.S. Navy video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:13:31+00:00",
-      "url": "https://www.dvidshub.net/image/9571869/uss-abraham-lincoln-cvn-72-supports-operation-epic-fury",
+      "timestamp": "2026-03-19T16:52:30+00:00",
+      "url": "https://www.dvidshub.net/video/1000024/uss-abraham-lincoln-conducts-night-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9572383",
-      "title": "USS Bainbridge (DDG 96) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor reports from the main engineering space...",
-      "type": "image",
+      "id": "video:1000075",
+      "title": "USS Abraham Lincoln (CVN72) supports Operation Epic Fury",
+      "desc": "An F/A-18E Super Hornet, launches from the flight deck of Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) during Operation Epic Fury, March 17, 2026. (U.S. Navy video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:10:56+00:00",
-      "url": "https://www.dvidshub.net/image/9572383/uss-bainbridge-ddg-96-supports-operation-epic-fury",
+      "timestamp": "2026-03-19T16:52:04+00:00",
+      "url": "https://www.dvidshub.net/video/1000075/uss-abraham-lincoln-cvn72-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9572353",
-      "title": "USS Spruance (DDG 111) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor speaks over a microphone on the flight...",
+      "id": "image:9573860",
+      "title": "U.S. Army Supports Operation Epic Fury",
+      "desc": "A U.S. Army Soldier performs maintenance inspections...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:06:56+00:00",
-      "url": "https://www.dvidshub.net/image/9572353/uss-spruance-ddg-111-supports-operation-epic-fury",
+      "timestamp": "2026-03-19T16:35:19+00:00",
+      "url": "https://www.dvidshub.net/image/9573860/us-army-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,32 +50,32 @@
       "location_display": ""
     },
     {
-      "id": "image:9572354",
-      "title": "USS Spruance (DDG 111) Supports Operation Epic Fury",
-      "desc": "U.S. Sailors chock and chain an MH-60R Sea Hawk...",
+      "id": "image:9573910",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
       "type": "image",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:05:40+00:00",
-      "url": "https://www.dvidshub.net/image/9572354/uss-spruance-ddg-111-supports-operation-epic-fury",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:10+00:00",
+      "url": "https://www.dvidshub.net/image/9573910/sw-cjcs-hold-operation-epic-fury-presser",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9571903",
-      "title": "USS Thomas Hudner (DDG 116) supports Operation Epic Fury",
-      "desc": "A U.S. Navy Sailor, assigned to Arleigh Burke-class...",
+      "id": "image:9573914",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
       "type": "image",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:05:32+00:00",
-      "url": "https://www.dvidshub.net/image/9571903/uss-thomas-hudner-ddg-116-supports-operation-epic-fury",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:10+00:00",
+      "url": "https://www.dvidshub.net/image/9573914/sw-cjcs-hold-operation-epic-fury-presser",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
