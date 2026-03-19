@@ -1,9 +1,24 @@
 {
-  "generated": "2026-03-19T05:58:05.164331+00:00",
+  "generated": "2026-03-19T11:41:53.678902+00:00",
   "news_count": 0,
-  "dvids_count": 26,
+  "dvids_count": 28,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9571869",
+      "title": "USS Abraham Lincoln (CVN 72) supports Operation Epic Fury",
+      "desc": "U.S. Sailors prepare an F/A-18F Super Hornet, attached...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-18T23:13:31+00:00",
+      "url": "https://www.dvidshub.net/image/9571869/uss-abraham-lincoln-cvn-72-supports-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9572383",
       "title": "USS Bainbridge (DDG 96) Supports Operation Epic Fury",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-03-18T23:05:32+00:00",
       "url": "https://www.dvidshub.net/image/9571903/uss-thomas-hudner-ddg-116-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9572356",
-      "title": "USS Spruance (DDG 111) Supports Operation Epic Fury",
-      "desc": "A U.S. Sailor conduct maintenance on an MH-60R Sea Hawk...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-18T23:04:50+00:00",
-      "url": "https://www.dvidshub.net/image/9572356/uss-spruance-ddg-111-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
