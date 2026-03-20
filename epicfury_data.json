@@ -1,21 +1,21 @@
 {
-  "generated": "2026-03-20T11:38:19.907916+00:00",
+  "generated": "2026-03-20T17:29:15.592210+00:00",
   "news_count": 0,
-  "dvids_count": 17,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "image:9573860",
-      "title": "U.S. Army Supports Operation Epic Fury",
-      "desc": "A U.S. Army Soldier performs maintenance inspections...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-19T16:35:19+00:00",
-      "url": "https://www.dvidshub.net/image/9573860/us-army-supports-operation-epic-fury",
+      "id": "news:560994",
+      "title": "Underwater Construction Team One, Spanish Navy Conduct Bilateral Dive Exchange in Cartagena",
+      "desc": "U.S. Navy Seabee divers assigned to Underwater Construction Team (UCT) One, Construction Dive Detachment Charlie (CDD/C) conducted a bilateral dive exchange with Spanish Navy divers in Cartagena, Spain, from March 18–26, 2026, advancing maritime infrastructure assessment capabilities in support of U",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "22nd Naval Construction Regiment",
+      "timestamp": "2026-03-20T13:58:10+00:00",
+      "url": "https://www.dvidshub.net/news/560994/underwater-construction-team-one-spanish-navy-conduct-bilateral-dive-exchange-cartagena",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
@@ -35,36 +35,6 @@
       "location_display": ""
     },
     {
-      "id": "image:9573914",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:10+00:00",
-      "url": "https://www.dvidshub.net/image/9573914/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9573911",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:10+00:00",
-      "url": "https://www.dvidshub.net/image/9573911/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "image:9573909",
       "title": "SW, CJCS Hold Operation Epic Fury Presser",
       "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
@@ -73,6 +43,36 @@
       "unit_name": "Office of the Secretary of War Public Affairs",
       "timestamp": "2026-03-19T15:25:09+00:00",
       "url": "https://www.dvidshub.net/image/9573909/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9573908",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:09+00:00",
+      "url": "https://www.dvidshub.net/image/9573908/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9573906",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:08+00:00",
+      "url": "https://www.dvidshub.net/image/9573906/sw-cjcs-hold-operation-epic-fury-presser",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
