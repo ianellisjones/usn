@@ -1,39 +1,9 @@
 {
-  "generated": "2026-03-19T17:47:27.868047+00:00",
+  "generated": "2026-03-20T05:51:48.362098+00:00",
   "news_count": 0,
-  "dvids_count": 20,
+  "dvids_count": 17,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1000024",
-      "title": "USS Abraham Lincoln Conducts Night Flight Operations",
-      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) conducts night flight operations during Operation Epic Fury, March 17, 2026. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-19T16:52:30+00:00",
-      "url": "https://www.dvidshub.net/video/1000024/uss-abraham-lincoln-conducts-night-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1000075",
-      "title": "USS Abraham Lincoln (CVN72) supports Operation Epic Fury",
-      "desc": "An F/A-18E Super Hornet, launches from the flight deck of Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) during Operation Epic Fury, March 17, 2026. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-19T16:52:04+00:00",
-      "url": "https://www.dvidshub.net/video/1000075/uss-abraham-lincoln-cvn72-supports-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "image:9573860",
       "title": "U.S. Army Supports Operation Epic Fury",
@@ -73,6 +43,36 @@
       "unit_name": "Office of the Secretary of War Public Affairs",
       "timestamp": "2026-03-19T15:25:10+00:00",
       "url": "https://www.dvidshub.net/image/9573914/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9573911",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:10+00:00",
+      "url": "https://www.dvidshub.net/image/9573911/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9573909",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-03-19T15:25:09+00:00",
+      "url": "https://www.dvidshub.net/image/9573909/sw-cjcs-hold-operation-epic-fury-presser",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
