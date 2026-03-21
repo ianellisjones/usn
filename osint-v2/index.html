@@ -313,7 +313,7 @@ function initGlobe() {
     geo: {
       projection: {
         type: 'orthographic',
-        rotation: { lon: -50, lat: -28 },
+        rotation: { lon: 52, lat: 32 },
         scale: currentGlobeScale
       },
       showland: true,
@@ -456,8 +456,8 @@ function globeZoom(dir) {
 function globeReset() {
   currentGlobeScale = 1.2;
   Plotly.relayout('globe', {
-    'geo.projection.rotation.lon': -50,
-    'geo.projection.rotation.lat': -28,
+    'geo.projection.rotation.lon': 52,
+    'geo.projection.rotation.lat': 32,
     'geo.projection.scale': 1.2
   });
 }
