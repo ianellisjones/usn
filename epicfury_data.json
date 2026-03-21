@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-20T17:29:15.592210+00:00",
+  "generated": "2026-03-21T05:40:12.602051+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,66 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9573910",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:10+00:00",
-      "url": "https://www.dvidshub.net/image/9573910/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9573909",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:09+00:00",
-      "url": "https://www.dvidshub.net/image/9573909/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9573908",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:09+00:00",
-      "url": "https://www.dvidshub.net/image/9573908/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9573906",
-      "title": "SW, CJCS Hold Operation Epic Fury Presser",
-      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "timestamp": "2026-03-19T15:25:08+00:00",
-      "url": "https://www.dvidshub.net/image/9573906/sw-cjcs-hold-operation-epic-fury-presser",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
