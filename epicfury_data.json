@@ -1,9 +1,24 @@
 {
-  "generated": "2026-03-21T11:30:14.458071+00:00",
+  "generated": "2026-03-21T17:17:53.640995+00:00",
   "news_count": 0,
   "dvids_count": 14,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1000447",
+      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 21, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-21T12:22:04+00:00",
+      "url": "https://www.dvidshub.net/video/1000447/centcom-commander-provides-update-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9576799",
       "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-03-20T22:21:32+00:00",
       "url": "https://www.dvidshub.net/image/9576795/senior-advisor-secretary-war-strategy-visits-us-central-command",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9576794",
-      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
-      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-20T22:21:31+00:00",
-      "url": "https://www.dvidshub.net/image/9576794/senior-advisor-secretary-war-strategy-visits-us-central-command",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
