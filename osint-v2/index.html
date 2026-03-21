@@ -18,8 +18,6 @@
         <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
       </svg>
       <span class="op-name">Operation Epic Fury</span>
-      <div class="topbar-divider"></div>
-      <span class="op-sub">Roaring Lion</span>
     </div>
     <div class="topbar-center">
       <span class="h-counter" id="h-counter">H+0000</span>
@@ -63,14 +61,9 @@
       <div id="center-top">
         <div id="globe-container">
           <div id="globe"></div>
-          <!-- LEGEND -->
+          <!-- LEGEND (top right, always visible) -->
           <div id="map-legend">
-            <button class="legend-toggle" id="legend-toggle" onclick="toggleLegend()">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 6h18M3 12h18M3 18h18"/>
-              </svg>
-            </button>
-            <div class="legend-panel" id="legend-panel"></div>
+            <div class="legend-panel open" id="legend-panel"></div>
           </div>
           <!-- MAP CONTROLS -->
           <div class="map-controls">
@@ -99,13 +92,13 @@
       <div id="center-bottom">
         <div id="stats-section">
           <div class="panel-header">
-            <div class="panel-title">Op Stats</div>
+            <div class="panel-title">Operational Brief</div>
           </div>
           <div class="stats-grid" id="stats-grid"></div>
         </div>
         <div id="force-section">
           <div class="panel-header">
-            <div class="panel-title">Force Disposition</div>
+            <div class="panel-title">U.S. Navy Force Posture</div>
           </div>
           <div class="force-table-wrap">
             <table class="force-table" id="force-table">
@@ -134,19 +127,24 @@
 
     <!-- RIGHT PANEL -->
     <div id="right-panel">
-      <!-- OSINT FEED -->
+      <!-- OSINT FEED - X Account Links -->
       <div id="osint-feed">
         <div class="panel-header">
           <div class="panel-title">OSINT Feed</div>
           <div class="panel-subtitle">Curated X accounts</div>
         </div>
-        <div class="updating-banner" id="osint-updating">Updating...</div>
         <div class="panel-body" id="osint-body">
-          <div class="skeleton skeleton-line long"></div>
-          <div class="skeleton skeleton-line medium"></div>
-          <div class="skeleton skeleton-line short"></div>
-          <div class="skeleton skeleton-line long"></div>
-          <div class="skeleton skeleton-line medium"></div>
+          <a class="x-account-link" href="https://x.com/ianellisjones" target="_blank"><span class="x-handle">@ianellisjones</span><span class="x-name">Ian Ellis-Jones</span></a>
+          <a class="x-account-link" href="https://x.com/CENTCOM" target="_blank"><span class="x-handle">@CENTCOM</span><span class="x-name">U.S. Central Command</span></a>
+          <a class="x-account-link" href="https://x.com/deptofwar" target="_blank"><span class="x-handle">@deptofwar</span><span class="x-name">Dept of War</span></a>
+          <a class="x-account-link" href="https://x.com/thewarzonewire" target="_blank"><span class="x-handle">@thewarzonewire</span><span class="x-name">The War Zone</span></a>
+          <a class="x-account-link" href="https://x.com/DVIDSHub" target="_blank"><span class="x-handle">@DVIDSHub</span><span class="x-name">DVIDS</span></a>
+          <a class="x-account-link" href="https://x.com/TheStudyofWar" target="_blank"><span class="x-handle">@TheStudyofWar</span><span class="x-name">Institute for the Study of War</span></a>
+          <a class="x-account-link" href="https://x.com/TheIntelFrog" target="_blank"><span class="x-handle">@TheIntelFrog</span><span class="x-name">The Intel Frog</span></a>
+          <a class="x-account-link" href="https://x.com/LatAmMilMVMTs" target="_blank"><span class="x-handle">@LatAmMilMVMTs</span><span class="x-name">LatAm Military Movements</span></a>
+          <a class="x-account-link" href="https://x.com/mercoglianos" target="_blank"><span class="x-handle">@mercoglianos</span><span class="x-name">Sal Mercogliano</span></a>
+          <a class="x-account-link" href="https://x.com/SA_Defensa" target="_blank"><span class="x-handle">@SA_Defensa</span><span class="x-name">SA Defensa</span></a>
+          <a class="x-account-link" href="https://x.com/ByChrisGordon" target="_blank"><span class="x-handle">@ByChrisGordon</span><span class="x-name">Chris Gordon</span></a>
         </div>
       </div>
       <!-- DVIDS FEED -->
@@ -315,7 +313,7 @@ function initGlobe() {
     geo: {
       projection: {
         type: 'orthographic',
-        rotation: { lon: -40, lat: -25 },
+        rotation: { lon: -50, lat: -28 },
         scale: currentGlobeScale
       },
       showland: true,
@@ -458,8 +456,8 @@ function globeZoom(dir) {
 function globeReset() {
   currentGlobeScale = 1.2;
   Plotly.relayout('globe', {
-    'geo.projection.rotation.lon': -40,
-    'geo.projection.rotation.lat': -25,
+    'geo.projection.rotation.lon': -50,
+    'geo.projection.rotation.lat': -28,
     'geo.projection.scale': 1.2
   });
 }
@@ -471,23 +469,24 @@ function buildLegend() {
     counts[key] = (counts[key] || 0) + 1;
   });
 
-  // Merge Command and Expeditionary for display
   const displayGroups = [
-    { key: 'Carrier', label: 'Carrier (CVN)', color: '#3B82F6' },
-    { key: 'Destroyer', label: 'Destroyer (DDG)', color: '#EF4444' },
-    { key: 'LCS', label: 'LCS', color: '#F59E0B' },
-    { key: 'USNS', label: 'USNS/MSC', color: '#22C55E' },
+    { key: 'Carrier', label: 'Carrier', color: '#3B82F6' },
+    { key: 'Destroyer', label: 'Destroyer', color: '#EF4444' },
+    { key: 'LCS', label: 'Littoral Combat Ship', color: '#F59E0B' },
     { key: 'Submarine', label: 'Submarine', color: '#A855F7' },
-    { key: 'Command/ESB', label: 'Command/ESB', color: '#06B6D4', keys: ['Command', 'Expeditionary'] }
+    { key: 'USNS', label: 'Military Sealift Command', color: '#22C55E' },
+    { key: 'Command', label: 'Command & Control', color: '#06B6D4' },
+    { key: 'Other', label: 'Other', color: '#06B6D4', keys: ['Expeditionary'] }
   ];
 
-  let html = '<div class="legend-header">NAVAL FORCES <button class="legend-close" onclick="toggleLegend()">-</button></div>';
+  let html = '';
   let total = 0;
 
   displayGroups.forEach(g => {
     const keys = g.keys || [g.key];
     let count = 0;
     keys.forEach(k => { count += (counts[k] || 0); });
+    if (count === 0) return;
     total += count;
     const disabled = keys.some(k => legendVisibility[k] === false);
     const cls = disabled ? 'legend-item disabled' : 'legend-item';
@@ -522,20 +521,18 @@ function toggleShipType(keys) {
 function renderStats() {
   const grid = document.getElementById('stats-grid');
   const items = [
-    { label: 'Sorties Flown', value: statsData.sorties_flown },
-    { label: 'Targets Struck', value: statsData.targets_struck },
-    { label: 'TLAMs Launched', value: statsData.tlams_launched },
-    { label: 'JASSM-ER Employed', value: statsData.jassm_employed },
-    { label: 'Ships Deployed', value: shipsData.length },
-    { label: 'Aircraft in Theater', value: statsData.aircraft_in_theater },
-    { label: 'Enemy Retaliation', value: statsData.enemy_retaliation },
-    { label: 'BDA Confirmed', value: statsData.bda_confirmed + '%' }
+    { label: 'Iranian Targets Struck', value: (statsData.iranian_targets_struck || 0).toLocaleString() + '+' },
+    { label: 'Iranian Ships Sunk', value: (statsData.iranian_ships_sunk || 0).toLocaleString() + '+' },
+    { label: 'U.S. Sorties Flown', value: (statsData.sorties_flown || 0).toLocaleString() + '+' },
+    { label: 'U.S. Ships Deployed', value: (statsData.ships_deployed || 0).toLocaleString() + '+' },
+    { label: 'U.S. Fighter Aircraft', value: (statsData.fighter_aircraft || 0).toLocaleString() + '+' },
+    { label: 'U.S. Tankers', value: (statsData.tankers || 0).toLocaleString() + '+' }
   ];
 
   grid.innerHTML = items.map(i => `
     <div class="stat-card">
       <div class="stat-label">${i.label}</div>
-      <div class="stat-value">${typeof i.value === 'number' ? i.value.toLocaleString() : i.value}</div>
+      <div class="stat-value">${i.value}</div>
     </div>
   `).join('');
 }
@@ -680,7 +677,7 @@ async function fetchNewsFeeds() {
     { name: 'REUTERS', url: 'https://feeds.reuters.com/reuters/worldNews', color: '#6B7280' },
     { name: 'AP', url: 'https://rsshub.app/apnews/topics/world-news', color: '#6B7280' },
     { name: 'ALJAZEERA', url: 'https://www.aljazeera.com/xml/rss/all.xml', color: '#6B7280' },
-    { name: 'TWZ', url: 'https://www.thedrive.com/the-war-zone/feed', color: '#6B7280' },
+    { name: 'TWZ', url: 'https://www.twz.com/feed', color: '#6B7280' },
     { name: 'NPR', url: 'https://feeds.npr.org/1004/rss.xml', color: '#6B7280' },
     { name: 'GUARDIAN', url: 'https://www.theguardian.com/world/middleeast/rss', color: '#6B7280' },
     { name: 'CNN', url: 'http://rss.cnn.com/rss/edition_meast.rss', color: '#6B7280' },
@@ -729,117 +726,6 @@ function renderNewsFeed(items, container) {
         <span class="feed-time">${timeAgo(item.date)}</span>
       </div>
       <div class="feed-title">${escapeHtml(item.title)}</div>
-    </div>
-  `).join('');
-}
-
-// OSINT Feed
-async function fetchOSINTFeed() {
-  const banner = document.getElementById('osint-updating');
-  banner.classList.add('show');
-  const body = document.getElementById('osint-body');
-
-  const accounts = [
-    { handle: 'CENTCOM', name: 'US Central Command' },
-    { handle: 'DVIDSHUB', name: 'DVIDS' },
-    { handle: 'THEWARZONEWIRE', name: 'The War Zone' },
-    { handle: 'THESTUDYOFWAR', name: 'Institute for the Study of War' },
-    { handle: 'IANELLISJONES', name: 'IEJ' }
-  ];
-
-  const nitterInstances = [
-    'https://nitter.privacydev.net',
-    'https://nitter.poast.org',
-    'https://nitter.1d4.us'
-  ];
-
-  let allPosts = [];
-  const cutoff = Date.now() - (48 * 3600 * 1000);
-
-  for (const account of accounts) {
-    let fetched = false;
-
-    // Try Nitter RSS
-    for (const instance of nitterInstances) {
-      if (fetched) break;
-      try {
-        const url = `${instance}/${account.handle}/rss`;
-        const xml = await fetchWithProxy(url);
-        if (xml && !xml.includes('Rate limited') && !xml.includes('Error')) {
-          const items = parseNitterRSS(xml, account.handle);
-          const recent = items.filter(i => i.timestamp > cutoff).slice(0, 5);
-          allPosts = allPosts.concat(recent);
-          fetched = true;
-        }
-      } catch (e) { /* try next instance */ }
-    }
-
-    // Try RSSHub fallback
-    if (!fetched) {
-      try {
-        const url = `https://rsshub.app/twitter/user/${account.handle}`;
-        const xml = await fetchWithProxy(url);
-        if (xml) {
-          const items = parseNitterRSS(xml, account.handle);
-          const recent = items.filter(i => i.timestamp > cutoff).slice(0, 5);
-          allPosts = allPosts.concat(recent);
-          fetched = true;
-        }
-      } catch (e) { /* skip */ }
-    }
-  }
-
-  if (allPosts.length > 0) {
-    allPosts.sort((a, b) => b.timestamp - a.timestamp);
-    allPosts = allPosts.slice(0, 25);
-    renderOSINTFeed(allPosts, body);
-  } else {
-    body.innerHTML = `<div class="empty-state">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--text-tertiary)">
-        <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9"/>
-      </svg>
-      <div class="empty-state-text">Connect X API for live OSINT feed.<br>Nitter instances currently unavailable.</div>
-    </div>`;
-  }
-
-  banner.classList.remove('show');
-  feedCache.osint = { data: allPosts, time: Date.now() };
-}
-
-function parseNitterRSS(xmlText, handle) {
-  if (!xmlText) return [];
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(xmlText, 'text/xml');
-  const items = doc.querySelectorAll('item');
-  const results = [];
-
-  items.forEach(item => {
-    const title = item.querySelector('title')?.textContent || '';
-    const desc = item.querySelector('description')?.textContent || '';
-    const link = item.querySelector('link')?.textContent || '';
-    const pubDate = item.querySelector('pubDate')?.textContent || '';
-
-    const text = (title + ' ' + desc).replace(/<[^>]*>/g, '').trim();
-    results.push({
-      handle: '@' + handle,
-      text: text.substring(0, 280),
-      link: link,
-      date: pubDate,
-      timestamp: new Date(pubDate).getTime() || 0
-    });
-  });
-
-  return results;
-}
-
-function renderOSINTFeed(posts, container) {
-  container.innerHTML = posts.map(p => `
-    <div class="osint-item" onclick="window.open('${safeUrl(p.link)}', '_blank')">
-      <div class="feed-meta">
-        <span class="osint-handle">${escapeHtml(p.handle)}</span>
-        <span class="feed-time">${timeAgo(p.date)}</span>
-      </div>
-      <div class="osint-text">${escapeHtml(p.text)}</div>
     </div>
   `).join('');
 }
@@ -929,16 +815,10 @@ function refreshAll() {
   }
 
   setTimeout(() => {
-    if (!feedCache.osint || (now - feedCache.osint.time) > cacheLimit) {
-      fetchOSINTFeed();
-    }
-  }, 1500);
-
-  setTimeout(() => {
     if (!feedCache.dvids || (now - feedCache.dvids.time) > cacheLimit) {
       fetchDVIDSFeed();
     }
-  }, 3000);
+  }, 1500);
 
   lastRefreshTime = new Date();
   const edt = toEDT(lastRefreshTime);
@@ -949,7 +829,6 @@ function refreshAll() {
 
 // Auto-refresh feeds
 setInterval(() => { fetchNewsFeeds(); }, 10 * 60 * 1000);
-setInterval(() => { fetchOSINTFeed(); }, 10 * 60 * 1000);
 setInterval(() => { fetchDVIDSFeed(); }, 15 * 60 * 1000);
 
 // ============================================================
@@ -978,8 +857,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Stagger feed fetches
   fetchNewsFeeds();
-  setTimeout(fetchOSINTFeed, 2000);
-  setTimeout(fetchDVIDSFeed, 4000);
+  setTimeout(fetchDVIDSFeed, 2000);
 
   lastRefreshTime = new Date();
   const edt = toEDT(lastRefreshTime);
