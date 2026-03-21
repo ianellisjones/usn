@@ -1,21 +1,81 @@
 {
-  "generated": "2026-03-21T05:40:12.602051+00:00",
+  "generated": "2026-03-21T11:30:14.458071+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
     {
-      "id": "news:560994",
-      "title": "Underwater Construction Team One, Spanish Navy Conduct Bilateral Dive Exchange in Cartagena",
-      "desc": "U.S. Navy Seabee divers assigned to Underwater Construction Team (UCT) One, Construction Dive Detachment Charlie (CDD/C) conducted a bilateral dive exchange with Spanish Navy divers in Cartagena, Spain, from March 18–26, 2026, advancing maritime infrastructure assessment capabilities in support of U",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "22nd Naval Construction Regiment",
-      "timestamp": "2026-03-20T13:58:10+00:00",
-      "url": "https://www.dvidshub.net/news/560994/underwater-construction-team-one-spanish-navy-conduct-bilateral-dive-exchange-cartagena",
+      "id": "image:9576799",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:33+00:00",
+      "url": "https://www.dvidshub.net/image/9576799/senior-advisor-secretary-war-strategy-visits-us-central-command",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576798",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576798/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576796",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576796/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576795",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576795/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576794",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:31+00:00",
+      "url": "https://www.dvidshub.net/image/9576794/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
