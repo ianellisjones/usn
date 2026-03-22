@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-22T11:30:57.175423+00:00",
+  "generated": "2026-03-22T17:17:55.888469+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
@@ -13,6 +13,66 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-03-21T12:22:04+00:00",
       "url": "https://www.dvidshub.net/video/1000447/centcom-commander-provides-update-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576799",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:33+00:00",
+      "url": "https://www.dvidshub.net/image/9576799/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576798",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576798/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576796",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576796/senior-advisor-secretary-war-strategy-visits-us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9576795",
+      "title": "Senior Advisor to the Secretary of War for Strategy visits U.S. Central Command",
+      "desc": "Mr. Eric Geressy, the Senior Advisor to the Secretary of...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-20T22:21:32+00:00",
+      "url": "https://www.dvidshub.net/image/9576795/senior-advisor-secretary-war-strategy-visits-us-central-command",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
