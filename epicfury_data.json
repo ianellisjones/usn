@@ -1,23 +1,7 @@
 {
-  "generated": "2026-03-23T17:43:22.607765+00:00",
+  "generated": "2026-03-24T05:59:32.632168+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "video:1000447",
-      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 21, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-03-21T12:22:04+00:00",
-      "url": "https://www.dvidshub.net/video/1000447/centcom-commander-provides-update-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
