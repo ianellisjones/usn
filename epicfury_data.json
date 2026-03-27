@@ -1,24 +1,9 @@
 {
-  "generated": "2026-03-26T17:52:50.478473+00:00",
+  "generated": "2026-03-27T06:12:43.833493+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "news:561338",
-      "title": "Statement on Non-Combat Related Injury Aboard USS Abraham Lincoln",
-      "desc": "A U.S. Navy Sailor was injured aboard USS Abraham Lincoln (CVN 72) while the aircraft carrier was conducting flight operations in the Arabian Sea on March 25. The injury is not combat-related nor life threatening.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-03-26T10:13:10+00:00",
-      "url": "https://www.dvidshub.net/news/561338/statement-non-combat-related-injury-aboard-uss-abraham-lincoln",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1000878",
       "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
