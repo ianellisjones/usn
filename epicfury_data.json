@@ -1,24 +1,9 @@
 {
-  "generated": "2026-03-27T11:48:02.773248+00:00",
+  "generated": "2026-03-27T17:42:01.308843+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1001056",
-      "title": "31st MEU | \"The Marines are Coming\"",
-      "desc": "7th FLEET AREA OF OPERATIONS -- On March 26th, 2026, the 31st Marine Expeditionary Unit completed its final preparations prior to entering the U.S. Central Command Area of Responsibility. The 31st MEU is the Marine Corps only continuously forward-deployed MEU, ready now to provide tailored, flexible",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "31st Marine Expeditionary Unit",
-      "timestamp": "2026-03-27T07:43:29+00:00",
-      "url": "https://www.dvidshub.net/video/1001056/31st-meu-marines-coming",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1000878",
       "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
