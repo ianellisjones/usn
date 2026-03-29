@@ -1,38 +1,7 @@
 {
-  "generated": "2026-03-28T17:20:53.720265+00:00",
+  "generated": "2026-03-29T06:11:15.818132+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "image:9588688",
-      "title": "USS Thomas Hudner (DDG 116)",
-      "desc": "Boatswain's Mate 3rd Class Joshua Bagy, assigned to the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Thomas Hudner (DDG 116)",
-      "timestamp": "2026-03-28T17:01:50+00:00",
-      "url": "https://www.dvidshub.net/image/9588688/uss-thomas-hudner-ddg-116",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9588686",
-      "title": "USS Thomas Hudner (DDG 116)",
-      "desc": "Boatswain's Mate 3rd Class Michael Keaton, assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Thomas Hudner (DDG 116)",
-      "timestamp": "2026-03-28T17:01:50+00:00",
-      "url": "https://www.dvidshub.net/image/9588686/uss-thomas-hudner-ddg-116",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
