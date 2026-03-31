@@ -1,9 +1,54 @@
 {
-  "generated": "2026-03-31T11:55:09.120431+00:00",
+  "generated": "2026-03-31T17:48:43.781300+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9592016",
+      "title": "Operation Epic Fury Press Briefing",
+      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine,...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
+      "timestamp": "2026-03-31T16:07:18+00:00",
+      "url": "https://www.dvidshub.net/image/9592016/operation-epic-fury-press-briefing",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9592014",
+      "title": "Operation Epic Fury Press Briefing",
+      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine,...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
+      "timestamp": "2026-03-31T16:07:18+00:00",
+      "url": "https://www.dvidshub.net/image/9592014/operation-epic-fury-press-briefing",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1001313",
+      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, March 31, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-03-31T13:13:42+00:00",
+      "url": "https://www.dvidshub.net/video/1001313/centcom-commander-provides-update-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:561541",
       "title": "New York Governor, New York City Mayor, honor New York Army Guard Major Sorffly Davius during Brooklyn funeral.",
