@@ -1,9 +1,24 @@
 {
-  "generated": "2026-04-01T06:25:53.482706+00:00",
+  "generated": "2026-04-01T11:56:35.734527+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "news:561710",
+      "title": "U.S. Strengthens Maritime Security Cooperation with Kenya During NAVAF Commander’s Visit",
+      "desc": "U.S. Naval Forces Africa (NAVAF) strengthened its longstanding security partnership with Kenya during Adm. George Wikoff’s visit to Nairobi and Mombasa, March 24–25.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-04-01T07:21:17+00:00",
+      "url": "https://www.dvidshub.net/news/561710/us-strengthens-maritime-security-cooperation-with-kenya-during-navaf-commanders-visit",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9592016",
       "title": "Operation Epic Fury Press Briefing",
