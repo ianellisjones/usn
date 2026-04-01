@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-01T11:56:35.734527+00:00",
+  "generated": "2026-04-01T17:41:46.275629+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -16,36 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9592016",
-      "title": "Operation Epic Fury Press Briefing",
-      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
-      "timestamp": "2026-03-31T16:07:18+00:00",
-      "url": "https://www.dvidshub.net/image/9592016/operation-epic-fury-press-briefing",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9592014",
-      "title": "Operation Epic Fury Press Briefing",
-      "desc": "Chairman of the Joint Chiefs of Staff Gen. Dan Caine,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Chairman of the Joint Chiefs of Staff",
-      "timestamp": "2026-03-31T16:07:18+00:00",
-      "url": "https://www.dvidshub.net/image/9592014/operation-epic-fury-press-briefing",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     },
