@@ -1,9 +1,24 @@
 {
-  "generated": "2026-04-02T11:51:52.614700+00:00",
+  "generated": "2026-04-02T17:41:38.202736+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "news:561825",
+      "title": "Operation Spring Clean Strengthens Warfighter Readiness Through Logistics Reset in Cairo",
+      "desc": "CAIRO — Staff from Naval Medical Research Unit (NAMRU) EURAFCENT’s logistics department recently concluded Operation Spring Clean, a mission-essential logistics reset aimed at improving accountability, efficiency and readiness at a critical supply hub supporting both United States Africa (AFRICOM) C",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval Medical Research Command",
+      "timestamp": "2026-04-02T16:23:55+00:00",
+      "url": "https://www.dvidshub.net/news/561825/operation-spring-clean-strengthens-warfighter-readiness-through-logistics-reset-cairo",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1001437",
       "title": "USS Abraham Lincoln (CVN 72) Conducts Flight Operations during Operation Epic Fury",
