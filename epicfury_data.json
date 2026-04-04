@@ -1,24 +1,9 @@
 {
-  "generated": "2026-04-04T11:36:14.342478+00:00",
+  "generated": "2026-04-04T17:22:03.812674+00:00",
   "news_count": 0,
   "dvids_count": 36,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9597745",
-      "title": "U.S. forces Conduct Air Defense Operations",
-      "desc": "U.S. forces conduct air defense operations in the U.S....",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-04T00:35:48+00:00",
-      "url": "https://www.dvidshub.net/image/9597745/us-forces-conduct-air-defense-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "image:9597821",
       "title": "U.S. Army Soldiers conduct sustainment operations during Epic Fury",
@@ -50,21 +35,6 @@
       "location_display": ""
     },
     {
-      "id": "image:9597846",
-      "title": "Soldiers conduct sustainment operations during Epic Fury",
-      "desc": "U.S. Army Soldiers conduct sustainment operations in the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-04T00:33:43+00:00",
-      "url": "https://www.dvidshub.net/image/9597846/soldiers-conduct-sustainment-operations-during-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "image:9597977",
       "title": "U.S. Marines conduct deck shoot during Operation Epic Fury",
       "desc": "U.S. Marines fire rifles during a deck shoot aboard the...",
@@ -73,6 +43,36 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-04-04T00:17:09+00:00",
       "url": "https://www.dvidshub.net/image/9597977/us-marines-conduct-deck-shoot-during-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9597986",
+      "title": "U.S. Marines conduct deck shoot during Operation Epic Fury",
+      "desc": "U.S. Marines fire rifles during a deck shoot aboard the...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-04T00:17:01+00:00",
+      "url": "https://www.dvidshub.net/image/9597986/us-marines-conduct-deck-shoot-during-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9597994",
+      "title": "U.S. Marines conduct deck shoot during Operation Epic Fury",
+      "desc": "U.S. Marines fire rifles during a deck shoot aboard the...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-04T00:16:51+00:00",
+      "url": "https://www.dvidshub.net/image/9597994/us-marines-conduct-deck-shoot-during-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
