@@ -1,48 +1,18 @@
 {
-  "generated": "2026-04-05T17:21:49.228621+00:00",
+  "generated": "2026-04-06T06:53:47.328777+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "image:9598004",
-      "title": "U.S. Marines conduct Night flight operations during Operation Epic Fury",
-      "desc": "An MH-60S Sea Hawk prepares for takeoff during...",
-      "type": "image",
+      "id": "news:561990",
+      "title": "U.S. Continues Strikes into Iran After Successful Rescue of F-15E Aircrew",
+      "desc": "TAMPA, Fla. — On April 4, U.S. forces successfully completed the rescues of two American service members from Iran after their F-15E fighter jet was shot down April 2 during a combat mission.",
+      "type": "news",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-03T23:49:04+00:00",
-      "url": "https://www.dvidshub.net/image/9598004/us-marines-conduct-night-flight-operations-during-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9598006",
-      "title": "U.S. Marines conduct Night flight operations during Operation Epic Fury",
-      "desc": "An MH-60S Sea Hawk prepares for takeoff during...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-03T23:48:43+00:00",
-      "url": "https://www.dvidshub.net/image/9598006/us-marines-conduct-night-flight-operations-during-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9598008",
-      "title": "U.S. Marines conduct Night flight operations during Operation Epic Fury",
-      "desc": "An MH-60S Sea Hawk prepares for takeoff during...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-03T23:48:12+00:00",
-      "url": "https://www.dvidshub.net/image/9598008/us-marines-conduct-night-flight-operations-during-operation-epic-fury",
+      "timestamp": "2026-04-05T17:30:04+00:00",
+      "url": "https://www.dvidshub.net/news/561990/us-continues-strikes-into-iran-after-successful-rescue-f-15e-aircrew",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
