@@ -1,18 +1,33 @@
 {
-  "generated": "2026-04-07T17:49:43.045757+00:00",
+  "generated": "2026-04-08T06:20:31.646333+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "news:561990",
-      "title": "U.S. Continues Strikes into Iran After Successful Rescue of F-15E Aircrew",
-      "desc": "TAMPA, Fla. — On April 4, U.S. forces successfully completed the rescues of two American service members from Iran after their F-15E fighter jet was shot down April 2 during a combat mission.",
-      "type": "news",
+      "id": "video:1001943",
+      "title": "U.S. Marines conduct Flight Operations during Operation Epic Fury",
+      "desc": "U.S. Marines conduct flight operations in the U.S. Central Command area of responsibility, April 6, 2026. (U.S. Marine Corps video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-05T17:30:04+00:00",
-      "url": "https://www.dvidshub.net/news/561990/us-continues-strikes-into-iran-after-successful-rescue-f-15e-aircrew",
+      "timestamp": "2026-04-07T21:55:20+00:00",
+      "url": "https://www.dvidshub.net/video/1001943/us-marines-conduct-flight-operations-during-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1001947",
+      "title": "USS Abraham Lincoln supports Operation Epic Fury",
+      "desc": "U.S. Sailors aboard USS Abraham Lincoln (CVN 72) conduct flight operations during Operation Epic Fury, April 7, 2026. (U.S. Navy video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-07T21:46:34+00:00",
+      "url": "https://www.dvidshub.net/video/1001947/uss-abraham-lincoln-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
