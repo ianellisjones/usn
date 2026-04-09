@@ -1,24 +1,9 @@
 {
-  "generated": "2026-04-08T17:58:41.875948+00:00",
+  "generated": "2026-04-09T06:21:10.448105+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1001943",
-      "title": "U.S. Marines conduct Flight Operations during Operation Epic Fury",
-      "desc": "U.S. Marines conduct flight operations in the U.S. Central Command area of responsibility, April 6, 2026. (U.S. Marine Corps video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-07T21:55:20+00:00",
-      "url": "https://www.dvidshub.net/video/1001943/us-marines-conduct-flight-operations-during-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1001947",
       "title": "USS Abraham Lincoln supports Operation Epic Fury",
