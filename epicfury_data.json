@@ -1,9 +1,24 @@
 {
-  "generated": "2026-04-09T11:58:28.309539+00:00",
+  "generated": "2026-04-09T17:53:18.386881+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1002125",
+      "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of CENTCOM, provides an update on Operation Epic Fury, April 9, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-09T11:58:56+00:00",
+      "url": "https://www.dvidshub.net/video/1002125/centcom-commander-provides-update-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1001947",
       "title": "USS Abraham Lincoln supports Operation Epic Fury",
