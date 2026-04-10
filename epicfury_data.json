@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-09T17:53:18.386881+00:00",
+  "generated": "2026-04-10T06:52:25.744474+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-04-09T11:58:56+00:00",
       "url": "https://www.dvidshub.net/video/1002125/centcom-commander-provides-update-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1001947",
-      "title": "USS Abraham Lincoln supports Operation Epic Fury",
-      "desc": "U.S. Sailors aboard USS Abraham Lincoln (CVN 72) conduct flight operations during Operation Epic Fury, April 7, 2026. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-07T21:46:34+00:00",
-      "url": "https://www.dvidshub.net/video/1001947/uss-abraham-lincoln-supports-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
