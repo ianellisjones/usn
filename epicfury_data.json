@@ -1,9 +1,39 @@
 {
-  "generated": "2026-04-11T11:38:21.392240+00:00",
+  "generated": "2026-04-11T17:23:18.144340+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9609002",
+      "title": "U.S. Forces Start Mine Clearance Mission in Strait of Hormuz",
+      "desc": "U.S. Central Command (CENTCOM) forces began setting...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-11T16:57:09+00:00",
+      "url": "https://www.dvidshub.net/image/9609002/us-forces-start-mine-clearance-mission-strait-hormuz",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:562510",
+      "title": "U.S. Forces Start Mine Clearance Mission in Strait of Hormuz",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces began setting conditions for clearing mines in the Strait of Hormuz, April 11, as two U.S. Navy guided-missile destroyers conducted operations.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-11T16:56:44+00:00",
+      "url": "https://www.dvidshub.net/news/562510/us-forces-start-mine-clearance-mission-strait-hormuz",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1002125",
       "title": "CENTCOM Commander Provides Update on Operation Epic Fury",
