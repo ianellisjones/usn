@@ -1,9 +1,39 @@
 {
-  "generated": "2026-04-16T12:04:04.795617+00:00",
+  "generated": "2026-04-16T18:02:55.442147+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1002805",
+      "title": "U.S. forces execute a blockade on vessels attempting to enter or exit Iranian ports",
+      "desc": "U.S. forces are focused, vigilant, and highly motivated as they execute a blockade on vessels attempting to enter or exit Iranian ports. After 72 hours of enforcement, 14 vessels have turned around to comply with the blockade at the direction of American forces. (U.S. Central Command Public Affairs ",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-16T16:49:14+00:00",
+      "url": "https://www.dvidshub.net/video/1002805/us-forces-execute-blockade-vessels-attempting-enter-exit-iranian-ports",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1002794",
+      "title": "CENTCOM executes a blockade in the Gulf of Oman",
+      "desc": "U.S. naval vessels are on patrol in the Gulf of Oman as CENTCOM executes a blockade on ships entering and departing Iranian ports. U.S. forces are present, vigilant, and ready to ensure compliance. (U.S. Central Command Public Affairs video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-16T15:15:45+00:00",
+      "url": "https://www.dvidshub.net/video/1002794/centcom-executes-blockade-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1002748",
       "title": "150th TMDE Mobilization Ceremony",
