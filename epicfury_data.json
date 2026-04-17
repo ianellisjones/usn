@@ -1,9 +1,39 @@
 {
-  "generated": "2026-04-17T11:57:20.127223+00:00",
+  "generated": "2026-04-17T17:40:25.002476+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1002910",
+      "title": "Adm. Brad Cooper addresses media at the Pentagon",
+      "desc": "Adm. Brad Cooper, CENTCOM commander, addresses media at the Pentagon during a briefing on the blockade against ships attempting to enter or exit Iranian ports. Adm. Cooper also highlighted his most recent trip to the Middle East where he visited with U.S. service members and engaged regional allies ",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-17T12:41:09+00:00",
+      "url": "https://www.dvidshub.net/video/1002910/adm-brad-cooper-addresses-media-pentagon",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1002907",
+      "title": "U.S. Navy enforces the blockade on ships entering or departing Iranian ports",
+      "desc": "Audio of a Sailor aboard USS Michael Murphy (DDG 112), with video from the guided-missile destroyer’s embarked helicopter flying over the Gulf of Oman, as the U.S. Navy diverts a merchant vessel while enforcing the blockade on ships entering or departing Iranian ports. (U.S. Central Command Public A",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-17T12:35:48+00:00",
+      "url": "https://www.dvidshub.net/video/1002907/us-navy-enforces-blockade-ships-entering-departing-iranian-ports",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9621595",
       "title": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade operations",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-04-17T11:39:54+00:00",
       "url": "https://www.dvidshub.net/image/9621605/uss-abraham-lincoln-cvn-72-conducts-us-blockade-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1002805",
-      "title": "U.S. forces execute a blockade on vessels attempting to enter or exit Iranian ports",
-      "desc": "U.S. forces are focused, vigilant, and highly motivated as they execute a blockade on vessels attempting to enter or exit Iranian ports. After 72 hours of enforcement, 14 vessels have turned around to comply with the blockade at the direction of American forces. (U.S. Central Command Public Affairs ",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-16T16:49:14+00:00",
-      "url": "https://www.dvidshub.net/video/1002805/us-forces-execute-blockade-vessels-attempting-enter-exit-iranian-ports",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1002794",
-      "title": "CENTCOM executes a blockade in the Gulf of Oman",
-      "desc": "U.S. naval vessels are on patrol in the Gulf of Oman as CENTCOM executes a blockade on ships entering and departing Iranian ports. U.S. forces are present, vigilant, and ready to ensure compliance. (U.S. Central Command Public Affairs video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-16T15:15:45+00:00",
-      "url": "https://www.dvidshub.net/video/1002794/centcom-executes-blockade-gulf-oman",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
