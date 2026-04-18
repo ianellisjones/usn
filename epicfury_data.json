@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-17T17:40:25.002476+00:00",
+  "generated": "2026-04-18T06:12:54.538267+00:00",
   "news_count": 0,
-  "dvids_count": 8,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -35,44 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9621595",
-      "title": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade operations",
-      "desc": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade...",
-      "type": "image",
+      "id": "video:1002805",
+      "title": "U.S. forces execute a blockade on vessels attempting to enter or exit Iranian ports",
+      "desc": "U.S. forces are focused, vigilant, and highly motivated as they execute a blockade on vessels attempting to enter or exit Iranian ports. After 72 hours of enforcement, 14 vessels have turned around to comply with the blockade at the direction of American forces. (U.S. Central Command Public Affairs ",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-17T11:40:06+00:00",
-      "url": "https://www.dvidshub.net/image/9621595/uss-abraham-lincoln-cvn-72-conducts-us-blockade-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9621604",
-      "title": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade operations",
-      "desc": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-17T11:39:58+00:00",
-      "url": "https://www.dvidshub.net/image/9621604/uss-abraham-lincoln-cvn-72-conducts-us-blockade-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9621605",
-      "title": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade operations",
-      "desc": "USS Abraham Lincoln (CVN 72) conducts U.S. blockade...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-17T11:39:54+00:00",
-      "url": "https://www.dvidshub.net/image/9621605/uss-abraham-lincoln-cvn-72-conducts-us-blockade-operations",
+      "timestamp": "2026-04-16T16:49:14+00:00",
+      "url": "https://www.dvidshub.net/video/1002805/us-forces-execute-blockade-vessels-attempting-enter-exit-iranian-ports",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
