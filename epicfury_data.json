@@ -1,7 +1,38 @@
 {
-  "generated": "2026-04-19T17:27:51.832391+00:00",
+  "generated": "2026-04-20T07:15:11.801773+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 2,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "video:1003055",
+      "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
+      "desc": "U.S. forces operating in the Arabian Sea enforced naval blockade measures against an Iranian-flagged cargo vessel attempting to sail toward an Iranian port, April 19.",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-19T20:58:37+00:00",
+      "url": "https://www.dvidshub.net/video/1003055/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:563053",
+      "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
+      "desc": "TAMPA, Fla. – U.S. forces operating in the Arabian Sea enforced naval blockade measures against an Iranian-flagged cargo vessel attempting to sail toward an Iranian port, April 19.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-19T20:58:25+00:00",
+      "url": "https://www.dvidshub.net/news/563053/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
