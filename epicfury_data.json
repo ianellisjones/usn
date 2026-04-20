@@ -1,9 +1,24 @@
 {
-  "generated": "2026-04-20T12:09:25.127342+00:00",
+  "generated": "2026-04-20T17:50:43.546550+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1003123",
+      "title": "U.S. Marines Board M/V Touska",
+      "desc": "U.S. Marines depart amphibious assault ship USS Tripoli (LHA 7) by helicopter and transit over the Arabian Sea to board and seize M/V Touska. The Marines rappelled onto the Iranian-flagged vessel, April 19, after guided-missile destroyer USS Spruance (DDG 111) disabled Touska’s propulsion when the c",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-20T15:15:10+00:00",
+      "url": "https://www.dvidshub.net/video/1003123/us-marines-board-m-v-touska",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1003055",
       "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
