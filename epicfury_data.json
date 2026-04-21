@@ -1,9 +1,54 @@
 {
-  "generated": "2026-04-21T12:04:16.318063+00:00",
+  "generated": "2026-04-21T17:52:01.376978+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9629730",
+      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
+      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska,...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-21T17:36:07+00:00",
+      "url": "https://www.dvidshub.net/image/9629730/us-forces-patrol-arabian-sea-near-m-v-touska",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9629501",
+      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
+      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska ,...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-21T17:25:30+00:00",
+      "url": "https://www.dvidshub.net/image/9629501/us-forces-patrol-arabian-sea-near-m-v-touska",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9629647",
+      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
+      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska ,...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-21T17:25:13+00:00",
+      "url": "https://www.dvidshub.net/image/9629647/us-forces-patrol-arabian-sea-near-m-v-touska",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1003123",
       "title": "U.S. Marines Board M/V Touska",
@@ -28,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-04-19T20:58:37+00:00",
       "url": "https://www.dvidshub.net/video/1003055/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:563053",
-      "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
-      "desc": "TAMPA, Fla. – U.S. forces operating in the Arabian Sea enforced naval blockade measures against an Iranian-flagged cargo vessel attempting to sail toward an Iranian port, April 19.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-19T20:58:25+00:00",
-      "url": "https://www.dvidshub.net/news/563053/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
