@@ -1,45 +1,712 @@
 {
   "date": "2026-04-21",
-  "timestamp": "2026-04-21T01:13:21.800176",
-  "total_count": 405,
+  "timestamp": "2026-04-21T07:17:36.366427",
+  "total_count": 391,
   "by_country": {
-    "United States": 293,
-    "Japan": 8,
-    "Guam": 30,
+    "Japan": 9,
+    "United States": 274,
+    "South Korea": 3,
+    "Guam": 33,
+    "Philippines": 23,
     "C\u00f4te D'Ivoire": 2,
-    "Pacific Ocean": 9,
+    "Pacific Ocean": 5,
     "Monaco": 1,
     "Undisclosed Location": 5,
-    "Italy": 6,
+    "Italy": 3,
     "Northern Mariana Islands": 24,
-    "Philippines": 15,
-    "South Korea": 2,
     "South China Sea": 1,
     "Micronesia, Federated States Of": 3,
     "U.S. 4th Fleet area of responsibility": 1,
     "Germany": 1,
     "At Sea": 1,
     "El Salvador": 1,
-    "Spain": 1,
-    "Norway": 1
+    "Spain": 1
   },
   "by_type": {
-    "news": 116,
     "image": 200,
-    "video": 89
+    "news": 110,
+    "video": 81
   },
   "by_branch": {
-    "Joint": 150,
-    "Navy": 115,
-    "Coast Guard": 64,
-    "Marines": 76
+    "Navy": 111,
+    "Joint": 148,
+    "Marines": 69,
+    "Coast Guard": 63
   },
   "by_command": {
+    "INDOPACOM": 17,
     "CENTCOM": 8,
-    "INDOPACOM": 16,
-    "SOUTHCOM": 9
+    "SOUTHCOM": 7
   },
   "items": [
+    {
+      "id": "image:9628552",
+      "title": "USS Blue Ridge Departs White Beach, Okinawa",
+      "description": "U.S. 7th Fleet flagship USS Blue Ridge (LCC 19) departs...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Expeditionary Strike Group 7",
+      "date_published": "Apr 21, 2026 06:42 UTC",
+      "timestamp": "2026-04-21T06:42:52+00:00",
+      "country": "Japan",
+      "state": "Okinawa",
+      "city": "",
+      "location_display": "Japan",
+      "url": "https://www.dvidshub.net/image/9628552/uss-blue-ridge-departs-white-beach-okinawa",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628552/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO2 Danilo Reynoso",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 0.5761355919444444,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628556",
+      "title": "USS Blue Ridge Departs White Beach, Okinawa",
+      "description": "U.S. 7th Fleet flagship USS Blue Ridge (LCC 19) departs...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Expeditionary Strike Group 7",
+      "date_published": "Apr 21, 2026 06:42 UTC",
+      "timestamp": "2026-04-21T06:42:44+00:00",
+      "country": "Japan",
+      "state": "Okinawa",
+      "city": "",
+      "location_display": "Japan",
+      "url": "https://www.dvidshub.net/image/9628556/uss-blue-ridge-departs-white-beach-okinawa",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628556/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO2 Danilo Reynoso",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 0.5783578094444445,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628448",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:01+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628448/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628448/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.873635642777778,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628447",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:01+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628447/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628447/122x92_q95.jpg",
+      "keywords": [
+        "CNRSW",
+        "Navy Band Southwest",
+        "navy music",
+        "Navy Week"
+      ],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.8736356480555556,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628444",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:01+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628444/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628444/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.8736356536111107,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628438",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:01+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628438/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628438/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.873635663611111,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628441",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Musician First Class Sam Detweiler performs with the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:00+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628441/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628441/122x92_q95.jpg",
+      "keywords": [
+        "CNRSW",
+        "Navy Band Southwest",
+        "navy music",
+        "Navy Week"
+      ],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.873913436111111,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628437",
+      "title": "Navy Band Southwest in Springdale, Utah",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 04:25 UTC",
+      "timestamp": "2026-04-21T04:25:00+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "Springdale",
+      "location_display": "Springdale, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628437/navy-band-southwest-springdale-utah",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628437/122x92_q95.jpg",
+      "keywords": [
+        "CNRSW",
+        "Navy Band Southwest",
+        "navy music",
+        "Navy Week"
+      ],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.8739134458333333,
+      "is_deployment": false
+    },
+    {
+      "id": "news:563182",
+      "title": "April 1951: Battle of the Imjin River",
+      "description": "Seventy-five years ago, the Chinese launched their Spring Offensive on April 22,1951, a massive counterattack\u00a0with the primary goal of recapturing Seoul. Their initial attack fell on the 29th British Brigade. Supported by the Belgian battalion, they were defending a 12-mile front along the Imjin River to block the primary route to Seoul. The 29th Brigade faced approximately 27,000 soldiers of the Chinese 63rd Army. Over three days of intense, often hand-to-hand combat, the battalions in the Brig...",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "United Nations Command",
+      "date_published": "Apr 21, 2026 04:07 UTC",
+      "timestamp": "2026-04-21T04:07:31+00:00",
+      "country": "South Korea",
+      "state": "",
+      "city": "",
+      "location_display": "South Korea",
+      "url": "https://www.dvidshub.net/news/563182/april-1951-battle-imjin-river",
+      "thumbnail_url": "",
+      "keywords": [
+        "united-nations-command",
+        "imjin-river",
+        "gloster-hill"
+      ],
+      "credit": "MAJ Alexia Croizer",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 3.166843740277778,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628419",
+      "title": "CTF 75 Receives Climate-controlled Storage Container",
+      "description": "APRA HARBOR, Guam (April 20, 2026) Sailors assigned to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander Task Force 75",
+      "date_published": "Apr 21, 2026 04:03 UTC",
+      "timestamp": "2026-04-21T04:03:21+00:00",
+      "country": "Guam",
+      "state": "",
+      "city": "",
+      "location_display": "Guam",
+      "url": "https://www.dvidshub.net/image/9628419/ctf-75-receives-climate-controlled-storage-container",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628419/122x92_q95.jpg",
+      "keywords": [
+        "NCHB 1",
+        "CTF 75",
+        "CTF 75.5",
+        "Joint Region Marianas - Naval Base Guam"
+      ],
+      "credit": "PO1 Brandon Parker",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.234746877777778,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628417",
+      "title": "CTF 75 Receives Climate-controlled Storage Container",
+      "description": "APRA HARBOR, Guam (April 20, 2026) Sailors assigned to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander Task Force 75",
+      "date_published": "Apr 21, 2026 04:03 UTC",
+      "timestamp": "2026-04-21T04:03:21+00:00",
+      "country": "Guam",
+      "state": "",
+      "city": "",
+      "location_display": "Guam",
+      "url": "https://www.dvidshub.net/image/9628417/ctf-75-receives-climate-controlled-storage-container",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628417/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO1 Brandon Parker",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.2347468830555557,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628414",
+      "title": "CTF 75 Receives Climate-controlled Storage Container",
+      "description": "APRA HARBOR, Guam (April 20, 2026) Sailors assigned to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander Task Force 75",
+      "date_published": "Apr 21, 2026 04:03 UTC",
+      "timestamp": "2026-04-21T04:03:21+00:00",
+      "country": "Guam",
+      "state": "",
+      "city": "",
+      "location_display": "Guam",
+      "url": "https://www.dvidshub.net/image/9628414/ctf-75-receives-climate-controlled-storage-container",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628414/122x92_q95.jpg",
+      "keywords": [
+        "NCHB 1",
+        "CTF 75",
+        "CTF 75.5",
+        "Joint Region Marianas - Naval Base Guam"
+      ],
+      "credit": "PO1 Brandon Parker",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.2347468869444445,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628409",
+      "title": "Navy Band Southwest at Utah Tech University",
+      "description": "Navy Band Southwest\u2019s 32nd Street Brass Band performed...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 03:55 UTC",
+      "timestamp": "2026-04-21T03:55:52+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "St. George",
+      "location_display": "St. George, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628409/navy-band-southwest-utah-tech-university",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628409/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.359468953888889,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628408",
+      "title": "Navy Band Southwest at Utah Tech University",
+      "description": "Musician First Class Sam Detweiler and Musician Third...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 03:55 UTC",
+      "timestamp": "2026-04-21T03:55:52+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "St. George",
+      "location_display": "St. George, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628408/navy-band-southwest-utah-tech-university",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628408/122x92_q95.jpg",
+      "keywords": [
+        "CNRSW",
+        "navy band southwest",
+        "navy music",
+        "Navy Week"
+      ],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.3594689597222223,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628402",
+      "title": "Navy Band Southwest at Utah Tech University",
+      "description": "Musician Second Class Luis Flores performs with the 32nd...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 03:55 UTC",
+      "timestamp": "2026-04-21T03:55:52+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "St. George",
+      "location_display": "St. George, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628402/navy-band-southwest-utah-tech-university",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628402/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.3594689669444446,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628394",
+      "title": "Navy Band Southwest at Utah Tech University",
+      "description": "Musician Second Class Garrett Gauvin Caraballo performs...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Band Southwest",
+      "date_published": "Apr 21, 2026 03:55 UTC",
+      "timestamp": "2026-04-21T03:55:52+00:00",
+      "country": "United States",
+      "state": "Utah",
+      "city": "St. George",
+      "location_display": "St. George, Utah, United States",
+      "url": "https://www.dvidshub.net/image/9628394/navy-band-southwest-utah-tech-university",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628394/122x92_q95.jpg",
+      "keywords": [
+        "CNRSW",
+        "Navy Band Southwest",
+        "navy music",
+        "Navy Week"
+      ],
+      "credit": "PO3 Malaysia Billman",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.359468971388889,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628372",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marine Corps Sgt. Malachi Sager, an influence...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:48+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628372/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628372/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5444425902777774,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628371",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:47+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628371/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628371/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5447203733333335,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628370",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:47+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628370/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628370/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.544720378333333,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628368",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:47+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628368/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628368/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5447203825,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628367",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:46+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628367/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628367/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5449981641666666,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628365",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:46+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628365/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628365/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.544998168611111,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628362",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marines with 3rd Littoral Combat Team, 3rd Marine...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:46+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628362/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628362/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5449981733333336,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9628361",
+      "title": "Balikatan 2026: 3rd LCT conducts physical training at Camp Cape Bojeador",
+      "description": "U.S. Marine Corps Staff Sgt. Mark Zyble, an influence...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "3d Marine Division",
+      "date_published": "Apr 21, 2026 03:44 UTC",
+      "timestamp": "2026-04-21T03:44:45+00:00",
+      "country": "Philippines",
+      "state": "",
+      "city": "Camp Cape Bajeador",
+      "location_display": "Camp Cape Bajeador, Philippines",
+      "url": "https://www.dvidshub.net/image/9628361/balikatan-2026-3rd-lct-conducts-physical-training-camp-cape-bojeador",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628361/122x92_q95.jpg",
+      "keywords": [
+        "Balikatan",
+        "FriendsPartnersAllies",
+        "3d MLR",
+        "Balikatan 26",
+        "BK26"
+      ],
+      "credit": "Sgt Iyer Ramakrishna",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.545275955277778,
+      "is_deployment": false
+    },
+    {
+      "id": "news:563187",
+      "title": "Centennial Alliance: 100 Years of The Ethan Allen Firing Range",
+      "description": "Commemorating the 100 year anniversary of the Ethan Allen Firing Range, Jericho, Vermont.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Joint Force Headquarters - Vermont National Guard Public Affairs",
+      "date_published": "Apr 21, 2026 02:58 UTC",
+      "timestamp": "2026-04-21T02:58:58+00:00",
+      "country": "United States",
+      "state": "Vermont",
+      "city": "Jericho",
+      "location_display": "Jericho, Vermont, United States",
+      "url": "https://www.dvidshub.net/news/563187/centennial-alliance-100-years-ethan-allen-firing-range",
+      "thumbnail_url": "",
+      "keywords": [
+        "CentennialAlliance26"
+      ],
+      "credit": "SGT Denis Nunez",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 4.3093437083333335,
+      "is_deployment": false
+    },
     {
       "id": "news:563181",
       "title": "Oregon National Guard mobilizes Soldiers for vital Middle East support role",
@@ -69,7 +736,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 0.24619810916666665,
+      "hours_old": 6.316843978055555,
       "is_deployment": true
     },
     {
@@ -101,7 +768,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 0.8993543130555555,
+      "hours_old": 6.969853968333333,
       "is_deployment": true
     },
     {
@@ -130,7 +797,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0220145380555554,
+      "hours_old": 7.092524494722222,
       "is_deployment": false
     },
     {
@@ -159,7 +826,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0220145469444444,
+      "hours_old": 7.092524502222222,
       "is_deployment": false
     },
     {
@@ -187,7 +854,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.076913608611111,
+      "hours_old": 7.1475626766666664,
       "is_deployment": false
     },
     {
@@ -215,7 +882,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1299691719444445,
+      "hours_old": 7.200618244166667,
       "is_deployment": false
     },
     {
@@ -243,7 +910,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1658025013888889,
+      "hours_old": 7.236451573611111,
       "is_deployment": false
     },
     {
@@ -270,7 +937,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.1858025205555556,
+      "hours_old": 7.2564515966666665,
       "is_deployment": false
     },
     {
@@ -297,7 +964,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 1.1859201733333333,
+      "hours_old": 7.2565660605555555,
       "is_deployment": false
     },
     {
@@ -325,7 +992,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.2013580477777777,
+      "hours_old": 7.272007111944444,
       "is_deployment": false
     },
     {
@@ -353,7 +1020,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.2341358500000001,
+      "hours_old": 7.304784903055555,
       "is_deployment": false
     },
     {
@@ -381,7 +1048,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.269413620277778,
+      "hours_old": 7.340062699722222,
       "is_deployment": false
     },
     {
@@ -409,7 +1076,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.3163580683333334,
+      "hours_old": 7.387007148333333,
       "is_deployment": false
     },
     {
@@ -434,7 +1101,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 1.5297921594444446,
+      "hours_old": 7.600341111666666,
       "is_deployment": true
     },
     {
@@ -462,7 +1129,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 1.9703646352777777,
+      "hours_old": 8.041010521666667,
       "is_deployment": false
     },
     {
@@ -485,7 +1152,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0642367397222223,
+      "hours_old": 8.134746688055555,
       "is_deployment": false
     },
     {
@@ -508,7 +1175,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0656256219444447,
+      "hours_old": 8.13613557,
       "is_deployment": false
     },
     {
@@ -531,7 +1198,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.067292275833333,
+      "hours_old": 8.137802223333333,
       "is_deployment": false
     },
     {
@@ -554,7 +1221,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0781256341666667,
+      "hours_old": 8.148635582222223,
       "is_deployment": false
     },
     {
@@ -583,7 +1250,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.1435208583333334,
+      "hours_old": 8.214020521666667,
       "is_deployment": false
     },
     {
@@ -612,7 +1279,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.1436811947222223,
+      "hours_old": 8.214191151666666,
       "is_deployment": false
     },
     {
@@ -641,7 +1308,7 @@
       "duration": 70,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.302673420833333,
+      "hours_old": 8.373222276666667,
       "is_deployment": false
     },
     {
@@ -670,7 +1337,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.328896751944445,
+      "hours_old": 8.399442429166667,
       "is_deployment": false
     },
     {
@@ -699,7 +1366,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.332507868611111,
+      "hours_old": 8.4030535475,
       "is_deployment": false
     },
     {
@@ -728,7 +1395,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3366745413888887,
+      "hours_old": 8.407220220000001,
       "is_deployment": false
     },
     {
@@ -757,7 +1424,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.340841212777778,
+      "hours_old": 8.411386891944444,
       "is_deployment": false
     },
     {
@@ -786,7 +1453,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.347507884166667,
+      "hours_old": 8.41805356361111,
       "is_deployment": false
     },
     {
@@ -814,7 +1481,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 2.358341260277778,
+      "hours_old": 8.428886958333333,
       "is_deployment": false
     },
     {
@@ -842,7 +1509,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3652857097222224,
+      "hours_old": 8.435831408055556,
       "is_deployment": false
     },
     {
@@ -870,7 +1537,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.369174603611111,
+      "hours_old": 8.439720301666666,
       "is_deployment": false
     },
     {
@@ -898,7 +1565,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.374452385277778,
+      "hours_old": 8.444998083611111,
       "is_deployment": false
     },
     {
@@ -926,7 +1593,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3866746119444446,
+      "hours_old": 8.457220311666667,
       "is_deployment": false
     },
     {
@@ -955,7 +1622,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3916746158333333,
+      "hours_old": 8.462220315833333,
       "is_deployment": false
     },
     {
@@ -984,7 +1651,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.399730175833333,
+      "hours_old": 8.47027587638889,
       "is_deployment": false
     },
     {
@@ -1012,7 +1679,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4200079586111114,
+      "hours_old": 8.49055365861111,
       "is_deployment": false
     },
     {
@@ -1037,7 +1704,7 @@
       "duration": 4796,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.467101296944444,
+      "hours_old": 8.537751416666667,
       "is_deployment": false
     },
     {
@@ -1067,7 +1734,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.4876875977777777,
+      "hours_old": 8.558187250277777,
       "is_deployment": false
     },
     {
@@ -1090,7 +1757,7 @@
       "duration": 78,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 2.564045961388889,
+      "hours_old": 8.634696063888889,
       "is_deployment": false
     },
     {
@@ -1118,7 +1785,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.571952365,
+      "hours_old": 8.642498139444443,
       "is_deployment": false
     },
     {
@@ -1146,7 +1813,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5783412483333334,
+      "hours_old": 8.648887023055556,
       "is_deployment": false
     },
     {
@@ -1174,7 +1841,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5850079094444447,
+      "hours_old": 8.655553685000001,
       "is_deployment": false
     },
     {
@@ -1202,7 +1869,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5916745708333333,
+      "hours_old": 8.662220347222222,
       "is_deployment": false
     },
     {
@@ -1231,7 +1898,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.616119010277778,
+      "hours_old": 8.686664785,
       "is_deployment": false
     },
     {
@@ -1260,7 +1927,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.6211189997222224,
+      "hours_old": 8.691664774444444,
       "is_deployment": false
     },
     {
@@ -1289,7 +1956,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.6313967827777778,
+      "hours_old": 8.701942558055556,
       "is_deployment": false
     },
     {
@@ -1319,7 +1986,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.8828647125,
+      "hours_old": 8.95351058,
       "is_deployment": false
     },
     {
@@ -1349,7 +2016,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 3.376753396666667,
+      "hours_old": 9.447399279444445,
       "is_deployment": false
     },
     {
@@ -1376,7 +2043,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.3959035474999997,
+      "hours_old": 9.4664135575,
       "is_deployment": false
     },
     {
@@ -1399,7 +2066,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 3.3959035544444447,
+      "hours_old": 9.466413563055555,
       "is_deployment": false
     },
     {
@@ -1426,7 +2093,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.3959035600000003,
+      "hours_old": 9.4664135675,
       "is_deployment": false
     },
     {
@@ -1449,7 +2116,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.3959035650000002,
+      "hours_old": 9.466413572777777,
       "is_deployment": false
     },
     {
@@ -1476,7 +2143,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.395903569166667,
+      "hours_old": 9.466413576944445,
       "is_deployment": false
     },
     {
@@ -1506,7 +2173,7 @@
       "duration": 86,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 3.8834901702777778,
+      "hours_old": 9.954140325,
       "is_deployment": false
     },
     {
@@ -1529,7 +2196,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.038520883333334,
+      "hours_old": 10.109020558055555,
       "is_deployment": false
     },
     {
@@ -1552,7 +2219,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.038681315833333,
+      "hours_old": 10.10919131638889,
       "is_deployment": false
     },
     {
@@ -1582,7 +2249,7 @@
       "duration": 59,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 4.055434855555555,
+      "hours_old": 10.126085011666667,
       "is_deployment": true
     },
     {
@@ -1605,7 +2272,7 @@
       "duration": 53,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 4.062101618055555,
+      "hours_old": 10.132751770277777,
       "is_deployment": true
     },
     {
@@ -1634,7 +2301,7 @@
       "duration": 45,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 4.069879404166667,
+      "hours_old": 10.140529555555556,
       "is_deployment": true
     },
     {
@@ -1661,7 +2328,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.114632028333333,
+      "hours_old": 10.185131656666666,
       "is_deployment": false
     },
     {
@@ -1684,7 +2351,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.2126876258333334,
+      "hours_old": 10.283187268611112,
       "is_deployment": false
     },
     {
@@ -1709,7 +2376,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.251080264722222,
+      "hours_old": 10.321729312777778,
       "is_deployment": false
     },
     {
@@ -1736,7 +2403,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.337191368611111,
+      "hours_old": 10.407840470555556,
       "is_deployment": false
     },
     {
@@ -1763,7 +2430,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.6670146316666665,
+      "hours_old": 10.737524632777777,
       "is_deployment": false
     },
     {
@@ -1790,7 +2457,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.667014637222222,
+      "hours_old": 10.737524637777778,
       "is_deployment": false
     },
     {
@@ -1817,7 +2484,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.667292418888889,
+      "hours_old": 10.73780242,
       "is_deployment": false
     },
     {
@@ -1844,7 +2511,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.667292423055556,
+      "hours_old": 10.737802423611111,
       "is_deployment": false
     },
     {
@@ -1874,7 +2541,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.851952255277777,
+      "hours_old": 10.922498018055556,
       "is_deployment": false
     },
     {
@@ -1904,7 +2571,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.8519522649999995,
+      "hours_old": 10.9224980275,
       "is_deployment": false
     },
     {
@@ -1934,7 +2601,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852230025833333,
+      "hours_old": 10.922775790277777,
       "is_deployment": false
     },
     {
@@ -1964,7 +2631,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852230038333333,
+      "hours_old": 10.922775799722222,
       "is_deployment": false
     },
     {
@@ -1994,7 +2661,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 4.852230047500001,
+      "hours_old": 10.922775809444445,
       "is_deployment": false
     },
     {
@@ -2024,7 +2691,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 4.852230071111111,
+      "hours_old": 10.922775833055557,
       "is_deployment": false
     },
     {
@@ -2054,7 +2721,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852507830555556,
+      "hours_old": 10.9230535925,
       "is_deployment": false
     },
     {
@@ -2084,7 +2751,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 4.852507835277778,
+      "hours_old": 10.923053596666666,
       "is_deployment": false
     },
     {
@@ -2114,7 +2781,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852507839444445,
+      "hours_old": 10.92305360111111,
       "is_deployment": false
     },
     {
@@ -2144,7 +2811,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 4.8525078441666665,
+      "hours_old": 10.923053606111113,
       "is_deployment": false
     },
     {
@@ -2174,7 +2841,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852507853611111,
+      "hours_old": 10.923053615555556,
       "is_deployment": false
     },
     {
@@ -2204,84 +2871,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.852507858055556,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9627658",
-      "title": "USS Theodore Roosevelt Flight Operations",
-      "description": "PACIFIC OCEAN (April 18, 2026) \u2013An F/A-18F Super...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Theodore Roosevelt (CVN 71)",
-      "date_published": "Apr 20, 2026 20:16 UTC",
-      "timestamp": "2026-04-20T20:16:14+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9627658/uss-theodore-roosevelt-flight-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9627658/122x92_q95.jpg",
-      "keywords": [
-        "USS Theodore Roosevelt (CVN 71)",
-        "Flight Operations At Sea",
-        "CSG 9"
-      ],
-      "credit": "SA Tyler Harstad",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 4.949514762222222,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9627654",
-      "title": "USS Theodore Roosevelt Flight Operations",
-      "description": "PACIFIC OCEAN (April 18, 2026) \u2013An F/A-18E Super...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Theodore Roosevelt (CVN 71)",
-      "date_published": "Apr 20, 2026 20:16 UTC",
-      "timestamp": "2026-04-20T20:16:14+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9627654/uss-theodore-roosevelt-flight-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9627654/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "SA Tyler Harstad",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 4.949514769166667,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9627653",
-      "title": "USS Theodore Roosevelt Flight Operations",
-      "description": "PACIFIC OCEAN (April 18, 2026) \u2013U.S. Navy Aviation...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Theodore Roosevelt (CVN 71)",
-      "date_published": "Apr 20, 2026 20:16 UTC",
-      "timestamp": "2026-04-20T20:16:14+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9627653/uss-theodore-roosevelt-flight-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9627653/122x92_q95.jpg",
-      "keywords": [
-        "USS Theodore Roosevelt (CVN 71)",
-        "Flight Operations At Sea",
-        "CSG 9"
-      ],
-      "credit": "SA Tyler Harstad",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 4.9495147741666665,
+      "hours_old": 10.92305362,
       "is_deployment": false
     },
     {
@@ -2308,37 +2898,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 5.760364571111111,
-      "is_deployment": false
-    },
-    {
-      "id": "news:563146",
-      "title": "From Deep Space to Deep Sea Divers: How U.S. Navy Divers Recovered Orion and its Crew",
-      "description": "A small team of U.S. Navy divers, assigned to units under Explosive Ordnance Disposal Group (EODGRU) 1, recovered the Artemis II crew and Orion space craft upon their return to Earth and splashdown in the Pacific Ocean following a historic 10-day lunar mission April 10, 2026.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Explosive Ordnance Disposal Group One",
-      "date_published": "Apr 20, 2026 19:23 UTC",
-      "timestamp": "2026-04-20T19:23:41+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/news/563146/deep-space-deep-sea-divers-us-navy-divers-recovered-orion-and-its-crew",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9622765/122x92_q95.jpg",
-      "keywords": [
-        "NASA",
-        "Artemis",
-        "EOD",
-        "Navy Diver",
-        "US Navy",
-        "Astronauts"
-      ],
-      "credit": "LT Erin Wiley",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 5.825187572777778,
+      "hours_old": 11.831010463611111,
       "is_deployment": false
     },
     {
@@ -2366,7 +2926,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.040903573611111,
+      "hours_old": 12.111413581666667,
       "is_deployment": false
     },
     {
@@ -2394,7 +2954,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.041181356666667,
+      "hours_old": 12.111691365277778,
       "is_deployment": false
     },
     {
@@ -2422,7 +2982,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.0411813613888885,
+      "hours_old": 12.111691370555555,
       "is_deployment": false
     },
     {
@@ -2450,7 +3010,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.04118136611111,
+      "hours_old": 12.111691375,
       "is_deployment": false
     },
     {
@@ -2478,35 +3038,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.041459148333334,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9627486",
-      "title": "Dancing with the Stars and Stripes",
-      "description": "U.S. Marine Cpl. Connor Perry, assigned to Marine Wing...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Navy Region Southeast",
-      "date_published": "Apr 20, 2026 19:10 UTC",
-      "timestamp": "2026-04-20T19:10:43+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9627486/dancing-with-stars-and-stripes",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9627486/122x92_q95.jpg",
-      "keywords": [
-        "Fleet Week",
-        "250 Years",
-        "Houston",
-        "Fleet Week Houston"
-      ],
-      "credit": "PO1 Jimmy Ivy",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 6.0414591530555555,
+      "hours_old": 12.111969157222223,
       "is_deployment": false
     },
     {
@@ -2532,7 +3064,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 6.102132051111111,
+      "hours_old": 12.172631704999999,
       "is_deployment": false
     },
     {
@@ -2562,7 +3094,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.345802457222223,
+      "hours_old": 12.416451547222223,
       "is_deployment": false
     },
     {
@@ -2591,7 +3123,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 6.855743117777777,
+      "hours_old": 12.926242791944444,
       "is_deployment": false
     },
     {
@@ -2614,7 +3146,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.002570171388888,
+      "hours_old": 13.073080167222223,
       "is_deployment": false
     },
     {
@@ -2637,7 +3169,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.018125738888888,
+      "hours_old": 13.08863574,
       "is_deployment": false
     },
     {
@@ -2660,7 +3192,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.033681269166666,
+      "hours_old": 13.104191266666666,
       "is_deployment": false
     },
     {
@@ -2683,7 +3215,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.053959051944444,
+      "hours_old": 13.124469048888889,
       "is_deployment": false
     },
     {
@@ -2706,7 +3238,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.080625723055555,
+      "hours_old": 13.151135719166666,
       "is_deployment": false
     },
     {
@@ -2735,7 +3267,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 7.110187613888889,
+      "hours_old": 13.180687277777777,
       "is_deployment": false
     },
     {
@@ -2758,7 +3290,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.115625730833333,
+      "hours_old": 13.186135731111111,
       "is_deployment": false
     },
     {
@@ -2781,7 +3313,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.147292401666667,
+      "hours_old": 13.217802401944443,
       "is_deployment": false
     },
     {
@@ -2811,7 +3343,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 7.2028645636111115,
+      "hours_old": 13.27351044111111,
       "is_deployment": false
     },
     {
@@ -2838,7 +3370,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 7.303975651666667,
+      "hours_old": 13.37462154,
       "is_deployment": false
     },
     {
@@ -2865,7 +3397,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 7.304135723888889,
+      "hours_old": 13.374784799444443,
       "is_deployment": false
     },
     {
@@ -2893,7 +3425,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.457570117222223,
+      "hours_old": 13.5280801175,
       "is_deployment": false
     },
     {
@@ -2921,7 +3453,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.457570126944444,
+      "hours_old": 13.528080125833332,
       "is_deployment": false
     },
     {
@@ -2949,7 +3481,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.457847911666667,
+      "hours_old": 13.52835790972222,
       "is_deployment": false
     },
     {
@@ -2977,7 +3509,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.457847918611112,
+      "hours_old": 13.52835791611111,
       "is_deployment": false
     },
     {
@@ -3005,7 +3537,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.458125701944445,
+      "hours_old": 13.528635699722221,
       "is_deployment": false
     },
     {
@@ -3033,7 +3565,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.458125707777778,
+      "hours_old": 13.528635705277777,
       "is_deployment": false
     },
     {
@@ -3060,7 +3592,7 @@
       "duration": 115,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 7.537455510833333,
+      "hours_old": 13.60798402611111,
       "is_deployment": false
     },
     {
@@ -3087,7 +3619,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.44056334361111,
+      "hours_old": 14.511109080277777,
       "is_deployment": false
     },
     {
@@ -3114,7 +3646,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.750524695,
+      "hours_old": 14.821173764166668,
       "is_deployment": false
     },
     {
@@ -3144,7 +3676,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.165086775277778,
+      "hours_old": 15.235732675555555,
       "is_deployment": false
     },
     {
@@ -3174,7 +3706,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.196198014722222,
+      "hours_old": 15.266843902777778,
       "is_deployment": false
     },
     {
@@ -3204,7 +3736,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.820802376666666,
+      "hours_old": 15.891451452222222,
       "is_deployment": false
     },
     {
@@ -3234,7 +3766,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821080385555556,
+      "hours_old": 15.891729495833333,
       "is_deployment": false
     },
     {
@@ -3264,7 +3796,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.82108039138889,
+      "hours_old": 15.89172950138889,
       "is_deployment": false
     },
     {
@@ -3294,7 +3826,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821080396944446,
+      "hours_old": 15.891729506666666,
       "is_deployment": false
     },
     {
@@ -3324,7 +3856,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821080401388889,
+      "hours_old": 15.891729510833335,
       "is_deployment": false
     },
     {
@@ -3354,7 +3886,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821080406666667,
+      "hours_old": 15.891729515,
       "is_deployment": false
     },
     {
@@ -3384,7 +3916,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821080411944445,
+      "hours_old": 15.89172952,
       "is_deployment": false
     },
     {
@@ -3414,7 +3946,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.821358194722222,
+      "hours_old": 15.892007303055555,
       "is_deployment": false
     },
     {
@@ -3443,7 +3975,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.94147569138889,
+      "hours_old": 16.012121583333332,
       "is_deployment": false
     },
     {
@@ -3470,7 +4002,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 9.96904578638889,
+      "hours_old": 16.039695935833333,
       "is_deployment": false
     },
     {
@@ -3496,7 +4028,7 @@
       "duration": 80,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.346344274444444,
+      "hours_old": 16.41687279388889,
       "is_deployment": false
     },
     {
@@ -3521,7 +4053,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.83179276111111,
+      "hours_old": 16.902327640555555,
       "is_deployment": false
     },
     {
@@ -3549,7 +4081,7 @@
       "duration": 119,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 10.835510956666665,
+      "hours_old": 16.906039475555556,
       "is_deployment": false
     },
     {
@@ -3578,7 +4110,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 11.604808973888888,
+      "hours_old": 17.675454863333332,
       "is_deployment": false
     },
     {
@@ -3607,7 +4139,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 11.607746909722222,
+      "hours_old": 17.67839597111111,
       "is_deployment": false
     },
     {
@@ -3637,97 +4169,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 11.996576523611111,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9626058",
-      "title": "NAVFAC EURAFCENT Announces 2025 Sailors of the Year",
-      "description": "Naval Facilities Engineering Systems Command (NAVFAC),...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Facilities Engineering Systems Command Europe Africa Central",
-      "date_published": "Apr 20, 2026 13:02 UTC",
-      "timestamp": "2026-04-20T13:02:53+00:00",
-      "country": "Italy",
-      "state": "",
-      "city": "Naples",
-      "location_display": "Naples, Italy",
-      "url": "https://www.dvidshub.net/image/9626058/navfac-eurafcent-announces-2025-sailors-year",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9626058/122x92_q95.jpg",
-      "keywords": [
-        "NAVFAC",
-        "SOY",
-        "PWD",
-        "EURAFCENT",
-        "ROICC",
-        "Souda Bay"
-      ],
-      "credit": "PO2 Keyly Santizo",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 12.17201471388889,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9626056",
-      "title": "NAVFAC EURAFCENT Announces 2025 Sailors of the Year",
-      "description": "Naval Facilities Engineering Systems Command (NAVFAC),...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Facilities Engineering Systems Command Europe Africa Central",
-      "date_published": "Apr 20, 2026 13:02 UTC",
-      "timestamp": "2026-04-20T13:02:52+00:00",
-      "country": "Italy",
-      "state": "",
-      "city": "Naples",
-      "location_display": "Naples, Italy",
-      "url": "https://www.dvidshub.net/image/9626056/navfac-eurafcent-announces-2025-sailors-year",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9626056/122x92_q95.jpg",
-      "keywords": [
-        "NAVFAC",
-        "SOY",
-        "PWD",
-        "EURAFCENT",
-        "ROICC",
-        "Souda Bay"
-      ],
-      "credit": "PO2 Keyly Santizo",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 12.172292497777779,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9626054",
-      "title": "NAVFAC EURAFCENT Announces 2025 Sailors of the Year",
-      "description": "Naval Facilities Engineering Systems Command (NAVFAC),...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval Facilities Engineering Systems Command Europe Africa Central",
-      "date_published": "Apr 20, 2026 13:02 UTC",
-      "timestamp": "2026-04-20T13:02:52+00:00",
-      "country": "Italy",
-      "state": "",
-      "city": "Naples",
-      "location_display": "Naples, Italy",
-      "url": "https://www.dvidshub.net/image/9626054/navfac-eurafcent-announces-2025-sailors-year",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9626054/122x92_q95.jpg",
-      "keywords": [
-        "NAVFAC",
-        "SOY",
-        "PWD",
-        "EURAFCENT",
-        "ROICC",
-        "Souda Bay"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 12.1722925025,
+      "hours_old": 18.067076178333334,
       "is_deployment": false
     },
     {
@@ -3752,7 +4194,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 12.50495541611111,
+      "hours_old": 18.575483944166667,
       "is_deployment": false
     },
     {
@@ -3777,7 +4219,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.00518749611111,
+      "hours_old": 19.075687160555557,
       "is_deployment": false
     },
     {
@@ -3807,7 +4249,7 @@
       "duration": 119,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 13.02043484,
+      "hours_old": 19.091084991944445,
       "is_deployment": false
     },
     {
@@ -3830,7 +4272,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.199292803333334,
+      "hours_old": 19.26982768611111,
       "is_deployment": false
     },
     {
@@ -3856,7 +4298,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.600187513333333,
+      "hours_old": 19.67068717777778,
       "is_deployment": false
     },
     {
@@ -3884,7 +4326,7 @@
       "duration": 152,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 16.351268018333332,
+      "hours_old": 22.42191815,
       "is_deployment": false
     },
     {
@@ -3912,7 +4354,7 @@
       "duration": 151,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 16.35737904777778,
+      "hours_old": 22.428029238055558,
       "is_deployment": false
     },
     {
@@ -3940,7 +4382,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 16.36036459888889,
+      "hours_old": 22.4310104875,
       "is_deployment": false
     },
     {
@@ -3970,7 +4412,7 @@
       "duration": 21,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 16.36849014027778,
+      "hours_old": 22.439140339166666,
       "is_deployment": false
     },
     {
@@ -3998,7 +4440,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.398024670555554,
+      "hours_old": 22.46867373972222,
       "is_deployment": false
     },
     {
@@ -4026,7 +4468,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.410246883611112,
+      "hours_old": 22.48089595277778,
       "is_deployment": false
     },
     {
@@ -4054,7 +4496,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.419691323055556,
+      "hours_old": 22.490340392222222,
       "is_deployment": false
     },
     {
@@ -4082,7 +4524,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.430802420555555,
+      "hours_old": 22.501451494166666,
       "is_deployment": false
     },
     {
@@ -4110,7 +4552,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.442469081944445,
+      "hours_old": 22.513118155833336,
       "is_deployment": false
     },
     {
@@ -4138,7 +4580,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.4533024525,
+      "hours_old": 22.523951521944443,
       "is_deployment": false
     },
     {
@@ -4166,7 +4608,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.46330244388889,
+      "hours_old": 22.533951513055555,
       "is_deployment": false
     },
     {
@@ -4194,7 +4636,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.475524647777778,
+      "hours_old": 22.54617372111111,
       "is_deployment": false
     },
     {
@@ -4222,7 +4664,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.484135741944446,
+      "hours_old": 22.554784816111113,
       "is_deployment": false
     },
     {
@@ -4250,7 +4692,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.495524624166666,
+      "hours_old": 22.566173698611113,
       "is_deployment": false
     },
     {
@@ -4279,7 +4721,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 18.017409761944446,
+      "hours_old": 24.087909424444447,
       "is_deployment": false
     },
     {
@@ -4309,7 +4751,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 19.99951435666667,
+      "hours_old": 26.070063313055556,
       "is_deployment": false
     },
     {
@@ -4332,7 +4774,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.052731131944444,
+      "hours_old": 26.1232849925,
       "is_deployment": false
     },
     {
@@ -4362,7 +4804,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.053008878611113,
+      "hours_old": 26.123562737500002,
       "is_deployment": false
     },
     {
@@ -4393,7 +4835,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.053008913611112,
+      "hours_old": 26.12356277388889,
       "is_deployment": false
     },
     {
@@ -4416,7 +4858,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.05300891888889,
+      "hours_old": 26.123562778055554,
       "is_deployment": false
     },
     {
@@ -4447,7 +4889,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.056897760277778,
+      "hours_old": 26.127451620833334,
       "is_deployment": false
     },
     {
@@ -4478,7 +4920,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.066897644166666,
+      "hours_old": 26.137451504444446,
       "is_deployment": false
     },
     {
@@ -4509,7 +4951,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.067175435833335,
+      "hours_old": 26.137729295833335,
       "is_deployment": false
     },
     {
@@ -4532,7 +4974,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.06717544388889,
+      "hours_old": 26.13772930361111,
       "is_deployment": false
     },
     {
@@ -4563,7 +5005,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.06717545,
+      "hours_old": 26.137729309444442,
       "is_deployment": false
     },
     {
@@ -4586,7 +5028,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067175550555557,
+      "hours_old": 26.137729410277778,
       "is_deployment": false
     },
     {
@@ -4609,7 +5051,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067175554722223,
+      "hours_old": 26.137729414722223,
       "is_deployment": false
     },
     {
@@ -4632,7 +5074,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.067453233055556,
+      "hours_old": 26.1380070925,
       "is_deployment": false
     },
     {
@@ -4663,7 +5105,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 20.067453238055556,
+      "hours_old": 26.13800709722222,
       "is_deployment": false
     },
     {
@@ -4694,7 +5136,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067453337222222,
+      "hours_old": 26.138007197777778,
       "is_deployment": false
     },
     {
@@ -4717,7 +5159,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067453341944443,
+      "hours_old": 26.1380072025,
       "is_deployment": false
     },
     {
@@ -4748,7 +5190,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067453345833336,
+      "hours_old": 26.138007206388888,
       "is_deployment": false
     },
     {
@@ -4771,7 +5213,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 20.067731128055552,
+      "hours_old": 26.138284988611108,
       "is_deployment": false
     },
     {
@@ -4801,7 +5243,7 @@
       "duration": 14,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.545434977777777,
+      "hours_old": 26.61608512833333,
       "is_deployment": false
     },
     {
@@ -4831,7 +5273,7 @@
       "duration": 14,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.545712765833333,
+      "hours_old": 26.61636291611111,
       "is_deployment": false
     },
     {
@@ -4856,13 +5298,13 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.716823703611112,
+      "hours_old": 26.787473865,
       "is_deployment": false
     },
     {
       "id": "news:563058",
       "title": "Australia, Canada, and U.S. conduct multilateral operations in South China Sea",
-      "description": "Ships from the Royal Australian Navy, Royal Canadian Armed Forces, and U.S. Navy conducted multilateral operations in support of a free and open Indo-Pacific in the South China Sea, April 12-18.",
+      "description": "Ships from the Royal Australian Navy, Canadian Armed Forces, and U.S. Navy conducted multilateral operations in support of a free and open Indo-Pacific in the South China Sea, April 12-18.",
       "type": "news",
       "branch": "Navy",
       "unit_name": "USS Ashland (LSD 48)",
@@ -4877,13 +5319,13 @@
       "keywords": [
         "IBS26"
       ],
-      "credit": "PO1 John Hetherington",
+      "credit": "LCDR John Mike",
       "duration": "",
       "aspect_ratio": "",
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 20.95463218722222,
+      "hours_old": 27.025131859444446,
       "is_deployment": false
     },
     {
@@ -4915,7 +5357,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.44473018527778,
+      "hours_old": 27.51527596027778,
       "is_deployment": false
     },
     {
@@ -4947,7 +5389,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.444730190555557,
+      "hours_old": 27.515275965555556,
       "is_deployment": false
     },
     {
@@ -4979,7 +5421,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445007973055557,
+      "hours_old": 27.515553748055556,
       "is_deployment": false
     },
     {
@@ -5011,7 +5453,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445007977777777,
+      "hours_old": 27.515553753333332,
       "is_deployment": false
     },
     {
@@ -5043,7 +5485,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.44500798222222,
+      "hours_old": 27.51555375777778,
       "is_deployment": false
     },
     {
@@ -5075,7 +5517,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445285769444446,
+      "hours_old": 27.51583154,
       "is_deployment": false
     },
     {
@@ -5107,7 +5549,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445285774444443,
+      "hours_old": 27.515831544166666,
       "is_deployment": false
     },
     {
@@ -5139,7 +5581,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445285780277775,
+      "hours_old": 27.51583154833333,
       "is_deployment": false
     },
     {
@@ -5171,7 +5613,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.445563562500002,
+      "hours_old": 27.516109330555555,
       "is_deployment": false
     },
     {
@@ -5198,7 +5640,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 21.499531273333332,
+      "hours_old": 27.570177161388887,
       "is_deployment": false
     },
     {
@@ -5226,7 +5668,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.52495543722222,
+      "hours_old": 27.59548395638889,
       "is_deployment": false
     },
     {
@@ -5251,7 +5693,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.698844317499997,
+      "hours_old": 27.76937282361111,
       "is_deployment": false
     },
     {
@@ -5280,7 +5722,7 @@
       "duration": 418,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.349045912777775,
+      "hours_old": 28.419696074166666,
       "is_deployment": false
     },
     {
@@ -5309,7 +5751,7 @@
       "duration": 203,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.406268155000003,
+      "hours_old": 28.476918335555556,
       "is_deployment": false
     },
     {
@@ -5337,7 +5779,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 23.653767994444443,
+      "hours_old": 29.724418167499998,
       "is_deployment": false
     },
     {
@@ -5365,7 +5807,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.935231241944447,
+      "hours_old": 32.00578509388889,
       "is_deployment": false
     },
     {
@@ -5393,7 +5835,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.96189790277778,
+      "hours_old": 32.032451755555556,
       "is_deployment": false
     },
     {
@@ -5421,7 +5863,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.986620120277777,
+      "hours_old": 32.057173973055555,
       "is_deployment": false
     },
     {
@@ -5451,7 +5893,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.99773121361111,
+      "hours_old": 32.0682850675,
       "is_deployment": false
     },
     {
@@ -5481,7 +5923,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.04134231638889,
+      "hours_old": 32.111896173333335,
       "is_deployment": false
     },
     {
@@ -5504,7 +5946,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.071080355,
+      "hours_old": 32.141729464444445,
       "is_deployment": false
     },
     {
@@ -5534,7 +5976,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.071080359444444,
+      "hours_old": 32.14172946805556,
       "is_deployment": false
     },
     {
@@ -5557,7 +5999,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.07108036388889,
+      "hours_old": 32.141729471944444,
       "is_deployment": false
     },
     {
@@ -5587,7 +6029,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.0710803675,
+      "hours_old": 32.14172947555556,
       "is_deployment": false
     },
     {
@@ -5617,7 +6059,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.071358150277778,
+      "hours_old": 32.14200725805556,
       "is_deployment": false
     },
     {
@@ -5640,7 +6082,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.071358154444443,
+      "hours_old": 32.14200726222222,
       "is_deployment": false
     },
     {
@@ -5670,7 +6112,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.071358158611112,
+      "hours_old": 32.14200726777778,
       "is_deployment": false
     },
     {
@@ -5693,7 +6135,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.07608030416667,
+      "hours_old": 32.146729380000004,
       "is_deployment": false
     },
     {
@@ -5723,7 +6165,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076080308333335,
+      "hours_old": 32.14672938416667,
       "is_deployment": false
     },
     {
@@ -5746,7 +6188,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.07608031527778,
+      "hours_old": 32.146729389166666,
       "is_deployment": false
     },
     {
@@ -5776,7 +6218,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076358096666667,
+      "hours_old": 32.147007170833334,
       "is_deployment": false
     },
     {
@@ -5799,7 +6241,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076358100833332,
+      "hours_old": 32.14700721138889,
       "is_deployment": false
     },
     {
@@ -5829,7 +6271,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.07635810527778,
+      "hours_old": 32.14700721611111,
       "is_deployment": false
     },
     {
@@ -5852,7 +6294,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076358109444445,
+      "hours_old": 32.14700722055555,
       "is_deployment": false
     },
     {
@@ -5882,7 +6324,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076358113055555,
+      "hours_old": 32.147007224444444,
       "is_deployment": false
     },
     {
@@ -5912,7 +6354,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076635895555555,
+      "hours_old": 32.14728500777778,
       "is_deployment": false
     },
     {
@@ -5935,7 +6377,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.07663589972222,
+      "hours_old": 32.14728501194445,
       "is_deployment": false
     },
     {
@@ -5965,7 +6407,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.076635904722224,
+      "hours_old": 32.14728501583333,
       "is_deployment": false
     },
     {
@@ -5993,7 +6435,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.127453414166666,
+      "hours_old": 32.19800727361111,
       "is_deployment": false
     },
     {
@@ -6021,7 +6463,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.152731198333335,
+      "hours_old": 32.22328505638889,
       "is_deployment": false
     },
     {
@@ -6051,7 +6493,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.167731225833332,
+      "hours_old": 32.23828507861111,
       "is_deployment": false
     },
     {
@@ -6079,7 +6521,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.190231176111112,
+      "hours_old": 32.26078503583333,
       "is_deployment": false
     },
     {
@@ -6107,7 +6549,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.211897848055557,
+      "hours_old": 32.282451707777774,
       "is_deployment": false
     },
     {
@@ -6137,7 +6579,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.230231220833335,
+      "hours_old": 32.30078507305556,
       "is_deployment": false
     },
     {
@@ -6165,7 +6607,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.249675630833334,
+      "hours_old": 32.320229490555555,
       "is_deployment": false
     },
     {
@@ -6195,7 +6637,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.26245339222222,
+      "hours_old": 32.33300725111111,
       "is_deployment": false
     },
     {
@@ -6222,7 +6664,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 28.244879113611113,
+      "hours_old": 34.31552928611111,
       "is_deployment": false
     },
     {
@@ -6249,87 +6691,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 28.247864589166667,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9625296",
-      "title": "Kilo Company Eagle, Globe, and Anchor Ceremony",
-      "description": "U.S. Marine Corps 1st Sgt. Julian Butler, the company...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, Parris Island",
-      "date_published": "Apr 19, 2026 17:59 UTC",
-      "timestamp": "2026-04-19T17:59:44+00:00",
-      "country": "United States",
-      "state": "South Carolina",
-      "city": "Parris Island",
-      "location_display": "Parris Island, South Carolina, United States",
-      "url": "https://www.dvidshub.net/image/9625296/kilo-company-eagle-globe-and-anchor-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9625296/122x92_q95.jpg",
-      "keywords": [
-        "Marines",
-        "1st Sgt",
-        "Kilo Company",
-        "EGA Ceremony",
-        "Speech"
-      ],
-      "credit": "Cpl Jordy Morales",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 31.225008034444443,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9625292",
-      "title": "Kilo Company Eagle, Globe, and Anchor Ceremony",
-      "description": "U.S. Marine Corps 1st Sgt. Julian Butler, the company...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, Parris Island",
-      "date_published": "Apr 19, 2026 17:59 UTC",
-      "timestamp": "2026-04-19T17:59:43+00:00",
-      "country": "United States",
-      "state": "South Carolina",
-      "city": "Parris Island",
-      "location_display": "Parris Island, South Carolina, United States",
-      "url": "https://www.dvidshub.net/image/9625292/kilo-company-eagle-globe-and-anchor-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9625292/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "Cpl Jordy Morales",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 31.225285817499998,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9625277",
-      "title": "Kilo Company Eagle, Globe, and Anchor Ceremony",
-      "description": "A new U.S. Marine with Kilo Company, 3rd Recruit...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, Parris Island",
-      "date_published": "Apr 19, 2026 17:59 UTC",
-      "timestamp": "2026-04-19T17:59:43+00:00",
-      "country": "United States",
-      "state": "South Carolina",
-      "city": "Parris Island",
-      "location_display": "Parris Island, South Carolina, United States",
-      "url": "https://www.dvidshub.net/image/9625277/kilo-company-eagle-globe-and-anchor-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9625277/122x92_q95.jpg",
-      "keywords": [
-        "Marine",
-        "Kilo Company",
-        "EGA Ceremony",
-        "EGA"
-      ],
-      "credit": "Cpl Jordy Morales",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 31.22528582138889,
+      "hours_old": 34.31851048027777,
       "is_deployment": false
     },
     {
@@ -6359,7 +6721,7 @@
       "duration": 217,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.13376797694445,
+      "hours_old": 39.20441813666667,
       "is_deployment": false
     },
     {
@@ -6382,63 +6744,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.6490765425,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9625147",
-      "title": "Fleet Week Houston at Lone Star Flight Museum",
-      "description": "U.S. Marine Maj. William Nutting speaks to guests at the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Navy Region Southeast",
-      "date_published": "Apr 19, 2026 15:28 UTC",
-      "timestamp": "2026-04-19T15:28:35+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9625147/fleet-week-houston-lone-star-flight-museum",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9625147/122x92_q95.jpg",
-      "keywords": [
-        "Fleet Week",
-        "250 Years",
-        "Houston",
-        "Fleet Week Houston"
-      ],
-      "credit": "PO1 Jimmy Ivy",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.74368144666666,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9625145",
-      "title": "Fleet Week Houston at Lone Star Flight Museum",
-      "description": "98-year-old veteran Lt. Cmdr. Paul Martin, poses for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Navy Region Southeast",
-      "date_published": "Apr 19, 2026 15:28 UTC",
-      "timestamp": "2026-04-19T15:28:34+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9625145/fleet-week-houston-lone-star-flight-museum",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9625145/122x92_q95.jpg",
-      "keywords": [
-        "Fleet Week",
-        "250 Years",
-        "Houston",
-        "Fleet Week Houston"
-      ],
-      "credit": "PO1 Jimmy Ivy",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 33.74395922944444,
+      "hours_old": 39.719576197777776,
       "is_deployment": false
     },
     {
@@ -6467,7 +6773,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.01868106166666,
+      "hours_old": 52.08923001361111,
       "is_deployment": false
     },
     {
@@ -6490,7 +6796,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.074397687777775,
+      "hours_old": 52.14495154666667,
       "is_deployment": false
     },
     {
@@ -6520,7 +6826,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.074675471111114,
+      "hours_old": 52.14522932972222,
       "is_deployment": false
     },
     {
@@ -6550,7 +6856,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.07467547694444,
+      "hours_old": 52.14522933944445,
       "is_deployment": false
     },
     {
@@ -6573,7 +6879,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.074675481944446,
+      "hours_old": 52.145229344722225,
       "is_deployment": false
     },
     {
@@ -6603,7 +6909,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.074675490277784,
+      "hours_old": 52.14522934944444,
       "is_deployment": false
     },
     {
@@ -6626,7 +6932,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.07467559611111,
+      "hours_old": 52.14522945472222,
       "is_deployment": false
     },
     {
@@ -6656,7 +6962,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.07467560111111,
+      "hours_old": 52.145229459444444,
       "is_deployment": false
     },
     {
@@ -6679,7 +6985,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.074953273333335,
+      "hours_old": 52.14550713222222,
       "is_deployment": false
     },
     {
@@ -6709,7 +7015,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.0749532775,
+      "hours_old": 52.14550713666667,
       "is_deployment": false
     },
     {
@@ -6739,7 +7045,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.074953281666666,
+      "hours_old": 52.14550714111111,
       "is_deployment": false
     },
     {
@@ -6762,7 +7068,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.07495338361111,
+      "hours_old": 52.14550724194444,
       "is_deployment": false
     },
     {
@@ -6785,7 +7091,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.07523106388889,
+      "hours_old": 52.14578492333333,
       "is_deployment": false
     },
     {
@@ -6815,7 +7121,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.0796755125,
+      "hours_old": 52.15022937194444,
       "is_deployment": false
     },
     {
@@ -6838,7 +7144,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.079953294444444,
+      "hours_old": 52.15050715388889,
       "is_deployment": false
     },
     {
@@ -6868,7 +7174,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.07995329861111,
+      "hours_old": 52.15050715777778,
       "is_deployment": false
     },
     {
@@ -6891,7 +7197,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 46.07995338777778,
+      "hours_old": 52.15050724666667,
       "is_deployment": false
     },
     {
@@ -6921,7 +7227,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.080231080555556,
+      "hours_old": 52.150784939999994,
       "is_deployment": false
     },
     {
@@ -6944,7 +7250,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.08023108527778,
+      "hours_old": 52.15078494583334,
       "is_deployment": false
     },
     {
@@ -6974,7 +7280,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 46.08050886722223,
+      "hours_old": 52.15106272777778,
       "is_deployment": false
     },
     {
@@ -7004,7 +7310,7 @@
       "duration": 166,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 47.85237916305555,
+      "hours_old": 53.92302932888889,
       "is_deployment": false
     },
     {
@@ -7032,157 +7338,7 @@
       "duration": 79,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.186823582777784,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624649",
-      "title": "Laulima Navy volunteers unite to clean the Pearl Harbor Bike Path in Aiea.",
-      "description": "AIEA (Apr. 18, 2024) Raquel Cloma, left, provides...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:57 UTC",
-      "timestamp": "2026-04-18T23:57:26+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Honolulu",
-      "location_display": "Honolulu, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624649/laulima-navy-volunteers-unite-clean-pearl-harbor-bike-path-aiea",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624649/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "CPO Jose Jaen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.262848062222226,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624647",
-      "title": "Laulima Navy volunteers unite to clean the Pearl Harbor Bike Path in Aiea.",
-      "description": "AIEA (Apr. 18, 2024) Capt. Kurtis Krug, Joint Base Pearl...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:57 UTC",
-      "timestamp": "2026-04-18T23:57:26+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Honolulu",
-      "location_display": "Honolulu, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624647/laulima-navy-volunteers-unite-clean-pearl-harbor-bike-path-aiea",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624647/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "CPO Jose Jaen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.26284806722222,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624646",
-      "title": "Laulima Navy volunteers unite to clean the Pearl Harbor Bike Path in Aiea.",
-      "description": "AIEA (Apr. 18, 2024) Lydia Robertson, Commander, Navy...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:57 UTC",
-      "timestamp": "2026-04-18T23:57:26+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Honolulu",
-      "location_display": "Honolulu, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624646/laulima-navy-volunteers-unite-clean-pearl-harbor-bike-path-aiea",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624646/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "CPO Jose Jaen",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 49.26284807138889,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624645",
-      "title": "Laulima Navy volunteers unite to clean the Pearl Harbor Bike Path in Aiea.",
-      "description": "AIEA (Apr. 18, 2024) Volunteers from Commander Navy...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:57 UTC",
-      "timestamp": "2026-04-18T23:57:26+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Honolulu",
-      "location_display": "Honolulu, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624645/laulima-navy-volunteers-unite-clean-pearl-harbor-bike-path-aiea",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624645/122x92_q95.jpg",
-      "keywords": [
-        "Commander Navy Region Hawaii",
-        "Laulima Navy",
-        "Hawaii",
-        "Navy",
-        "Community Service"
-      ],
-      "credit": "CPO Jose Jaen",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.26284807583333,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624644",
-      "title": "USS Shiloh hosts U.S. Soldiers and civilians",
-      "description": "JOINT BASE PEARL HARBOR-HICKAM, Hawaii \u2014 U.S. Navy Lt....",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:27 UTC",
-      "timestamp": "2026-04-18T23:27:30+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Joint Base Pearl Harbor-Hickam",
-      "location_display": "Joint Base Pearl Harbor-Hickam, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624644/uss-shiloh-hosts-us-soldiers-and-civilians",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624644/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "Daniel Sanford",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.76173697,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624643",
-      "title": "USS Shiloh hosts U.S. Soldiers and civilians",
-      "description": "JOINT BASE PEARL HARBOR-HICKAM, Hawaii \u2014 Lt. Cmdr. Jim...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander Navy Region Hawaii",
-      "date_published": "Apr 18, 2026 23:27 UTC",
-      "timestamp": "2026-04-18T23:27:30+00:00",
-      "country": "United States",
-      "state": "Hawaii",
-      "city": "Joint Base Pearl Harbor-Hickam",
-      "location_display": "Joint Base Pearl Harbor-Hickam, Hawaii, United States",
-      "url": "https://www.dvidshub.net/image/9624643/uss-shiloh-hosts-us-soldiers-and-civilians",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624643/122x92_q95.jpg",
-      "keywords": [
-        "Tripler Army Medical Center",
-        "USS Shiloh (CG 67)",
-        "Naval Surface Group Middle Pacific",
-        "Navy Region Hawaii",
-        "Jim Schlup"
-      ],
-      "credit": "Daniel Sanford",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 49.76173697694444,
+      "hours_old": 54.257473749722216,
       "is_deployment": false
     },
     {
@@ -7209,7 +7365,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.670187660277776,
+      "hours_old": 56.74068731555556,
       "is_deployment": false
     },
     {
@@ -7237,7 +7393,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 51.18856447888889,
+      "hours_old": 57.25911833833333,
       "is_deployment": false
     },
     {
@@ -7262,7 +7418,7 @@
       "duration": 1298,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.12404584,
+      "hours_old": 58.19469600916666,
       "is_deployment": false
     },
     {
@@ -7292,7 +7448,7 @@
       "duration": 296,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.15821253,
+      "hours_old": 58.22886268777778,
       "is_deployment": false
     },
     {
@@ -7322,7 +7478,7 @@
       "duration": 59,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 52.22432365222222,
+      "hours_old": 58.29497381083333,
       "is_deployment": false
     },
     {
@@ -7352,152 +7508,7 @@
       "duration": 188,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 53.06571248416667,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624433",
-      "title": "Fleet Week Houston ruck-run",
-      "description": "U.S. Marines with Marine Air Control Group 28, 2nd...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 18, 2026 19:39 UTC",
-      "timestamp": "2026-04-18T19:39:31+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9624433/fleet-week-houston-ruck-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624433/122x92_q95.jpg",
-      "keywords": [
-        "America250",
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 53.561952475,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624434",
-      "title": "Fleet Week Houston ruck-run",
-      "description": "U.S. Marines with Marine Air Control Group 28, 2nd...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 18, 2026 19:38 UTC",
-      "timestamp": "2026-04-18T19:38:51+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9624434/fleet-week-houston-ruck-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624434/122x92_q95.jpg",
-      "keywords": [
-        "America250",
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 53.573063582222225,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624436",
-      "title": "Fleet Week Houston ruck-run",
-      "description": "U.S. Marines with Marine Air Control Group 28, 2nd...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 18, 2026 19:38 UTC",
-      "timestamp": "2026-04-18T19:38:33+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9624436/fleet-week-houston-ruck-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624436/122x92_q95.jpg",
-      "keywords": [
-        "America250",
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 53.5780635775,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624445",
-      "title": "Fleet Week Houston ruck-run",
-      "description": "U.S. Marine Corps Gunnery Sgt. Le\u2019Andrew McCoy, from...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 18, 2026 19:37 UTC",
-      "timestamp": "2026-04-18T19:37:26+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9624445/fleet-week-houston-ruck-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624445/122x92_q95.jpg",
-      "keywords": [
-        "America250",
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 53.5966746825,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9624446",
-      "title": "Fleet Week Houston ruck-run",
-      "description": "U.S. Marines with Marine Air Control Group 28, 2nd...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 18, 2026 19:36 UTC",
-      "timestamp": "2026-04-18T19:36:56+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/image/9624446/fleet-week-houston-ruck-run",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9624446/122x92_q95.jpg",
-      "keywords": [
-        "America250",
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 53.60500801083334,
+      "hours_old": 59.136362625833335,
       "is_deployment": false
     },
     {
@@ -7525,7 +7536,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.73064240555556,
+      "hours_old": 59.8012882925,
       "is_deployment": false
     },
     {
@@ -7557,7 +7568,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 65.1848792763889,
+      "hours_old": 71.2555294275,
       "is_deployment": false
     },
     {
@@ -7587,7 +7598,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.67842020416667,
+      "hours_old": 73.74906609027778,
       "is_deployment": false
     },
     {
@@ -7617,7 +7628,7 @@
       "duration": 519,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.25233585861112,
+      "hours_old": 74.32289599722222,
       "is_deployment": false
     },
     {
@@ -7647,7 +7658,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.25511362916667,
+      "hours_old": 74.32567376805555,
       "is_deployment": false
     },
     {
@@ -7677,7 +7688,7 @@
       "duration": 102,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.26428028722222,
+      "hours_old": 74.33484042722222,
       "is_deployment": false
     },
     {
@@ -7707,7 +7718,7 @@
       "duration": 68,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.32066916555556,
+      "hours_old": 74.391229305,
       "is_deployment": false
     },
     {
@@ -7732,7 +7743,7 @@
       "duration": 31,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 69.18710140722223,
+      "hours_old": 75.25775153944446,
       "is_deployment": false
     },
     {
@@ -7762,7 +7773,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.16451440861111,
+      "hours_old": 78.23506336083334,
       "is_deployment": false
     },
     {
@@ -7790,7 +7801,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.71147581194444,
+      "hours_old": 78.7821216713889,
       "is_deployment": false
     },
     {
@@ -7820,7 +7831,7 @@
       "duration": 143,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 73.7732289961111,
+      "hours_old": 79.8437778525,
       "is_deployment": false
     },
     {
@@ -7850,38 +7861,8 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 76.51963217805556,
+      "hours_old": 82.59013181499999,
       "is_deployment": true
-    },
-    {
-      "id": "news:562686",
-      "title": "Southern Border as a Proving Ground: TLS Manpack Leads to Illegal Alien Apprehensions",
-      "description": "Joint Task Force-Southern Border (JTF-SB) continues to embrace the southern border as an \u201cinnovation laboratory\u201d and proving ground for new technologies. Service members employ advanced systems to test and refine next-generation technology, enhancing both border security and the readiness of the joint force.\u00a0The Terrestrial Layered System Manpack (TLS Manpack) is one such capability.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Department of War Southern Border",
-      "date_published": "Apr 17, 2026 20:16 UTC",
-      "timestamp": "2026-04-17T20:16:49+00:00",
-      "country": "United States",
-      "state": "Arizona",
-      "city": "Fort Huachuca",
-      "location_display": "Fort Huachuca, Arizona, United States",
-      "url": "https://www.dvidshub.net/news/562686/southern-border-proving-ground-tls-manpack-leads-illegal-alien-apprehensions",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9609009/122x92_q95.jpg",
-      "keywords": [
-        "cbp",
-        "department-of-war-dow",
-        "usnorthcom-us-northern-command",
-        "joint-task-force-southern-border-jtfsb",
-        "us-territorial-integrity",
-        "us-customs-and-border-protection"
-      ],
-      "credit": "1LT Dalton Worley",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 76.94119835055557,
-      "is_deployment": false
     },
     {
       "id": "news:562998",
@@ -7908,7 +7889,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.37629878166666,
+      "hours_old": 83.44679843694443,
       "is_deployment": false
     },
     {
@@ -7936,7 +7917,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.5634202475,
+      "hours_old": 83.63406610666667,
       "is_deployment": false
     },
     {
@@ -7965,7 +7946,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.58102102166667,
+      "hours_old": 83.65152066777777,
       "is_deployment": false
     },
     {
@@ -7990,7 +7971,7 @@
       "duration": 129,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 77.786823685,
+      "hours_old": 83.85747384666668,
       "is_deployment": false
     },
     {
@@ -8019,7 +8000,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 77.99657667916667,
+      "hours_old": 84.06707633333335,
       "is_deployment": false
     },
     {
@@ -8042,7 +8023,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.0821321238889,
+      "hours_old": 84.15263178555556,
       "is_deployment": false
     },
     {
@@ -8069,7 +8050,7 @@
       "duration": 91,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.12184014972222,
+      "hours_old": 84.19238899666668,
       "is_deployment": false
     },
     {
@@ -8098,7 +8079,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 78.34078882611111,
+      "hours_old": 84.41131734166666,
       "is_deployment": true
     },
     {
@@ -8123,7 +8104,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.37801103555556,
+      "hours_old": 84.44853955444445,
       "is_deployment": true
     },
     {
@@ -8152,7 +8133,7 @@
       "duration": 147,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.40767345333333,
+      "hours_old": 84.47822234055556,
       "is_deployment": false
     },
     {
@@ -8181,7 +8162,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 78.42662216861112,
+      "hours_old": 84.49715068388889,
       "is_deployment": true
     },
     {
@@ -8210,7 +8191,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 78.473011025,
+      "hours_old": 84.5435395438889,
       "is_deployment": true
     },
     {
@@ -8239,7 +8220,7 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.57378458444444,
+      "hours_old": 84.64433343138889,
       "is_deployment": false
     },
     {
@@ -8268,7 +8249,7 @@
       "duration": 116,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.59045124166666,
+      "hours_old": 84.6610000875,
       "is_deployment": false
     },
     {
@@ -8295,7 +8276,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.78602120666666,
+      "hours_old": 84.85652084083334,
       "is_deployment": false
     },
     {
@@ -8323,7 +8304,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 78.87536467416666,
+      "hours_old": 84.94601054527777,
       "is_deployment": false
     },
     {
@@ -8348,7 +8329,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.69129892166667,
+      "hours_old": 85.76179857527778,
       "is_deployment": false
     },
     {
@@ -8371,7 +8352,35 @@
       "duration": 48,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 79.96328879083333,
+      "hours_old": 86.03381731,
+      "is_deployment": false
+    },
+    {
+      "id": "video:1002941",
+      "title": "Exercise Lightning Strike Showcases OKNG, OEM Domestic Response with Integrated UAS Operations",
+      "description": "The Oklahoma National Guard, in partnership with Oklahoma Office of Emergency Management, hosted Exercise Lightning Strike, a domestic exercise scenario of an EF5 tornado, at Camp Gruber Training Center, April 14 and 15, 2026.\r\n\r\nAt the center of the exercise is the integration of uncrewed aircraft systems (UAS) across various scenarios, enabling real-time data sharing, improved situational awareness and more effective coordination among participating agencies.",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Oklahoma National Guard",
+      "date_published": "Apr 17, 2026 17:03 UTC",
+      "timestamp": "2026-04-17T17:03:16+00:00",
+      "country": "United States",
+      "state": "Oklahoma",
+      "city": "Camp Gruber",
+      "location_display": "Camp Gruber, Oklahoma, United States",
+      "url": "https://www.dvidshub.net/video/1002941/exercise-lightning-strike-showcases-okng-oem-domestic-response-with-integrated-uas-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002941/DOD_111636712.0000001/122x92_q95.jpg",
+      "keywords": [
+        "Oklahoma National Guard",
+        "National Guard",
+        "OKGuard",
+        "OKLS1"
+      ],
+      "credit": "SGT Haden Tolbert",
+      "duration": 143,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 86.23802967111111,
       "is_deployment": false
     },
     {
@@ -8399,7 +8408,7 @@
       "duration": 208,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 80.17404618694444,
+      "hours_old": 86.24469632861111,
       "is_deployment": false
     },
     {
@@ -8426,7 +8435,7 @@
       "duration": 7146,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 80.78710145194444,
+      "hours_old": 86.85775160888889,
       "is_deployment": false
     },
     {
@@ -8457,35 +8466,7 @@
       "duration": 295,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 81.42154617722223,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002810",
-      "title": "Mass Casualty Exercise at MCAS Cherry Point",
-      "description": "U.S. Marine Corps students assigned to Center for Naval Aviation Technical Training at Marine Corps Air Station Cherry Point act as casualty role players during a mass casualty exercise at MCAS Cherry Point, April 14, 2026. The exercise reinforced MCAS Cherry Point\u2019s commitment to safety and maintaining the highest state of readiness in anticipation of the upcoming air show. (U.S. Marine Corps video by Cpl. Michail Stankosky)",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Air Station Cherry Point",
-      "date_published": "Apr 17, 2026 15:12 UTC",
-      "timestamp": "2026-04-17T15:12:58+00:00",
-      "country": "United States",
-      "state": "North Carolina",
-      "city": "Cherry Point",
-      "location_display": "Cherry Point, North Carolina, United States",
-      "url": "https://www.dvidshub.net/video/1002810/mass-casualty-exercise-mcas-cherry-point",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002810/DOD_111633767.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Marines",
-        "Readiness",
-        "MassCasualty",
-        "CherryPoint"
-      ],
-      "credit": "LCpl Michail Stankosky",
-      "duration": 105,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 82.00461802722222,
+      "hours_old": 87.49219626583334,
       "is_deployment": false
     },
     {
@@ -8513,7 +8494,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.73102104694445,
+      "hours_old": 88.80152069694445,
       "is_deployment": false
     },
     {
@@ -8538,7 +8519,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.91074325861112,
+      "hours_old": 88.98124291222223,
       "is_deployment": false
     },
     {
@@ -8570,7 +8551,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.2529347738889,
+      "hours_old": 89.32358493222223,
       "is_deployment": false
     },
     {
@@ -8599,7 +8580,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 83.26213216583334,
+      "hours_old": 89.33263182472223,
       "is_deployment": false
     },
     {
@@ -8622,7 +8603,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 83.64463213972222,
+      "hours_old": 89.71513179416667,
       "is_deployment": false
     },
     {
@@ -8645,7 +8626,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.82237950277778,
+      "hours_old": 89.89302959194444,
       "is_deployment": false
     },
     {
@@ -8674,7 +8655,7 @@
       "duration": 121,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 84.27015719111111,
+      "hours_old": 90.34080734166666,
       "is_deployment": false
     },
     {
@@ -8706,7 +8687,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 84.53599047750001,
+      "hours_old": 90.60664060861112,
       "is_deployment": false
     },
     {
@@ -8731,7 +8712,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 84.62515711361111,
+      "hours_old": 90.6958072825,
       "is_deployment": false
     },
     {
@@ -8761,7 +8742,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 86.75647607500001,
+      "hours_old": 92.82712193527777,
       "is_deployment": false
     },
     {
@@ -8778,7 +8759,7 @@
       "city": "",
       "location_display": "Japan",
       "url": "https://www.dvidshub.net/news/562945/communication-strategy-and-operations-marines-participate-field-training-exercise",
-      "thumbnail_url": "",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9621380/122x92_q95.jpg",
       "keywords": [
         "1st MAW",
         "III MEF",
@@ -8791,7 +8772,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.56123723222223,
+      "hours_old": 96.63177211083332,
       "is_deployment": false
     },
     {
@@ -8819,7 +8800,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 93.31551100194444,
+      "hours_old": 99.3860395211111,
       "is_deployment": true
     },
     {
@@ -8852,7 +8833,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 94.02869817027778,
+      "hours_old": 100.09934401888889,
       "is_deployment": false
     },
     {
@@ -8878,7 +8859,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.39268780416667,
+      "hours_old": 100.46318745777778,
       "is_deployment": false
     },
     {
@@ -8905,7 +8886,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.05508697777778,
+      "hours_old": 103.12573284583333,
       "is_deployment": false
     },
     {
@@ -8932,7 +8913,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.64741004194445,
+      "hours_old": 103.71790969555556,
       "is_deployment": false
     },
     {
@@ -8962,7 +8943,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 97.6851735336111,
+      "hours_old": 103.75572241333333,
       "is_deployment": false
     },
     {
@@ -8992,37 +8973,7 @@
       "duration": 54,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 97.96628460444444,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562667",
-      "title": "Sgt. Maj. Ingram bids farewell to I MIG Marines and Sailors",
-      "description": "MARINE CORPS BASE CAMP PENDLETON, Calif. \u2014 U.S. Marine Corps Sgt. Maj. Theodore G. Ingram III transferred his duties as the Command Senior Enlisted Leader of the I Marine Expeditionary Force Information Group in a relief and appointment ceremony held at Marine Corps Base Camp Pendleton, California, on April 10, 2026. After more than two decades of faithful service, Ingram is closing out his tenure and leaving behind a command profoundly shaped by his focus on leadership, trust and the evolution ...",
-      "type": "news",
-      "branch": "Marines",
-      "unit_name": "I MEF Information Group",
-      "date_published": "Apr 16, 2026 23:12 UTC",
-      "timestamp": "2026-04-16T23:12:46+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Camp Pendleton",
-      "location_display": "Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/news/562667/sgt-maj-ingram-bids-farewell-mig-marines-and-sailors",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9615063/122x92_q95.jpg",
-      "keywords": [
-        "I MEF",
-        "Sgt. Maj.",
-        "sgt major",
-        "I MIG",
-        "Marines",
-        "USMC"
-      ],
-      "credit": "LCpl Jashua Hernandez Ramos",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 98.00762615944444,
+      "hours_old": 104.03683347361111,
       "is_deployment": false
     },
     {
@@ -9049,7 +9000,7 @@
       "duration": 5605,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 99.0371015961111,
+      "hours_old": 105.10775169722221,
       "is_deployment": false
     },
     {
@@ -9078,7 +9029,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.38268778333334,
+      "hours_old": 105.45318743777779,
       "is_deployment": false
     },
     {
@@ -9105,36 +9056,7 @@
       "duration": 3639,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 99.52043490055556,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002840",
-      "title": "2026 Volunteer Appreciation MCRD San Diego",
-      "description": "U.S. Marine Corps Brig. Gen. David C. Hyman, commanding general,\u202fMarine Corps Recruit Depot San Diego, Western Recruiting Region, and commanding officers throughout the depot, recognize volunteers across MCRD San Diego, California, April 14, 2026. Leadership across the depot recognized the contributions of Marines, Sailors and civilians who supported volunteer efforts benefiting the installation and surrounding communities. (U.S. Marine Corps video by Cpl. Eric Valerio)",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "Marine Corps Recruit Depot, San Diego",
-      "date_published": "Apr 16, 2026 21:25 UTC",
-      "timestamp": "2026-04-16T21:25:33+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Recruit Depot San Diego",
-      "location_display": "Marine Corps Recruit Depot San Diego, California, United States",
-      "url": "https://www.dvidshub.net/video/1002840/2026-volunteer-appreciation-mcrd-san-diego",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002840/DOD_111634625.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Marines",
-        "WRR",
-        "MCRD San Diego",
-        "Volunteer Appreciation",
-        "Recruit Training Regiment"
-      ],
-      "credit": "Cpl Eric Valerio",
-      "duration": 165,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 99.79489579277778,
+      "hours_old": 105.59108504194444,
       "is_deployment": false
     },
     {
@@ -9159,7 +9081,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 100.35203161416668,
+      "hours_old": 106.42267747111111,
       "is_deployment": false
     },
     {
@@ -9182,7 +9104,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 100.57619815999999,
+      "hours_old": 106.64684402777777,
       "is_deployment": false
     },
     {
@@ -9212,7 +9134,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 100.79657666416668,
+      "hours_old": 106.8670763186111,
       "is_deployment": false
     },
     {
@@ -9240,7 +9162,7 @@
       "duration": 192,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 100.8929512938889,
+      "hours_old": 106.96350014972222,
       "is_deployment": false
     },
     {
@@ -9263,7 +9185,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 100.97979221472222,
+      "hours_old": 107.05034116472223,
       "is_deployment": true
     },
     {
@@ -9294,7 +9216,7 @@
       "duration": 38,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 101.01983581472223,
+      "hours_old": 107.0903959525,
       "is_deployment": false
     },
     {
@@ -9322,7 +9244,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 101.18147583722222,
+      "hours_old": 107.252121705,
       "is_deployment": true
     },
     {
@@ -9348,36 +9270,8 @@
       "duration": 35,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 101.40217774222222,
+      "hours_old": 107.47270625722223,
       "is_deployment": false
-    },
-    {
-      "id": "video:1002781",
-      "title": "B-Roll:\u202f11th MEU\u202fMarines, Sailors Conduct Weapons Manipulation and Patrolling Tactics Training Aboard USS Comstock",
-      "description": "U.S. Marines with Battalion Landing Team 3/5, 11th Marine Expeditionary Unit, conduct weapons manipulation and patrolling tactics training aboard Whidbey Island-class dock landing ship USS Comstock (LSD 45), in the Pacific Ocean, April 14, 2026. The 11th MEU, embarked aboard the Boxer Amphibious Ready Group, is a persistent, combat credible force contributing to deterrence and crisis response in the U.S. 7th Fleet area of operations. U.S. 7th Fleet, the U.S. Navy's largest forward-deployed numbe...",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "11th Marine Expeditionary Unit",
-      "date_published": "Apr 16, 2026 19:18 UTC",
-      "timestamp": "2026-04-16T19:18:15+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/video/1002781/b-roll-11th-meu-marines-sailors-conduct-weapons-manipulation-and-patrolling-tactics-training-aboard-uss-comstock",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002781/DOD_111632935.0000001/122x92_q95.jpg",
-      "keywords": [
-        "11th Marine Expeditionary Unit",
-        "USS Comstock"
-      ],
-      "credit": "Sgt Trent A. Henry",
-      "duration": 80,
-      "aspect_ratio": "16:9",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 101.91656251388888,
-      "is_deployment": true
     },
     {
       "id": "news:562894",
@@ -9406,7 +9300,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.06790388722222,
+      "hours_old": 108.13843876611112,
       "is_deployment": false
     },
     {
@@ -9434,7 +9328,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.95240997166667,
+      "hours_old": 109.02290961888889,
       "is_deployment": false
     },
     {
@@ -9457,7 +9351,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 103.55491002027777,
+      "hours_old": 109.62540967416666,
       "is_deployment": false
     },
     {
@@ -9486,7 +9380,7 @@
       "duration": 99,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 103.92043491194445,
+      "hours_old": 109.99108502111112,
       "is_deployment": false
     },
     {
@@ -9513,7 +9407,7 @@
       "duration": 6434,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 104.05015708750001,
+      "hours_old": 110.12080730999999,
       "is_deployment": false
     },
     {
@@ -9542,7 +9436,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.30425365305555,
+      "hours_old": 110.37489952194444,
       "is_deployment": false
     },
     {
@@ -9572,7 +9466,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 104.40126827694445,
+      "hours_old": 110.47191842916668,
       "is_deployment": false
     },
     {
@@ -9598,7 +9492,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.48673664388889,
+      "hours_old": 110.55728559583333,
       "is_deployment": false
     },
     {
@@ -9626,7 +9520,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.50730917861111,
+      "hours_old": 110.5779550463889,
       "is_deployment": false
     },
     {
@@ -9653,7 +9547,7 @@
       "duration": 5706,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 104.53710154083333,
+      "hours_old": 110.60775174305556,
       "is_deployment": false
     },
     {
@@ -9678,7 +9572,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.89324331444443,
+      "hours_old": 110.96374296222221,
       "is_deployment": false
     },
     {
@@ -9714,7 +9608,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.94230924972221,
+      "hours_old": 111.01295509666667,
       "is_deployment": false
     },
     {
@@ -9743,7 +9637,7 @@
       "duration": 145,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 105.41600683722221,
+      "hours_old": 111.4865556838889,
       "is_deployment": false
     },
     {
@@ -9772,7 +9666,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.32092035000001,
+      "hours_old": 112.39156623083333,
       "is_deployment": false
     },
     {
@@ -9802,7 +9696,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.7814759288889,
+      "hours_old": 112.85212181666667,
       "is_deployment": false
     },
     {
@@ -9832,7 +9726,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.83786478361111,
+      "hours_old": 112.90851066583332,
       "is_deployment": false
     },
     {
@@ -9857,7 +9751,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 107.33345948583333,
+      "hours_old": 113.40399436944445,
       "is_deployment": false
     },
     {
@@ -9886,7 +9780,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 107.565642715,
+      "hours_old": 113.63628859222221,
       "is_deployment": false
     },
     {
@@ -9913,7 +9807,7 @@
       "duration": 2243,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 108.03710155222223,
+      "hours_old": 114.10775173694445,
       "is_deployment": false
     },
     {
@@ -9941,7 +9835,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 108.21629887750001,
+      "hours_old": 114.28679853222224,
       "is_deployment": false
     },
     {
@@ -9967,7 +9861,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 108.44534776361111,
+      "hours_old": 114.51589671388889,
       "is_deployment": false
     },
     {
@@ -9996,7 +9890,7 @@
       "duration": 44,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 108.91545132777779,
+      "hours_old": 114.98600016583333,
       "is_deployment": false
     },
     {
@@ -10026,7 +9920,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 109.47953141166667,
+      "hours_old": 115.55017727972222,
       "is_deployment": false
     },
     {
@@ -10055,7 +9949,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.16463228472222,
+      "hours_old": 119.2351319375,
       "is_deployment": false
     },
     {
@@ -10085,7 +9979,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.44379893916667,
+      "hours_old": 121.51429859222222,
       "is_deployment": false
     },
     {
@@ -10113,7 +10007,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 118.75376834944446,
+      "hours_old": 124.8244185438889,
       "is_deployment": false
     },
     {
@@ -10136,66 +10030,8 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.27602119972222,
+      "hours_old": 126.34652085888888,
       "is_deployment": false
-    },
-    {
-      "id": "video:1002641",
-      "title": "Nimitz Prepares for Flight Operations",
-      "description": "U.S. Sailors prepare for flight operations on the flight deck of Nimitz-class aircraft carrier USS Nimitz (CVN 68) in the Pacific Ocean, April 14, 2026. Nimitz is deployed as part of Southern Seas 2026 which seeks to enhance capability, improve interoperability and strengthen maritime partnerships with countries throughout the region through joint, multinational and interagency exchanges and cooperation. (U.S. Navy video by Mass Communication Specialist Seaman Megan Schwengel)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "USS Nimitz (CVN 68)",
-      "date_published": "Apr 16, 2026 00:33 UTC",
-      "timestamp": "2026-04-16T00:33:08+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1002641/nimitz-prepares-flight-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002641/DOD_111629293.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Southern Seas",
-        "USNAVSOUTH/ U.S. 4th Fleet",
-        "USS Nimitz (CVN 68)"
-      ],
-      "credit": "SN Megan Schwengel",
-      "duration": 60,
-      "aspect_ratio": "16:9",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 120.66801108472222,
-      "is_deployment": true
-    },
-    {
-      "id": "video:1002640",
-      "title": "Nimitz Sailors Practice Color Guard Drill",
-      "description": "U.S. Sailors practice color guard routines in the hangar bay of Nimitz-class aircraft carrier USS Nimitz (CVN 68) April 14, 2026. Nimitz is deployed as part of Southern Seas 2026 which seeks to enhance capability, improve interoperability, and strengthen maritime partnerships with countries throughout the region through joint, multinational and interagency exchanges and cooperation. (U.S. Navy video by Mass Communication Specialist Seaman Johnathan McCune)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "USS Nimitz (CVN 68)",
-      "date_published": "Apr 16, 2026 00:28 UTC",
-      "timestamp": "2026-04-16T00:28:29+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1002640/nimitz-sailors-practice-color-guard-drill",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002640/DOD_111629290.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Southern Seas",
-        "USNAVSOUTH/ U.S. 4th Fleet",
-        "USS Nimitz (CVN 68)"
-      ],
-      "credit": "SN Johnathan McCune",
-      "duration": 60,
-      "aspect_ratio": "16:9",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 120.74551109305555,
-      "is_deployment": true
     },
     {
       "id": "video:1002748",
@@ -10226,7 +10062,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 121.02043499722221,
+      "hours_old": 127.09108518000001,
       "is_deployment": true
     },
     {
@@ -10253,7 +10089,7 @@
       "duration": 86,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 121.15239574722223,
+      "hours_old": 127.22294460250001,
       "is_deployment": false
     },
     {
@@ -10276,34 +10112,7 @@
       "duration": 159,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 121.75989578277778,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002733",
-      "title": "Military Leaders Testify on FY 27 Readiness Posture",
-      "description": "Military leaders testify about their respective services\u2019 fiscal year 2027 readiness posture before the House Armed Services Committee\u2019s readiness subcommittee during a hearing in Washington, April 15, 2026. Testifying today are Acting Army Chief of Staff Gen. Christopher LaNeve, Vice Chief of Naval Operations Adm. James Kilby, Air Force Vice Chief of Staff Gen. John Lamontagne, Marine Corps Assistant Commandant Gen. Bradford Gering and Space Force Vice Chief of Operations Gen. Shawn Bratton.",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "War.gov",
-      "date_published": "Apr 15, 2026 22:55 UTC",
-      "timestamp": "2026-04-15T22:55:17+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/video/1002733/military-leaders-testify-fy-27-readiness-posture",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002733/DOD_111631620.0000001/122x92_q95.jpg",
-      "keywords": [
-        "DGOV",
-        "#DGOVLIVE",
-        "DEFENSE ON DEMAND"
-      ],
-      "credit": "",
-      "duration": 7028,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 122.300435005,
+      "hours_old": 127.83044462555556,
       "is_deployment": false
     },
     {
@@ -10330,7 +10139,7 @@
       "duration": 5310,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 123.83682393583334,
+      "hours_old": 129.90747405444444,
       "is_deployment": false
     },
     {
@@ -10360,7 +10169,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.13564263722222,
+      "hours_old": 130.20628850916668,
       "is_deployment": false
     },
     {
@@ -10390,7 +10199,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.52758706944445,
+      "hours_old": 130.59823293805556,
       "is_deployment": false
     },
     {
@@ -10420,7 +10229,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.54897603027779,
+      "hours_old": 130.61962190333333,
       "is_deployment": false
     },
     {
@@ -10448,37 +10257,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.59092046472223,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002602",
-      "title": "2nd MAW conducts CBRN drills (Reel)",
-      "description": "U.S. Marines with 2nd Marine Aircraft Wing conduct chemical, biological, radiological and nuclear drills at Rygge Air Base, Norway, March 20, 2026. Marines simulated a CBRN contaminated environment for training during exercise Cold Response 26. 2nd MAW generates combat readiness through training and continued execution of the six functions of Marine aviation.  This reel was created on April 14, 2026. (U.S. Marine Corps video by Cpl. Mya Seymour)\r\n\r\nThis product includes elements of AI-generated ...",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 15, 2026 20:15 UTC",
-      "timestamp": "2026-04-15T20:15:18+00:00",
-      "country": "Norway",
-      "state": "",
-      "city": "",
-      "location_display": "Norway",
-      "url": "https://www.dvidshub.net/video/1002602/2nd-maw-conducts-cbrn-drills-reel",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002602/DOD_111628574.1000000/122x92_q95.jpg",
-      "keywords": [
-        "CBRN",
-        "Readiness",
-        "VMGR-252",
-        "MWSS-273",
-        "JPACE",
-        "MOPP"
-      ],
-      "credit": "Cpl Mya Seymour",
-      "duration": 44,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 124.96572915972222,
+      "hours_old": 130.6615663375,
       "is_deployment": false
     },
     {
@@ -10508,7 +10287,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.50463236972223,
+      "hours_old": 131.57513203472223,
       "is_deployment": false
     },
     {
@@ -10534,7 +10313,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.73213230055555,
+      "hours_old": 131.8026319588889,
       "is_deployment": false
     },
     {
@@ -10559,7 +10338,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.68463238027778,
+      "hours_old": 132.75513200694445,
       "is_deployment": false
     },
     {
@@ -10589,7 +10368,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.77258709277778,
+      "hours_old": 132.84323296388888,
       "is_deployment": false
     },
     {
@@ -10617,7 +10396,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.07008710527778,
+      "hours_old": 133.14073297805555,
       "is_deployment": false
     },
     {
@@ -10647,7 +10426,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.42296568277777,
+      "hours_old": 133.49346532805555,
       "is_deployment": false
     },
     {
@@ -10672,35 +10451,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.15262614527776,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002646",
-      "title": "Fleet Week Houston Teaser 2026",
-      "description": "U.S. Marine Corps 1st Lt. William B. Jones, from Washington, a communication strategy and operations officer with 2nd Marine Aircraft Wing, walks around in downtown Houston, Texas, April 14, 2026. Held in partnership with Freedom 250, the inaugural Fleet Week Houston commemorates the 250-year\u202flegacy of America\u202fwhile\u202fshowcasing\u202fits sea service\u2019s\u202fcutting-edge\u202ftechnology and the unwavering dedication of our warfighters. (U.S. Marine Corps video by Lance Cpl. Perri Wood)",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Aircraft Wing",
-      "date_published": "Apr 15, 2026 16:46 UTC",
-      "timestamp": "2026-04-15T16:46:59+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "Houston",
-      "location_display": "Houston, Texas, United States",
-      "url": "https://www.dvidshub.net/video/1002646/fleet-week-houston-teaser-2026",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002646/DOD_111629501.0000005/122x92_q95.jpg",
-      "keywords": [
-        "Fleet Week Houston",
-        "America 250",
-        "Freedom250",
-        "FWHTX"
-      ],
-      "credit": "LCpl Perri Wood",
-      "duration": 25,
-      "aspect_ratio": "4:3",
-      "commands": [],
-      "hours_old": 128.4376735936111,
+      "hours_old": 134.22316102833332,
       "is_deployment": false
     },
     {
@@ -10725,7 +10476,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.75824344166665,
+      "hours_old": 134.8287431377778,
       "is_deployment": false
     },
     {
@@ -10748,7 +10499,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.87991010222223,
+      "hours_old": 134.950409755,
       "is_deployment": false
     },
     {
@@ -10778,7 +10529,7 @@
       "duration": 59,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 129.08710170027777,
+      "hours_old": 135.15775186472223,
       "is_deployment": false
     },
     {
@@ -10803,7 +10554,7 @@
       "duration": 53,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 129.5293239177778,
+      "hours_old": 135.59997408222222,
       "is_deployment": false
     },
     {
@@ -10828,7 +10579,7 @@
       "duration": 53,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 129.53321280138888,
+      "hours_old": 135.60386296555555,
       "is_deployment": false
     },
     {
@@ -10857,7 +10608,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.69213233861112,
+      "hours_old": 136.76263198305554,
       "is_deployment": false
     },
     {
@@ -10880,7 +10631,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.88852118111112,
+      "hours_old": 136.95902083277778,
       "is_deployment": false
     },
     {
@@ -10907,7 +10658,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.91286495694445,
+      "hours_old": 136.9835108372222,
       "is_deployment": false
     },
     {
@@ -10937,7 +10688,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.96342045138888,
+      "hours_old": 138.03406632416667,
       "is_deployment": false
     },
     {
@@ -10960,7 +10711,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 132.40907680583334,
+      "hours_old": 138.47957646277777,
       "is_deployment": false
     },
     {
@@ -10987,7 +10738,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 135.9031427725,
+      "hours_old": 141.97378863972222,
       "is_deployment": false
     },
     {
@@ -11015,7 +10766,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 137.1995316513889,
+      "hours_old": 143.27017751833333,
       "is_deployment": false
     },
     {
@@ -11045,37 +10796,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.4378477797222,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1002642",
-      "title": "III MEF EOTG Marines Showcase Advanced Unmanned Systems and Adaptive Manufacturing",
-      "description": "U.S. Marines with Expeditionary Operations Training Group, III Marine Expeditionary Force, demonstrate their ability to use adaptive manufacturing to increase unmanned systems capabilities at Camp Hansen, Okinawa, Japan, April 15, 2026. The Unmanned Systems Branch analyzes capabilities and designs drone configurations to support various operational scenarios. The Unmanned Aircraft Systems are designed for both remote piloting and autonomous flight, enhancing the Marines' ability to adapt to evol...",
-      "type": "video",
-      "branch": "Marines",
-      "unit_name": "III Marine Expeditionary Force",
-      "date_published": "Apr 15, 2026 03:35 UTC",
-      "timestamp": "2026-04-15T03:35:42+00:00",
-      "country": "Japan",
-      "state": "Okinawa",
-      "city": "",
-      "location_display": "Japan",
-      "url": "https://www.dvidshub.net/video/1002642/iii-mef-eotg-marines-showcase-advanced-unmanned-systems-and-adaptive-manufacturing",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1002642/DOD_111629318.0000001/122x92_q95.jpg",
-      "keywords": [
-        "Robotics",
-        "Unmanned-Systems",
-        "Drones",
-        "EOTG",
-        "Explosives",
-        "Manufacturing"
-      ],
-      "credit": "Cpl Giovanni Navarrette",
-      "duration": 130,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 141.62572916916668,
+      "hours_old": 145.50839673,
       "is_deployment": false
     },
     {
@@ -11105,62 +10826,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 143.90268794805556,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562713",
-      "title": "Washington Air National Guard Hosts Royal Thai Air Force Leadership, Strengthens Enduring Partnership",
-      "description": "he Washington Air National Guard hosted Air Chief Marshal Sakesan Kantha, commander-in-chief of the Royal Thai Air Force, for a senior leader engagement at Camp Murray and Joint Base Lewis-McChord, reinforcing a more than 20-year partnership through the National Guard State Partnership Program.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Joint Force Headquarters - Washington National Guard",
-      "date_published": "Apr 14, 2026 22:19 UTC",
-      "timestamp": "2026-04-14T22:19:03+00:00",
-      "country": "United States",
-      "state": "Washington",
-      "city": "Camp Murray",
-      "location_display": "Camp Murray, Washington, United States",
-      "url": "https://www.dvidshub.net/news/562713/washington-air-national-guard-hosts-royal-thai-air-force-leadership-strengthens-enduring-partnership",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9614330/122x92_q95.jpg",
-      "keywords": [
-        "Washington National Guard",
-        "SPP",
-        "National Guard",
-        "Thailand"
-      ],
-      "credit": "Joseph Siemandel",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 146.90397611916666,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562719",
-      "title": "USCG Sector San Diego Chief of Prevention to Retire After 22 Years of Service (Ian R. Lazarus, Coast Guard Auxiliary)",
-      "description": "SAN DIEGO \u2014 U.S. Coast Guard Sector San Diego bid \u201cfair winds and following seas\u201d to Cmdr. Jamie Koppi during a retirement ceremony April 2, 2026, marking the end of her 22-year career.",
-      "type": "news",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard PADET San Diego",
-      "date_published": "Apr 14, 2026 21:49 UTC",
-      "timestamp": "2026-04-14T21:49:35+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "San Diego",
-      "location_display": "San Diego, California, United States",
-      "url": "https://www.dvidshub.net/news/562719/uscg-sector-san-diego-chief-prevention-retire-after-22-years-service-ian-r-lazarus-coast-guard-auxiliary",
-      "thumbnail_url": "",
-      "keywords": [
-        "prevention",
-        "retirementcelebration",
-        "sectorsandiego"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 147.3945144591667,
+      "hours_old": 149.97318760055558,
       "is_deployment": false
     },
     {
@@ -11188,94 +10854,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 148.35647608916668,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562705",
-      "title": "National Guard Athletes From Across Country Converge Upon Grand Island, Nebraska, for 2026 All Guard Endurance Team Trials",
-      "description": "Nearly 200 National Guard Soldiers and Airmen from across the United States joined over 240 civilian competitors at the Nebraska Army National Guard\u2019s Army Aviation Support Facility #2 in Grand Island. The event, held April 10-11, 2026, was the All Guard Endurance Team Trials, one of the Guard\u2019s most physically demanding competitions designed to test endurance, teamwork, and resilience among participants. Hosted by the NEARNG, the event was held among CH-47 Chinook helicopters and made history a...",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Joint Force Headquarters - Nebraska National Guard",
-      "date_published": "Apr 14, 2026 19:47 UTC",
-      "timestamp": "2026-04-14T19:47:13+00:00",
-      "country": "United States",
-      "state": "Nebraska",
-      "city": "Grand Island",
-      "location_display": "Grand Island, Nebraska, United States",
-      "url": "https://www.dvidshub.net/news/562705/national-guard-athletes-across-country-converge-upon-grand-island-nebraska-2026-all-guard-endurance-team-trials",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9610138/122x92_q95.jpg",
-      "keywords": [
-        "national-guard",
-        "joint-force",
-        "nebraska-national--guard",
-        "endurance-team"
-      ],
-      "credit": "SSgt Alexander Schriner",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 149.4345316963889,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562698",
-      "title": "Small Satellites, Big Impact \u2014 MC3 Network Inspires Space Innovation at NPS",
-      "description": "On Jan. 14, 2025, a commercial SpaceX rocket successfully launched from Vandenberg Space Force Base in California, carrying an NPS small satellite, also known as a CubeSat, called Otter. Two hours later, a small team of NPS researchers huddled inside the school\u2019s Satellite Operations Center (SOC), the hub for interacting with NPS assets in space as well as the central node of its globe-spanning Mobile CubeSat Command and Control (MC3) ground network.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval Postgraduate School",
-      "date_published": "Apr 14, 2026 19:25 UTC",
-      "timestamp": "2026-04-14T19:25:02+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Monterey",
-      "location_display": "Monterey, California, United States",
-      "url": "https://www.dvidshub.net/news/562698/small-satellites-big-impact-mc3-network-inspires-space-innovation-nps",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9614761/122x92_q95.jpg",
-      "keywords": [
-        "reseach",
-        "students",
-        "education",
-        "nps",
-        "naval-postgraduate-school"
-      ],
-      "credit": "Matthew Schehl",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 149.80268796083334,
-      "is_deployment": false
-    },
-    {
-      "id": "news:562648",
-      "title": "How does a service, treatment, drug, or device become a TRICARE benefit?",
-      "description": "Have you ever wondered how a service, drug, or treatment becomes a TRICARE benefit?  As drugs and technology continue to develop, TRICARE coverage evolves along with them.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Defense Health Agency",
-      "date_published": "Apr 14, 2026 16:27 UTC",
-      "timestamp": "2026-04-14T16:27:48+00:00",
-      "country": "United States",
-      "state": "Virginia",
-      "city": "Falls Church",
-      "location_display": "Falls Church, Virginia, United States",
-      "url": "https://www.dvidshub.net/news/562648/does-service-treatment-drug-device-become-tricare-benefit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9613712/122x92_q95.jpg",
-      "keywords": [
-        "TRICARE",
-        "TRICARE Coverage",
-        "Pharmacy",
-        "Treatment",
-        "drugs",
-        "TRICARE Benefit"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 152.75814282027778,
+      "hours_old": 154.42712195611114,
       "is_deployment": false
     },
     {
@@ -11298,7 +10877,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 155.25036500166664,
+      "hours_old": 161.32101086916668,
       "is_deployment": false
     }
   ]
