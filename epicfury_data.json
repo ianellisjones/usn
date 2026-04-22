@@ -1,63 +1,18 @@
 {
-  "generated": "2026-04-21T17:52:01.376978+00:00",
+  "generated": "2026-04-22T06:57:22.881210+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
-      "id": "image:9629730",
-      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
-      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-21T17:36:07+00:00",
-      "url": "https://www.dvidshub.net/image/9629730/us-forces-patrol-arabian-sea-near-m-v-touska",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9629501",
-      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
-      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska ,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-21T17:25:30+00:00",
-      "url": "https://www.dvidshub.net/image/9629501/us-forces-patrol-arabian-sea-near-m-v-touska",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9629647",
-      "title": "U.S. Forces Patrol Arabian Sea near M/V Touska",
-      "desc": "U.S. forces patrol the Arabian Sea near M/V Touska ,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-21T17:25:13+00:00",
-      "url": "https://www.dvidshub.net/image/9629647/us-forces-patrol-arabian-sea-near-m-v-touska",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1003123",
-      "title": "U.S. Marines Board M/V Touska",
-      "desc": "U.S. Marines depart amphibious assault ship USS Tripoli (LHA 7) by helicopter and transit over the Arabian Sea to board and seize M/V Touska. The Marines rappelled onto the Iranian-flagged vessel, April 19, after guided-missile destroyer USS Spruance (DDG 111) disabled Touska’s propulsion when the c",
+      "id": "video:1003430",
+      "title": "U.S. Central Command Forces Remain Ready",
+      "desc": "U.S. Central Command forces remain ready. (Courtesy Video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-20T15:15:10+00:00",
-      "url": "https://www.dvidshub.net/video/1003123/us-marines-board-m-v-touska",
+      "timestamp": "2026-04-21T23:42:23+00:00",
+      "url": "https://www.dvidshub.net/video/1003430/us-central-command-forces-remain-ready",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +20,29 @@
       "location_display": ""
     },
     {
-      "id": "video:1003055",
+      "id": "image:9629774",
+      "title": "USS Rafael Peralta Conducts Operations",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Rafael...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-04-21T18:17:10+00:00",
+      "url": "https://www.dvidshub.net/image/9629774/uss-rafael-peralta-conducts-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:563053",
       "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
-      "desc": "U.S. forces operating in the Arabian Sea enforced naval blockade measures against an Iranian-flagged cargo vessel attempting to sail toward an Iranian port, April 19.",
-      "type": "video",
+      "desc": "TAMPA, Fla. – U.S. forces operating in the Arabian Sea enforced naval blockade measures against an Iranian-flagged cargo vessel attempting to sail toward an Iranian port, April 19.",
+      "type": "news",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-19T20:58:37+00:00",
-      "url": "https://www.dvidshub.net/video/1003055/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
+      "timestamp": "2026-04-19T20:58:25+00:00",
+      "url": "https://www.dvidshub.net/news/563053/us-forces-disable-vessel-attempting-enter-iranian-port-violate-blockade",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
