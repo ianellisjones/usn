@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-22T12:03:40.249679+00:00",
+  "generated": "2026-04-22T17:52:18.734546+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-04-21T23:42:23+00:00",
       "url": "https://www.dvidshub.net/video/1003430/us-central-command-forces-remain-ready",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9629774",
-      "title": "USS Rafael Peralta Conducts Operations",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Rafael...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-04-21T18:17:10+00:00",
-      "url": "https://www.dvidshub.net/image/9629774/uss-rafael-peralta-conducts-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
