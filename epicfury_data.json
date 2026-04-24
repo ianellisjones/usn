@@ -1,18 +1,78 @@
 {
-  "generated": "2026-04-24T12:01:32.632192+00:00",
+  "generated": "2026-04-24T17:42:53.567991+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
     {
-      "id": "news:563392",
-      "title": "U.S. Navy Hosts Reception Aboard USNS Marie Tharp to Honor Allies and Partners",
-      "desc": "MONACO — In a profound demonstration of international unity, the United States Navy hosted a special reception aboard the oceanographic survey ship USNS Marie Tharp (T-AGS 66) on April 22, 2026, in Monaco. This reception serves as a dedicated celebration of our enduring allies and partners.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Command, Naval Meteorology and Oceanography",
-      "timestamp": "2026-04-23T12:36:24+00:00",
-      "url": "https://www.dvidshub.net/news/563392/us-navy-hosts-reception-aboard-usns-marie-tharp-honor-allies-and-partners",
+      "id": "image:9638300",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-04-24T15:39:29+00:00",
+      "url": "https://www.dvidshub.net/image/9638300/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9638298",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-04-24T15:39:28+00:00",
+      "url": "https://www.dvidshub.net/image/9638298/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9638297",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-04-24T15:39:28+00:00",
+      "url": "https://www.dvidshub.net/image/9638297/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9638296",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-04-24T15:39:28+00:00",
+      "url": "https://www.dvidshub.net/image/9638296/sw-cjcs-hold-operation-epic-fury-presser",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9638294",
+      "title": "SW, CJCS Hold Operation Epic Fury Presser",
+      "desc": "Secretary of War Pete Hegseth and Chairman of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Office of the Secretary of War Public Affairs",
+      "timestamp": "2026-04-24T15:39:27+00:00",
+      "url": "https://www.dvidshub.net/image/9638294/sw-cjcs-hold-operation-epic-fury-presser",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
