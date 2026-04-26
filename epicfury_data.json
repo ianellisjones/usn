@@ -1,23 +1,7 @@
 {
-  "generated": "2026-04-26T06:58:13.888242+00:00",
+  "generated": "2026-04-26T11:45:34.169906+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:563392",
-      "title": "U.S. Navy Hosts Reception Aboard USNS Marie Tharp to Honor Allies and Partners",
-      "desc": "MONACO — In a profound demonstration of international unity, the United States Navy hosted a special reception aboard the oceanographic survey ship USNS Marie Tharp (T-AGS 66) on April 22, 2026, in Monaco. This reception serves as a dedicated celebration of our enduring allies and partners.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Command, Naval Meteorology and Oceanography",
-      "timestamp": "2026-04-23T12:36:24+00:00",
-      "url": "https://www.dvidshub.net/news/563392/us-navy-hosts-reception-aboard-usns-marie-tharp-honor-allies-and-partners",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
