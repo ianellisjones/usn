@@ -1,9 +1,11 @@
 {
   "date": "2026-04-26",
-  "timestamp": "2026-04-26T07:13:06.206706",
-  "total_count": 378,
+  "timestamp": "2026-04-26T12:35:04.685415",
+  "total_count": 372,
   "by_country": {
-    "United States": 284,
+    "Pacific Ocean": 19,
+    "C\u00f4te D'Ivoire": 1,
+    "United States": 277,
     "Philippines": 25,
     "Caribbean Sea": 3,
     "Guam": 5,
@@ -11,8 +13,7 @@
     "Cameroon": 1,
     "Senegal": 1,
     "Cuba": 1,
-    "Germany": 3,
-    "Pacific Ocean": 18,
+    "Germany": 2,
     "Poland": 1,
     "Djibouti": 1,
     "Japan": 6,
@@ -23,15 +24,15 @@
     "Philippine Sea": 1
   },
   "by_type": {
+    "image": 174,
     "news": 113,
-    "image": 179,
-    "video": 86
+    "video": 85
   },
   "by_branch": {
+    "Marines": 77,
     "Joint": 150,
     "Navy": 115,
-    "Marines": 77,
-    "Coast Guard": 36
+    "Coast Guard": 30
   },
   "by_command": {
     "SOUTHCOM": 11,
@@ -40,6 +41,246 @@
     "CENTCOM": 1
   },
   "items": [
+    {
+      "id": "image:9639898",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marines with the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:52 UTC",
+      "timestamp": "2026-04-26T11:52:31+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639898/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639898/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7068102286111111,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639896",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "A U.S. Marine with the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:51 UTC",
+      "timestamp": "2026-04-26T11:51:50+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639896/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639896/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7181990997222223,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639897",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marines with the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:51 UTC",
+      "timestamp": "2026-04-26T11:51:06+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639897/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639897/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7304213166666667,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639894",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marines with the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:50 UTC",
+      "timestamp": "2026-04-26T11:50:22+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639894/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639894/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7426435580555556,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639892",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor Graduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marines with the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:49 UTC",
+      "timestamp": "2026-04-26T11:49:35+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639892/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639892/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7556991091666666,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639891",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marine Corps Cpl. Robert O\u2019Garro Jr., a...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:48 UTC",
+      "timestamp": "2026-04-26T11:48:44+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639891/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639891/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7698657541666667,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9639890",
+      "title": "11th MEU\u202fMarines, USS Boxer Sailor\u202fGraduate Corporals Course While\u202fUnderway",
+      "description": "U.S. Marine Corps Cpl. Oliver Lavenson, left, a fire...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "11th Marine Expeditionary Unit",
+      "date_published": "Apr 26, 2026 11:47 UTC",
+      "timestamp": "2026-04-26T11:47:55+00:00",
+      "country": "Pacific Ocean",
+      "state": "",
+      "city": "",
+      "location_display": "Pacific Ocean",
+      "url": "https://www.dvidshub.net/image/9639890/11th-meu-marines-uss-boxer-sailor-graduate-corporals-course-while-underway",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639890/122x92_q95.jpg",
+      "keywords": [
+        "11thMEU",
+        "ARGMEU",
+        "USSBoxer",
+        "BoxerStrong",
+        "AmphibiousForce",
+        "PeaceThroughStrength"
+      ],
+      "credit": "LCpl Nicole Stuart",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 0.7834768822222222,
+      "is_deployment": false
+    },
+    {
+      "id": "image:9640574",
+      "title": "Moroccan special operations forces conduct VBSS training during Flintlock 26",
+      "description": "A Moroccan special operations soldier pulls security...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Special Operations Command Africa",
+      "date_published": "Apr 26, 2026 11:12 UTC",
+      "timestamp": "2026-04-26T11:12:15+00:00",
+      "country": "C\u00f4te D'Ivoire",
+      "state": "",
+      "city": "",
+      "location_display": "C\u00f4te D'Ivoire",
+      "url": "https://www.dvidshub.net/image/9640574/moroccan-special-operations-forces-conduct-vbss-training-during-flintlock-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9640574/122x92_q95.jpg",
+      "keywords": [
+        "SOCOM",
+        "SOCAFRICA",
+        "Flintlock",
+        "C\u00f4te d\u2019Ivoire",
+        "VBSS",
+        "AFRICOM"
+      ],
+      "credit": "PFC Kristina Randall",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 1.3791164158333333,
+      "is_deployment": false
+    },
     {
       "id": "news:563602",
       "title": "Oregon National Guard salutes service at University of Oregon Spring football game",
@@ -67,7 +308,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.8199404372222222,
+      "hours_old": 6.185881770833333,
       "is_deployment": false
     },
     {
@@ -97,7 +338,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991558333334,
+      "hours_old": 6.186060729444445,
       "is_deployment": false
     },
     {
@@ -127,7 +368,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991702777777,
+      "hours_old": 6.186060741666667,
       "is_deployment": false
     },
     {
@@ -157,7 +398,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991780555557,
+      "hours_old": 6.186060747777778,
       "is_deployment": false
     },
     {
@@ -187,7 +428,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991847222223,
+      "hours_old": 6.1860607524999995,
       "is_deployment": false
     },
     {
@@ -217,7 +458,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991900000001,
+      "hours_old": 6.186060756111111,
       "is_deployment": false
     },
     {
@@ -247,7 +488,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200991952777777,
+      "hours_old": 6.186060760277778,
       "is_deployment": false
     },
     {
@@ -277,7 +518,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200992005555555,
+      "hours_old": 6.186060764444444,
       "is_deployment": false
     },
     {
@@ -307,7 +548,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200992055555556,
+      "hours_old": 6.186060767777778,
       "is_deployment": false
     },
     {
@@ -337,7 +578,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200992108333334,
+      "hours_old": 6.186060771944445,
       "is_deployment": false
     },
     {
@@ -367,7 +608,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200992161111111,
+      "hours_old": 6.186060777222222,
       "is_deployment": false
     },
     {
@@ -397,7 +638,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8200992205555556,
+      "hours_old": 6.186060780833333,
       "is_deployment": false
     },
     {
@@ -427,7 +668,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.8203770027777778,
+      "hours_old": 6.186338562222223,
       "is_deployment": false
     },
     {
@@ -450,7 +691,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0164881655555558,
+      "hours_old": 7.382449720833334,
       "is_deployment": false
     },
     {
@@ -478,7 +719,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.01648817,
+      "hours_old": 7.382449724444444,
       "is_deployment": false
     },
     {
@@ -501,7 +742,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.016488176111111,
+      "hours_old": 7.382449728055556,
       "is_deployment": false
     },
     {
@@ -529,7 +770,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0167659583333335,
+      "hours_old": 7.382727508888888,
       "is_deployment": false
     },
     {
@@ -552,7 +793,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0167659630555557,
+      "hours_old": 7.3827275125,
       "is_deployment": false
     },
     {
@@ -580,7 +821,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.017043745,
+      "hours_old": 7.383005293611111,
       "is_deployment": false
     },
     {
@@ -603,7 +844,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0170437494444444,
+      "hours_old": 7.383005297222223,
       "is_deployment": false
     },
     {
@@ -631,7 +872,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0170437575,
+      "hours_old": 7.3830053002777785,
       "is_deployment": false
     },
     {
@@ -656,7 +897,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0404585666666666,
+      "hours_old": 7.406228870277777,
       "is_deployment": false
     },
     {
@@ -679,7 +920,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0404585716666666,
+      "hours_old": 7.406228875,
       "is_deployment": false
     },
     {
@@ -702,7 +943,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0407363538888887,
+      "hours_old": 7.4065066561111115,
       "is_deployment": false
     },
     {
@@ -725,7 +966,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.0410141355555558,
+      "hours_old": 7.406784436944445,
       "is_deployment": false
     },
     {
@@ -755,7 +996,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2076286519444444,
+      "hours_old": 7.573476819722222,
       "is_deployment": false
     },
     {
@@ -785,7 +1026,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2076286658333335,
+      "hours_old": 7.573476830833333,
       "is_deployment": false
     },
     {
@@ -815,7 +1056,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2076286733333332,
+      "hours_old": 7.573476836666667,
       "is_deployment": false
     },
     {
@@ -845,7 +1086,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2079064569444444,
+      "hours_old": 7.573754619166667,
       "is_deployment": false
     },
     {
@@ -875,7 +1116,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.207906462777778,
+      "hours_old": 7.573754623888889,
       "is_deployment": false
     },
     {
@@ -905,7 +1146,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.2079064683333334,
+      "hours_old": 7.573754628055556,
       "is_deployment": false
     },
     {
@@ -935,7 +1176,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.208184251388889,
+      "hours_old": 7.57403241,
       "is_deployment": false
     },
     {
@@ -965,7 +1206,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.208184256388889,
+      "hours_old": 7.5740324136111115,
       "is_deployment": false
     },
     {
@@ -995,7 +1236,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.208462038888889,
+      "hours_old": 7.574310195,
       "is_deployment": false
     },
     {
@@ -1023,7 +1264,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.412680921111111,
+      "hours_old": 7.778451193888889,
       "is_deployment": false
     },
     {
@@ -1051,7 +1292,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.413236471111111,
+      "hours_old": 7.779006745833334,
       "is_deployment": false
     },
     {
@@ -1079,7 +1320,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4137920222222222,
+      "hours_old": 7.779562297777778,
       "is_deployment": false
     },
     {
@@ -1107,7 +1348,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.414625350277778,
+      "hours_old": 7.780395626944444,
       "is_deployment": false
     },
     {
@@ -1135,7 +1376,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.415180757222222,
+      "hours_old": 7.780951061666667,
       "is_deployment": false
     },
     {
@@ -1163,7 +1404,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.416291894722222,
+      "hours_old": 7.782062199444445,
       "is_deployment": false
     },
     {
@@ -1191,7 +1432,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4168474441666663,
+      "hours_old": 7.782617750555556,
       "is_deployment": false
     },
     {
@@ -1219,7 +1460,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.4179585483333335,
+      "hours_old": 7.783728855555555,
       "is_deployment": false
     },
     {
@@ -1249,7 +1490,7 @@
       "duration": 281,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 4.8008378825,
+      "hours_old": 10.166816537222223,
       "is_deployment": false
     },
     {
@@ -1276,7 +1517,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 6.795837740833333,
+      "hours_old": 12.161816420277777,
       "is_deployment": false
     },
     {
@@ -1306,7 +1547,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 7.993349766666667,
+      "hours_old": 13.359077935833332,
       "is_deployment": false
     },
     {
@@ -1333,7 +1574,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 8.045837746944445,
+      "hours_old": 13.411816425555555,
       "is_deployment": false
     },
     {
@@ -1360,7 +1601,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 8.07688491861111,
+      "hours_old": 13.442826243333334,
       "is_deployment": false
     },
     {
@@ -1388,7 +1629,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.602958645833333,
+      "hours_old": 13.968728930277777,
       "is_deployment": false
     },
     {
@@ -1416,7 +1657,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.60323642861111,
+      "hours_old": 13.969006711944445,
       "is_deployment": false
     },
     {
@@ -1444,7 +1685,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.603514210277778,
+      "hours_old": 13.969284493055556,
       "is_deployment": false
     },
     {
@@ -1472,7 +1713,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.603514214444445,
+      "hours_old": 13.96928449611111,
       "is_deployment": false
     },
     {
@@ -1500,7 +1741,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.603791995833333,
+      "hours_old": 13.969562276944444,
       "is_deployment": false
     },
     {
@@ -1528,7 +1769,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.603792000555556,
+      "hours_old": 13.969562280555555,
       "is_deployment": false
     },
     {
@@ -1556,7 +1797,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 8.60379200638889,
+      "hours_old": 13.969562284722223,
       "is_deployment": false
     },
     {
@@ -1584,7 +1825,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.60406978888889,
+      "hours_old": 13.969840066944444,
       "is_deployment": false
     },
     {
@@ -1614,7 +1855,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.613514196666666,
+      "hours_old": 13.979284482777778,
       "is_deployment": false
     },
     {
@@ -1644,7 +1885,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.633236362222222,
+      "hours_old": 13.999006662222223,
       "is_deployment": false
     },
     {
@@ -1674,7 +1915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.633514145833335,
+      "hours_old": 13.999284444444443,
       "is_deployment": false
     },
     {
@@ -1704,7 +1945,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.633514150277778,
+      "hours_old": 13.999284448055556,
       "is_deployment": false
     },
     {
@@ -1734,7 +1975,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 8.633514154722223,
+      "hours_old": 13.999284451388888,
       "is_deployment": false
     },
     {
@@ -1764,7 +2005,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.6337919375,
+      "hours_old": 13.999562233055554,
       "is_deployment": false
     },
     {
@@ -1794,7 +2035,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.6337919425,
+      "hours_old": 13.999562236666668,
       "is_deployment": false
     },
     {
@@ -1824,7 +2065,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.6337919475,
+      "hours_old": 13.999562240277777,
       "is_deployment": false
     },
     {
@@ -1854,7 +2095,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.634069730555556,
+      "hours_old": 13.999840021666666,
       "is_deployment": false
     },
     {
@@ -1884,7 +2125,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.634069734722221,
+      "hours_old": 13.999840025,
       "is_deployment": false
     },
     {
@@ -1914,7 +2155,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.634069738888888,
+      "hours_old": 13.999840028333333,
       "is_deployment": false
     },
     {
@@ -1944,7 +2185,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.63434752111111,
+      "hours_old": 14.000117809444445,
       "is_deployment": false
     },
     {
@@ -1974,7 +2215,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.634347525277777,
+      "hours_old": 14.000117812777777,
       "is_deployment": false
     },
     {
@@ -2002,7 +2243,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 10.10910712138889,
+      "hours_old": 15.475048449722223,
       "is_deployment": false
     },
     {
@@ -2025,7 +2266,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792037222223,
+      "hours_old": 17.42956230888889,
       "is_deployment": false
     },
     {
@@ -2048,7 +2289,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792041666666,
+      "hours_old": 17.42956231277778,
       "is_deployment": false
     },
     {
@@ -2071,7 +2312,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.06379204611111,
+      "hours_old": 17.42956231611111,
       "is_deployment": false
     },
     {
@@ -2094,7 +2335,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792054166667,
+      "hours_old": 17.429562321944445,
       "is_deployment": false
     },
     {
@@ -2117,7 +2358,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792058333332,
+      "hours_old": 17.429562325,
       "is_deployment": false
     },
     {
@@ -2140,7 +2381,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.0637920625,
+      "hours_old": 17.42956232888889,
       "is_deployment": false
     },
     {
@@ -2163,7 +2404,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792066666666,
+      "hours_old": 17.4295623325,
       "is_deployment": false
     },
     {
@@ -2186,7 +2427,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.06379207,
+      "hours_old": 17.429562335277776,
       "is_deployment": false
     },
     {
@@ -2209,7 +2450,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.06379207888889,
+      "hours_old": 17.429562342222223,
       "is_deployment": false
     },
     {
@@ -2232,7 +2473,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792082777777,
+      "hours_old": 17.42956234527778,
       "is_deployment": false
     },
     {
@@ -2255,7 +2496,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.063792091111111,
+      "hours_old": 17.42956234861111,
       "is_deployment": false
     },
     {
@@ -2278,7 +2519,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069828333333,
+      "hours_old": 17.429840096944446,
       "is_deployment": false
     },
     {
@@ -2301,7 +2542,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069852222222,
+      "hours_old": 17.429840116666668,
       "is_deployment": false
     },
     {
@@ -2324,7 +2565,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069874166668,
+      "hours_old": 17.429840129722223,
       "is_deployment": false
     },
     {
@@ -2347,7 +2588,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069878333333,
+      "hours_old": 17.429840133333332,
       "is_deployment": false
     },
     {
@@ -2370,7 +2611,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069883055556,
+      "hours_old": 17.429840136666666,
       "is_deployment": false
     },
     {
@@ -2393,7 +2634,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.064069887222223,
+      "hours_old": 17.429840139722224,
       "is_deployment": false
     },
     {
@@ -2420,7 +2661,7 @@
       "duration": 5566,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 13.081181196944446,
+      "hours_old": 18.446985084166666,
       "is_deployment": false
     },
     {
@@ -2447,7 +2688,7 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 17.513615456666667,
+      "hours_old": 22.87959415111111,
       "is_deployment": false
     },
     {
@@ -2475,7 +2716,7 @@
       "duration": 100,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 18.744726536944444,
+      "hours_old": 24.110705256944446,
       "is_deployment": false
     },
     {
@@ -2503,7 +2744,7 @@
       "duration": 95,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.055560094444445,
+      "hours_old": 27.4215387375,
       "is_deployment": false
     },
     {
@@ -2526,7 +2767,7 @@
       "duration": 96,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.080560199722225,
+      "hours_old": 27.446538803333336,
       "is_deployment": false
     },
     {
@@ -2556,7 +2797,7 @@
       "duration": 143,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.082782412777778,
+      "hours_old": 27.448761018611112,
       "is_deployment": false
     },
     {
@@ -2586,7 +2827,7 @@
       "duration": 215,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.087226847222222,
+      "hours_old": 27.45320545583333,
       "is_deployment": false
     },
     {
@@ -2614,7 +2855,7 @@
       "duration": 237,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.09944876694444,
+      "hours_old": 27.46542747111111,
       "is_deployment": false
     },
     {
@@ -2642,7 +2883,7 @@
       "duration": 232,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.110837669166663,
+      "hours_old": 27.47681634388889,
       "is_deployment": false
     },
     {
@@ -2670,7 +2911,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.274265921666665,
+      "hours_old": 27.640227481666667,
       "is_deployment": false
     },
     {
@@ -2698,7 +2939,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.2773214825,
+      "hours_old": 27.643283041388887,
       "is_deployment": false
     },
     {
@@ -2726,7 +2967,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.29954371,
+      "hours_old": 27.665505267777778,
       "is_deployment": false
     },
     {
@@ -2754,7 +2995,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.30648816,
+      "hours_old": 27.672449716666666,
       "is_deployment": false
     },
     {
@@ -2782,7 +3023,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.668154799444444,
+      "hours_old": 28.034116356944445,
       "is_deployment": false
     },
     {
@@ -2810,7 +3051,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.67398812638889,
+      "hours_old": 28.039949677222225,
       "is_deployment": false
     },
     {
@@ -2838,7 +3079,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.698154805,
+      "hours_old": 28.06411636611111,
       "is_deployment": false
     },
     {
@@ -2866,7 +3107,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.703988119166667,
+      "hours_old": 28.06994969527778,
       "is_deployment": false
     },
     {
@@ -2891,7 +3132,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 26.93021826,
+      "hours_old": 32.296159582777776,
       "is_deployment": false
     },
     {
@@ -2918,7 +3159,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 30.199170955277776,
+      "hours_old": 35.56514966388889,
       "is_deployment": false
     },
     {
@@ -2944,7 +3185,7 @@
       "duration": 6222,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 30.786181272777778,
+      "hours_old": 36.15198514,
       "is_deployment": false
     },
     {
@@ -2973,7 +3214,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.01890534361111,
+      "hours_old": 36.38463350944445,
       "is_deployment": false
     },
     {
@@ -3002,7 +3243,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.173829689444446,
+      "hours_old": 36.53977093305555,
       "is_deployment": false
     },
     {
@@ -3030,30 +3271,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.176329353055557,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9639527",
-      "title": "N&NC Religious Affairs Workshop",
-      "description": "Col. Christopher Archer, senior command chaplain, and a...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Northern Command",
-      "date_published": "Apr 24, 2026 22:49 UTC",
-      "timestamp": "2026-04-24T22:49:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "Colorado City",
-      "location_display": "Colorado City, United States",
-      "url": "https://www.dvidshub.net/image/9639527/nnc-religious-affairs-workshop",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9639527/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "Blake Macias",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 32.39648834027778,
+      "hours_old": 36.54227067972222,
       "is_deployment": false
     },
     {
@@ -3083,7 +3301,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.69469139388889,
+      "hours_old": 38.0605202275,
       "is_deployment": false
     },
     {
@@ -3113,7 +3331,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.71358029694444,
+      "hours_old": 38.07940910027778,
       "is_deployment": true
     },
     {
@@ -3143,7 +3361,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 33.64173683361111,
+      "hours_old": 39.0075407,
       "is_deployment": false
     },
     {
@@ -3171,7 +3389,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 34.190347995833335,
+      "hours_old": 39.55615185305555,
       "is_deployment": false
     },
     {
@@ -3201,7 +3419,7 @@
       "duration": 41,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 34.481181211111114,
+      "hours_old": 39.84698509555556,
       "is_deployment": false
     },
     {
@@ -3227,7 +3445,7 @@
       "duration": 4008,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 34.76334870388889,
+      "hours_old": 40.12921732555556,
       "is_deployment": false
     },
     {
@@ -3257,7 +3475,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.76596210722222,
+      "hours_old": 40.13181028805556,
       "is_deployment": false
     },
     {
@@ -3287,7 +3505,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.76623989083333,
+      "hours_old": 40.13208807083333,
       "is_deployment": false
     },
     {
@@ -3317,7 +3535,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.76623989638889,
+      "hours_old": 40.132088075,
       "is_deployment": false
     },
     {
@@ -3347,7 +3565,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.76651767916667,
+      "hours_old": 40.132365857222226,
       "is_deployment": false
     },
     {
@@ -3377,7 +3595,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 34.76651768333333,
+      "hours_old": 40.13236586027778,
       "is_deployment": false
     },
     {
@@ -3407,7 +3625,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 34.766795466944444,
+      "hours_old": 40.13264364194444,
       "is_deployment": false
     },
     {
@@ -3437,7 +3655,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 34.76679547277777,
+      "hours_old": 40.13264364583334,
       "is_deployment": false
     },
     {
@@ -3460,7 +3678,7 @@
       "duration": 27,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 34.79945979666667,
+      "hours_old": 40.16532842305555,
       "is_deployment": false
     },
     {
@@ -3490,7 +3708,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.987073306666666,
+      "hours_old": 40.352921466944444,
       "is_deployment": false
     },
     {
@@ -3520,7 +3738,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.98735109111111,
+      "hours_old": 40.35319924972222,
       "is_deployment": false
     },
     {
@@ -3550,7 +3768,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.987351096388885,
+      "hours_old": 40.35319925361111,
       "is_deployment": false
     },
     {
@@ -3580,7 +3798,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.98735110111111,
+      "hours_old": 40.353199258055554,
       "is_deployment": false
     },
     {
@@ -3610,97 +3828,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 34.98762888305556,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9638906",
-      "title": "1st Dental Bn. conducts MOUT training during ADALEX 26.3",
-      "description": "A U.S. Navy Sailor with 1st Dental Battalion, 1st Marine...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "1st Marine Logistics Group",
-      "date_published": "Apr 24, 2026 20:13 UTC",
-      "timestamp": "2026-04-24T20:13:43+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Camp Pendleton",
-      "location_display": "Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9638906/1st-dental-bn-conducts-mout-training-during-adalex-263",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9638906/122x92_q95.jpg",
-      "keywords": [
-        "Department of War",
-        "USMCNews",
-        "1st MLG",
-        "USNORTHCOM",
-        "Navy",
-        "ADALEX"
-      ],
-      "credit": "Sgt Mary Torres",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 34.98762888694444,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9638904",
-      "title": "1st Dental Bn. conducts MOUT training during ADALEX 26.3",
-      "description": "U.S. Marine Corps Cpl. Kain Knupple, center, an infantry...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "1st Marine Logistics Group",
-      "date_published": "Apr 24, 2026 20:13 UTC",
-      "timestamp": "2026-04-24T20:13:42+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Camp Pendleton",
-      "location_display": "Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9638904/1st-dental-bn-conducts-mout-training-during-adalex-263",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9638904/122x92_q95.jpg",
-      "keywords": [
-        "Department of War",
-        "USMCNews",
-        "1st MLG",
-        "USNORTHCOM",
-        "Navy",
-        "ADALEX"
-      ],
-      "credit": "Sgt Mary Torres",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 34.987906685,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9638903",
-      "title": "1st Dental Bn. conducts MOUT training during ADALEX 26.3",
-      "description": "U.S. Navy\u202fSailors with 1st Dental Battalion, 1st...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "1st Marine Logistics Group",
-      "date_published": "Apr 24, 2026 20:13 UTC",
-      "timestamp": "2026-04-24T20:13:42+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Camp Pendleton",
-      "location_display": "Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9638903/1st-dental-bn-conducts-mout-training-during-adalex-263",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9638903/122x92_q95.jpg",
-      "keywords": [
-        "Department of War",
-        "USMCNews",
-        "1st MLG",
-        "USNORTHCOM",
-        "Navy",
-        "ADALEX"
-      ],
-      "credit": "Sgt Mary Torres",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 34.98790669,
+      "hours_old": 40.35347703972223,
       "is_deployment": false
     },
     {
@@ -3730,7 +3858,7 @@
       "duration": 242,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.068348747222224,
+      "hours_old": 40.43421735222223,
       "is_deployment": true
     },
     {
@@ -3760,7 +3888,7 @@
       "duration": 212,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.070570975555555,
+      "hours_old": 40.43643958083334,
       "is_deployment": false
     },
     {
@@ -3790,7 +3918,7 @@
       "duration": 423,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.090015476388885,
+      "hours_old": 40.45588406027778,
       "is_deployment": false
     },
     {
@@ -3820,7 +3948,7 @@
       "duration": 242,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.092793183333335,
+      "hours_old": 40.45866181027778,
       "is_deployment": true
     },
     {
@@ -3849,7 +3977,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.740294383333335,
+      "hours_old": 41.10602251638889,
       "is_deployment": false
     },
     {
@@ -3876,7 +4004,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.94029432027778,
+      "hours_old": 41.30602246666667,
       "is_deployment": false
     },
     {
@@ -3899,7 +4027,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.10029424694444,
+      "hours_old": 41.46602240944445,
       "is_deployment": false
     },
     {
@@ -3929,7 +4057,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.331127664166665,
+      "hours_old": 41.69685578638889,
       "is_deployment": false
     },
     {
@@ -3954,7 +4082,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.521795483611115,
+      "hours_old": 41.88764365388889,
       "is_deployment": false
     },
     {
@@ -3977,7 +4105,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.52179548888889,
+      "hours_old": 41.88764365777777,
       "is_deployment": false
     },
     {
@@ -4002,7 +4130,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.52179549388889,
+      "hours_old": 41.88764366166667,
       "is_deployment": false
     },
     {
@@ -4025,7 +4153,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.52179549805555,
+      "hours_old": 41.88764366527778,
       "is_deployment": false
     },
     {
@@ -4050,7 +4178,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.52179550166667,
+      "hours_old": 41.88764366805556,
       "is_deployment": false
     },
     {
@@ -4073,7 +4201,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.52179550555556,
+      "hours_old": 41.887643671111114,
       "is_deployment": false
     },
     {
@@ -4098,7 +4226,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.521795509722224,
+      "hours_old": 41.88764367388889,
       "is_deployment": false
     },
     {
@@ -4121,7 +4249,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.52179552166667,
+      "hours_old": 41.88764368277778,
       "is_deployment": false
     },
     {
@@ -4144,7 +4272,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.522073291388885,
+      "hours_old": 41.88792145472222,
       "is_deployment": false
     },
     {
@@ -4169,7 +4297,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.522073295,
+      "hours_old": 41.887921457500006,
       "is_deployment": false
     },
     {
@@ -4194,7 +4322,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.522073302777784,
+      "hours_old": 41.887921463888894,
       "is_deployment": false
     },
     {
@@ -4224,7 +4352,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.58716272444444,
+      "hours_old": 41.95310404416667,
       "is_deployment": false
     },
     {
@@ -4254,7 +4382,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.58732154,
+      "hours_old": 41.95328308888889,
       "is_deployment": false
     },
     {
@@ -4284,7 +4412,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.58732154777778,
+      "hours_old": 41.95328309333333,
       "is_deployment": false
     },
     {
@@ -4307,7 +4435,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.61307204222223,
+      "hours_old": 41.978800252499994,
       "is_deployment": false
     },
     {
@@ -4335,7 +4463,7 @@
       "duration": 37,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.824737617222226,
+      "hours_old": 42.190606233055554,
       "is_deployment": false
     },
     {
@@ -4362,7 +4490,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 36.963072085,
+      "hours_old": 42.32880020777778,
       "is_deployment": false
     },
     {
@@ -4387,7 +4515,7 @@
       "duration": 800,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 37.099448845,
+      "hours_old": 42.46542754861112,
       "is_deployment": false
     },
     {
@@ -4410,7 +4538,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 37.775016496944446,
+      "hours_old": 43.140744704444444,
       "is_deployment": false
     },
     {
@@ -4439,7 +4567,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.296405550833335,
+      "hours_old": 43.662133668888885,
       "is_deployment": false
     },
     {
@@ -4469,7 +4597,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340377108611115,
+      "hours_old": 43.70633865333333,
       "is_deployment": false
     },
     {
@@ -4499,7 +4627,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34037711444444,
+      "hours_old": 43.706338657500005,
       "is_deployment": false
     },
     {
@@ -4529,7 +4657,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34037711944445,
+      "hours_old": 43.70633866138889,
       "is_deployment": false
     },
     {
@@ -4559,7 +4687,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340377131388884,
+      "hours_old": 43.70633867222222,
       "is_deployment": false
     },
     {
@@ -4589,7 +4717,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34037714555556,
+      "hours_old": 43.706338682777776,
       "is_deployment": false
     },
     {
@@ -4619,7 +4747,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340654901111115,
+      "hours_old": 43.7066164425,
       "is_deployment": false
     },
     {
@@ -4649,7 +4777,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065490527778,
+      "hours_old": 43.706616446666665,
       "is_deployment": false
     },
     {
@@ -4679,7 +4807,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065491444444,
+      "hours_old": 43.70661645416667,
       "is_deployment": false
     },
     {
@@ -4709,7 +4837,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340654918333335,
+      "hours_old": 43.706616457500004,
       "is_deployment": false
     },
     {
@@ -4739,7 +4867,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065492777778,
+      "hours_old": 43.706616464166665,
       "is_deployment": false
     },
     {
@@ -4769,7 +4897,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065493166666,
+      "hours_old": 43.7066164675,
       "is_deployment": false
     },
     {
@@ -4799,7 +4927,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340654935833335,
+      "hours_old": 43.70661647055555,
       "is_deployment": false
     },
     {
@@ -4829,7 +4957,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065494027778,
+      "hours_old": 43.70661647361111,
       "is_deployment": false
     },
     {
@@ -4859,7 +4987,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.340654944166666,
+      "hours_old": 43.70661647666667,
       "is_deployment": false
     },
     {
@@ -4889,7 +5017,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 38.340654985,
+      "hours_old": 43.70661648,
       "is_deployment": false
     },
     {
@@ -4919,7 +5047,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065499,
+      "hours_old": 43.706616483055555,
       "is_deployment": false
     },
     {
@@ -4949,7 +5077,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.34065499416666,
+      "hours_old": 43.70661648666666,
       "is_deployment": false
     },
     {
@@ -4979,7 +5107,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 38.34065499805556,
+      "hours_old": 43.70661649,
       "is_deployment": false
     },
     {
@@ -5009,7 +5137,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.34744051722222,
+      "hours_old": 43.71338185166667,
       "is_deployment": false
     },
     {
@@ -5032,127 +5160,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 38.43438513,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9636739",
-      "title": "13th MEU Marines executes DGSIT",
-      "description": "U.S. Marine Corps Sgt. William Bruce, a network chief...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "13th Marine Expeditionary Unit",
-      "date_published": "Apr 24, 2026 16:18 UTC",
-      "timestamp": "2026-04-24T16:18:16+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9636739/13th-meu-marines-executes-dgsit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9636739/122x92_q95.jpg",
-      "keywords": [
-        "Tech",
-        "13th MEU",
-        "MAGTF",
-        "C4I",
-        "DGSIT",
-        "FromTheSea"
-      ],
-      "credit": "Sgt Michael Virtue",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 38.91179560027778,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9636770",
-      "title": "13th MEU Marines executes DGSIT",
-      "description": "U.S. Marine Corps Lance Cpl. Abraham Hernandez, a ground...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "13th Marine Expeditionary Unit",
-      "date_published": "Apr 24, 2026 16:15 UTC",
-      "timestamp": "2026-04-24T16:15:48+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9636770/13th-meu-marines-executes-dgsit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9636770/122x92_q95.jpg",
-      "keywords": [
-        "Tech",
-        "13th MEU",
-        "MAGTF",
-        "C4I",
-        "DGSIT",
-        "FromTheSea"
-      ],
-      "credit": "Sgt Michael Virtue",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 38.952906696944446,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9636768",
-      "title": "13th MEU Marines executes DGSIT",
-      "description": "U.S. Marine Corps Staff Sgt. Aaron Schrock, a network...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "13th Marine Expeditionary Unit",
-      "date_published": "Apr 24, 2026 16:15 UTC",
-      "timestamp": "2026-04-24T16:15:47+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9636768/13th-meu-marines-executes-dgsit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9636768/122x92_q95.jpg",
-      "keywords": [
-        "Tech",
-        "13th MEU",
-        "MAGTF",
-        "C4I",
-        "DGSIT",
-        "FromTheSea"
-      ],
-      "credit": "Sgt Michael Virtue",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 38.953184479722225,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9636741",
-      "title": "13th MEU Marines executes DGSIT",
-      "description": "U.S. Marines assigned to the 13th Marine Expeditionary...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "13th Marine Expeditionary Unit",
-      "date_published": "Apr 24, 2026 16:15 UTC",
-      "timestamp": "2026-04-24T16:15:47+00:00",
-      "country": "United States",
-      "state": "California",
-      "city": "Marine Corps Base Camp Pendleton",
-      "location_display": "Marine Corps Base Camp Pendleton, California, United States",
-      "url": "https://www.dvidshub.net/image/9636741/13th-meu-marines-executes-dgsit",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9636741/122x92_q95.jpg",
-      "keywords": [
-        "Tech",
-        "13th MEU",
-        "MAGTF",
-        "C4I",
-        "DGSIT",
-        "FromTheSea"
-      ],
-      "credit": "Sgt Michael Virtue",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 38.95318448444444,
+      "hours_old": 43.80032639472222,
       "is_deployment": false
     },
     {
@@ -5177,7 +5185,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.04732166861111,
+      "hours_old": 44.41328316,
       "is_deployment": false
     },
     {
@@ -5202,7 +5210,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.05382942638889,
+      "hours_old": 44.41977073166667,
       "is_deployment": false
     },
     {
@@ -5231,7 +5239,7 @@
       "duration": 263,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 39.09307098805556,
+      "hours_old": 44.45893960777778,
       "is_deployment": false
     },
     {
@@ -5254,7 +5262,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.73946101,
+      "hours_old": 45.10518910305556,
       "is_deployment": false
     },
     {
@@ -5282,7 +5290,7 @@
       "duration": 46,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 39.982504381388885,
+      "hours_old": 45.348483056666666,
       "is_deployment": false
     },
     {
@@ -5307,7 +5315,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.988905366666664,
+      "hours_old": 45.35463352722223,
       "is_deployment": false
     },
     {
@@ -5336,7 +5344,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.11549623166667,
+      "hours_old": 45.48143751111111,
       "is_deployment": false
     },
     {
@@ -5361,7 +5369,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.12938495416666,
+      "hours_old": 45.49532627222222,
       "is_deployment": false
     },
     {
@@ -5384,7 +5392,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.765016671666665,
+      "hours_old": 46.130744765555555,
       "is_deployment": false
     },
     {
@@ -5412,7 +5420,7 @@
       "duration": 165,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.846671085833336,
+      "hours_old": 46.21264974638889,
       "is_deployment": false
     },
     {
@@ -5444,7 +5452,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 41.18722665916667,
+      "hours_old": 46.553205339166674,
       "is_deployment": false
     },
     {
@@ -5470,7 +5478,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 41.786960963055556,
+      "hours_old": 47.15268908972222,
       "is_deployment": false
     },
     {
@@ -5500,7 +5508,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 41.98985103333333,
+      "hours_old": 47.355699205,
       "is_deployment": false
     },
     {
@@ -5530,7 +5538,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 42.01938493555556,
+      "hours_old": 47.385326256944445,
       "is_deployment": false
     },
     {
@@ -5560,7 +5568,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.03707318083333,
+      "hours_old": 47.40292137111111,
       "is_deployment": false
     },
     {
@@ -5590,7 +5598,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.03735096444444,
+      "hours_old": 47.403199153888885,
       "is_deployment": false
     },
     {
@@ -5620,7 +5628,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.03735097055556,
+      "hours_old": 47.40319915861111,
       "is_deployment": false
     },
     {
@@ -5650,7 +5658,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.05346208666666,
+      "hours_old": 47.41931027555555,
       "is_deployment": false
     },
     {
@@ -5680,7 +5688,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.053462097499995,
+      "hours_old": 47.41931027972222,
       "is_deployment": false
     },
     {
@@ -5710,7 +5718,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 42.053739880555554,
+      "hours_old": 47.419588062222225,
       "is_deployment": false
     },
     {
@@ -5737,7 +5745,7 @@
       "duration": 1939,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.1494487475,
+      "hours_old": 47.51542748916667,
       "is_deployment": false
     },
     {
@@ -5768,7 +5776,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 42.185004389444444,
+      "hours_old": 47.55098307055555,
       "is_deployment": false
     },
     {
@@ -5798,7 +5806,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.49596204333333,
+      "hours_old": 47.86181023416666,
       "is_deployment": false
     },
     {
@@ -5828,7 +5836,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.49623982916667,
+      "hours_old": 47.862088022222224,
       "is_deployment": false
     },
     {
@@ -5858,7 +5866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.496239835555556,
+      "hours_old": 47.86208802722222,
       "is_deployment": false
     },
     {
@@ -5888,7 +5896,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 42.496239841666664,
+      "hours_old": 47.86208803277778,
       "is_deployment": false
     },
     {
@@ -5913,7 +5921,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.82645902611111,
+      "hours_old": 48.19226289722222,
       "is_deployment": false
     },
     {
@@ -5938,7 +5946,7 @@
       "duration": 109,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.97000452,
+      "hours_old": 48.33598321138889,
       "is_deployment": true
     },
     {
@@ -5961,7 +5969,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 43.25168317333333,
+      "hours_old": 48.61741133305556,
       "is_deployment": false
     },
     {
@@ -5984,7 +5992,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 45.48160726583333,
+      "hours_old": 50.847548555555555,
       "is_deployment": false
     },
     {
@@ -6014,7 +6022,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.301671094999996,
+      "hours_old": 51.66764977722222,
       "is_deployment": false
     },
     {
@@ -6044,7 +6052,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.93216274833333,
+      "hours_old": 52.298104055555555,
       "is_deployment": false
     },
     {
@@ -6073,7 +6081,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.50802475666667,
+      "hours_old": 53.87385356805556,
       "is_deployment": false
     },
     {
@@ -6098,173 +6106,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.226671018611114,
-      "is_deployment": false
-    },
-    {
-      "id": "video:1003803",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "Parajumpers assigned to the U.S. Air Force 31st Rescue Squadron jump from an Air Force 36th Airlift Squadron C-130 Hercules airplane and rendezvous with the crew of fast response cutter USCGC Frederick Hatch (WPC 1143) to examine the capsized vessel Mariana northeast of Pagan April 19, 2026. The parajumpers conducted dive operations to evaluate the\u202fMariana\u2019s exterior and used an underwater remotely operated drone to search the interior of the vessel.\u00a0(U.S. Coast Guard video, courtesy Cutter Fred...",
-      "type": "video",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:16 UTC",
-      "timestamp": "2026-04-24T03:16:06+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/video/1003803/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2604/1003803/DOD_111652549.0000001/122x92_q95.jpg",
-      "keywords": [
-        "FRC",
-        "capsized",
-        "31st Rescue Squadron",
-        "Parajumpers",
-        "Frederick Hatch",
-        "search"
-      ],
-      "credit": "",
-      "duration": 54,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 51.948552521111104,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9637165",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "Parajumpers assigned to the U.S. Air Force 31st Rescue...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:14 UTC",
-      "timestamp": "2026-04-24T03:14:22+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9637165/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9637165/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 51.97728414944444,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9637163",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "A parajumper assigned to the U.S. Air Force 31st Rescue...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:14 UTC",
-      "timestamp": "2026-04-24T03:14:22+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9637163/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9637163/122x92_q95.jpg",
-      "keywords": [
-        "Mariana",
-        "31st Rescue Squadron",
-        "parajumper",
-        "SAR",
-        "search",
-        "parachute"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 51.97728415416667,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9637159",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "U.S. Coast Guardsmen assigned to the fast response...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:14 UTC",
-      "timestamp": "2026-04-24T03:14:22+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9637159/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9637159/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 51.977284159444444,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9637158",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "U.S. Coast Guardsmen assigned to the fast response...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:14 UTC",
-      "timestamp": "2026-04-24T03:14:22+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9637158/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9637158/122x92_q95.jpg",
-      "keywords": [
-        "Mariana",
-        "FRC",
-        "capsized",
-        "31st Rescue Squadron",
-        "Parajumpers",
-        "search"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 51.97728416361111,
-      "is_deployment": false
-    },
-    {
-      "id": "image:9637157",
-      "title": "U.S. Coast Guard, partners search for crew of capsized vessel offshore Saipan",
-      "description": "An HC-130 Hercules airplane crew assigned to U.S. Coast...",
-      "type": "image",
-      "branch": "Coast Guard",
-      "unit_name": "U.S. Coast Guard Oceania",
-      "date_published": "Apr 24, 2026 03:14 UTC",
-      "timestamp": "2026-04-24T03:14:22+00:00",
-      "country": "Pacific Ocean",
-      "state": "",
-      "city": "",
-      "location_display": "Pacific Ocean",
-      "url": "https://www.dvidshub.net/image/9637157/us-coast-guard-partners-search-crew-capsized-vessel-offshore-saipan",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9637157/122x92_q95.jpg",
-      "keywords": [
-        "HC-130",
-        "FRC",
-        "capsized",
-        "31st Rescue Squadron",
-        "Parajumpers",
-        "search"
-      ],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 51.97728416861111,
+      "hours_old": 55.59264971638889,
       "is_deployment": false
     },
     {
@@ -6294,7 +6136,7 @@
       "duration": 122,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.01549693416666,
+      "hours_old": 59.381429972499994,
       "is_deployment": false
     },
     {
@@ -6321,7 +6163,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.354107475,
+      "hours_old": 59.72004871666667,
       "is_deployment": false
     },
     {
@@ -6350,7 +6192,7 @@
       "duration": 232,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.74279324388889,
+      "hours_old": 62.1086618225,
       "is_deployment": false
     },
     {
@@ -6383,7 +6225,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 57.04521917583334,
+      "hours_old": 62.41115221194444,
       "is_deployment": false
     },
     {
@@ -6413,7 +6255,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.11946101694445,
+      "hours_old": 62.48518915583333,
       "is_deployment": false
     },
     {
@@ -6444,7 +6286,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 57.66473760416667,
+      "hours_old": 63.03060622305556,
       "is_deployment": false
     },
     {
@@ -6476,7 +6318,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 57.83561735055556,
+      "hours_old": 63.20152867694444,
       "is_deployment": false
     },
     {
@@ -6508,7 +6350,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 57.83561735888889,
+      "hours_old": 63.20152868333333,
       "is_deployment": false
     },
     {
@@ -6540,7 +6382,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 58.11478400138889,
+      "hours_old": 63.480695330833335,
       "is_deployment": false
     },
     {
@@ -6568,7 +6410,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.47660721527778,
+      "hours_old": 63.84254852555556,
       "is_deployment": false
     },
     {
@@ -6591,7 +6433,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.48021838861111,
+      "hours_old": 63.846159675,
       "is_deployment": false
     },
     {
@@ -6618,7 +6460,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.560773966944446,
+      "hours_old": 63.926715252222216,
       "is_deployment": false
     },
     {
@@ -6645,7 +6487,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 58.979969214722225,
+      "hours_old": 64.34579802833333,
       "is_deployment": false
     },
     {
@@ -6670,7 +6512,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.08994056138889,
+      "hours_old": 64.45588186777778,
       "is_deployment": false
     },
     {
@@ -6699,7 +6541,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.255572183055556,
+      "hours_old": 64.62130031027777,
       "is_deployment": false
     },
     {
@@ -6728,7 +6570,7 @@
       "duration": 42,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 60.16501554,
+      "hours_old": 65.53088408777778,
       "is_deployment": false
     },
     {
@@ -6754,7 +6596,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.20521842,
+      "hours_old": 65.57115971444445,
       "is_deployment": false
     },
     {
@@ -6782,7 +6624,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.300218398055556,
+      "hours_old": 65.66615968555556,
       "is_deployment": false
     },
     {
@@ -6810,7 +6652,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.45362773027778,
+      "hours_old": 65.81935585944444,
       "is_deployment": false
     },
     {
@@ -6836,7 +6678,7 @@
       "duration": 108,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 60.59784789527778,
+      "hours_old": 65.96365177555555,
       "is_deployment": false
     },
     {
@@ -6866,7 +6708,7 @@
       "duration": 307,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 60.728125685833334,
+      "hours_old": 66.09392957222222,
       "is_deployment": false
     },
     {
@@ -6895,7 +6737,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.733627704722224,
+      "hours_old": 66.09935583916666,
       "is_deployment": false
     },
     {
@@ -6925,7 +6767,7 @@
       "duration": 295,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 60.84223776972222,
+      "hours_old": 66.2081063375,
       "is_deployment": true
     },
     {
@@ -6955,7 +6797,7 @@
       "duration": 190,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 60.84751548638889,
+      "hours_old": 66.21338406777777,
       "is_deployment": true
     },
     {
@@ -6984,7 +6826,7 @@
       "duration": 119,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 61.09944881444444,
+      "hours_old": 66.46542754083333,
       "is_deployment": false
     },
     {
@@ -7009,7 +6851,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.86077390444445,
+      "hours_old": 67.22671520888889,
       "is_deployment": false
     },
     {
@@ -7039,7 +6881,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 61.97362775194444,
+      "hours_old": 67.3393558836111,
       "is_deployment": false
     },
     {
@@ -7064,7 +6906,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 62.51418331805555,
+      "hours_old": 67.87991145388888,
       "is_deployment": false
     },
     {
@@ -7094,7 +6936,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 62.60188511333334,
+      "hours_old": 67.96782637555556,
       "is_deployment": false
     },
     {
@@ -7124,7 +6966,7 @@
       "duration": 133,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.72445997527778,
+      "hours_old": 68.0903285525,
       "is_deployment": false
     },
     {
@@ -7153,7 +6995,7 @@
       "duration": 425,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.77084878944444,
+      "hours_old": 68.13671737083334,
       "is_deployment": false
     },
     {
@@ -7180,7 +7022,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 63.272163014444445,
+      "hours_old": 68.63810423833334,
       "is_deployment": false
     },
     {
@@ -7210,7 +7052,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.04302480222222,
+      "hours_old": 69.40885360805555,
       "is_deployment": false
     },
     {
@@ -7240,7 +7082,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.11744065166667,
+      "hours_old": 69.4833819436111,
       "is_deployment": false
     },
     {
@@ -7269,7 +7111,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.92132961333333,
+      "hours_old": 70.28727087305556,
       "is_deployment": false
     },
     {
@@ -7297,7 +7139,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.38327399361111,
+      "hours_old": 70.74921525805556,
       "is_deployment": false
     },
     {
@@ -7327,7 +7169,36 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.61751680638889,
+      "hours_old": 70.98324488777779,
+      "is_deployment": false
+    },
+    {
+      "id": "news:563269",
+      "title": "Unseen guests in your kitchen: A military family's guide to decrease forever chemicals like PFAS, microplastics",
+      "description": "Microplastics and a class of chemicals called per- and polyfluoroalkyl substances, or PFAS, are widespread, but with a little know-how, you can significantly reduce your family's exposure and make your kitchen an even safer haven.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Defense Health Agency",
+      "date_published": "Apr 23, 2026 13:01 UTC",
+      "timestamp": "2026-04-23T13:01:08+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/news/563269/unseen-guests-your-kitchen-military-familys-guide-decrease-forever-chemicals-like-pfas-microplastics",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9630296/122x92_q95.jpg",
+      "keywords": [
+        "microplastics",
+        "PFAS",
+        "Defense Health Agency-Public Health",
+        "tea bags",
+        "cutting boards"
+      ],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 71.56421544666667,
       "is_deployment": false
     },
     {
@@ -7354,7 +7225,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 66.60890547194444,
+      "hours_old": 71.97463360833333,
       "is_deployment": false
     },
     {
@@ -7383,7 +7254,7 @@
       "duration": 130,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.149448805,
+      "hours_old": 72.51542750722223,
       "is_deployment": false
     },
     {
@@ -7411,7 +7282,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.26549613305556,
+      "hours_old": 73.6314374363889,
       "is_deployment": false
     },
     {
@@ -7441,7 +7312,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.66441366722222,
+      "hours_old": 74.0302424788889,
       "is_deployment": false
     },
     {
@@ -7467,7 +7338,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.61223891611111,
+      "hours_old": 75.97796702777778,
       "is_deployment": true
     },
     {
@@ -7494,7 +7365,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 72.44145906444444,
+      "hours_old": 77.80726292944443,
       "is_deployment": true
     },
     {
@@ -7519,7 +7390,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 72.44173687861111,
+      "hours_old": 77.80754072972222,
       "is_deployment": false
     },
     {
@@ -7544,7 +7415,7 @@
       "duration": 158,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 72.44340353749999,
+      "hours_old": 77.80920740250001,
       "is_deployment": false
     },
     {
@@ -7569,7 +7440,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 72.87168335444444,
+      "hours_old": 78.23741146722222,
       "is_deployment": false
     },
     {
@@ -7592,7 +7463,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 75.62257019055556,
+      "hours_old": 80.98837405222223,
       "is_deployment": false
     },
     {
@@ -7617,7 +7488,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 77.0100701838889,
+      "hours_old": 82.37587404694443,
       "is_deployment": false
     },
     {
@@ -7646,7 +7517,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 78.07132958055557,
+      "hours_old": 83.43727085222221,
       "is_deployment": false
     },
     {
@@ -7677,7 +7548,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 79.58029449583334,
+      "hours_old": 84.94602259527777,
       "is_deployment": false
     },
     {
@@ -7709,7 +7580,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 80.20244075750001,
+      "hours_old": 85.56838200972221,
       "is_deployment": false
     },
     {
@@ -7739,7 +7610,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 80.33052479444446,
+      "hours_old": 85.6963535963889,
       "is_deployment": false
     },
     {
@@ -7762,7 +7633,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 80.43073533305555,
+      "hours_old": 85.79662641833333,
       "is_deployment": false
     },
     {
@@ -7791,7 +7662,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 80.91744076555555,
+      "hours_old": 86.28338203638889,
       "is_deployment": false
     },
     {
@@ -7816,7 +7687,7 @@
       "duration": 3161,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 81.34944897222223,
+      "hours_old": 86.71542763944446,
       "is_deployment": false
     },
     {
@@ -7841,7 +7712,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 81.98660740472222,
+      "hours_old": 87.3525486613889,
       "is_deployment": false
     },
     {
@@ -7868,7 +7739,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.24744078500001,
+      "hours_old": 87.61338203055556,
       "is_deployment": false
     },
     {
@@ -7898,7 +7769,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.37216292555556,
+      "hours_old": 87.73810419083334,
       "is_deployment": false
     },
     {
@@ -7926,7 +7797,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 84.81307223583335,
+      "hours_old": 90.17880035055555,
       "is_deployment": false
     },
     {
@@ -7951,7 +7822,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 85.04807226416666,
+      "hours_old": 90.41380038194444,
       "is_deployment": false
     },
     {
@@ -7981,7 +7852,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 85.14494071444445,
+      "hours_old": 90.51088197694445,
       "is_deployment": false
     },
     {
@@ -8010,7 +7881,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 85.14944900277777,
+      "hours_old": 90.51542763361111,
       "is_deployment": false
     },
     {
@@ -8035,7 +7906,7 @@
       "duration": 39,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 85.97229237472223,
+      "hours_old": 91.33809624416666,
       "is_deployment": false
     },
     {
@@ -8058,7 +7929,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 86.93145077305554,
+      "hours_old": 92.29736207583333,
       "is_deployment": false
     },
     {
@@ -8083,7 +7954,7 @@
       "duration": 58,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.17250451027778,
+      "hours_old": 92.53848312555556,
       "is_deployment": false
     },
     {
@@ -8108,7 +7979,7 @@
       "duration": 70,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 87.81583782694445,
+      "hours_old": 93.18181650222222,
       "is_deployment": false
     },
     {
@@ -8133,7 +8004,7 @@
       "duration": 95,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 87.81583783111111,
+      "hours_old": 93.18181650527777,
       "is_deployment": false
     },
     {
@@ -8158,7 +8029,7 @@
       "duration": 96,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 87.81583783527778,
+      "hours_old": 93.1818165088889,
       "is_deployment": false
     },
     {
@@ -8183,7 +8054,7 @@
       "duration": 82,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 87.81611561722222,
+      "hours_old": 93.18209428972222,
       "is_deployment": false
     },
     {
@@ -8211,38 +8082,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.09244074805555,
-      "is_deployment": false
-    },
-    {
-      "id": "news:563327",
-      "title": "US SOF and allies train for arctic warfare",
-      "description": "NATO and partner forces trained in harsh Arctic conditions while strengthening collective defense and deterrence in the High North.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Special Operations Command Europe",
-      "date_published": "Apr 22, 2026 14:53 UTC",
-      "timestamp": "2026-04-22T14:53:33+00:00",
-      "country": "Germany",
-      "state": "Rheinland-Pfalz",
-      "city": "Baumholder",
-      "location_display": "Baumholder, Germany",
-      "url": "https://www.dvidshub.net/news/563327/us-sof-and-allies-train-arctic-warfare",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9593532/122x92_q95.jpg",
-      "keywords": [
-        "SOF",
-        "SOCEUR",
-        "COLD RESPONSE",
-        "NATO",
-        "Bison2026",
-        "CORE 26",
-        "IBS26"
-      ],
-      "credit": "CPT Christopher Booker",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 88.32466312666666,
+      "hours_old": 93.45838200222222,
       "is_deployment": false
     },
     {
@@ -8267,7 +8107,7 @@
       "duration": 117,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.4533377811111,
+      "hours_old": 93.8193164663889,
       "is_deployment": false
     },
     {
@@ -8292,7 +8132,7 @@
       "duration": 59,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45361556333333,
+      "hours_old": 93.81959424749999,
       "is_deployment": false
     },
     {
@@ -8317,7 +8157,7 @@
       "duration": 39,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45361556722222,
+      "hours_old": 93.81959425083335,
       "is_deployment": false
     },
     {
@@ -8342,7 +8182,7 @@
       "duration": 68,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45361557138888,
+      "hours_old": 93.8195942538889,
       "is_deployment": false
     },
     {
@@ -8367,7 +8207,7 @@
       "duration": 76,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45389335361111,
+      "hours_old": 93.819872035,
       "is_deployment": false
     },
     {
@@ -8392,7 +8232,7 @@
       "duration": 33,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45389335750001,
+      "hours_old": 93.81987203833333,
       "is_deployment": false
     },
     {
@@ -8417,7 +8257,7 @@
       "duration": 28,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45417113944445,
+      "hours_old": 93.82014981944444,
       "is_deployment": false
     },
     {
@@ -8442,7 +8282,7 @@
       "duration": 51,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45417114361112,
+      "hours_old": 93.8201498225,
       "is_deployment": false
     },
     {
@@ -8467,7 +8307,7 @@
       "duration": 36,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45417114805556,
+      "hours_old": 93.82014982583333,
       "is_deployment": false
     },
     {
@@ -8492,7 +8332,7 @@
       "duration": 34,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.45444892972223,
+      "hours_old": 93.82042760694445,
       "is_deployment": false
     },
     {
@@ -8517,7 +8357,7 @@
       "duration": 34,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 88.4544489338889,
+      "hours_old": 93.82042761,
       "is_deployment": false
     },
     {
@@ -8544,7 +8384,7 @@
       "duration": 47,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 88.74584883388889,
+      "hours_old": 94.11171741194444,
       "is_deployment": false
     },
     {
@@ -8573,7 +8413,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.78302478666666,
+      "hours_old": 94.14885360250001,
       "is_deployment": false
     },
     {
@@ -8596,7 +8436,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.79918336944445,
+      "hours_old": 94.16491147944446,
       "is_deployment": false
     },
     {
@@ -8625,7 +8465,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.12946123666667,
+      "hours_old": 94.49518932666666,
       "is_deployment": false
     },
     {
@@ -8655,7 +8495,7 @@
       "duration": 123,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.53973773472222,
+      "hours_old": 96.90560631583334,
       "is_deployment": false
     },
     {
@@ -8685,7 +8525,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.61994077472221,
+      "hours_old": 96.98588202277777,
       "is_deployment": false
     },
     {
@@ -8710,7 +8550,7 @@
       "duration": 190,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.65307107805556,
+      "hours_old": 97.01893965694444,
       "is_deployment": false
     },
     {
@@ -8740,7 +8580,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 93.3644491075,
+      "hours_old": 98.73042773472223,
       "is_deployment": false
     },
     {
@@ -8763,7 +8603,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.0816073975,
+      "hours_old": 99.44754865611111,
       "is_deployment": false
     },
     {
@@ -8792,7 +8632,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.70601313055556,
+      "hours_old": 100.07190421194444,
       "is_deployment": false
     },
     {
@@ -8815,7 +8655,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.72839520611112,
+      "hours_old": 100.09430651194445,
       "is_deployment": false
     },
     {
@@ -8844,7 +8684,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.72839521083334,
+      "hours_old": 100.094306515,
       "is_deployment": false
     },
     {
@@ -8867,7 +8707,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.73478403611112,
+      "hours_old": 100.10069535527778,
       "is_deployment": false
     },
     {
@@ -8896,7 +8736,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.73506182027779,
+      "hours_old": 100.10097313777779,
       "is_deployment": false
     },
     {
@@ -8919,7 +8759,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.7350618275,
+      "hours_old": 100.10097314333333,
       "is_deployment": false
     },
     {
@@ -8942,7 +8782,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.73533961,
+      "hours_old": 100.10125092472224,
       "is_deployment": false
     },
     {
@@ -8971,7 +8811,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73533961472222,
+      "hours_old": 100.10125092833334,
       "is_deployment": false
     },
     {
@@ -9000,7 +8840,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73533966722222,
+      "hours_old": 100.10125096888889,
       "is_deployment": false
     },
     {
@@ -9023,7 +8863,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73561739722221,
+      "hours_old": 100.10152871,
       "is_deployment": false
     },
     {
@@ -9052,7 +8892,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73561740138888,
+      "hours_old": 100.10152871333332,
       "is_deployment": false
     },
     {
@@ -9075,7 +8915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73561740583332,
+      "hours_old": 100.10152871666666,
       "is_deployment": false
     },
     {
@@ -9104,7 +8944,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.73589519027777,
+      "hours_old": 100.10180649972222,
       "is_deployment": false
     },
     {
@@ -9127,7 +8967,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 94.73589519638888,
+      "hours_old": 100.10180650444444,
       "is_deployment": false
     },
     {
@@ -9156,7 +8996,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 94.73617297916667,
+      "hours_old": 100.10208428611111,
       "is_deployment": false
     },
     {
@@ -9181,7 +9021,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.64001675472223,
+      "hours_old": 102.0057448536111,
       "is_deployment": false
     },
     {
@@ -9210,7 +9050,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 101.09140571638888,
+      "hours_old": 106.45713379527778,
       "is_deployment": false
     },
     {
@@ -9235,7 +9075,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 102.7377185936111,
+      "hours_old": 108.1036598338889,
       "is_deployment": false
     },
     {
@@ -9262,7 +9102,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 103.51111567638888,
+      "hours_old": 108.87709433472222,
       "is_deployment": false
     },
     {
@@ -9285,7 +9125,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.86251677305556,
+      "hours_old": 110.22824486694444,
       "is_deployment": false
     },
     {
@@ -9312,7 +9152,7 @@
       "duration": 3500,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 105.03250465222222,
+      "hours_old": 110.3984832538889,
       "is_deployment": false
     },
     {
@@ -9335,7 +9175,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 105.53946117416666,
+      "hours_old": 110.90518927805556,
       "is_deployment": false
     },
     {
@@ -9360,7 +9200,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 105.79168340472222,
+      "hours_old": 111.15741150666668,
       "is_deployment": false
     },
     {
@@ -9391,7 +9231,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 106.30021867305557,
+      "hours_old": 111.66615990194445,
       "is_deployment": false
     },
     {
@@ -9419,7 +9259,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.42632971611111,
+      "hours_old": 111.79227095472223,
       "is_deployment": false
     },
     {
@@ -9447,7 +9287,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 106.46029452388889,
+      "hours_old": 111.82602262388889,
       "is_deployment": false
     },
     {
@@ -9474,7 +9314,7 @@
       "duration": 4127,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 106.79556014083335,
+      "hours_old": 112.16153882666667,
       "is_deployment": false
     },
     {
@@ -9506,7 +9346,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 106.86611568111111,
+      "hours_old": 112.23209432916667,
       "is_deployment": false
     },
     {
@@ -9536,7 +9376,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 107.90494086944445,
+      "hours_old": 113.27088209833333,
       "is_deployment": false
     },
     {
@@ -9564,7 +9404,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 107.95771862777778,
+      "hours_old": 113.32365986166667,
       "is_deployment": false
     },
     {
@@ -9592,7 +9432,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 108.26501679944445,
+      "hours_old": 113.630744895,
       "is_deployment": false
     },
     {
@@ -9622,7 +9462,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 108.51994083972222,
+      "hours_old": 113.88588207583332,
       "is_deployment": false
     },
     {
@@ -9649,7 +9489,7 @@
       "duration": 5209,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 109.11611571527779,
+      "hours_old": 114.48209437361112,
       "is_deployment": false
     },
     {
@@ -9674,7 +9514,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 109.33021866666667,
+      "hours_old": 114.69615989694445,
       "is_deployment": false
     },
     {
@@ -9704,7 +9544,7 @@
       "duration": 150,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 109.65806013277778,
+      "hours_old": 115.02403878277778,
       "is_deployment": false
     },
     {
@@ -9733,7 +9573,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 109.87889348583333,
+      "hours_old": 115.24487216694443,
       "is_deployment": false
     },
     {
@@ -9756,7 +9596,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 110.61946122583333,
+      "hours_old": 115.98518931861112,
       "is_deployment": false
     },
     {
@@ -9781,7 +9621,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 111.19882975166666,
+      "hours_old": 116.56477098222221,
       "is_deployment": false
     },
     {
@@ -9809,7 +9649,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 111.54855199111111,
+      "hours_old": 116.9144932175,
       "is_deployment": false
     },
     {
@@ -9836,7 +9676,7 @@
       "duration": 2746,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 111.87917128277778,
+      "hours_old": 117.24514995,
       "is_deployment": false
     },
     {
@@ -9861,7 +9701,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 112.25132979944443,
+      "hours_old": 117.61727102055555,
       "is_deployment": false
     },
     {
@@ -9888,7 +9728,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 112.5450167636111,
+      "hours_old": 117.91074486055555,
       "is_deployment": false
     },
     {
@@ -9913,37 +9753,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 112.81862802,
-      "is_deployment": false
-    },
-    {
-      "id": "news:563201",
-      "title": "Shore Boss Recognizes Fuel Management Excellence at Inaugural Awards Ceremony",
-      "description": "ARLINGTON, Va. (April 20, 2026) \u2013 Commander, Navy Installations Command (CNIC) today hosted the inaugural Navy Fuel Management Excellence Awards, recognizing the top individuals and teams for their outstanding contributions to Navy readiness and fuel operations. The ceremony was held during the DLA Energy Worldwide Energy Symposium at the Hyatt Regency in Crystal City.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Commander, Navy Installations Command",
-      "date_published": "Apr 21, 2026 10:37 UTC",
-      "timestamp": "2026-04-21T10:37:43+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "",
-      "location_display": "District of Columbia, United States",
-      "url": "https://www.dvidshub.net/news/563201/shore-boss-recognizes-fuel-management-excellence-inaugural-awards-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9628889/122x92_q95.jpg",
-      "keywords": [
-        "Navy Region Northwest",
-        "Navy Region Mid-Atlantic",
-        "Naval Air Station Oceana",
-        "Naval Region Japan",
-        "CNIC",
-        "Navy Fuel Management Excellence Awards"
-      ],
-      "credit": "CPO Janweb Lagazo",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 116.58696136055556,
+      "hours_old": 118.1843560825,
       "is_deployment": false
     },
     {
@@ -9968,7 +9778,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.52545760333332,
+      "hours_old": 132.89134867888887,
       "is_deployment": true
     },
     {
@@ -9997,7 +9807,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.13918351527778,
+      "hours_old": 133.5049115888889,
       "is_deployment": false
     },
     {
@@ -10027,7 +9837,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.48335021166668,
+      "hours_old": 133.8490782786111,
       "is_deployment": false
     },
     {
@@ -10050,7 +9860,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.03418355222223,
+      "hours_old": 135.39991161833333,
       "is_deployment": false
     },
     {
@@ -10077,7 +9887,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.110294675,
+      "hours_old": 135.47602274083334,
       "is_deployment": false
     },
     {
@@ -10107,7 +9917,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.82085015166666,
+      "hours_old": 137.1865782338889,
       "is_deployment": false
     },
     {
@@ -10136,7 +9946,36 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 132.85140575805556,
+      "hours_old": 138.21713382722223,
+      "is_deployment": false
+    },
+    {
+      "id": "news:563125",
+      "title": "Naval Medical Center Camp Lejeune promotes military-civilian research partnerships",
+      "description": "CAMP LEJEUNE, N.C. \u2013 Naval Medical Center Camp Lejeune\u2019s Annual Research Symposium highlights the importance of military-civilian partnerships in the realms of medical and dental research. The symposium, held on April 16, 2026, is in its 16th year of showcasing academic endeavors of medical and dental personnel, both military and civilian throughout Eastern and Coastal North Carolina.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval Medical Center Camp Lejeune",
+      "date_published": "Apr 20, 2026 18:06 UTC",
+      "timestamp": "2026-04-20T18:06:35+00:00",
+      "country": "United States",
+      "state": "North Carolina",
+      "city": "Camp Lejeune",
+      "location_display": "Camp Lejeune, North Carolina, United States",
+      "url": "https://www.dvidshub.net/news/563125/naval-medical-center-camp-lejeune-promotes-military-civilian-research-partnerships",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2604/9627252/122x92_q95.jpg",
+      "keywords": [
+        "partnerships",
+        "navy-medicine",
+        "nmccl",
+        "defense-health--agency",
+        "research"
+      ],
+      "credit": "Riley Eversull",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 138.47157831055554,
       "is_deployment": false
     },
     {
@@ -10162,7 +10001,7 @@
       "duration": 80,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 136.34201464166665,
+      "hours_old": 141.70781850166668,
       "is_deployment": false
     },
     {
@@ -10187,7 +10026,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 136.82746925972222,
+      "hours_old": 142.19329805972222,
       "is_deployment": false
     },
     {
@@ -10212,7 +10051,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.00085016833333,
+      "hours_old": 144.366578245,
       "is_deployment": false
     },
     {
@@ -10238,7 +10077,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.595850175,
+      "hours_old": 144.9615782502778,
       "is_deployment": false
     },
     {
@@ -10267,7 +10106,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 144.01307241583334,
+      "hours_old": 149.37880048638888,
       "is_deployment": false
     },
     {
@@ -10297,7 +10136,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 145.9951798125,
+      "hours_old": 151.36107089083333,
       "is_deployment": false
     },
     {
@@ -10328,7 +10167,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 146.06256189444446,
+      "hours_old": 151.428473195,
       "is_deployment": false
     },
     {
@@ -10359,7 +10198,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 146.06283967777776,
+      "hours_old": 151.42875097722222,
       "is_deployment": false
     },
     {
@@ -10382,7 +10221,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 146.06283968333332,
+      "hours_old": 151.42875098166667,
       "is_deployment": false
     },
     {
@@ -10413,7 +10252,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 146.06283968833333,
+      "hours_old": 151.42875098583335,
       "is_deployment": false
     },
     {
@@ -10436,7 +10275,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 146.0631174736111,
+      "hours_old": 151.4290287675,
       "is_deployment": false
     },
     {
@@ -10467,7 +10306,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 146.06311747805555,
+      "hours_old": 151.42902877111112,
       "is_deployment": false
     }
   ]
