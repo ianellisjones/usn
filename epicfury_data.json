@@ -1,9 +1,24 @@
 {
-  "generated": "2026-04-29T18:07:24.075237+00:00",
+  "generated": "2026-04-30T07:27:08.538190+00:00",
   "news_count": 0,
   "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1004476",
+      "title": "USNS Robert E. Peary Enables 4th Fleet Combat Readiness with 154-Day Deployment",
+      "desc": "NORFOLK – The U.S. Navy’s Lewis and Clark-class dry cargo ship USNS Robert E. Peary (T-AKE-5) returns to homeport at Naval Station Norfolk, April 29, 2026. Operated by Military Sealift Command Atlantic (MSCLANT), Peary completed a five-month deployment in 4th Fleet’s area of operation, in support of",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "USN Military Sealift Command",
+      "timestamp": "2026-04-29T18:09:10+00:00",
+      "url": "https://www.dvidshub.net/video/1004476/usns-robert-e-peary-enables-4th-fleet-combat-readiness-with-154-day-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:563798",
       "title": "192nd MPs deploy in support of Operation Epic Fury",
@@ -31,21 +46,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:563771",
-      "title": "17 Nations Complete Visit, Board, Search and Seizure Training in Senegal",
-      "desc": "Naval forces from 17 nations executed Visit, Board, Search, and Seizure (VBSS) operations in Senegal as part of Exercise Obangame Express 2026, a multinational effort aimed at strengthening maritime security in West African waters.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-04-28T16:10:35+00:00",
-      "url": "https://www.dvidshub.net/news/563771/17-nations-complete-visit-board-search-and-seizure-training-senegal",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
