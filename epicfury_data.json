@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-30T18:04:01.523671+00:00",
+  "generated": "2026-05-01T07:25:02.495316+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -20,62 +20,32 @@
       "location_display": ""
     },
     {
-      "id": "image:9649708",
-      "title": "USS Thomas Hudner (DDG 116) Conducts Flight Operations",
-      "desc": "An MH-60R Sea Hawk helicopter, assigned to Helicopter...",
-      "type": "image",
+      "id": "video:1004476",
+      "title": "USNS Robert E. Peary Enables 4th Fleet Combat Readiness with 154-Day Deployment",
+      "desc": "NORFOLK – The U.S. Navy’s Lewis and Clark-class dry cargo ship USNS Robert E. Peary (T-AKE-5) returns to homeport at Naval Station Norfolk, April 29, 2026. Operated by Military Sealift Command Atlantic (MSCLANT), Peary completed a five-month deployment in 4th Fleet’s area of operation, in support of",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-04-30T13:42:55+00:00",
-      "url": "https://www.dvidshub.net/image/9649708/uss-thomas-hudner-ddg-116-conducts-flight-operations",
+      "unit_name": "USN Military Sealift Command",
+      "timestamp": "2026-04-29T18:09:10+00:00",
+      "url": "https://www.dvidshub.net/video/1004476/usns-robert-e-peary-enables-4th-fleet-combat-readiness-with-154-day-deployment",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9649706",
-      "title": "USS Thomas Hudner (DDG 116) Conducts Flight Operations",
-      "desc": "An MH-60R Sea Hawk helicopter, assigned to Helicopter...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-04-30T13:42:55+00:00",
-      "url": "https://www.dvidshub.net/image/9649706/uss-thomas-hudner-ddg-116-conducts-flight-operations",
+      "id": "news:563798",
+      "title": "192nd MPs deploy in support of Operation Epic Fury",
+      "desc": "Approximately 150 Soldiers from Headquarters and Headquarters Company,  192nd Military Police Battalion, Connecticut Army National Guard, participated in a deployement ceremony at Bradley Air National Guard Base today, April 28, 2026.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Connecticut National Guard Public Affairs Office",
+      "timestamp": "2026-04-28T19:13:13+00:00",
+      "url": "https://www.dvidshub.net/news/563798/192nd-mps-deploy-support-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9649695",
-      "title": "USS Thomas Hudner (DDG 116) Conducts Replenishment-at-Sea",
-      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-04-30T13:42:53+00:00",
-      "url": "https://www.dvidshub.net/image/9649695/uss-thomas-hudner-ddg-116-conducts-replenishment-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9649693",
-      "title": "USS Thomas Hudner (DDG 116) Conducts Replenishment-at-Sea",
-      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-04-30T13:42:53+00:00",
-      "url": "https://www.dvidshub.net/image/9649693/uss-thomas-hudner-ddg-116-conducts-replenishment-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
