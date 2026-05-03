@@ -1,23 +1,7 @@
 {
-  "generated": "2026-05-02T17:36:41.278128+00:00",
+  "generated": "2026-05-03T07:17:43.906105+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:563985",
-      "title": "Exercise Obangame Express Closes the 15th Iteration in Cameroon",
-      "desc": "Exercise Obangame Express (OE) 2026 officially concluded during a ceremony in Douala, Cameroon, host nation for the 15th iteration, April 30. The ceremony marked the conclusion of three weeks of training for participants from 30 nations across Africa, Europe, South America and the U.S. reinforcing r",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-04-30T15:07:43+00:00",
-      "url": "https://www.dvidshub.net/news/563985/exercise-obangame-express-closes-15th-iteration-cameroon",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
