@@ -1,7 +1,23 @@
 {
-  "generated": "2026-05-05T12:07:48.670761+00:00",
+  "generated": "2026-05-05T18:05:51.288277+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:9662800",
+      "title": "Operation EPIC FURY Ceasefire Timeline",
+      "desc": "Map detailing the Operation EPIC FURY ceasefire timeline...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "The Joint Staff",
+      "timestamp": "2026-05-05T14:45:58+00:00",
+      "url": "https://www.dvidshub.net/image/9662800/operation-epic-fury-ceasefire-timeline",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    }
+  ]
 }
