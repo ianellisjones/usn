@@ -1,81 +1,81 @@
 {
-  "generated": "2026-05-06T18:10:16.222642+00:00",
+  "generated": "2026-05-07T07:41:44.445106+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "image:9664041",
-      "title": "Acting Secretary of the Navy Visits USS Gerald R. Ford (CVN 78)",
-      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "id": "image:9668017",
+      "title": "U.S. 6th Fleet Embarks Mount Whitney",
+      "desc": "Vice Adm. J.T. Anderson, commander, U.S. 6th Fleet,...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-05-05T21:57:53+00:00",
-      "url": "https://www.dvidshub.net/image/9664041/acting-secretary-navy-visits-uss-gerald-r-ford-cvn-78",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-05-07T06:48:10+00:00",
+      "url": "https://www.dvidshub.net/image/9668017/us-6th-fleet-embarks-mount-whitney",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9664049",
-      "title": "Acting Secretary of the Navy Visits USS Gerald R. Ford (CVN 78)",
-      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "id": "image:9668019",
+      "title": "U.S. 6th Fleet Embarks Mount Whitney",
+      "desc": "Rear Adm. P. Scott Miller, deputy commander, U.S. 6th...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-05-05T21:57:05+00:00",
-      "url": "https://www.dvidshub.net/image/9664049/acting-secretary-navy-visits-uss-gerald-r-ford-cvn-78",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-05-07T06:48:09+00:00",
+      "url": "https://www.dvidshub.net/image/9668019/us-6th-fleet-embarks-mount-whitney",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9664052",
-      "title": "Acting Secretary of the Navy Visits USS Gerald R. Ford (CVN 78)",
-      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "id": "image:9668018",
+      "title": "U.S. 6th Fleet Embarks Mount Whitney",
+      "desc": "Vice Adm. J.T. Anderson, commander, U.S. 6th Fleet,...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-05-05T21:56:11+00:00",
-      "url": "https://www.dvidshub.net/image/9664052/acting-secretary-navy-visits-uss-gerald-r-ford-cvn-78",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-05-07T06:48:09+00:00",
+      "url": "https://www.dvidshub.net/image/9668018/us-6th-fleet-embarks-mount-whitney",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9664059",
-      "title": "Acting Secretary of the Navy Visits USS Gerald R. Ford (CVN 78)",
-      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "id": "image:9668014",
+      "title": "U.S. 6th Fleet Embarks Mount Whitney",
+      "desc": "Vice Adm. J.T. Anderson, commander, U.S. 6th Fleet,...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-05-05T21:55:03+00:00",
-      "url": "https://www.dvidshub.net/image/9664059/acting-secretary-navy-visits-uss-gerald-r-ford-cvn-78",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-05-07T06:48:09+00:00",
+      "url": "https://www.dvidshub.net/image/9668014/us-6th-fleet-embarks-mount-whitney",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9664061",
-      "title": "Acting Secretary of the Navy Visits USS Gerald R. Ford (CVN 78)",
-      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "id": "image:9668013",
+      "title": "U.S. 6th Fleet Embarks Mount Whitney",
+      "desc": "Vice Adm. J.T. Anderson, commander, U.S. 6th Fleet,...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-05-05T21:54:19+00:00",
-      "url": "https://www.dvidshub.net/image/9664061/acting-secretary-navy-visits-uss-gerald-r-ford-cvn-78",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-05-07T06:48:09+00:00",
+      "url": "https://www.dvidshub.net/image/9668013/us-6th-fleet-embarks-mount-whitney",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     }
