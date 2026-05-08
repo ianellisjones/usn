@@ -1,7 +1,23 @@
 {
-  "generated": "2026-05-08T06:51:08.001837+00:00",
+  "generated": "2026-05-08T12:14:26.955789+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "video:1005910",
+      "title": "AFN Europe Report - May 8, 2026",
+      "desc": "U.S. Soldiers assigned to 1st Battalion, 12th Cavalry Regiment, trained members of the Lithuanian Riflemen's Union during a Leader Validation Exercise at Pabrade Training Area, Lithuania. \r\n \r\nObangame Express, the largest multinational maritime exercise in West and Central Africa, concluded in Doua",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-05-08T11:41:07+00:00",
+      "url": "https://www.dvidshub.net/video/1005910/afn-europe-report-may-8-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
