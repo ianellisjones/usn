@@ -1,9 +1,69 @@
 {
-  "generated": "2026-05-08T12:14:26.955789+00:00",
+  "generated": "2026-05-08T18:03:51.923558+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "news:564774",
+      "title": "U.S. Forces Disable Vessel in Gulf of Oman Attempting to Violate Blockade",
+      "desc": "TAMPA, Fla. — U.S. forces operating in the Gulf of Oman enforced blockade measures by disabling an Iranian-flagged unladen oil tanker attempting to sail toward an Iranian port at 9 a.m. ET, May 6.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-08T14:39:06+00:00",
+      "url": "https://www.dvidshub.net/news/564774/us-forces-disable-vessel-gulf-oman-attempting-violate-blockade",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:564773",
+      "title": "CENTCOM Protects U.S. Warships Transiting Strait of Hormuz",
+      "desc": "TAMPA, Fla. — U.S. forces intercepted unprovoked Iranian attacks and responded with self-defense strikes as U.S. Navy guided-missile destroyers transited the Strait of Hormuz to the Gulf of Oman, May 7.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-08T14:38:52+00:00",
+      "url": "https://www.dvidshub.net/news/564773/centcom-protects-us-warships-transiting-strait-hormuz",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:564770",
+      "title": "U.S. Disables 2 More Vessels Violating Blockade in Gulf of Oman",
+      "desc": "TAMPA, Fla. — U.S. forces disabled M/T Sea Star III and M/T Sevda, May 8, prior to both vessels entering an Iranian port on the Gulf of Oman in violation of the ongoing U.S. blockade.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-08T14:14:49+00:00",
+      "url": "https://www.dvidshub.net/news/564770/us-disables-2-more-vessels-violating-blockade-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1006186",
+      "title": "U.S. Disables 2 More Vessels Violating Blockade in Gulf of Oman",
+      "desc": "U.S. forces disabled M/T Sea Star III and M/T Sevda, May 8, prior to both vessels entering an Iranian port on the Gulf of Oman in violation of the ongoing U.S. blockade. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-08T14:14:32+00:00",
+      "url": "https://www.dvidshub.net/video/1006186/us-disables-2-more-vessels-violating-blockade-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1005910",
       "title": "AFN Europe Report - May 8, 2026",
