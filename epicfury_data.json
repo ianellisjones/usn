@@ -1,24 +1,9 @@
 {
-  "generated": "2026-05-08T18:03:51.923558+00:00",
+  "generated": "2026-05-09T07:06:54.134489+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
-    {
-      "id": "news:564774",
-      "title": "U.S. Forces Disable Vessel in Gulf of Oman Attempting to Violate Blockade",
-      "desc": "TAMPA, Fla. — U.S. forces operating in the Gulf of Oman enforced blockade measures by disabling an Iranian-flagged unladen oil tanker attempting to sail toward an Iranian port at 9 a.m. ET, May 6.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-08T14:39:06+00:00",
-      "url": "https://www.dvidshub.net/news/564774/us-forces-disable-vessel-gulf-oman-attempting-violate-blockade",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:564773",
       "title": "CENTCOM Protects U.S. Warships Transiting Strait of Hormuz",
@@ -61,21 +46,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1005910",
-      "title": "AFN Europe Report - May 8, 2026",
-      "desc": "U.S. Soldiers assigned to 1st Battalion, 12th Cavalry Regiment, trained members of the Lithuanian Riflemen's Union during a Leader Validation Exercise at Pabrade Training Area, Lithuania. \r\n \r\nObangame Express, the largest multinational maritime exercise in West and Central Africa, concluded in Doua",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-05-08T11:41:07+00:00",
-      "url": "https://www.dvidshub.net/video/1005910/afn-europe-report-may-8-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
