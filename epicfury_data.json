@@ -1,24 +1,9 @@
 {
-  "generated": "2026-05-09T17:41:02.821527+00:00",
+  "generated": "2026-05-10T07:24:52.808350+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
-    {
-      "id": "news:564773",
-      "title": "CENTCOM Protects U.S. Warships Transiting Strait of Hormuz",
-      "desc": "TAMPA, Fla. — U.S. forces intercepted unprovoked Iranian attacks and responded with self-defense strikes as U.S. Navy guided-missile destroyers transited the Strait of Hormuz to the Gulf of Oman, May 7.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-08T14:38:52+00:00",
-      "url": "https://www.dvidshub.net/news/564773/centcom-protects-us-warships-transiting-strait-hormuz",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:564770",
       "title": "U.S. Disables 2 More Vessels Violating Blockade in Gulf of Oman",
