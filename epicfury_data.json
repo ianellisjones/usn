@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-10T17:41:44.694854+00:00",
+  "generated": "2026-05-11T08:23:31.489341+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-05-08T14:14:49+00:00",
       "url": "https://www.dvidshub.net/news/564770/us-disables-2-more-vessels-violating-blockade-gulf-oman",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1006186",
-      "title": "U.S. Disables 2 More Vessels Violating Blockade in Gulf of Oman",
-      "desc": "U.S. forces disabled M/T Sea Star III and M/T Sevda, May 8, prior to both vessels entering an Iranian port on the Gulf of Oman in violation of the ongoing U.S. blockade. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-08T14:14:32+00:00",
-      "url": "https://www.dvidshub.net/video/1006186/us-disables-2-more-vessels-violating-blockade-gulf-oman",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
