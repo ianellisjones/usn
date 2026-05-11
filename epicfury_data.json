@@ -1,21 +1,21 @@
 {
-  "generated": "2026-05-11T13:50:02.337849+00:00",
+  "generated": "2026-05-11T18:50:19.618739+00:00",
   "news_count": 0,
   "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "news:564770",
-      "title": "U.S. Disables 2 More Vessels Violating Blockade in Gulf of Oman",
-      "desc": "TAMPA, Fla. — U.S. forces disabled M/T Sea Star III and M/T Sevda, May 8, prior to both vessels entering an Iranian port on the Gulf of Oman in violation of the ongoing U.S. blockade.",
+      "id": "news:564917",
+      "title": "New Man on Deck:  First 60 Days as Able Seaman",
+      "desc": "Norfolk, Va. (May 11, 2026) - Sixty days into his new role as Able Seaman (AB) on USS Mount Whitney (LCC 20), Military Sealift Command (MSC) Civil Service Mariner (CIVMAR) Jimmie Moore Jr. provides an update, detailing his first two months, his passion for growing as a mariner, and some insights for",
       "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-08T14:14:49+00:00",
-      "url": "https://www.dvidshub.net/news/564770/us-disables-2-more-vessels-violating-blockade-gulf-oman",
+      "branch": "Navy",
+      "unit_name": "USN Military Sealift Command",
+      "timestamp": "2026-05-11T15:44:44+00:00",
+      "url": "https://www.dvidshub.net/news/564917/new-man-deck-first-60-days-able-seaman",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
