@@ -1,9 +1,70 @@
 {
-  "generated": "2026-05-13T13:22:14.429598+00:00",
+  "generated": "2026-05-13T18:52:18.300453+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "news:565162",
+      "title": "Carrier Air Wing 8 Returns from Historic 11-Month Deployment",
+      "desc": "Aircraft of the Gerald R. Ford Carrier Strike Group’s Carrier Air Wing (CVW) 8 returned to their home naval air stations May 11, following an historic and successful 11-month deployment to the U.S. Central Command, U.S. European Command and U.S. Southern Command areas of operations.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Air Force Atlantic",
+      "timestamp": "2026-05-13T15:40:59+00:00",
+      "url": "https://www.dvidshub.net/news/565162/carrier-air-wing-8-returns-historic-11-month-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM",
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1006674",
+      "title": "CVW-8 Returns Home Following Eleven-Month Deployment",
+      "desc": "Squadrons assigned to Carrier Air Wing (CVW) 8 returned to Naval Air Station Oceana and Naval Station Norfolk, May 11, 2026, following a historic eleven-month deployment to U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. Ford Carrier Strike Group. CVW-8 logged more than 5,500 flight hours",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Air Force Atlantic",
+      "timestamp": "2026-05-13T15:33:05+00:00",
+      "url": "https://www.dvidshub.net/video/1006674/cvw-8-returns-home-following-eleven-month-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1006671",
+      "title": "U.S. Blockade Against Iran - One Month",
+      "desc": "Four weeks ago, CENTCOM began implementing the blockade against ships entering and exiting Iran’s ports. As of May 13, American forces have redirected 67 commercial vessels, allowed 15 supporting humanitarian aid to pass, and disabled 4 to ensure compliance. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-13T15:27:52+00:00",
+      "url": "https://www.dvidshub.net/video/1006671/us-blockade-against-iran-one-month",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1006669",
+      "title": "CVW-8 Returns Home Following Eleven-Month Deployment",
+      "desc": "The “Blacklions” of Strike Fighter Squadron (VFA) 213, “Ragin’ Bulls” of VFA-37, “Golden Warriors” of VFA-87, and “Tomcatters” of VFA-31” returned to Naval Air Station Oceana, May 11, 2026, following a historic eleven-month deployment to U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. For",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Air Force Atlantic",
+      "timestamp": "2026-05-13T15:23:05+00:00",
+      "url": "https://www.dvidshub.net/video/1006669/cvw-8-returns-home-following-eleven-month-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1006594",
       "title": "Carrier Air Wing (CVW) 8 Returns Following 11-Month Deployment",
@@ -16,21 +77,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:564917",
-      "title": "New Man on Deck:  First 60 Days as Able Seaman",
-      "desc": "Norfolk, Va. (May 11, 2026) - Sixty days into his new role as Able Seaman (AB) on USS Mount Whitney (LCC 20), Military Sealift Command (MSC) Civil Service Mariner (CIVMAR) Jimmie Moore Jr. provides an update, detailing his first two months, his passion for growing as a mariner, and some insights for",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "USN Military Sealift Command",
-      "timestamp": "2026-05-11T15:44:44+00:00",
-      "url": "https://www.dvidshub.net/news/564917/new-man-deck-first-60-days-able-seaman",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
