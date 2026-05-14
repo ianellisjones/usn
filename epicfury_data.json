@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-13T18:52:18.300453+00:00",
+  "generated": "2026-05-14T07:40:52.247697+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "news:565238",
+      "title": "U.S., Cameroon Boost Maritime Security with Unmanned Systems During Obangame Express 2026",
+      "desc": "U.S. Sixth Fleet successfully integrated advanced unmanned surface vessels (USVs) during Exercise Obangame Express 2026 in Douala, Cameroon.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-05-14T06:27:10+00:00",
+      "url": "https://www.dvidshub.net/news/565238/us-cameroon-boost-maritime-security-with-unmanned-systems-during-obangame-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:565162",
       "title": "Carrier Air Wing 8 Returns from Historic 11-Month Deployment",
@@ -21,21 +36,6 @@
       "location_display": ""
     },
     {
-      "id": "video:1006674",
-      "title": "CVW-8 Returns Home Following Eleven-Month Deployment",
-      "desc": "Squadrons assigned to Carrier Air Wing (CVW) 8 returned to Naval Air Station Oceana and Naval Station Norfolk, May 11, 2026, following a historic eleven-month deployment to U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. Ford Carrier Strike Group. CVW-8 logged more than 5,500 flight hours",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Commander, Naval Air Force Atlantic",
-      "timestamp": "2026-05-13T15:33:05+00:00",
-      "url": "https://www.dvidshub.net/video/1006674/cvw-8-returns-home-following-eleven-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "video:1006671",
       "title": "U.S. Blockade Against Iran - One Month",
       "desc": "Four weeks ago, CENTCOM began implementing the blockade against ships entering and exiting Iran’s ports. As of May 13, American forces have redirected 67 commercial vessels, allowed 15 supporting humanitarian aid to pass, and disabled 4 to ensure compliance. (U.S. Central Command Video)",
@@ -47,36 +47,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1006669",
-      "title": "CVW-8 Returns Home Following Eleven-Month Deployment",
-      "desc": "The “Blacklions” of Strike Fighter Squadron (VFA) 213, “Ragin’ Bulls” of VFA-37, “Golden Warriors” of VFA-87, and “Tomcatters” of VFA-31” returned to Naval Air Station Oceana, May 11, 2026, following a historic eleven-month deployment to U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. For",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Commander, Naval Air Force Atlantic",
-      "timestamp": "2026-05-13T15:23:05+00:00",
-      "url": "https://www.dvidshub.net/video/1006669/cvw-8-returns-home-following-eleven-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1006594",
-      "title": "Carrier Air Wing (CVW) 8 Returns Following 11-Month Deployment",
-      "desc": "VIRGINIA BEACH, Va. (May 11, 2026) Sailors assigned to Carrier Air Wing (CVW) 8 return to Naval Air Station Oceana following a historic 11-month deployment to the U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. Ford Carrier Strike Group. CVW-8 logged more than 5,500 flight hours in suppor",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Commander, Naval Air Force Atlantic",
-      "timestamp": "2026-05-12T20:11:05+00:00",
-      "url": "https://www.dvidshub.net/video/1006594/carrier-air-wing-cvw-8-returns-following-11-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
