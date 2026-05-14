@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-14T12:58:22.631622+00:00",
+  "generated": "2026-05-14T18:28:31.571774+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1006875",
+      "title": "Centcom, Africom Commanders Testify on FY27 Defense Authorization Requests",
+      "desc": "Navy Adm. Brad Cooper, commander of U.S. Central Command, and Air Force Gen. Dagvin R.M. Anderson, commander of U.S. Africa Command, each testify before the Senate Armed Services Committee on their command’s defense authorization request for fiscal year 2027 and the future years defense program duri",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-05-14T17:16:05+00:00",
+      "url": "https://www.dvidshub.net/video/1006875/centcom-africom-commanders-testify-fy27-defense-authorization-requests",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:565238",
       "title": "U.S., Cameroon Boost Maritime Security with Unmanned Systems During Obangame Express 2026",
