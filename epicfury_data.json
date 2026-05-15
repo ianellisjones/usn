@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-15T12:59:41.462522+00:00",
+  "generated": "2026-05-15T18:16:19.193578+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007022",
+      "title": "HSC-9 Returns Home Following Historic 11-Month Deployment",
+      "desc": "260515-N-NG136-0001 NORFOLK, Va. (May 15, 2026) Helicopter Sea Combat Squadron (HSC) 9, the “Tridents,” returns to Naval Station Norfolk following a historic 11-month deployment to the U.S. 2nd, 4th, 5th and 6th Fleets as part of the Gerald R. Ford Carrier Strike Group assigned to Carrier Air Wing (",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Air Force Atlantic",
+      "timestamp": "2026-05-15T17:15:17+00:00",
+      "url": "https://www.dvidshub.net/video/1007022/hsc-9-returns-home-following-historic-11-month-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1006896",
       "title": "Michigan Army National Guard's 3-126th Infantry Regiment returns from CENTCOM",
@@ -62,21 +77,6 @@
       "commands": [
         "CENTCOM",
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1006671",
-      "title": "U.S. Blockade Against Iran - One Month",
-      "desc": "Four weeks ago, CENTCOM began implementing the blockade against ships entering and exiting Iran’s ports. As of May 13, American forces have redirected 67 commercial vessels, allowed 15 supporting humanitarian aid to pass, and disabled 4 to ensure compliance. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-13T15:27:52+00:00",
-      "url": "https://www.dvidshub.net/video/1006671/us-blockade-against-iran-one-month",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
