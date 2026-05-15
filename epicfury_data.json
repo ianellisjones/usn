@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-15T07:50:34.151473+00:00",
+  "generated": "2026-05-15T12:59:41.462522+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1006896",
+      "title": "Michigan Army National Guard's 3-126th Infantry Regiment returns from CENTCOM",
+      "desc": "The Michigan Army National Guard's 3rd Battalion, 126th Infantry Regiment returns from deployment May 13, 2026, at Grand Ledge and Lansing, Mich. The approximately 70 Soldiers are returning after their deployment in support of U.S. Central Command. (U.S. Army National Guard video by Sgt. Brayden A. ",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Michigan National Guard",
+      "timestamp": "2026-05-15T12:39:56+00:00",
+      "url": "https://www.dvidshub.net/video/1006896/michigan-army-national-guards-3-126th-infantry-regiment-returns-centcom",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1006875",
       "title": "Centcom, Africom Commanders Testify on FY27 Defense Authorization Requests",
