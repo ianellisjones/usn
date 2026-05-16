@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-15T18:16:19.193578+00:00",
+  "generated": "2026-05-16T07:13:29.687060+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -16,21 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1006896",
-      "title": "Michigan Army National Guard's 3-126th Infantry Regiment returns from CENTCOM",
-      "desc": "The Michigan Army National Guard's 3rd Battalion, 126th Infantry Regiment returns from deployment May 13, 2026, at Grand Ledge and Lansing, Mich. The approximately 70 Soldiers are returning after their deployment in support of U.S. Central Command. (U.S. Army National Guard video by Sgt. Brayden A. ",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Michigan National Guard",
-      "timestamp": "2026-05-15T12:39:56+00:00",
-      "url": "https://www.dvidshub.net/video/1006896/michigan-army-national-guards-3-126th-infantry-regiment-returns-centcom",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     },
@@ -60,22 +45,6 @@
       "url": "https://www.dvidshub.net/news/565238/us-cameroon-boost-maritime-security-with-unmanned-systems-during-obangame-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:565162",
-      "title": "Carrier Air Wing 8 Returns from Historic 11-Month Deployment",
-      "desc": "Aircraft of the Gerald R. Ford Carrier Strike Group’s Carrier Air Wing (CVW) 8 returned to their home naval air stations May 11, following an historic and successful 11-month deployment to the U.S. Central Command, U.S. European Command and U.S. Southern Command areas of operations.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Commander, Naval Air Force Atlantic",
-      "timestamp": "2026-05-13T15:40:59+00:00",
-      "url": "https://www.dvidshub.net/news/565162/carrier-air-wing-8-returns-historic-11-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM",
         "EUCOM"
       ],
       "location_display": ""
