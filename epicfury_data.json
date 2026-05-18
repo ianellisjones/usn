@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-18T14:35:53.131022+00:00",
+  "generated": "2026-05-18T18:26:43.004151+00:00",
   "news_count": 0,
   "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007241",
+      "title": "U.S. Navy Sailors conduct flight operations aboard USS George H.W. Bush (CVN 77)",
+      "desc": "U.S. Navy Sailors conduct flight operations aboard USS George H.W. Bush (CVN 77) while deployed to the U.S. 5th Fleet area of operations, supporting maritime security, regional stability, and freedom of navigation throughout the Middle East.",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Air Force Atlantic",
+      "timestamp": "2026-05-18T15:24:05+00:00",
+      "url": "https://www.dvidshub.net/video/1007241/us-navy-sailors-conduct-flight-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1007227",
       "title": "USS Bainbridge Returns to Naval Station Norfolk Following Successful 11-Month Deployment",
@@ -61,21 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:565456",
-      "title": "Ima Black 105th Birthday Celebration",
-      "desc": "U.S. Sailors, assigned to Arleigh Burke-class guided-missile destroyer USS Delbert D. Black (DDG 119), honored Navy veteran, honorary master chief, and ship sponsor, Ima Black, on her 105th birthday, recognizing her lifelong service to the Navy community and enduring support to generations of Sailor",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "USS DELBERT D BLACK (DDG 119)",
-      "timestamp": "2026-05-16T16:19:41+00:00",
-      "url": "https://www.dvidshub.net/news/565456/ima-black-105th-birthday-celebration",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
