@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-17T17:48:46.637060+00:00",
+  "generated": "2026-05-18T08:43:01.070252+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "Chief of Naval Operations",
       "timestamp": "2026-05-17T00:04:26+00:00",
       "url": "https://www.dvidshub.net/video/1007120/cno-welcomes-home-ford-carrier-strike-group",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9688180",
-      "title": "USS Winston S. Churchill (DDG 81) Returns to Naval Station Mayport",
-      "desc": "NAVAL STATION MAYPORT, Fla. (May 16, 2026) – Rear Adm....",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-05-16T20:10:25+00:00",
-      "url": "https://www.dvidshub.net/image/9688180/uss-winston-s-churchill-ddg-81-returns-naval-station-mayport",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -50,29 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9688116",
-      "title": "SECWAR, CNO, MCPON welcome home Ford carrier strike group",
-      "desc": "Aircraft carrier USS Gerald R. Ford (CVN 78) arrives to...",
-      "type": "image",
+      "id": "news:565456",
+      "title": "Ima Black 105th Birthday Celebration",
+      "desc": "U.S. Sailors, assigned to Arleigh Burke-class guided-missile destroyer USS Delbert D. Black (DDG 119), honored Navy veteran, honorary master chief, and ship sponsor, Ima Black, on her 105th birthday, recognizing her lifelong service to the Navy community and enduring support to generations of Sailor",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "Chief of Naval Operations",
-      "timestamp": "2026-05-16T18:12:23+00:00",
-      "url": "https://www.dvidshub.net/image/9688116/secwar-cno-mcpon-welcome-home-ford-carrier-strike-group",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9688120",
-      "title": "SECWAR, CNO, MCPON welcome home Ford carrier strike group",
-      "desc": "Aircraft carrier USS Gerald R. Ford (CVN 78) arrives to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Chief of Naval Operations",
-      "timestamp": "2026-05-16T18:12:15+00:00",
-      "url": "https://www.dvidshub.net/image/9688120/secwar-cno-mcpon-welcome-home-ford-carrier-strike-group",
+      "unit_name": "USS DELBERT D BLACK (DDG 119)",
+      "timestamp": "2026-05-16T16:19:41+00:00",
+      "url": "https://www.dvidshub.net/news/565456/ima-black-105th-birthday-celebration",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
