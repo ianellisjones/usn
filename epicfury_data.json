@@ -1,9 +1,39 @@
 {
-  "generated": "2026-05-18T08:43:01.070252+00:00",
+  "generated": "2026-05-18T14:35:53.131022+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007227",
+      "title": "USS Bainbridge Returns to Naval Station Norfolk Following Successful 11-Month Deployment",
+      "desc": "NORFOLK, Va. (May 16, 2026) – Arleigh Burke-class guided-missile destroyer USS Bainbridge (DDG 96) returns to Naval Station Norfolk, May 16, 2026, following a historic 11-month deployment to U.S. 2nd, 4th, 5th, and 6th Fleets as part of the Gerald R. Ford Carrier Strike Group. Before returning to No",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-05-18T14:24:37+00:00",
+      "url": "https://www.dvidshub.net/video/1007227/uss-bainbridge-returns-naval-station-norfolk-following-successful-11-month-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1007185",
+      "title": "Inside Trojan Footprint 2026 with Lt. Gen. Richard E. Angle",
+      "desc": "U.S. Army Lt. Gen. Richard E. Angle, commanding general of U.S. Special Operations Command Europe, discusses the importance of multinational interoperability and special operations readiness during Trojan Footprint 2026. Trojan Footprint is a U.S. European Command-led special operations exercise con",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Special Operations Command Europe",
+      "timestamp": "2026-05-18T09:49:47+00:00",
+      "url": "https://www.dvidshub.net/video/1007185/inside-trojan-footprint-2026-with-lt-gen-richard-e-angle",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1007120",
       "title": "CNO welcomes home Ford carrier strike group",
