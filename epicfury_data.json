@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-19T13:56:38.536337+00:00",
+  "generated": "2026-05-19T18:52:31.665337+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007465",
+      "title": "Military Leaders Testify to House on Posture in Middle East, Africa",
+      "desc": "Daniel Zimmerman, assistant secretary of war for international security affairs; Navy Adm. Brad Cooper, commander of U.S. Central Command; and Air Force Gen. Dagvin R.M. Anderson, commander of U.S. Africa Command, testify on the military’s policies, programs and activities in the Middle East and Afr",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-05-19T18:08:05+00:00",
+      "url": "https://www.dvidshub.net/video/1007465/military-leaders-testify-house-posture-middle-east-africa",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1007241",
       "title": "U.S. Navy Sailors conduct flight operations aboard USS George H.W. Bush (CVN 77)",
