@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-20T08:24:52.873654+00:00",
+  "generated": "2026-05-20T13:43:52.549475+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007574",
+      "title": "USS Abraham Lincoln (CVN 72) Conducts a Replenishment-at-Sea",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) conducts a replenishment-at-sea while transiting the Arabian Sea, May 18, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-20T12:51:07+00:00",
+      "url": "https://www.dvidshub.net/video/1007574/uss-abraham-lincoln-cvn-72-conducts-replenishment-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1007465",
       "title": "Military Leaders Testify to House on Posture in Middle East, Africa",
