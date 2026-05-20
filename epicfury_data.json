@@ -1,9 +1,24 @@
 {
-  "generated": "2026-05-20T13:43:52.549475+00:00",
+  "generated": "2026-05-20T19:13:05.996480+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1007639",
+      "title": "U.S. Marines conduct Blockade Operations",
+      "desc": "U.S. Marines from the 31st Marine Expeditionary Unit boarded M/T Celestial Sea, an Iranian-flagged commercial oil tanker suspected of attempting to violate the U.S. blockade by transiting toward an Iranian port, May 20, in the Gulf of Oman. American forces released the vessel after searching and dir",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-20T17:03:37+00:00",
+      "url": "https://www.dvidshub.net/video/1007639/us-marines-conduct-blockade-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1007574",
       "title": "USS Abraham Lincoln (CVN 72) Conducts a Replenishment-at-Sea",
