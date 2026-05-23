@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-23T12:03:05.831287+00:00",
+  "generated": "2026-05-23T17:53:40.159150+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 19,
   "news": [],
   "dvids": [
     {
@@ -58,6 +58,21 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-05-22T23:56:32+00:00",
       "url": "https://www.dvidshub.net/image/9702872/john-finn-sailors-conduct-pre-flight-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9703381",
+      "title": "U.S. Marines conduct M142 HIMARS maintenance operations",
+      "desc": "U.S. Marines tow an M142 High Mobility Artillery Rocket...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-05-22T21:05:24+00:00",
+      "url": "https://www.dvidshub.net/image/9703381/us-marines-conduct-m142-himars-maintenance-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
