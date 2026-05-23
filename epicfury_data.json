@@ -1,18 +1,63 @@
 {
-  "generated": "2026-05-22T18:28:32.925616+00:00",
+  "generated": "2026-05-23T12:03:05.831287+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
-      "id": "video:1007639",
-      "title": "U.S. Marines conduct Blockade Operations",
-      "desc": "U.S. Marines from the 31st Marine Expeditionary Unit boarded M/T Celestial Sea, an Iranian-flagged commercial oil tanker suspected of attempting to violate the U.S. blockade by transiting toward an Iranian port, May 20, in the Gulf of Oman. American forces released the vessel after searching and dir",
-      "type": "video",
+      "id": "image:9702867",
+      "title": "John Finn Sailors Conduct Pre-flight Maintenance",
+      "desc": "A U.S. Sailor conducts pre-flight maintenance checks on...",
+      "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-20T17:03:37+00:00",
-      "url": "https://www.dvidshub.net/video/1007639/us-marines-conduct-blockade-operations",
+      "timestamp": "2026-05-22T23:58:35+00:00",
+      "url": "https://www.dvidshub.net/image/9702867/john-finn-sailors-conduct-pre-flight-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9702869",
+      "title": "John Finn Sailors Conduct Pre-flight Maintenance",
+      "desc": "A U.S. Sailor conducts pre-flight maintenance checks on...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-22T23:57:50+00:00",
+      "url": "https://www.dvidshub.net/image/9702869/john-finn-sailors-conduct-pre-flight-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9702870",
+      "title": "John Finn Sailors Conduct Pre-flight Maintenance",
+      "desc": "A U.S. Sailor conducts pre-flight maintenance checks on...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-22T23:57:33+00:00",
+      "url": "https://www.dvidshub.net/image/9702870/john-finn-sailors-conduct-pre-flight-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9702872",
+      "title": "John Finn Sailors conduct pre-flight maintenance",
+      "desc": "A U.S. Sailor conducts pre-flight maintenance checks on...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-05-22T23:56:32+00:00",
+      "url": "https://www.dvidshub.net/image/9702872/john-finn-sailors-conduct-pre-flight-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
