@@ -1,18 +1,48 @@
 {
-  "generated": "2026-05-26T14:08:41.768199+00:00",
+  "generated": "2026-05-26T19:12:48.145875+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
-      "id": "video:1008174",
+      "id": "video:1008214",
+      "title": "AFN Naples Freedom 250 Shout-out Master Chief Master-at-Arms Dionisio Caronan",
+      "desc": "260525-N-PS829-2002 Nettuno, Italy (May 25, 2026)Master Chief Master-at-Arms Dionisio Caronan, assigned to Commander, Navy Region Europe, Africa, Central Command delivers a shout-out in honor of the 250th birthday of the United States at Sicily-Rome American Cemetery, Nettuno, Italy. The celebration",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "AFN Naples",
+      "timestamp": "2026-05-26T15:53:18+00:00",
+      "url": "https://www.dvidshub.net/video/1008214/afn-naples-freedom-250-shout-out-master-chief-master-arms-dionisio-caronan",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1008210",
       "title": "21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment Freedom 250 Shout-out",
       "desc": "United States Airmen and Sailors assigned to the 21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment deliver a shout-out in honor of the 250th birthday of the United States at Kapaun Air Station, Germany. The 21st OWS and FWCAD provide weather support to U.S. European Comm",
       "type": "video",
       "branch": "Joint",
       "unit_name": "AFN Kaiserslautern",
-      "timestamp": "2026-05-26T12:27:29+00:00",
-      "url": "https://www.dvidshub.net/video/1008174/21st-operational-weather-squadron-and-fleet-weather-center-aviation-detachment-freedom-250-shout-out",
+      "timestamp": "2026-05-26T15:12:21+00:00",
+      "url": "https://www.dvidshub.net/video/1008210/21st-operational-weather-squadron-and-fleet-weather-center-aviation-detachment-freedom-250-shout-out",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1008207",
+      "title": "AFN Naples B Roll- Nettuno Memorial Day Ceremony 2026",
+      "desc": "260526-N-NY362-1001 Naples, Italy (May 26, 2026) AFN Naples B Roll package highlighting the 2026 Memorial Day remembrance ceremony at Sicily Rome American Cemetery. Admirals from U.S. Naval Forces Europe-Africa and 6th Fleet traveled throughout Europe visiting American cemeteries and monuments to ho",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "AFN Naples",
+      "timestamp": "2026-05-26T15:11:58+00:00",
+      "url": "https://www.dvidshub.net/video/1008207/afn-naples-b-roll-nettuno-memorial-day-ceremony-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
