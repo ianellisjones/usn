@@ -1,7 +1,23 @@
 {
-  "generated": "2026-05-26T08:30:31.468159+00:00",
+  "generated": "2026-05-26T14:08:41.768199+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "video:1008174",
+      "title": "21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment Freedom 250 Shout-out",
+      "desc": "United States Airmen and Sailors assigned to the 21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment deliver a shout-out in honor of the 250th birthday of the United States at Kapaun Air Station, Germany. The 21st OWS and FWCAD provide weather support to U.S. European Comm",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "AFN Kaiserslautern",
+      "timestamp": "2026-05-26T12:27:29+00:00",
+      "url": "https://www.dvidshub.net/video/1008174/21st-operational-weather-squadron-and-fleet-weather-center-aviation-detachment-freedom-250-shout-out",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
