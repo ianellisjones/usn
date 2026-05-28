@@ -1,51 +1,21 @@
 {
-  "generated": "2026-05-27T19:13:38.714682+00:00",
+  "generated": "2026-05-28T08:41:30.603812+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "video:1008214",
-      "title": "AFN Naples Freedom 250 Shout-out Master Chief Master-at-Arms Dionisio Caronan",
-      "desc": "260525-N-PS829-2002 NETTUNO, Italy (May 25, 2026)Master Chief Master-at-Arms Dionisio Caronan, assigned to Commander, Navy Region Europe, Africa, Central Command delivers a shout-out in honor of the 250th birthday of the United States at Sicily-Rome American Cemetery, Nettuno, Italy. The celebration",
+      "id": "video:1008398",
+      "title": "Montana National Guard hosts historic 163rd transformation ceremony",
+      "desc": "The Montana Army National Guard redesignated the 1st Battalion, 163rd Cavalry Regiment as the 1st Battalion, 163rd Infantry Regiment during a transformation ceremony at Fort Harrison, Montana, May 27, 2026. The ceremony honored more than a century of service and recognized the battalion’s transition",
       "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Naples",
-      "timestamp": "2026-05-26T15:53:18+00:00",
-      "url": "https://www.dvidshub.net/video/1008214/afn-naples-freedom-250-shout-out-master-chief-master-arms-dionisio-caronan",
+      "branch": "Joint",
+      "unit_name": "Montana National Guard Public Affairs Office",
+      "timestamp": "2026-05-27T22:22:48+00:00",
+      "url": "https://www.dvidshub.net/video/1008398/montana-national-guard-hosts-historic-163rd-transformation-ceremony",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1008210",
-      "title": "21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment Freedom 250 Shout-out",
-      "desc": "United States Airmen and Sailors assigned to the 21st Operational Weather Squadron and Fleet Weather Center Aviation Detachment deliver a shout-out in honor of the 250th birthday of the United States at Kapaun Air Station, Germany. The 21st OWS and FWCAD provide weather support to U.S. European Comm",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "AFN Kaiserslautern",
-      "timestamp": "2026-05-26T15:12:21+00:00",
-      "url": "https://www.dvidshub.net/video/1008210/21st-operational-weather-squadron-and-fleet-weather-center-aviation-detachment-freedom-250-shout-out",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1008207",
-      "title": "AFN Naples B Roll- Nettuno Memorial Day Ceremony 2026",
-      "desc": "260526-N-NY362-1001 Naples, Italy (May 26, 2026) AFN Naples B Roll package highlighting the 2026 Memorial Day remembrance ceremony at Sicily Rome American Cemetery. Admirals from U.S. Naval Forces Europe-Africa and 6th Fleet traveled throughout Europe visiting American cemeteries and monuments to ho",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Naples",
-      "timestamp": "2026-05-26T15:11:58+00:00",
-      "url": "https://www.dvidshub.net/video/1008207/afn-naples-b-roll-nettuno-memorial-day-ceremony-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
