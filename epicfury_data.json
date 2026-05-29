@@ -1,78 +1,18 @@
 {
-  "generated": "2026-05-29T08:41:06.618568+00:00",
+  "generated": "2026-05-29T14:11:38.589689+00:00",
   "news_count": 0,
-  "dvids_count": 27,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "image:9712013",
-      "title": "USS John Finn Sailors Stand Watch in the Combat Information Center",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
+      "id": "video:1008398",
+      "title": "Montana National Guard hosts historic 163rd transformation ceremony",
+      "desc": "The Montana Army National Guard redesignated the 1st Battalion, 163rd Cavalry Regiment as the 1st Battalion, 163rd Infantry Regiment during a transformation ceremony at Fort Harrison, Montana, May 27, 2026. The ceremony honored more than a century of service and recognized the battalion’s transition",
+      "type": "video",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-29T01:34:25+00:00",
-      "url": "https://www.dvidshub.net/image/9712013/uss-john-finn-sailors-stand-watch-combat-information-center",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9712014",
-      "title": "USS John Finn Sailors Stand Watch in the Combat Information Center",
-      "desc": "U.S. Sailors stand watch in the combat information...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-29T01:34:16+00:00",
-      "url": "https://www.dvidshub.net/image/9712014/uss-john-finn-sailors-stand-watch-combat-information-center",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9712015",
-      "title": "USS John Finn Sailors Stand Watch in the Combat Information Center",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-29T01:34:07+00:00",
-      "url": "https://www.dvidshub.net/image/9712015/uss-john-finn-sailors-stand-watch-combat-information-center",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9712016",
-      "title": "USS John Finn Sailors Stand Watch in the Combat Information Center",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-29T01:33:59+00:00",
-      "url": "https://www.dvidshub.net/image/9712016/uss-john-finn-sailors-stand-watch-combat-information-center",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9712065",
-      "title": "Thomas Hudner Conducts Operations",
-      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-05-29T01:31:59+00:00",
-      "url": "https://www.dvidshub.net/image/9712065/thomas-hudner-conducts-operations",
+      "unit_name": "Montana National Guard Public Affairs Office",
+      "timestamp": "2026-05-27T22:22:48+00:00",
+      "url": "https://www.dvidshub.net/video/1008398/montana-national-guard-hosts-historic-163rd-transformation-ceremony",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
