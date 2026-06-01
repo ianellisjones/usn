@@ -1,23 +1,7 @@
 {
-  "generated": "2026-05-31T17:53:59.220110+00:00",
+  "generated": "2026-06-01T10:17:29.466928+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:566509",
-      "title": "1st MARDIV transitions leadership from Maj. Gen. Thomas B. Savage to Brig. Gen. Andrew T. Priddy",
-      "desc": "CAMP PENDLETON, Calif. — The Marine Corps’ most decorated division opened a new chapter as leadership of the famed \"Blue Diamond\" transitioned from Maj. Gen. Thomas B. Savage to Brig. Gen. Andrew T. Priddy during a change of command ceremony on May 29 at Marine Corps Base Camp Pendleton. Savage depa",
-      "type": "news",
-      "branch": "Marines",
-      "unit_name": "1st Marine Division",
-      "timestamp": "2026-05-30T00:39:42+00:00",
-      "url": "https://www.dvidshub.net/news/566509/1st-mardiv-transitions-leadership-maj-gen-thomas-b-savage-brig-gen-andrew-t-priddy",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
