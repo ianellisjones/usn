@@ -1,7 +1,83 @@
 {
-  "generated": "2026-06-04T08:46:35.183342+00:00",
+  "generated": "2026-06-04T14:08:15.226720+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 7,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:9724724",
+      "title": "Commander of Naval Surface Force Atlantic visits USS Bulkeley (DDG 84) during its return to homeport, June 1, 2026",
+      "desc": "NAVAL STATION ROTA, Spain – (June 1, 2026) Rear Adm....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS BULKELEY (DDG 84)",
+      "timestamp": "2026-06-04T10:15:42+00:00",
+      "url": "https://www.dvidshub.net/image/9724724/commander-naval-surface-force-atlantic-visits-uss-bulkeley-ddg-84-during-its-return-homeport-june-1-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9724720",
+      "title": "Commander of Naval Surface Force Atlantic visits USS Bulkeley (DDG 84) during its return to homeport, June 1, 2026",
+      "desc": "NAVAL STATION ROTA, Spain (June 1, 2026) - Rear Adm....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS BULKELEY (DDG 84)",
+      "timestamp": "2026-06-04T10:15:42+00:00",
+      "url": "https://www.dvidshub.net/image/9724720/commander-naval-surface-force-atlantic-visits-uss-bulkeley-ddg-84-during-its-return-homeport-june-1-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9724716",
+      "title": "Commander of Naval Surface Force Atlantic visits USS Bulkeley (DDG 84) during its return to homeport, June 1, 2026",
+      "desc": "NAVAL STATION ROTA, Spain (June 1, 2026) - Rear Adm....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS BULKELEY (DDG 84)",
+      "timestamp": "2026-06-04T10:15:41+00:00",
+      "url": "https://www.dvidshub.net/image/9724716/commander-naval-surface-force-atlantic-visits-uss-bulkeley-ddg-84-during-its-return-homeport-june-1-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1008901",
+      "title": "AFN Aviano TV Spot: Waist-to-Height Ratio Enters the Field",
+      "desc": "A video highlighting the implementation of the Waist-to-Height Ratio body composition assessment within the updated Physical Fitness Readiness Program at Aviano Air Base, Italy, May 27, 2026. The new assessment supports the health, readiness and operational capability of Airmen assigned to the 31st ",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "AFN Aviano",
+      "timestamp": "2026-06-03T12:51:41+00:00",
+      "url": "https://www.dvidshub.net/video/1008901/afn-aviano-tv-spot-waist-height-ratio-enters-field",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:566720",
+      "title": "U.S., Partner Forces Defend Against Aggressive Iranian Behavior",
+      "desc": "TAMPA, Fla. — U.S. forces successfully defeated multiple Iranian ballistic missiles and drones, and conducted self-defense strikes on Qeshm Island in response to attempted attacks by Iran across the Middle East, June 2.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-02T23:38:23+00:00",
+      "url": "https://www.dvidshub.net/news/566720/us-partner-forces-defend-against-aggressive-iranian-behavior",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
