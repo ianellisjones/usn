@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.4.0
+Version: 2.4.1
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
@@ -108,6 +108,7 @@ class DVIDSItem:
     commands: List[str] = field(default_factory=list)  # Combatant commands detected
     hours_old: float = 0.0  # Hours since publication (for daily/weekly filtering)
     is_deployment: bool = False  # Whether this item is deployment-related
+    views: int = 0  # Number of times viewed on DVIDS (popularity metric)
 
 
 @dataclass
@@ -265,7 +266,9 @@ def search_dvids(
     from_date: Optional[str] = None,
     to_date: Optional[str] = None,
     max_results: int = 50,
-    sort: str = "date"
+    sort: str = "date",
+    sort_dir: Optional[str] = None,
+    fields: Optional[str] = None
 ) -> List[Dict]:
     """
     Search DVIDS for content.
@@ -276,7 +279,11 @@ def search_dvids(
         from_date: Start date in ISO format (YYYY-MM-DDTHH:MM:SSZ)
         to_date: End date in ISO format
         max_results: Maximum number of results to return
-        sort: Sort order (date, rating, title)
+        sort: Sort order. Valid DVIDS values: date, publishdate, timestamp,
+              score, rating, title. (NOTE: "popularity" is NOT valid.)
+        sort_dir: Sort direction ("asc" or "desc"). Passed as DVIDS "sortdir".
+        fields: Comma-separated list of extra fields to return (e.g. "views").
+                DVIDS only returns "views" when explicitly requested here.
 
     Returns:
         List of content items from DVIDS
@@ -287,6 +294,10 @@ def search_dvids(
         "sort": sort,
     }
 
+    if sort_dir:
+        params["sortdir"] = sort_dir
+    if fields:
+        params["fields"] = fields
     if branch:
         params["branch"] = branch
     if from_date:
@@ -420,6 +431,12 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
         duration = raw_item.get("duration", "")
         aspect_ratio = raw_item.get("aspect_ratio", "")
 
+        # View count (only present when "views" requested via fields param)
+        try:
+            views = int(raw_item.get("views") or 0)
+        except (ValueError, TypeError):
+            views = 0
+
         # Detect combatant commands in title, description, unit name, and keywords
         keywords_text = " ".join(keywords) if keywords else ""
         search_text = f"{title} {description} {unit_name} {keywords_text}"
@@ -450,6 +467,7 @@ def parse_dvids_item(raw_item: Dict) -> Optional[DVIDSItem]:
             commands=commands,
             hours_old=hours_old,
             is_deployment=is_deployment,
+            views=views,
         )
 
     except Exception as e:
@@ -558,49 +576,76 @@ def create_daily_digest(items: List[DVIDSItem], date_str: str = None) -> DailyDi
     )
 
 
-def fetch_hot_shots(lookback_days: int = LOOKBACK_DAYS) -> List[DVIDSItem]:
+def fetch_hot_shots(lookback_days: int = LOOKBACK_DAYS, top_n: int = 50) -> List[DVIDSItem]:
     """
-    Fetch the most popular Navy images from DVIDS, sorted by popularity.
+    Fetch the most popular images from DVIDS, ranked by view count.
+
+    NOTE: The DVIDS API has no "popularity" sort value (valid values are
+    date, publishdate, timestamp, score, rating, title). Instead we request
+    the "views" field explicitly (DVIDS omits it otherwise), pull a broad pool
+    of recent images, and rank by views client-side. We query with a valid
+    sort ("rating" desc) so results are never empty even if views is absent.
 
     Args:
         lookback_days: How many days back to search
+        top_n: How many top images to return
 
     Returns:
-        List of DVIDSItem objects sorted by popularity
+        List of DVIDSItem objects sorted by views (most viewed first)
     """
     date = datetime.utcnow()
     to_date = date.strftime("%Y-%m-%dT%H:%M:%SZ")
     from_date = (date - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    print(f"\n  Fetching HOT SHOTS (top 50 popular images)...")
+    print(f"\n  Fetching HOT SHOTS (most-viewed images, top {top_n})...")
 
-    all_items = []
-    seen_ids = set()
+    views_fields = ("id,title,description,type,branch,unit_name,date_published,"
+                    "country,state,city,url,thumbnail,keywords,credit,views")
 
-    for branch in BRANCHES:
-        results = search_dvids(
-            content_type="image",
-            branch=branch,
-            from_date=from_date,
-            to_date=to_date,
-            max_results=50,
-            sort="popularity"
-        )
+    def fetch_pool(use_fields: bool) -> List[DVIDSItem]:
+        items = []
+        seen = set()
+        for branch in BRANCHES:
+            results = search_dvids(
+                content_type="image",
+                branch=branch,
+                from_date=from_date,
+                to_date=to_date,
+                max_results=MAX_RESULTS_PER_QUERY,
+                sort="rating",
+                sort_dir="desc",
+                fields=views_fields if use_fields else None,
+            )
+            for raw_item in results:
+                item = parse_dvids_item(raw_item)
+                if item and item.id not in seen:
+                    seen.add(item.id)
+                    items.append(item)
+            time.sleep(0.5)
+        return items
 
-        for raw_item in results:
-            item = parse_dvids_item(raw_item)
-            if item and item.id not in seen_ids:
-                seen_ids.add(item.id)
-                all_items.append(item)
+    # Primary attempt requests the "views" field for true popularity ranking
+    all_items = fetch_pool(use_fields=True)
 
-        time.sleep(0.5)
+    # Fallback: if the fields param yielded nothing, retry without it so the
+    # tab is never empty (we just lose view-count ranking)
+    if not all_items:
+        print("  HOT SHOTS: retrying without 'fields' param...")
+        all_items = fetch_pool(use_fields=False)
 
-    # Already sorted by popularity from API, but limit to top 50
-    all_items = all_items[:50]
+    # Rank by views (most popular first); ties keep the API/rating order
+    all_items.sort(key=lambda x: x.views, reverse=True)
+    top_items = all_items[:top_n]
 
-    print(f"  HOT SHOTS: {len(all_items)} popular images found")
+    total_views = sum(i.views for i in top_items)
+    if total_views > 0:
+        print(f"  HOT SHOTS: {len(top_items)} images, ranked by views "
+              f"(top image: {top_items[0].views:,} views)")
+    else:
+        print(f"  HOT SHOTS: {len(top_items)} images (view counts unavailable, "
+              f"showing by rating)")
 
-    return all_items
+    return top_items
 
 
 # ==============================================================================
@@ -690,8 +735,9 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
         .hotshot-card:hover {{ border-color: #ff6b6b; background: rgba(255, 255, 255, 0.04); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15); }}
         .hotshot-image {{ width: 100%; height: 220px; object-fit: cover; background: #1a1a2e; }}
         .hotshot-info {{ padding: 14px 16px; }}
-        .hotshot-rank {{ font-size: 11px; font-weight: 700; color: #ff6b6b; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }}
+        .hotshot-rank {{ font-size: 11px; font-weight: 700; color: #ff6b6b; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }}
         .hotshot-rank-num {{ font-size: 14px; font-weight: 800; background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
+        .hotshot-views {{ margin-left: auto; font-size: 10px; font-weight: 600; color: #00ffff; background: rgba(0, 255, 255, 0.1); padding: 2px 8px; border-radius: 10px; }}
         .hotshot-title {{ font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
         .hotshot-meta {{ display: flex; justify-content: space-between; align-items: center; }}
         .hotshot-unit {{ font-size: 10px; color: #666; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
@@ -1229,7 +1275,10 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
                     <div class="hotshot-card" onclick="showDetail('${{item.id}}', true)">
                         <img class="hotshot-image" src="${{thumbnail}}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231a1a2e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23444%22 font-size=%2212%22>IMAGE</text></svg>'">
                         <div class="hotshot-info">
-                            <div class="hotshot-rank"><span class="hotshot-rank-num">#${{index + 1}}</span> HOT SHOT</div>
+                            <div class="hotshot-rank">
+                                <span class="hotshot-rank-num">#${{index + 1}}</span> HOT SHOT
+                                ${{item.views > 0 ? `<span class="hotshot-views">&#128065; ${{item.views.toLocaleString()}} views</span>` : ''}}
+                            </div>
                             <div class="hotshot-title">${{item.title}}</div>
                             <div class="hotshot-meta">
                                 <span class="hotshot-unit">${{item.unit_name}}</span>
@@ -1412,6 +1461,7 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
                     </div>
                     ${{item.credit ? `<div class="modal-info-item"><div class="modal-info-label">Credit</div><div class="modal-info-value">${{item.credit}}</div></div>` : ''}}
                     ${{item.duration ? `<div class="modal-info-item"><div class="modal-info-label">Duration</div><div class="modal-info-value">${{item.duration}}</div></div>` : ''}}
+                    ${{item.views > 0 ? `<div class="modal-info-item"><div class="modal-info-label">Views</div><div class="modal-info-value">${{item.views.toLocaleString()}}</div></div>` : ''}}
                 </div>
             `;
 
