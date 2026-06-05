@@ -1,36 +1,21 @@
 {
-  "generated": "2026-06-04T19:12:41.195634+00:00",
+  "generated": "2026-06-05T08:42:34.541765+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "image:9724724",
-      "title": "Commander of Naval Surface Force Atlantic visits USS Bulkeley (DDG 84) during its return to homeport, June 1, 2026",
-      "desc": "NAVAL STATION ROTA, Spain – (June 1, 2026) Rear Adm....",
+      "id": "image:9725688",
+      "title": "Frank E. Petersen Jr. Sailor Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the pilothouse of Arleigh...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS BULKELEY (DDG 84)",
-      "timestamp": "2026-06-04T10:15:42+00:00",
-      "url": "https://www.dvidshub.net/image/9724724/commander-naval-surface-force-atlantic-visits-uss-bulkeley-ddg-84-during-its-return-homeport-june-1-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1008901",
-      "title": "AFN Aviano TV Spot: Waist-to-Height Ratio Enters the Field",
-      "desc": "A video highlighting the implementation of the Waist-to-Height Ratio body composition assessment within the updated Physical Fitness Readiness Program at Aviano Air Base, Italy, May 27, 2026. The new assessment supports the health, readiness and operational capability of Airmen assigned to the 31st ",
-      "type": "video",
       "branch": "Joint",
-      "unit_name": "AFN Aviano",
-      "timestamp": "2026-06-03T12:51:41+00:00",
-      "url": "https://www.dvidshub.net/video/1008901/afn-aviano-tv-spot-waist-height-ratio-enters-field",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-05T00:37:45+00:00",
+      "url": "https://www.dvidshub.net/image/9725688/frank-e-petersen-jr-sailor-stands-watch",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
@@ -43,36 +28,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-02T23:38:23+00:00",
       "url": "https://www.dvidshub.net/news/566720/us-partner-forces-defend-against-aggressive-iranian-behavior",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:566712",
-      "title": "CENTCOM Disables Non-Compliant Vessel in Arabian Gulf",
-      "desc": "TAMPA, Fla. — U.S. forces disabled an unladen oil tanker that was attempting to sail toward an Iranian port on the Arabian Gulf, June 2.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-02T21:08:19+00:00",
-      "url": "https://www.dvidshub.net/news/566712/centcom-disables-non-compliant-vessel-arabian-gulf",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1008989",
-      "title": "CENTCOM Disables Non-Compliant Vessel in Arabian Gulf",
-      "desc": "U.S. Central Command (CENTCOM) enforced blockade measures against Botswana-flagged M/T Lexie as it transited international waters toward Kharg Island. The ship’s crew ignored repeated warnings, failing to comply with directions from U.S. forces multiple times over a 24-hour period. A U.S. aircraft u",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-02T20:57:16+00:00",
-      "url": "https://www.dvidshub.net/video/1008989/centcom-disables-non-compliant-vessel-arabian-gulf",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
