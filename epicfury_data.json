@@ -1,24 +1,9 @@
 {
-  "generated": "2026-06-05T08:42:34.541765+00:00",
+  "generated": "2026-06-05T13:54:26.184450+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9725688",
-      "title": "Frank E. Petersen Jr. Sailor Stands Watch",
-      "desc": "A U.S. Sailor stands watch in the pilothouse of Arleigh...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-05T00:37:45+00:00",
-      "url": "https://www.dvidshub.net/image/9725688/frank-e-petersen-jr-sailor-stands-watch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:566720",
       "title": "U.S., Partner Forces Defend Against Aggressive Iranian Behavior",
