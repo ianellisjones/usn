@@ -1,39 +1,9 @@
 {
-  "generated": "2026-06-06T17:59:39.862704+00:00",
+  "generated": "2026-06-07T08:22:50.874732+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9729702",
-      "title": "BALTOPS 26 Ships Sail in Formation",
-      "desc": "BALTIC SEA (June 5, 2026) - NATO ships, led by Polish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-06T15:31:06+00:00",
-      "url": "https://www.dvidshub.net/image/9729702/baltops-26-ships-sail-formation",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9729700",
-      "title": "BALTOPS 26 Ships Sail in Formation",
-      "desc": "BALTIC SEA (June 5, 2026) - NATO ships, led by Polish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-06T15:31:06+00:00",
-      "url": "https://www.dvidshub.net/image/9729700/baltops-26-ships-sail-formation",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1009586",
       "title": "CENTCOM Forces Defeat Missiles, Drones Launched by Iran",
