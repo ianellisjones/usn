@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-09T08:29:49.194056+00:00",
+  "generated": "2026-06-09T13:46:03.231400+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
+    {
+      "id": "news:567214",
+      "title": "U.S. Army Crew Safely Rescued After Helicopter Lost at Sea",
+      "desc": "TAMPA, Fla. — At 7:33 p.m. ET on June 8, two crew members from a U.S. Army AH-64 Apache were rescued by American forces after their helicopter went down near the coast of Oman while patrolling regional waters.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-09T10:20:51+00:00",
+      "url": "https://www.dvidshub.net/news/567214/us-army-crew-safely-rescued-after-helicopter-lost-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9731959",
       "title": "Partner Nations Strengthen Interoperability During RC26 Command Post Exercise",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-08T20:10:41+00:00",
       "url": "https://www.dvidshub.net/image/9731974/partner-nations-strengthen-interoperability-during-rc26-command-post-exercise",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9732867",
-      "title": "Regional Cooperation 2026 Cyber Security Training",
-      "desc": "U.S. Army National Guard Chief Warrant Officer 2...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-08T20:04:43+00:00",
-      "url": "https://www.dvidshub.net/image/9732867/regional-cooperation-2026-cyber-security-training",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
