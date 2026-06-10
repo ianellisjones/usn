@@ -1,69 +1,9 @@
 {
-  "generated": "2026-06-10T08:47:42.357983+00:00",
+  "generated": "2026-06-10T14:26:28.914412+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9736425",
-      "title": "USV Squadron 3, Division 32 Conducts Swarm Exercise in BALTOPS 2026",
-      "desc": "260607-N-JH316-1300 USTKA, Poland (June 7, 2026)  - The...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-10T08:02:51+00:00",
-      "url": "https://www.dvidshub.net/image/9736425/usv-squadron-3-division-32-conducts-swarm-exercise-baltops-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9733395",
-      "title": "BALTOPS 26 Counter USV Exercise in the Baltic Sea",
-      "desc": "260607-N-CW165-1183 BALTIC SEA(June 7th, 2026) - Danish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-10T08:02:40+00:00",
-      "url": "https://www.dvidshub.net/image/9733395/baltops-26-counter-usv-exercise-baltic-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9733393",
-      "title": "BALTOPS 26 Counter USV Exercise in the Baltic Sea",
-      "desc": "260607-N-CW165-1205 BALTIC SEA(June 7th, 2026) - Danish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-10T08:02:40+00:00",
-      "url": "https://www.dvidshub.net/image/9733393/baltops-26-counter-usv-exercise-baltic-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9733385",
-      "title": "BALTOPS 26 Counter USV Exercise in the Baltic Sea",
-      "desc": "260607-N-CW165-1167 BALTIC SEA(June 7th, 2026) - Danish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-10T08:02:39+00:00",
-      "url": "https://www.dvidshub.net/image/9733385/baltops-26-counter-usv-exercise-baltic-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:567293",
       "title": "U.S. Completes Strikes in Response to Iran’s Attack on Apache",
@@ -73,6 +13,21 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-10T00:57:20+00:00",
       "url": "https://www.dvidshub.net/news/567293/us-completes-strikes-response-irans-attack-apache",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:567214",
+      "title": "U.S. Army Crew Safely Rescued After Helicopter Lost at Sea",
+      "desc": "TAMPA, Fla. — At 7:33 p.m. ET on June 8, two crew members from a U.S. Army AH-64 Apache were rescued by American forces after their helicopter went down near the coast of Oman while patrolling regional waters.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-09T10:20:51+00:00",
+      "url": "https://www.dvidshub.net/news/567214/us-army-crew-safely-rescued-after-helicopter-lost-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
