@@ -1,9 +1,39 @@
 {
-  "generated": "2026-06-10T14:26:28.914412+00:00",
+  "generated": "2026-06-10T19:28:19.592391+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "news:567339",
+      "title": "CENTCOM Disables Non-Compliant Vessel in Gulf of Oman",
+      "desc": "TAMPA, Fla. — At 11:14 p.m. on June 9, U.S. forces disabled an oil tanker in the Gulf of Oman for the second consecutive day after another vessel violated the ongoing blockade by attempting to transport oil from Iran.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-10T16:24:02+00:00",
+      "url": "https://www.dvidshub.net/news/567339/centcom-disables-non-compliant-vessel-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1010233",
+      "title": "CENTCOM Disables Non-Compliant Vessel in Gulf of Oman",
+      "desc": "U.S. Central Command (CENTCOM) disables Palau-flagged M/T Settebello as it transits the Gulf of Oman, June 9, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-10T16:20:35+00:00",
+      "url": "https://www.dvidshub.net/video/1010233/centcom-disables-non-compliant-vessel-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:567293",
       "title": "U.S. Completes Strikes in Response to Iran’s Attack on Apache",
