@@ -1,9 +1,54 @@
 {
-  "generated": "2026-06-10T19:28:19.592391+00:00",
+  "generated": "2026-06-11T09:11:28.144992+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1010242",
+      "title": "Unmanned Operation Center, performs a live fire exercise during BALTOPS 2026",
+      "desc": "Unmanned Operation Center (UOC), performs a live fire exercise in Gdynia, Poland during exercise Baltic Operations (BALTOPS 2026).",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-06-11T06:24:35+00:00",
+      "url": "https://www.dvidshub.net/video/1010242/unmanned-operation-center-performs-live-fire-exercise-during-baltops-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:567393",
+      "title": "U.S. Forces Complete Latest Strikes in Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed additional self-defense strikes against multiple targets in Iran, June 10, at the Commander in Chief's direction.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-11T01:09:49+00:00",
+      "url": "https://www.dvidshub.net/news/567393/us-forces-complete-latest-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1010357",
+      "title": "U.S. Forces Complete Latest Strikes in Iran",
+      "desc": "USS Michael Murphy (DDG 112) launches Tomahawk cruise missiles in support of self-defense strikes against Iran, June 10, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-11T01:08:57+00:00",
+      "url": "https://www.dvidshub.net/video/1010357/us-forces-complete-latest-strikes-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:567339",
       "title": "CENTCOM Disables Non-Compliant Vessel in Gulf of Oman",
@@ -28,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-10T16:20:35+00:00",
       "url": "https://www.dvidshub.net/video/1010233/centcom-disables-non-compliant-vessel-gulf-oman",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:567293",
-      "title": "U.S. Completes Strikes in Response to Iran’s Attack on Apache",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed self-defense strikes against Iran, June 9, at the Commander in Chief’s direction in response to yesterday’s downing of a U.S. Army Apache helicopter.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-10T00:57:20+00:00",
-      "url": "https://www.dvidshub.net/news/567293/us-completes-strikes-response-irans-attack-apache",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:567214",
-      "title": "U.S. Army Crew Safely Rescued After Helicopter Lost at Sea",
-      "desc": "TAMPA, Fla. — At 7:33 p.m. ET on June 8, two crew members from a U.S. Army AH-64 Apache were rescued by American forces after their helicopter went down near the coast of Oman while patrolling regional waters.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-09T10:20:51+00:00",
-      "url": "https://www.dvidshub.net/news/567214/us-army-crew-safely-rescued-after-helicopter-lost-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
