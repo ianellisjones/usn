@@ -1,9 +1,54 @@
 {
-  "generated": "2026-06-11T09:11:28.144992+00:00",
+  "generated": "2026-06-11T14:46:10.665911+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
+    {
+      "id": "news:567411",
+      "title": "U.S. Forces Disable 3rd Oil Tanker Violating Blockade in Gulf of Oman",
+      "desc": "TAMPA, Fla. — U.S. forces disabled an oil tanker in the Gulf of Oman at 11:20 p.m. ET on June 10 after the vessel violated the blockade against Iran by attempting to transport Iranian oil, marking the third commercial ship disabled by American forces this week.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-11T11:34:02+00:00",
+      "url": "https://www.dvidshub.net/news/567411/us-forces-disable-3rd-oil-tanker-violating-blockade-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1010393",
+      "title": "U.S. Forces Disable 3rd Oil Tanker Violating Blockade in Gulf of Oman",
+      "desc": "U.S. Central Command (CENTCOM) disables Guinea-Bissau flagged M/T Jalveer as it attempts to transport oil from Iran through the Gulf of Oman, June 10, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-11T11:33:34+00:00",
+      "url": "https://www.dvidshub.net/video/1010393/us-forces-disable-3rd-oil-tanker-violating-blockade-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1010380",
+      "title": "Allied Forces Conduct Counter-Unmanned Surface Vessel Exercise During BALTOPS 2026",
+      "desc": "GDYNIA, Poland (June 9, 2026) – Unmanned Surface Vessel Squadron (USVRON) 3 Division 32, operates global autonomous reconnaissance craft (GARC) from the Unmanned Operation Center (UOC) during a live fire exercise with the German corvette Erfurt (F262), corvette Braunschweig (F260), and Finnish friga",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-06-11T11:06:00+00:00",
+      "url": "https://www.dvidshub.net/video/1010380/allied-forces-conduct-counter-unmanned-surface-vessel-exercise-during-baltops-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1010242",
       "title": "Unmanned Operation Center, performs a live fire exercise during BALTOPS 2026",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-11T01:09:49+00:00",
       "url": "https://www.dvidshub.net/news/567393/us-forces-complete-latest-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1010357",
-      "title": "U.S. Forces Complete Latest Strikes in Iran",
-      "desc": "USS Michael Murphy (DDG 112) launches Tomahawk cruise missiles in support of self-defense strikes against Iran, June 10, 2026. (U.S. Navy Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-11T01:08:57+00:00",
-      "url": "https://www.dvidshub.net/video/1010357/us-forces-complete-latest-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:567339",
-      "title": "CENTCOM Disables Non-Compliant Vessel in Gulf of Oman",
-      "desc": "TAMPA, Fla. — At 11:14 p.m. on June 9, U.S. forces disabled an oil tanker in the Gulf of Oman for the second consecutive day after another vessel violated the ongoing blockade by attempting to transport oil from Iran.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-10T16:24:02+00:00",
-      "url": "https://www.dvidshub.net/news/567339/centcom-disables-non-compliant-vessel-gulf-oman",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1010233",
-      "title": "CENTCOM Disables Non-Compliant Vessel in Gulf of Oman",
-      "desc": "U.S. Central Command (CENTCOM) disables Palau-flagged M/T Settebello as it transits the Gulf of Oman, June 9, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-10T16:20:35+00:00",
-      "url": "https://www.dvidshub.net/video/1010233/centcom-disables-non-compliant-vessel-gulf-oman",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
