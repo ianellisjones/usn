@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-11T14:46:10.665911+00:00",
+  "generated": "2026-06-11T19:28:08.873693+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1010060",
+      "title": "Delbert D. Black Conducts Operations in the Middle East",
+      "desc": "U.S. Sailors, assigned to Arleigh Burke-class guided-missile destroyer USS Delbert D. Black (DDG 119), stand a bridge watch, June 9, 2026. Delbert D. Black is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-11T15:33:34+00:00",
+      "url": "https://www.dvidshub.net/video/1010060/delbert-d-black-conducts-operations-middle-east",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:567411",
       "title": "U.S. Forces Disable 3rd Oil Tanker Violating Blockade in Gulf of Oman",
@@ -61,21 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:567393",
-      "title": "U.S. Forces Complete Latest Strikes in Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed additional self-defense strikes against multiple targets in Iran, June 10, at the Commander in Chief's direction.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-11T01:09:49+00:00",
-      "url": "https://www.dvidshub.net/news/567393/us-forces-complete-latest-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
