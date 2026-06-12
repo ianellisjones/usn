@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-12T08:56:09.303166+00:00",
+  "generated": "2026-06-12T14:11:49.489206+00:00",
   "news_count": 0,
   "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1010623",
+      "title": "Summer Heat Safety",
+      "desc": "Armed Forces Network Souda Bay video production on suicide awareness covering the numbers behind suicide June 5, 2026. Naval Support Activity Souda Bay is an operational ashore installation that enables and supports U.S., allied, coalition, and partner nation forces to preserve security and stabilit",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "AFN Souda Bay",
+      "timestamp": "2026-06-12T11:18:57+00:00",
+      "url": "https://www.dvidshub.net/video/1010623/summer-heat-safety",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1010579",
       "title": "U.S. Navy Seabees and Royal Netherlands Navy Divers Advance Boat Ramp Construction in Latvia",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-11T11:33:34+00:00",
       "url": "https://www.dvidshub.net/video/1010393/us-forces-disable-3rd-oil-tanker-violating-blockade-gulf-oman",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:567393",
-      "title": "U.S. Forces Complete Latest Strikes in Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed additional self-defense strikes against multiple targets in Iran, June 10, at the Commander in Chief's direction.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-11T01:09:49+00:00",
-      "url": "https://www.dvidshub.net/news/567393/us-forces-complete-latest-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
