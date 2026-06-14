@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-14T13:00:56.348254+00:00",
+  "generated": "2026-06-14T18:06:39.118762+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9749037",
+      "title": "U.S. Navy Assists in Rescue of 14 Indian Mariners in Northern Arabian Sea",
+      "desc": "An MH-60 Sea Hawk helicopter, attached to Nimitz-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-06-14T15:50:25+00:00",
+      "url": "https://www.dvidshub.net/image/9749037/us-navy-assists-rescue-14-indian-mariners-northern-arabian-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9748814",
       "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-06-14T10:09:16+00:00",
       "url": "https://www.dvidshub.net/image/9748811/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9748810",
-      "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
-      "desc": "260613-N-LY640-1050 BALTIC SEA, (June 13, 2026) – Two...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-14T10:09:16+00:00",
-      "url": "https://www.dvidshub.net/image/9748810/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
