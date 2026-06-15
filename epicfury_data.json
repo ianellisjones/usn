@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-15T10:54:13.332732+00:00",
+  "generated": "2026-06-15T16:20:07.179901+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "image:9749037",
-      "title": "U.S. Navy Assists in Rescue of 14 Indian Mariners in Northern Arabian Sea",
-      "desc": "An MH-60 Sea Hawk helicopter, attached to Nimitz-class...",
+      "id": "image:9750579",
+      "title": "Frank E. Petersen Jr. Sailor Conducts Maintenance",
+      "desc": "A U.S. Sailor conducts maintenance aboard Arleigh...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-06-14T15:50:25+00:00",
-      "url": "https://www.dvidshub.net/image/9749037/us-navy-assists-rescue-14-indian-mariners-northern-arabian-sea",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-15T16:12:52+00:00",
+      "url": "https://www.dvidshub.net/image/9750579/frank-e-petersen-jr-sailor-conducts-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,62 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "image:9748814",
-      "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
-      "desc": "260613-N-LY640-1167 BALTIC SEA (June 13, 2026 – U.S....",
+      "id": "image:9750633",
+      "title": "John Finn prepares a meal",
+      "desc": "A U.S. Sailor cooks fried chicken in the galley aboard...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-14T10:09:17+00:00",
-      "url": "https://www.dvidshub.net/image/9748814/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-15T16:11:54+00:00",
+      "url": "https://www.dvidshub.net/image/9750633/john-finn-prepares-meal",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9748813",
-      "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
-      "desc": "260613-N-LY640-1127 BALTIC SEA (June 13, 2026 – U.S....",
+      "id": "image:9750649",
+      "title": "John Finn prepares a meal",
+      "desc": "A U.S. Sailor cooks teriyaki chicken in the galley...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-14T10:09:17+00:00",
-      "url": "https://www.dvidshub.net/image/9748813/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-15T16:10:33+00:00",
+      "url": "https://www.dvidshub.net/image/9750649/john-finn-prepares-meal",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9748812",
-      "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
-      "desc": "260613-N-LY640-1086 BALTIC SEA (June 13, 2026) -...",
+      "id": "image:9750662",
+      "title": "John Finn prepares a meal",
+      "desc": "A U.S. Sailor cooks oxtail stew in the galley aboard...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-14T10:09:16+00:00",
-      "url": "https://www.dvidshub.net/image/9748812/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-15T16:09:49+00:00",
+      "url": "https://www.dvidshub.net/image/9750662/john-finn-prepares-meal",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9748811",
-      "title": "USVDIV-32 and USS Mount Whitney (LCC 20) conduct a swarm",
-      "desc": "260613-N-LY640-1077 BALTIC SEA (June 13, 2026) –...",
+      "id": "image:9750590",
+      "title": "Frank E. Petersen Jr. Sailor Stands Watch",
+      "desc": "A U.S. Sailor stands top side overflow watch aboard...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-06-14T10:09:16+00:00",
-      "url": "https://www.dvidshub.net/image/9748811/usvdiv-32-and-uss-mount-whitney-lcc-20-conduct-swarm",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-15T16:05:30+00:00",
+      "url": "https://www.dvidshub.net/image/9750590/frank-e-petersen-jr-sailor-stands-watch",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
