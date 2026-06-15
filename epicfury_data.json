@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-15T16:20:07.179901+00:00",
+  "generated": "2026-06-15T20:20:45.965530+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "image:9750579",
-      "title": "Frank E. Petersen Jr. Sailor Conducts Maintenance",
-      "desc": "A U.S. Sailor conducts maintenance aboard Arleigh...",
+      "id": "image:9750986",
+      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
+      "desc": "U.S. Sailors, assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T16:12:52+00:00",
-      "url": "https://www.dvidshub.net/image/9750579/frank-e-petersen-jr-sailor-conducts-maintenance",
+      "timestamp": "2026-06-15T17:32:43+00:00",
+      "url": "https://www.dvidshub.net/image/9750986/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9750633",
-      "title": "John Finn prepares a meal",
-      "desc": "A U.S. Sailor cooks fried chicken in the galley aboard...",
+      "id": "image:9750991",
+      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
+      "desc": "U.S. Sailors, assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T16:11:54+00:00",
-      "url": "https://www.dvidshub.net/image/9750633/john-finn-prepares-meal",
+      "timestamp": "2026-06-15T17:32:05+00:00",
+      "url": "https://www.dvidshub.net/image/9750991/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9750649",
-      "title": "John Finn prepares a meal",
-      "desc": "A U.S. Sailor cooks teriyaki chicken in the galley...",
+      "id": "image:9751013",
+      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
+      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T16:10:33+00:00",
-      "url": "https://www.dvidshub.net/image/9750649/john-finn-prepares-meal",
+      "timestamp": "2026-06-15T17:31:09+00:00",
+      "url": "https://www.dvidshub.net/image/9751013/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9750662",
-      "title": "John Finn prepares a meal",
-      "desc": "A U.S. Sailor cooks oxtail stew in the galley aboard...",
+      "id": "image:9751027",
+      "title": "USS Delbert D. Black (DDG 119) Conducts a Vertical Replenishment-at-sea",
+      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T16:09:49+00:00",
-      "url": "https://www.dvidshub.net/image/9750662/john-finn-prepares-meal",
+      "timestamp": "2026-06-15T17:30:26+00:00",
+      "url": "https://www.dvidshub.net/image/9751027/uss-delbert-d-black-ddg-119-conducts-vertical-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9750590",
-      "title": "Frank E. Petersen Jr. Sailor Stands Watch",
-      "desc": "A U.S. Sailor stands top side overflow watch aboard...",
+      "id": "image:9751038",
+      "title": "USS Delbert D. Black (DDG 119) Conducts a Vertical Replenishment-at-sea",
+      "desc": "An MH-60R Sea Hawk helicopter, attached to Helicopter...",
       "type": "image",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T16:05:30+00:00",
-      "url": "https://www.dvidshub.net/image/9750590/frank-e-petersen-jr-sailor-stands-watch",
+      "timestamp": "2026-06-15T17:29:57+00:00",
+      "url": "https://www.dvidshub.net/image/9751038/uss-delbert-d-black-ddg-119-conducts-vertical-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
