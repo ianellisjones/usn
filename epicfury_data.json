@@ -1,9 +1,39 @@
 {
-  "generated": "2026-06-16T10:05:16.397207+00:00",
+  "generated": "2026-06-16T16:00:44.415206+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
+    {
+      "id": "news:567899",
+      "title": "USS Mitscher Returns to Naval Station Norfolk from Deployment to 5th and 6th Fleet Areas of Operations",
+      "desc": "NORFOLK, Virginia – Arleigh Burke-class guided-missile destroyer USS Mitscher (DDG 57) returned to Naval Station Norfolk June 16, concluding an 11-month deployment to the U.S. 5th and 6th Fleet areas of operations.   \n\nThe warship, assigned to Destroyer Squadron Two, departed Naval Station Norfolk f",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-16T15:07:49+00:00",
+      "url": "https://www.dvidshub.net/news/567899/uss-mitscher-returns-naval-station-norfolk-deployment-5th-and-6th-fleet-areas-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1011018",
+      "title": "Milius Conducts Flight Operations",
+      "desc": "An MH-60S Sea Hawk lands on the flight deck of Arleigh Burke-class guided-missile destroyer USS Milius (DDG 69) during flight operations June 14, 2026. Milius is deployed to the U.S. 5th Fleet area of operation to support maritime security and stability in the Middle East. (U.S. Navy photo)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-16T13:16:24+00:00",
+      "url": "https://www.dvidshub.net/video/1011018/milius-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9750986",
       "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-06-15T17:31:09+00:00",
       "url": "https://www.dvidshub.net/image/9751013/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9751027",
-      "title": "USS Delbert D. Black (DDG 119) Conducts a Vertical Replenishment-at-sea",
-      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T17:30:26+00:00",
-      "url": "https://www.dvidshub.net/image/9751027/uss-delbert-d-black-ddg-119-conducts-vertical-replenishment-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9751038",
-      "title": "USS Delbert D. Black (DDG 119) Conducts a Vertical Replenishment-at-sea",
-      "desc": "An MH-60R Sea Hawk helicopter, attached to Helicopter...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T17:29:57+00:00",
-      "url": "https://www.dvidshub.net/image/9751038/uss-delbert-d-black-ddg-119-conducts-vertical-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
