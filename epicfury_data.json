@@ -1,81 +1,81 @@
 {
-  "generated": "2026-06-16T16:00:44.415206+00:00",
+  "generated": "2026-06-16T20:03:11.219717+00:00",
   "news_count": 0,
-  "dvids_count": 14,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "news:567899",
-      "title": "USS Mitscher Returns to Naval Station Norfolk from Deployment to 5th and 6th Fleet Areas of Operations",
-      "desc": "NORFOLK, Virginia – Arleigh Burke-class guided-missile destroyer USS Mitscher (DDG 57) returned to Naval Station Norfolk June 16, concluding an 11-month deployment to the U.S. 5th and 6th Fleet areas of operations.   \n\nThe warship, assigned to Destroyer Squadron Two, departed Naval Station Norfolk f",
-      "type": "news",
+      "id": "image:9753666",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Cmdr. Stephen Prugh,...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-06-16T15:07:49+00:00",
-      "url": "https://www.dvidshub.net/news/567899/uss-mitscher-returns-naval-station-norfolk-deployment-5th-and-6th-fleet-areas-operations",
+      "timestamp": "2026-06-16T18:56:21+00:00",
+      "url": "https://www.dvidshub.net/image/9753666/uss-mitscher-ddg-57-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1011018",
-      "title": "Milius Conducts Flight Operations",
-      "desc": "An MH-60S Sea Hawk lands on the flight deck of Arleigh Burke-class guided-missile destroyer USS Milius (DDG 69) during flight operations June 14, 2026. Milius is deployed to the U.S. 5th Fleet area of operation to support maritime security and stability in the Middle East. (U.S. Navy photo)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-16T13:16:24+00:00",
-      "url": "https://www.dvidshub.net/video/1011018/milius-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9750986",
-      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
-      "desc": "U.S. Sailors, assigned to Arleigh Burke-class...",
+      "id": "image:9753620",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Culinary Specialist 3rd...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T17:32:43+00:00",
-      "url": "https://www.dvidshub.net/image/9750986/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-16T18:55:32+00:00",
+      "url": "https://www.dvidshub.net/image/9753620/uss-mitscher-ddg-57-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9750991",
-      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
-      "desc": "U.S. Sailors, assigned to Arleigh Burke-class...",
+      "id": "image:9753617",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Sailors assigned to Arleigh...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T17:32:05+00:00",
-      "url": "https://www.dvidshub.net/image/9750991/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-16T18:55:16+00:00",
+      "url": "https://www.dvidshub.net/image/9753617/uss-mitscher-ddg-57-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9751013",
-      "title": "USS Delbert D. Black (DDG 119) Conducts a Replenishment-at-Sea",
-      "desc": "A U.S. Sailor, assigned to Arleigh Burke-class...",
+      "id": "image:9753616",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Cryptologic Technician...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-15T17:31:09+00:00",
-      "url": "https://www.dvidshub.net/image/9751013/uss-delbert-d-black-ddg-119-conducts-replenishment-sea",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-16T18:54:40+00:00",
+      "url": "https://www.dvidshub.net/image/9753616/uss-mitscher-ddg-57-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9753614",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Arleigh Burke-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-16T18:54:17+00:00",
+      "url": "https://www.dvidshub.net/image/9753614/uss-mitscher-ddg-57-returns-naval-station-norfolk",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
       ],
       "location_display": ""
     }
