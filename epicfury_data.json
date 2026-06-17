@@ -1,33 +1,33 @@
 {
-  "generated": "2026-06-17T14:27:44.565649+00:00",
+  "generated": "2026-06-17T19:16:09.016146+00:00",
   "news_count": 0,
   "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "image:9753110",
-      "title": "John Finn moves a washing machine",
-      "desc": "U.S. Sailors move a washing machine aboard Arleigh...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-17T11:32:18+00:00",
-      "url": "https://www.dvidshub.net/image/9753110/john-finn-moves-washing-machine",
+      "id": "video:1011254",
+      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
+      "desc": "NORFOLK, Va. (June 16, 2026) Arleigh Burke-class guided-missile destroyer USS Mitscher (DDG 57) returns to Naval Station Norfolk following a historic 11-month deployment to the U.S. 5th and 6th Fleet areas of operations. (U.S. Navy video by Mass Communication Specialist 2nd Class Derek Cole)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-06-17T17:49:21+00:00",
+      "url": "https://www.dvidshub.net/video/1011254/uss-mitscher-ddg-57-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:567754",
-      "title": "U.S. Navy Assists in Rescue of 14 Indian Mariners in Northern Arabian Sea",
-      "desc": "A U.S. Navy search and rescue helicopter assisted in the rescue of 14 Indian mariners in the Northern Arabian Sea, June 14.",
+      "id": "news:567997",
+      "title": "229th MPs return to U.S. after successful deployment",
+      "desc": "Virginia National Guard Soldiers assigned to the Hanover-based 229th Military Police Company, 276th Engineer Battalion, 329th Regional Support Group returned to the United States June 13, 2026, following their federal active duty deployment to the U.S. Central Command area of responsibility.",
       "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-06-14T15:50:38+00:00",
-      "url": "https://www.dvidshub.net/news/567754/us-navy-assists-rescue-14-indian-mariners-northern-arabian-sea",
+      "branch": "Joint",
+      "unit_name": "Virginia National Guard Public Affairs",
+      "timestamp": "2026-06-17T14:59:29+00:00",
+      "url": "https://www.dvidshub.net/news/567997/229th-mps-return-us-after-successful-deployment",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
