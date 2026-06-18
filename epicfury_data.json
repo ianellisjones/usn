@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-17T19:16:09.016146+00:00",
+  "generated": "2026-06-18T09:12:13.264140+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "news:568099",
+      "title": "USS Canberra departs Colombo after scheduled port visit",
+      "desc": "Independence-variant littoral combat ship USS Canberra (LCS 30) departed Colombo June 12, 2026, after a scheduled port visit to strengthen relations with the Sri Lanka Navy.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-06-18T02:43:33+00:00",
+      "url": "https://www.dvidshub.net/news/568099/uss-canberra-departs-colombo-after-scheduled-port-visit",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1011254",
       "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
