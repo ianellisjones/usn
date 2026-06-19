@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-18T19:14:49.925237+00:00",
+  "generated": "2026-06-19T09:27:17.463456+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
@@ -16,21 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1011254",
-      "title": "USS Mitscher (DDG 57) returns to Naval Station Norfolk",
-      "desc": "NORFOLK, Va. (June 16, 2026) Arleigh Burke-class guided-missile destroyer USS Mitscher (DDG 57) returns to Naval Station Norfolk following a historic 11-month deployment to the U.S. 5th and 6th Fleet areas of operations. (U.S. Navy video by Mass Communication Specialist 2nd Class Derek Cole)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-06-17T17:49:21+00:00",
-      "url": "https://www.dvidshub.net/video/1011254/uss-mitscher-ddg-57-returns-naval-station-norfolk",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     },
