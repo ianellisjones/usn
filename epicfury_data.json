@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-25T13:22:43.835783+00:00",
+  "generated": "2026-06-25T19:00:54.116152+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "news:568568",
+      "title": "Final group of NY Army Guard Soldiers return home after participating in Operation Epic Fury",
+      "desc": "TROY, New York--The last of 500 New York National Guard Soldiers who deployed to the Middle East with the headquarters of the 42nd Infantry Division returned to New York from their active-duty deployment at the beginning of June.\nThe Soldiers mobilized at the end of May in 2025 to serve as the comma",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "New York National Guard",
+      "timestamp": "2026-06-25T17:20:24+00:00",
+      "url": "https://www.dvidshub.net/news/568568/final-group-ny-army-guard-soldiers-return-home-after-participating-operation-epic-fury",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1012246",
       "title": "Frank E. Petersen Jr. Conducts Helicopter Operations",
