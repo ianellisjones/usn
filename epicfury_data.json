@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-25T19:00:54.116152+00:00",
+  "generated": "2026-06-26T08:28:52.464600+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,21 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1012246",
-      "title": "Frank E. Petersen Jr. Conducts Helicopter Operations",
-      "desc": "U.S. Sailors aboard Arleigh Burke-class guided-missile destroyer USS Frank E. Petersen Jr. (DDG 121) conduct helicopter operations, June 23, 2026. Frank E. Petersen Jr. is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy phot",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-06-25T12:32:24+00:00",
-      "url": "https://www.dvidshub.net/video/1012246/frank-e-petersen-jr-conducts-helicopter-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
