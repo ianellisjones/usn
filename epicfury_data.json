@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-26T18:22:14.043225+00:00",
+  "generated": "2026-06-27T07:48:32.077982+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "news:568726",
+      "title": "U.S. Strikes Iran in Response to Attack on Commercial Vessel",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces conducted strikes against Iran, June 26, as a powerful response to yesterday’s attack on a commercial ship that was transiting the Strait of Hormuz.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-26T20:43:22+00:00",
+      "url": "https://www.dvidshub.net/news/568726/us-strikes-iran-response-attack-commercial-vessel",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:568568",
       "title": "Final group of NY Army Guard Soldiers return home after participating in Operation Epic Fury",
