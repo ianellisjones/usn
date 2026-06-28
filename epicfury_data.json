@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-28T12:18:34.669654+00:00",
+  "generated": "2026-06-28T17:58:19.603748+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9778533",
+      "title": "USS Mount Whitney, FGS Hamburg Sail in Baltic Sea",
+      "desc": "The Blue-Ridge class command and control ship USS Mount...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-06-28T16:37:44+00:00",
+      "url": "https://www.dvidshub.net/image/9778533/uss-mount-whitney-fgs-hamburg-sail-baltic-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:568859",
       "title": "U.S. Forces Conduct Additional Strikes After Iran’s Latest Commercial Ship Attack",
