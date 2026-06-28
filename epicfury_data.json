@@ -1,9 +1,24 @@
 {
-  "generated": "2026-06-27T17:54:40.395404+00:00",
+  "generated": "2026-06-28T08:20:30.055726+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "news:568859",
+      "title": "U.S. Forces Conduct Additional Strikes After Iran’s Latest Commercial Ship Attack",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces conducted additional strikes against multiple targets in Iran, June 27, at the Commander in Chief’s direction.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-06-27T21:54:30+00:00",
+      "url": "https://www.dvidshub.net/news/568859/us-forces-conduct-additional-strikes-after-irans-latest-commercial-ship-attack",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:568726",
       "title": "U.S. Strikes Iran in Response to Attack on Commercial Vessel",
