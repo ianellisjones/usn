@@ -1,7 +1,53 @@
 {
-  "generated": "2026-07-01T13:36:49.692471+00:00",
+  "generated": "2026-07-01T18:54:29.219272+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 3,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:9786312",
+      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
+      "desc": "Adm. Brad Cooper, CENTCOM commander, and senior military...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-01T16:22:32+00:00",
+      "url": "https://www.dvidshub.net/image/9786312/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9786313",
+      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
+      "desc": "Adm. Brad Cooper, CENTCOM commander, and senior military...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-01T16:22:29+00:00",
+      "url": "https://www.dvidshub.net/image/9786313/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569164",
+      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
+      "desc": "U.S. Central Command (CENTCOM) led a regional security dialogue hosted by the Bahrain Defense Force, July 1, for regional defense leaders from 12 nations.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-01T16:22:24+00:00",
+      "url": "https://www.dvidshub.net/news/569164/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
