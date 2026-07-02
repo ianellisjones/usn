@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-02T08:10:33.789970+00:00",
+  "generated": "2026-07-02T13:01:49.240421+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1013267",
+      "title": "2026 Independence Day Celebration",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 1, 2026) The Naval Support Activity (NSA) Souda Bay Morale, Welfare and Recreation Department hosted an Independence Day Celebration for NSA Souda Bay and its tenant commands, along with guests from local military and civil authorities, at Limnoupolis W",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Souda Bay",
+      "timestamp": "2026-07-02T12:00:07+00:00",
+      "url": "https://www.dvidshub.net/video/1013267/2026-independence-day-celebration",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9786312",
       "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
