@@ -1,51 +1,21 @@
 {
-  "generated": "2026-07-02T18:21:46.833456+00:00",
+  "generated": "2026-07-03T08:07:41.867067+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "video:1013267",
-      "title": "2026 Independence Day Celebration",
-      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 1, 2026) The Naval Support Activity (NSA) Souda Bay Morale, Welfare and Recreation Department hosted an Independence Day Celebration for NSA Souda Bay and its tenant commands, along with guests from local military and civil authorities, at Limnoupolis W",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Support Activity Souda Bay",
-      "timestamp": "2026-07-02T12:00:07+00:00",
-      "url": "https://www.dvidshub.net/video/1013267/2026-independence-day-celebration",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9786312",
-      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
-      "desc": "Adm. Brad Cooper, CENTCOM commander, and senior military...",
-      "type": "image",
+      "id": "news:569309",
+      "title": "Historic 115th Field Hospital transfers command as nation approaches 250th birthday",
+      "desc": "FORT POLK, La. — The 115th Field Hospital, one of the U.S. Army's oldest and most decorated medical units, welcomed a new commander during a time-honored change of command ceremony at the Joint Readiness Training Center and Fort Polk, July 2, 2026.\n\nLt. Col. Steven P. Delgado assumed command of the ",
+      "type": "news",
       "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-01T16:22:32+00:00",
-      "url": "https://www.dvidshub.net/image/9786312/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
+      "unit_name": "Bayne-Jones Army Community Hospital",
+      "timestamp": "2026-07-02T18:56:11+00:00",
+      "url": "https://www.dvidshub.net/news/569309/historic-115th-field-hospital-transfers-command-nation-approaches-250th-birthday",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9786313",
-      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
-      "desc": "Adm. Brad Cooper, CENTCOM commander, and senior military...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-01T16:22:29+00:00",
-      "url": "https://www.dvidshub.net/image/9786313/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
