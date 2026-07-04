@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-04T12:10:50.455600+00:00",
+  "generated": "2026-07-04T17:55:20.401258+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,21 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569164",
-      "title": "CENTCOM Leads Regional Security Dialogue with 12 Nations in Bahrain",
-      "desc": "U.S. Central Command (CENTCOM) led a regional security dialogue hosted by the Bahrain Defense Force, July 1, for regional defense leaders from 12 nations.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-01T16:22:24+00:00",
-      "url": "https://www.dvidshub.net/news/569164/centcom-leads-regional-security-dialogue-with-12-nations-bahrain",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
