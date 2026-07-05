@@ -1,23 +1,7 @@
 {
-  "generated": "2026-07-04T17:55:20.401258+00:00",
+  "generated": "2026-07-05T07:55:42.311054+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:569309",
-      "title": "Historic 115th Field Hospital transfers command as nation approaches 250th birthday",
-      "desc": "FORT POLK, La. — The 115th Field Hospital, one of the U.S. Army's oldest and most decorated medical units, welcomed a new commander during a time-honored change of command ceremony at the Joint Readiness Training Center and Fort Polk, July 2, 2026.\n\nLt. Col. Steven P. Delgado assumed command of the ",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Bayne-Jones Army Community Hospital",
-      "timestamp": "2026-07-02T18:56:11+00:00",
-      "url": "https://www.dvidshub.net/news/569309/historic-115th-field-hospital-transfers-command-nation-approaches-250th-birthday",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
