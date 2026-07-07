@@ -1,38 +1,7 @@
 {
-  "generated": "2026-07-06T18:49:13.762409+00:00",
+  "generated": "2026-07-07T08:22:19.418824+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "image:9794431",
-      "title": "Mount Whitney Visits Zeebrugge, Belgium",
-      "desc": "U.S. Navy Sailors assigned to the \"Ghostriders\" of...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-07-06T13:19:29+00:00",
-      "url": "https://www.dvidshub.net/image/9794431/mount-whitney-visits-zeebrugge-belgium",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9794445",
-      "title": "Mount Whitney Visits Zeebrugge, Belgium",
-      "desc": "A U.S. Navy Sailor, assigned to the Blue Ridge-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-07-06T09:34:56+00:00",
-      "url": "https://www.dvidshub.net/image/9794445/mount-whitney-visits-zeebrugge-belgium",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
