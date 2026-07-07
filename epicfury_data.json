@@ -1,7 +1,23 @@
 {
-  "generated": "2026-07-07T08:22:19.418824+00:00",
+  "generated": "2026-07-07T13:23:25.921960+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "news:569453",
+      "title": "Mohammed VI, Niani Join Global Fleet on the Hudson",
+      "desc": "Warships from Morocco and Senegal took their place in the multinational fleet assembled along the Hudson River July 4 as the reviewing ship transited the formation during International Naval Review 250.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-07T11:09:59+00:00",
+      "url": "https://www.dvidshub.net/news/569453/mohammed-vi-niani-join-global-fleet-hudson",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
