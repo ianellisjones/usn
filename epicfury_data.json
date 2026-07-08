@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-08T07:27:38.280791+00:00",
+  "generated": "2026-07-08T12:26:11.070299+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "news:569529",
+      "title": "Norfolk Naval Shipyard Welcomes USS Gerald R. Ford for its First Planned Incremental Availability",
+      "desc": "Norfolk Naval Shipyard (NNSY) in Portsmouth, Virginia welcomed USS Gerald R. Ford (CVN 78) July 7 in advance of its Planned Incremental Availability (PIA).   Following the carrier’s historic 326-day deployment, including operations in the Mediterranean, Caribbean, and Red Seas, this marks Gerald R. ",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Norfolk Naval Shipyard",
+      "timestamp": "2026-07-08T11:16:48+00:00",
+      "url": "https://www.dvidshub.net/news/569529/norfolk-naval-shipyard-welcomes-uss-gerald-r-ford-its-first-planned-incremental-availability",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1013909",
       "title": "U.S. Forces Complete New Round of Retaliatory Strikes Against Iran",
