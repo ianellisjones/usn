@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-07T18:54:02.555070+00:00",
+  "generated": "2026-07-08T07:27:38.280791+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1013909",
+      "title": "U.S. Forces Complete New Round of Retaliatory Strikes Against Iran",
+      "desc": "U.S. Central Command (CENTCOM) forces completed a new round of offensive strikes against Iran, July 7, hitting over 80 targets with precision munitions as an immediate response to Iran's latest attacks on commercial vessels transiting the Strait of Hormuz. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-08T01:50:27+00:00",
+      "url": "https://www.dvidshub.net/video/1013909/us-forces-complete-new-round-retaliatory-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569521",
+      "title": "U.S. Forces Complete New Round of Retaliatory Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed a new round of offensive strikes against Iran, July 7, hitting over 80 targets with precision munitions as an immediate response to Iran's latest attacks on commercial vessels transiting the Strait of Hormuz.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-08T01:48:40+00:00",
+      "url": "https://www.dvidshub.net/news/569521/us-forces-complete-new-round-retaliatory-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:569453",
       "title": "Mohammed VI, Niani Join Global Fleet on the Hudson",
