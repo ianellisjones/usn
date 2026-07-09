@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-08T18:12:34.628056+00:00",
+  "generated": "2026-07-09T08:25:56.453183+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1014046",
+      "title": "U.S. Forces Complete Another Round of Strikes Against Iran",
+      "desc": "U.S. Central Command forces launch strikes against military targets within Iran, July 7-8, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-09T03:06:46+00:00",
+      "url": "https://www.dvidshub.net/video/1014046/us-forces-complete-another-round-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569596",
+      "title": "U.S. Forces Complete Another Round of Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed an additional round of strikes against Iran, July 8, to further degrade Iran's ability to attack commercial shipping and innocent civilian mariners in the Strait of Hormuz.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-09T03:06:39+00:00",
+      "url": "https://www.dvidshub.net/news/569596/us-forces-complete-another-round-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:569529",
       "title": "Norfolk Naval Shipyard Welcomes USS Gerald R. Ford for its First Planned Incremental Availability",
@@ -46,21 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569453",
-      "title": "Mohammed VI, Niani Join Global Fleet on the Hudson",
-      "desc": "Warships from Morocco and Senegal took their place in the multinational fleet assembled along the Hudson River July 4 as the reviewing ship transited the formation during International Naval Review 250.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-07T11:09:59+00:00",
-      "url": "https://www.dvidshub.net/news/569453/mohammed-vi-niani-join-global-fleet-hudson",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
