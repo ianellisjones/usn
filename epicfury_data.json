@@ -1,9 +1,69 @@
 {
-  "generated": "2026-07-09T18:44:56.353748+00:00",
+  "generated": "2026-07-10T08:21:16.016820+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9802296",
+      "title": "Acting Secretary of the Navy Visits MacDill Air Force Base",
+      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-07-09T20:48:03+00:00",
+      "url": "https://www.dvidshub.net/image/9802296/acting-secretary-navy-visits-macdill-air-force-base",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9802299",
+      "title": "Acting Secretary of the Navy Visits MacDill Air Force Base",
+      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-07-09T20:47:59+00:00",
+      "url": "https://www.dvidshub.net/image/9802299/acting-secretary-navy-visits-macdill-air-force-base",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9802307",
+      "title": "Acting Secretary of the Navy Visits MacDill Air Force Base",
+      "desc": "The Honorable Hung Cao, Acting Secretary of the Navy,...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-07-09T20:47:55+00:00",
+      "url": "https://www.dvidshub.net/image/9802307/acting-secretary-navy-visits-macdill-air-force-base",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9802317",
+      "title": "Acting Secretary of the Navy Visits MacDill Air Force Base",
+      "desc": "U.S. service members listen to remarks from the...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-07-09T20:47:51+00:00",
+      "url": "https://www.dvidshub.net/image/9802317/acting-secretary-navy-visits-macdill-air-force-base",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1014046",
       "title": "U.S. Forces Complete Another Round of Strikes Against Iran",
@@ -13,66 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-09T03:06:46+00:00",
       "url": "https://www.dvidshub.net/video/1014046/us-forces-complete-another-round-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569596",
-      "title": "U.S. Forces Complete Another Round of Strikes Against Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed an additional round of strikes against Iran, July 8, to further degrade Iran's ability to attack commercial shipping and innocent civilian mariners in the Strait of Hormuz.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-09T03:06:39+00:00",
-      "url": "https://www.dvidshub.net/news/569596/us-forces-complete-another-round-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569529",
-      "title": "Norfolk Naval Shipyard Welcomes USS Gerald R. Ford for its First Planned Incremental Availability",
-      "desc": "Norfolk Naval Shipyard (NNSY) in Portsmouth, Virginia welcomed USS Gerald R. Ford (CVN 78) July 7 in advance of its Planned Incremental Availability (PIA).   Following the carrier’s historic 326-day deployment, including operations in the Mediterranean, Caribbean, and Red Seas, this marks Gerald R. ",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Norfolk Naval Shipyard",
-      "timestamp": "2026-07-08T11:16:48+00:00",
-      "url": "https://www.dvidshub.net/news/569529/norfolk-naval-shipyard-welcomes-uss-gerald-r-ford-its-first-planned-incremental-availability",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1013909",
-      "title": "U.S. Forces Complete New Round of Retaliatory Strikes Against Iran",
-      "desc": "U.S. Central Command (CENTCOM) forces completed a new round of offensive strikes against Iran, July 7, hitting over 80 targets with precision munitions as an immediate response to Iran's latest attacks on commercial vessels transiting the Strait of Hormuz. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-08T01:50:27+00:00",
-      "url": "https://www.dvidshub.net/video/1013909/us-forces-complete-new-round-retaliatory-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569521",
-      "title": "U.S. Forces Complete New Round of Retaliatory Strikes Against Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces completed a new round of offensive strikes against Iran, July 7, hitting over 80 targets with precision munitions as an immediate response to Iran's latest attacks on commercial vessels transiting the Strait of Hormuz.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-08T01:48:40+00:00",
-      "url": "https://www.dvidshub.net/news/569521/us-forces-complete-new-round-retaliatory-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
