@@ -1,81 +1,66 @@
 {
-  "generated": "2026-07-12T17:50:35.676880+00:00",
+  "generated": "2026-07-13T08:15:32.178077+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
-      "id": "image:9806666",
-      "title": "Sea Breeze 26 Pre-Sail Conference",
-      "desc": "PORTLAND, United Kingdom – U.S. Navy Capt. Bill...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-12T16:57:44+00:00",
-      "url": "https://www.dvidshub.net/image/9806666/sea-breeze-26-pre-sail-conference",
+      "id": "video:1014392",
+      "title": "CENTCOM Completes Another Wave of Strikes Against Iran",
+      "desc": "Video footage of U.S. Central Command forces striking Iranian military targets after launching aircraft and cruise missiles in response to Iran's attack on commercial vessels transiting the Strait of Hormuz, released July 12, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-13T02:40:29+00:00",
+      "url": "https://www.dvidshub.net/video/1014392/centcom-completes-another-wave-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9806665",
-      "title": "Sea Breeze 26 Pre-Sail Conference",
-      "desc": "PORTLAND, United Kingdom – A Ukrainian Navy officer...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-12T16:57:44+00:00",
-      "url": "https://www.dvidshub.net/image/9806665/sea-breeze-26-pre-sail-conference",
+      "id": "news:569783",
+      "title": "CENTCOM Completes Another Wave of Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed a new wave of offensive strikes against Iran, July 12, hitting dozens of targets at multiple locations with precision munitions to degrade Iran’s ability to continue attacking international shipping flowing through the Strait of Hormuz.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-13T02:38:21+00:00",
+      "url": "https://www.dvidshub.net/news/569783/centcom-completes-another-wave-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9806664",
-      "title": "Sea Breeze 26 Pre-Sail Conference",
-      "desc": "PORTLAND, United Kingdom – Members of Standing NATO...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-12T16:57:43+00:00",
-      "url": "https://www.dvidshub.net/image/9806664/sea-breeze-26-pre-sail-conference",
+      "id": "video:1014371",
+      "title": "U.S. Forces Finish Latest Round of Strikes Against Iran",
+      "desc": "Video footage of U.S. Central Command forces striking Iranian military targets after launching aircraft and cruise missiles in response to Iran's attack on commercial vessels transiting the Strait of Hormuz during the week of July 6-11, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-12T03:34:47+00:00",
+      "url": "https://www.dvidshub.net/video/1014371/us-forces-finish-latest-round-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9806663",
-      "title": "Sea Breeze 26 Pre-Sail Conference",
-      "desc": "PORTLAND, United Kingdom – A French Navy officer is...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-12T16:57:43+00:00",
-      "url": "https://www.dvidshub.net/image/9806663/sea-breeze-26-pre-sail-conference",
+      "id": "news:569766",
+      "title": "U.S. Forces Finish Latest Round of Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed a third round of strikes this week against Iran, July 11, holding Iranian forces accountable for attacking another commercial ship in the Strait of Hormuz.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-12T03:34:26+00:00",
+      "url": "https://www.dvidshub.net/news/569766/us-forces-finish-latest-round-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9806662",
-      "title": "Sea Breeze 26 Pre-Sail Conference",
-      "desc": "PORTLAND, United Kingdom – A U.K Royal Navy officer...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-12T16:57:43+00:00",
-      "url": "https://www.dvidshub.net/image/9806662/sea-breeze-26-pre-sail-conference",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
