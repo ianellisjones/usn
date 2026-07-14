@@ -1,5 +1,5 @@
 {
-  "updated": "auto-updated daily by fleet_scraper.py",
+  "updated": "2026-07-14 03:29 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -134,9 +134,9 @@
       "hull": "LHD7",
       "name": "USS Iwo Jima",
       "type": "LHD",
-      "location": "Ponce",
-      "date": "May 7",
-      "status": "March 1, USS Iwo Jima moored at Berth 4/5 in Port of Ponce, Puerto Rico for a six-day port call; Conducted a replenishment-at-sea with the USNS Robert E. Peary on March 25; Moored at Wharf C2 on Naval Station Mayport for upkeep from April 6-16;  Moored at Berth 4/5 in Port of Ponce from May 7-10."
+      "location": "Norfolk / Portsmouth",
+      "date": "2026",
+      "status": ", USS Iwo Jima moored at Berth 2, Pier 14 on Naval Station Norfolk following a nearly 10-month deployment in the U.S. 2nd and 4th Fleet AoR."
     },
     {
       "hull": "LHD8",

@@ -1,5 +1,5 @@
 U.S. NAVY FLEET TRACKER - Latest Locations
-Updated: auto-updated daily by fleet_scraper.py
+Updated: 2026-07-14 03:29 UTC
 
 AIRCRAFT CARRIERS (CVN)
  1. CVN68   USS Nimitz                   - Pacific Ocean
@@ -20,7 +20,7 @@ AMPHIBIOUS ASSAULT SHIPS (LHA/LHD)
  3. LHD3    USS Kearsarge                - Norfolk / Portsmouth
  4. LHD4    USS Boxer                    - Singapore
  5. LHD5    USS Bataan                   - Norfolk / Portsmouth
- 6. LHD7    USS Iwo Jima                 - Ponce
+ 6. LHD7    USS Iwo Jima                 - Norfolk / Portsmouth
  7. LHD8    USS Makin Island             - San Diego
  8. LHA6    USS America                  - San Diego
  9. LHA7    USS Tripoli                  - Arabian Sea
