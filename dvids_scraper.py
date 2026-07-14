@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
 U.S. NAVY DVIDS NEWS AGGREGATOR
-Version: 2.4.1
+Version: 2.5.0
 
 Scrapes weekly news, images, and videos from DVIDS (Defense Visual Information Distribution Service)
 and generates a modern web interface sorted by Combatant Command and geography/location.
 Features toggle between Daily (24h) and Weekly (7-day) views.
 Highlights deployment-related content with special tags.
 Includes grid/list view toggle, manual refresh option, and HOT SHOTS popular images tab.
+Includes a dedicated CARRIERS tab tracking all 11 U.S. aircraft carriers.
 
 For use in Google Colab or GitHub Actions automation.
 
@@ -81,6 +82,53 @@ COMMAND_KEYWORDS = {
 DEPLOYMENT_KEYWORDS = ["deploy", "deploys", "deployed", "deployment"]
 
 # ==============================================================================
+# AIRCRAFT CARRIERS
+# ==============================================================================
+
+# All 11 active U.S. Navy aircraft carriers (Nimitz + Ford class), by hull number.
+# Each entry is the full DVIDS-style name used as the fulltext search query.
+CARRIERS = [
+    "USS Nimitz (CVN 68)",
+    "USS Dwight D. Eisenhower (CVN 69)",
+    "USS Carl Vinson (CVN 70)",
+    "USS Theodore Roosevelt (CVN 71)",
+    "USS Abraham Lincoln (CVN 72)",
+    "USS George Washington (CVN 73)",
+    "USS John C. Stennis (CVN 74)",
+    "USS Harry S. Truman (CVN 75)",
+    "USS Ronald Reagan (CVN 76)",
+    "USS George H.W. Bush (CVN 77)",
+    "USS Gerald R. Ford (CVN 78)",
+]
+
+
+def carrier_match_terms(carrier_name: str) -> Tuple[str, List[str]]:
+    """
+    Derive verification terms for a carrier from its full name.
+
+    Returns (ship_name_lower, hull_variants) where ship_name_lower is the
+    distinctive name (e.g. "nimitz", "gerald r. ford") and hull_variants are
+    lowercased hull-number spellings (e.g. ["cvn 68", "cvn-68", "cvn68"]).
+    These verify that a fulltext search hit genuinely concerns the carrier,
+    regardless of how loosely the DVIDS "q" parameter matches terms.
+    """
+    hull_match = re.search(r"\(([^)]+)\)", carrier_name)
+    hull = hull_match.group(1) if hull_match else ""
+    ship = re.sub(r"\s*\([^)]*\)", "", carrier_name)  # drop "(CVN xx)"
+    ship = re.sub(r"^USS\s+", "", ship, flags=re.IGNORECASE).strip().lower()
+
+    hull_variants = []
+    hull_digits = re.sub(r"[^0-9]", "", hull)  # "68"
+    if hull_digits:
+        hull_variants = [
+            f"cvn {hull_digits}",
+            f"cvn-{hull_digits}",
+            f"cvn{hull_digits}",
+        ]
+    return ship, hull_variants
+
+
+# ==============================================================================
 # DATA CLASSES
 # ==============================================================================
 
@@ -109,6 +157,7 @@ class DVIDSItem:
     hours_old: float = 0.0  # Hours since publication (for daily/weekly filtering)
     is_deployment: bool = False  # Whether this item is deployment-related
     views: int = 0  # Number of times viewed on DVIDS (popularity metric)
+    carriers: List[str] = field(default_factory=list)  # Aircraft carriers referenced
 
 
 @dataclass
@@ -268,7 +317,8 @@ def search_dvids(
     max_results: int = 50,
     sort: str = "date",
     sort_dir: Optional[str] = None,
-    fields: Optional[str] = None
+    fields: Optional[str] = None,
+    query: Optional[str] = None
 ) -> List[Dict]:
     """
     Search DVIDS for content.
@@ -284,6 +334,8 @@ def search_dvids(
         sort_dir: Sort direction ("asc" or "desc"). Passed as DVIDS "sortdir".
         fields: Comma-separated list of extra fields to return (e.g. "views").
                 DVIDS only returns "views" when explicitly requested here.
+        query: Fulltext search string (DVIDS "q"), matched against the title,
+               description, and keywords of assets.
 
     Returns:
         List of content items from DVIDS
@@ -294,6 +346,8 @@ def search_dvids(
         "sort": sort,
     }
 
+    if query:
+        params["q"] = query
     if sort_dir:
         params["sortdir"] = sort_dir
     if fields:
@@ -648,11 +702,92 @@ def fetch_hot_shots(lookback_days: int = LOOKBACK_DAYS, top_n: int = 50) -> List
     return top_items
 
 
+def fetch_carriers(lookback_days: int = LOOKBACK_DAYS) -> List[DVIDSItem]:
+    """
+    Fetch all posts (news, images, videos) for each of the 11 U.S. aircraft
+    carriers over the lookback window, ranked newest to oldest.
+
+    Runs a fulltext search per carrier per content type using the DVIDS "q"
+    parameter, then verifies each hit actually references the carrier (by hull
+    number or ship name) so loose fulltext matches don't add noise. Assets are
+    deduplicated across carriers; an asset that references more than one carrier
+    is tagged with all of them.
+
+    Args:
+        lookback_days: How many days back to search (client toggles 24h vs 7d)
+
+    Returns:
+        List of DVIDSItem objects sorted by publication date (newest first),
+        each with a populated `carriers` list.
+    """
+    date = datetime.utcnow()
+    to_date = date.strftime("%Y-%m-%dT%H:%M:%SZ")
+    from_date = (date - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    print(f"\n{'='*70}")
+    print(f"  CARRIERS - FETCHING POSTS FOR ALL 11 AIRCRAFT CARRIERS")
+    print(f"{'='*70}\n")
+
+    by_id: Dict[str, DVIDSItem] = {}
+
+    for carrier in CARRIERS:
+        ship, hull_variants = carrier_match_terms(carrier)
+        carrier_total = 0
+
+        for content_type in CONTENT_TYPES:
+            results = search_dvids(
+                content_type=content_type,
+                query=carrier,
+                from_date=from_date,
+                to_date=to_date,
+                max_results=MAX_RESULTS_PER_QUERY,
+                sort="publishdate",
+                sort_dir="desc",
+            )
+
+            for raw_item in results:
+                item = parse_dvids_item(raw_item)
+                if not item:
+                    continue
+
+                # Verify the hit genuinely concerns this carrier
+                haystack = f"{item.title} {item.description} " \
+                           f"{' '.join(item.keywords)}".lower()
+                matched = ship and ship in haystack
+                if not matched:
+                    matched = any(hv in haystack for hv in hull_variants)
+                if not matched:
+                    continue
+
+                existing = by_id.get(item.id)
+                if existing:
+                    if carrier not in existing.carriers:
+                        existing.carriers.append(carrier)
+                else:
+                    item.carriers = [carrier]
+                    by_id[item.id] = item
+                    carrier_total += 1
+
+            time.sleep(0.3)  # Rate limiting
+
+        print(f"  {carrier}: {carrier_total} new posts")
+
+    items = list(by_id.values())
+    # Newest to oldest by publication date
+    items.sort(key=lambda x: x.timestamp, reverse=True)
+
+    print(f"\n  Total unique carrier posts: {len(items)}")
+    print(f"{'='*70}\n")
+
+    return items
+
+
 # ==============================================================================
 # HTML GENERATION
 # ==============================================================================
 
-def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) -> str:
+def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None,
+                        carriers_items: List[DVIDSItem] = None) -> str:
     """Generate the DVIDS News HTML page."""
 
     items_json = json.dumps([asdict(item) for item in digest.items])
@@ -663,6 +798,11 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
     by_command_json = json.dumps(digest.by_command)
     deployment_count = digest.deployment_count
     hot_shots_count = len(hot_shots) if hot_shots else 0
+
+    carriers_items = carriers_items or []
+    carriers_json = json.dumps([asdict(item) for item in carriers_items])
+    carrier_names_json = json.dumps(CARRIERS)
+    carriers_count = len(carriers_items)
 
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -742,6 +882,39 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
         .hotshot-meta {{ display: flex; justify-content: space-between; align-items: center; }}
         .hotshot-unit {{ font-size: 10px; color: #666; max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
         .hotshot-date {{ font-size: 10px; color: #555; }}
+
+        /* CARRIERS Tab */
+        .tab-btn.carriers.active {{ background: linear-gradient(135deg, #00a8ff 0%, #0066cc 100%); color: #fff; }}
+        .tab-btn.carriers:not(.active) {{ color: #00a8ff; }}
+        .carriers-badge {{ font-size: 9px; font-weight: 700; background: rgba(0, 168, 255, 0.2); color: #00a8ff; padding: 2px 6px; border-radius: 4px; }}
+        .tab-btn.carriers.active .carriers-badge {{ background: rgba(255, 255, 255, 0.3); color: #fff; }}
+
+        .carrier-controls {{ display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px; }}
+        .carrier-time-toggle {{ display: inline-flex; background: rgba(255,255,255,0.05); border: 1px solid #2a2a3a; border-radius: 8px; overflow: hidden; width: fit-content; }}
+        .ctime-btn {{ font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; padding: 9px 20px; background: transparent; border: none; color: #888; cursor: pointer; transition: all 0.15s; }}
+        .ctime-btn:hover {{ color: #ccc; }}
+        .ctime-btn.active {{ background: linear-gradient(135deg, #00a8ff 0%, #0066cc 100%); color: #fff; }}
+        .carrier-chips {{ display: flex; flex-wrap: wrap; gap: 8px; }}
+        .carrier-chip {{ font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 500; padding: 7px 12px; background: transparent; border: 1px solid #2a2a3a; color: #999; cursor: pointer; border-radius: 20px; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }}
+        .carrier-chip:hover {{ border-color: #00a8ff; color: #ccc; }}
+        .carrier-chip.active {{ background: rgba(0, 168, 255, 0.12); border-color: #00a8ff; color: #00a8ff; }}
+        .chip-count {{ font-size: 10px; color: #666; background: rgba(255,255,255,0.06); padding: 1px 6px; border-radius: 10px; }}
+        .carrier-chip.active .chip-count {{ color: #00a8ff; }}
+
+        .carriers-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; }}
+        .carrier-card {{ background: rgba(255, 255, 255, 0.02); border: 1px solid #1e1e2e; border-radius: 12px; overflow: hidden; transition: all 0.2s; cursor: pointer; display: flex; flex-direction: column; }}
+        .carrier-card:hover {{ border-color: #00a8ff; background: rgba(255, 255, 255, 0.04); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 168, 255, 0.15); }}
+        .carrier-card.news {{ border-left: 4px solid #ff6b6b; }}
+        .carrier-card.image {{ border-left: 4px solid #4ecdc4; }}
+        .carrier-card.video {{ border-left: 4px solid #ffd93d; }}
+        .carrier-thumbnail {{ width: 100%; height: 190px; object-fit: cover; background: #1a1a2e; }}
+        .carrier-card-body {{ padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }}
+        .carrier-card-meta {{ display: flex; align-items: center; gap: 8px; }}
+        .carrier-date {{ margin-left: auto; font-size: 10px; color: #555; }}
+        .carrier-card-title {{ font-size: 14px; font-weight: 600; color: #fff; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
+        .carrier-card-tags {{ display: flex; flex-wrap: wrap; gap: 5px; }}
+        .carrier-tag {{ font-size: 9px; font-weight: 600; color: #00a8ff; background: rgba(0, 168, 255, 0.1); padding: 3px 8px; border-radius: 4px; letter-spacing: 0.3px; }}
+        .carrier-card-unit {{ font-size: 10px; color: #666; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
 
         /* View Toggle (List/Grid) */
         .view-toggle {{ display: flex; gap: 4px; }}
@@ -875,6 +1048,7 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
         @media (max-width: 600px) {{
             .items-grid {{ grid-template-columns: 1fr; }}
             .hotshots-grid {{ grid-template-columns: 1fr; }}
+            .carriers-grid {{ grid-template-columns: 1fr; }}
             .tab-switch {{ flex-wrap: wrap; }}
             .modal {{ border-radius: 16px 16px 0 0; max-height: 95vh; }}
         }}
@@ -895,6 +1069,7 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
                     <button class="tab-btn active" id="dailyBtn" onclick="setTab('daily')">Daily</button>
                     <button class="tab-btn" id="weeklyBtn" onclick="setTab('weekly')">Weekly</button>
                     <button class="tab-btn hotshots" id="hotshotsBtn" onclick="setTab('hotshots')">HOT SHOTS <span class="hotshots-badge">{hot_shots_count}</span></button>
+                    <button class="tab-btn carriers" id="carriersBtn" onclick="setTab('carriers')">CARRIERS <span class="carriers-badge">{carriers_count}</span></button>
                 </div>
             </div>
             <div class="stats-bar">
@@ -1007,6 +1182,8 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
     <script>
         const allItems = {items_json};
         const hotShotsItems = {hot_shots_json};
+        const carriersItems = {carriers_json};
+        const carrierNames = {carrier_names_json};
         const byCountry = {by_country_json};
         const byType = {by_type_json};
         const byBranch = {by_branch_json};
@@ -1033,8 +1210,10 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             search: ''
         }};
 
-        let currentTab = 'daily';  // 'daily', 'weekly', or 'hotshots'
+        let currentTab = 'daily';  // 'daily', 'weekly', 'hotshots', or 'carriers'
         let currentViewMode = 'list';  // 'list' or 'grid'
+        let carrierTimeRange = 'day';  // 'day' (24h) or 'week' (7d) within CARRIERS tab
+        let carrierFilter = 'all';  // 'all' or a specific carrier name
         const HOURS_IN_DAY = 24;
         const HOURS_IN_WEEK = 24 * 7;
 
@@ -1122,6 +1301,7 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             document.getElementById('dailyBtn').classList.toggle('active', tab === 'daily');
             document.getElementById('weeklyBtn').classList.toggle('active', tab === 'weekly');
             document.getElementById('hotshotsBtn').classList.toggle('active', tab === 'hotshots');
+            document.getElementById('carriersBtn').classList.toggle('active', tab === 'carriers');
 
             // Update header text
             if (tab === 'daily') {{
@@ -1130,15 +1310,19 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             }} else if (tab === 'weekly') {{
                 document.getElementById('digestTitle').textContent = 'DVIDS WEEKLY DIGEST';
                 document.getElementById('digestSubtitle').textContent = 'U.S. Navy & Marine Corps News | {date_range}';
-            }} else {{
+            }} else if (tab === 'hotshots') {{
                 document.getElementById('digestTitle').textContent = 'DVIDS HOT SHOTS';
                 document.getElementById('digestSubtitle').textContent = 'Most Popular Navy Images | Sorted by Popularity';
+            }} else {{
+                document.getElementById('digestTitle').textContent = 'DVIDS CARRIERS';
+                document.getElementById('digestSubtitle').textContent = 'All 11 U.S. Aircraft Carriers | Newest First';
             }}
 
-            // Show/hide sidebar and view toggle for hot shots
+            // Show/hide sidebar and view toggle for full-width tabs
             const sidebar = document.querySelector('.sidebar');
             const viewToggle = document.querySelector('.view-toggle');
-            if (tab === 'hotshots') {{
+            const fullWidth = (tab === 'hotshots' || tab === 'carriers');
+            if (fullWidth) {{
                 sidebar.style.display = 'none';
                 viewToggle.style.display = 'none';
                 document.querySelector('.main-container').style.gridTemplateColumns = '1fr';
@@ -1166,12 +1350,19 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
 
         function updateStats() {{
             if (currentTab === 'hotshots') {{
-                const hsDaily = hotShotsItems.filter(i => i.hours_old <= HOURS_IN_DAY);
                 const hsAll = hotShotsItems;
                 document.getElementById('statTotal').textContent = hsAll.length;
                 document.getElementById('statNews').textContent = '-';
                 document.getElementById('statImages').textContent = hsAll.length;
                 document.getElementById('statVideos').textContent = '-';
+                return;
+            }}
+            if (currentTab === 'carriers') {{
+                const items = getCarrierItems();
+                document.getElementById('statTotal').textContent = items.length;
+                document.getElementById('statNews').textContent = items.filter(i => i.type === 'news').length;
+                document.getElementById('statImages').textContent = items.filter(i => i.type === 'image').length;
+                document.getElementById('statVideos').textContent = items.filter(i => i.type === 'video').length;
                 return;
             }}
             const maxHours = currentTab === 'daily' ? HOURS_IN_DAY : HOURS_IN_WEEK;
@@ -1249,6 +1440,107 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             }}
         }}
 
+        // ---- CARRIERS tab ----
+        function getCarrierItems() {{
+            const maxHours = carrierTimeRange === 'day' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            // carriersItems already sorted newest-first from the server
+            return carriersItems.filter(item => {{
+                if (item.hours_old > maxHours) return false;
+                if (carrierFilter !== 'all' && (!item.carriers || !item.carriers.includes(carrierFilter))) return false;
+                return true;
+            }});
+        }}
+
+        function setCarrierTime(range) {{
+            carrierTimeRange = range;
+            updateStats();
+            renderCarriers();
+        }}
+
+        function setCarrierFilter(name) {{
+            carrierFilter = name;
+            renderCarriers();
+        }}
+
+        function shortCarrierName(name) {{
+            // "USS Nimitz (CVN 68)" -> "Nimitz (CVN 68)"
+            return name.replace(/^USS\s+/, '');
+        }}
+
+        function renderCarrierCard(item) {{
+            const thumbnail = item.thumbnail_url || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%231a1a2e" width="100" height="100"/><text x="50" y="55" text-anchor="middle" fill="%23444" font-size="12">' + item.type + '</text></svg>';
+            const carrierTags = (item.carriers || []).map(c =>
+                `<span class="carrier-tag">${{shortCarrierName(c)}}</span>`).join('');
+            const deployTag = item.is_deployment ? '<span class="deployment-tag">DEPLOY</span>' : '';
+            return `
+                <div class="carrier-card ${{item.type}}" onclick="showDetail('${{item.id}}', false, true)">
+                    <img class="carrier-thumbnail" src="${{thumbnail}}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%231a1a2e%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%23444%22 font-size=%2212%22>${{item.type}}</text></svg>'">
+                    <div class="carrier-card-body">
+                        <div class="carrier-card-meta">
+                            <span class="item-type ${{item.type}}">${{item.type}}</span>
+                            ${{deployTag}}
+                            <span class="carrier-date">${{item.date_published}}</span>
+                        </div>
+                        <div class="carrier-card-title">${{item.title}}</div>
+                        <div class="carrier-card-tags">${{carrierTags}}</div>
+                        <div class="carrier-card-unit">${{item.unit_name}}</div>
+                    </div>
+                </div>
+            `;
+        }}
+
+        function renderCarriers() {{
+            const container = document.getElementById('contentContainer');
+            const items = getCarrierItems();
+
+            // Per-carrier counts for the current time range (independent of the
+            // selected carrier filter, so chip counts stay stable)
+            const maxHours = carrierTimeRange === 'day' ? HOURS_IN_DAY : HOURS_IN_WEEK;
+            const inRange = carriersItems.filter(i => i.hours_old <= maxHours);
+            const counts = {{}};
+            carrierNames.forEach(c => {{ counts[c] = 0; }});
+            inRange.forEach(i => (i.carriers || []).forEach(c => {{
+                if (counts[c] !== undefined) counts[c]++;
+            }}));
+
+            document.getElementById('resultsCount').textContent =
+                `Showing ${{items.length}} carrier post${{items.length === 1 ? '' : 's'}} (newest first)`;
+
+            // Control bar: time sub-toggle + carrier filter chips
+            let html = '<div class="carrier-controls">';
+            html += `
+                <div class="carrier-time-toggle">
+                    <button class="ctime-btn ${{carrierTimeRange === 'day' ? 'active' : ''}}" onclick="setCarrierTime('day')">Past 24 Hours</button>
+                    <button class="ctime-btn ${{carrierTimeRange === 'week' ? 'active' : ''}}" onclick="setCarrierTime('week')">Past 7 Days</button>
+                </div>
+            `;
+            html += '<div class="carrier-chips">';
+            html += `<button class="carrier-chip ${{carrierFilter === 'all' ? 'active' : ''}}" onclick="setCarrierFilter('all')">All Carriers <span class="chip-count">${{inRange.length}}</span></button>`;
+            carrierNames.forEach(c => {{
+                const active = carrierFilter === c ? 'active' : '';
+                html += `<button class="carrier-chip ${{active}}" onclick="setCarrierFilter(${{JSON.stringify(c).replace(/"/g, '&quot;')}})">${{shortCarrierName(c)}} <span class="chip-count">${{counts[c]}}</span></button>`;
+            }});
+            html += '</div></div>';
+
+            if (items.length === 0) {{
+                html += `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">&#9875;</div>
+                        <div class="empty-state-title">No carrier posts found</div>
+                        <div class="empty-state-text">Nothing published in this window${{carrierFilter !== 'all' ? ' for ' + shortCarrierName(carrierFilter) : ''}}. Try Past 7 Days.</div>
+                    </div>
+                `;
+                container.innerHTML = html;
+                return;
+            }}
+
+            html += '<div class="carriers-grid">';
+            items.forEach(item => {{ html += renderCarrierCard(item); }});
+            html += '</div>';
+
+            container.innerHTML = html;
+        }}
+
         function renderHotShots() {{
             const container = document.getElementById('contentContainer');
             const items = hotShotsItems;
@@ -1297,6 +1589,11 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             // HOT SHOTS tab has its own renderer
             if (currentTab === 'hotshots') {{
                 renderHotShots();
+                return;
+            }}
+            // CARRIERS tab has its own renderer
+            if (currentTab === 'carriers') {{
+                renderCarriers();
                 return;
             }}
 
@@ -1419,10 +1716,13 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
             container.innerHTML = html;
         }}
 
-        function showDetail(itemId, fromHotShots = false) {{
+        function showDetail(itemId, fromHotShots = false, fromCarriers = false) {{
             let item = allItems.find(i => i.id === itemId);
             if (!item && (fromHotShots || currentTab === 'hotshots')) {{
                 item = hotShotsItems.find(i => i.id === itemId);
+            }}
+            if (!item && (fromCarriers || currentTab === 'carriers')) {{
+                item = carriersItems.find(i => i.id === itemId);
             }}
             if (!item) return;
 
@@ -1462,6 +1762,7 @@ def generate_dvids_html(digest: DailyDigest, hot_shots: List[DVIDSItem] = None) 
                     ${{item.credit ? `<div class="modal-info-item"><div class="modal-info-label">Credit</div><div class="modal-info-value">${{item.credit}}</div></div>` : ''}}
                     ${{item.duration ? `<div class="modal-info-item"><div class="modal-info-label">Duration</div><div class="modal-info-value">${{item.duration}}</div></div>` : ''}}
                     ${{item.views > 0 ? `<div class="modal-info-item"><div class="modal-info-label">Views</div><div class="modal-info-value">${{item.views.toLocaleString()}}</div></div>` : ''}}
+                    ${{(item.carriers && item.carriers.length) ? `<div class="modal-info-item"><div class="modal-info-label">Carriers</div><div class="modal-info-value">${{item.carriers.map(shortCarrierName).join(', ')}}</div></div>` : ''}}
                 </div>
             `;
 
@@ -1519,11 +1820,15 @@ def main():
     # Fetch HOT SHOTS (most popular images)
     hot_shots = fetch_hot_shots(lookback_days=LOOKBACK_DAYS)
 
+    # Fetch CARRIERS (all posts for the 11 aircraft carriers)
+    carriers_items = fetch_carriers(lookback_days=LOOKBACK_DAYS)
+
     # Create digest
     digest = create_daily_digest(items)
 
     # Generate HTML
-    html_content = generate_dvids_html(digest, hot_shots=hot_shots)
+    html_content = generate_dvids_html(digest, hot_shots=hot_shots,
+                                       carriers_items=carriers_items)
     output_file = Path("dvids.html")
     output_file.write_text(html_content, encoding='utf-8')
     print(f"\n>>> HTML saved: {output_file}")
@@ -1537,7 +1842,9 @@ def main():
         "by_type": digest.by_type,
         "by_branch": digest.by_branch,
         "by_command": digest.by_command,
-        "items": [asdict(item) for item in digest.items]
+        "carrier_count": len(carriers_items),
+        "items": [asdict(item) for item in digest.items],
+        "carriers": [asdict(item) for item in carriers_items]
     }
     json_file = Path("dvids_data.json")
     json_file.write_text(json.dumps(json_data, indent=2), encoding='utf-8')
@@ -1550,6 +1857,7 @@ def main():
     print(f"    Videos: {digest.by_type.get('video', 0)}")
     print(f"    Deployments: {digest.deployment_count}")
     print(f"    Hot Shots: {len(hot_shots)}")
+    print(f"    Carrier Posts: {len(carriers_items)}")
     print(f"\n  Combatant Commands:")
     for cmd in ['INDOPACOM', 'CENTCOM', 'SOUTHCOM', 'EUCOM']:
         count = digest.by_command.get(cmd, 0)
