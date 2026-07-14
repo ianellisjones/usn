@@ -1,5 +1,5 @@
 U.S. NAVY FLEET TRACKER - Latest Locations
-Updated: 2026-07-14 03:29 UTC
+Updated: 2026-07-14 08:13 UTC
 
 AIRCRAFT CARRIERS (CVN)
  1. CVN68   USS Nimitz                   - Pacific Ocean
@@ -16,7 +16,7 @@ AIRCRAFT CARRIERS (CVN)
 
 AMPHIBIOUS ASSAULT SHIPS (LHA/LHD)
  1. LHD1    USS Wasp                     - Norfolk / Portsmouth
- 2. LHD2    USS Essex                    - San Diego
+ 2. LHD2    USS Essex                    - Pacific Ocean
  3. LHD3    USS Kearsarge                - Norfolk / Portsmouth
  4. LHD4    USS Boxer                    - Singapore
  5. LHD5    USS Bataan                   - Norfolk / Portsmouth

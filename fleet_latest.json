@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14 03:29 UTC",
+  "updated": "2026-07-14 08:13 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -102,9 +102,9 @@
       "hull": "LHD2",
       "name": "USS Essex",
       "type": "LHD",
-      "location": "San Diego",
-      "date": "May 4",
-      "status": "April 20, The Essex anchored approx. 3 n.m. off the coast of Camp Pendleton Boat Basin for a brief stop; Moored at Berth 5, Pier 2 on April 24; Underway again from May 4-5."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD3",
