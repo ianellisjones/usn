@@ -1334,6 +1334,40 @@ def main():
     mobile_file.write_text(mobile_html, encoding='utf-8')
     print(f">>> Mobile version saved: {mobile_file}")
 
+    # Generate lightweight data exports (for the Claude Project to fetch)
+    timestamp = datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
+
+    json_data = {
+        "updated": timestamp,
+        "source": "http://uscarriers.net",
+        "ships": [
+            {
+                "hull": s.hull,
+                "name": s.name,
+                "type": s.ship_type,
+                "location": s.location,
+                "date": s.date,
+                "status": s.status,
+            }
+            for s in fleet_data
+        ],
+    }
+    Path("fleet_latest.json").write_text(json.dumps(json_data, indent=2), encoding='utf-8')
+    print(">>> Data export saved: fleet_latest.json")
+
+    carriers = [s for s in fleet_data if s.ship_type == "CVN"]
+    amphibs = [s for s in fleet_data if s.ship_type in ("LHA", "LHD")]
+    lines = [f"U.S. NAVY FLEET TRACKER - Latest Locations", f"Updated: {timestamp}", ""]
+    lines.append("AIRCRAFT CARRIERS (CVN)")
+    for i, s in enumerate(carriers, 1):
+        lines.append(f"{i:>2}. {s.hull:<7} {s.name:<28} - {s.location}")
+    lines.append("")
+    lines.append("AMPHIBIOUS ASSAULT SHIPS (LHA/LHD)")
+    for i, s in enumerate(amphibs, 1):
+        lines.append(f"{i:>2}. {s.hull:<7} {s.name:<28} - {s.location}")
+    Path("fleet_latest.txt").write_text("\n".join(lines) + "\n", encoding='utf-8')
+    print(">>> Text export saved: fleet_latest.txt")
+
     print(f"\n    Ships tracked: {len(fleet_data)}")
     print(f"    Timestamp: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
 
