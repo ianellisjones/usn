@@ -1,0 +1,166 @@
+{
+  "updated": "auto-updated daily by fleet_scraper.py",
+  "source": "http://uscarriers.net",
+  "ships": [
+    {
+      "hull": "CVN68",
+      "name": "USS Nimitz",
+      "type": "CVN",
+      "location": "Pacific Ocean",
+      "date": "May 7",
+      "status": "May 7, USS Nimitz anchored at Anchorage #1 in Guanabara Bay, approx. 1 n.m. west of Niteroi, Brazil, for a five-day liberty port visit to Rio de Janeiro."
+    },
+    {
+      "hull": "CVN69",
+      "name": "USS Dwight D. Eisenhower",
+      "type": "CVN",
+      "location": "Norfolk / Portsmouth",
+      "date": "May 5",
+      "status": "April 24, 2026 USS Dwight D. Eisenhower moored at Pier 11N on Naval Station Norfolk after a four-day underway for sea trials, following a 16-month availability; Underway for flight deck certification and CQ, with the Carrier Air Wing (CVW) 3, on May 5."
+    },
+    {
+      "hull": "CVN70",
+      "name": "USS Carl Vinson",
+      "type": "CVN",
+      "location": "San Diego",
+      "date": "September 16",
+      "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload."
+    },
+    {
+      "hull": "CVN71",
+      "name": "USS Theodore Roosevelt",
+      "type": "CVN",
+      "location": "San Diego",
+      "date": "April 15",
+      "status": "February 9, USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island; Underway for FRS/CQ from March 28- April 5; Underway for Composite Training Unit Exercise (COMPTUEX) on April 15."
+    },
+    {
+      "hull": "CVN72",
+      "name": "USS Abraham Lincoln",
+      "type": "CVN",
+      "location": "Arabian Sea",
+      "date": "April 18",
+      "status": "March 10,  USS Abraham Lincoln conducted a replenishment-at-sea with the USNS Henry J. Kaiser, while underway in the North Arabian Sea;  Conducted a replenishment-at-sea again on March 18 and 28th;  Conducted a replenishment-at-sea with the USNS Carl Brashear on April 18 and 19th."
+    },
+    {
+      "hull": "CVN73",
+      "name": "USS George Washington",
+      "type": "CVN",
+      "location": "Yokosuka",
+      "date": "May 10",
+      "status": "May 10, USS George Washington departed Fleet Activities Yokosuka  for sea trials following a four-month Selected Restricted Availability (SRA)."
+    },
+    {
+      "hull": "CVN74",
+      "name": "USS John C. Stennis",
+      "type": "CVN",
+      "location": "Newport News",
+      "date": "April 8",
+      "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard."
+    },
+    {
+      "hull": "CVN75",
+      "name": "USS Harry S. Truman",
+      "type": "CVN",
+      "location": "Norfolk / Portsmouth",
+      "date": "Jan. 21",
+      "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21."
+    },
+    {
+      "hull": "CVN76",
+      "name": "USS Ronald Reagan",
+      "type": "CVN",
+      "location": "Bremerton / Kitsap",
+      "date": "Dec. 2",
+      "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13."
+    },
+    {
+      "hull": "CVN77",
+      "name": "USS George H.W. Bush",
+      "type": "CVN",
+      "location": "Arabian Sea",
+      "date": "April 27",
+      "status": "April 27, USS George H.W. Bush CSG-10 recently arrived on station in the North Arabian Sea in support of Operation Epic Fury."
+    },
+    {
+      "hull": "CVN78",
+      "name": "USS Gerald R. Ford",
+      "type": "CVN",
+      "location": "Strait of Gibraltar",
+      "date": "May 6",
+      "status": "April 13, The Gerald R. Ford conducted a replenishment-at-sea with the USNS Kanawha, while underway approx. 170 n.m. southwest of Cyprus; Transited the Suez Canal southbound on April 16; Conducted operations in the northern Red Sea from April 17-30; Transited the Suez Canal northbound on May 1; Transited the Strait of Sicily westbound, just after midnight, on May 4; Transited the Strait of Gibraltar on May 6."
+    },
+    {
+      "hull": "LHD1",
+      "name": "USS Wasp",
+      "type": "LHD",
+      "location": "Norfolk / Portsmouth",
+      "date": "May 19",
+      "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19."
+    },
+    {
+      "hull": "LHD2",
+      "name": "USS Essex",
+      "type": "LHD",
+      "location": "San Diego",
+      "date": "May 4",
+      "status": "April 20, The Essex anchored approx. 3 n.m. off the coast of Camp Pendleton Boat Basin for a brief stop; Moored at Berth 5, Pier 2 on April 24; Underway again from May 4-5."
+    },
+    {
+      "hull": "LHD3",
+      "name": "USS Kearsarge",
+      "type": "LHD",
+      "location": "Norfolk / Portsmouth",
+      "date": "May 4",
+      "status": "April 27, The Kearsarge moored at Berth 4, Pier 14 on Naval Station Norfolk; Underway again on May 4."
+    },
+    {
+      "hull": "LHD4",
+      "name": "USS Boxer",
+      "type": "LHD",
+      "location": "Singapore",
+      "date": "May 1",
+      "status": "April 19, USS Boxer moored at Berth 2/3, Tango Wharf in Apra Harbor, Guam, for a three-day port call; Transited the Surigao Strait southbound on April 26; Transited the Balabac Strait westbound on April 28; Transited the Strait of Singapore on April 30; Transited the Malacca Strait northbound from April 30- May 1."
+    },
+    {
+      "hull": "LHD5",
+      "name": "USS Bataan",
+      "type": "LHD",
+      "location": "Norfolk / Portsmouth",
+      "date": "2025",
+      "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard."
+    },
+    {
+      "hull": "LHD7",
+      "name": "USS Iwo Jima",
+      "type": "LHD",
+      "location": "Ponce",
+      "date": "May 7",
+      "status": "March 1, USS Iwo Jima moored at Berth 4/5 in Port of Ponce, Puerto Rico for a six-day port call; Conducted a replenishment-at-sea with the USNS Robert E. Peary on March 25; Moored at Wharf C2 on Naval Station Mayport for upkeep from April 6-16;  Moored at Berth 4/5 in Port of Ponce from May 7-10."
+    },
+    {
+      "hull": "LHD8",
+      "name": "USS Makin Island",
+      "type": "LHD",
+      "location": "San Diego",
+      "date": "May 8",
+      "status": "April 17, The Makin Island anchored approx. 2 n.m. off the coast of Camp Pendleton Boat Basin for a brief stop; Moored at Naval Weapons Station Seal Beach for ammo onload from April 20-29; Moored at Berth 5, Pier 8 on April 30; Underway for Surface Warfare Advanced Tactical Training (SWATT) exercise on May 8."
+    },
+    {
+      "hull": "LHA6",
+      "name": "USS America",
+      "type": "LHA",
+      "location": "San Diego",
+      "date": "2026",
+      "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years."
+    },
+    {
+      "hull": "LHA7",
+      "name": "USS Tripoli",
+      "type": "LHA",
+      "location": "Arabian Sea",
+      "date": "April 13",
+      "status": "March 29, USS Tripoli, along with the USS New Orleans (LPD 18), recently arrived in the North Arabian Sea in support of Operation Epic Fury; Conducted a replenishment-at-sea with the USNS Carl Brashear (T-AKE 7) on April 13."
+    }
+  ]
+}
