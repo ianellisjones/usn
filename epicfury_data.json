@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-13T18:25:58.497622+00:00",
+  "generated": "2026-07-14T07:09:40.470813+00:00",
   "news_count": 0,
   "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1014538",
+      "title": "U.S. Forces Complete New Strikes on Iranian Military Targets",
+      "desc": "U.S. Central Command forces launch strikes in response to Iran's attack on commercial vessels transiting the Strait of Hormuz. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-14T02:27:17+00:00",
+      "url": "https://www.dvidshub.net/video/1014538/us-forces-complete-new-strikes-iranian-military-targets",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569866",
+      "title": "U.S. Forces Complete New Strikes on Iranian Military Targets",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed the latest wave of strikes against Iran at 10:15 p.m. ET on July 13.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-14T02:26:42+00:00",
+      "url": "https://www.dvidshub.net/news/569866/us-forces-complete-new-strikes-iranian-military-targets",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:569836",
       "title": "U.S. Forces to Resume Naval Blockade Against Iran",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-13T02:40:29+00:00",
       "url": "https://www.dvidshub.net/video/1014392/centcom-completes-another-wave-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569783",
-      "title": "CENTCOM Completes Another Wave of Strikes Against Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed a new wave of offensive strikes against Iran, July 12, hitting dozens of targets at multiple locations with precision munitions to degrade Iran’s ability to continue attacking international shipping flowing through the Strait of Hormuz.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-13T02:38:21+00:00",
-      "url": "https://www.dvidshub.net/news/569783/centcom-completes-another-wave-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1014371",
-      "title": "U.S. Forces Finish Latest Round of Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command forces striking Iranian military targets after launching aircraft and cruise missiles in response to Iran's attack on commercial vessels transiting the Strait of Hormuz during the week of July 6-11, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-12T03:34:47+00:00",
-      "url": "https://www.dvidshub.net/video/1014371/us-forces-finish-latest-round-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
