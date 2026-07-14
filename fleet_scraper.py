@@ -12,6 +12,7 @@ Created by @ianellisjones and IEJ Media
 import re
 import json
 import math
+import time
 from datetime import datetime
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass, asdict
@@ -175,18 +176,63 @@ class ShipStatus:
 # SCRAPER ENGINE
 # ==============================================================================
 
-def fetch_history_text(url: str, char_limit: int = 50000) -> str:
-    """Fetches raw HTML content, strips tags, returns the tail of the text."""
-    try:
-        response = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=20)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
-        full_text = soup.get_text(separator='\n')
-        lines = [line.strip() for line in full_text.split('\n') if line.strip()]
-        clean_text = '\n'.join(lines)
-        return clean_text[-char_limit:] if len(clean_text) > char_limit else clean_text
-    except requests.RequestException as e:
-        return f"ERROR: {str(e)}"
+# Fetch strategies, tried in order. uscarriers.net blocks datacenter IPs
+# (GitHub Actions runners) with bot detection, so if the direct request is
+# refused we fall back to reader proxies that fetch the page server-side.
+FETCH_STRATEGIES = [
+    ("direct", "{url}"),
+    ("jina", "https://r.jina.ai/{url}"),
+    ("allorigins", "https://api.allorigins.win/raw?url={url}"),
+]
+
+REQUEST_HEADERS = {
+    'User-Agent': USER_AGENT,
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'http://uscarriers.net/',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+}
+
+
+def _clean_html_to_text(content: bytes, char_limit: int) -> str:
+    """Strip tags and return the tail of the text."""
+    soup = BeautifulSoup(content, 'html.parser')
+    full_text = soup.get_text(separator='\n')
+    lines = [line.strip() for line in full_text.split('\n') if line.strip()]
+    clean_text = '\n'.join(lines)
+    return clean_text[-char_limit:] if len(clean_text) > char_limit else clean_text
+
+
+def fetch_history_text(url: str, char_limit: int = 50000, retries: int = 2) -> str:
+    """Fetches page text, retrying with backoff and falling back to reader
+    proxies if the direct request is blocked (403/429/503). Returns the tail
+    of the cleaned text, or an "ERROR: ..." string if every strategy fails."""
+    last_err = "unknown error"
+
+    for name, template in FETCH_STRATEGIES:
+        fetch_url = template.format(url=url)
+        for attempt in range(retries):
+            try:
+                response = requests.get(fetch_url, headers=REQUEST_HEADERS, timeout=30)
+                if response.status_code in (403, 429, 503):
+                    last_err = f"{name} HTTP {response.status_code}"
+                    time.sleep(1 + attempt * 2)  # brief backoff, then try next
+                    continue
+                response.raise_for_status()
+                text = _clean_html_to_text(response.content, char_limit)
+                # A real history page is long; a tiny response means a block
+                # page or an empty proxy result, so treat it as a failure.
+                if len(text) < 200:
+                    last_err = f"{name} returned {len(text)} chars"
+                    time.sleep(1 + attempt * 2)
+                    continue
+                return text
+            except requests.RequestException as e:
+                last_err = f"{name}: {e}"
+                time.sleep(1 + attempt * 2)
+
+    return f"ERROR: {last_err}"
 
 
 def parse_status_entry(text_block: str) -> Tuple[str, str]:
@@ -342,9 +388,45 @@ def apply_location_offsets(ships: List[ShipStatus]) -> List[ShipStatus]:
     return ships
 
 
-def scrape_fleet() -> List[ShipStatus]:
-    """Scrapes all ships and returns list of ShipStatus objects."""
+def load_existing_ships(path: str = "index.html") -> Dict[str, dict]:
+    """Parse the currently-published shipsData so a blocked fetch can fall
+    back to the last-known position instead of dropping the ship entirely."""
+    try:
+        html = Path(path).read_text(encoding='utf-8')
+        match = re.search(r'const shipsData = (\[.*?\]);', html, re.DOTALL)
+        if not match:
+            return {}
+        return {s['hull']: s for s in json.loads(match.group(1))}
+    except Exception as e:  # noqa: BLE001 - never let a bad file break the run
+        print(f"  (could not read existing data for fallback: {e})")
+        return {}
+
+
+def _ship_from_previous(prev: dict) -> ShipStatus:
+    """Rebuild a ShipStatus from a previously-published ship dict."""
+    return ShipStatus(
+        hull=prev['hull'],
+        name=prev['name'],
+        ship_class=prev.get('ship_class', ''),
+        ship_type=prev.get('ship_type', ''),
+        location=prev['location'],
+        lat=prev['lat'],
+        lon=prev['lon'],
+        region=prev.get('region', ''),
+        date=prev.get('date', ''),
+        status=prev.get('status', ''),
+        source_url=prev.get('source_url', ''),
+        display_lat=prev['lat'],
+        display_lon=prev['lon'],
+    )
+
+
+def scrape_fleet(fallback: Optional[Dict[str, dict]] = None) -> Tuple[List[ShipStatus], List[str]]:
+    """Scrapes all ships. Ships that fail to fetch fall back to last-known
+    data (if available). Returns (ships, failed_hulls)."""
+    fallback = fallback or {}
     results = []
+    failed = []
     total = len(SHIP_DATABASE)
 
     print("\n" + "="*70)
@@ -357,7 +439,14 @@ def scrape_fleet() -> List[ShipStatus]:
         raw_text = fetch_history_text(ship_info['url'])
 
         if "ERROR" in raw_text:
-            print("FAILED")
+            failed.append(hull)
+            prev = fallback.get(hull)
+            if prev:
+                results.append(_ship_from_previous(prev))
+                print(f"FAILED ({raw_text[:40]}) - kept last-known")
+            else:
+                print(f"FAILED ({raw_text[:40]}) - no fallback")
+            time.sleep(1)  # be polite / avoid rate limits between ships
             continue
 
         year, status = parse_status_entry(raw_text)
@@ -395,14 +484,16 @@ def scrape_fleet() -> List[ShipStatus]:
         )
         results.append(ship_status)
         print(f"OK - {location}")
+        time.sleep(1)  # be polite / avoid rate limits between ships
 
     results = apply_location_offsets(results)
 
+    fresh = len(results) - len(failed)
     print("\n" + "="*70)
-    print(f"  SCAN COMPLETE: {len(results)} ships tracked")
+    print(f"  SCAN COMPLETE: {len(results)} ships ({fresh} fresh, {len(failed)} last-known)")
     print("="*70 + "\n")
 
-    return results
+    return results, failed
 
 
 # ==============================================================================
@@ -1315,12 +1406,23 @@ def main():
     print("Starting U.S. Navy Fleet Tracker...")
     print("Created by @ianellisjones and IEJ Media\n")
 
+    # Load the last-published positions so ships blocked this run keep their
+    # previous location instead of vanishing from the map.
+    existing = load_existing_ships("index.html")
+
     # Scrape fleet data
-    fleet_data = scrape_fleet()
+    fleet_data, failed = scrape_fleet(fallback=existing)
 
     if not fleet_data:
-        print("ERROR: No fleet data scraped!")
+        print("ERROR: No fleet data scraped and no previous data to fall back on!")
         return 1
+
+    if failed:
+        print(f"WARNING: {len(failed)} ship(s) blocked this run, kept last-known: "
+              f"{', '.join(failed)}")
+        if len(failed) == len(SHIP_DATABASE):
+            print("WARNING: EVERY ship was blocked — the source is likely blocking "
+                  "this runner. Output is unchanged from the last successful run.")
 
     # Generate Desktop HTML
     html_content = generate_globe_html(fleet_data)
