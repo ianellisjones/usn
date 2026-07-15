@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-14T17:55:35.154383+00:00",
+  "generated": "2026-07-15T07:13:04.350785+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1014695",
+      "title": "CENTCOM Completes More Strikes Against Iran",
+      "desc": "Video footage released July 14, 2026, of U.S. Central Command forces striking targets across Iran. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T02:19:16+00:00",
+      "url": "https://www.dvidshub.net/video/1014695/centcom-completes-more-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569957",
+      "title": "CENTCOM Completes More Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed an additional round of strikes against Iran at 10 p.m. ET, July 14, hitting dozens of military targets near the Strait of Hormuz and Iranian coastal areas.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T02:18:44+00:00",
+      "url": "https://www.dvidshub.net/news/569957/centcom-completes-more-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1014538",
       "title": "U.S. Forces Complete New Strikes on Iranian Military Targets",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-13T18:22:04+00:00",
       "url": "https://www.dvidshub.net/news/569836/us-forces-resume-naval-blockade-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1014441",
-      "title": "U.S. Sea Drones Strike Submarine and Ship Maintenance Facility in Iran",
-      "desc": "Using multiple one-way attack surface drones, CENTCOM forces successfully struck a submarine and ship maintenance facility in Iran, July 12, 2026. Three Corsair unmanned surface vessels hit the port at Bandar Abbas Naval Base, marking the first time American forces have employed sea drones in combat",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-13T15:00:38+00:00",
-      "url": "https://www.dvidshub.net/video/1014441/us-sea-drones-strike-submarine-and-ship-maintenance-facility-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1014392",
-      "title": "CENTCOM Completes Another Wave of Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command forces striking Iranian military targets after launching aircraft and cruise missiles in response to Iran's attack on commercial vessels transiting the Strait of Hormuz, released July 12, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-13T02:40:29+00:00",
-      "url": "https://www.dvidshub.net/video/1014392/centcom-completes-another-wave-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
