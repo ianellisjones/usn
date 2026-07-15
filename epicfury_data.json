@@ -1,81 +1,81 @@
 {
-  "generated": "2026-07-15T12:19:41.306251+00:00",
+  "generated": "2026-07-15T18:00:02.869722+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
     {
-      "id": "video:1014729",
-      "title": "CENTCOM Conducts Morning Round of Strikes Against Iran",
-      "desc": "Video of U.S. Central Command forces attacking a military target, released July 15, 2026. (U.S. Central Command Video)",
+      "id": "video:1014597",
+      "title": "Forged by the Fight",
+      "desc": "Aviation Ordnanceman 1st Class Shanice Winston and Aviation Ordnanceman 3rd Class Joshua Underhill share their experience of working in Weapons Department on the world’s largest aircraft carrier, USS Gerald R. Ford (CVN 78).\r\n\r\n(U.S. Navy Video by Mass Communication Specialist 3rd Class Brianna Barn",
       "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T12:00:28+00:00",
-      "url": "https://www.dvidshub.net/video/1014729/centcom-conducts-morning-round-strikes-against-iran",
+      "branch": "Navy",
+      "unit_name": "USS Gerald R. Ford (CVN 78)",
+      "timestamp": "2026-07-15T16:28:50+00:00",
+      "url": "https://www.dvidshub.net/video/1014597/forged-fight",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "news:569969",
-      "title": "CENTCOM Conducts Morning Round of Strikes Against Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed a morning round of strikes against Iran at 7:30 a.m. ET on July 15.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T12:00:21+00:00",
-      "url": "https://www.dvidshub.net/news/569969/centcom-conducts-morning-round-strikes-against-iran",
+      "id": "image:9811591",
+      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Souda Bay",
+      "timestamp": "2026-07-15T12:59:55+00:00",
+      "url": "https://www.dvidshub.net/image/9811591/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1014695",
-      "title": "CENTCOM Completes More Strikes Against Iran",
-      "desc": "Video footage released July 14, 2026, of U.S. Central Command forces striking targets across Iran. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T02:19:16+00:00",
-      "url": "https://www.dvidshub.net/video/1014695/centcom-completes-more-strikes-against-iran",
+      "id": "image:9811588",
+      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Souda Bay",
+      "timestamp": "2026-07-15T12:59:55+00:00",
+      "url": "https://www.dvidshub.net/image/9811588/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "news:569957",
-      "title": "CENTCOM Completes More Strikes Against Iran",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed an additional round of strikes against Iran at 10 p.m. ET, July 14, hitting dozens of military targets near the Strait of Hormuz and Iranian coastal areas.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T02:18:44+00:00",
-      "url": "https://www.dvidshub.net/news/569957/centcom-completes-more-strikes-against-iran",
+      "id": "image:9811585",
+      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Souda Bay",
+      "timestamp": "2026-07-15T12:59:55+00:00",
+      "url": "https://www.dvidshub.net/image/9811585/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1014538",
-      "title": "U.S. Forces Complete New Strikes on Iranian Military Targets",
-      "desc": "U.S. Central Command forces launch strikes in response to Iran's attack on commercial vessels transiting the Strait of Hormuz. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-14T02:27:17+00:00",
-      "url": "https://www.dvidshub.net/video/1014538/us-forces-complete-new-strikes-iranian-military-targets",
+      "id": "image:9811576",
+      "title": "NSA Souda Bay hosts U.S. NAVEUR-NAVAF Fleet Master Chief King",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 13, 2026)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Souda Bay",
+      "timestamp": "2026-07-15T12:59:54+00:00",
+      "url": "https://www.dvidshub.net/image/9811576/nsa-souda-bay-hosts-us-naveur-navaf-fleet-master-chief-king",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
