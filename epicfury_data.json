@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-15T07:13:04.350785+00:00",
+  "generated": "2026-07-15T12:19:41.306251+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1014729",
+      "title": "CENTCOM Conducts Morning Round of Strikes Against Iran",
+      "desc": "Video of U.S. Central Command forces attacking a military target, released July 15, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T12:00:28+00:00",
+      "url": "https://www.dvidshub.net/video/1014729/centcom-conducts-morning-round-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:569969",
+      "title": "CENTCOM Conducts Morning Round of Strikes Against Iran",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed a morning round of strikes against Iran at 7:30 a.m. ET on July 15.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T12:00:21+00:00",
+      "url": "https://www.dvidshub.net/news/569969/centcom-conducts-morning-round-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1014695",
       "title": "CENTCOM Completes More Strikes Against Iran",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-14T02:27:17+00:00",
       "url": "https://www.dvidshub.net/video/1014538/us-forces-complete-new-strikes-iranian-military-targets",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569866",
-      "title": "U.S. Forces Complete New Strikes on Iranian Military Targets",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed the latest wave of strikes against Iran at 10:15 p.m. ET on July 13.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-14T02:26:42+00:00",
-      "url": "https://www.dvidshub.net/news/569866/us-forces-complete-new-strikes-iranian-military-targets",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:569836",
-      "title": "U.S. Forces to Resume Naval Blockade Against Iran",
-      "desc": "TAMPA, Fla. — At the Commander in Chief's direction, U.S. Central Command (CENTCOM) forces will resume blockading maritime traffic entering and exiting Iranian ports on July 14 at 4 p.m. ET.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-13T18:22:04+00:00",
-      "url": "https://www.dvidshub.net/news/569836/us-forces-resume-naval-blockade-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
