@@ -1,21 +1,66 @@
 {
-  "generated": "2026-07-15T18:00:02.869722+00:00",
+  "generated": "2026-07-16T07:21:43.913527+00:00",
   "news_count": 0,
-  "dvids_count": 14,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "video:1014597",
-      "title": "Forged by the Fight",
-      "desc": "Aviation Ordnanceman 1st Class Shanice Winston and Aviation Ordnanceman 3rd Class Joshua Underhill share their experience of working in Weapons Department on the world’s largest aircraft carrier, USS Gerald R. Ford (CVN 78).\r\n\r\n(U.S. Navy Video by Mass Communication Specialist 3rd Class Brianna Barn",
+      "id": "video:1014869",
+      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
+      "desc": "Video footage released of U.S. Central Command (CENTCOM) launching aircraft and precision munitions against Iranian military targets, released July 15, 2026. (U.S. Central Command Video)",
       "type": "video",
-      "branch": "Navy",
-      "unit_name": "USS Gerald R. Ford (CVN 78)",
-      "timestamp": "2026-07-15T16:28:50+00:00",
-      "url": "https://www.dvidshub.net/video/1014597/forged-fight",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-16T01:27:40+00:00",
+      "url": "https://www.dvidshub.net/video/1014869/latest-wave-us-strikes-against-iran-completed",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570042",
+      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
+      "desc": "TAMPA Fla. — U.S. Central Command (CENTCOM) ended an evening wave of strikes against Iran at 9 p.m. ET on July 15.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-16T01:25:59+00:00",
+      "url": "https://www.dvidshub.net/news/570042/latest-wave-us-strikes-against-iran-completed",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1014825",
+      "title": "U.S. Forces Disable Non-Compliant Vessel in Arabian Gulf",
+      "desc": "U.S. forces enforce naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T21:02:06+00:00",
+      "url": "https://www.dvidshub.net/video/1014825/us-forces-disable-non-compliant-vessel-arabian-gulf",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570021",
+      "title": "U.S. Forces Disable Non-Compliant Vessel in Arabian Gulf",
+      "desc": "TAMPA, Fla. — U.S. forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-15T21:01:58+00:00",
+      "url": "https://www.dvidshub.net/news/570021/us-forces-disable-non-compliant-vessel-arabian-gulf",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     },
@@ -31,51 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9811588",
-      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
-      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Support Activity Souda Bay",
-      "timestamp": "2026-07-15T12:59:55+00:00",
-      "url": "https://www.dvidshub.net/image/9811588/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9811585",
-      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
-      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Support Activity Souda Bay",
-      "timestamp": "2026-07-15T12:59:55+00:00",
-      "url": "https://www.dvidshub.net/image/9811585/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9811576",
-      "title": "NSA Souda Bay hosts U.S. NAVEUR-NAVAF Fleet Master Chief King",
-      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 13, 2026)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Support Activity Souda Bay",
-      "timestamp": "2026-07-15T12:59:54+00:00",
-      "url": "https://www.dvidshub.net/image/9811576/nsa-souda-bay-hosts-us-naveur-navaf-fleet-master-chief-king",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
