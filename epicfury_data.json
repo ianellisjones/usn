@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-17T12:15:38.607699+00:00",
+  "generated": "2026-07-17T17:56:40.408633+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1015049",
+      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
+      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit conduct a verification boarding aboard M/T Wen Yao in the Gulf of Oman, July 16, 2026. (U.S. Marine Corps Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-17T16:11:12+00:00",
+      "url": "https://www.dvidshub.net/video/1015049/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015047",
       "title": "U.S. Successfully Completes New Strikes in Iran",
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9815006",
-      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
-      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
-      "type": "image",
+      "id": "video:1014869",
+      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
+      "desc": "Video footage released of U.S. Central Command (CENTCOM) launching aircraft and precision munitions against Iranian military targets, released July 15, 2026. (U.S. Central Command Video)",
+      "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-16T22:18:25+00:00",
-      "url": "https://www.dvidshub.net/image/9815006/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
+      "timestamp": "2026-07-16T01:27:40+00:00",
+      "url": "https://www.dvidshub.net/video/1014869/latest-wave-us-strikes-against-iran-completed",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9815004",
-      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
-      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
-      "type": "image",
+      "id": "news:570042",
+      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
+      "desc": "TAMPA Fla. — U.S. Central Command (CENTCOM) ended an evening wave of strikes against Iran at 9 p.m. ET on July 15.",
+      "type": "news",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-16T22:18:24+00:00",
-      "url": "https://www.dvidshub.net/image/9815004/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9815003",
-      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
-      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-16T22:18:24+00:00",
-      "url": "https://www.dvidshub.net/image/9815003/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
+      "timestamp": "2026-07-16T01:25:59+00:00",
+      "url": "https://www.dvidshub.net/news/570042/latest-wave-us-strikes-against-iran-completed",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
