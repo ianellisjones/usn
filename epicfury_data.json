@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-16T17:58:24.179596+00:00",
+  "generated": "2026-07-17T07:14:54.697327+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "video:1014869",
-      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
-      "desc": "Video footage released of U.S. Central Command (CENTCOM) launching aircraft and precision munitions against Iranian military targets, released July 15, 2026. (U.S. Central Command Video)",
+      "id": "video:1015047",
+      "title": "U.S. Successfully Completes New Strikes in Iran",
+      "desc": "Video of U.S. forces launching aircraft and precision munitions against Iranian military targets, released July 16, 2026. (U.S. Central Command Video)",
       "type": "video",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-16T01:27:40+00:00",
-      "url": "https://www.dvidshub.net/video/1014869/latest-wave-us-strikes-against-iran-completed",
+      "timestamp": "2026-07-17T01:53:29+00:00",
+      "url": "https://www.dvidshub.net/video/1015047/us-successfully-completes-new-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "news:570042",
-      "title": "Latest Wave of U.S. Strikes Against Iran Completed",
-      "desc": "TAMPA Fla. — U.S. Central Command (CENTCOM) ended an evening wave of strikes against Iran at 9 p.m. ET on July 15.",
+      "id": "news:570137",
+      "title": "U.S. Successfully Completes New Strikes in Iran",
+      "desc": "TAMPA, Fla. — Today at 9:40 p.m. ET, U.S. Central Command (CENTCOM) completed its latest major wave of strikes against Iran.",
       "type": "news",
       "branch": "Joint",
       "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-16T01:25:59+00:00",
-      "url": "https://www.dvidshub.net/news/570042/latest-wave-us-strikes-against-iran-completed",
+      "timestamp": "2026-07-17T01:53:22+00:00",
+      "url": "https://www.dvidshub.net/news/570137/us-successfully-completes-new-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,47 +35,47 @@
       "location_display": ""
     },
     {
-      "id": "video:1014825",
-      "title": "U.S. Forces Disable Non-Compliant Vessel in Arabian Gulf",
-      "desc": "U.S. forces enforce naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T21:02:06+00:00",
-      "url": "https://www.dvidshub.net/video/1014825/us-forces-disable-non-compliant-vessel-arabian-gulf",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570021",
-      "title": "U.S. Forces Disable Non-Compliant Vessel in Arabian Gulf",
-      "desc": "TAMPA, Fla. — U.S. forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-15T21:01:58+00:00",
-      "url": "https://www.dvidshub.net/news/570021/us-forces-disable-non-compliant-vessel-arabian-gulf",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9811591",
-      "title": "USS Thomas Hudner (DDG 116) hosts CODEL Bilirakis",
-      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (July 12,...",
+      "id": "image:9815006",
+      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
+      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Support Activity Souda Bay",
-      "timestamp": "2026-07-15T12:59:55+00:00",
-      "url": "https://www.dvidshub.net/image/9811591/uss-thomas-hudner-ddg-116-hosts-codel-bilirakis",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-16T22:18:25+00:00",
+      "url": "https://www.dvidshub.net/image/9815006/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9815004",
+      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
+      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-16T22:18:24+00:00",
+      "url": "https://www.dvidshub.net/image/9815004/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9815003",
+      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
+      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-16T22:18:24+00:00",
+      "url": "https://www.dvidshub.net/image/9815003/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
