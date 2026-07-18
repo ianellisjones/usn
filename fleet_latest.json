@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17 08:20 UTC",
+  "updated": "2026-07-18 07:57 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -62,9 +62,9 @@
       "hull": "CVN75",
       "name": "USS Harry S. Truman",
       "type": "CVN",
-      "location": "Norfolk / Portsmouth",
-      "date": "Jan. 21",
-      "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN76",
@@ -118,9 +118,9 @@
       "hull": "LHD4",
       "name": "USS Boxer",
       "type": "LHD",
-      "location": "Singapore",
-      "date": "May 1",
-      "status": "April 19, USS Boxer moored at Berth 2/3, Tango Wharf in Apra Harbor, Guam, for a three-day port call; Transited the Surigao Strait southbound on April 26; Transited the Balabac Strait westbound on April 28; Transited the Strait of Singapore on April 30; Transited the Malacca Strait northbound from April 30- May 1."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD5",
@@ -150,17 +150,17 @@
       "hull": "LHA6",
       "name": "USS America",
       "type": "LHA",
-      "location": "San Diego",
-      "date": "2026",
-      "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHA7",
       "name": "USS Tripoli",
       "type": "LHA",
-      "location": "Arabian Sea",
-      "date": "April 13",
-      "status": "March 29, USS Tripoli, along with the USS New Orleans (LPD 18), recently arrived in the North Arabian Sea in support of Operation Epic Fury; Conducted a replenishment-at-sea with the USNS Carl Brashear (T-AKE 7) on April 13."
+      "location": "Western Pacific (WESTPAC)",
+      "date": "Unknown",
+      "status": "No recent status found."
     }
   ]
 }
