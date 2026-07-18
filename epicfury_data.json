@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-18T11:57:31.334791+00:00",
+  "generated": "2026-07-18T17:45:55.141055+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "news:570261",
+      "title": "CENTCOM Statement on Recently Fallen, Missing U.S. Service Members",
+      "desc": "CENTCOM Statement on Recently Fallen, Missing U.S. Service Members",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-18T17:38:05+00:00",
+      "url": "https://www.dvidshub.net/news/570261/centcom-statement-recently-fallen-missing-us-service-members",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015176",
       "title": "CENTCOM Finishes Latest Wave of Strikes Against Iran",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-17T01:53:29+00:00",
       "url": "https://www.dvidshub.net/video/1015047/us-successfully-completes-new-strikes-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570137",
-      "title": "U.S. Successfully Completes New Strikes in Iran",
-      "desc": "TAMPA, Fla. — Today at 9:40 p.m. ET, U.S. Central Command (CENTCOM) completed its latest major wave of strikes against Iran.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-17T01:53:22+00:00",
-      "url": "https://www.dvidshub.net/news/570137/us-successfully-completes-new-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
