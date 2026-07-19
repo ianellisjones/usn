@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-18T17:45:55.141055+00:00",
+  "generated": "2026-07-19T07:25:34.092579+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1015206",
+      "title": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
+      "desc": "Video footage of U.S. forces launching precision strikes targeting Iranian military capabilities for the eighth consecutive night, released July 18, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-19T03:42:17+00:00",
+      "url": "https://www.dvidshub.net/video/1015206/us-completes-8th-consecutive-night-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570270",
+      "title": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
+      "desc": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-19T03:42:11+00:00",
+      "url": "https://www.dvidshub.net/news/570270/us-completes-8th-consecutive-night-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:570261",
       "title": "CENTCOM Statement on Recently Fallen, Missing U.S. Service Members",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-18T02:00:47+00:00",
       "url": "https://www.dvidshub.net/news/570254/centcom-finishes-latest-wave-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015049",
-      "title": "U.S. Marines from the 11th Marine Expeditionary Unit Conduct Verification Boarding",
-      "desc": "U.S. Marines from the 11th Marine Expeditionary Unit conduct a verification boarding aboard M/T Wen Yao in the Gulf of Oman, July 16, 2026. (U.S. Navy and Marine Corps Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-17T16:11:12+00:00",
-      "url": "https://www.dvidshub.net/video/1015049/us-marines-11th-marine-expeditionary-unit-conduct-verification-boarding",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015047",
-      "title": "U.S. Successfully Completes New Strikes in Iran",
-      "desc": "Video of U.S. forces launching aircraft and precision munitions against Iranian military targets, released July 16, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-17T01:53:29+00:00",
-      "url": "https://www.dvidshub.net/video/1015047/us-successfully-completes-new-strikes-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
