@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18 07:57 UTC",
+  "updated": "2026-07-19 08:26 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -30,9 +30,9 @@
       "hull": "CVN71",
       "name": "USS Theodore Roosevelt",
       "type": "CVN",
-      "location": "San Diego",
-      "date": "April 15",
-      "status": "February 9, USS Theodore Roosevelt moored at Berth Lima on Naval Air Station North Island; Underway for FRS/CQ from March 28- April 5; Underway for Composite Training Unit Exercise (COMPTUEX) on April 15."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN72",
@@ -70,9 +70,9 @@
       "hull": "CVN76",
       "name": "USS Ronald Reagan",
       "type": "CVN",
-      "location": "Bremerton / Kitsap",
-      "date": "Dec. 2",
-      "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN77",
@@ -86,9 +86,9 @@
       "hull": "CVN78",
       "name": "USS Gerald R. Ford",
       "type": "CVN",
-      "location": "Strait of Gibraltar",
-      "date": "May 6",
-      "status": "April 13, The Gerald R. Ford conducted a replenishment-at-sea with the USNS Kanawha, while underway approx. 170 n.m. southwest of Cyprus; Transited the Suez Canal southbound on April 16; Conducted operations in the northern Red Sea from April 17-30; Transited the Suez Canal northbound on May 1; Transited the Strait of Sicily westbound, just after midnight, on May 4; Transited the Strait of Gibraltar on May 6."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD1",
@@ -134,9 +134,9 @@
       "hull": "LHD7",
       "name": "USS Iwo Jima",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "2026",
-      "status": ", USS Iwo Jima moored at Berth 2, Pier 14 on Naval Station Norfolk following a nearly 10-month deployment in the U.S. 2nd and 4th Fleet AoR."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD8",
