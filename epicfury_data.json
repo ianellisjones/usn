@@ -1,9 +1,54 @@
 {
-  "generated": "2026-07-19T17:48:20.099584+00:00",
+  "generated": "2026-07-20T07:57:18.697563+00:00",
   "news_count": 0,
   "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1015246",
+      "title": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
+      "desc": "Video footage of U.S. Central Command launching the ninth consecutive evening of precision strikes further degrading Iranian military capabilities, released July 19, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-20T02:17:23+00:00",
+      "url": "https://www.dvidshub.net/video/1015246/centcom-ends-weekend-wave-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570284",
+      "title": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
+      "desc": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-20T02:16:01+00:00",
+      "url": "https://www.dvidshub.net/news/570284/centcom-ends-weekend-wave-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570277",
+      "title": "CENTCOM Update on Recently Fallen U.S. Service Members",
+      "desc": "CENTCOM Update on Recently Fallen U.S. Service Members",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-19T19:14:19+00:00",
+      "url": "https://www.dvidshub.net/news/570277/centcom-update-recently-fallen-us-service-members",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015206",
       "title": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-19T03:42:11+00:00",
       "url": "https://www.dvidshub.net/news/570270/us-completes-8th-consecutive-night-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570261",
-      "title": "CENTCOM Statement on Recently Fallen, Missing U.S. Service Members",
-      "desc": "CENTCOM Statement on Recently Fallen, Missing U.S. Service Members",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-18T17:38:05+00:00",
-      "url": "https://www.dvidshub.net/news/570261/centcom-statement-recently-fallen-missing-us-service-members",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015176",
-      "title": "CENTCOM Finishes Latest Wave of Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command launching latest wave of precision strikes on strategic Iranian military sites, released July 17, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-18T02:00:54+00:00",
-      "url": "https://www.dvidshub.net/video/1015176/centcom-finishes-latest-wave-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570254",
-      "title": "CENTCOM Finishes Latest Wave of Strikes Against Iran",
-      "desc": "CENTCOM Finishes Latest Wave of Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-18T02:00:47+00:00",
-      "url": "https://www.dvidshub.net/news/570254/centcom-finishes-latest-wave-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
