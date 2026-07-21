@@ -1,9 +1,54 @@
 {
-  "generated": "2026-07-20T18:47:30.896699+00:00",
+  "generated": "2026-07-21T07:31:31.716590+00:00",
   "news_count": 0,
   "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1015470",
+      "title": "U.S. Finishes Latest Strikes Against Iran",
+      "desc": "Video footage of U.S. forces launching the latest round of precision strikes against Iran to degrade their military capabilities, released on July 20, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-21T01:24:27+00:00",
+      "url": "https://www.dvidshub.net/video/1015470/us-finishes-latest-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570371",
+      "title": "U.S. Finishes Latest Strikes Against Iran",
+      "desc": "U.S. Finishes Latest Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-21T01:22:52+00:00",
+      "url": "https://www.dvidshub.net/news/570371/us-finishes-latest-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1015441",
+      "title": "NNSY Celebrates NAVSEA Excellence in Force Generation Award Winner Amy DeGuzman",
+      "desc": "Our Shipyard Commander, Rear Adm. Kavon 'Hak' Hakimzadeh recently spoke with Code 300 Alteration Installation Team (AIT) Work Integration Leader Amy DeGuzman, who was awarded the FY25 Naval Sea Systems Command (NAVSEA) Excellence in Force Generation Award. \n\nThe annual NAVSEA Excellence Awards recog",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Norfolk Naval Shipyard",
+      "timestamp": "2026-07-20T21:23:31+00:00",
+      "url": "https://www.dvidshub.net/video/1015441/nnsy-celebrates-navsea-excellence-force-generation-award-winner-amy-deguzman",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015246",
       "title": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-20T02:16:01+00:00",
       "url": "https://www.dvidshub.net/news/570284/centcom-ends-weekend-wave-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570277",
-      "title": "CENTCOM Update on Recently Fallen U.S. Service Members",
-      "desc": "CENTCOM Update on Recently Fallen U.S. Service Members",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-19T19:14:19+00:00",
-      "url": "https://www.dvidshub.net/news/570277/centcom-update-recently-fallen-us-service-members",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015206",
-      "title": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
-      "desc": "Video footage of U.S. forces launching precision strikes targeting Iranian military capabilities for the eighth consecutive night, released July 18, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-19T03:42:17+00:00",
-      "url": "https://www.dvidshub.net/video/1015206/us-completes-8th-consecutive-night-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570270",
-      "title": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
-      "desc": "U.S. Completes 8th Consecutive Night of Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-19T03:42:11+00:00",
-      "url": "https://www.dvidshub.net/news/570270/us-completes-8th-consecutive-night-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
