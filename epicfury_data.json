@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T12:26:52.430524+00:00",
+  "generated": "2026-07-21T18:08:51.751914+00:00",
   "news_count": 0,
   "dvids_count": 13,
   "news": [],
@@ -35,6 +35,21 @@
       "location_display": ""
     },
     {
+      "id": "image:9821960",
+      "title": "Sea Breeze 26-2 Task Force Operations",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Members of the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:33+00:00",
+      "url": "https://www.dvidshub.net/image/9821960/sea-breeze-26-2-task-force-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
       "id": "image:9821961",
       "title": "Sea Breeze 26-2 Task Force Operations",
       "desc": "PORTLAND PORT, England (July 20, 2026) Navy Sailors...",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-07-21T11:53:33+00:00",
       "url": "https://www.dvidshub.net/image/9821959/sea-breeze-26-2-task-force-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9821960",
-      "title": "Sea Breeze 26-2 Task Force Operations",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Members of the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:33+00:00",
-      "url": "https://www.dvidshub.net/image/9821960/sea-breeze-26-2-task-force-operations",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
