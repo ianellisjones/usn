@@ -1,81 +1,81 @@
 {
-  "generated": "2026-07-21T07:31:31.716590+00:00",
+  "generated": "2026-07-21T12:26:52.430524+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "video:1015470",
-      "title": "U.S. Finishes Latest Strikes Against Iran",
-      "desc": "Video footage of U.S. forces launching the latest round of precision strikes against Iran to degrade their military capabilities, released on July 20, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-21T01:24:27+00:00",
-      "url": "https://www.dvidshub.net/video/1015470/us-finishes-latest-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570371",
-      "title": "U.S. Finishes Latest Strikes Against Iran",
-      "desc": "U.S. Finishes Latest Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-21T01:22:52+00:00",
-      "url": "https://www.dvidshub.net/news/570371/us-finishes-latest-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015441",
-      "title": "NNSY Celebrates NAVSEA Excellence in Force Generation Award Winner Amy DeGuzman",
-      "desc": "Our Shipyard Commander, Rear Adm. Kavon 'Hak' Hakimzadeh recently spoke with Code 300 Alteration Installation Team (AIT) Work Integration Leader Amy DeGuzman, who was awarded the FY25 Naval Sea Systems Command (NAVSEA) Excellence in Force Generation Award. \n\nThe annual NAVSEA Excellence Awards recog",
-      "type": "video",
+      "id": "image:9821967",
+      "title": "Sea Breeze 26 Task Force Member",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Ukrainian Navy...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Norfolk Naval Shipyard",
-      "timestamp": "2026-07-20T21:23:31+00:00",
-      "url": "https://www.dvidshub.net/video/1015441/nnsy-celebrates-navsea-excellence-force-generation-award-winner-amy-deguzman",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:34+00:00",
+      "url": "https://www.dvidshub.net/image/9821967/sea-breeze-26-task-force-member",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1015246",
-      "title": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command launching the ninth consecutive evening of precision strikes further degrading Iranian military capabilities, released July 19, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-20T02:17:23+00:00",
-      "url": "https://www.dvidshub.net/video/1015246/centcom-ends-weekend-wave-strikes-against-iran",
+      "id": "image:9821965",
+      "title": "Sea Breeze 26 Task Force Members",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Swedish Navy Lt....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:34+00:00",
+      "url": "https://www.dvidshub.net/image/9821965/sea-breeze-26-task-force-members",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:570284",
-      "title": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
-      "desc": "CENTCOM Ends Weekend Wave of Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-20T02:16:01+00:00",
-      "url": "https://www.dvidshub.net/news/570284/centcom-ends-weekend-wave-strikes-against-iran",
+      "id": "image:9821961",
+      "title": "Sea Breeze 26-2 Task Force Operations",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Navy Sailors...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:33+00:00",
+      "url": "https://www.dvidshub.net/image/9821961/sea-breeze-26-2-task-force-operations",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9821959",
+      "title": "Sea Breeze 26-2 Task Force Operations",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Ukrainian Navy...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:33+00:00",
+      "url": "https://www.dvidshub.net/image/9821959/sea-breeze-26-2-task-force-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9821960",
+      "title": "Sea Breeze 26-2 Task Force Operations",
+      "desc": "PORTLAND PORT, England (July 20, 2026) Members of the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-07-21T11:53:33+00:00",
+      "url": "https://www.dvidshub.net/image/9821960/sea-breeze-26-2-task-force-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
