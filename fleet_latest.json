@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21 08:40 UTC",
+  "updated": "2026-07-22 08:40 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -54,9 +54,9 @@
       "hull": "CVN74",
       "name": "USS John C. Stennis",
       "type": "CVN",
-      "location": "Newport News",
-      "date": "April 8",
-      "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN75",
