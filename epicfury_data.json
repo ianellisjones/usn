@@ -1,81 +1,81 @@
 {
-  "generated": "2026-07-21T18:08:51.751914+00:00",
+  "generated": "2026-07-22T07:32:54.936272+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
     {
-      "id": "image:9821967",
-      "title": "Sea Breeze 26 Task Force Member",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Ukrainian Navy...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:34+00:00",
-      "url": "https://www.dvidshub.net/image/9821967/sea-breeze-26-task-force-member",
+      "id": "video:1015603",
+      "title": "U.S. Forces Complete 11th Night of Strikes Against Iran",
+      "desc": "Video footage of U.S. Central Command launching the 11th evening of precision strikes further degrading Iranian military capabilities, released July 21, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-22T00:45:43+00:00",
+      "url": "https://www.dvidshub.net/video/1015603/us-forces-complete-11th-night-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9821965",
-      "title": "Sea Breeze 26 Task Force Members",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Swedish Navy Lt....",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:34+00:00",
-      "url": "https://www.dvidshub.net/image/9821965/sea-breeze-26-task-force-members",
+      "id": "news:570461",
+      "title": "U.S. Forces Complete 11th Night of Strikes Against Iran",
+      "desc": "U.S. Forces Complete 11th Night of Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-22T00:43:42+00:00",
+      "url": "https://www.dvidshub.net/news/570461/us-forces-complete-11th-night-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9821960",
-      "title": "Sea Breeze 26-2 Task Force Operations",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Members of the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:33+00:00",
-      "url": "https://www.dvidshub.net/image/9821960/sea-breeze-26-2-task-force-operations",
+      "id": "video:1015574",
+      "title": "Blockade Enforcement",
+      "desc": "Every operational success in the Middle East begins and ends with service members focused on their missions, including the U.S. blockade against Iran. As of July 21, U.S. forces have redirected 8 commercial vessels and disabled 1 to fully enforce the blockade, released July 21, 2026. (U.S. Central C",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-21T19:44:43+00:00",
+      "url": "https://www.dvidshub.net/video/1015574/blockade-enforcement",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9821961",
-      "title": "Sea Breeze 26-2 Task Force Operations",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Navy Sailors...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:33+00:00",
-      "url": "https://www.dvidshub.net/image/9821961/sea-breeze-26-2-task-force-operations",
+      "id": "video:1015470",
+      "title": "U.S. Finishes Latest Strikes Against Iran",
+      "desc": "Video footage of U.S. forces launching the latest round of precision strikes against Iran to degrade their military capabilities, released on July 20, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-21T01:24:27+00:00",
+      "url": "https://www.dvidshub.net/video/1015470/us-finishes-latest-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9821959",
-      "title": "Sea Breeze 26-2 Task Force Operations",
-      "desc": "PORTLAND PORT, England (July 20, 2026) Ukrainian Navy...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-07-21T11:53:33+00:00",
-      "url": "https://www.dvidshub.net/image/9821959/sea-breeze-26-2-task-force-operations",
+      "id": "news:570371",
+      "title": "U.S. Finishes Latest Strikes Against Iran",
+      "desc": "U.S. Finishes Latest Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-21T01:22:52+00:00",
+      "url": "https://www.dvidshub.net/news/570371/us-finishes-latest-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
