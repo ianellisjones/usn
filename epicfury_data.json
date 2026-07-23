@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-22T18:01:35.808229+00:00",
+  "generated": "2026-07-23T07:31:45.470415+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1015818",
+      "title": "CENTCOM Completes Latest Strikes Against Iran",
+      "desc": "Video footage of U.S. Central Command completing precision strikes further degrading Iranian military capabilities, released July 22, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-23T02:53:13+00:00",
+      "url": "https://www.dvidshub.net/video/1015818/centcom-completes-latest-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570559",
+      "title": "CENTCOM Completes Latest Strikes Against Iran",
+      "desc": "CENTCOM Completes Latest Strikes Against Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-23T02:53:01+00:00",
+      "url": "https://www.dvidshub.net/news/570559/centcom-completes-latest-strikes-against-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015603",
       "title": "U.S. Forces Complete 11th Night of Strikes Against Iran",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-21T19:44:43+00:00",
       "url": "https://www.dvidshub.net/video/1015574/blockade-enforcement",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015470",
-      "title": "U.S. Finishes Latest Strikes Against Iran",
-      "desc": "Video footage of U.S. forces launching the latest round of precision strikes against Iran to degrade their military capabilities, released on July 20, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-21T01:24:27+00:00",
-      "url": "https://www.dvidshub.net/video/1015470/us-finishes-latest-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570371",
-      "title": "U.S. Finishes Latest Strikes Against Iran",
-      "desc": "U.S. Finishes Latest Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-21T01:22:52+00:00",
-      "url": "https://www.dvidshub.net/news/570371/us-finishes-latest-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
