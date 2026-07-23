@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-23T12:43:37.385171+00:00",
+  "generated": "2026-07-23T18:06:38.359822+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "news:570574",
+      "title": "Ford Carrier Strike Group visit underscores Lakehurst’s enduring partnership with the fleet",
+      "desc": "After a historic 11-month deployment senior leaders from USS Gerald R. Ford (CVN 78) visited NAWCAD Lakehurst on July 15 to thank the New Jersey personnel for their support and explore new ways to work together before the ship returns to sea.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval Air Warfare Center Aircraft Division",
+      "timestamp": "2026-07-23T14:37:24+00:00",
+      "url": "https://www.dvidshub.net/news/570574/ford-carrier-strike-group-visit-underscores-lakehursts-enduring-partnership-with-fleet",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1015818",
       "title": "CENTCOM Completes Latest Strikes Against Iran",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-22T00:43:42+00:00",
       "url": "https://www.dvidshub.net/news/570461/us-forces-complete-11th-night-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015574",
-      "title": "Blockade Enforcement",
-      "desc": "Every operational success in the Middle East begins and ends with service members focused on their missions, including the U.S. blockade against Iran. As of July 21, U.S. forces have redirected 8 commercial vessels and disabled 1 to fully enforce the blockade, released July 21, 2026. (U.S. Central C",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-21T19:44:43+00:00",
-      "url": "https://www.dvidshub.net/video/1015574/blockade-enforcement",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
