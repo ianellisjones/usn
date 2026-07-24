@@ -1,9 +1,54 @@
 {
-  "generated": "2026-07-24T12:23:33.459089+00:00",
+  "generated": "2026-07-24T18:10:38.562398+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9830256",
+      "title": "USS Mahan Hosts Consulate Reception",
+      "desc": "QUEBEC CITY (July 23, 2026) – U.S. Navy Cmdr....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T16:20:15+00:00",
+      "url": "https://www.dvidshub.net/image/9830256/uss-mahan-hosts-consulate-reception",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9830254",
+      "title": "USS Mahan Hosts Consulate Reception",
+      "desc": "QUEBEC CITY (July 23, 2026) – Royal Canadian Navy Vice...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T16:19:32+00:00",
+      "url": "https://www.dvidshub.net/image/9830254/uss-mahan-hosts-consulate-reception",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9830251",
+      "title": "USS Mahan Hosts Consulate Reception",
+      "desc": "QUEBEC CITY (July 23, 2026) – Royal Canadian Navy Rear...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T16:18:48+00:00",
+      "url": "https://www.dvidshub.net/image/9830251/uss-mahan-hosts-consulate-reception",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1016007",
       "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-24T01:26:08+00:00",
       "url": "https://www.dvidshub.net/news/570634/us-concludes-13th-night-strikes-iranian-military-targets",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570574",
-      "title": "Ford Carrier Strike Group visit underscores Lakehurst’s enduring partnership with the fleet",
-      "desc": "After a historic 11-month deployment senior leaders from USS Gerald R. Ford (CVN 78) visited NAWCAD Lakehurst on July 15 to thank the New Jersey personnel for their support and explore new ways to work together before the ship returns to sea.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval Air Warfare Center Aircraft Division",
-      "timestamp": "2026-07-23T14:37:24+00:00",
-      "url": "https://www.dvidshub.net/news/570574/ford-carrier-strike-group-visit-underscores-lakehursts-enduring-partnership-with-fleet",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015818",
-      "title": "CENTCOM Completes Latest Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command completing precision strikes further degrading Iranian military capabilities, released July 22, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-23T02:53:13+00:00",
-      "url": "https://www.dvidshub.net/video/1015818/centcom-completes-latest-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570559",
-      "title": "CENTCOM Completes Latest Strikes Against Iran",
-      "desc": "CENTCOM Completes Latest Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-23T02:53:01+00:00",
-      "url": "https://www.dvidshub.net/news/570559/centcom-completes-latest-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
