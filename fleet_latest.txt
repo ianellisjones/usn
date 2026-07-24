@@ -1,5 +1,5 @@
 U.S. NAVY FLEET TRACKER - Latest Locations
-Updated: 2026-07-23 08:41 UTC
+Updated: 2026-07-24 08:35 UTC
 
 AIRCRAFT CARRIERS (CVN)
  1. CVN68   USS Nimitz                   - Pacific Ocean
@@ -11,7 +11,7 @@ AIRCRAFT CARRIERS (CVN)
  7. CVN74   USS John C. Stennis          - Atlantic Ocean
  8. CVN75   USS Harry S. Truman          - Atlantic Ocean
  9. CVN76   USS Ronald Reagan            - Pacific Ocean
-10. CVN77   USS George H.W. Bush         - Arabian Sea
+10. CVN77   USS George H.W. Bush         - Atlantic Ocean
 11. CVN78   USS Gerald R. Ford           - Atlantic Ocean
 
 AMPHIBIOUS ASSAULT SHIPS (LHA/LHD)
@@ -21,6 +21,6 @@ AMPHIBIOUS ASSAULT SHIPS (LHA/LHD)
  4. LHD4    USS Boxer                    - Pacific Ocean
  5. LHD5    USS Bataan                   - Norfolk / Portsmouth
  6. LHD7    USS Iwo Jima                 - Atlantic Ocean
- 7. LHD8    USS Makin Island             - San Diego
+ 7. LHD8    USS Makin Island             - Pacific Ocean
  8. LHA6    USS America                  - Pacific Ocean
  9. LHA7    USS Tripoli                  - Western Pacific (WESTPAC)
