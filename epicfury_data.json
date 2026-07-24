@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-23T18:06:38.359822+00:00",
+  "generated": "2026-07-24T07:29:31.788488+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1016007",
+      "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
+      "desc": "Video footage of U.S. Central Command completing the 13th night of precision strikes further degrading Iranian military capabilities, released July 23, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-24T01:27:24+00:00",
+      "url": "https://www.dvidshub.net/video/1016007/us-concludes-13th-night-strikes-iranian-military-targets",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:570634",
+      "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
+      "desc": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-24T01:26:08+00:00",
+      "url": "https://www.dvidshub.net/news/570634/us-concludes-13th-night-strikes-iranian-military-targets",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:570574",
       "title": "Ford Carrier Strike Group visit underscores Lakehurst’s enduring partnership with the fleet",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-23T02:53:01+00:00",
       "url": "https://www.dvidshub.net/news/570559/centcom-completes-latest-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1015603",
-      "title": "U.S. Forces Complete 11th Night of Strikes Against Iran",
-      "desc": "Video footage of U.S. Central Command launching the 11th evening of precision strikes further degrading Iranian military capabilities, released July 21, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-22T00:45:43+00:00",
-      "url": "https://www.dvidshub.net/video/1015603/us-forces-complete-11th-night-strikes-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570461",
-      "title": "U.S. Forces Complete 11th Night of Strikes Against Iran",
-      "desc": "U.S. Forces Complete 11th Night of Strikes Against Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-22T00:43:42+00:00",
-      "url": "https://www.dvidshub.net/news/570461/us-forces-complete-11th-night-strikes-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
