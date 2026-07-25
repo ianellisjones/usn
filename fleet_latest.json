@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24 08:35 UTC",
+  "updated": "2026-07-25 08:17 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -38,9 +38,9 @@
       "hull": "CVN72",
       "name": "USS Abraham Lincoln",
       "type": "CVN",
-      "location": "Arabian Sea",
-      "date": "April 18",
-      "status": "March 10,  USS Abraham Lincoln conducted a replenishment-at-sea with the USNS Henry J. Kaiser, while underway in the North Arabian Sea;  Conducted a replenishment-at-sea again on March 18 and 28th;  Conducted a replenishment-at-sea with the USNS Carl Brashear on April 18 and 19th."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN73",
@@ -126,9 +126,9 @@
       "hull": "LHD5",
       "name": "USS Bataan",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "2025",
-      "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD7",
