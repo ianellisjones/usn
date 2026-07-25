@@ -1,9 +1,69 @@
 {
-  "generated": "2026-07-24T18:10:38.562398+00:00",
+  "generated": "2026-07-25T07:14:18.855948+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9831151",
+      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
+      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T22:21:39+00:00",
+      "url": "https://www.dvidshub.net/image/9831151/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9831149",
+      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
+      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T22:21:39+00:00",
+      "url": "https://www.dvidshub.net/image/9831149/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9831147",
+      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
+      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T22:21:39+00:00",
+      "url": "https://www.dvidshub.net/image/9831147/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9831146",
+      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
+      "desc": "QUEBEC CITY (July 24, 2026) – Visitors tour Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-24T22:21:38+00:00",
+      "url": "https://www.dvidshub.net/image/9831146/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9830256",
       "title": "USS Mahan Hosts Consulate Reception",
@@ -16,66 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9830254",
-      "title": "USS Mahan Hosts Consulate Reception",
-      "desc": "QUEBEC CITY (July 23, 2026) – Royal Canadian Navy Vice...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T16:19:32+00:00",
-      "url": "https://www.dvidshub.net/image/9830254/uss-mahan-hosts-consulate-reception",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9830251",
-      "title": "USS Mahan Hosts Consulate Reception",
-      "desc": "QUEBEC CITY (July 23, 2026) – Royal Canadian Navy Rear...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T16:18:48+00:00",
-      "url": "https://www.dvidshub.net/image/9830251/uss-mahan-hosts-consulate-reception",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1016007",
-      "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
-      "desc": "Video footage of U.S. Central Command completing the 13th night of precision strikes further degrading Iranian military capabilities, released July 23, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-24T01:27:24+00:00",
-      "url": "https://www.dvidshub.net/video/1016007/us-concludes-13th-night-strikes-iranian-military-targets",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570634",
-      "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
-      "desc": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-24T01:26:08+00:00",
-      "url": "https://www.dvidshub.net/news/570634/us-concludes-13th-night-strikes-iranian-military-targets",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
