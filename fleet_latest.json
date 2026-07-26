@@ -1,94 +1,94 @@
 {
-  "updated": "2026-07-25 08:17 UTC",
+  "updated": "2026-07-26 08:23 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
       "hull": "CVN68",
       "name": "USS Nimitz",
       "type": "CVN",
-      "location": "Pacific Ocean",
-      "date": "May 7",
-      "status": "May 7, USS Nimitz anchored at Anchorage #1 in Guanabara Bay, approx. 1 n.m. west of Niteroi, Brazil, for a five-day liberty port visit to Rio de Janeiro."
+      "location": "Bremerton / Kitsap",
+      "date": "2027",
+      "status": ", USS Nimitz moored at Pier 14N in its new homeport of Naval Station Norfolk, for the first time in nearly 40 years, after a four-month transit from Bremerton, Washington."
     },
     {
       "hull": "CVN69",
       "name": "USS Dwight D. Eisenhower",
       "type": "CVN",
       "location": "Norfolk / Portsmouth",
-      "date": "May 5",
-      "status": "April 24, 2026 USS Dwight D. Eisenhower moored at Pier 11N on Naval Station Norfolk after a four-day underway for sea trials, following a 16-month availability; Underway for flight deck certification and CQ, with the Carrier Air Wing (CVW) 3, on May 5."
+      "date": "July 24",
+      "status": "June 17, USS Dwight D. Eisenhower departed Naval Station Norfolk for FRS-CQ, in the Virginia Capes Op. Area; Arrived in the Jacksonville Op. Area on June 26; Conducted TRACOM-CQ from June 27-29; Moored at Pier 11S on July 2; Underway again on July 22; Conducted ammo onload with the USNS Medgar Evers (T-AKE 13) on July 24."
     },
     {
       "hull": "CVN70",
       "name": "USS Carl Vinson",
       "type": "CVN",
       "location": "San Diego",
-      "date": "September 16",
-      "status": "September 16, The Carl Vinson moored at Juliet Pier on Naval Air Station North Island after a three-day underway for ammo offload."
+      "date": "July 17",
+      "status": "June 13, 2026 USS Carl Vinson moored at Berth Lima on Naval Air Station North Island after a three-day underway for sea trials, following a  nine-month Planned Incremental Availability (PIA); Underway again from June 25- July 1; Underway for flight deck certification and CQ, with the CVW-2, on July 10; Moored at Kilo Pier on July 17."
     },
     {
       "hull": "CVN71",
       "name": "USS Theodore Roosevelt",
       "type": "CVN",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Pearl Harbor",
+      "date": "July 22",
+      "status": "July 7, USS Theodore Roosevelt departed Joint Base Pearl Harbor-Hickam for at-sea phase of RIMPAC 2026; Conducted a replenishment-at-sea with the USNS Guadalupe (T-AO 200), while underway south of Oahu, on July 8; Participated in a PHOTOEX, while underway approx. 100 n.m. northeast of Kauai, on July 22."
     },
     {
       "hull": "CVN72",
       "name": "USS Abraham Lincoln",
       "type": "CVN",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Arabian Sea",
+      "date": "July 4",
+      "status": "July 4, The Abraham Lincoln conducted a replenishment-at-sea with the USNS Cesar Chavez, while underway in the North Arabian Sea."
     },
     {
       "hull": "CVN73",
       "name": "USS George Washington",
       "type": "CVN",
-      "location": "Yokosuka",
-      "date": "May 10",
-      "status": "May 10, USS George Washington departed Fleet Activities Yokosuka  for sea trials following a four-month Selected Restricted Availability (SRA)."
+      "location": "Philippines",
+      "date": "July 24",
+      "status": "From July 24-25, the George Washington CSG conducted operations southwest of Luzon, Philippines."
     },
     {
       "hull": "CVN74",
       "name": "USS John C. Stennis",
       "type": "CVN",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Newport News",
+      "date": "April 8",
+      "status": "April 8, 2024 USS John C. Stennis undocked and moored at Outfitting Berth #1 on Newport News Shipyard."
     },
     {
       "hull": "CVN75",
       "name": "USS Harry S. Truman",
       "type": "CVN",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Norfolk / Portsmouth",
+      "date": "Jan. 21",
+      "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21."
     },
     {
       "hull": "CVN76",
       "name": "USS Ronald Reagan",
       "type": "CVN",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Bremerton / Kitsap",
+      "date": "Dec. 2",
+      "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13."
     },
     {
       "hull": "CVN77",
       "name": "USS George H.W. Bush",
       "type": "CVN",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Arabian Sea",
+      "date": "2026",
+      "status": ", An MH-60S Seahawk, assigned to the \"Nightdippers\" of Helicopter Sea Combat Squadron (HSC) 5, conducted an emergency water landing in the North Arabian Sea, around 11:30 a.m. local time. Three of the  four crew members have been recovered. Cmdr. Gabriel V. Edwards, CO of the HSC-5, was lost at sea."
     },
     {
       "hull": "CVN78",
       "name": "USS Gerald R. Ford",
       "type": "CVN",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Norfolk / Portsmouth",
+      "date": "2026",
+      "status": ", USS Gerald R. Ford moored at Pier 11N on Naval Station Norfolk following a record-breaking 326-day deployment in the U.S. 4th, 5th and 6th Fleet Areas of Responsibility (AoR)."
     },
     {
       "hull": "LHD1",
@@ -103,64 +103,64 @@
       "name": "USS Essex",
       "type": "LHD",
       "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "date": "July 22",
+      "status": "June 21, USS Essex moored at Wharf K10/K11 on Joint Base Pearl Harbor-Hickam, Hawaii, for the in-port phase of a biennial exercise Rim of the Pacific (RIMPAC); Underway for at-sea phase on July 7; Participated in a PHOTOEX, while underway approx. 100 n.m. northeast of Kauai, on July 22."
     },
     {
       "hull": "LHD3",
       "name": "USS Kearsarge",
       "type": "LHD",
       "location": "Norfolk / Portsmouth",
-      "date": "May 4",
-      "status": "April 27, The Kearsarge moored at Berth 4, Pier 14 on Naval Station Norfolk; Underway again on May 4."
+      "date": "July 14",
+      "status": "July 10, The Kearsarge moored at Berth 4, Pier 14 on Naval Station Norfolk; Underway off the coast of Virginia from July 14-15."
     },
     {
       "hull": "LHD4",
       "name": "USS Boxer",
       "type": "LHD",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Arabian Sea",
+      "date": "July 12",
+      "status": "July 10, USS Boxer, along with the USS Portland (LPD 27), recently arrived on station in the North Arabian Sea in support of ongoing military operations against Iran; Conducted a\u00a0replenishment-at-sea with the USNS Arctic (T-AOE 8) on July 12."
     },
     {
       "hull": "LHD5",
       "name": "USS Bataan",
       "type": "LHD",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Norfolk / Portsmouth",
+      "date": "2025",
+      "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard."
     },
     {
       "hull": "LHD7",
       "name": "USS Iwo Jima",
       "type": "LHD",
-      "location": "Atlantic Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Norfolk / Portsmouth",
+      "date": "2026",
+      "status": ", USS Iwo Jima moored at Berth 2, Pier 14 on Naval Station Norfolk following a nearly 10-month deployment in the U.S. 2nd and 4th Fleet AoR."
     },
     {
       "hull": "LHD8",
       "name": "USS Makin Island",
       "type": "LHD",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "San Diego",
+      "date": "July 15",
+      "status": "July 2, USS Makin Island moored at Berth 5, Pier 8 on Naval Base San Diego after a two-week underway for  Amphibious Squadron (PHIBRON) 7/Marine Expeditionary Unit Integration Training (PMINT), with the 13th MEU; Underway for ARG/MEUEX   on July 15."
     },
     {
       "hull": "LHA6",
       "name": "USS America",
       "type": "LHA",
-      "location": "Pacific Ocean",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "San Diego",
+      "date": "2026",
+      "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years."
     },
     {
       "hull": "LHA7",
       "name": "USS Tripoli",
       "type": "LHA",
-      "location": "Western Pacific (WESTPAC)",
-      "date": "Unknown",
-      "status": "No recent status found."
+      "location": "Okinawa",
+      "date": "July 22",
+      "status": "June 30, USS Tripoli ARG participated in a PHOTOEX with the USS Abraham Lincoln (CVN 72), USS George H.W. Bush (CVN 77) and 14 other U.S. Navy ships, while underway as a \"show of force\" in the North Arabian Sea; Transited the Sunda Strait northbound on July 13;   Moored at Navy Pier  East on White Beach Naval Facility for offload from July 22-25."
     }
   ]
 }
