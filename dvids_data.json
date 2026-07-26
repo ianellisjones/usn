@@ -1,34 +1,34 @@
 {
   "date": "2026-07-26",
-  "timestamp": "2026-07-26T12:49:35.859219",
-  "total_count": 399,
+  "timestamp": "2026-07-26T18:48:36.113304",
+  "total_count": 395,
   "by_country": {
+    "United States": 325,
     "Malaysia": 4,
     "Italy": 4,
-    "South Korea": 8,
+    "South Korea": 7,
     "Indonesia": 4,
-    "United States": 324,
     "Puerto Rico": 5,
     "Undisclosed Location": 6,
     "Pacific Ocean": 6,
     "Morocco": 11,
     "Philippines": 1,
-    "Japan": 15,
-    "Australia": 3,
+    "Japan": 12,
     "Canada": 4,
     "United Kingdom": 2,
     "Germany": 1,
+    "Australia": 2,
     "Philippine Sea": 1
   },
   "by_type": {
-    "video": 93,
-    "news": 106,
+    "news": 105,
+    "video": 90,
     "image": 200
   },
   "by_branch": {
-    "Joint": 144,
-    "Navy": 124,
     "Marines": 79,
+    "Joint": 143,
+    "Navy": 121,
     "Coast Guard": 52
   },
   "by_command": {
@@ -37,8 +37,40 @@
     "EUCOM": 8,
     "SOUTHCOM": 2
   },
-  "carrier_count": 76,
+  "carrier_count": 87,
   "items": [
+    {
+      "id": "news:570731",
+      "title": "Regimental Spotlight: Cpl. Wilson Shines as Project Dynamis Subject Matter Expert at SLTE 4-26.",
+      "description": "U.S. Marine Corporal Ashton Wilson, a native of Missouri and a Network Administrator with 2nd Marine Regiment, 2nd Marine Division, is recognized in the Regimental Spotlight for the 2nd Regimental Combat Team (RCT-2) conducting Service Level Training Exercise 4-26 (SLTE 4-26).  Wilson, whose typical duties require deploying tactical networks while maintaining and incorporating various IP technologies, has provided invaluable expertise to the regiment in employing the Marine Air Ground Task Force...",
+      "type": "news",
+      "branch": "Marines",
+      "unit_name": "2nd Marine Division",
+      "date_published": "Jul 26, 2026 17:38 UTC",
+      "timestamp": "2026-07-26T17:38:21+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "Twentynine Palms",
+      "location_display": "Twentynine Palms, California, United States",
+      "url": "https://www.dvidshub.net/news/570731/regimental-spotlight-cpl-wilson-shines-project-dynamis-subject-matter-expert-slte-4-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9829115/122x92_q95.jpg",
+      "keywords": [
+        "2nd MarDiv.",
+        "Camp Wilson",
+        "USMCNews",
+        "Twentynine Palms",
+        "2nd Marine Regiment",
+        "SLTE 4-26"
+      ],
+      "credit": "1LT Matthew Hart",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 1.1641670302777778,
+      "is_deployment": true,
+      "views": 0,
+      "carriers": []
+    },
     {
       "id": "video:1016293",
       "title": "Keris Strike 2026: Simulated Malaysian Army Air-to-Ground Air Assault B-Roll",
@@ -67,7 +99,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 0.7707025472222222,
+      "hours_old": 6.754085780555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -92,7 +124,7 @@
       "duration": 92,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.6739421280555558,
+      "hours_old": 9.657241856388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -117,7 +149,7 @@
       "duration": 136,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.7597754697222223,
+      "hours_old": 9.743075197222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -147,7 +179,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.0541792772222225,
+      "hours_old": 10.037500381388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -178,7 +210,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.651811381111111,
+      "hours_old": 11.635106126388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -209,7 +241,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.651811389166667,
+      "hours_old": 11.635106134444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -241,7 +273,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.651811376388889,
+      "hours_old": 12.63510612138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -273,7 +305,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.6801446986111115,
+      "hours_old": 12.663439443888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -305,7 +337,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.697644694166667,
+      "hours_old": 12.68093943861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -337,7 +369,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 6.7165335780555555,
+      "hours_old": 12.699828321944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -369,7 +401,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.745144684166667,
+      "hours_old": 12.728439427777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -401,7 +433,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.801811345000001,
+      "hours_old": 12.785106088888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -433,7 +465,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.825422450833333,
+      "hours_old": 12.808717194722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -465,7 +497,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.844866888333334,
+      "hours_old": 12.828161631944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -497,7 +529,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.87570026,
+      "hours_old": 12.858995004999999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -524,7 +556,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.66994683138889,
+      "hours_old": 20.653306497777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -551,7 +583,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.669946836666666,
+      "hours_old": 20.653306504444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -578,7 +610,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.669946841666667,
+      "hours_old": 20.653306509444448,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -605,7 +637,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.66994684638889,
+      "hours_old": 20.653306514722225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -632,7 +664,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.66994685111111,
+      "hours_old": 20.653306519444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -661,7 +693,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 15.128202469444444,
+      "hours_old": 21.111585695833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -691,7 +723,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 16.05115152861111,
+      "hours_old": 22.034508425555558,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -723,7 +755,7 @@
       "duration": 63,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 16.132326514722223,
+      "hours_old": 22.115651248611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -755,7 +787,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.661811311666668,
+      "hours_old": 23.645106052777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -787,7 +819,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.692366880555557,
+      "hours_old": 23.675661624166665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -819,7 +851,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.713807074166667,
+      "hours_old": 23.697130189444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -851,7 +883,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.713807088611112,
+      "hours_old": 23.697130203055554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -883,7 +915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.71380709611111,
+      "hours_old": 23.697130210555557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -915,7 +947,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.714084879444442,
+      "hours_old": 23.697407995833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -947,7 +979,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.714084884444446,
+      "hours_old": 23.69740800083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -979,7 +1011,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.71408489111111,
+      "hours_old": 23.697408006944446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1011,7 +1043,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.714084895833334,
+      "hours_old": 23.69740801138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1043,7 +1075,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.714362678055554,
+      "hours_old": 23.69768579388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1075,7 +1107,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.7143626825,
+      "hours_old": 23.69768579861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1107,7 +1139,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.714362686944444,
+      "hours_old": 23.697685803333332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1137,7 +1169,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.015502314166664,
+      "hours_old": 24.998861989166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1167,7 +1199,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 19.015502327222222,
+      "hours_old": 24.998862001944442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1197,7 +1229,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.01550233444444,
+      "hours_old": 24.99886200916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1227,7 +1259,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.01550234,
+      "hours_old": 24.998862015,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1257,7 +1289,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.015502351388886,
+      "hours_old": 24.998862019999997,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1287,7 +1319,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.01550235722222,
+      "hours_old": 24.99886202472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1317,7 +1349,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.015502361944442,
+      "hours_old": 24.998862029444442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1347,7 +1379,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 19.015502372500002,
+      "hours_old": 24.998862038055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1377,7 +1409,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.015502377222223,
+      "hours_old": 24.998862044166668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1407,7 +1439,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.01550238222222,
+      "hours_old": 24.99886204888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1437,7 +1469,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.015780144444445,
+      "hours_old": 24.999139811666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1465,7 +1497,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 19.686813639444445,
+      "hours_old": 25.67019687166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1497,7 +1529,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.593202483055556,
+      "hours_old": 26.57658570888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1526,7 +1558,7 @@
       "duration": 52,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.596258131666666,
+      "hours_old": 26.579641365833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1554,7 +1586,7 @@
       "duration": 77,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.983202504166666,
+      "hours_old": 26.966585730277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1582,7 +1614,7 @@
       "duration": 106,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.983202510555554,
+      "hours_old": 26.96658574222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1610,7 +1642,7 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.98320251722222,
+      "hours_old": 26.96658574861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1638,7 +1670,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.983202523055557,
+      "hours_old": 26.96658575472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1666,7 +1698,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.59908103861111,
+      "hours_old": 27.58241341722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1694,7 +1726,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.59908105111111,
+      "hours_old": 27.582413429722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1722,7 +1754,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.599081058055553,
+      "hours_old": 27.582413436666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1750,7 +1782,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.599081063611113,
+      "hours_old": 27.582413442222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1781,7 +1813,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.70236916083333,
+      "hours_old": 27.685752386944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1813,7 +1845,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.268386486388888,
+      "hours_old": 28.251686220833335,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -1845,7 +1877,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.923811870277778,
+      "hours_old": 28.90708829861111,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -1876,7 +1908,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616585054444442,
+      "hours_old": 30.59990817388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1907,7 +1939,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616585060000002,
+      "hours_old": 30.599908179444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1938,7 +1970,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616585065,
+      "hours_old": 30.599908184444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1969,7 +2001,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616862847777778,
+      "hours_old": 30.600185966944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2000,7 +2032,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.61686285333333,
+      "hours_old": 30.60018597166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2031,7 +2063,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616862858333334,
+      "hours_old": 30.60018597638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2062,7 +2094,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.616862863055555,
+      "hours_old": 30.600185981944442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2093,7 +2125,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.617140645555555,
+      "hours_old": 30.60046376472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2124,7 +2156,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.617140688333333,
+      "hours_old": 30.600463769722225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2155,7 +2187,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.617140694444444,
+      "hours_old": 30.600463774444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2186,7 +2218,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.61741847777778,
+      "hours_old": 30.600741556666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2217,7 +2249,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 24.61741848305556,
+      "hours_old": 30.600741592777776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2249,7 +2281,7 @@
       "duration": 57,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 27.5678822075,
+      "hours_old": 33.551206943888886,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2276,7 +2308,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 29.756311883888888,
+      "hours_old": 35.739588311944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2303,7 +2335,7 @@
       "duration": 134,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 30.19792508305556,
+      "hours_old": 36.181308305277774,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -2330,40 +2362,8 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.210874108888888,
+      "hours_old": 36.19423097694444,
       "is_deployment": true,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:570714",
-      "title": "MRF-D 26 Marines participate in Tiwi Cultural Festival",
-      "description": "MRF-D Marines and one Sailor arrived on Tiwi Island July 16 to assist the local community in setting up the 2026 Tiwi Island Cultural Festival. The Marines put up fences, built fire pits and assisted in setting up the stage for musical performances.",
-      "type": "news",
-      "branch": "Marines",
-      "unit_name": "Marine Rotational Force - Darwin",
-      "date_published": "Jul 25, 2026 02:09 UTC",
-      "timestamp": "2026-07-25T02:09:18+00:00",
-      "country": "Australia",
-      "state": "Northern Territory",
-      "city": "",
-      "location_display": "Australia",
-      "url": "https://www.dvidshub.net/news/570714/mrf-d-26-marines-participate-tiwi-cultural-festival",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831467/122x92_q95.jpg",
-      "keywords": [
-        "australia",
-        "adf",
-        "mrfd",
-        "marines",
-        "usmc",
-        "tiwi-island"
-      ],
-      "credit": "Cpl Grant Schirmer",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 34.665012734722225,
-      "is_deployment": false,
       "views": 0,
       "carriers": []
     },
@@ -2394,7 +2394,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.067644897499996,
+      "hours_old": 41.05093963833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2425,7 +2425,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.17708934805556,
+      "hours_old": 41.16038408916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2456,7 +2456,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.23625602027778,
+      "hours_old": 41.21955076138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2488,7 +2488,7 @@
       "duration": 24,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 36.79866433805556,
+      "hours_old": 42.78196406055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2517,7 +2517,7 @@
       "duration": 154,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 37.0526042775,
+      "hours_old": 43.03592901638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2546,7 +2546,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158499055556,
+      "hours_old": 43.22490810888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2575,7 +2575,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.241584995833335,
+      "hours_old": 43.22490811416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2604,7 +2604,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158500111111,
+      "hours_old": 43.22490811888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2633,7 +2633,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158500611111,
+      "hours_old": 43.22490812583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2662,7 +2662,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158501055555,
+      "hours_old": 43.224908130833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2691,7 +2691,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158501555556,
+      "hours_old": 43.22490813555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2720,7 +2720,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.241585020833334,
+      "hours_old": 43.224908140000004,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2749,7 +2749,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.24158502611111,
+      "hours_old": 43.22490814416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2774,7 +2774,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29244690777777,
+      "hours_old": 44.27580658138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2799,7 +2799,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29272468944445,
+      "hours_old": 44.27608436361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2824,7 +2824,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.292724693055554,
+      "hours_old": 44.2760843675,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2849,7 +2849,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29272469666667,
+      "hours_old": 44.27608437138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2874,7 +2874,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.293002478055556,
+      "hours_old": 44.27636215277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2899,7 +2899,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29300248194445,
+      "hours_old": 44.276362156944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2924,7 +2924,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.293002485833334,
+      "hours_old": 44.27636216083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2949,7 +2949,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29328026722222,
+      "hours_old": 44.276639942222225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2974,7 +2974,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29550242,
+      "hours_old": 44.278862088888886,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2999,7 +2999,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.295780201944446,
+      "hours_old": 44.27913987055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3024,7 +3024,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29578020611111,
+      "hours_old": 44.279139874444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3049,7 +3049,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.295780210277776,
+      "hours_old": 44.27913987861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3074,7 +3074,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.296057991944444,
+      "hours_old": 44.27941766027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3099,7 +3099,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29605799777778,
+      "hours_old": 44.27941766416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3124,7 +3124,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29633577972222,
+      "hours_old": 44.27969544583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3149,7 +3149,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.296335785,
+      "hours_old": 44.27969544972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3174,7 +3174,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29633578916666,
+      "hours_old": 44.27969545333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3199,7 +3199,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.296613522499996,
+      "hours_old": 44.27997319083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3224,7 +3224,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.29661357083334,
+      "hours_old": 44.27997324277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3249,7 +3249,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.296891305,
+      "hours_old": 44.28025097388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3274,7 +3274,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.458755985833335,
+      "hours_old": 44.44205072027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3299,7 +3299,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.45875599388889,
+      "hours_old": 44.442050727222224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3324,7 +3324,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 38.45875599888889,
+      "hours_old": 44.44205073277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3349,7 +3349,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.45903378111112,
+      "hours_old": 44.442328521111115,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3381,7 +3381,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.82986708083333,
+      "hours_old": 44.813161817777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3413,7 +3413,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.882089311111116,
+      "hours_old": 44.8653840475,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3438,7 +3438,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.05559602222222,
+      "hours_old": 45.03895291166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3463,7 +3463,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05828027111111,
+      "hours_old": 45.041639946111104,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3488,7 +3488,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.058280278333335,
+      "hours_old": 45.04163995305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3513,7 +3513,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05828028388889,
+      "hours_old": 45.041639959722225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3538,7 +3538,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05855806666666,
+      "hours_old": 45.041917742500004,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3563,7 +3563,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05855807138889,
+      "hours_old": 45.0419177475,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3588,7 +3588,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 39.05855807694445,
+      "hours_old": 45.041917752222226,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3613,7 +3613,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05855808166667,
+      "hours_old": 45.04191775694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3638,7 +3638,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05855808638889,
+      "hours_old": 45.04191776138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3663,7 +3663,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05855809166667,
+      "hours_old": 45.041917766388885,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3688,7 +3688,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05883587555556,
+      "hours_old": 45.04219554944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3713,7 +3713,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05883590444444,
+      "hours_old": 45.04219555416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3738,7 +3738,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05883590972223,
+      "hours_old": 45.04219555888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3763,7 +3763,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05883591472222,
+      "hours_old": 45.04219556361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3788,7 +3788,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.05883591972222,
+      "hours_old": 45.042195568333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3819,7 +3819,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.127145302777784,
+      "hours_old": 45.11042173194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3850,7 +3850,7 @@
       "duration": 88,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 39.16954024472222,
+      "hours_old": 45.152876095833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3877,7 +3877,7 @@
       "duration": 106,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 40.31065133888889,
+      "hours_old": 46.293987191666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3904,7 +3904,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.32991440194445,
+      "hours_old": 46.31324678055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3931,7 +3931,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.32991440777778,
+      "hours_old": 46.31324678666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3958,7 +3958,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 40.329914413333334,
+      "hours_old": 46.31324679222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3985,7 +3985,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.32991441805556,
+      "hours_old": 46.31324679722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4012,7 +4012,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 40.329914423055556,
+      "hours_old": 46.313246801944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4041,7 +4041,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.33019235305555,
+      "hours_old": 46.31352473916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4070,7 +4070,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.33019236,
+      "hours_old": 46.31352474444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4099,7 +4099,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.33019236527778,
+      "hours_old": 46.31352474888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4128,7 +4128,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.33019240972222,
+      "hours_old": 46.31352479666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4157,7 +4157,7 @@
       "duration": 3393,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.37538204416666,
+      "hours_old": 46.35870678333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4187,7 +4187,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 40.57908961277778,
+      "hours_old": 46.562366046111116,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4217,7 +4217,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.68408491361111,
+      "hours_old": 46.66740803027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4247,7 +4247,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.68436269666667,
+      "hours_old": 46.667685813888895,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4277,7 +4277,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.684362701944444,
+      "hours_old": 46.66768581888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4307,7 +4307,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.68436270638889,
+      "hours_old": 46.66768582361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4337,7 +4337,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.684362711388886,
+      "hours_old": 46.66768582833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4364,7 +4364,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88292257666667,
+      "hours_old": 46.86621732305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4391,7 +4391,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88320035861111,
+      "hours_old": 46.866495105000006,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4418,7 +4418,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.8832003625,
+      "hours_old": 46.86649510916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4445,7 +4445,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.883478144166666,
+      "hours_old": 46.86677289194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4472,7 +4472,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88347814805556,
+      "hours_old": 46.86677289638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4499,7 +4499,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88375592944444,
+      "hours_old": 46.867050678333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4526,7 +4526,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88375593333334,
+      "hours_old": 46.86705068222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4553,7 +4553,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.883755937222226,
+      "hours_old": 46.867050686111114,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4580,7 +4580,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88403361722222,
+      "hours_old": 46.8673283625,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4607,7 +4607,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88403371861111,
+      "hours_old": 46.86732846777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4634,7 +4634,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88431150027778,
+      "hours_old": 46.86760624944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4661,7 +4661,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88431150472223,
+      "hours_old": 46.86760625416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4688,7 +4688,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88458917861111,
+      "hours_old": 46.86788392333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4715,7 +4715,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88458929666666,
+      "hours_old": 46.867884035833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4742,7 +4742,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88486696111111,
+      "hours_old": 46.86816170611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4769,7 +4769,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88486696555556,
+      "hours_old": 46.868161710833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4796,7 +4796,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.8851447475,
+      "hours_old": 46.868439492777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4823,7 +4823,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.885144751666665,
+      "hours_old": 46.86843949666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4851,7 +4851,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88542253361111,
+      "hours_old": 46.86871727861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4878,7 +4878,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88542253777778,
+      "hours_old": 46.86871728305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4905,7 +4905,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.885422543055554,
+      "hours_old": 46.86871728888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4932,7 +4932,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.885700324999995,
+      "hours_old": 46.868995071111115,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4959,7 +4959,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.885700328888895,
+      "hours_old": 46.86899507527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4986,7 +4986,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.885978110555556,
+      "hours_old": 46.86927285722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5013,7 +5013,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88597811416667,
+      "hours_old": 46.869272861111114,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5040,7 +5040,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88625589583334,
+      "hours_old": 46.869550642777774,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5067,7 +5067,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88625590027778,
+      "hours_old": 46.8695506475,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5095,7 +5095,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 40.88653368222222,
+      "hours_old": 46.869828429444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5125,7 +5125,7 @@
       "duration": 110,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 41.252604320277776,
+      "hours_old": 47.23592905277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5156,7 +5156,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 41.26297855972222,
+      "hours_old": 47.246254987499995,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5185,7 +5185,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 41.71727554861111,
+      "hours_old": 47.70057528055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5215,7 +5215,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 42.39948489472222,
+      "hours_old": 48.382841791111105,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5246,7 +5246,7 @@
       "duration": 195,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.705659893888885,
+      "hours_old": 48.68898463222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5276,7 +5276,7 @@
       "duration": 257,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.85348031222222,
+      "hours_old": 48.83686354444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5306,7 +5306,7 @@
       "duration": 106,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.079270915833334,
+      "hours_old": 49.062595655833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5338,7 +5338,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 43.74686741472222,
+      "hours_old": 49.73014384333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5363,7 +5363,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.01408969083334,
+      "hours_old": 49.99736611861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5390,7 +5390,7 @@
       "duration": 1171,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.11403607611111,
+      "hours_old": 50.09741929388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5417,7 +5417,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.24976274111111,
+      "hours_old": 50.23311963638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5449,7 +5449,7 @@
       "duration": 325,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.42014727944444,
+      "hours_old": 51.4035305025,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5481,7 +5481,7 @@
       "duration": 343,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.56681392694444,
+      "hours_old": 51.550197150833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5513,7 +5513,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.978758140555556,
+      "hours_old": 51.96214137472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5544,7 +5544,7 @@
       "duration": 89,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.97903592833333,
+      "hours_old": 51.962419162777785,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5575,7 +5575,7 @@
       "duration": 71,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.98125825583333,
+      "hours_old": 51.96464147222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5606,7 +5606,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.54920715972222,
+      "hours_old": 52.53256404861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5636,7 +5636,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.701429365277775,
+      "hours_old": 52.68478625416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5667,7 +5667,7 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.83709171444445,
+      "hours_old": 52.820474938333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5692,7 +5692,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.86976270611111,
+      "hours_old": 52.853119595,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5724,7 +5724,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 47.36529042583333,
+      "hours_old": 53.34861152444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5756,7 +5756,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.23681367888889,
+      "hours_old": 54.2201969125,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5783,7 +5783,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.28770079388889,
+      "hours_old": 54.27097722194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5815,7 +5815,7 @@
       "duration": 202,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.4689932725,
+      "hours_old": 54.45231804611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5847,7 +5847,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.452790435555556,
+      "hours_old": 55.43611153388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5879,7 +5879,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.18445714083334,
+      "hours_old": 56.16777825444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5913,7 +5913,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.31809599027778,
+      "hours_old": 60.301452886944446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5945,7 +5945,7 @@
       "duration": 137,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.92454875194444,
+      "hours_old": 60.907873485,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -5973,7 +5973,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.525886505833334,
+      "hours_old": 61.50918623888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6004,7 +6004,7 @@
       "duration": 17,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 55.69116445472222,
+      "hours_old": 61.67446417777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6036,7 +6036,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.061997633055555,
+      "hours_old": 62.045297358333336,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6068,7 +6068,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.825053196666666,
+      "hours_old": 62.80835292166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6100,7 +6100,7 @@
       "duration": 97,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 56.88449765111111,
+      "hours_old": 62.867797375555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6130,7 +6130,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 59.364869228611106,
+      "hours_old": 65.34825246222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6160,7 +6160,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 59.38559612611112,
+      "hours_old": 65.36895301416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6189,7 +6189,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.91098057805556,
+      "hours_old": 65.89436380138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6216,7 +6216,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 60.28214527805556,
+      "hours_old": 66.26542170555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6243,7 +6243,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 60.673256406111115,
+      "hours_old": 66.65653283500001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6275,7 +6275,7 @@
       "duration": 106,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 60.84060880888889,
+      "hours_old": 66.82390853833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6306,7 +6306,7 @@
       "duration": 24,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.352091681944444,
+      "hours_old": 68.33547490361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6338,7 +6338,7 @@
       "duration": 402,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.38949770722222,
+      "hours_old": 68.37279743666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6369,7 +6369,7 @@
       "duration": 11,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.41375834083333,
+      "hours_old": 68.39714155722221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6394,7 +6394,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.449636849166666,
+      "hours_old": 68.43296923472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6426,7 +6426,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.571862715555554,
+      "hours_old": 68.55518583277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6458,7 +6458,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.572140498888885,
+      "hours_old": 68.55546361583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6490,7 +6490,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57214050361112,
+      "hours_old": 68.55546362083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6522,7 +6522,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57241828611111,
+      "hours_old": 68.55574140333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6554,7 +6554,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.572418290555554,
+      "hours_old": 68.55574140888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6586,7 +6586,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57241829472222,
+      "hours_old": 68.5557414138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6618,7 +6618,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.5726960775,
+      "hours_old": 68.55601919638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6650,7 +6650,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57297386,
+      "hours_old": 68.55629697861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6682,7 +6682,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57297386472223,
+      "hours_old": 68.55629698333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6714,7 +6714,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57325164805555,
+      "hours_old": 68.55657476555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6746,7 +6746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57325165277778,
+      "hours_old": 68.55657477111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6771,7 +6771,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 62.80214058638889,
+      "hours_old": 68.78546370444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6796,7 +6796,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 62.802140593333334,
+      "hours_old": 68.7854637111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6821,7 +6821,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 62.802418376388886,
+      "hours_old": 68.78574149416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6848,7 +6848,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 62.80269615888889,
+      "hours_old": 68.7860192775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6878,7 +6878,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 62.85742316722222,
+      "hours_old": 68.84069960555556,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6909,7 +6909,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 63.363942105,
+      "hours_old": 69.3472418275,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6938,7 +6938,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.19059613194445,
+      "hours_old": 70.17395302083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6967,7 +6967,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.19809614111111,
+      "hours_old": 70.18145303,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6996,7 +6996,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.46631198083334,
+      "hours_old": 70.44958840777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7023,7 +7023,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.62992324638888,
+      "hours_old": 70.61319968333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7055,7 +7055,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 64.90504055083333,
+      "hours_old": 70.88839742333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7080,7 +7080,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.25920716944444,
+      "hours_old": 71.24256405861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7105,7 +7105,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.45504056305556,
+      "hours_old": 71.43839743527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7132,7 +7132,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 65.74603422583333,
+      "hours_old": 71.72931065333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7160,7 +7160,7 @@
       "duration": 318,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 65.87014713250001,
+      "hours_old": 71.85353034916668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7192,7 +7192,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18130338777777,
+      "hours_old": 72.1646357775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7224,7 +7224,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 66.1813033925,
+      "hours_old": 72.16463578194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7256,7 +7256,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18130339777778,
+      "hours_old": 72.16463578805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7288,7 +7288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18130340277777,
+      "hours_old": 72.16463579361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7320,7 +7320,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18130340777778,
+      "hours_old": 72.1646357988889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7352,7 +7352,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18130341749999,
+      "hours_old": 72.16463580888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7384,7 +7384,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.1813034275,
+      "hours_old": 72.16463581833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7416,7 +7416,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18158115916667,
+      "hours_old": 72.16491354777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7448,7 +7448,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18158119055556,
+      "hours_old": 72.16491358138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7480,7 +7480,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18158120083334,
+      "hours_old": 72.16491359194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7512,7 +7512,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18158121027777,
+      "hours_old": 72.16491360111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7544,7 +7544,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18158121500001,
+      "hours_old": 72.1649136063889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7576,7 +7576,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18185899777778,
+      "hours_old": 72.16519138916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7608,7 +7608,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.1818590025,
+      "hours_old": 72.16519139416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7640,7 +7640,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.18185900722222,
+      "hours_old": 72.16519139916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7665,7 +7665,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.4365811175,
+      "hours_old": 72.41991350027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7690,7 +7690,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.4365811225,
+      "hours_old": 72.419913505,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7715,7 +7715,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.86130332111111,
+      "hours_old": 72.84463570027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7740,7 +7740,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.86130332527777,
+      "hours_old": 72.84463570833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7765,7 +7765,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.86130333,
+      "hours_old": 72.84463571361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7790,7 +7790,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.86130333444444,
+      "hours_old": 72.84463571833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7815,7 +7815,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 66.86158109388889,
+      "hours_old": 72.84491347305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7849,7 +7849,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 66.97945707916666,
+      "hours_old": 72.9627781725,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7879,7 +7879,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 67.31742314166667,
+      "hours_old": 73.30069956972221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7911,7 +7911,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.53380334944444,
+      "hours_old": 73.51713573222221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7943,7 +7943,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.53380335555556,
+      "hours_old": 73.51713574416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7975,7 +7975,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.53380336083333,
+      "hours_old": 73.51713575055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8007,7 +8007,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 67.53380336611112,
+      "hours_old": 73.5171357561111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8039,7 +8039,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.53380337194444,
+      "hours_old": 73.51713576055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8071,7 +8071,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 67.53380337638889,
+      "hours_old": 73.517135765,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8100,7 +8100,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.96825651583333,
+      "hours_old": 73.95153293083332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8129,7 +8129,7 @@
       "duration": 41,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.17014699972222,
+      "hours_old": 74.15353023333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8154,7 +8154,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.23103421527777,
+      "hours_old": 74.21431064166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8181,7 +8181,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.58309609666667,
+      "hours_old": 74.56645300583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8206,7 +8206,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.597262755,
+      "hours_old": 74.58061966444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8236,7 +8236,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.74381192305556,
+      "hours_old": 74.72708835083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8265,7 +8265,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.07047859944444,
+      "hours_old": 75.05375502722221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8290,7 +8290,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.19603417527777,
+      "hours_old": 76.1793106038889,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8321,7 +8321,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.24381210444444,
+      "hours_old": 76.22708855638888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8353,7 +8353,7 @@
       "duration": 45,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 70.92459149277778,
+      "hours_old": 76.90797472722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8384,7 +8384,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.16031828972223,
+      "hours_old": 78.14367518388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8416,7 +8416,7 @@
       "duration": 101,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 72.72014707944444,
+      "hours_old": 78.70353030138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8447,7 +8447,7 @@
       "duration": 47,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 72.8168137563889,
+      "hours_old": 78.80019697750001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8476,7 +8476,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 72.96144224333332,
+      "hours_old": 78.94474197638888,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8507,7 +8507,7 @@
       "duration": 203,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 73.23982661555556,
+      "hours_old": 79.22315134361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8539,7 +8539,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 73.58681382833333,
+      "hours_old": 79.57019704583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8568,7 +8568,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 74.24381202,
+      "hours_old": 80.22708844777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8602,7 +8602,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 75.54399329083333,
+      "hours_old": 81.52731803722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8636,7 +8636,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 75.76427108749999,
+      "hours_old": 81.74759580611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8667,7 +8667,7 @@
       "duration": 79,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.13681392000001,
+      "hours_old": 82.1201971438889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8701,34 +8701,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 76.40565996694446,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1015831",
-      "title": "Serow Samurai Exercise B-Roll",
-      "description": "Serow Samurai Misawa Capstone is a 28-hour continuous operations capstone exercise scheduled for July 20, 2026, at 0800 through July 21, 2026, at 1200. The exercise focuses on chemical, biological, radiological and nuclear reconnaissance and surveillance, munitions sampling, command and control, and contamination mitigation in a simulated contested environment.",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Misawa",
-      "date_published": "Jul 23, 2026 06:39 UTC",
-      "timestamp": "2026-07-23T06:39:05+00:00",
-      "country": "Japan",
-      "state": "Aomori",
-      "city": "Misawa",
-      "location_display": "Misawa, Japan",
-      "url": "https://www.dvidshub.net/video/1015831/serow-samurai-exercise-b-roll",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2607/1015831/DOD_111857382.0000001/122x92_q95.jpg",
-      "keywords": [
-        "serowsamurai"
-      ],
-      "credit": "PO2 TYLER BERGSTROM",
-      "duration": 154,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 78.16838669555555,
+      "hours_old": 82.38898468555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8757,34 +8730,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 78.98348048694444,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1015826",
-      "title": "2026 Misawa Serow Samurai Exercise",
-      "description": "Serow Samurai Misawa Capstone is a 28-hour continuous operations scheduled for July 20, 2026, at 0800 through July 21, 2026, at 1200. The exercise focuses on chemical, biological, radiological and nuclear reconnaissance and surveillance, munitions sampling, command and control, and contamination mitigation in a simulated contested environment. (U.S. Navy video by MC2 Tyler Bergstrom)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Misawa",
-      "date_published": "Jul 23, 2026 05:02 UTC",
-      "timestamp": "2026-07-23T05:02:05+00:00",
-      "country": "Japan",
-      "state": "Aomori",
-      "city": "Misawa",
-      "location_display": "Misawa, Japan",
-      "url": "https://www.dvidshub.net/video/1015826/2026-misawa-serow-samurai-exercise",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2607/1015826/DOD_111857313.0000001/122x92_q95.jpg",
-      "keywords": [
-        "EXSerowSamurai"
-      ],
-      "credit": "PO2 TYLER BERGSTROM",
-      "duration": 60,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 79.7850533688889,
+      "hours_old": 84.96686370305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8813,7 +8759,7 @@
       "duration": 375,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 80.58681395583334,
+      "hours_old": 86.57019717833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8843,7 +8789,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.9345915436111,
+      "hours_old": 87.91797476472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8870,7 +8816,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.9375405938889,
+      "hours_old": 87.92089748527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8899,7 +8845,7 @@
       "duration": 369,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 82.31653618638889,
+      "hours_old": 88.29991940861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8931,7 +8877,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.43116438277777,
+      "hours_old": 89.41446411222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8963,7 +8909,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 83.61714545222222,
+      "hours_old": 89.600421865,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8995,7 +8941,7 @@
       "duration": 507,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 83.77366439166667,
+      "hours_old": 89.75696412138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9022,7 +8968,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 83.91464544555555,
+      "hours_old": 89.89792185777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9054,7 +9000,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 84.16226290722223,
+      "hours_old": 90.14561978444443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9086,7 +9032,7 @@
       "duration": 145,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 84.83394220666668,
+      "hours_old": 90.81724193833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9111,7 +9057,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 85.26186756694445,
+      "hours_old": 91.24514399444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9143,34 +9089,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 85.70198508027778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1015800",
-      "title": "Red Friday Shoutout-Winchell-Misawa",
-      "description": "U.S. Air Force Technical Sergeant Andrew Winchell, with the 179th Cyber Wing gives a shoutout to his family in Baltimore, Ohio on Misawa Airbase, Japan. (U.S. Navy video by Petty Officer 2nd Class Tyler Bergstrom)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Misawa",
-      "date_published": "Jul 22, 2026 23:03 UTC",
-      "timestamp": "2026-07-22T23:03:05+00:00",
-      "country": "Japan",
-      "state": "Aomori",
-      "city": "Misawa",
-      "location_display": "Misawa, Japan",
-      "url": "https://www.dvidshub.net/video/1015800/red-friday-shoutout-winchell-misawa",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2607/1015800/DOD_111856853.0000001/122x92_q95.jpg",
-      "keywords": [
-        "REDFriday"
-      ],
-      "credit": "PO2 TYLER BERGSTROM",
-      "duration": 18,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 85.76838670888888,
+      "hours_old": 91.68534196527779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9202,7 +9121,7 @@
       "duration": 114,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 86.69538210694444,
+      "hours_old": 92.67870683944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9232,7 +9151,7 @@
       "duration": 263,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.22014710472223,
+      "hours_old": 93.20353032583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9257,7 +9176,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 87.54587397944444,
+      "hours_old": 93.52923086444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9284,7 +9203,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.33976288027779,
+      "hours_old": 94.32311977250001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9311,7 +9230,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.70865177638889,
+      "hours_old": 94.69200864833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9343,7 +9262,7 @@
       "duration": 318,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 88.85033108416667,
+      "hours_old": 94.833630815,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9368,7 +9287,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.0958741275,
+      "hours_old": 95.07923099444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9393,7 +9312,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26435904166667,
+      "hours_old": 95.24769142583332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9418,7 +9337,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26463681472222,
+      "hours_old": 95.24796919805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9443,7 +9362,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26463682833332,
+      "hours_old": 95.24796921277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9468,7 +9387,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26463683277778,
+      "hours_old": 95.24796921722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9493,7 +9412,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26463683694445,
+      "hours_old": 95.24796922166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9518,7 +9437,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26463684111111,
+      "hours_old": 95.24796922611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9543,7 +9462,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26491460166666,
+      "hours_old": 95.24824698611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9568,7 +9487,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.26491462305555,
+      "hours_old": 95.24824700833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9598,7 +9517,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.58681384777778,
+      "hours_old": 95.57019706527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9623,7 +9542,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.61420727027777,
+      "hours_old": 95.59756415666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9655,7 +9574,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.76658981777777,
+      "hours_old": 95.74986625416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9685,7 +9604,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.9740898661111,
+      "hours_old": 95.9573663263889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9712,7 +9631,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.03575669305556,
+      "hours_old": 96.01903311861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9737,7 +9656,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.16353430416666,
+      "hours_old": 96.14681072638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9767,7 +9686,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.24520103222221,
+      "hours_old": 96.22847745222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9797,7 +9716,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.29670727805556,
+      "hours_old": 96.2800641638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9827,7 +9746,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.10070266833333,
+      "hours_old": 97.08408588972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9857,7 +9776,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.18075649305555,
+      "hours_old": 97.16403291305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9886,7 +9805,7 @@
       "duration": 985,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.25375823555557,
+      "hours_old": 97.23714145277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9916,7 +9835,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.35309617722223,
+      "hours_old": 97.3364530625,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9941,7 +9860,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.36698509638889,
+      "hours_old": 97.3503419888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9968,7 +9887,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.77408998249999,
+      "hours_old": 98.75736640944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9998,7 +9917,7 @@
       "duration": 226,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 93.13570288111111,
+      "hours_old": 99.11908610527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10025,7 +9944,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.43325671861112,
+      "hours_old": 99.41653314527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10052,7 +9971,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.49325657194444,
+      "hours_old": 99.47653295472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10083,7 +10002,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.549207295,
+      "hours_old": 99.53256418027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10118,7 +10037,7 @@
       "duration": 66,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 93.65486927888888,
+      "hours_old": 99.63825251333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10150,7 +10069,7 @@
       "duration": 73,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 94.21593770805555,
+      "hours_old": 100.1992624461111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10177,7 +10096,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 95.97214542916667,
+      "hours_old": 101.95542187361112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10202,7 +10121,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 101.56242332583334,
+      "hours_old": 107.54569975222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10229,7 +10148,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 107.37186778083334,
+      "hours_old": 113.35514420749999,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -10259,7 +10178,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 108.05959165722223,
+      "hours_old": 114.0429748738889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10289,7 +10208,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 108.09281845,
+      "hours_old": 114.076175335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10321,7 +10240,7 @@
       "duration": 175,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 108.17010436333332,
+      "hours_old": 114.15342910138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10350,7 +10269,7 @@
       "duration": 12339,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 108.23348055194444,
+      "hours_old": 114.21686376833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10375,7 +10294,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 109.36770112777778,
+      "hours_old": 115.35097755444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10406,7 +10325,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 109.7738121525,
+      "hours_old": 115.75708858055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10431,7 +10350,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 110.44131216444444,
+      "hours_old": 116.4245885925,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -10463,7 +10382,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 110.45288212805556,
+      "hours_old": 116.43620686694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10491,7 +10410,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 110.787091795,
+      "hours_old": 116.77047501305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10522,7 +10441,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 112.88226292222222,
+      "hours_old": 118.86561979277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10554,7 +10473,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.0182566175,
+      "hours_old": 119.00153304555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10584,7 +10503,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 113.07625831694445,
+      "hours_old": 119.05964153416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10613,7 +10532,7 @@
       "duration": 216,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 113.0761644,
+      "hours_old": 119.05946414027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10638,7 +10557,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.38297885249999,
+      "hours_old": 119.36625528027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10670,7 +10589,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.4479789225,
+      "hours_old": 119.43125534888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10695,7 +10614,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.46170739222222,
+      "hours_old": 119.44506425055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10720,7 +10639,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.16103441555556,
+      "hours_old": 120.14431084333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10752,7 +10671,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.37529044749999,
+      "hours_old": 120.35861154472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10784,7 +10703,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.72445713222223,
+      "hours_old": 120.7077782413889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10811,7 +10730,7 @@
       "duration": 458,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 114.83709161333334,
+      "hours_old": 120.82047483138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10845,7 +10764,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 114.90362381527778,
+      "hours_old": 120.88694493305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10877,7 +10796,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.334179345,
+      "hours_old": 121.31750044833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10905,7 +10824,7 @@
       "duration": 145,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 117.55375842944444,
+      "hours_old": 123.53714165333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10934,7 +10853,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 118.95559628805556,
+      "hours_old": 124.93895315638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10967,7 +10886,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 118.96754071416666,
+      "hours_old": 124.95089758944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10997,7 +10916,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.82659000916667,
+      "hours_old": 125.80986643583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11029,7 +10948,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.0019852075,
+      "hours_old": 125.98534207638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11054,7 +10973,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 121.36186782027778,
+      "hours_old": 127.34514424694444,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11083,7 +11002,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 121.52227551861111,
+      "hours_old": 127.50557524138888,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11116,7 +11035,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 122.53473493666667,
+      "hours_old": 128.5180560558333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11148,7 +11067,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.27806828000001,
+      "hours_old": 131.26138940388887,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11180,7 +11099,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 125.43736941777777,
+      "hours_old": 131.42075263527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11210,7 +11129,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 131.41403620166668,
+      "hours_old": 137.39741942555557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11240,7 +11159,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 131.44004074083335,
+      "hours_old": 137.42339760916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11272,7 +11191,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 134.89948519055557,
+      "hours_old": 140.88284205888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11302,7 +11221,7 @@
       "duration": 158,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 135.42783111222224,
+      "hours_old": 141.4111308561111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11329,7 +11248,7 @@
       "duration": 756,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 136.35653622166666,
+      "hours_old": 142.33991944583335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11354,7 +11273,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 136.71920742222224,
+      "hours_old": 142.70256429138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11386,7 +11305,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 138.26325672777776,
+      "hours_old": 144.24653315444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11417,7 +11336,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 138.75770118555556,
+      "hours_old": 144.7409776113889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11447,7 +11366,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 138.7577011963889,
+      "hours_old": 144.74097762305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11476,7 +11395,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 138.8133741361111,
+      "hours_old": 144.79673100305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11508,7 +11427,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.1783741172222,
+      "hours_old": 145.16173098472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11533,7 +11452,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 140.55642970027776,
+      "hours_old": 146.53978657194446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11560,35 +11479,8 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 142.01047898388887,
+      "hours_old": 147.99375541055556,
       "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:570292",
-      "title": "Remembering Greece's Enduring Legacy in Korea",
-      "description": "Following the outbreak of the Korean War, Greece answered the United Nations' call by deploying the 13th Hellenic Air Force Flight and the Sparta Battalion. Nearly 5,000 Greek service members served with distinction, earning numerous honors through exceptional courage and sacrifice while helping defend the Republic of Korea and strengthen an enduring partnership.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "United Nations Command",
-      "date_published": "Jul 20, 2026 11:10 UTC",
-      "timestamp": "2026-07-20T11:10:15+00:00",
-      "country": "South Korea",
-      "state": "",
-      "city": "",
-      "location_display": "South Korea",
-      "url": "https://www.dvidshub.net/news/570292/remembering-greeces-enduring-legacy-korea",
-      "thumbnail_url": "",
-      "keywords": [
-        "unitednationscommand"
-      ],
-      "credit": "Maj. Belinda Culley",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 145.65031860416667,
-      "is_deployment": true,
       "views": 0,
       "carriers": []
     },
@@ -11617,13 +11509,370 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 161.58254082083334,
+      "hours_old": 167.5658976933333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
     }
   ],
   "carriers": [
+    {
+      "id": "image:9831796",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "An F/A-18 Super Hornet, attached to Strike Fighter...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:15 UTC",
+      "timestamp": "2026-07-26T15:15:18+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831796/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831796/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "7thFleet",
+        "USSGW",
+        "Flight operations"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5528900302777777,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831797",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "Sailors assigned to air department participate in flight...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:15 UTC",
+      "timestamp": "2026-07-26T15:15:09+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831797/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831797/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "7thFleet",
+        "USSGW",
+        "Flight operations"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5553900433333334,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831798",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "Aviation Boatswain\u2019s Mate Launch/Recovery (Equipment)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:15 UTC",
+      "timestamp": "2026-07-26T15:15:01+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831798/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831798/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "7thFleet",
+        "USSGW",
+        "flight operations"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.557612273611111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831799",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "An EA-18G Growler, attached to Electronic Attack...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:14 UTC",
+      "timestamp": "2026-07-26T15:14:47+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831799/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831799/122x92_q95.jpg",
+      "keywords": [
+        "USSGW",
+        "CVN73",
+        "FDNF",
+        "Flight operations",
+        "7thFleet"
+      ],
+      "credit": "PO2 Bruce Morgan",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5615011719444443,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831800",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "An EA-18G Growler, attached to Electronic Attack...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:14 UTC",
+      "timestamp": "2026-07-26T15:14:38+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831800/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831800/122x92_q95.jpg",
+      "keywords": [
+        "USSGW",
+        "CVN73",
+        "FDNF",
+        "Flight operations",
+        "7thFleet"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5640011783333336,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831801",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "A CMV-22B Osprey, attached to Fleet Logistics Multi...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:14 UTC",
+      "timestamp": "2026-07-26T15:14:29+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831801/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831801/122x92_q95.jpg",
+      "keywords": [
+        "USSGW",
+        "CVN73",
+        "FDNF",
+        "Flight operations",
+        "7thFleet"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 3.566501183611111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831803",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "A CMV-22B Osprey, attached to Fleet Logistics Multi...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:14 UTC",
+      "timestamp": "2026-07-26T15:14:20+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831803/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831803/122x92_q95.jpg",
+      "keywords": [
+        "USSGW",
+        "CVN73",
+        "FDNF",
+        "Flight operations",
+        "7thFleet"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.569001188888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831804",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "A CMV-22B Osprey, attached to Fleet Logistics Multi...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:14 UTC",
+      "timestamp": "2026-07-26T15:14:07+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831804/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831804/122x92_q95.jpg",
+      "keywords": [
+        "USSGW",
+        "CVN73",
+        "FDNF",
+        "Flight operations",
+        "7thFleet"
+      ],
+      "credit": "PO2 Tyler Crowley",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 3.5726123044444447,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831830",
+      "title": "George Washington\u2019s Supply Department Operations",
+      "description": "Logistics Specialist Seaman Natalie Fernandez, from...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:13 UTC",
+      "timestamp": "2026-07-26T15:13:46+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831830/george-washingtons-supply-department-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831830/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "USSGW"
+      ],
+      "credit": "PO3 Roselia Garcia",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5784456436111114,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831831",
+      "title": "George Washington\u2019s Supply Department Operations",
+      "description": "Logistics Specialist Seaman Ana Cunningham, from Kansas,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:12 UTC",
+      "timestamp": "2026-07-26T15:12:56+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831831/george-washingtons-supply-department-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831831/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "USSGW"
+      ],
+      "credit": "PO3 Roselia Garcia",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.5923345394444444,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9831833",
+      "title": "George Washington\u2019s Supply Department Operations",
+      "description": "Logistics Specialist 2nd Class Gianina Trevino, from...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 26, 2026 15:12 UTC",
+      "timestamp": "2026-07-26T15:12:13+00:00",
+      "country": "South China Sea",
+      "state": "",
+      "city": "",
+      "location_display": "South China Sea",
+      "url": "https://www.dvidshub.net/image/9831833/george-washingtons-supply-department-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9831833/122x92_q95.jpg",
+      "keywords": [
+        "FDNF",
+        "CVN73",
+        "USSGW"
+      ],
+      "credit": "PO3 Roselia Garcia",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.60427899,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
     {
       "id": "image:9830358",
       "title": "George Washington Conducts Flight Operations",
@@ -11650,7 +11899,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 33.327248197222225,
+      "hours_old": 39.310667885,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11683,7 +11932,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 33.33891488305555,
+      "hours_old": 39.3223345575,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11715,7 +11964,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.51585933916667,
+      "hours_old": 39.49927900861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11747,7 +11996,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.51613712388889,
+      "hours_old": 39.49955679194445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11779,7 +12028,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.516137129166665,
+      "hours_old": 39.499556796111115,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11811,7 +12060,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.516137135,
+      "hours_old": 39.49955680138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11843,7 +12092,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.51641491833333,
+      "hours_old": 39.49983458416666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11875,7 +12124,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.516414923333336,
+      "hours_old": 39.499834588888895,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11907,7 +12156,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.516692705833336,
+      "hours_old": 39.50011237111111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11939,7 +12188,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.51669271111111,
+      "hours_old": 39.500112378055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11973,7 +12222,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.269270374166666,
+      "hours_old": 42.25267703833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12007,7 +12256,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.27871483361111,
+      "hours_old": 42.26212149833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12041,7 +12290,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.287881508611115,
+      "hours_old": 42.27128817277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12075,7 +12324,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.29427041138889,
+      "hours_old": 42.27767706777777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12109,7 +12358,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.30093708361111,
+      "hours_old": 42.28434374,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12142,7 +12391,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.90649264583333,
+      "hours_old": 43.88989930027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12176,7 +12425,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.021214874444446,
+      "hours_old": 44.00462152888889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12210,7 +12459,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 38.303159325277775,
+      "hours_old": 44.286565979722226,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12244,7 +12493,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.84427045583334,
+      "hours_old": 47.827677110555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12278,7 +12527,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.91927046166666,
+      "hours_old": 47.90267711638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12305,7 +12554,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 41.93732602277778,
+      "hours_old": 47.9207326825,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12338,7 +12587,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 42.94395076888889,
+      "hours_old": 48.927369731944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12370,7 +12619,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.46947049305555,
+      "hours_old": 50.452890160555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12402,7 +12651,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.46947049861111,
+      "hours_old": 50.45289016583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12434,7 +12683,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.46947050361111,
+      "hours_old": 50.452890171111115,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12466,7 +12715,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.46947050888889,
+      "hours_old": 50.45289017611111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12498,7 +12747,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.46974829138889,
+      "hours_old": 50.453167964722226,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12532,7 +12781,37 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 44.532248296388886,
+      "hours_old": 50.51566797,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9827442",
+      "title": "George Washington Conducts Flight Operations",
+      "description": "An F-35C Lighting II, attached to Strike Fighter...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
+      "date_published": "Jul 24, 2026 16:17 UTC",
+      "timestamp": "2026-07-24T16:17:31+00:00",
+      "country": "Philippine Sea",
+      "state": "",
+      "city": "",
+      "location_display": "Philippine Sea",
+      "url": "https://www.dvidshub.net/image/9827442/george-washington-conducts-flight-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9827442/122x92_q95.jpg",
+      "keywords": [
+        "CVN73",
+        "Flight Operations"
+      ],
+      "credit": "SN Juan Cordova",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 50.515945754444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12563,7 +12842,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.53252607944444,
+      "hours_old": 50.51594575944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12593,7 +12872,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.53252608472222,
+      "hours_old": 50.515945764722225,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12624,7 +12903,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.532526089722225,
+      "hours_old": 50.51594576944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12654,37 +12933,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.53252609472222,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George Washington (CVN 73)"
-      ]
-    },
-    {
-      "id": "image:9827442",
-      "title": "George Washington Conducts Flight Operations",
-      "description": "An F-35C Lighting II, attached to Strike Fighter...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS GEORGE WASHINGTON (CVN 73)",
-      "date_published": "Jul 24, 2026 16:17 UTC",
-      "timestamp": "2026-07-24T16:17:31+00:00",
-      "country": "Philippine Sea",
-      "state": "",
-      "city": "",
-      "location_display": "Philippine Sea",
-      "url": "https://www.dvidshub.net/image/9827442/george-washington-conducts-flight-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9827442/122x92_q95.jpg",
-      "keywords": [
-        "CVN73",
-        "Flight Operations"
-      ],
-      "credit": "SN Juan Cordova",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 44.532526099444446,
+      "hours_old": 50.51594577416667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12714,7 +12963,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.532803881944446,
+      "hours_old": 50.51622355666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12744,7 +12993,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.53280388666667,
+      "hours_old": 50.51622356138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12774,7 +13023,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.53280389111111,
+      "hours_old": 50.516223565555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12804,7 +13053,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 44.53280389638889,
+      "hours_old": 50.51622357055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12834,7 +13083,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.53280390111111,
+      "hours_old": 50.51622357555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12867,7 +13116,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.54335946166666,
+      "hours_old": 50.52677913583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12898,7 +13147,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.543359467222224,
+      "hours_old": 50.526779140833334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12929,7 +13178,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 44.543637249999996,
+      "hours_old": 50.52705692361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12956,7 +13205,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.61447058805555,
+      "hours_old": 65.59789026194444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12983,7 +13232,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.61447059305555,
+      "hours_old": 65.59789026694445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13010,7 +13259,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.61447059777778,
+      "hours_old": 65.59789027166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13044,7 +13293,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.768437138611105,
+      "hours_old": 65.75184379972222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13078,7 +13327,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.795103811666664,
+      "hours_old": 65.77851047277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13112,7 +13361,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.8101038175,
+      "hours_old": 65.79351047916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13146,7 +13395,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.82038160055556,
+      "hours_old": 65.80378826222223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13180,7 +13429,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.832048271944444,
+      "hours_old": 65.81545493388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13214,7 +13463,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.84677049861111,
+      "hours_old": 65.83017716083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13248,7 +13497,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.84871494805556,
+      "hours_old": 65.83212161,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13282,7 +13531,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.85704828666667,
+      "hours_old": 65.84045494777777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13316,7 +13565,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 59.85927051361111,
+      "hours_old": 65.84267717472223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13350,7 +13599,7 @@
       "duration": 402,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 62.39356323833333,
+      "hours_old": 68.37697664111111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13383,7 +13632,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.525381629444446,
+      "hours_old": 68.50878829055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13416,7 +13665,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.53593719083333,
+      "hours_old": 68.51934385194444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13449,7 +13698,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.54427052888889,
+      "hours_old": 68.52767719,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13482,7 +13731,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.560659423055554,
+      "hours_old": 68.54406608416666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13515,7 +13764,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.57982609416667,
+      "hours_old": 68.56323275527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13548,7 +13797,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.59010387638889,
+      "hours_old": 68.57351053777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13581,7 +13830,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.598437214444445,
+      "hours_old": 68.58184387638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13614,7 +13863,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.60815944111111,
+      "hours_old": 68.59156610333334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13647,7 +13896,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.61788166805555,
+      "hours_old": 68.60128833,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13680,7 +13929,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.630659450277776,
+      "hours_old": 68.61406611222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13713,7 +13962,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.64010389888889,
+      "hours_old": 68.62351056111112,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13746,7 +13995,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 62.64927057027778,
+      "hours_old": 68.63267723222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13777,7 +14026,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 63.31589522805556,
+      "hours_old": 69.29931419222223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13804,7 +14053,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.20292782416666,
+      "hours_old": 76.18635454388888,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13838,7 +14087,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 89.61149279694445,
+      "hours_old": 95.59489945861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13869,7 +14118,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 121.52709935805555,
+      "hours_old": 127.51051716972222,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13903,7 +14152,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 126.39113726944444,
+      "hours_old": 132.3745569427778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13937,7 +14186,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 126.42002616388888,
+      "hours_old": 132.40344583750002,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13971,7 +14220,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 126.42558172694444,
+      "hours_old": 132.40900140083335,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14005,7 +14254,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 126.43280395583334,
+      "hours_old": 132.41622363055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14039,7 +14288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 126.46391507305556,
+      "hours_old": 132.44733474833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14073,7 +14322,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 126.5205817463889,
+      "hours_old": 132.50400142166666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
