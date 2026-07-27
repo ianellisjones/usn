@@ -1,5 +1,5 @@
 U.S. NAVY FLEET TRACKER - Latest Locations
-Updated: 2026-07-26 08:23 UTC
+Updated: 2026-07-27 10:01 UTC
 
 AIRCRAFT CARRIERS (CVN)
  1. CVN68   USS Nimitz                   - Bremerton / Kitsap
@@ -8,7 +8,7 @@ AIRCRAFT CARRIERS (CVN)
  4. CVN71   USS Theodore Roosevelt       - Pearl Harbor
  5. CVN72   USS Abraham Lincoln          - Arabian Sea
  6. CVN73   USS George Washington        - Philippines
- 7. CVN74   USS John C. Stennis          - Newport News
+ 7. CVN74   USS John C. Stennis          - Atlantic Ocean
  8. CVN75   USS Harry S. Truman          - Norfolk / Portsmouth
  9. CVN76   USS Ronald Reagan            - Bremerton / Kitsap
 10. CVN77   USS George H.W. Bush         - Arabian Sea
