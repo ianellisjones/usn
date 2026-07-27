@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-27T13:41:42.729981+00:00",
+  "generated": "2026-07-27T18:17:22.113748+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "news:570798",
+      "title": "USS Mahan concludes participation in ‘Rendez-vous Naval de Quebec 2026,’ highlighting lethality and U.S.-Canada defense partnership",
+      "desc": "QUEBEC CITY, Canada (July 27, 2026) – The Arleigh Burke-class guided-missile destroyer USS Mahan (DDG 72) departed Quebec City on July 27, concluding its participation in the 2026 Rendez-vous Naval de Québec (RVNQ) which took place July 23-26. \n\nMahan’s visit highlighted the enduring bilateral defen",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-27T17:07:42+00:00",
+      "url": "https://www.dvidshub.net/news/570798/uss-mahan-concludes-participation-rendez-vous-naval-de-quebec-2026-highlighting-lethality-and-us-canada-defense-partnership",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1016268",
       "title": "U.S. Forces Enforce Blockade",
