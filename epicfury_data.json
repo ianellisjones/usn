@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-26T17:53:53.162057+00:00",
+  "generated": "2026-07-27T08:29:17.494107+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,66 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9831151",
-      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
-      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T22:21:39+00:00",
-      "url": "https://www.dvidshub.net/image/9831151/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9831149",
-      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
-      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T22:21:39+00:00",
-      "url": "https://www.dvidshub.net/image/9831149/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9831147",
-      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
-      "desc": "QUEBEC CITY (July 24, 2026) – Visitors wait in line to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T22:21:39+00:00",
-      "url": "https://www.dvidshub.net/image/9831147/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9831146",
-      "title": "Visitors Tour USS Mahan During Rendez-vous Naval de Quebec (RVNQ) 2026",
-      "desc": "QUEBEC CITY (July 24, 2026) – Visitors tour Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-24T22:21:38+00:00",
-      "url": "https://www.dvidshub.net/image/9831146/visitors-tour-uss-mahan-during-rendez-vous-naval-de-quebec-rvnq-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
