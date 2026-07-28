@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-27T18:17:22.113748+00:00",
+  "generated": "2026-07-28T07:36:19.845988+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,21 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1016268",
-      "title": "U.S. Forces Enforce Blockade",
-      "desc": "U.S. forces completed a verification boarding aboard Comoros-flagged M/T Charminar in the Arabian Sea, and the tanker is now continuing its journey, July 25, 2026. CENTCOM forces disabled Mozambique-flagged M/T Lavine in the Gulf of Oman, July 24, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-25T21:41:36+00:00",
-      "url": "https://www.dvidshub.net/video/1016268/us-forces-enforce-blockade",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
