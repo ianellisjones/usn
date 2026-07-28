@@ -1,18 +1,78 @@
 {
-  "generated": "2026-07-28T12:57:13.972846+00:00",
+  "generated": "2026-07-28T18:05:57.856899+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "news:570798",
-      "title": "USS Mahan concludes participation in ‘Rendez-vous Naval de Quebec 2026,’ highlighting lethality and U.S.-Canada defense partnership",
-      "desc": "QUEBEC CITY, Canada (July 27, 2026) – The Arleigh Burke-class guided-missile destroyer USS Mahan (DDG 72) departed Quebec City on July 27, concluding its participation in the 2026 Rendez-vous Naval de Québec (RVNQ) which took place July 23-26. \n\nMahan’s visit highlighted the enduring bilateral defen",
-      "type": "news",
+      "id": "image:9835236",
+      "title": "USS Georgia Returns to Kings Bay",
+      "desc": "KINGS BAY, Ga. (July 27, 2026) — The Ohio-class...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-27T17:07:42+00:00",
-      "url": "https://www.dvidshub.net/news/570798/uss-mahan-concludes-participation-rendez-vous-naval-de-quebec-2026-highlighting-lethality-and-us-canada-defense-partnership",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-07-28T15:34:01+00:00",
+      "url": "https://www.dvidshub.net/image/9835236/uss-georgia-returns-kings-bay",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9835230",
+      "title": "USS Georgia Returns to Kings Bay",
+      "desc": "KINGS BAY, Ga. (July 27, 2026) — The Ohio-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-07-28T15:34:01+00:00",
+      "url": "https://www.dvidshub.net/image/9835230/uss-georgia-returns-kings-bay",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9835220",
+      "title": "USS Georgia Returns to Kings Bay",
+      "desc": "KINGS BAY, Ga. (July 27, 2026) — The Ohio-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-07-28T15:34:01+00:00",
+      "url": "https://www.dvidshub.net/image/9835220/uss-georgia-returns-kings-bay",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9835216",
+      "title": "USS Georgia Returns to Kings Bay",
+      "desc": "KINGS BAY, Ga. (July 27, 2026) — The Ohio-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-07-28T15:34:01+00:00",
+      "url": "https://www.dvidshub.net/image/9835216/uss-georgia-returns-kings-bay",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9835215",
+      "title": "USS Georgia Returns to Kings Bay",
+      "desc": "KINGS BAY, Ga. (July 27, 2026) — The Ohio-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-07-28T15:34:01+00:00",
+      "url": "https://www.dvidshub.net/image/9835215/uss-georgia-returns-kings-bay",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
