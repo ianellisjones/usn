@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 08:44 UTC",
+  "updated": "2026-07-29 08:50 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -62,9 +62,9 @@
       "hull": "CVN75",
       "name": "USS Harry S. Truman",
       "type": "CVN",
-      "location": "Norfolk / Portsmouth",
-      "date": "Jan. 21",
-      "status": "September 26, The Harry S. Truman moored at Pier 14S on Naval Station Norfolk; Moved to Pier 14N on Sept. 28; Brief underway  on Oct. 8; Moved to Pier 12N on Jan. 21."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN76",
@@ -103,8 +103,8 @@
       "name": "USS Essex",
       "type": "LHD",
       "location": "Pacific Ocean",
-      "date": "July 22",
-      "status": "June 21, USS Essex moored at Wharf K10/K11 on Joint Base Pearl Harbor-Hickam, Hawaii, for the in-port phase of a biennial exercise Rim of the Pacific (RIMPAC); Underway for at-sea phase on July 7; Participated in a PHOTOEX, while underway approx. 100 n.m. northeast of Kauai, on July 22."
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD3",
@@ -118,9 +118,9 @@
       "hull": "LHD4",
       "name": "USS Boxer",
       "type": "LHD",
-      "location": "Arabian Sea",
-      "date": "July 12",
-      "status": "July 10, USS Boxer, along with the USS Portland (LPD 27), recently arrived on station in the North Arabian Sea in support of ongoing military operations against Iran; Conducted a\u00a0replenishment-at-sea with the USNS Arctic (T-AOE 8) on July 12."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD5",
