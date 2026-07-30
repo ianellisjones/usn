@@ -1,9 +1,54 @@
 {
-  "generated": "2026-07-30T12:48:52.551727+00:00",
+  "generated": "2026-07-30T18:08:55.145357+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9840547",
+      "title": "USS Abraham Lincoln Conducts Flight Operations",
+      "desc": "An F/A-18E Super Hornet, assigned to Strike Fighter...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-30T17:54:31+00:00",
+      "url": "https://www.dvidshub.net/image/9840547/uss-abraham-lincoln-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9840551",
+      "title": "USS Abraham Lincoln Conducts Flight Operations",
+      "desc": "A U.S. Sailor directs an EA-18G Growler, assigned to...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-30T17:54:01+00:00",
+      "url": "https://www.dvidshub.net/image/9840551/uss-abraham-lincoln-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9840553",
+      "title": "USS Abraham Lincoln Conducts Flight Operations",
+      "desc": "An EA-18G Growler, assigned to Electronic Attack...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-30T17:53:31+00:00",
+      "url": "https://www.dvidshub.net/image/9840553/uss-abraham-lincoln-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1016795",
       "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
@@ -28,36 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-30T02:21:27+00:00",
       "url": "https://www.dvidshub.net/news/571060/us-strikes-irgc-targets-after-attempted-iranian-attacks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570951",
-      "title": "U.S., Saudi Forces Strike Iran-Backed Terrorist Sites in Iraq",
-      "desc": "U.S., Saudi Forces Strike Iran-Backed Terrorist Sites in Iraq",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-29T00:23:52+00:00",
-      "url": "https://www.dvidshub.net/news/570951/us-saudi-forces-strike-iran-backed-terrorist-sites-iraq",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570862",
-      "title": "CENTCOM to Launch 1st Bilateral AI Task Force with UAE",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) announced an agreement with the United Arab Emirates, July 28, to establish the first bilateral task force focused on accelerating the development of military artificial intelligence applications.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-28T14:31:15+00:00",
-      "url": "https://www.dvidshub.net/news/570862/centcom-launch-1st-bilateral-ai-task-force-with-uae",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
