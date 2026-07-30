@@ -1,9 +1,39 @@
 {
-  "generated": "2026-07-29T18:01:00.339479+00:00",
+  "generated": "2026-07-30T07:33:10.005794+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1016795",
+      "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
+      "desc": "Video footage of U.S. Central Command forces launching precision strikes against Iranian military targets, released July 29, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-30T02:22:13+00:00",
+      "url": "https://www.dvidshub.net/video/1016795/us-strikes-irgc-targets-after-attempted-iranian-attacks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:571060",
+      "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
+      "desc": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-07-30T02:21:27+00:00",
+      "url": "https://www.dvidshub.net/news/571060/us-strikes-irgc-targets-after-attempted-iranian-attacks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:570951",
       "title": "U.S., Saudi Forces Strike Iran-Backed Terrorist Sites in Iraq",
@@ -31,21 +61,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:570798",
-      "title": "USS Mahan concludes participation in ‘Rendez-vous Naval de Quebec 2026,’ highlighting lethality and U.S.-Canada defense partnership",
-      "desc": "QUEBEC CITY, Canada (July 27, 2026) – The Arleigh Burke-class guided-missile destroyer USS Mahan (DDG 72) departed Quebec City on July 27, concluding its participation in the 2026 Rendez-vous Naval de Québec (RVNQ) which took place July 23-26. \n\nMahan’s visit highlighted the enduring bilateral defen",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-07-27T17:07:42+00:00",
-      "url": "https://www.dvidshub.net/news/570798/uss-mahan-concludes-participation-rendez-vous-naval-de-quebec-2026-highlighting-lethality-and-us-canada-defense-partnership",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
