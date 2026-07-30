@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 08:50 UTC",
+  "updated": "2026-07-30 08:35 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -78,9 +78,9 @@
       "hull": "CVN77",
       "name": "USS George H.W. Bush",
       "type": "CVN",
-      "location": "Arabian Sea",
-      "date": "2026",
-      "status": ", An MH-60S Seahawk, assigned to the \"Nightdippers\" of Helicopter Sea Combat Squadron (HSC) 5, conducted an emergency water landing in the North Arabian Sea, around 11:30 a.m. local time. Three of the  four crew members have been recovered. Cmdr. Gabriel V. Edwards, CO of the HSC-5, was lost at sea."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN78",
@@ -110,9 +110,9 @@
       "hull": "LHD3",
       "name": "USS Kearsarge",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "July 14",
-      "status": "July 10, The Kearsarge moored at Berth 4, Pier 14 on Naval Station Norfolk; Underway off the coast of Virginia from July 14-15."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD4",
@@ -142,9 +142,9 @@
       "hull": "LHD8",
       "name": "USS Makin Island",
       "type": "LHD",
-      "location": "San Diego",
-      "date": "July 15",
-      "status": "July 2, USS Makin Island moored at Berth 5, Pier 8 on Naval Base San Diego after a two-week underway for  Amphibious Squadron (PHIBRON) 7/Marine Expeditionary Unit Integration Training (PMINT), with the 13th MEU; Underway for ARG/MEUEX   on July 15."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHA6",
