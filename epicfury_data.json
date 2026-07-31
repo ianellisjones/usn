@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-31T13:01:25.612542+00:00",
+  "generated": "2026-07-31T18:14:20.442902+00:00",
   "news_count": 0,
-  "dvids_count": 8,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "video:1017019",
-      "title": "Lt. Hines Interview-22NCR",
-      "desc": "U.S. Navy Lt. Arthur Hines, 22nd Naval Construction Regiment (22NCR) operations officer, speaks about the mission of 22NCR during a video interview on Camp Mitchell at Naval Station Rota, Spain, July 30, 2026. 22NCR commands naval construction forces for Navy Expeditionary Forces Europe-Africa/Task ",
-      "type": "video",
+      "id": "news:571232",
+      "title": "USS Truxtun Returns to Naval Station Norfolk from Deployment to U.S. 4th, 5th, and 6th Fleets",
+      "desc": "NORFOLK, Virginia – Arleigh Burke-class guided-missile destroyer USS Truxtun (DDG 103) returned to Naval Station Norfolk on July 31, concluding an almost six-month deployment across multiple geographic theaters, including the U.S. 4th, 5th and 6th Fleet areas of operations.\n \n\"The Sailors of USS Tru",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "22nd Naval Construction Regiment",
-      "timestamp": "2026-07-31T07:51:57+00:00",
-      "url": "https://www.dvidshub.net/video/1017019/lt-hines-interview-22ncr",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-31T16:09:36+00:00",
+      "url": "https://www.dvidshub.net/news/571232/uss-truxtun-returns-naval-station-norfolk-deployment-us-4th-5th-and-6th-fleets",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -20,62 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "image:9840547",
-      "title": "USS Abraham Lincoln Conducts Flight Operations",
-      "desc": "An F/A-18E Super Hornet, assigned to Strike Fighter...",
+      "id": "image:9842718",
+      "title": "USS Truxtun Returns to Naval Station Norfolk from Deployment to U.S. 4th, 5th, and 6th Fleets",
+      "desc": "NORFOLK, Va. (July 31, 2026) — A U.S Sailor assigned...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-30T17:54:31+00:00",
-      "url": "https://www.dvidshub.net/image/9840547/uss-abraham-lincoln-conducts-flight-operations",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-31T16:01:07+00:00",
+      "url": "https://www.dvidshub.net/image/9842718/uss-truxtun-returns-naval-station-norfolk-deployment-us-4th-5th-and-6th-fleets",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9840551",
-      "title": "USS Abraham Lincoln Conducts Flight Operations",
-      "desc": "A U.S. Sailor directs an EA-18G Growler, assigned to...",
+      "id": "image:9842724",
+      "title": "USS Truxtun Returns to Naval Station Norfolk from Deployment to U.S. 4th, 5th, and 6th Fleets",
+      "desc": "NORFOLK, Va. (July 31, 2026) — Family members of...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-30T17:54:01+00:00",
-      "url": "https://www.dvidshub.net/image/9840551/uss-abraham-lincoln-conducts-flight-operations",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-31T16:00:46+00:00",
+      "url": "https://www.dvidshub.net/image/9842724/uss-truxtun-returns-naval-station-norfolk-deployment-us-4th-5th-and-6th-fleets",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9840553",
-      "title": "USS Abraham Lincoln Conducts Flight Operations",
-      "desc": "An EA-18G Growler, assigned to Electronic Attack...",
+      "id": "image:9842740",
+      "title": "USS Truxtun returns to Naval Station Norfolk from Deployment to U.S. 4th, 5th, and 6th Fleet",
+      "desc": "NORFOLK, Va. (July 31, 2025) – Arleigh Burke-class...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-30T17:53:31+00:00",
-      "url": "https://www.dvidshub.net/image/9840553/uss-abraham-lincoln-conducts-flight-operations",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-31T16:00:11+00:00",
+      "url": "https://www.dvidshub.net/image/9842740/uss-truxtun-returns-naval-station-norfolk-deployment-us-4th-5th-and-6th-fleet",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1016795",
-      "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
-      "desc": "Video footage of U.S. Central Command forces launching precision strikes against Iranian military targets, released July 29, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-30T02:22:13+00:00",
-      "url": "https://www.dvidshub.net/video/1016795/us-strikes-irgc-targets-after-attempted-iranian-attacks",
+      "id": "image:9842722",
+      "title": "USS Truxtun Returns to Naval Station Norfolk from Deployment to U.S. 4th, 5th, and 6th Fleets",
+      "desc": "NORFOLK, Va. (July 31, 2026) — U.S. Navy Cmdr. Taylor...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-07-31T15:59:10+00:00",
+      "url": "https://www.dvidshub.net/image/9842722/uss-truxtun-returns-naval-station-norfolk-deployment-us-4th-5th-and-6th-fleets",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
