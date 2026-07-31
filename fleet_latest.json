@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30 08:35 UTC",
+  "updated": "2026-07-31 08:59 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -22,9 +22,9 @@
       "hull": "CVN70",
       "name": "USS Carl Vinson",
       "type": "CVN",
-      "location": "San Diego",
-      "date": "July 17",
-      "status": "June 13, 2026 USS Carl Vinson moored at Berth Lima on Naval Air Station North Island after a three-day underway for sea trials, following a  nine-month Planned Incremental Availability (PIA); Underway again from June 25- July 1; Underway for flight deck certification and CQ, with the CVW-2, on July 10; Moored at Kilo Pier on July 17."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN71",
@@ -86,9 +86,9 @@
       "hull": "CVN78",
       "name": "USS Gerald R. Ford",
       "type": "CVN",
-      "location": "Norfolk / Portsmouth",
-      "date": "2026",
-      "status": ", USS Gerald R. Ford moored at Pier 11N on Naval Station Norfolk following a record-breaking 326-day deployment in the U.S. 4th, 5th and 6th Fleet Areas of Responsibility (AoR)."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD1",
@@ -126,9 +126,9 @@
       "hull": "LHD5",
       "name": "USS Bataan",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "2025",
-      "status": "July ?, 2025 USS Bataan undocked and moored at  Berth 2E on NASSCO shipyard."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD7",
@@ -150,9 +150,9 @@
       "hull": "LHA6",
       "name": "USS America",
       "type": "LHA",
-      "location": "San Diego",
-      "date": "2026",
-      "status": ", USS America moored at Berth 5, Pier 13 in its new homeport of Naval Base San Diego after forward-deployed to Japan for nearly six years."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHA7",
