@@ -1,9 +1,24 @@
 {
-  "generated": "2026-07-31T07:48:54.618003+00:00",
+  "generated": "2026-07-31T13:01:25.612542+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1017019",
+      "title": "Lt. Hines Interview-22NCR",
+      "desc": "U.S. Navy Lt. Arthur Hines, 22nd Naval Construction Regiment (22NCR) operations officer, speaks about the mission of 22NCR during a video interview on Camp Mitchell at Naval Station Rota, Spain, July 30, 2026. 22NCR commands naval construction forces for Navy Expeditionary Forces Europe-Africa/Task ",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "22nd Naval Construction Regiment",
+      "timestamp": "2026-07-31T07:51:57+00:00",
+      "url": "https://www.dvidshub.net/video/1017019/lt-hines-interview-22ncr",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9840547",
       "title": "USS Abraham Lincoln Conducts Flight Operations",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-07-30T02:22:13+00:00",
       "url": "https://www.dvidshub.net/video/1016795/us-strikes-irgc-targets-after-attempted-iranian-attacks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:571060",
-      "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
-      "desc": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-07-30T02:21:27+00:00",
-      "url": "https://www.dvidshub.net/news/571060/us-strikes-irgc-targets-after-attempted-iranian-attacks",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
