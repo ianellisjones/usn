@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 08:59 UTC",
+  "updated": "2026-08-01 08:28 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -38,17 +38,17 @@
       "hull": "CVN72",
       "name": "USS Abraham Lincoln",
       "type": "CVN",
-      "location": "Arabian Sea",
-      "date": "July 4",
-      "status": "July 4, The Abraham Lincoln conducted a replenishment-at-sea with the USNS Cesar Chavez, while underway in the North Arabian Sea."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN73",
       "name": "USS George Washington",
       "type": "CVN",
-      "location": "Philippines",
-      "date": "July 24",
-      "status": "From July 24-25, the George Washington CSG conducted operations southwest of Luzon, Philippines."
+      "location": "Western Pacific (WESTPAC)",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN74",
@@ -94,9 +94,9 @@
       "hull": "LHD1",
       "name": "USS Wasp",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "May 19",
-      "status": "April 14, USS Wasp moored at Berth 6, Pier 11 on Naval Station Norfolk after a 10-day underway for deck landing qualifications, in the Virginia Capes Op. Area; Underway again on April 28; Moored at Berth 6, Pier 6 on May 9; Moved \"dead-stick\" to Pier 1 in BAE Systems shipyard on May 19."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD2",
@@ -134,9 +134,9 @@
       "hull": "LHD7",
       "name": "USS Iwo Jima",
       "type": "LHD",
-      "location": "Norfolk / Portsmouth",
-      "date": "2026",
-      "status": ", USS Iwo Jima moored at Berth 2, Pier 14 on Naval Station Norfolk following a nearly 10-month deployment in the U.S. 2nd and 4th Fleet AoR."
+      "location": "Atlantic Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "LHD8",
