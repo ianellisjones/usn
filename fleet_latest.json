@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 08:28 UTC",
+  "updated": "2026-08-02 08:32 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -158,9 +158,9 @@
       "hull": "LHA7",
       "name": "USS Tripoli",
       "type": "LHA",
-      "location": "Okinawa",
-      "date": "July 22",
-      "status": "June 30, USS Tripoli ARG participated in a PHOTOEX with the USS Abraham Lincoln (CVN 72), USS George H.W. Bush (CVN 77) and 14 other U.S. Navy ships, while underway as a \"show of force\" in the North Arabian Sea; Transited the Sunda Strait northbound on July 13;   Moored at Navy Pier  East on White Beach Naval Facility for offload from July 22-25."
+      "location": "Western Pacific (WESTPAC)",
+      "date": "Unknown",
+      "status": "No recent status found."
     }
   ]
 }
