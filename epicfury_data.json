@@ -1,48 +1,18 @@
 {
-  "generated": "2026-08-04T13:05:43.763785+00:00",
+  "generated": "2026-08-04T18:22:02.911750+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 17,
   "news": [],
   "dvids": [
     {
-      "id": "image:9847997",
-      "title": "U.S. Marines with VMFA-311 conduct Flights",
-      "desc": "A U.S. Marine with Marine Fighter Attack Squadron (VMFA)...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "U.S. Marine Corps Forces Central Command",
-      "timestamp": "2026-08-04T12:47:37+00:00",
-      "url": "https://www.dvidshub.net/image/9847997/us-marines-with-vmfa-311-conduct-flights",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1017297",
-      "title": "Vertical replenishment aboard USS Mason (DDG 87)",
-      "desc": "Vertical replenishment aboard Arleigh Burke-Class Guided-Missile Destroyer USS Mason (DDG 87), Aug. 2, 2026. (U.S. Navy Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-04T12:23:26+00:00",
-      "url": "https://www.dvidshub.net/video/1017297/vertical-replenishment-aboard-uss-mason-ddg-87",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9847290",
-      "title": "Routine Operations aboard USS Gonzalez",
-      "desc": "A U.S. Sailor uses a thermal environment monitor during...",
+      "id": "image:9848096",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T00:29:25+00:00",
-      "url": "https://www.dvidshub.net/image/9847290/routine-operations-aboard-uss-gonzalez",
+      "timestamp": "2026-08-04T15:15:06+00:00",
+      "url": "https://www.dvidshub.net/image/9848096/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9847297",
-      "title": "Maintenance aboard USS Gonzalez",
-      "desc": "A U.S. Sailor uses a voltage meter during maintenance on...",
+      "id": "image:9848097",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T00:29:01+00:00",
-      "url": "https://www.dvidshub.net/image/9847297/maintenance-aboard-uss-gonzalez",
+      "timestamp": "2026-08-04T15:14:49+00:00",
+      "url": "https://www.dvidshub.net/image/9848097/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +35,44 @@
       "location_display": ""
     },
     {
-      "id": "image:9847301",
-      "title": "Maintenance aboard USS Gonzalez",
-      "desc": "A U.S. Sailor adjusts the connector plugs of a heating...",
+      "id": "image:9848098",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T00:28:36+00:00",
-      "url": "https://www.dvidshub.net/image/9847301/maintenance-aboard-uss-gonzalez",
+      "timestamp": "2026-08-04T15:14:28+00:00",
+      "url": "https://www.dvidshub.net/image/9848098/john-finn-prepares-dinner",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9848100",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T15:14:07+00:00",
+      "url": "https://www.dvidshub.net/image/9848100/john-finn-prepares-dinner",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9848101",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T15:13:48+00:00",
+      "url": "https://www.dvidshub.net/image/9848101/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
