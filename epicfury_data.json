@@ -1,9 +1,39 @@
 {
-  "generated": "2026-08-04T07:37:40.322604+00:00",
+  "generated": "2026-08-04T13:05:43.763785+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9847997",
+      "title": "U.S. Marines with VMFA-311 conduct Flights",
+      "desc": "A U.S. Marine with Marine Fighter Attack Squadron (VMFA)...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-08-04T12:47:37+00:00",
+      "url": "https://www.dvidshub.net/image/9847997/us-marines-with-vmfa-311-conduct-flights",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1017297",
+      "title": "Vertical replenishment aboard USS Mason (DDG 87)",
+      "desc": "Vertical replenishment aboard Arleigh Burke-Class Guided-Missile Destroyer USS Mason (DDG 87), Aug. 2, 2026. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-08-04T12:23:26+00:00",
+      "url": "https://www.dvidshub.net/video/1017297/vertical-replenishment-aboard-uss-mason-ddg-87",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9847290",
       "title": "Routine Operations aboard USS Gonzalez",
@@ -46,36 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9847303",
-      "title": "Maintenance aboard USS Gonzalez",
-      "desc": "A U.S. Sailor adjusts the relief valve on a hot water...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T00:27:47+00:00",
-      "url": "https://www.dvidshub.net/image/9847303/maintenance-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:571449",
-      "title": "Virginia returns home from deployment",
-      "desc": "GROTON, Conn. – The first-in-class nuclear-powered fast-attack submarine USS Virginia (SSN 774), under the command of Cmdr. Jeremy Wheelis, returned to Naval Submarine Base New London Monday, Aug. 3, completing a six-month deployment to the U.S. European Command area of responsibility.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Submarine Readiness Squadron (SRS) 32",
-      "timestamp": "2026-08-03T23:21:08+00:00",
-      "url": "https://www.dvidshub.net/news/571449/virginia-returns-home-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
