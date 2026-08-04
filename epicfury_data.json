@@ -1,7 +1,83 @@
 {
-  "generated": "2026-08-03T18:42:25.378843+00:00",
+  "generated": "2026-08-04T07:37:40.322604+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 7,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:9847290",
+      "title": "Routine Operations aboard USS Gonzalez",
+      "desc": "A U.S. Sailor uses a thermal environment monitor during...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T00:29:25+00:00",
+      "url": "https://www.dvidshub.net/image/9847290/routine-operations-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9847297",
+      "title": "Maintenance aboard USS Gonzalez",
+      "desc": "A U.S. Sailor uses a voltage meter during maintenance on...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T00:29:01+00:00",
+      "url": "https://www.dvidshub.net/image/9847297/maintenance-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9847301",
+      "title": "Maintenance aboard USS Gonzalez",
+      "desc": "A U.S. Sailor adjusts the connector plugs of a heating...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T00:28:36+00:00",
+      "url": "https://www.dvidshub.net/image/9847301/maintenance-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9847303",
+      "title": "Maintenance aboard USS Gonzalez",
+      "desc": "A U.S. Sailor adjusts the relief valve on a hot water...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-04T00:27:47+00:00",
+      "url": "https://www.dvidshub.net/image/9847303/maintenance-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:571449",
+      "title": "Virginia returns home from deployment",
+      "desc": "GROTON, Conn. – The first-in-class nuclear-powered fast-attack submarine USS Virginia (SSN 774), under the command of Cmdr. Jeremy Wheelis, returned to Naval Submarine Base New London Monday, Aug. 3, completing a six-month deployment to the U.S. European Command area of responsibility.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Submarine Readiness Squadron (SRS) 32",
+      "timestamp": "2026-08-03T23:21:08+00:00",
+      "url": "https://www.dvidshub.net/news/571449/virginia-returns-home-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
