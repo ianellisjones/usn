@@ -1,81 +1,36 @@
 {
-  "generated": "2026-08-04T18:22:02.911750+00:00",
+  "generated": "2026-08-05T07:36:41.508782+00:00",
   "news_count": 0,
-  "dvids_count": 17,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
-      "id": "image:9848096",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
+      "id": "news:571518",
+      "title": "NNSY Celebrates Ford Flyaway Team Achievements and Dedication to the Mission",
+      "desc": "When emergent work required assistance in supporting USS Gerald R. Ford (CVN 78) in its moment of need following its March 2026 fire, Norfolk Naval Shipyard (NNSY) military and civilian personnel were quick to answer the call. To celebrate the team’s achievements and dedication in supporting this vi",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T15:15:06+00:00",
-      "url": "https://www.dvidshub.net/image/9848096/john-finn-prepares-dinner",
+      "unit_name": "Norfolk Naval Shipyard",
+      "timestamp": "2026-08-04T18:24:24+00:00",
+      "url": "https://www.dvidshub.net/news/571518/nnsy-celebrates-ford-flyaway-team-achievements-and-dedication-mission",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9848097",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
+      "id": "news:571449",
+      "title": "Virginia returns home from deployment",
+      "desc": "GROTON, Conn. – The first-in-class nuclear-powered fast-attack submarine USS Virginia (SSN 774), under the command of Cmdr. Jeremy Wheelis, returned to Naval Submarine Base New London Monday, Aug. 3, completing a six-month deployment to the U.S. European Command area of responsibility.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T15:14:49+00:00",
-      "url": "https://www.dvidshub.net/image/9848097/john-finn-prepares-dinner",
+      "unit_name": "Submarine Readiness Squadron (SRS) 32",
+      "timestamp": "2026-08-03T23:21:08+00:00",
+      "url": "https://www.dvidshub.net/news/571449/virginia-returns-home-deployment",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9848098",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T15:14:28+00:00",
-      "url": "https://www.dvidshub.net/image/9848098/john-finn-prepares-dinner",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9848100",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T15:14:07+00:00",
-      "url": "https://www.dvidshub.net/image/9848100/john-finn-prepares-dinner",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9848101",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-04T15:13:48+00:00",
-      "url": "https://www.dvidshub.net/image/9848101/john-finn-prepares-dinner",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
