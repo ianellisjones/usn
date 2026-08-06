@@ -1,36 +1,81 @@
 {
-  "generated": "2026-08-05T18:14:13.769130+00:00",
+  "generated": "2026-08-06T07:37:02.448981+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
     {
-      "id": "news:571518",
-      "title": "NNSY Celebrates Ford Flyaway Team Achievements and Dedication to the Mission",
-      "desc": "When emergent work required assistance in supporting USS Gerald R. Ford (CVN 78) in its moment of need following its March 2026 fire, Norfolk Naval Shipyard (NNSY) military and civilian personnel were quick to answer the call. To celebrate the team’s achievements and dedication in supporting this vi",
-      "type": "news",
+      "id": "image:9852132",
+      "title": "Fuel Testing aboard USS Gonzalez",
+      "desc": "A U.S. Sailor request permission to begin fuel sample...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Norfolk Naval Shipyard",
-      "timestamp": "2026-08-04T18:24:24+00:00",
-      "url": "https://www.dvidshub.net/news/571518/nnsy-celebrates-ford-flyaway-team-achievements-and-dedication-mission",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-05T18:27:51+00:00",
+      "url": "https://www.dvidshub.net/image/9852132/fuel-testing-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:571449",
-      "title": "Virginia returns home from deployment",
-      "desc": "GROTON, Conn. – The first-in-class nuclear-powered fast-attack submarine USS Virginia (SSN 774), under the command of Cmdr. Jeremy Wheelis, returned to Naval Submarine Base New London Monday, Aug. 3, completing a six-month deployment to the U.S. European Command area of responsibility.",
-      "type": "news",
+      "id": "image:9852136",
+      "title": "Fuel Testing aboard USS Gonzalez",
+      "desc": "A U.S. Sailor collects a fuel sample aboard Arleigh...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Submarine Readiness Squadron (SRS) 32",
-      "timestamp": "2026-08-03T23:21:08+00:00",
-      "url": "https://www.dvidshub.net/news/571449/virginia-returns-home-deployment",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-05T18:27:30+00:00",
+      "url": "https://www.dvidshub.net/image/9852136/fuel-testing-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9852138",
+      "title": "Fuel Testing aboard USS Gonzalez",
+      "desc": "A U.S. Sailor tests a fuel sample for sediment using a...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-05T18:25:32+00:00",
+      "url": "https://www.dvidshub.net/image/9852138/fuel-testing-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9852141",
+      "title": "Fuel Testing aboard USS Gonzalez",
+      "desc": "A U.S. Sailor tests a sample for fuel system icing...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-05T18:25:09+00:00",
+      "url": "https://www.dvidshub.net/image/9852141/fuel-testing-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9852142",
+      "title": "Fuel Testing aboard USS Gonzalez",
+      "desc": "A U.S. Sailor uses a refractometer to measure the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-05T18:24:41+00:00",
+      "url": "https://www.dvidshub.net/image/9852142/fuel-testing-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
