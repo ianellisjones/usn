@@ -1,11 +1,11 @@
 U.S. NAVY FLEET TRACKER - Latest Locations
-Updated: 2026-08-06 08:47 UTC
+Updated: 2026-08-07 07:25 UTC
 
 AIRCRAFT CARRIERS (CVN)
  1. CVN68   USS Nimitz                   - Bremerton / Kitsap
  2. CVN69   USS Dwight D. Eisenhower     - Atlantic Ocean
  3. CVN70   USS Carl Vinson              - Pacific Ocean
- 4. CVN71   USS Theodore Roosevelt       - Pearl Harbor
+ 4. CVN71   USS Theodore Roosevelt       - Pacific Ocean
  5. CVN72   USS Abraham Lincoln          - Pacific Ocean
  6. CVN73   USS George Washington        - Western Pacific (WESTPAC)
  7. CVN74   USS John C. Stennis          - Atlantic Ocean
