@@ -1,9 +1,39 @@
 {
-  "generated": "2026-08-06T12:59:53.363729+00:00",
+  "generated": "2026-08-07T06:07:46.394335+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1017853",
+      "title": "Navy Medicine Readiness & Training Command Patuxent River",
+      "desc": "Navy Medicine Readiness and Training Command (NMRTC) Patuxent River is the central command responsible for operational readiness and healthcare delivery across multiple Navy Medicine locations in the Atlantic region. It oversees NMRTC Patuxent River, Navy Medicine and Readiness Training Unit (NMRTU)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Medical Visual Information Directorate-NMLPDC",
+      "timestamp": "2026-08-06T18:04:40+00:00",
+      "url": "https://www.dvidshub.net/video/1017853/navy-medicine-readiness-training-command-patuxent-river",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1017855",
+      "title": "Navy Medicine Readiness & Training Command Patuxent River 60 seconds",
+      "desc": "Navy Medicine Readiness and Training Command (NMRTC) Patuxent River is the central command responsible for operational readiness and healthcare delivery across multiple Navy Medicine locations in the Atlantic region. It oversees NMRTC Patuxent River, Navy Medicine and Readiness Training Unit (NMRTU)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Medical Visual Information Directorate-NMLPDC",
+      "timestamp": "2026-08-06T18:04:37+00:00",
+      "url": "https://www.dvidshub.net/video/1017855/navy-medicine-readiness-training-command-patuxent-river-60-seconds",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1017759",
       "title": "AFN Naples B-roll package - USS Mount Whitney CoC",
@@ -46,36 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9852132",
-      "title": "Fuel Testing aboard USS Gonzalez",
-      "desc": "A U.S. Sailor request permission to begin fuel sample...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-05T18:27:51+00:00",
-      "url": "https://www.dvidshub.net/image/9852132/fuel-testing-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9852136",
-      "title": "Fuel Testing aboard USS Gonzalez",
-      "desc": "A U.S. Sailor collects a fuel sample aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-05T18:27:30+00:00",
-      "url": "https://www.dvidshub.net/image/9852136/fuel-testing-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
