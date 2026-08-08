@@ -1,39 +1,9 @@
 {
-  "generated": "2026-08-07T17:39:41.593218+00:00",
+  "generated": "2026-08-08T05:40:50.374087+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1017853",
-      "title": "Navy Medicine Readiness & Training Command Patuxent River",
-      "desc": "Navy Medicine Readiness and Training Command (NMRTC) Patuxent River is the central command responsible for operational readiness and healthcare delivery across multiple Navy Medicine locations in the Atlantic region. It oversees NMRTC Patuxent River, Navy Medicine and Readiness Training Unit (NMRTU)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Medical Visual Information Directorate-NMLPDC",
-      "timestamp": "2026-08-06T18:04:40+00:00",
-      "url": "https://www.dvidshub.net/video/1017853/navy-medicine-readiness-training-command-patuxent-river",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1017855",
-      "title": "Navy Medicine Readiness & Training Command Patuxent River 60 seconds",
-      "desc": "Navy Medicine Readiness and Training Command (NMRTC) Patuxent River is the central command responsible for operational readiness and healthcare delivery across multiple Navy Medicine locations in the Atlantic region. It oversees NMRTC Patuxent River, Navy Medicine and Readiness Training Unit (NMRTU)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "Medical Visual Information Directorate-NMLPDC",
-      "timestamp": "2026-08-06T18:04:37+00:00",
-      "url": "https://www.dvidshub.net/video/1017855/navy-medicine-readiness-training-command-patuxent-river-60-seconds",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1017759",
       "title": "AFN Naples B-roll package - USS Mount Whitney CoC",
