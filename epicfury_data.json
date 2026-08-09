@@ -1,23 +1,7 @@
 {
-  "generated": "2026-08-09T05:45:18.476063+00:00",
+  "generated": "2026-08-09T11:35:56.119246+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:571716",
-      "title": "NNSY Teams Prepare Pier 5 for Historic First Visit from USS Gerald R. Ford",
-      "desc": "For the first time in its storied history, Norfolk Naval Shipyard (NNSY) had to prepare to welcome the USS Gerald R. Ford (CVN 78) for its first Planned Incremental Availability. The arrival of the Navy’s newest class of aircraft carrier marks a significant milestone for the shipyard, requiring exte",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Norfolk Naval Shipyard",
-      "timestamp": "2026-08-06T11:12:06+00:00",
-      "url": "https://www.dvidshub.net/news/571716/nnsy-teams-prepare-pier-5-historic-first-visit-uss-gerald-r-ford",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
