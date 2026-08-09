@@ -1,39 +1,9 @@
 {
-  "generated": "2026-08-08T17:20:07.958576+00:00",
+  "generated": "2026-08-09T05:45:18.476063+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1017759",
-      "title": "AFN Naples B-roll package - USS Mount Whitney CoC",
-      "desc": "260806-N-GL546-1002 NAPLES, Italy (Aug. 8, 2026) AFN Naples b-roll package highlighting the USS Mount Whitney (LCC 20) change of command ceremony in Gaeta, Italy, July 31, 2026. (U.S. Navy video by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Naples",
-      "timestamp": "2026-08-06T11:16:51+00:00",
-      "url": "https://www.dvidshub.net/video/1017759/afn-naples-b-roll-package-uss-mount-whitney-coc",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1017756",
-      "title": "AFN Naples News Video- USS Mount Whitney CoC",
-      "desc": "260806-N-GL546-1001 NAPLES, Italy (Aug. 6, 2026) - AFN Naples news video highlighting the USS Mount Whitney (LCC 20) change of command ceremony in Gaeta, Italy. (U.S. Navy video by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "AFN Naples",
-      "timestamp": "2026-08-06T11:13:38+00:00",
-      "url": "https://www.dvidshub.net/video/1017756/afn-naples-news-video-uss-mount-whitney-coc",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:571716",
       "title": "NNSY Teams Prepare Pier 5 for Historic First Visit from USS Gerald R. Ford",
