@@ -1,7 +1,23 @@
 {
-  "generated": "2026-08-09T11:35:56.119246+00:00",
+  "generated": "2026-08-09T17:20:53.397936+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "news:571923",
+      "title": "USS Thomas Hudner Returns to Naval Station Mayport from Deployment to U.S. 4th, 5th, and 6th Fleets",
+      "desc": "MAYPORT, Fla. – Arleigh Burke-class guided-missile destroyer USS Thomas Hudner (DDG 116) returned to Naval Station Mayport on August 9, concluding an almost nine-month deployment across multiple geographic theaters, including the U.S. 4th, 5th and 6th Fleet areas of operations.\n\nOver the past almost",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 2nd Fleet",
+      "timestamp": "2026-08-09T15:31:48+00:00",
+      "url": "https://www.dvidshub.net/news/571923/uss-thomas-hudner-returns-naval-station-mayport-deployment-us-4th-5th-and-6th-fleets",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
