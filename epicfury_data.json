@@ -1,21 +1,81 @@
 {
-  "generated": "2026-08-09T17:20:53.397936+00:00",
+  "generated": "2026-08-10T06:09:11.993847+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "news:571923",
-      "title": "USS Thomas Hudner Returns to Naval Station Mayport from Deployment to U.S. 4th, 5th, and 6th Fleets",
-      "desc": "MAYPORT, Fla. – Arleigh Burke-class guided-missile destroyer USS Thomas Hudner (DDG 116) returned to Naval Station Mayport on August 9, concluding an almost nine-month deployment across multiple geographic theaters, including the U.S. 4th, 5th and 6th Fleet areas of operations.\n\nOver the past almost",
-      "type": "news",
+      "id": "image:9859742",
+      "title": "USS Pinckney (DDG 91) Returns To Homeport",
+      "desc": "Cryptologic Technician Collection 1st Class Talaysha...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Commander, U.S. 2nd Fleet",
-      "timestamp": "2026-08-09T15:31:48+00:00",
-      "url": "https://www.dvidshub.net/news/571923/uss-thomas-hudner-returns-naval-station-mayport-deployment-us-4th-5th-and-6th-fleets",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-08-09T23:37:46+00:00",
+      "url": "https://www.dvidshub.net/image/9859742/uss-pinckney-ddg-91-returns-homeport",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9859741",
+      "title": "USS Pinckney (DDG 91) Returns To Homeport",
+      "desc": "Operations Specialist Senior Cheif Stephanie Hare,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-08-09T23:37:45+00:00",
+      "url": "https://www.dvidshub.net/image/9859741/uss-pinckney-ddg-91-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9859738",
+      "title": "USS Pinckney (DDG 91) Returns To Homeport",
+      "desc": "Electronics Technician 2nd Class Kyle Haley assigned to...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-08-09T23:37:45+00:00",
+      "url": "https://www.dvidshub.net/image/9859738/uss-pinckney-ddg-91-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9859737",
+      "title": "USS Pinckney (DDG 91) Returns To Homeport",
+      "desc": "Families await the arrival of Arleigh Burke-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-08-09T23:37:45+00:00",
+      "url": "https://www.dvidshub.net/image/9859737/uss-pinckney-ddg-91-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9859735",
+      "title": "USS Pinckney (DDG 91) Returns To Homeport",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-08-09T23:37:44+00:00",
+      "url": "https://www.dvidshub.net/image/9859735/uss-pinckney-ddg-91-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
       ],
       "location_display": ""
     }
