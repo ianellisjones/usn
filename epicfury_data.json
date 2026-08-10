@@ -1,9 +1,69 @@
 {
-  "generated": "2026-08-10T11:53:21.920101+00:00",
+  "generated": "2026-08-10T17:42:34.780768+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 16,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9860720",
+      "title": "U.S. Sailors, Marines Conduct Mail Call Aboard USS Boxer",
+      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-10T15:55:29+00:00",
+      "url": "https://www.dvidshub.net/image/9860720/us-sailors-marines-conduct-mail-call-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9860717",
+      "title": "U.S. Sailors, Marines Conduct Mail Call Aboard USS Boxer",
+      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-10T15:55:10+00:00",
+      "url": "https://www.dvidshub.net/image/9860717/us-sailors-marines-conduct-mail-call-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9860719",
+      "title": "U.S. Sailors, Marines Conduct Mail Call Aboard USS Boxer",
+      "desc": "U.S. Sailors, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-10T15:54:57+00:00",
+      "url": "https://www.dvidshub.net/image/9860719/us-sailors-marines-conduct-mail-call-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9860782",
+      "title": "U.S. Sailors, Marines Hold Worship Service Aboard USS Boxer",
+      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-10T15:51:08+00:00",
+      "url": "https://www.dvidshub.net/image/9860782/us-sailors-marines-hold-worship-service-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9859742",
       "title": "USS Pinckney (DDG 91) Returns To Homeport",
@@ -13,66 +73,6 @@
       "unit_name": "Commander, U.S. 3rd Fleet",
       "timestamp": "2026-08-09T23:37:46+00:00",
       "url": "https://www.dvidshub.net/image/9859742/uss-pinckney-ddg-91-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9859741",
-      "title": "USS Pinckney (DDG 91) Returns To Homeport",
-      "desc": "Operations Specialist Senior Cheif Stephanie Hare,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 3rd Fleet",
-      "timestamp": "2026-08-09T23:37:45+00:00",
-      "url": "https://www.dvidshub.net/image/9859741/uss-pinckney-ddg-91-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9859738",
-      "title": "USS Pinckney (DDG 91) Returns To Homeport",
-      "desc": "Electronics Technician 2nd Class Kyle Haley assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 3rd Fleet",
-      "timestamp": "2026-08-09T23:37:45+00:00",
-      "url": "https://www.dvidshub.net/image/9859738/uss-pinckney-ddg-91-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9859737",
-      "title": "USS Pinckney (DDG 91) Returns To Homeport",
-      "desc": "Families await the arrival of Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 3rd Fleet",
-      "timestamp": "2026-08-09T23:37:45+00:00",
-      "url": "https://www.dvidshub.net/image/9859737/uss-pinckney-ddg-91-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9859735",
-      "title": "USS Pinckney (DDG 91) Returns To Homeport",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, U.S. 3rd Fleet",
-      "timestamp": "2026-08-09T23:37:44+00:00",
-      "url": "https://www.dvidshub.net/image/9859735/uss-pinckney-ddg-91-returns-homeport",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
