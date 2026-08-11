@@ -1,9 +1,39 @@
 {
-  "generated": "2026-08-11T05:52:31.136422+00:00",
+  "generated": "2026-08-11T11:49:55.605268+00:00",
   "news_count": 0,
-  "dvids_count": 21,
+  "dvids_count": 23,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9862250",
+      "title": "USS Mount Whitney Departs Gaeta, Italy for INSURV",
+      "desc": "The Blue Ridge-class command and control ship USS Mount...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-08-11T11:37:00+00:00",
+      "url": "https://www.dvidshub.net/image/9862250/uss-mount-whitney-departs-gaeta-italy-insurv",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9862245",
+      "title": "USS Mount Whitney Live Fire Exercise",
+      "desc": "A Mark 38 25mm machine gun system fires on the main deck...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-08-11T11:36:42+00:00",
+      "url": "https://www.dvidshub.net/image/9862245/uss-mount-whitney-live-fire-exercise",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:572014",
       "title": "230th Brigade Support Battalion Mobilizes in Support of Operation Spartan Shield",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Naval Forces Southern Command / U.S. 4th Fleet",
       "timestamp": "2026-08-10T20:11:10+00:00",
       "url": "https://www.dvidshub.net/image/9860979/uss-thomas-hudner-returns-naval-station-mayport-after-nine-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9860976",
-      "title": "USS Thomas Hudner Returns to Naval Station Mayport After Nine-Month Deployment",
-      "desc": "Cmdr. David A. Cook, commanding officer of Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Southern Command / U.S. 4th Fleet",
-      "timestamp": "2026-08-10T20:11:10+00:00",
-      "url": "https://www.dvidshub.net/image/9860976/uss-thomas-hudner-returns-naval-station-mayport-after-nine-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9860986",
-      "title": "USS Thomas Hudner Returns to Naval Station Mayport After Nine-Month Deployment",
-      "desc": "Rear Adm. Carlos A. Sardiello, commander of U.S. Naval...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Southern Command / U.S. 4th Fleet",
-      "timestamp": "2026-08-10T20:10:53+00:00",
-      "url": "https://www.dvidshub.net/image/9860986/uss-thomas-hudner-returns-naval-station-mayport-after-nine-month-deployment",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
