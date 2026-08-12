@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-12T11:53:06.088090+00:00",
+  "generated": "2026-08-12T17:50:14.974404+00:00",
   "news_count": 0,
-  "dvids_count": 20,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
     {
-      "id": "image:9862114",
-      "title": "John Finn Conducts Flight Quarters",
-      "desc": "A U.S. Sailor monitors flight operations aboard Arleigh...",
+      "id": "image:9864127",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-11T15:28:33+00:00",
-      "url": "https://www.dvidshub.net/image/9862114/john-finn-conducts-flight-quarters",
+      "timestamp": "2026-08-12T13:56:09+00:00",
+      "url": "https://www.dvidshub.net/image/9864127/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9862115",
-      "title": "John Finn Conducts Flight Quarters",
-      "desc": "U.S. Sailors chock and chain an MH-60R Sea Hawk,...",
+      "id": "image:9864120",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-11T15:28:14+00:00",
-      "url": "https://www.dvidshub.net/image/9862115/john-finn-conducts-flight-quarters",
+      "timestamp": "2026-08-12T13:55:45+00:00",
+      "url": "https://www.dvidshub.net/image/9864120/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9862116",
-      "title": "John Finn Conducts Flight Quarters",
-      "desc": "A U.S. Sailor signals to an MH-60R Sea Hawk, assigned to...",
+      "id": "image:9864114",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-11T15:27:56+00:00",
-      "url": "https://www.dvidshub.net/image/9862116/john-finn-conducts-flight-quarters",
+      "timestamp": "2026-08-12T13:55:23+00:00",
+      "url": "https://www.dvidshub.net/image/9864114/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9862117",
-      "title": "John Finn Conducts Flight Quarters",
-      "desc": "A U.S. Sailor removes a chaff and flare system from an...",
+      "id": "image:9864110",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-11T15:27:07+00:00",
-      "url": "https://www.dvidshub.net/image/9862117/john-finn-conducts-flight-quarters",
+      "timestamp": "2026-08-12T13:54:51+00:00",
+      "url": "https://www.dvidshub.net/image/9864110/john-finn-prepares-dinner",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9862182",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor maintains an ordnance transportation unit...",
+      "id": "image:9862211",
+      "title": "John Paul Jones Sailor Gives Haircut",
+      "desc": "A U.S. Sailor gives a haircut in the ship’s barbershop...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-11T15:19:51+00:00",
-      "url": "https://www.dvidshub.net/image/9862182/uss-george-hw-bush-conducts-daily-operations",
+      "timestamp": "2026-08-11T15:07:27+00:00",
+      "url": "https://www.dvidshub.net/image/9862211/john-paul-jones-sailor-gives-haircut",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
