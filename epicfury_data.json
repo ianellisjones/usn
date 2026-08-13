@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-13T11:53:36.521325+00:00",
+  "generated": "2026-08-13T17:49:07.606430+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
     {
-      "id": "image:9865005",
-      "title": "5-Inch Maintenance aboard USS Gonzalez",
-      "desc": "A U.S. Sailor conducts a fuze setter operational test at...",
+      "id": "image:9867670",
+      "title": "Routine Operations aboard USS Gonzalez",
+      "desc": "A U.S. Sailor stands watch in the bridge wing aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-12T18:07:49+00:00",
-      "url": "https://www.dvidshub.net/image/9865005/5-inch-maintenance-aboard-uss-gonzalez",
+      "timestamp": "2026-08-13T17:40:14+00:00",
+      "url": "https://www.dvidshub.net/image/9867670/routine-operations-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9864127",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food the galley aboard Arleigh...",
+      "id": "image:9867666",
+      "title": "Routine Operations aboard USS Gonzalez",
+      "desc": "A U.S. Sailor stands helm safety officer in the...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-12T13:56:09+00:00",
-      "url": "https://www.dvidshub.net/image/9864127/john-finn-prepares-dinner",
+      "timestamp": "2026-08-13T17:39:36+00:00",
+      "url": "https://www.dvidshub.net/image/9867666/routine-operations-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9864120",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
+      "id": "image:9867656",
+      "title": "Routine Operations aboard USS Gonzalez",
+      "desc": "U.S. Sailors stands watch in the pilothouse aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-12T13:55:45+00:00",
-      "url": "https://www.dvidshub.net/image/9864120/john-finn-prepares-dinner",
+      "timestamp": "2026-08-13T17:38:53+00:00",
+      "url": "https://www.dvidshub.net/image/9867656/routine-operations-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9864114",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
+      "id": "image:9867648",
+      "title": "Routine Operations aboard USS Gonzalez",
+      "desc": "A U.S. Sailor performs maintenance on a sliding padeye...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-12T13:55:23+00:00",
-      "url": "https://www.dvidshub.net/image/9864114/john-finn-prepares-dinner",
+      "timestamp": "2026-08-13T17:38:05+00:00",
+      "url": "https://www.dvidshub.net/image/9867648/routine-operations-aboard-uss-gonzalez",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9864110",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-12T13:54:51+00:00",
-      "url": "https://www.dvidshub.net/image/9864110/john-finn-prepares-dinner",
+      "id": "news:572331",
+      "title": "CENTCOM Launches First-Ever Multinational Attack Drone Task Force",
+      "desc": "TAMPA, Fla. — On Aug. 13, U.S. Central Command (CENTCOM) announced efforts to establish the first-ever multi-domain, multinational attack drone task force.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-08-13T16:57:25+00:00",
+      "url": "https://www.dvidshub.net/news/572331/centcom-launches-first-ever-multinational-attack-drone-task-force",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
