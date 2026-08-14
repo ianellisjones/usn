@@ -1,69 +1,9 @@
 {
-  "generated": "2026-08-13T17:49:07.606430+00:00",
+  "generated": "2026-08-14T06:12:04.152142+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9867670",
-      "title": "Routine Operations aboard USS Gonzalez",
-      "desc": "A U.S. Sailor stands watch in the bridge wing aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-13T17:40:14+00:00",
-      "url": "https://www.dvidshub.net/image/9867670/routine-operations-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9867666",
-      "title": "Routine Operations aboard USS Gonzalez",
-      "desc": "A U.S. Sailor stands helm safety officer in the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-13T17:39:36+00:00",
-      "url": "https://www.dvidshub.net/image/9867666/routine-operations-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9867656",
-      "title": "Routine Operations aboard USS Gonzalez",
-      "desc": "U.S. Sailors stands watch in the pilothouse aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-13T17:38:53+00:00",
-      "url": "https://www.dvidshub.net/image/9867656/routine-operations-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9867648",
-      "title": "Routine Operations aboard USS Gonzalez",
-      "desc": "A U.S. Sailor performs maintenance on a sliding padeye...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-13T17:38:05+00:00",
-      "url": "https://www.dvidshub.net/image/9867648/routine-operations-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:572331",
       "title": "CENTCOM Launches First-Ever Multinational Attack Drone Task Force",
@@ -76,6 +16,21 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1018613",
+      "title": "Lt. Cmdr. Guaigua Interview-CTF 68",
+      "desc": "U.S. Navy Lt. Cmdr. Mike Guaigua, future operations officer of Commander, Task Force 68 (CTF 68), discusses CTF 68's mission during a video interview on Camp Mitchell at Naval Station Rota, Spain, Aug. 13, 2026. CTF 68 is a part of the U.S. 6th Fleet and commands all Naval Expeditionary Combat Force",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Commander Task Force 68",
+      "timestamp": "2026-08-13T14:54:41+00:00",
+      "url": "https://www.dvidshub.net/video/1018613/lt-cmdr-guaigua-interview-ctf-68",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
