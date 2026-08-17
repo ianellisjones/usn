@@ -1,48 +1,18 @@
 {
-  "generated": "2026-08-16T17:10:54.452778+00:00",
+  "generated": "2026-08-17T05:33:05.705852+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "video:1018928",
-      "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
-      "desc": "Adm. Brad Cooper, commander of U.S. Central Command, completed a 10-day trip to the Middle East, Aug. 15 that included visits to six countries and to a U.S. Navy aircraft carrier operating in the Arabian Sea. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-15T22:00:42+00:00",
-      "url": "https://www.dvidshub.net/video/1018928/centcom-commander-completes-10-day-trip-middle-east",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:572497",
-      "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
-      "desc": "TAMPA, Fla. — The commander of U.S. Central Command (CENTCOM) completed a 10-day trip to the Middle East on Aug. 15 that included visits to six countries and to a U.S. Navy aircraft carrier operating in the Arabian Sea.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-15T21:57:20+00:00",
-      "url": "https://www.dvidshub.net/news/572497/centcom-commander-completes-10-day-trip-middle-east",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9870408",
-      "title": "U.S. Special Operations Command Central Celebrates Transfer of Leadership",
-      "desc": "Special Operations Command Central hosts a change of...",
+      "id": "image:9871752",
+      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-14T20:16:04+00:00",
-      "url": "https://www.dvidshub.net/image/9870408/us-special-operations-command-central-celebrates-transfer-leadership",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T01:03:45+00:00",
+      "url": "https://www.dvidshub.net/image/9871752/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +20,59 @@
       "location_display": ""
     },
     {
-      "id": "news:572466",
-      "title": "U.S. Special Operations Command Central Celebrates Transfer of Leadership",
-      "desc": "TAMPA, Fla. — U.S. Special Operations Command Central (SOCCENT) held a change of command ceremony Aug. 14 in Tampa, marking the transfer of leadership from Maj. Gen. Jasper Jeffers to Rear Adm. Thomas Donovan.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-14T20:15:58+00:00",
-      "url": "https://www.dvidshub.net/news/572466/us-special-operations-command-central-celebrates-transfer-leadership",
+      "id": "image:9871753",
+      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T01:00:58+00:00",
+      "url": "https://www.dvidshub.net/image/9871753/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9871754",
+      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T00:59:16+00:00",
+      "url": "https://www.dvidshub.net/image/9871754/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9871755",
+      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
+      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T00:55:50+00:00",
+      "url": "https://www.dvidshub.net/image/9871755/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9871756",
+      "title": "USS Boxer Celebrate August Birthdays for Sailors, Marines",
+      "desc": "U.S. Sailors, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T00:54:18+00:00",
+      "url": "https://www.dvidshub.net/image/9871756/uss-boxer-celebrate-august-birthdays-sailors-marines",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
