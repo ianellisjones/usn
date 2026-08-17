@@ -1,9 +1,24 @@
 {
-  "generated": "2026-08-17T11:32:04.977125+00:00",
+  "generated": "2026-08-17T17:17:06.742047+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9872368",
+      "title": "Abraham Lincoln Conducts Operations",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-17T14:31:05+00:00",
+      "url": "https://www.dvidshub.net/image/9872368/abraham-lincoln-conducts-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9871752",
       "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-08-17T00:55:50+00:00",
       "url": "https://www.dvidshub.net/image/9871755/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9871756",
-      "title": "USS Boxer Celebrate August Birthdays for Sailors, Marines",
-      "desc": "U.S. Sailors, assigned to Wasp-class amphibious assault...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T00:54:18+00:00",
-      "url": "https://www.dvidshub.net/image/9871756/uss-boxer-celebrate-august-birthdays-sailors-marines",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
