@@ -1,21 +1,81 @@
 {
-  "generated": "2026-08-18T11:31:39.997303+00:00",
+  "generated": "2026-08-18T17:17:35.026865+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "news:572497",
-      "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
-      "desc": "TAMPA, Fla. — The commander of U.S. Central Command (CENTCOM) completed a 10-day trip to the Middle East on Aug. 15 that included visits to six countries and to a U.S. Navy aircraft carrier operating in the Arabian Sea.",
+      "id": "news:572647",
+      "title": "Exercise Northern Viking 2026 Marks 75 Years Of U.S.-Iceland Defense Cooperation",
+      "desc": "U.S. Sailors, Marines, Airmen, and Soldiers have arrived in Keflavik, Iceland, joining forces with the Icelandic Coast Guard and other NATO Allies to officially kick off U.S. Sixth Fleet’s Northern Viking 2026 (NV26) exercise during an opening ceremony on August 18, 2026.",
       "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-08-15T21:57:20+00:00",
-      "url": "https://www.dvidshub.net/news/572497/centcom-commander-completes-10-day-trip-middle-east",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-18T15:38:46+00:00",
+      "url": "https://www.dvidshub.net/news/572647/exercise-northern-viking-2026-marks-75-years-us-iceland-defense-cooperation",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9875077",
+      "title": "Northern Viking 2026 Opening Ceremony",
+      "desc": "U.S. Air Force Gen. Alexus G. Grynkewich, NATO Supreme...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-18T15:24:44+00:00",
+      "url": "https://www.dvidshub.net/image/9875077/northern-viking-2026-opening-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9875076",
+      "title": "Northern Viking 2026 Opening Ceremony",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, Minister for Foreign...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-18T15:24:44+00:00",
+      "url": "https://www.dvidshub.net/image/9875076/northern-viking-2026-opening-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9875069",
+      "title": "Northern Viking 2026 Opening Ceremony",
+      "desc": "U.S. Air Force Gen. Alexus G. Grynkewich, NATO Supreme...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-18T15:24:44+00:00",
+      "url": "https://www.dvidshub.net/image/9875069/northern-viking-2026-opening-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9875062",
+      "title": "Northern Viking 2026 Opening Ceremony",
+      "desc": "U.S. Air Force Gen. Alexus G. Grynkewich, NATO Supreme...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-18T15:24:43+00:00",
+      "url": "https://www.dvidshub.net/image/9875062/northern-viking-2026-opening-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
