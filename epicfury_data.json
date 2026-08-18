@@ -1,78 +1,18 @@
 {
-  "generated": "2026-08-17T17:17:06.742047+00:00",
+  "generated": "2026-08-18T05:26:51.743780+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
-      "id": "image:9872368",
-      "title": "Abraham Lincoln Conducts Operations",
-      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T14:31:05+00:00",
-      "url": "https://www.dvidshub.net/image/9872368/abraham-lincoln-conducts-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9871752",
-      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
-      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T01:03:45+00:00",
-      "url": "https://www.dvidshub.net/image/9871752/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9871753",
-      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
-      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T01:00:58+00:00",
-      "url": "https://www.dvidshub.net/image/9871753/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9871754",
-      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
-      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T00:59:16+00:00",
-      "url": "https://www.dvidshub.net/image/9871754/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9871755",
-      "title": "USS Boxer, 11th MEU Marines, Sailors Restock Ship’s Food Supply",
-      "desc": "U.S. Marines, assigned to 11th Marine Expeditionary...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-17T00:55:50+00:00",
-      "url": "https://www.dvidshub.net/image/9871755/uss-boxer-11th-meu-marines-sailors-restock-ships-food-supply",
+      "id": "news:572497",
+      "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
+      "desc": "TAMPA, Fla. — The commander of U.S. Central Command (CENTCOM) completed a 10-day trip to the Middle East on Aug. 15 that included visits to six countries and to a U.S. Navy aircraft carrier operating in the Arabian Sea.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-08-15T21:57:20+00:00",
+      "url": "https://www.dvidshub.net/news/572497/centcom-commander-completes-10-day-trip-middle-east",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
