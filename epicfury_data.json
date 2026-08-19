@@ -1,9 +1,54 @@
 {
-  "generated": "2026-08-19T11:31:24.657824+00:00",
+  "generated": "2026-08-19T17:17:29.183475+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9876737",
+      "title": "John Finn Stands Watch",
+      "desc": "260818-N-NO146-5057\r\n\r\nA U.S. Sailor stands watch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-19T13:51:41+00:00",
+      "url": "https://www.dvidshub.net/image/9876737/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9876738",
+      "title": "John Finn Stands Watch",
+      "desc": "260818-N-NO146-5060\r\n\r\nA U.S. Sailor stands watch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-19T13:50:28+00:00",
+      "url": "https://www.dvidshub.net/image/9876738/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9876739",
+      "title": "John Finn Stands Watch",
+      "desc": "260818-N-NO146-5061\r\n\r\nA U.S. Sailor stands watch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-19T13:49:26+00:00",
+      "url": "https://www.dvidshub.net/image/9876739/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:572647",
       "title": "Exercise Northern Viking 2026 Marks 75 Years Of U.S.-Iceland Defense Cooperation",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-08-18T15:24:44+00:00",
       "url": "https://www.dvidshub.net/image/9875077/northern-viking-2026-opening-ceremony",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9875076",
-      "title": "Northern Viking 2026 Opening Ceremony",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, Minister for Foreign...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-18T15:24:44+00:00",
-      "url": "https://www.dvidshub.net/image/9875076/northern-viking-2026-opening-ceremony",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9875069",
-      "title": "Northern Viking 2026 Opening Ceremony",
-      "desc": "U.S. Air Force Gen. Alexus G. Grynkewich, NATO Supreme...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-18T15:24:44+00:00",
-      "url": "https://www.dvidshub.net/image/9875069/northern-viking-2026-opening-ceremony",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9875062",
-      "title": "Northern Viking 2026 Opening Ceremony",
-      "desc": "U.S. Air Force Gen. Alexus G. Grynkewich, NATO Supreme...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-18T15:24:43+00:00",
-      "url": "https://www.dvidshub.net/image/9875062/northern-viking-2026-opening-ceremony",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
