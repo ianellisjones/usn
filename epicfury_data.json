@@ -1,7 +1,83 @@
 {
-  "generated": "2026-08-21T11:32:29.999675+00:00",
+  "generated": "2026-08-21T17:18:53.796664+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 7,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:9880946",
+      "title": "USS George Washington Conducts Flight Operations",
+      "desc": "An MH-60R Seahawk attached to Helicopter Maritime Strike...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T17:00:43+00:00",
+      "url": "https://www.dvidshub.net/image/9880946/uss-george-washington-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9880947",
+      "title": "USS George Washington Conducts Flight Operations",
+      "desc": "An MH-60R Seahawk attached to Helicopter Maritime Strike...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T17:00:20+00:00",
+      "url": "https://www.dvidshub.net/image/9880947/uss-george-washington-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9880950",
+      "title": "USS George Washington Conducts Flight Operations",
+      "desc": "An F/A-18 Super Hornet, attached to Strike Fighter...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T16:59:37+00:00",
+      "url": "https://www.dvidshub.net/image/9880950/uss-george-washington-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9880953",
+      "title": "USS George Washington Conducts Flight Operations",
+      "desc": "An F-35C Lightning II, attached to Strike Fighter...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T16:59:00+00:00",
+      "url": "https://www.dvidshub.net/image/9880953/uss-george-washington-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9880955",
+      "title": "USS George Washington Conducts Flight Operations",
+      "desc": "A U.S. Navy Sailor launches an F/A-18 Super Hornet...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T16:58:30+00:00",
+      "url": "https://www.dvidshub.net/image/9880955/uss-george-washington-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
