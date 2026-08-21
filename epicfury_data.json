@@ -1,23 +1,7 @@
 {
-  "generated": "2026-08-20T17:18:42.469807+00:00",
+  "generated": "2026-08-21T05:30:03.652670+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:572647",
-      "title": "Exercise Northern Viking 2026 Marks 75 Years Of U.S.-Iceland Defense Cooperation",
-      "desc": "U.S. Sailors, Marines, Airmen, and Soldiers have arrived in Keflavik, Iceland, joining forces with the Icelandic Coast Guard and other NATO Allies to officially kick off U.S. Sixth Fleet’s Northern Viking 2026 (NV26) exercise during an opening ceremony on August 18, 2026.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-18T15:38:46+00:00",
-      "url": "https://www.dvidshub.net/news/572647/exercise-northern-viking-2026-marks-75-years-us-iceland-defense-cooperation",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
