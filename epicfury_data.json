@@ -1,9 +1,39 @@
 {
-  "generated": "2026-08-21T17:18:53.796664+00:00",
+  "generated": "2026-08-22T05:24:35.645116+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1020096",
+      "title": "USS George Washington Flight Operations",
+      "desc": "U.S. Sailors conduct nighttime flight operations aboard USS George Washington (CVN 73) while the aircraft carrier sails in the Arabian Sea, Aug. 21, 2026. (U.S. Navy video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-08-21T19:20:58+00:00",
+      "url": "https://www.dvidshub.net/video/1020096/uss-george-washington-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9880942",
+      "title": "George Washington Training Officer Addresses Crew",
+      "desc": "The Training Officer addresses the crew from the bridge...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-21T17:01:58+00:00",
+      "url": "https://www.dvidshub.net/image/9880942/george-washington-training-officer-addresses-crew",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9880946",
       "title": "USS George Washington Conducts Flight Operations",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-08-21T16:59:37+00:00",
       "url": "https://www.dvidshub.net/image/9880950/uss-george-washington-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9880953",
-      "title": "USS George Washington Conducts Flight Operations",
-      "desc": "An F-35C Lightning II, attached to Strike Fighter...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-21T16:59:00+00:00",
-      "url": "https://www.dvidshub.net/image/9880953/uss-george-washington-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9880955",
-      "title": "USS George Washington Conducts Flight Operations",
-      "desc": "A U.S. Navy Sailor launches an F/A-18 Super Hornet...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-21T16:58:30+00:00",
-      "url": "https://www.dvidshub.net/image/9880955/uss-george-washington-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
