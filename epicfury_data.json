@@ -1,18 +1,48 @@
 {
-  "generated": "2026-08-23T11:26:29.707901+00:00",
+  "generated": "2026-08-23T17:11:56.430938+00:00",
   "news_count": 0,
-  "dvids_count": 23,
+  "dvids_count": 27,
   "news": [],
   "dvids": [
     {
-      "id": "video:1020161",
-      "title": "Northern Viking 26 Interview with Capt. Kevin Acree, USAF",
-      "desc": "260822-N-JA925-1006 KEFLAVIK, Iceland (Aug. 22, 2026) - U.S. Air Force Capt. Kevin Acree, a C-130J Super Hercules pilot, assigned to the 86th Airlift Wing, Speaks about Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 22, 2026. Northern Viking 2026 strengthens interoperability and f",
+      "id": "video:1020182",
+      "title": "USS George Washington Conducts Replenishment at Sea",
+      "desc": "A U.S. Navy Sailors aboard Nimitz-class aircraft carrier USS George Washington (CVN 73) participate in a replenishment-at-sea evolution with fleet replenishment oiler USNS Henry J. Kaiser (T-AO 187) in the Arabian Sea, Aug. 22, 2026. George Washington is deployed to the U.S. 5th Fleet area of operat",
       "type": "video",
       "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-23T14:19:09+00:00",
+      "url": "https://www.dvidshub.net/video/1020182/uss-george-washington-conducts-replenishment-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1020183",
+      "title": "USS George Washington Flight Operations",
+      "desc": "U.S. Navy Sailors conducts flight operations aboard the Nimitz-class aircraft carrier USS George Washington (CVN 73), Aug. 19, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-23T14:18:09+00:00",
+      "url": "https://www.dvidshub.net/video/1020183/uss-george-washington-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9883487",
+      "title": "NV26 C-130J Super Hercules",
+      "desc": "U.S. Air Force Capt. Jill Ruane, attached to the 37th...",
+      "type": "image",
+      "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-22T21:21:52+00:00",
-      "url": "https://www.dvidshub.net/video/1020161/northern-viking-26-interview-with-capt-kevin-acree-usaf",
+      "timestamp": "2026-08-23T13:44:07+00:00",
+      "url": "https://www.dvidshub.net/image/9883487/nv26-c-130j-super-hercules",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -20,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1020160",
-      "title": "Northern Viking 26 Interview with Capt. Jill Ruane, USAF",
-      "desc": "260822-N-JA925-1004 KEFLAVIK, Iceland (Aug. 22, 2026) - U.S. Air Force Capt. Jill Ruane, a C-130J Super Hercules pilot, assigned to the 86th Airlift Wing, Speaks about Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 22, 2026. Northern Viking 2026 strengthens interoperability and fo",
-      "type": "video",
+      "id": "image:9883490",
+      "title": "NV26 C-130J Super Hercules",
+      "desc": "U.S. Air Force Capt. Kevin Acree, aircraft commander...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-22T21:21:52+00:00",
-      "url": "https://www.dvidshub.net/video/1020160/northern-viking-26-interview-with-capt-jill-ruane-usaf",
+      "timestamp": "2026-08-23T13:44:07+00:00",
+      "url": "https://www.dvidshub.net/image/9883490/nv26-c-130j-super-hercules",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -35,44 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1020159",
-      "title": "Northern Viking 26 Interview with Senior Airman Lydia Knight, USAF",
-      "desc": "260822-N-JA925-1005 KEFLAVIK, Iceland (Aug. 22, 2026) - U.S. Air Force Senior Airman Lydia Knight, a mission loadmaster assigned to the 86th Airlift Wing, Speaks about Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 22, 2026. Northern Viking 2026 strengthens interoperability and fo",
-      "type": "video",
+      "id": "image:9883486",
+      "title": "NV26 C-130J Super Hercules",
+      "desc": "U.S. Air Force Staff Sgt. Tessa Townsend, attached to...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-22T21:21:52+00:00",
-      "url": "https://www.dvidshub.net/video/1020159/northern-viking-26-interview-with-senior-airman-lydia-knight-usaf",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1020158",
-      "title": "Northern Viking 26 Interview with Staff Sgt. Tessa Townsend, USAF",
-      "desc": "260822-N-JA925-1003 KEFLAVIK, Iceland (Aug. 22, 2026) - U.S. Air Force Staff Sgt. Tessa Townsend, a loadmaster assigned to the 86th Airlift Wing, Speaks about Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 22, 2026. Northern Viking 2026 strengthens interoperability and forge readi",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-22T21:21:51+00:00",
-      "url": "https://www.dvidshub.net/video/1020158/northern-viking-26-interview-with-staff-sgt-tessa-townsend-usaf",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1020156",
-      "title": "Northern Viking 26 Interview with Lt. Marie Jendrysik, USN",
-      "desc": "260822-N-JA925-1002 Keflavik, Iceland (Aug. 22, 2026) - U.S. Navy Lt. Marie Jendrysik, a P-8A Poseidon pilot assigned to Commander Task Force 67 (CTF-67), speaks about Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 22, 2026. Northern Viking 2026 strengthens interoperability and fo",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-22T21:21:51+00:00",
-      "url": "https://www.dvidshub.net/video/1020156/northern-viking-26-interview-with-lt-marie-jendrysik-usn",
+      "timestamp": "2026-08-23T13:44:06+00:00",
+      "url": "https://www.dvidshub.net/image/9883486/nv26-c-130j-super-hercules",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
