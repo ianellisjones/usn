@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-23T17:11:56.430938+00:00",
+  "generated": "2026-08-24T05:36:14.673601+00:00",
   "news_count": 0,
-  "dvids_count": 27,
+  "dvids_count": 25,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-08-23T14:19:09+00:00",
       "url": "https://www.dvidshub.net/video/1020182/uss-george-washington-conducts-replenishment-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1020183",
-      "title": "USS George Washington Flight Operations",
-      "desc": "U.S. Navy Sailors conducts flight operations aboard the Nimitz-class aircraft carrier USS George Washington (CVN 73), Aug. 19, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-23T14:18:09+00:00",
-      "url": "https://www.dvidshub.net/video/1020183/uss-george-washington-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -58,6 +43,21 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-08-23T13:44:07+00:00",
       "url": "https://www.dvidshub.net/image/9883490/nv26-c-130j-super-hercules",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9883477",
+      "title": "NV26 C-130J Super Hercules",
+      "desc": "U.S. Air Force Capt. Kevin Acree, aircraft commander...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-23T13:44:06+00:00",
+      "url": "https://www.dvidshub.net/image/9883477/nv26-c-130j-super-hercules",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
