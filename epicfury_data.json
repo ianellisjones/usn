@@ -1,18 +1,33 @@
 {
-  "generated": "2026-08-26T05:32:17.631817+00:00",
+  "generated": "2026-08-26T11:35:43.002544+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "image:9887521",
-      "title": "USS Boxer Conducts Routine Operations",
-      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4)...",
+      "id": "video:1020430",
+      "title": "NV26 C-130J Super Hercules fly by",
+      "desc": "U.S. Air Force C-130J Super Hercules, attached to the 37th Airlift Squadron, performs a flyover during exercise Northern Viking 26 (NV26) at Selfoss Airport, Iceland, Aug. 24, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-dom",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-26T11:01:19+00:00",
+      "url": "https://www.dvidshub.net/video/1020430/nv26-c-130j-super-hercules-fly",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9888908",
+      "title": "USS George Washington Conducts Maintenance",
+      "desc": "U.S. Navy Sailors conducts maintenance on an F/A-18...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T14:06:33+00:00",
-      "url": "https://www.dvidshub.net/image/9887521/uss-boxer-conducts-routine-operations",
+      "timestamp": "2026-08-26T09:48:39+00:00",
+      "url": "https://www.dvidshub.net/image/9888908/uss-george-washington-conducts-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,29 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9887677",
-      "title": "DDG 117 Removes Salt Water with Fresh Water",
-      "desc": "Damage Controlman Fireman Terrel Johnson cleans a drain...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-08-25T13:25:24+00:00",
-      "url": "https://www.dvidshub.net/image/9887677/ddg-117-removes-salt-water-with-fresh-water",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9887533",
-      "title": "Routine Operations Aboard USS Boxer",
-      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
+      "id": "image:9888899",
+      "title": "USS George Washington Conducts Maintenance",
+      "desc": "A U.S. Navy Sailor conducts maintenance on an F/A-18...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T13:21:34+00:00",
-      "url": "https://www.dvidshub.net/image/9887533/routine-operations-aboard-uss-boxer",
+      "timestamp": "2026-08-26T09:48:39+00:00",
+      "url": "https://www.dvidshub.net/image/9888899/uss-george-washington-conducts-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,32 +50,32 @@
       "location_display": ""
     },
     {
-      "id": "image:9887534",
-      "title": "Routine Operations Aboard USS Boxer",
-      "desc": "A U.S Marine assigned to Marine Medium Tiltrotor...",
+      "id": "image:9889012",
+      "title": "EUCOM Force Protection Symposium - Day One",
+      "desc": "260825-N-MW880-1048 GARMISCH-PARTENKIRCHEN, Germany...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T13:20:27+00:00",
-      "url": "https://www.dvidshub.net/image/9887534/routine-operations-aboard-uss-boxer",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-08-26T07:57:04+00:00",
+      "url": "https://www.dvidshub.net/image/9889012/eucom-force-protection-symposium-day-one",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9887538",
-      "title": "Routine Operations Aboard USS Boxer",
-      "desc": "U.S. Sailors, assigned to Wasp-class amphibious assault...",
+      "id": "image:9889009",
+      "title": "EUCOM Force Protection Symposium - Day One",
+      "desc": "260825-N-MW880-1043 GARMISCH-PARTENKIRCHEN, Germany...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T13:16:52+00:00",
-      "url": "https://www.dvidshub.net/image/9887538/routine-operations-aboard-uss-boxer",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-08-26T07:57:04+00:00",
+      "url": "https://www.dvidshub.net/image/9889009/eucom-force-protection-symposium-day-one",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
