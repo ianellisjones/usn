@@ -1,78 +1,78 @@
 {
-  "generated": "2026-08-25T17:22:32.441468+00:00",
+  "generated": "2026-08-26T05:32:17.631817+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
     {
-      "id": "image:9887385",
-      "title": "John Finn Conducts Maintenance",
-      "desc": "A U.S. Sailor conducts maintenance on an MH-60R Sea...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T15:19:10+00:00",
-      "url": "https://www.dvidshub.net/image/9887385/john-finn-conducts-maintenance",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9887386",
-      "title": "John Finn Washes a Helicopter",
-      "desc": "A U.S. Sailor washes an MH-60R Sea Hawk, assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T15:16:11+00:00",
-      "url": "https://www.dvidshub.net/image/9887386/john-finn-washes-helicopter",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9887387",
-      "title": "John Finn Washes a Helicopter",
-      "desc": "A U.S. Sailor scrubs an MH-60R Sea Hawk, assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T15:14:42+00:00",
-      "url": "https://www.dvidshub.net/image/9887387/john-finn-washes-helicopter",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9887390",
-      "title": "John Finn Washes a Helicopter",
-      "desc": "A U.S. Sailor washes an MH-60R Sea Hawk, assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T15:08:56+00:00",
-      "url": "https://www.dvidshub.net/image/9887390/john-finn-washes-helicopter",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9887518",
+      "id": "image:9887521",
       "title": "USS Boxer Conducts Routine Operations",
-      "desc": "A U.S Marine, assigned to Marine Medium Tiltrotor...",
+      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4)...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-25T14:10:39+00:00",
-      "url": "https://www.dvidshub.net/image/9887518/uss-boxer-conducts-routine-operations",
+      "timestamp": "2026-08-25T14:06:33+00:00",
+      "url": "https://www.dvidshub.net/image/9887521/uss-boxer-conducts-routine-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9887677",
+      "title": "DDG 117 Removes Salt Water with Fresh Water",
+      "desc": "Damage Controlman Fireman Terrel Johnson cleans a drain...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-08-25T13:25:24+00:00",
+      "url": "https://www.dvidshub.net/image/9887677/ddg-117-removes-salt-water-with-fresh-water",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9887533",
+      "title": "Routine Operations Aboard USS Boxer",
+      "desc": "A U.S. Sailor, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-25T13:21:34+00:00",
+      "url": "https://www.dvidshub.net/image/9887533/routine-operations-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9887534",
+      "title": "Routine Operations Aboard USS Boxer",
+      "desc": "A U.S Marine assigned to Marine Medium Tiltrotor...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-25T13:20:27+00:00",
+      "url": "https://www.dvidshub.net/image/9887534/routine-operations-aboard-uss-boxer",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9887538",
+      "title": "Routine Operations Aboard USS Boxer",
+      "desc": "U.S. Sailors, assigned to Wasp-class amphibious assault...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-25T13:16:52+00:00",
+      "url": "https://www.dvidshub.net/image/9887538/routine-operations-aboard-uss-boxer",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
