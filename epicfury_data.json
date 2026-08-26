@@ -1,9 +1,24 @@
 {
-  "generated": "2026-08-26T11:35:43.002544+00:00",
+  "generated": "2026-08-26T18:48:45.857877+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1020714",
+      "title": "George Washington Conducts Flight Ops",
+      "desc": "U.S. Navy Sailors conduct flight operations on the flight deck of Nimitz-class aircraft carrier USS George Washington (CVN 73), Aug. 24, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-08-26T15:35:06+00:00",
+      "url": "https://www.dvidshub.net/video/1020714/george-washington-conducts-flight-ops",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1020430",
       "title": "NV26 C-130J Super Hercules fly by",
@@ -16,36 +31,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9888908",
-      "title": "USS George Washington Conducts Maintenance",
-      "desc": "U.S. Navy Sailors conducts maintenance on an F/A-18...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-26T09:48:39+00:00",
-      "url": "https://www.dvidshub.net/image/9888908/uss-george-washington-conducts-maintenance",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9888899",
-      "title": "USS George Washington Conducts Maintenance",
-      "desc": "A U.S. Navy Sailor conducts maintenance on an F/A-18...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-26T09:48:39+00:00",
-      "url": "https://www.dvidshub.net/image/9888899/uss-george-washington-conducts-maintenance",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     },
@@ -73,6 +58,21 @@
       "unit_name": "Regional Media Center AFN Europe",
       "timestamp": "2026-08-26T07:57:04+00:00",
       "url": "https://www.dvidshub.net/image/9889009/eucom-force-protection-symposium-day-one",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9889004",
+      "title": "EUCOM Force Protection Symposium - Day One",
+      "desc": "260825-N-MW880-1041 GARMISCH-PARTENKIRCHEN, Germany...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-08-26T07:57:04+00:00",
+      "url": "https://www.dvidshub.net/image/9889004/eucom-force-protection-symposium-day-one",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
