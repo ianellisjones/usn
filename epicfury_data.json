@@ -1,7 +1,23 @@
 {
-  "generated": "2026-08-27T20:57:37.828077+00:00",
+  "generated": "2026-08-28T01:13:03.303911+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 1,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "video:1020941",
+      "title": "CENTCOM Commander Provides Operational Update",
+      "desc": "Adm. Brad Cooper, commander of U.S. Central Command, provides an operational update about ongoing missions in the Middle East, Aug. 27, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-08-28T00:50:03+00:00",
+      "url": "https://www.dvidshub.net/video/1020941/centcom-commander-provides-operational-update",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
