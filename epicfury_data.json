@@ -1,18 +1,78 @@
 {
-  "generated": "2026-08-30T15:17:32.539725+00:00",
+  "generated": "2026-08-30T19:34:07.214930+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
-      "id": "video:1021118",
-      "title": "Northern Viking 26 German Navy Poseidon P8",
-      "desc": "260829-N-JA925-1001 KEFLAVIK, Iceland (Aug. 29, 2026) - A German navy Poseidon P-8A takes off during Exercise Northern Viking 2026 at Keflavik Air Base, Iceland, Aug. 29, 2026. Northern Viking 2026 strengthens interoperability and forge readiness capabilities between the U.S., Iceland and Allied nat",
-      "type": "video",
+      "id": "image:9899053",
+      "title": "Mass Medical Emergency Drill",
+      "desc": "Capt. Andrew Kung, assigned to Naval Medical Center...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-30T10:53:26+00:00",
-      "url": "https://www.dvidshub.net/video/1021118/northern-viking-26-german-navy-poseidon-p8",
+      "timestamp": "2026-08-30T17:15:22+00:00",
+      "url": "https://www.dvidshub.net/image/9899053/mass-medical-emergency-drill",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9899052",
+      "title": "Mass Medical Emergency Drill",
+      "desc": "Lt. Kevin Ready, assigned to Expeditionary Resuscitative...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-30T17:15:22+00:00",
+      "url": "https://www.dvidshub.net/image/9899052/mass-medical-emergency-drill",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9899051",
+      "title": "Mass Medical Emergency Drill",
+      "desc": "Lt. Kevin Ready, assigned to Expeditionary Resuscitative...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-30T17:15:22+00:00",
+      "url": "https://www.dvidshub.net/image/9899051/mass-medical-emergency-drill",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9899050",
+      "title": "Mass Medical Emergency Drill",
+      "desc": "U.S. Navy Sailors assigned to Expeditionary...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-30T17:15:22+00:00",
+      "url": "https://www.dvidshub.net/image/9899050/mass-medical-emergency-drill",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9899049",
+      "title": "Mass Medical Emergency Drill",
+      "desc": "Lt. Cmdr. Thomas Warren, center, assigned to Navy...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-30T17:15:22+00:00",
+      "url": "https://www.dvidshub.net/image/9899049/mass-medical-emergency-drill",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
