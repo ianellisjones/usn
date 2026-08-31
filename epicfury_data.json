@@ -1,78 +1,78 @@
 {
-  "generated": "2026-08-31T17:57:48.647918+00:00",
+  "generated": "2026-08-31T21:41:31.642483+00:00",
   "news_count": 0,
-  "dvids_count": 16,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
     {
-      "id": "image:9899797",
-      "title": "John Finn Conducts Preservation Efforts",
-      "desc": "A U.S. Sailor scrubs a bulkhead during preservation...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-31T14:37:19+00:00",
-      "url": "https://www.dvidshub.net/image/9899797/john-finn-conducts-preservation-efforts",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9899798",
-      "title": "John Finn Conducts Preservation Efforts",
-      "desc": "A U.S. Sailor scrubs a bulkhead during preservation...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-31T14:35:53+00:00",
-      "url": "https://www.dvidshub.net/image/9899798/john-finn-conducts-preservation-efforts",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9899799",
-      "title": "John Finn Conducts Preservation Efforts",
-      "desc": "A U.S. Sailor sprays a bulkhead during preservation...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-31T14:33:47+00:00",
-      "url": "https://www.dvidshub.net/image/9899799/john-finn-conducts-preservation-efforts",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9899804",
-      "title": "John Finn Conducts Preservation Efforts",
-      "desc": "A U.S. Sailor washes a bulkhead during preservation...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-08-31T14:32:16+00:00",
-      "url": "https://www.dvidshub.net/image/9899804/john-finn-conducts-preservation-efforts",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9899053",
-      "title": "Mass Medical Emergency Drill",
-      "desc": "Capt. Andrew Kung, assigned to Naval Medical Center...",
+      "id": "image:9901526",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-30T17:15:22+00:00",
-      "url": "https://www.dvidshub.net/image/9899053/mass-medical-emergency-drill",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901526/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901524",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901524/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901341",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901341/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901338",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901338/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901335",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Capt. Leslie Slootmaker, commadore, Commander Task Force...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901335/iceland-minister-foreign-affairs-visits-northern-viking-planners",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
