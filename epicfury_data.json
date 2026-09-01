@@ -1,9 +1,54 @@
 {
-  "generated": "2026-09-01T09:45:11.510293+00:00",
+  "generated": "2026-09-01T15:26:28.396434+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9903393",
+      "title": "John Finn Stands Watch",
+      "desc": "U.S. Sailors stand watch in the central control station...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-01T14:15:39+00:00",
+      "url": "https://www.dvidshub.net/image/9903393/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9903395",
+      "title": "John Finn Tests Oil Samples",
+      "desc": "A U.S. Sailor opens an oil testing kit in the main...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-01T14:14:42+00:00",
+      "url": "https://www.dvidshub.net/image/9903395/john-finn-tests-oil-samples",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901338",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901338/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9901341",
       "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
@@ -13,51 +58,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-08-31T20:45:28+00:00",
       "url": "https://www.dvidshub.net/image/9901341/iceland-minister-foreign-affairs-visits-northern-viking-planners",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9901335",
-      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Capt. Leslie Slootmaker, commadore, Commander Task Force...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901335/iceland-minister-foreign-affairs-visits-northern-viking-planners",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9901524",
-      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901524/iceland-minister-foreign-affairs-visits-northern-viking-planners",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9901330",
-      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, center, Icelandic...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:27+00:00",
-      "url": "https://www.dvidshub.net/image/9901330/iceland-minister-foreign-affairs-visits-northern-viking-planners",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
