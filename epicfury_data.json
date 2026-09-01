@@ -1,18 +1,33 @@
 {
-  "generated": "2026-08-31T21:41:31.642483+00:00",
+  "generated": "2026-09-01T09:45:11.510293+00:00",
   "news_count": 0,
-  "dvids_count": 8,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
     {
-      "id": "image:9901526",
+      "id": "image:9901341",
       "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
       "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901526/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "url": "https://www.dvidshub.net/image/9901341/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9901335",
+      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
+      "desc": "Capt. Leslie Slootmaker, commadore, Commander Task Force...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-08-31T20:45:28+00:00",
+      "url": "https://www.dvidshub.net/image/9901335/iceland-minister-foreign-affairs-visits-northern-viking-planners",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9901341",
+      "id": "image:9901330",
       "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, center, Icelandic...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901341/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "timestamp": "2026-08-31T20:45:27+00:00",
+      "url": "https://www.dvidshub.net/image/9901330/iceland-minister-foreign-affairs-visits-northern-viking-planners",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9901338",
+      "id": "image:9901333",
       "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "desc": "Þorgerður Katrín Gunnarsdóttir, center, Icelandic...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901338/iceland-minister-foreign-affairs-visits-northern-viking-planners",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9901335",
-      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Capt. Leslie Slootmaker, commadore, Commander Task Force...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901335/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "timestamp": "2026-08-31T20:45:27+00:00",
+      "url": "https://www.dvidshub.net/image/9901333/iceland-minister-foreign-affairs-visits-northern-viking-planners",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
