@@ -1,66 +1,21 @@
 {
-  "generated": "2026-09-02T15:02:04.498725+00:00",
+  "generated": "2026-09-02T19:32:54.198605+00:00",
   "news_count": 0,
-  "dvids_count": 20,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "image:9905675",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor welds a metal fixture aboard Nimitz-class...",
-      "type": "image",
+      "id": "video:1021561",
+      "title": "NV26 Mountainside Search and Rescue",
+      "desc": "U.S. Air Force pararescuemen conduct a mountainside search and rescue exercise, enabling training for North Atlantic contingency operations on land or at sea during exercise Northern Viking 26 (NV26) in Keflavik, Iceland, Aug. 31, 2026. NV26 strengthens interoperability and force readiness between t",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-02T14:10:11+00:00",
-      "url": "https://www.dvidshub.net/image/9905675/uss-george-hw-bush-conducts-daily-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-02T18:08:31+00:00",
+      "url": "https://www.dvidshub.net/video/1021561/nv26-mountainside-search-and-rescue",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9905662",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "U.S. Sailors transport a liquid oxygen tank on the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-02T14:10:10+00:00",
-      "url": "https://www.dvidshub.net/image/9905662/uss-george-hw-bush-conducts-daily-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9905660",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-02T14:10:10+00:00",
-      "url": "https://www.dvidshub.net/image/9905660/uss-george-hw-bush-conducts-daily-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9905659",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor paints aboard Nimitz-class aircraft...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-02T14:10:10+00:00",
-      "url": "https://www.dvidshub.net/image/9905659/uss-george-hw-bush-conducts-daily-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
@@ -76,6 +31,51 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9904828",
+      "title": "U.S. Marines conduct Flight Operations",
+      "desc": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S....",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "U.S. Marine Corps Forces Central Command",
+      "timestamp": "2026-09-02T13:01:12+00:00",
+      "url": "https://www.dvidshub.net/image/9904828/us-marines-conduct-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9905492",
+      "title": "NV26 Lightfish USV Training",
+      "desc": "A member of the Icelandic Coast Guard takes a photo of a...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-02T10:20:11+00:00",
+      "url": "https://www.dvidshub.net/image/9905492/nv26-lightfish-usv-training",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9905495",
+      "title": "NV26 Lightfish USV Training",
+      "desc": "John Gideon, Commander ,Task Force (CTF) 66,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-02T10:19:52+00:00",
+      "url": "https://www.dvidshub.net/image/9905495/nv26-lightfish-usv-training",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
