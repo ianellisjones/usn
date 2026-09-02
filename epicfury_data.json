@@ -1,21 +1,66 @@
 {
-  "generated": "2026-09-01T19:40:44.303810+00:00",
+  "generated": "2026-09-02T09:17:49.581771+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
-      "id": "image:9901341",
-      "title": "Iceland Minister of Foreign Affairs Visits Northern Viking Planners",
-      "desc": "Þorgerður Katrín Gunnarsdóttir, right, Icelandic...",
+      "id": "image:9904942",
+      "title": "Abraham Lincoln Carrier Strike Group arrives in Thailand",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-08-31T20:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/9901341/iceland-minister-foreign-affairs-visits-northern-viking-planners",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-09-02T03:06:09+00:00",
+      "url": "https://www.dvidshub.net/image/9904942/abraham-lincoln-carrier-strike-group-arrives-thailand",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:573734",
+      "title": "Abraham Lincoln Carrier Strike Group arrives in Thailand",
+      "desc": "Laem Chabang, Thailand – Elements of the Abraham Lincoln Carrier Strike Group (ABECSG), including Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), the embarked staffs of CSG-3, Carrier Air Wing (CVW) 9, and Destroyer Squadron (DESRON) 21, and the nine squadrons of CVW-9 arrived in Laem Ch",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-09-02T01:28:45+00:00",
+      "url": "https://www.dvidshub.net/news/573734/abraham-lincoln-carrier-strike-group-arrives-thailand",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1021498",
+      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "desc": "Video of U.S. Central Command conducting strikes against Islamic Revolutionary Guard Corps targets in Iran, released Sept. 1, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-01T22:40:14+00:00",
+      "url": "https://www.dvidshub.net/video/1021498/centcom-completes-strikes-irgc-targets-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:573727",
+      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "desc": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-01T22:40:09+00:00",
+      "url": "https://www.dvidshub.net/news/573727/centcom-completes-strikes-irgc-targets-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
