@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-03T09:27:33.016325+00:00",
+  "generated": "2026-09-03T14:56:32.615759+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1021684",
+      "title": "AFN Europe Report - September 4, 2026",
+      "desc": "On this AFN Europe Report:\r\n\r\nU.S. service members in partnership with the city of Mons, Belgium, hosted the 25th annual Tanks in Town parade.\r\n\r\nU.S. European Command kicked off the Protection Symposium in Garmisch-Partenkirchen, Germany.\r\n\r\n(U.S. Air Force video by Airman John Harbut)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-09-03T11:33:15+00:00",
+      "url": "https://www.dvidshub.net/video/1021684/afn-europe-report-september-4-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:573842",
       "title": "USNS William McLean Receives Presidential Unit Citation for Historic Deployment",
@@ -50,32 +65,17 @@
       "location_display": ""
     },
     {
-      "id": "image:9905492",
-      "title": "NV26 Lightfish USV Training",
-      "desc": "A member of the Icelandic Coast Guard takes a photo of a...",
-      "type": "image",
+      "id": "news:573734",
+      "title": "Abraham Lincoln Carrier Strike Group arrives in Thailand",
+      "desc": "Laem Chabang, Thailand – Elements of the Abraham Lincoln Carrier Strike Group (ABECSG), including Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), the embarked staffs of CSG-3, Carrier Air Wing (CVW) 9, and Destroyer Squadron (DESRON) 21, and the nine squadrons of CVW-9 arrived in Laem Ch",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-02T10:20:11+00:00",
-      "url": "https://www.dvidshub.net/image/9905492/nv26-lightfish-usv-training",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-09-02T01:28:45+00:00",
+      "url": "https://www.dvidshub.net/news/573734/abraham-lincoln-carrier-strike-group-arrives-thailand",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9905495",
-      "title": "NV26 Lightfish USV Training",
-      "desc": "John Gideon, Commander ,Task Force (CTF) 66,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-02T10:19:52+00:00",
-      "url": "https://www.dvidshub.net/image/9905495/nv26-lightfish-usv-training",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
