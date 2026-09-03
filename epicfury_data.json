@@ -1,21 +1,21 @@
 {
-  "generated": "2026-09-02T19:32:54.198605+00:00",
+  "generated": "2026-09-03T09:27:33.016325+00:00",
   "news_count": 0,
   "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "video:1021561",
-      "title": "NV26 Mountainside Search and Rescue",
-      "desc": "U.S. Air Force pararescuemen conduct a mountainside search and rescue exercise, enabling training for North Atlantic contingency operations on land or at sea during exercise Northern Viking 26 (NV26) in Keflavik, Iceland, Aug. 31, 2026. NV26 strengthens interoperability and force readiness between t",
-      "type": "video",
+      "id": "news:573842",
+      "title": "USNS William McLean Receives Presidential Unit Citation for Historic Deployment",
+      "desc": "Norfolk, Va. (Sept. 2, 2026) – U.S. Navy Capt. Elizabeth Nelson, commodore, Military Sealift Command Atlantic (MSC Atlantic), welcomed home the civil service mariner (CIVMAR) crew of USNS William McLean (T-AKE 12), Sept. 2.  She presented the team with the Presidential Unit Citation (PUC) award for ",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-02T18:08:31+00:00",
-      "url": "https://www.dvidshub.net/video/1021561/nv26-mountainside-search-and-rescue",
+      "unit_name": "USN Military Sealift Command",
+      "timestamp": "2026-09-02T22:07:22+00:00",
+      "url": "https://www.dvidshub.net/news/573842/usns-william-mclean-receives-presidential-unit-citation-historic-deployment",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
