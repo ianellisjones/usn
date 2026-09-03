@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-03T14:56:32.615759+00:00",
+  "generated": "2026-09-03T19:29:54.454947+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "news:573883",
+      "title": "USSOF Training with CENTCOM partners remain fundamental to successful operations",
+      "desc": "Civil Affairs Teams (CAT) and the Kyrgyz State Border Service (SBS) personnel conduct Mountaineering and Survival SMEE training in the Tash-Kumor region of Kyrgyzstan 15-19 June 2026.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Special Operations Command Central",
+      "timestamp": "2026-09-03T14:52:40+00:00",
+      "url": "https://www.dvidshub.net/news/573883/ussof-training-with-centcom-partners-remain-fundamental-successful-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1021684",
       "title": "AFN Europe Report - September 4, 2026",
@@ -35,36 +50,6 @@
       "location_display": ""
     },
     {
-      "id": "image:9903772",
-      "title": "U.S. Marines and Airmen Conduct a Martial Arts Instructor Course Culminating Event in the CENTCOM AOR",
-      "desc": "U.S. Marines climb ropes during a Martial Arts...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "U.S. Marine Corps Forces Central Command",
-      "timestamp": "2026-09-02T13:02:19+00:00",
-      "url": "https://www.dvidshub.net/image/9903772/us-marines-and-airmen-conduct-martial-arts-instructor-course-culminating-event-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9904828",
-      "title": "U.S. Marines conduct Flight Operations",
-      "desc": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S....",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "U.S. Marine Corps Forces Central Command",
-      "timestamp": "2026-09-02T13:01:12+00:00",
-      "url": "https://www.dvidshub.net/image/9904828/us-marines-conduct-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "news:573734",
       "title": "Abraham Lincoln Carrier Strike Group arrives in Thailand",
       "desc": "Laem Chabang, Thailand – Elements of the Abraham Lincoln Carrier Strike Group (ABECSG), including Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), the embarked staffs of CSG-3, Carrier Air Wing (CVW) 9, and Destroyer Squadron (DESRON) 21, and the nine squadrons of CVW-9 arrived in Laem Ch",
@@ -76,6 +61,21 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1021498",
+      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "desc": "Video of U.S. Central Command conducting strikes against Islamic Revolutionary Guard Corps targets in Iran, released Sept. 1, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-01T22:40:14+00:00",
+      "url": "https://www.dvidshub.net/video/1021498/centcom-completes-strikes-irgc-targets-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
