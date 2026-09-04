@@ -1,39 +1,9 @@
 {
-  "generated": "2026-09-04T09:19:42.221016+00:00",
+  "generated": "2026-09-04T14:53:10.679071+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9912818",
-      "title": "John Finn Prepares Dinner",
-      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-04T07:18:03+00:00",
-      "url": "https://www.dvidshub.net/image/9912818/john-finn-prepares-dinner",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9912800",
-      "title": "Delbert D. Black Conducts Operations",
-      "desc": "U.S. Sailors operate a valve control station aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-04T07:13:51+00:00",
-      "url": "https://www.dvidshub.net/image/9912800/delbert-d-black-conducts-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:573883",
       "title": "USSOF Training with CENTCOM partners remain fundamental to successful operations",
@@ -76,6 +46,21 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:573727",
+      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "desc": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-01T22:40:09+00:00",
+      "url": "https://www.dvidshub.net/news/573727/centcom-completes-strikes-irgc-targets-iran",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
