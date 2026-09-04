@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-04T14:53:10.679071+00:00",
+  "generated": "2026-09-04T19:12:29.922608+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -28,21 +28,6 @@
       "unit_name": "USN Military Sealift Command",
       "timestamp": "2026-09-02T22:07:22+00:00",
       "url": "https://www.dvidshub.net/news/573842/usns-william-mclean-receives-presidential-unit-citation-historic-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:573734",
-      "title": "Abraham Lincoln Carrier Strike Group arrives in Thailand",
-      "desc": "Laem Chabang, Thailand – Elements of the Abraham Lincoln Carrier Strike Group (ABECSG), including Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), the embarked staffs of CSG-3, Carrier Air Wing (CVW) 9, and Destroyer Squadron (DESRON) 21, and the nine squadrons of CVW-9 arrived in Laem Ch",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-09-02T01:28:45+00:00",
-      "url": "https://www.dvidshub.net/news/573734/abraham-lincoln-carrier-strike-group-arrives-thailand",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
