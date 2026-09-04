@@ -1,9 +1,39 @@
 {
-  "generated": "2026-09-03T19:29:54.454947+00:00",
+  "generated": "2026-09-04T09:19:42.221016+00:00",
   "news_count": 0,
   "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9912818",
+      "title": "John Finn Prepares Dinner",
+      "desc": "A U.S. Sailor prepares food in the galley aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-04T07:18:03+00:00",
+      "url": "https://www.dvidshub.net/image/9912818/john-finn-prepares-dinner",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9912800",
+      "title": "Delbert D. Black Conducts Operations",
+      "desc": "U.S. Sailors operate a valve control station aboard...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-04T07:13:51+00:00",
+      "url": "https://www.dvidshub.net/image/9912800/delbert-d-black-conducts-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:573883",
       "title": "USSOF Training with CENTCOM partners remain fundamental to successful operations",
@@ -16,21 +46,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1021684",
-      "title": "AFN Europe Report - September 4, 2026",
-      "desc": "On this AFN Europe Report:\r\n\r\nU.S. service members in partnership with the city of Mons, Belgium, hosted the 25th annual Tanks in Town parade.\r\n\r\nU.S. European Command kicked off the Protection Symposium in Garmisch-Partenkirchen, Germany.\r\n\r\n(U.S. Air Force video by Airman John Harbut)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-09-03T11:33:15+00:00",
-      "url": "https://www.dvidshub.net/video/1021684/afn-europe-report-september-4-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     },
@@ -61,21 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1021498",
-      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
-      "desc": "Video of U.S. Central Command conducting strikes against Islamic Revolutionary Guard Corps targets in Iran, released Sept. 1, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-01T22:40:14+00:00",
-      "url": "https://www.dvidshub.net/video/1021498/centcom-completes-strikes-irgc-targets-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
