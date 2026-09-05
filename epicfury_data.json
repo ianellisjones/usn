@@ -1,9 +1,39 @@
 {
-  "generated": "2026-09-05T08:48:50.405636+00:00",
+  "generated": "2026-09-05T13:48:51.020208+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1021952",
+      "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
+      "desc": "Video of U.S. Central Command forces striking three Iranian crude oil carriers, Sept. 5, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-05T13:43:01+00:00",
+      "url": "https://www.dvidshub.net/video/1021952/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:574030",
+      "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces struck three Iranian crude oil carriers, Sept. 5, after the Islamic Revolutionary Guard Corps (IRGC) launched ballistic missiles toward two U.S. Navy warships patrolling regional waters.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-05T13:40:22+00:00",
+      "url": "https://www.dvidshub.net/news/574030/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:573883",
       "title": "USSOF Training with CENTCOM partners remain fundamental to successful operations",
