@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-04T19:12:29.922608+00:00",
+  "generated": "2026-09-05T08:48:50.405636+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -13,36 +13,6 @@
       "unit_name": "U.S. Special Operations Command Central",
       "timestamp": "2026-09-03T14:52:40+00:00",
       "url": "https://www.dvidshub.net/news/573883/ussof-training-with-centcom-partners-remain-fundamental-successful-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:573842",
-      "title": "USNS William McLean Receives Presidential Unit Citation for Historic Deployment",
-      "desc": "Norfolk, Va. (Sept. 2, 2026) – U.S. Navy Capt. Elizabeth Nelson, commodore, Military Sealift Command Atlantic (MSC Atlantic), welcomed home the civil service mariner (CIVMAR) crew of USNS William McLean (T-AKE 12), Sept. 2.  She presented the team with the Presidential Unit Citation (PUC) award for ",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "USN Military Sealift Command",
-      "timestamp": "2026-09-02T22:07:22+00:00",
-      "url": "https://www.dvidshub.net/news/573842/usns-william-mclean-receives-presidential-unit-citation-historic-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:573727",
-      "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
-      "desc": "CENTCOM Completes Strikes on IRGC Targets in Iran",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-01T22:40:09+00:00",
-      "url": "https://www.dvidshub.net/news/573727/centcom-completes-strikes-irgc-targets-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
