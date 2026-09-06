@@ -1,9 +1,39 @@
 {
-  "generated": "2026-09-05T18:39:59.472695+00:00",
+  "generated": "2026-09-06T09:09:12.019677+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "news:574034",
+      "title": "Abraham Lincoln Carrier Strike Group departs Thailand",
+      "desc": "PATTAYA, Thailand — Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), flagship of Carrier Strike Group (CSG) 3, and embarked staffs and accompanying strike group units departed Thailand following a scheduled port visit, Sept. 6.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Carrier Strike Group Three (CSG 3)",
+      "timestamp": "2026-09-06T04:25:42+00:00",
+      "url": "https://www.dvidshub.net/news/574034/abraham-lincoln-carrier-strike-group-departs-thailand",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1021961",
+      "title": "M/T Kylo Sinking in the Gulf of Oman",
+      "desc": "Video footage of M/T Kylo sinking in the Gulf of Oman, Sept. 5, 2026. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-06T00:40:21+00:00",
+      "url": "https://www.dvidshub.net/video/1021961/m-t-kylo-sinking-gulf-oman",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1021952",
       "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
