@@ -1,9 +1,9 @@
 {
   "date": "2026-09-07",
-  "timestamp": "2026-09-07T16:42:14.879931",
-  "total_count": 358,
+  "timestamp": "2026-09-07T20:50:32.880684",
+  "total_count": 357,
   "by_country": {
-    "United States": 196,
+    "United States": 195,
     "Indonesia": 7,
     "Tunisia": 6,
     "U.S. 7th Fleet area of responsibility": 11,
@@ -30,14 +30,14 @@
     "Palau": 1
   },
   "by_type": {
-    "video": 91,
-    "image": 154,
-    "news": 113
+    "news": 111,
+    "video": 92,
+    "image": 154
   },
   "by_branch": {
-    "Joint": 146,
+    "Navy": 128,
+    "Joint": 144,
     "Marines": 76,
-    "Navy": 127,
     "Coast Guard": 9
   },
   "by_command": {
@@ -48,6 +48,62 @@
   },
   "carrier_count": 112,
   "items": [
+    {
+      "id": "news:574048",
+      "title": "PMRF sets TCCOR 1 in response to severe weather forecast from Hurricane Lowell",
+      "description": "PACIFIC MISSILE RANGE FACILITY, KEKAHA, Hawaii - Pacific Missile Range Facility (PMRF) has set Tropical Cyclone Condition of Readiness (TCCOR) One indicating that destructive winds of 50 knots or greater are possible within 12 hours. PMRF continues to monitor Hurricane Lowell and has secured the installation in preparation for severe weather.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Pacific Missile Range Facility",
+      "date_published": "Sep 07, 2026 20:25 UTC",
+      "timestamp": "2026-09-07T20:25:57+00:00",
+      "country": "United States",
+      "state": "Hawaii",
+      "city": "Kekaha",
+      "location_display": "Kekaha, Hawaii, United States",
+      "url": "https://www.dvidshub.net/news/574048/pmrf-sets-tccor-1-response-severe-weather-forecast-hurricane-lowell",
+      "thumbnail_url": "",
+      "keywords": [
+        "PMRF",
+        "Kauai",
+        "hurricane lowell"
+      ],
+      "credit": "Jonell Kaohelaulii",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 0.4031450336111111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1022008",
+      "title": "Nolen William Panther Shout out",
+      "description": "Carolina Panthers Shout out",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Navy Talent Acquisition Group Carolina",
+      "date_published": "Sep 07, 2026 18:38 UTC",
+      "timestamp": "2026-09-07T18:38:04+00:00",
+      "country": "United States",
+      "state": "North Carolina",
+      "city": "",
+      "location_display": "North Carolina, United States",
+      "url": "https://www.dvidshub.net/video/1022008/nolen-william-panther-shout-out",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1022008/DOD_111956860.0000001/122x92_q95.jpg",
+      "keywords": [
+        "NFLPanthers"
+      ],
+      "credit": "MarQuan Stith",
+      "duration": 16,
+      "aspect_ratio": "4:3",
+      "commands": [],
+      "hours_old": 2.201627392222222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
     {
       "id": "video:1021847",
       "title": "JTF-DC Georgia National Guardsmen attend casualty evacuation transport training",
@@ -68,7 +124,7 @@
       "duration": 70,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 0.7413388291666667,
+      "hours_old": 4.8799384575,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -99,7 +155,7 @@
       "duration": 30,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 0.9888389566666667,
+      "hours_old": 5.127438893611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -130,7 +186,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.5347611716666665,
+      "hours_old": 5.673364865277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -162,7 +218,7 @@
       "duration": 268,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.393240766111111,
+      "hours_old": 6.531881495555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -196,7 +252,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 2.5458128452777777,
+      "hours_old": 6.684466595000001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -230,7 +286,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 3.140616673888889,
+      "hours_old": 7.279256161111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -264,7 +320,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 3.346646095277778,
+      "hours_old": 7.485299844166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -298,7 +354,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 3.3466461011111113,
+      "hours_old": 7.485299849722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -332,7 +388,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 3.3466461063888886,
+      "hours_old": 7.485299855,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -366,7 +422,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 3.346923889166667,
+      "hours_old": 7.485577638055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -397,7 +453,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447610725,
+      "hours_old": 7.983364755277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -428,7 +484,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761078888889,
+      "hours_old": 7.9833647616666665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -459,7 +515,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761083333333,
+      "hours_old": 7.983364766666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -490,7 +546,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761088055556,
+      "hours_old": 7.983364770833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -521,7 +577,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447610925,
+      "hours_old": 7.983364780555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -552,7 +608,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447610966666668,
+      "hours_old": 7.983364790555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -583,7 +639,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611008333333,
+      "hours_old": 7.983364796111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -614,7 +670,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611047222225,
+      "hours_old": 7.983364800555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -645,7 +701,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761109166667,
+      "hours_old": 7.983364805277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -676,7 +732,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611133333335,
+      "hours_old": 7.983364809999999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -707,7 +763,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611180555556,
+      "hours_old": 7.983364814444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -738,7 +794,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761122222222,
+      "hours_old": 7.98336481861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -769,7 +825,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611266666666,
+      "hours_old": 7.983364822777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -800,7 +856,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761132222222,
+      "hours_old": 7.983364828333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -831,7 +887,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.8447611363888887,
+      "hours_old": 7.983364832777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -862,7 +918,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.844761140277778,
+      "hours_old": 7.983364837222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -893,177 +949,7 @@
       "duration": 88,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 3.9096719508333333,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:9917197",
-      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
-      "description": "260907-N-JJ672-1070\r\nU.S. Navy Lt. j.g. Jesse Dennis,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 15",
-      "date_published": "Sep 07, 2026 12:02 UTC",
-      "timestamp": "2026-09-07T12:02:36+00:00",
-      "country": "U.S. 7th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 7th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9917197/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917197/122x92_q95.jpg",
-      "keywords": [
-        "CIC",
-        "DESRON 15",
-        "Benfold",
-        "SAG",
-        "Freedom Edge",
-        "7th Fleet"
-      ],
-      "credit": "PO2 Oscar Diaz",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 4.653868338888889,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:9917196",
-      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
-      "description": "260907-N-JJ672-1052\r\nU.S. Navy Operations Specialist 2nd...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 15",
-      "date_published": "Sep 07, 2026 12:02 UTC",
-      "timestamp": "2026-09-07T12:02:36+00:00",
-      "country": "U.S. 7th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 7th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9917196/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917196/122x92_q95.jpg",
-      "keywords": [
-        "CIC",
-        "DESRON 15",
-        "Benfold",
-        "SAG",
-        "Freedom Edge",
-        "7th Fleet"
-      ],
-      "credit": "PO2 Oscar Diaz",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 4.6538683447222216,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:9917201",
-      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
-      "description": "260907-N-JJ672-1120\r\nU.S. Navy Seaman Zachary Day stands...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 15",
-      "date_published": "Sep 07, 2026 12:02 UTC",
-      "timestamp": "2026-09-07T12:02:36+00:00",
-      "country": "U.S. 7th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 7th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9917201/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917201/122x92_q95.jpg",
-      "keywords": [
-        "CIC",
-        "DESRON 15",
-        "Benfold",
-        "SAG",
-        "Freedom Edge",
-        "7th Fleet"
-      ],
-      "credit": "PO2 Oscar Diaz",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 4.653868350277778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:9917199",
-      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
-      "description": "260907-N-JJ672-1082\r\nU.S. Navy Fire Controlman (Aegis)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 15",
-      "date_published": "Sep 07, 2026 12:02 UTC",
-      "timestamp": "2026-09-07T12:02:36+00:00",
-      "country": "U.S. 7th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 7th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9917199/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917199/122x92_q95.jpg",
-      "keywords": [
-        "CIC",
-        "DESRON 15",
-        "Benfold",
-        "SAG",
-        "Freedom Edge",
-        "7th Fleet"
-      ],
-      "credit": "PO2 Oscar Diaz",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 4.653868355,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:9917198",
-      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
-      "description": "260907-N-JJ672-1073\r\nU.S. Navy Cmdr. Rebecca Conti-Vock,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 15",
-      "date_published": "Sep 07, 2026 12:02 UTC",
-      "timestamp": "2026-09-07T12:02:36+00:00",
-      "country": "U.S. 7th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 7th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9917198/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917198/122x92_q95.jpg",
-      "keywords": [
-        "CIC",
-        "DESRON 15",
-        "Benfold",
-        "SAG",
-        "Freedom Edge",
-        "7th Fleet"
-      ],
-      "credit": "PO2 Oscar Diaz",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "INDOPACOM"
-      ],
-      "hours_old": 4.653868359722222,
+      "hours_old": 8.048271590555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1097,7 +983,177 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.6538683672222225,
+      "hours_old": 8.79252206,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:9917197",
+      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
+      "description": "260907-N-JJ672-1070\r\nU.S. Navy Lt. j.g. Jesse Dennis,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 15",
+      "date_published": "Sep 07, 2026 12:02 UTC",
+      "timestamp": "2026-09-07T12:02:36+00:00",
+      "country": "U.S. 7th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 7th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9917197/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917197/122x92_q95.jpg",
+      "keywords": [
+        "CIC",
+        "DESRON 15",
+        "Benfold",
+        "SAG",
+        "Freedom Edge",
+        "7th Fleet"
+      ],
+      "credit": "PO2 Oscar Diaz",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 8.7925220875,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:9917196",
+      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
+      "description": "260907-N-JJ672-1052\r\nU.S. Navy Operations Specialist 2nd...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 15",
+      "date_published": "Sep 07, 2026 12:02 UTC",
+      "timestamp": "2026-09-07T12:02:36+00:00",
+      "country": "U.S. 7th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 7th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9917196/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917196/122x92_q95.jpg",
+      "keywords": [
+        "CIC",
+        "DESRON 15",
+        "Benfold",
+        "SAG",
+        "Freedom Edge",
+        "7th Fleet"
+      ],
+      "credit": "PO2 Oscar Diaz",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 8.792522093055556,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:9917201",
+      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
+      "description": "260907-N-JJ672-1120\r\nU.S. Navy Seaman Zachary Day stands...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 15",
+      "date_published": "Sep 07, 2026 12:02 UTC",
+      "timestamp": "2026-09-07T12:02:36+00:00",
+      "country": "U.S. 7th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 7th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9917201/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917201/122x92_q95.jpg",
+      "keywords": [
+        "CIC",
+        "DESRON 15",
+        "Benfold",
+        "SAG",
+        "Freedom Edge",
+        "7th Fleet"
+      ],
+      "credit": "PO2 Oscar Diaz",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 8.792522098333333,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:9917199",
+      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
+      "description": "260907-N-JJ672-1082\r\nU.S. Navy Fire Controlman (Aegis)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 15",
+      "date_published": "Sep 07, 2026 12:02 UTC",
+      "timestamp": "2026-09-07T12:02:36+00:00",
+      "country": "U.S. 7th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 7th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9917199/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917199/122x92_q95.jpg",
+      "keywords": [
+        "CIC",
+        "DESRON 15",
+        "Benfold",
+        "SAG",
+        "Freedom Edge",
+        "7th Fleet"
+      ],
+      "credit": "PO2 Oscar Diaz",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 8.792522104722222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:9917198",
+      "title": "USS Benfold (DDG 65) Conducts Operations in Support of Freedom Edge 26",
+      "description": "260907-N-JJ672-1073\r\nU.S. Navy Cmdr. Rebecca Conti-Vock,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 15",
+      "date_published": "Sep 07, 2026 12:02 UTC",
+      "timestamp": "2026-09-07T12:02:36+00:00",
+      "country": "U.S. 7th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 7th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9917198/uss-benfold-ddg-65-conducts-operations-support-freedom-edge-26",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9917198/122x92_q95.jpg",
+      "keywords": [
+        "CIC",
+        "DESRON 15",
+        "Benfold",
+        "SAG",
+        "Freedom Edge",
+        "7th Fleet"
+      ],
+      "credit": "PO2 Oscar Diaz",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "INDOPACOM"
+      ],
+      "hours_old": 8.79252211,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1131,7 +1187,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.6538683725,
+      "hours_old": 8.792522115833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1165,7 +1221,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.653868377222222,
+      "hours_old": 8.792522120833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1199,7 +1255,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.653868382500001,
+      "hours_old": 8.7925221325,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1233,7 +1289,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.653868396111111,
+      "hours_old": 8.792522143888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1267,7 +1323,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 4.654146165277778,
+      "hours_old": 8.792799916388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1300,7 +1356,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.891368452222222,
+      "hours_old": 10.03002218138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1333,7 +1389,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.894424001388888,
+      "hours_old": 10.033077729166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1366,7 +1422,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.898312881944444,
+      "hours_old": 10.036966610555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1391,7 +1447,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.902479543055556,
+      "hours_old": 10.041133272222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1423,7 +1479,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.598590650277777,
+      "hours_old": 10.737244425555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1455,7 +1511,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.604979534166667,
+      "hours_old": 10.743633309444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1487,7 +1543,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.61609064,
+      "hours_old": 10.754744415277779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1519,7 +1575,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.619701745555556,
+      "hours_old": 10.75835552,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1551,7 +1607,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481667067777778,
+      "hours_old": 14.620318177777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1583,7 +1639,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 10.481667072777778,
+      "hours_old": 14.6203181825,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1615,7 +1671,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481667078055555,
+      "hours_old": 14.620318187222221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1647,7 +1703,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481667083333333,
+      "hours_old": 14.62031819138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1679,7 +1735,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481944865277779,
+      "hours_old": 14.620595974166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1711,7 +1767,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481944869444446,
+      "hours_old": 14.62059597861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1743,7 +1799,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481944874444444,
+      "hours_old": 14.62059598361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1775,7 +1831,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481944878611111,
+      "hours_old": 14.62059598777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1807,7 +1863,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.481944883333332,
+      "hours_old": 14.620595992777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1839,7 +1895,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.482222666666667,
+      "hours_old": 14.620873775277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1871,7 +1927,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.48222267138889,
+      "hours_old": 14.620873780277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1903,7 +1959,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.48222267611111,
+      "hours_old": 14.620873785833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1935,7 +1991,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.482222681944444,
+      "hours_old": 14.620873791666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1967,7 +2023,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.482222686388889,
+      "hours_old": 14.62087380222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1999,7 +2055,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.482500469166666,
+      "hours_old": 14.62115158527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2031,7 +2087,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490000303055554,
+      "hours_old": 14.628651420555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2063,7 +2119,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490000321388889,
+      "hours_old": 14.628651432777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2095,7 +2151,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490278106388889,
+      "hours_old": 14.628929217777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2127,7 +2183,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490278115277777,
+      "hours_old": 14.628929223611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2159,7 +2215,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490555898055556,
+      "hours_old": 14.629207006388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2191,7 +2247,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490555903611112,
+      "hours_old": 14.629207012222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2223,7 +2279,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490555909166668,
+      "hours_old": 14.629207018333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2255,7 +2311,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490833691944445,
+      "hours_old": 14.62948480138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2287,7 +2343,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.490833696944444,
+      "hours_old": 14.629484806388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2319,7 +2375,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.49083370111111,
+      "hours_old": 14.629484811111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2351,7 +2407,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.49111148388889,
+      "hours_old": 14.62976259388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2383,7 +2439,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.491111490555555,
+      "hours_old": 14.629762599444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2415,7 +2471,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.491111496111111,
+      "hours_old": 14.629762604722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2447,7 +2503,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.491389279166668,
+      "hours_old": 14.630040389722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2479,7 +2535,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 10.491389284166667,
+      "hours_old": 14.630040395,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2513,7 +2569,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 10.688471361666666,
+      "hours_old": 14.827078199166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2547,7 +2603,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 10.691705490833334,
+      "hours_old": 14.830309174166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2581,7 +2637,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 10.691983282222223,
+      "hours_old": 14.830586964444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2615,7 +2671,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 10.691983289166666,
+      "hours_old": 14.830586971666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2647,7 +2703,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.123868277777778,
+      "hours_old": 16.262522019166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2679,7 +2735,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 12.123868292500001,
+      "hours_old": 16.262522032777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2711,7 +2767,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.123868300555557,
+      "hours_old": 16.26252204111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2743,7 +2799,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.123868306666667,
+      "hours_old": 16.26252204777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2775,7 +2831,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.123868312222223,
+      "hours_old": 16.262522054166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2804,7 +2860,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 13.7642278025,
+      "hours_old": 17.9028672825,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2834,7 +2890,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 14.033312851111111,
+      "hours_old": 18.1719666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2868,7 +2924,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 17.65142781111111,
+      "hours_old": 21.790031508055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2902,7 +2958,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 17.6514278175,
+      "hours_old": 21.790031514444447,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2936,7 +2992,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 17.651705600555555,
+      "hours_old": 21.790309297777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2970,7 +3026,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 17.651705605833335,
+      "hours_old": 21.790309303055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3002,7 +3058,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.7530560975,
+      "hours_old": 33.89170721777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3034,7 +3090,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.753056104166667,
+      "hours_old": 33.891707251944446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3066,7 +3122,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.753056145277778,
+      "hours_old": 33.89170725722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3098,7 +3154,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.753333928055557,
+      "hours_old": 33.89198504027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3130,7 +3186,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.753333932777778,
+      "hours_old": 33.89198504555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3162,7 +3218,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.54452257333333,
+      "hours_old": 38.68320039305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3195,7 +3251,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.268672261666666,
+      "hours_old": 40.407311739444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3226,7 +3282,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.91803520861111,
+      "hours_old": 41.05668896277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3257,7 +3313,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.918035214444444,
+      "hours_old": 41.05668896944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3288,7 +3344,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.91803522,
+      "hours_old": 41.05668897472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3319,7 +3375,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.91803522416667,
+      "hours_old": 41.056688979444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3350,7 +3406,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.918035234722225,
+      "hours_old": 41.05668898444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3379,7 +3435,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.91803524388889,
+      "hours_old": 41.05668899194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3410,7 +3466,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 37.741646235,
+      "hours_old": 41.88030002027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3441,7 +3497,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.741646242499996,
+      "hours_old": 41.88030002694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3472,7 +3528,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.74164624916667,
+      "hours_old": 41.880300033055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3503,7 +3559,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.74164625444445,
+      "hours_old": 41.88030003944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3534,7 +3590,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.741646260555555,
+      "hours_old": 41.88030004472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3565,7 +3621,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.74164626666666,
+      "hours_old": 41.880300050833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3596,7 +3652,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.7416462775,
+      "hours_old": 41.880300062222226,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3627,7 +3683,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 37.74164628333334,
+      "hours_old": 41.880300068333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3658,7 +3714,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 37.74192404972222,
+      "hours_old": 41.88057783388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3690,7 +3746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.96553517722222,
+      "hours_old": 44.104188874444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3722,7 +3778,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.96553518444444,
+      "hours_old": 44.10418888277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3754,7 +3810,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.96553519666667,
+      "hours_old": 44.10418889694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3786,7 +3842,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.96581296833333,
+      "hours_old": 44.10446666777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3818,7 +3874,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 39.965812980555555,
+      "hours_old": 44.10446668111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3848,7 +3904,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 40.02661643222223,
+      "hours_old": 44.16521607166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3877,7 +3933,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 41.398005311944445,
+      "hours_old": 45.53660495166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3893,16 +3949,20 @@
       "timestamp": "2026-09-05T17:46:12+00:00",
       "country": "United States",
       "state": "Hawaii",
-      "city": "",
-      "location_display": "Hawaii, United States",
+      "city": "Kekaha",
+      "location_display": "Kekaha, Hawaii, United States",
       "url": "https://www.dvidshub.net/news/574032/pmrf-sets-tccor-3-officials-continue-monitor-hurricane-lowell",
       "thumbnail_url": "",
-      "keywords": [],
+      "keywords": [
+        "PMRF",
+        "Kauai",
+        "hurricane lowell"
+      ],
       "credit": "Jonell Kaohelaulii",
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.92700562222222,
+      "hours_old": 51.065645092222226,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3933,7 +3993,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.41198344638889,
+      "hours_old": 53.550587155277775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3964,7 +4024,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.428927886388884,
+      "hours_old": 53.56753159555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3995,7 +4055,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.440872326666664,
+      "hours_old": 53.579476035000006,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4026,7 +4086,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.45726121,
+      "hours_old": 53.59586491333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4055,7 +4115,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 50.982171970833335,
+      "hours_old": 55.12077161027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4084,7 +4144,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 51.02597137916666,
+      "hours_old": 55.16457821555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4114,7 +4174,7 @@
       "duration": 26,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.187664124444446,
+      "hours_old": 55.32634964416667,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4146,7 +4206,7 @@
       "duration": 121,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.219351940555555,
+      "hours_old": 55.357992655555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4178,7 +4238,7 @@
       "duration": 271,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.253796452500005,
+      "hours_old": 55.39243715,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4210,7 +4270,7 @@
       "duration": 1385,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.28157415277778,
+      "hours_old": 55.42021486833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4242,7 +4302,7 @@
       "duration": 274,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.329351865,
+      "hours_old": 55.467992594444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4274,7 +4334,7 @@
       "duration": 200,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.37824088388889,
+      "hours_old": 55.51688158444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4308,7 +4368,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.43813371777778,
+      "hours_old": 58.576811534444445,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4342,7 +4402,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.49027830777778,
+      "hours_old": 58.628929426666666,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4376,7 +4436,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.4947227475,
+      "hours_old": 58.63337386694444,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4410,7 +4470,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.499444938055554,
+      "hours_old": 58.63809605694445,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4444,7 +4504,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.50333383638889,
+      "hours_old": 58.641984955,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4478,7 +4538,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.507778315555555,
+      "hours_old": 58.64642943583333,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4512,7 +4572,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.51305607611111,
+      "hours_old": 58.65170719611111,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4546,7 +4606,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.51777829388889,
+      "hours_old": 58.656429414166666,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4580,7 +4640,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.524167178611116,
+      "hours_old": 58.66281829861111,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4614,7 +4674,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.73666717416667,
+      "hours_old": 58.87531829305556,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4648,7 +4708,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.771111645,
+      "hours_old": 58.909762764722224,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4682,7 +4742,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.77555605361111,
+      "hours_old": 58.91420717277777,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4716,7 +4776,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.785833812777774,
+      "hours_old": 58.92448493055556,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4750,7 +4810,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.79555604,
+      "hours_old": 58.93420715888889,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4784,7 +4844,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.79972269555555,
+      "hours_old": 58.938373811944444,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4818,7 +4878,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.80416715555556,
+      "hours_old": 58.94281827444444,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4847,7 +4907,7 @@
       "duration": 8829,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 64.09800532694445,
+      "hours_old": 68.23660496611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4878,7 +4938,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 65.68645005,
+      "hours_old": 69.8250895275,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4910,7 +4970,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.62396703694444,
+      "hours_old": 71.76264485444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4940,7 +5000,7 @@
       "duration": 203,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.6360185663889,
+      "hours_old": 71.7746592875,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4968,7 +5028,7 @@
       "duration": 4132,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.31185184750001,
+      "hours_old": 72.4504925775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5000,7 +5060,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.40368933777778,
+      "hours_old": 72.54236715944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5032,7 +5092,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.44702263055555,
+      "hours_old": 72.58570043555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5062,7 +5122,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.53561682555555,
+      "hours_old": 72.67425632444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5087,7 +5147,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.86508637055556,
+      "hours_old": 73.00372409472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5118,7 +5178,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 68.9911500661111,
+      "hours_old": 73.12975376,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5150,7 +5210,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.9912491675,
+      "hours_old": 73.12985600361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5182,7 +5242,7 @@
       "duration": 38,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 69.44377586583333,
+      "hours_old": 73.5824049275,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5214,37 +5274,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.51791586333334,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:574003",
-      "title": "FB employee earns coveted spot at Naval Postgraduate School",
-      "description": "A DCMA Financial and Business Operations team member recently earned an opportunity to attend the Naval Postgraduate School\u2019s Data Analytics for Defense Management Certification Program.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Defense Contract Management Agency",
-      "date_published": "Sep 04, 2026 19:06 UTC",
-      "timestamp": "2026-09-04T19:06:41+00:00",
-      "country": "United States",
-      "state": "Virginia",
-      "city": "Fort Lee",
-      "location_display": "Fort Lee, Virginia, United States",
-      "url": "https://www.dvidshub.net/news/574003/fb-employee-earns-coveted-spot-naval-postgraduate-school",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/graphics/2609/44945/122x92_q95.jpg",
-      "keywords": [
-        "Agency News",
-        "Data Analysis",
-        "Naval Postgraduate School",
-        "Tyra Keys"
-      ],
-      "credit": "Sarah Gauvin",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 69.5873607125,
+      "hours_old": 73.65652273638888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5275,7 +5305,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.5890271275,
+      "hours_old": 73.72763398944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5304,7 +5334,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.59319371666666,
+      "hours_old": 73.73180062277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5336,7 +5366,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.60791584750001,
+      "hours_old": 73.7465226963889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5364,7 +5394,7 @@
       "duration": 66,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 69.98877521083334,
+      "hours_old": 74.1274607175,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5393,7 +5423,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.17006118611111,
+      "hours_old": 75.30870066944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5422,7 +5452,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.467638135,
+      "hours_old": 75.60624499805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5447,7 +5477,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.34952261888888,
+      "hours_old": 76.48820044833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5475,7 +5505,7 @@
       "duration": 22,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 72.58712969999999,
+      "hours_old": 76.72577041555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5500,7 +5530,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 72.60726120527778,
+      "hours_old": 76.74586489916666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5527,7 +5557,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 74.51978341805557,
+      "hours_old": 78.65842290638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5554,7 +5584,7 @@
       "duration": 229,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 74.67411645888889,
+      "hours_old": 78.81271608861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5579,7 +5609,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 74.78356104722222,
+      "hours_old": 78.92216059222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5604,7 +5634,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 74.88943082277778,
+      "hours_old": 79.02806215416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5629,7 +5659,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 74.889430835,
+      "hours_old": 79.0280621675,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5654,7 +5684,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 74.8894308411111,
+      "hours_old": 79.02806217444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5679,7 +5709,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 74.88943084583333,
+      "hours_old": 79.02806217999999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5706,7 +5736,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 75.72819363361111,
+      "hours_old": 79.86680050305554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5733,7 +5763,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.16495001416666,
+      "hours_old": 80.30354994250001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5760,7 +5790,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.21467224194446,
+      "hours_old": 80.35327217222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5785,7 +5815,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.31615009027777,
+      "hours_old": 80.45475378388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5810,7 +5840,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.31948340833333,
+      "hours_old": 80.45808710222221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5835,7 +5865,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.3197611925,
+      "hours_old": 80.45836488555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5860,7 +5890,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.31976126555556,
+      "hours_old": 80.45836497722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5885,7 +5915,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32003904777778,
+      "hours_old": 80.45864275999999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5910,7 +5940,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32003905138889,
+      "hours_old": 80.45864276416665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5935,7 +5965,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.3200390563889,
+      "hours_old": 80.45864276805557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5960,7 +5990,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32003906111112,
+      "hours_old": 80.45864277305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5985,7 +6015,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.320039065,
+      "hours_old": 80.45864277722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6010,7 +6040,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32031675222221,
+      "hours_old": 80.45892044555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6035,7 +6065,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32031684666667,
+      "hours_old": 80.45892055916666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6060,7 +6090,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 76.32031685055556,
+      "hours_old": 80.45892056333332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6089,7 +6119,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 80.7232198563889,
+      "hours_old": 84.8619053711111,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6118,7 +6148,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 80.75210873833333,
+      "hours_old": 84.89079425333333,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6148,7 +6178,7 @@
       "duration": 144,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 85.10127520138889,
+      "hours_old": 89.23996070777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6175,7 +6205,7 @@
       "duration": 18,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 86.24800540888889,
+      "hours_old": 90.38660505777779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6202,88 +6232,7 @@
       "duration": 17,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 86.24800541527777,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1021865",
-      "title": "Answering the Call: Robert Michael Kaufman, DLA Information Operations",
-      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Defense Logistics Agency",
-      "date_published": "Sep 04, 2026 01:35 UTC",
-      "timestamp": "2026-09-04T01:35:18+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021865/answering-call-robert-michael-kaufman-dla-information-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021865/DOD_111951770.0000001/122x92_q95.jpg",
-      "keywords": [
-        "#dlaansweringthecall"
-      ],
-      "credit": "Nutan Chada",
-      "duration": 26,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 87.11078319888888,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1021864",
-      "title": "Answering the Call: Keith Daniels, DLA Troop Support",
-      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Defense Logistics Agency",
-      "date_published": "Sep 04, 2026 01:35 UTC",
-      "timestamp": "2026-09-04T01:35:18+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021864/answering-call-keith-daniels-dla-troop-support",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021864/DOD_111951769.0000001/122x92_q95.jpg",
-      "keywords": [
-        "#dlaansweringthecall"
-      ],
-      "credit": "Nutan Chada",
-      "duration": 15,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 87.11078320416667,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1021866",
-      "title": "Answering the Call: Tim Schmidt, DLA Troop Support",
-      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Defense Logistics Agency",
-      "date_published": "Sep 04, 2026 01:35 UTC",
-      "timestamp": "2026-09-04T01:35:18+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021866/answering-call-tim-schmidt-dla-troop-support",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021866/DOD_111951773.0000001/122x92_q95.jpg",
-      "keywords": [
-        "#dlaansweringthecall"
-      ],
-      "credit": "Nutan Chada",
-      "duration": 15,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 87.11078320972221,
+      "hours_old": 90.38660506333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6310,7 +6259,7 @@
       "duration": 32,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078321472223,
+      "hours_old": 91.24938281888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6337,7 +6286,7 @@
       "duration": 22,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078322,
+      "hours_old": 91.24938282527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6364,14 +6313,14 @@
       "duration": 20,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078322694445,
+      "hours_old": 91.24938283083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
     },
     {
-      "id": "video:1021863",
-      "title": "Answering the Call: Owen Thompson, DLA Information Operations",
+      "id": "video:1021865",
+      "title": "Answering the Call: Robert Michael Kaufman, DLA Information Operations",
       "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
       "type": "video",
       "branch": "Joint",
@@ -6382,23 +6331,23 @@
       "state": "",
       "city": "",
       "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021863/answering-call-owen-thompson-dla-information-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021863/DOD_111951766.0000001/122x92_q95.jpg",
+      "url": "https://www.dvidshub.net/video/1021865/answering-call-robert-michael-kaufman-dla-information-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021865/DOD_111951770.0000001/122x92_q95.jpg",
       "keywords": [
         "#dlaansweringthecall"
       ],
       "credit": "Nutan Chada",
-      "duration": 16,
+      "duration": 26,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.1107832313889,
+      "hours_old": 91.2493828463889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
     },
     {
-      "id": "video:1021862",
-      "title": "Answering the Call: Katie Shook, DLA Logistics Operations",
+      "id": "video:1021864",
+      "title": "Answering the Call: Keith Daniels, DLA Troop Support",
       "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
       "type": "video",
       "branch": "Joint",
@@ -6409,43 +6358,16 @@
       "state": "",
       "city": "",
       "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021862/answering-call-katie-shook-dla-logistics-operations",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021862/DOD_111951764.0000001/122x92_q95.jpg",
+      "url": "https://www.dvidshub.net/video/1021864/answering-call-keith-daniels-dla-troop-support",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021864/DOD_111951769.0000001/122x92_q95.jpg",
       "keywords": [
         "#dlaansweringthecall"
       ],
       "credit": "Nutan Chada",
-      "duration": 18,
+      "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078323666666,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1021861",
-      "title": "Answering the Call: Kedric Jones, DLA Weapons Support",
-      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "Defense Logistics Agency",
-      "date_published": "Sep 04, 2026 01:35 UTC",
-      "timestamp": "2026-09-04T01:35:18+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/video/1021861/answering-call-kedric-jones-dla-weapons-support",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021861/DOD_111951749.0000001/122x92_q95.jpg",
-      "keywords": [
-        "#dlaansweringthecall"
-      ],
-      "credit": "Nutan Chada",
-      "duration": 14,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 87.11078324166667,
+      "hours_old": 91.24938285333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6472,7 +6394,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078325444444,
+      "hours_old": 91.2493828588889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6499,7 +6421,7 @@
       "duration": 24,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078325972223,
+      "hours_old": 91.2493828638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6526,7 +6448,115 @@
       "duration": 19,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.11078326472222,
+      "hours_old": 91.24938286888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1021866",
+      "title": "Answering the Call: Tim Schmidt, DLA Troop Support",
+      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Sep 04, 2026 01:35 UTC",
+      "timestamp": "2026-09-04T01:35:18+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/1021866/answering-call-tim-schmidt-dla-troop-support",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021866/DOD_111951773.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#dlaansweringthecall"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 15,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 91.24938287416667,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1021863",
+      "title": "Answering the Call: Owen Thompson, DLA Information Operations",
+      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Sep 04, 2026 01:35 UTC",
+      "timestamp": "2026-09-04T01:35:18+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/1021863/answering-call-owen-thompson-dla-information-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021863/DOD_111951766.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#dlaansweringthecall"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 16,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 91.2493828788889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1021862",
+      "title": "Answering the Call: Katie Shook, DLA Logistics Operations",
+      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Sep 04, 2026 01:35 UTC",
+      "timestamp": "2026-09-04T01:35:18+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/1021862/answering-call-katie-shook-dla-logistics-operations",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021862/DOD_111951764.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#dlaansweringthecall"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 18,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 91.24938288416666,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1021861",
+      "title": "Answering the Call: Kedric Jones, DLA Weapons Support",
+      "description": "Every mission starts with a call. Every day, DLA employees answer it.\n\nHear what answering the call to support the mission means to the people who make it happen.\n\n#DLADelivers #AnswerTheCall #Logistics #MissionReady #WarfighterSupport",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "Defense Logistics Agency",
+      "date_published": "Sep 04, 2026 01:35 UTC",
+      "timestamp": "2026-09-04T01:35:18+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/video/1021861/answering-call-kedric-jones-dla-weapons-support",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2609/1021861/DOD_111951749.0000001/122x92_q95.jpg",
+      "keywords": [
+        "#dlaansweringthecall"
+      ],
+      "credit": "Nutan Chada",
+      "duration": 14,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 91.24938288916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6558,7 +6588,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 87.94874938277778,
+      "hours_old": 92.08735624361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6585,7 +6615,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06115011916667,
+      "hours_old": 92.19975382805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6612,7 +6642,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06115012416666,
+      "hours_old": 92.19975383361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6639,7 +6669,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.0611501286111,
+      "hours_old": 92.19975383805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6666,7 +6696,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06142791055555,
+      "hours_old": 92.20003162027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6693,7 +6723,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06142791472222,
+      "hours_old": 92.20003162472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6720,7 +6750,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06142791888888,
+      "hours_old": 92.20003162916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6752,7 +6782,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 88.06142792277777,
+      "hours_old": 92.20003163388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6781,7 +6811,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 88.41494991361112,
+      "hours_old": 92.55354956111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6806,7 +6836,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.60450591055555,
+      "hours_old": 93.7431454,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6838,7 +6868,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.69645016694444,
+      "hours_old": 93.83508966611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6870,7 +6900,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.3667448661111,
+      "hours_old": 94.50542268638888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6902,7 +6932,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 90.48506126277778,
+      "hours_old": 94.62370075944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6927,7 +6957,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.10783898555556,
+      "hours_old": 96.24647847333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6952,7 +6982,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.23867235444445,
+      "hours_old": 96.37731183666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6983,7 +7013,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.29819373027777,
+      "hours_old": 97.43680062805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7008,7 +7038,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.59291597666667,
+      "hours_old": 97.73152281777779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7039,7 +7069,7 @@
       "duration": 94,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 93.74738699694444,
+      "hours_old": 97.88601605777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7069,7 +7099,7 @@
       "duration": 46,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 94.3932196725,
+      "hours_old": 98.53190519111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7099,7 +7129,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.42847152527777,
+      "hours_old": 98.56707834055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7133,7 +7163,7 @@
       "duration": 80,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 94.54383893277777,
+      "hours_old": 98.68243886694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7158,7 +7188,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.56561677472223,
+      "hours_old": 98.70425625972221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7188,7 +7218,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.97422789861112,
+      "hours_old": 99.11286738194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7216,7 +7246,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.98291598694445,
+      "hours_old": 99.12152280805554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7245,7 +7275,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 95.0909715,
+      "hours_old": 99.22957834777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7277,7 +7307,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 95.24533907722223,
+      "hours_old": 99.38397857583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7304,7 +7334,7 @@
       "duration": 10,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 95.91494997416666,
+      "hours_old": 100.05354960166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7335,7 +7365,7 @@
       "duration": 94,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 95.98133872555556,
+      "hours_old": 100.11993835333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7365,7 +7395,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.68700579527778,
+      "hours_old": 100.82564529277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7392,7 +7422,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 96.77800540138888,
+      "hours_old": 100.91660502916666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7424,7 +7454,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.9304158788889,
+      "hours_old": 101.06902274472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7453,7 +7483,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.03819373833335,
+      "hours_old": 101.17680061416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7482,7 +7512,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.08736037472222,
+      "hours_old": 101.2259672725,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7513,7 +7543,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.138116845,
+      "hours_old": 101.27675634388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7540,7 +7570,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 97.16283931999999,
+      "hours_old": 101.30147881305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7569,7 +7599,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 97.82097142611111,
+      "hours_old": 101.95957826555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7594,7 +7624,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.88785598888889,
+      "hours_old": 102.02653380972221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7622,7 +7652,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.93374949916667,
+      "hours_old": 102.07235636527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7647,7 +7677,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 98.25230044027778,
+      "hours_old": 102.39097826166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7674,7 +7704,7 @@
       "duration": 15,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.59800555666666,
+      "hours_old": 102.73660516222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7701,7 +7731,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.7146720261111,
+      "hours_old": 102.853271655,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7728,7 +7758,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.71467203833332,
+      "hours_old": 102.85327166666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7755,7 +7785,7 @@
       "duration": 136,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.71467204944445,
+      "hours_old": 102.8532716775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7787,7 +7817,7 @@
       "duration": 110,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.77574087444444,
+      "hours_old": 102.91438162666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7812,7 +7842,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 98.90847147833333,
+      "hours_old": 103.04707835583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7843,7 +7873,7 @@
       "duration": 121,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 98.92821962805556,
+      "hours_old": 103.06690513583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7875,7 +7905,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 99.070227735,
+      "hours_old": 103.20882735472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7907,7 +7937,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 99.07050552222223,
+      "hours_old": 103.20910514138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7937,7 +7967,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.09236034277778,
+      "hours_old": 103.23096720666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7969,7 +7999,7 @@
       "duration": 243,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 99.44377590055555,
+      "hours_old": 103.58240495694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8000,7 +8030,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.52172824083333,
+      "hours_old": 103.66036773277779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8030,7 +8060,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.67374921972221,
+      "hours_old": 103.81235608694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8059,7 +8089,7 @@
       "duration": 13,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 100.62856109,
+      "hours_old": 104.76716072250001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8087,7 +8117,7 @@
       "duration": 8,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 100.62883887305556,
+      "hours_old": 104.76743850527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8121,7 +8151,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 101.14495004944445,
+      "hours_old": 105.28354998388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8153,7 +8183,7 @@
       "duration": 57,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 101.17990750694443,
+      "hours_old": 105.31854823305557,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8183,7 +8213,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 101.720339135,
+      "hours_old": 105.85897863361112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8211,7 +8241,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 102.4782832825,
+      "hours_old": 106.61688292694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8243,7 +8273,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.9508945875,
+      "hours_old": 109.08953406861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8277,7 +8307,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 105.64962966972222,
+      "hours_old": 109.78827040833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8306,7 +8336,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 106.01865014944444,
+      "hours_old": 110.1572538613889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8339,7 +8369,7 @@
       "duration": 49,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 108.78266428555555,
+      "hours_old": 112.92134982055556,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8368,7 +8398,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 110.60180491999999,
+      "hours_old": 114.74041178166668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8397,7 +8427,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 110.95683083305556,
+      "hours_old": 115.09551646833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8427,7 +8457,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 111.00217221194445,
+      "hours_old": 115.14077215138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8460,7 +8490,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 111.07210860138889,
+      "hours_old": 115.21079423750001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8492,7 +8522,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 111.33180494777777,
+      "hours_old": 115.47041180805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8523,7 +8553,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.00867247722222,
+      "hours_old": 117.147311975,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8554,7 +8584,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.28258639833334,
+      "hours_old": 117.42122411666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8581,7 +8611,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.3772835325,
+      "hours_old": 117.5159230313889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8606,7 +8636,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 113.61624932972222,
+      "hours_old": 117.7548561913889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8633,7 +8663,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 113.68161667361112,
+      "hours_old": 117.82021662305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8660,7 +8690,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.57422809333333,
+      "hours_old": 118.71286758972222,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8685,7 +8715,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.03208266777777,
+      "hours_old": 119.17068952944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8716,7 +8746,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.41978359694444,
+      "hours_old": 119.55842310194446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8745,7 +8775,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.54819378361111,
+      "hours_old": 119.68680064527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8770,7 +8800,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 115.94367258444444,
+      "hours_old": 120.08231207361112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8802,39 +8832,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 116.2472835425,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:573662",
-      "title": "Innovators Honored: NIWC Atlantic Earns Three 2026 Etter Awards",
-      "description": "Naval Information Warfare Center Atlantic earned three 2026 Dr. Delores M. Etter Top Scientists and Engineers of the Year Awards for accomplishments spanning high performance computing security, submarine communications and generative artificial intelligence. The honors highlight the persistence, collaboration and technical expertise behind efforts to turn emerging ideas into useful capabilities for the Department of the Navy.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Naval Information Warfare Center Atlantic",
-      "date_published": "Sep 02, 2026 20:07 UTC",
-      "timestamp": "2026-09-02T20:07:50+00:00",
-      "country": "United States",
-      "state": "South Carolina",
-      "city": "North Charleston",
-      "location_display": "North Charleston, South Carolina, United States",
-      "url": "https://www.dvidshub.net/news/573662/innovators-honored-niwc-atlantic-earns-three-2026-etter-awards",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/graphics/2609/44877/122x92_q95.jpg",
-      "keywords": [
-        "department of the navy",
-        "Etter Award",
-        "Submarine Communications",
-        "NIWC Atlantic",
-        "Generative Artificial Intelligence",
-        "cybersecruity"
-      ],
-      "credit": "Justin Peterson",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 116.56645048722223,
+      "hours_old": 120.38592304111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8859,7 +8857,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.09256140166667,
+      "hours_old": 121.23120089944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8891,7 +8889,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.35200583111111,
+      "hours_old": 121.49064531694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8920,7 +8918,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 117.4490529963889,
+      "hours_old": 121.58773850888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8951,7 +8949,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.78950588138889,
+      "hours_old": 121.92814537749999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8981,7 +8979,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.85319387277778,
+      "hours_old": 121.99180073194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9013,7 +9011,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 118.07061696583334,
+      "hours_old": 122.20925646972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9045,7 +9043,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 118.43728355305555,
+      "hours_old": 122.57592305222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9075,7 +9073,7 @@
       "duration": 107,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 118.55379635416666,
+      "hours_old": 122.69243710972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9100,7 +9098,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 118.84533919722222,
+      "hours_old": 122.98397868555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9128,7 +9126,7 @@
       "duration": 94,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 118.94294191055556,
+      "hours_old": 123.08162754888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9153,7 +9151,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.59033923416666,
+      "hours_old": 123.72897872305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9178,7 +9176,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.70097157916666,
+      "hours_old": 123.83957844194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9203,7 +9201,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.71506150972223,
+      "hours_old": 123.85370099805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9233,32 +9231,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.84013829888889,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:573776",
-      "title": "Transitioning to Readiness-Based Leadership Training: Command University's New Approach",
-      "description": "Norfolk Naval Shipyard's Command University is completely revitalizing the approach to readiness-based leadership training to ensure leaders are 'Day 1 Ready.'",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Norfolk Naval Shipyard",
-      "date_published": "Sep 02, 2026 16:42 UTC",
-      "timestamp": "2026-09-02T16:42:55+00:00",
-      "country": "United States",
-      "state": "Virginia",
-      "city": "Portsmouth",
-      "location_display": "Portsmouth, Virginia, United States",
-      "url": "https://www.dvidshub.net/news/573776/transitioning-readiness-based-leadership-training-command-universitys-new-approach",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/graphics/2609/44869/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 119.98172827472222,
+      "hours_old": 123.9787451586111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9288,7 +9261,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.40561707527777,
+      "hours_old": 124.54425656222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9318,7 +9291,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 120.44041618083334,
+      "hours_old": 124.57902304555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9347,7 +9320,7 @@
       "duration": 88,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 121.24856117111112,
+      "hours_old": 125.38716108194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9374,7 +9347,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 121.33117245277778,
+      "hours_old": 125.46981195083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9401,7 +9374,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 121.33228361611111,
+      "hours_old": 125.47092311333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9432,7 +9405,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 122.89013826305556,
+      "hours_old": 127.02874512416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9462,7 +9435,7 @@
       "duration": 33,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 123.20710858888889,
+      "hours_old": 127.34579422555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9492,7 +9465,7 @@
       "duration": 33,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 123.20710859527777,
+      "hours_old": 127.34579423194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9522,7 +9495,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.00652719722221,
+      "hours_old": 128.14513405666668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9549,7 +9522,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.53145050277779,
+      "hours_old": 129.67008997888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9576,7 +9549,7 @@
       "duration": 12,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 126.23460874999999,
+      "hours_old": 130.37329427305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9606,7 +9579,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.03458291083334,
+      "hours_old": 131.17318977305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9631,7 +9604,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.89624947416667,
+      "hours_old": 135.03485634,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9656,7 +9629,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.76430495694444,
+      "hours_old": 135.9029118161111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9686,7 +9659,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 133.6992281986111,
+      "hours_old": 137.83786769138888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9717,7 +9690,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 135.21783927666667,
+      "hours_old": 139.35647876527779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9746,7 +9719,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 137.4395226813889,
+      "hours_old": 141.57820050277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9776,7 +9749,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 138.02856114972224,
+      "hours_old": 142.16716110194446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9806,7 +9779,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 138.02958277083334,
+      "hours_old": 142.16818963583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9840,7 +9813,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 138.163471745,
+      "hours_old": 142.30207863944446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9872,7 +9845,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.52819389972223,
+      "hours_old": 143.66680076583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9900,7 +9873,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 139.85874946527778,
+      "hours_old": 143.9973563313889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9932,7 +9905,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 140.02402722055555,
+      "hours_old": 144.1626340863889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9963,7 +9936,7 @@
       "duration": 67,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 140.41738646583335,
+      "hours_old": 144.55607188305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10001,7 +9974,7 @@
       "duration": 64,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 140.47689447527776,
+      "hours_old": 144.61549444083332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10033,7 +10006,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 140.51033934027777,
+      "hours_old": 144.64897883166668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10062,7 +10035,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 140.6317281488889,
+      "hours_old": 144.77036763750002,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10094,7 +10067,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 140.9104162013889,
+      "hours_old": 145.04902307527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10119,7 +10092,32 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 141.3475614922222,
+      "hours_old": 145.48620098,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "news:573689",
+      "title": "NAVFAC Seeks Industrialized Construction Solutions for New Barracks at Marine Corps Base Camp Pendleton",
+      "description": "Naval Facilities Engineering Systems Command (NAVFAC) released an Other Transaction Authority (OTA) notice on Aug. 28, soliciting white papers from commercial vendors on industrialized construction solutions for new barracks supporting Barracks 2030, a priority for the Commandant of the Marine Corps aimed at improving quality of life for Marines.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Naval Facilities Engineering Systems Command HQ",
+      "date_published": "Sep 01, 2026 19:19 UTC",
+      "timestamp": "2026-09-01T19:19:15+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "",
+      "location_display": "United States",
+      "url": "https://www.dvidshub.net/news/573689/navfac-seeks-industrialized-construction-solutions-new-barracks-marine-corps-base-camp-pendleton",
+      "thumbnail_url": "",
+      "keywords": [],
+      "credit": "Kathleen Roberts",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 145.51481220833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10148,7 +10146,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.89738645861112,
+      "hours_old": 146.03607198527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10177,7 +10175,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.89794200527777,
+      "hours_old": 146.03662753361112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10206,7 +10204,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.8987753272222,
+      "hours_old": 146.03746085944442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10235,7 +10233,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.89933087444444,
+      "hours_old": 146.0380164052778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10264,7 +10262,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.89988641944444,
+      "hours_old": 146.03857194944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10293,7 +10291,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.90071974305556,
+      "hours_old": 146.03940527305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10322,7 +10320,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.90127528611112,
+      "hours_old": 146.03996080583335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10352,7 +10350,7 @@
       "duration": 33,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 141.90210870444446,
+      "hours_old": 146.04079412166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10382,7 +10380,7 @@
       "duration": 33,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 141.90266425055555,
+      "hours_old": 146.04134966833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10411,7 +10409,7 @@
       "duration": 14,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 141.90349760305554,
+      "hours_old": 146.04218301916666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10436,7 +10434,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 142.45617269555555,
+      "hours_old": 146.59481219444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10463,7 +10461,7 @@
       "duration": 34,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 142.6577278022222,
+      "hours_old": 146.79632774194442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10495,7 +10493,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 142.87152734305556,
+      "hours_old": 147.01013420583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10525,7 +10523,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 143.34902732055556,
+      "hours_old": 147.48763417583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10555,7 +10553,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 143.54702269111112,
+      "hours_old": 147.68570051194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10582,7 +10580,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 144.05958288722223,
+      "hours_old": 148.19818972027775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10611,7 +10609,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 145.10978381277778,
+      "hours_old": 149.24842329805554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10642,7 +10640,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 146.02624948277779,
+      "hours_old": 150.1648563486111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10672,7 +10670,7 @@
       "duration": 93,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 146.5982408525,
+      "hours_old": 150.73688161444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10702,7 +10700,7 @@
       "duration": 4349,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 147.7046297536111,
+      "hours_old": 151.84327049333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10732,7 +10730,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 147.99541615777778,
+      "hours_old": 152.1340230238889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10759,7 +10757,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 148.34700599666667,
+      "hours_old": 152.4856454886111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10791,32 +10789,7 @@
       "duration": 285,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 153.86294205500002,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:573611",
-      "title": "Fort Bragg Department of Public Health Maintains National Accreditation Status through the Public Health Accreditation Board",
-      "description": "FORT BRAGG, N.C., August 13, 2026 -- The Fort Bragg Department of Public Health announced it has successfully completed a rigorous peer-review process to maintain its national accreditation status through the Public Health Accreditation Board (PHAB). In maintaining its accreditation status for another five years, the department has demonstrated that it not only meets PHAB\u2019s strict quality standards but possesses the capacity to continuously evolve, innovate, and drive the future of military publ...",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Womack Army Medical Center",
-      "date_published": "Aug 31, 2026 19:18 UTC",
-      "timestamp": "2026-08-31T19:18:32+00:00",
-      "country": "United States",
-      "state": "North Carolina",
-      "city": "Fort Bragg",
-      "location_display": "Fort Bragg, North Carolina, United States",
-      "url": "https://www.dvidshub.net/news/573611/fort-bragg-department-public-health-maintains-national-accreditation-status-through-public-health-accreditation-board",
-      "thumbnail_url": "",
-      "keywords": [],
-      "credit": "Jesse Leger",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 165.38986070083334,
+      "hours_old": 158.00162743,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10851,7 +10824,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.895832609166667,
+      "hours_old": 10.034310357777779,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -10886,7 +10859,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.8988881794444445,
+      "hours_old": 10.037365928055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -10921,7 +10894,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 5.902777078888889,
+      "hours_old": 10.041254827222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -10948,7 +10921,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 5.9069437533333335,
+      "hours_old": 10.045421502222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -10982,7 +10955,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.603054870277778,
+      "hours_old": 10.741532619166666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11016,7 +10989,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.609443765833333,
+      "hours_old": 10.747921514444444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11050,7 +11023,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.620554881944445,
+      "hours_old": 10.759032630555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11084,7 +11057,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 6.624165998333334,
+      "hours_old": 10.762643747222223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11113,7 +11086,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.87270786,
+      "hours_old": 11.011076065833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11142,7 +11115,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.872985650833333,
+      "hours_old": 11.0113538575,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11171,7 +11144,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.873263435277778,
+      "hours_old": 11.011631641944446,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11200,7 +11173,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.873263440833333,
+      "hours_old": 11.011631647777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11229,7 +11202,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.87354122361111,
+      "hours_old": 11.011909430833335,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11258,7 +11231,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.873541228333334,
+      "hours_old": 11.011909435833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11287,7 +11260,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911319010555555,
+      "hours_old": 11.04968721861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11316,7 +11289,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911319015,
+      "hours_old": 11.049687223333333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11345,7 +11318,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.91131902,
+      "hours_old": 11.049687228055557,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11374,7 +11347,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.9115968025,
+      "hours_old": 11.049965010833334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11403,7 +11376,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911596806944444,
+      "hours_old": 11.049965015555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11432,7 +11405,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.9115968116666675,
+      "hours_old": 11.049965020277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11461,7 +11434,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911874593888889,
+      "hours_old": 11.050242802777777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11490,7 +11463,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911874598611111,
+      "hours_old": 11.050242807222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11519,7 +11492,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.911874603055556,
+      "hours_old": 11.050242811666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11548,7 +11521,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.9121523852777775,
+      "hours_old": 11.050520594166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11577,7 +11550,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.91215239,
+      "hours_old": 11.05052059861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11606,7 +11579,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 6.912152394722222,
+      "hours_old": 11.050520603333334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11640,7 +11613,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.011487418611111,
+      "hours_old": 11.149942566666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11674,7 +11647,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.018431876666667,
+      "hours_old": 11.15688702361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11708,7 +11681,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.026487438888889,
+      "hours_old": 11.16494258638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11742,7 +11715,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.034265221944445,
+      "hours_old": 11.172720369444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11776,7 +11749,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.044265226388888,
+      "hours_old": 11.182720374444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11811,7 +11784,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.054265230833334,
+      "hours_old": 11.192720379166666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11846,7 +11819,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.0545430172222225,
+      "hours_old": 11.192998165555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11881,7 +11854,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.054543023888889,
+      "hours_old": 11.192998172500001,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11916,7 +11889,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.054543029166667,
+      "hours_old": 11.192998178055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11951,7 +11924,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.054820813055556,
+      "hours_old": 11.193275961666668,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11986,7 +11959,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.054820818333333,
+      "hours_old": 11.193275967222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12022,7 +11995,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 7.0909319349999995,
+      "hours_old": 11.22938708388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12051,7 +12024,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.787777114722225,
+      "hours_old": 39.92625486361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12080,7 +12053,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.81499934166666,
+      "hours_old": 39.95347709055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12109,7 +12082,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.823888235,
+      "hours_old": 39.96236598416667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12138,7 +12111,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.83638824138889,
+      "hours_old": 39.97486599027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12167,7 +12140,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.850277135,
+      "hours_old": 39.98875488388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12196,7 +12169,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 35.868610472777775,
+      "hours_old": 40.00708822194445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12231,7 +12204,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.273207965000005,
+      "hours_old": 40.41169286583334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12264,7 +12237,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.92212285083333,
+      "hours_old": 41.06062292166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12297,7 +12270,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.922122869999995,
+      "hours_old": 41.06062293583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12330,7 +12303,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.92212287833334,
+      "hours_old": 41.060622943611115,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12363,7 +12336,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.92212288361112,
+      "hours_old": 41.06062294944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12396,7 +12369,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.922122890000004,
+      "hours_old": 41.06062295583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12427,7 +12400,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.92212289972222,
+      "hours_old": 41.06062297305555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12458,7 +12431,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.92212290722222,
+      "hours_old": 41.06062298138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12489,7 +12462,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 36.92212291305556,
+      "hours_old": 41.060622987222224,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12520,7 +12493,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 36.92212291944445,
+      "hours_old": 41.06062299388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12556,7 +12529,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.18426527361112,
+      "hours_old": 47.322720422500005,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12592,7 +12565,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.20704305722222,
+      "hours_old": 47.34549820638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12628,7 +12601,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.21537639638889,
+      "hours_old": 47.35383154694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12664,7 +12637,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.27482084611111,
+      "hours_old": 47.41327599694445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12700,7 +12673,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.29482085111111,
+      "hours_old": 47.433276002499994,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12736,7 +12709,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.575098633611105,
+      "hours_old": 47.713553785,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12772,7 +12745,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.575376416666664,
+      "hours_old": 47.713831568055554,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12808,7 +12781,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.63204308833333,
+      "hours_old": 47.77049824555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12844,7 +12817,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.782598649444445,
+      "hours_old": 47.92105380722222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12880,7 +12853,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.79120976555556,
+      "hours_old": 47.92966492361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12914,7 +12887,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.878987548611114,
+      "hours_old": 48.017442706666664,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12948,7 +12921,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.91954310944445,
+      "hours_old": 48.0579982675,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12983,7 +12956,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 43.96648756194444,
+      "hours_old": 48.10494271666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13018,42 +12991,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 57.82815423527778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George Washington (CVN 73)"
-      ]
-    },
-    {
-      "id": "image:9914755",
-      "title": "George Washington Hosts a Game Night",
-      "description": "U.S. Sailors participate in a Morale, Welfare, and...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Sep 05, 2026 06:46 UTC",
-      "timestamp": "2026-09-05T06:46:19+00:00",
-      "country": "U.S. 5th Fleet area of responsibility",
-      "state": "",
-      "city": "",
-      "location_display": "U.S. 5th Fleet area of responsibility",
-      "url": "https://www.dvidshub.net/image/9914755/george-washington-hosts-game-night",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9914755/122x92_q95.jpg",
-      "keywords": [
-        "Play",
-        "USSGW",
-        "CVN 73",
-        "MWR",
-        "5th Fleet"
-      ],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 57.930098683888886,
+      "hours_old": 61.96660938833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13088,7 +13026,42 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 57.93009868888888,
+      "hours_old": 62.068553837222225,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": [
+        "USS George Washington (CVN 73)"
+      ]
+    },
+    {
+      "id": "image:9914755",
+      "title": "George Washington Hosts a Game Night",
+      "description": "U.S. Sailors participate in a Morale, Welfare, and...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "date_published": "Sep 05, 2026 06:46 UTC",
+      "timestamp": "2026-09-05T06:46:19+00:00",
+      "country": "U.S. 5th Fleet area of responsibility",
+      "state": "",
+      "city": "",
+      "location_display": "U.S. 5th Fleet area of responsibility",
+      "url": "https://www.dvidshub.net/image/9914755/george-washington-hosts-game-night",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9914755/122x92_q95.jpg",
+      "keywords": [
+        "Play",
+        "USSGW",
+        "CVN 73",
+        "MWR",
+        "5th Fleet"
+      ],
+      "credit": "NAVCENT Public Affairs",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [
+        "CENTCOM"
+      ],
+      "hours_old": 62.0685538425,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13123,7 +13096,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 57.930098693055555,
+      "hours_old": 62.06855384694445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13158,7 +13131,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.068987586666665,
+      "hours_old": 62.20744274055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13194,7 +13167,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.073987591944444,
+      "hours_old": 62.21244274611111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13229,7 +13202,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.08759870833333,
+      "hours_old": 62.226053863333334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13265,7 +13238,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.13065426805555,
+      "hours_old": 62.26910942361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13301,7 +13274,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.13065427277778,
+      "hours_old": 62.26910942861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13337,7 +13310,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.31287650027778,
+      "hours_old": 62.45133165611111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13373,7 +13346,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.31287650527778,
+      "hours_old": 62.451331661111105,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13409,7 +13382,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.312876510277775,
+      "hours_old": 62.45133166638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13445,7 +13418,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 58.31315429222222,
+      "hours_old": 62.451609448333336,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13476,7 +13449,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.1734685975,
+      "hours_old": 75.31201813666668,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13507,7 +13480,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 80.72800160972223,
+      "hours_old": 84.86644999972224,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13538,7 +13511,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 80.75689051472223,
+      "hours_old": 84.89533890361112,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13574,7 +13547,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.54343207444444,
+      "hours_old": 85.68188723027777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13610,7 +13583,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.88204319027778,
+      "hours_old": 86.02049834638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13646,7 +13619,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.8948209725,
+      "hours_old": 86.03327612916668,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13682,7 +13655,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 81.94120986583334,
+      "hours_old": 86.0796650225,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13709,7 +13682,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 93.54517848055556,
+      "hours_old": 97.68367856083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13736,7 +13709,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 93.54517848583333,
+      "hours_old": 97.68367856944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13763,7 +13736,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 93.54517849083334,
+      "hours_old": 97.68367857472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13794,7 +13767,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 93.54517849555556,
+      "hours_old": 97.68367857944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13827,7 +13800,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 97.34408366027778,
+      "hours_old": 101.48251860166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13860,7 +13833,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 97.34408368416668,
+      "hours_old": 101.48251861833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13893,7 +13866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 97.34436147083332,
+      "hours_old": 101.482796405,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13926,7 +13899,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 97.34436147694446,
+      "hours_old": 101.48279641194443,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13959,7 +13932,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 97.34436148222223,
+      "hours_old": 101.48279641777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13995,7 +13968,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.26704320388887,
+      "hours_old": 110.40549836027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14031,7 +14004,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.2670432088889,
+      "hours_old": 110.40549836555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14067,7 +14040,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.2670432138889,
+      "hours_old": 110.40549837083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14103,7 +14076,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.26704321833334,
+      "hours_old": 110.40549837694445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14137,7 +14110,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.26732100000001,
+      "hours_old": 110.40577616,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14171,7 +14144,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.26732100527778,
+      "hours_old": 110.40577616555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14201,7 +14174,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 115.02184516777777,
+      "hours_old": 119.16034525222223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14231,7 +14204,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 115.02184517305557,
+      "hours_old": 119.1603452575,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14261,7 +14234,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 115.02184517861112,
+      "hours_old": 119.16034526277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14290,7 +14263,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 122.5338190661111,
+      "hours_old": 126.672187275,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14319,7 +14292,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 122.53409684833333,
+      "hours_old": 126.6724650575,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14348,7 +14321,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 122.53409685277778,
+      "hours_old": 126.67246506194445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14377,7 +14350,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 122.53409685722222,
+      "hours_old": 126.67246506666666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14406,7 +14379,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 122.53437463944445,
+      "hours_old": 126.67274284916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14435,7 +14408,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 133.59916603305555,
+      "hours_old": 137.73764378222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14468,7 +14441,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 135.22237465083333,
+      "hours_old": 139.3608595511111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
