@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-07T09:57:14.515499+00:00",
+  "generated": "2026-09-07T16:21:58.903012+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
     {
-      "id": "image:9917099",
-      "title": "John Paul Jones Conducts Security Reaction Force Training",
-      "desc": "A U.S. Sailor observes a security reaction force class...",
+      "id": "image:9917258",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "U.S. Navy Capt. Harish Patel, right, U.S. exercise...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-07T09:49:52+00:00",
-      "url": "https://www.dvidshub.net/image/9917099/john-paul-jones-conducts-security-reaction-force-training",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T14:09:05+00:00",
+      "url": "https://www.dvidshub.net/image/9917258/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9917096",
-      "title": "USS George H.W. Bush Conducts Operations",
-      "desc": "A U.S. Sailor tests a sample of hydraulic fluid aboard...",
-      "type": "image",
+      "id": "news:574044",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "Exercise Phoenix Express, a premier multinational maritime exercise facilitated by U.S. Naval Forces Africa and led by U.S. 6th Fleet, began its 21st iteration at La Goulette Naval Base in Tunisia, Sept. 7.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-07T09:49:51+00:00",
-      "url": "https://www.dvidshub.net/image/9917096/uss-george-hw-bush-conducts-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T13:33:23+00:00",
+      "url": "https://www.dvidshub.net/news/574044/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9917092",
-      "title": "USS George H.W. Bush Conducts Operations",
-      "desc": "A U.S. Sailor unlatches an ALQ-99 aboard Nimitz-class...",
+      "id": "image:9917226",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "U.S. Army Staff Sgt. Robert Bures, left, 412th Civil...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-07T09:49:50+00:00",
-      "url": "https://www.dvidshub.net/image/9917092/uss-george-hw-bush-conducts-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T13:21:02+00:00",
+      "url": "https://www.dvidshub.net/image/9917226/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9917093",
-      "title": "John Paul Jones Sailor Stands Watch",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
+      "id": "image:9917225",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "U.S. Army Capt. Brittany Manquen, 412th Civil Affairs...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-07T09:49:50+00:00",
-      "url": "https://www.dvidshub.net/image/9917093/john-paul-jones-sailor-stands-watch",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T13:21:02+00:00",
+      "url": "https://www.dvidshub.net/image/9917225/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9917090",
-      "title": "USS George H.W. Bush Conducts Operations",
-      "desc": "A U.S. Sailor loosens a fastener to an EA-18G Growler,...",
+      "id": "image:9917224",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "Moroccan and Tunisian military personnel discuss civil...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-07T09:49:49+00:00",
-      "url": "https://www.dvidshub.net/image/9917090/uss-george-hw-bush-conducts-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T13:21:02+00:00",
+      "url": "https://www.dvidshub.net/image/9917224/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
