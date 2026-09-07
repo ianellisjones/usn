@@ -1,33 +1,18 @@
 {
-  "generated": "2026-09-06T18:44:12.922605+00:00",
+  "generated": "2026-09-07T09:57:14.515499+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
-      "id": "news:574034",
-      "title": "Abraham Lincoln Carrier Strike Group departs Thailand",
-      "desc": "PATTAYA, Thailand — Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), flagship of Carrier Strike Group (CSG) 3, and embarked staffs and accompanying strike group units departed Thailand following a scheduled port visit, Sept. 6.",
-      "type": "news",
+      "id": "image:9917099",
+      "title": "John Paul Jones Conducts Security Reaction Force Training",
+      "desc": "A U.S. Sailor observes a security reaction force class...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "Carrier Strike Group Three (CSG 3)",
-      "timestamp": "2026-09-06T04:25:42+00:00",
-      "url": "https://www.dvidshub.net/news/574034/abraham-lincoln-carrier-strike-group-departs-thailand",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1021961",
-      "title": "M/T Kylo Sinking in the Gulf of Oman",
-      "desc": "Video footage of M/T Kylo sinking in the Gulf of Oman, Sept. 5, 2026. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-06T00:40:21+00:00",
-      "url": "https://www.dvidshub.net/video/1021961/m-t-kylo-sinking-gulf-oman",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-07T09:49:52+00:00",
+      "url": "https://www.dvidshub.net/image/9917099/john-paul-jones-conducts-security-reaction-force-training",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1021952",
-      "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
-      "desc": "Video of U.S. Central Command forces striking three Iranian crude oil carriers, Sept. 5, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-05T13:43:01+00:00",
-      "url": "https://www.dvidshub.net/video/1021952/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships",
+      "id": "image:9917096",
+      "title": "USS George H.W. Bush Conducts Operations",
+      "desc": "A U.S. Sailor tests a sample of hydraulic fluid aboard...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-07T09:49:51+00:00",
+      "url": "https://www.dvidshub.net/image/9917096/uss-george-hw-bush-conducts-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "news:574030",
-      "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
-      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces struck three Iranian crude oil carriers, Sept. 5, after the Islamic Revolutionary Guard Corps (IRGC) launched ballistic missiles toward two U.S. Navy warships patrolling regional waters.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-05T13:40:22+00:00",
-      "url": "https://www.dvidshub.net/news/574030/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships",
+      "id": "image:9917092",
+      "title": "USS George H.W. Bush Conducts Operations",
+      "desc": "A U.S. Sailor unlatches an ALQ-99 aboard Nimitz-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-07T09:49:50+00:00",
+      "url": "https://www.dvidshub.net/image/9917092/uss-george-hw-bush-conducts-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +50,29 @@
       "location_display": ""
     },
     {
-      "id": "news:573883",
-      "title": "USSOF Training with CENTCOM partners remain fundamental to successful operations",
-      "desc": "Civil Affairs Teams (CAT) and the Kyrgyz State Border Service (SBS) personnel conduct Mountaineering and Survival SMEE training in the Tash-Kumor region of Kyrgyzstan 15-19 June 2026.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Special Operations Command Central",
-      "timestamp": "2026-09-03T14:52:40+00:00",
-      "url": "https://www.dvidshub.net/news/573883/ussof-training-with-centcom-partners-remain-fundamental-successful-operations",
+      "id": "image:9917093",
+      "title": "John Paul Jones Sailor Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-07T09:49:50+00:00",
+      "url": "https://www.dvidshub.net/image/9917093/john-paul-jones-sailor-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9917090",
+      "title": "USS George H.W. Bush Conducts Operations",
+      "desc": "A U.S. Sailor loosens a fastener to an EA-18G Growler,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-07T09:49:49+00:00",
+      "url": "https://www.dvidshub.net/image/9917090/uss-george-hw-bush-conducts-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
