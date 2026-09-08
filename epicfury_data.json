@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-07T20:16:26.293339+00:00",
+  "generated": "2026-09-08T09:22:04.400227+00:00",
   "news_count": 0,
-  "dvids_count": 18,
+  "dvids_count": 15,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1022014",
+      "title": "USS George H.W. Bush onloads fresh fruit and vegetables during a replenishment-at-sea",
+      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77) receives fresh fruits and vegetables during a replenishment-at-sea, Sept. 4, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy Video)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-08T09:04:11+00:00",
+      "url": "https://www.dvidshub.net/video/1022014/uss-george-hw-bush-onloads-fresh-fruit-and-vegetables-during-replenishment-sea",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9917258",
       "title": "Exercise Phoenix Express 2026 begins in Tunisia",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-09-07T13:21:02+00:00",
       "url": "https://www.dvidshub.net/image/9917225/exercise-phoenix-express-2026-begins-tunisia",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9917224",
-      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
-      "desc": "Moroccan and Tunisian military personnel discuss civil...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-07T13:21:02+00:00",
-      "url": "https://www.dvidshub.net/image/9917224/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
