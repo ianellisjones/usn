@@ -1,24 +1,9 @@
 {
-  "generated": "2026-09-08T15:01:20.722601+00:00",
+  "generated": "2026-09-08T19:39:12.672352+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9917400",
-      "title": "USS Boxer, USNS Alan Shepard Conduct VERTREP",
-      "desc": "An H215 Super Puma, attached to Lewis and Clark-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-08T09:51:55+00:00",
-      "url": "https://www.dvidshub.net/image/9917400/uss-boxer-usns-alan-shepard-conduct-vertrep",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1022014",
       "title": "USS George H.W. Bush onloads fresh fruit and vegetables during a replenishment-at-sea",
@@ -73,6 +58,21 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-09-07T13:21:02+00:00",
       "url": "https://www.dvidshub.net/image/9917226/exercise-phoenix-express-2026-begins-tunisia",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9917225",
+      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
+      "desc": "U.S. Army Capt. Brittany Manquen, 412th Civil Affairs...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-07T13:21:02+00:00",
+      "url": "https://www.dvidshub.net/image/9917225/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
