@@ -1,9 +1,54 @@
 {
-  "generated": "2026-09-08T19:39:12.672352+00:00",
+  "generated": "2026-09-09T09:23:47.741404+00:00",
   "news_count": 0,
-  "dvids_count": 8,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1022167",
+      "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+      "desc": "M/T Riesco sinks in the Gulf of Oman, Sept. 8, after being destroyed by CENTCOM forces in response to attempted IRGC attacks on a U.S. Navy warship. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-09T01:39:59+00:00",
+      "url": "https://www.dvidshub.net/video/1022167/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1022155",
+      "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+      "desc": "U.S. Central Command (CENTCOM) forces destroyed five Iranian crude oil carriers, Sept. 8, after the Islamic Revolutionary Guard Corps (IRGC) targeted a U.S. Navy warship with ballistic missiles twice over the past two days. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-08T22:13:39+00:00",
+      "url": "https://www.dvidshub.net/video/1022155/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:574128",
+      "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces destroyed five Iranian crude oil carriers, Sept. 8, after the Islamic Revolutionary Guard Corps (IRGC) targeted a U.S. Navy warship with ballistic missiles twice over the past two days.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-08T22:12:17+00:00",
+      "url": "https://www.dvidshub.net/news/574128/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1022014",
       "title": "USS George H.W. Bush onloads fresh fruit and vegetables during a replenishment-at-sea",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-09-07T14:09:05+00:00",
       "url": "https://www.dvidshub.net/image/9917258/exercise-phoenix-express-2026-begins-tunisia",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:574044",
-      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
-      "desc": "Exercise Phoenix Express, a premier multinational maritime exercise facilitated by U.S. Naval Forces Africa and led by U.S. 6th Fleet, began its 21st iteration at La Goulette Naval Base in Tunisia, Sept. 7.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-07T13:33:23+00:00",
-      "url": "https://www.dvidshub.net/news/574044/exercise-phoenix-express-2026-begins-tunisia",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9917226",
-      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
-      "desc": "U.S. Army Staff Sgt. Robert Bures, left, 412th Civil...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-07T13:21:02+00:00",
-      "url": "https://www.dvidshub.net/image/9917226/exercise-phoenix-express-2026-begins-tunisia",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9917225",
-      "title": "Exercise Phoenix Express 2026 begins in Tunisia",
-      "desc": "U.S. Army Capt. Brittany Manquen, 412th Civil Affairs...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-07T13:21:02+00:00",
-      "url": "https://www.dvidshub.net/image/9917225/exercise-phoenix-express-2026-begins-tunisia",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
