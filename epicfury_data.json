@@ -1,78 +1,78 @@
 {
-  "generated": "2026-09-09T15:03:52.015723+00:00",
+  "generated": "2026-09-09T19:33:25.325166+00:00",
   "news_count": 0,
-  "dvids_count": 17,
+  "dvids_count": 16,
   "news": [],
   "dvids": [
     {
+      "id": "image:9921412",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Officers from the Tunisian Army conduct chemical,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-09T16:06:52+00:00",
+      "url": "https://www.dvidshub.net/image/9921412/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9921391",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Officers from the Tunisian Army conduct chemical,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-09T16:06:48+00:00",
+      "url": "https://www.dvidshub.net/image/9921391/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9921386",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Officers from the Tunisian Army conduct chemical,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-09T16:06:44+00:00",
+      "url": "https://www.dvidshub.net/image/9921386/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9921377",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Cadets from the Tunisian Naval Academy assist with...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-09T16:06:40+00:00",
+      "url": "https://www.dvidshub.net/image/9921377/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
       "id": "image:9921230",
-      "title": "Phoenix Express 2026",
+      "title": "Allies, partners train together during Phoenix Express 2026",
       "desc": "U.S. Army Chief Warrant Officer 2 Taylor Russell,...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-09-09T14:31:41+00:00",
-      "url": "https://www.dvidshub.net/image/9921230/phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9921227",
-      "title": "Phoenix Express 2026",
-      "desc": "Service members from participating countries prepare a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-09T14:31:40+00:00",
-      "url": "https://www.dvidshub.net/image/9921227/phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9921224",
-      "title": "Phoenix Express 2026",
-      "desc": "Members of the Tunisian Navy use augmented reality...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-09T14:31:40+00:00",
-      "url": "https://www.dvidshub.net/image/9921224/phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9921223",
-      "title": "Phoenix Express 2026",
-      "desc": "Members of the Tunisian Navy observe a Lightfish...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-09T14:31:40+00:00",
-      "url": "https://www.dvidshub.net/image/9921223/phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9921218",
-      "title": "Express 2026",
-      "desc": "Service members from participating countries pose for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-09T14:31:39+00:00",
-      "url": "https://www.dvidshub.net/image/9921218/express-2026",
+      "url": "https://www.dvidshub.net/image/9921230/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
