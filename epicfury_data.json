@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-11T14:56:42.884678+00:00",
+  "generated": "2026-09-11T19:21:04.240899+00:00",
   "news_count": 0,
-  "dvids_count": 25,
+  "dvids_count": 21,
   "news": [],
   "dvids": [
+    {
+      "id": "news:574394",
+      "title": "USS Boxer Holds 9/11 Remembrance Ceremony",
+      "desc": "A U.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary Unit, recognized the 25th anniversary of the Sept. 11 attacks with a remembrance ceremony on the ship’s mess deck, Sept. 11, 2026.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-11T18:59:46+00:00",
+      "url": "https://www.dvidshub.net/news/574394/uss-boxer-holds-9-11-remembrance-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1022594",
       "title": "Allies, partners train together during Phoenix Express 2026",
@@ -20,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9927026",
+      "id": "image:9926975",
       "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Algerian Navy participates in a visit,...",
+      "desc": "Combined military personnel conduct visit, board, search...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:02+00:00",
-      "url": "https://www.dvidshub.net/image/9927026/allies-partners-train-together-during-phoenix-express-2026",
+      "timestamp": "2026-09-11T13:34:00+00:00",
+      "url": "https://www.dvidshub.net/image/9926975/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9927024",
+      "id": "image:9926972",
       "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Georgian Coast Guard participates in a...",
+      "desc": "Combined military personnel conduct visit, board, search...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:02+00:00",
-      "url": "https://www.dvidshub.net/image/9927024/allies-partners-train-together-during-phoenix-express-2026",
+      "timestamp": "2026-09-11T13:34:00+00:00",
+      "url": "https://www.dvidshub.net/image/9926972/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9927022",
+      "id": "image:9926970",
       "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Georgian Coast Guard participates in a...",
+      "desc": "Combined military personnel conduct visit, board, search...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:01+00:00",
-      "url": "https://www.dvidshub.net/image/9927022/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9927021",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Members of the Algerian Navy participate in a visit,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:01+00:00",
-      "url": "https://www.dvidshub.net/image/9927021/allies-partners-train-together-during-phoenix-express-2026",
+      "timestamp": "2026-09-11T13:34:00+00:00",
+      "url": "https://www.dvidshub.net/image/9926970/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
