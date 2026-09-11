@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10T19:20:29.522296+00:00",
+  "generated": "2026-09-11T09:21:32.503222+00:00",
   "news_count": 0,
-  "dvids_count": 14,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -35,47 +35,17 @@
       "location_display": ""
     },
     {
-      "id": "video:1022392",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Military and civilian personnel from 13 nations participate in classroom training during Phoenix Express 2026 in Bizerte, Tunisia, Sept. 9, 2027. Phoenix Express 2026 is a multinational maritime exercise sponsored by U.S. Africa Command and led by U.S. 6th Fleet under U.S. Naval Forces Africa, bring",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-10T15:16:03+00:00",
-      "url": "https://www.dvidshub.net/video/1022392/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9924178",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Algerian Navy searches a training...",
+      "id": "image:9921068",
+      "title": "Lt. Brown Promotion Ceremony on DDG 117",
+      "desc": "Lt. Cmdr. Richard Brown, right, gives a speech during...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-10T14:44:12+00:00",
-      "url": "https://www.dvidshub.net/image/9924178/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-09-09T12:02:39+00:00",
+      "url": "https://www.dvidshub.net/image/9921068/lt-brown-promotion-ceremony-ddg-117",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9924179",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Algerian Navy searches a training...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-10T14:44:08+00:00",
-      "url": "https://www.dvidshub.net/image/9924179/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
