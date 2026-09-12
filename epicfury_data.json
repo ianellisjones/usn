@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-11T19:21:04.240899+00:00",
+  "generated": "2026-09-12T09:01:07.846416+00:00",
   "news_count": 0,
-  "dvids_count": 21,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
@@ -20,62 +20,47 @@
       "location_display": ""
     },
     {
-      "id": "video:1022594",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "U.S. Navy Lt. Cmdr. Michael Severin, intelligence officer for Task Force 66 and officer in charge of 66 Contingent for Phoenix Express 2026, and Tunisian Navy 2nd Lt. Wertani Aymmen, a Tunisian naval cadet, give an interview about Lightfish unmanned surface vessel training during the exercise in Biz",
+      "id": "video:1022576",
+      "title": "NSA Souda Bay 9/11 Ceremony",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (Sept. 11, 2026) Personnel aboard Naval Support Activity Souda Bay reflected on the tragic events of Sept. 11, 2001, with a remembrance run and remembrance ceremony on the 25th anniversary of the 9/11 attacks, September 11, 2026. NSA Souda Bay is an operation",
       "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:55:54+00:00",
-      "url": "https://www.dvidshub.net/video/1022594/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "AFN Souda Bay",
+      "timestamp": "2026-09-11T12:46:58+00:00",
+      "url": "https://www.dvidshub.net/video/1022576/nsa-souda-bay-9-11-ceremony",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9926975",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct visit, board, search...",
-      "type": "image",
+      "id": "news:574382",
+      "title": "USS Oscar Austin Holds Change of Command Ceremony",
+      "desc": "SOUDA BAY, Greece – Cmdr. Gerry Sellars relieved Cmdr. David Nicolas as commanding officer of the Arleigh Burke-class guided missile destroyer USS Oscar Austin (DDG 79) during a change of command ceremony held aboard Oscar Austin on Sept. 10, 2026.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:00+00:00",
-      "url": "https://www.dvidshub.net/image/9926975/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-09-11T11:31:03+00:00",
+      "url": "https://www.dvidshub.net/news/574382/uss-oscar-austin-holds-change-command-ceremony",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9926972",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct visit, board, search...",
-      "type": "image",
+      "id": "video:1022562",
+      "title": "AFN Souda Bay B-Roll - NSA Souda Bay 9/11",
+      "desc": "NAVAL SUPPORT ACTIVITY SOUDA BAY, Greece (Sept. 11, 2026) Personnel aboard Naval Support Activity Souda Bay reflected on the tragic events of Sept. 11, 2001, with a remembrance run and remembrance ceremony on the 25th anniversary of the 9/11 attacks, September 11, 2026. NSA Souda Bay is an operation",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:00+00:00",
-      "url": "https://www.dvidshub.net/image/9926972/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "AFN Souda Bay",
+      "timestamp": "2026-09-11T10:35:32+00:00",
+      "url": "https://www.dvidshub.net/video/1022562/afn-souda-bay-b-roll-nsa-souda-bay-9-11",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9926970",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct visit, board, search...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-11T13:34:00+00:00",
-      "url": "https://www.dvidshub.net/image/9926970/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
