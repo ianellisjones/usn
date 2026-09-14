@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-13T19:05:19.685788+00:00",
+  "generated": "2026-09-14T10:19:54.497102+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 20,
   "news": [],
   "dvids": [
     {
-      "id": "image:9932028",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "An F/A-18 Super Hornet, attached to Strike Fighter...",
+      "id": "image:9930634",
+      "title": "Allies, parters train together during Phoenix Express 2026",
+      "desc": "Combined military personnel use Virtual Regional...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-13T09:06:42+00:00",
-      "url": "https://www.dvidshub.net/image/9932028/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-14T09:43:51+00:00",
+      "url": "https://www.dvidshub.net/image/9930634/allies-parters-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9932026",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "An F/A-18 Super Hornet, attached to Strike Fighter...",
+      "id": "image:9930632",
+      "title": "Allies, parters train together during Phoenix Express 2026",
+      "desc": "Tunisian Navy Commander Zied Boukadida, director of the...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-13T09:06:41+00:00",
-      "url": "https://www.dvidshub.net/image/9932026/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-14T09:43:51+00:00",
+      "url": "https://www.dvidshub.net/image/9930632/allies-parters-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9932025",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "A U.S. Sailor captures photos during flight operations...",
+      "id": "image:9930631",
+      "title": "Allies, parters train together during Phoenix Express 2026",
+      "desc": "Algerian National Navy Commandant Boulfetat Faris stands...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-13T09:06:41+00:00",
-      "url": "https://www.dvidshub.net/image/9932025/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-14T09:43:51+00:00",
+      "url": "https://www.dvidshub.net/image/9930631/allies-parters-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9932027",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "A U.S. Sailor conducts routine flight operations on the...",
+      "id": "image:9930630",
+      "title": "Allies, parters train together during Phoenix Express 2026",
+      "desc": "Chief Logistics Specialist Adam Nelson, left, and...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-13T09:06:41+00:00",
-      "url": "https://www.dvidshub.net/image/9932027/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-14T09:43:50+00:00",
+      "url": "https://www.dvidshub.net/image/9930630/allies-parters-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9932021",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "An F/A-18 Super Hornet, attached to Strike Fighter...",
+      "id": "image:9930628",
+      "title": "Allies, parters train together during Phoenix Express 2026",
+      "desc": "Combined military personnel use Virtual Regional...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-13T09:06:40+00:00",
-      "url": "https://www.dvidshub.net/image/9932021/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-14T09:43:50+00:00",
+      "url": "https://www.dvidshub.net/image/9930628/allies-parters-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
