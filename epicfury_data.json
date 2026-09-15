@@ -1,9 +1,54 @@
 {
-  "generated": "2026-09-15T15:30:32.262370+00:00",
+  "generated": "2026-09-15T19:54:59.317510+00:00",
   "news_count": 0,
-  "dvids_count": 35,
+  "dvids_count": 37,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9937966",
+      "title": "Eager Lion 2026 Opening Ceremonies",
+      "desc": "Brig. Gen. William Diprofio, Director of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-15T19:44:00+00:00",
+      "url": "https://www.dvidshub.net/image/9937966/eager-lion-2026-opening-ceremonies",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9937974",
+      "title": "Eager Lion 2026 Opening Ceremonies",
+      "desc": "Brig. Gen. William Diprofio, Director of the Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-15T19:43:22+00:00",
+      "url": "https://www.dvidshub.net/image/9937974/eager-lion-2026-opening-ceremonies",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9937987",
+      "title": "Eager Lion 2026 Opening Ceremonies",
+      "desc": "Brig. Gen. Stephanie Bagley, U.S. Central Command's...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-15T19:41:50+00:00",
+      "url": "https://www.dvidshub.net/image/9937987/eager-lion-2026-opening-ceremonies",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9937395",
       "title": "Allies, partners train together during Phoenix Express 2026",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
       "timestamp": "2026-09-15T14:09:40+00:00",
       "url": "https://www.dvidshub.net/image/9937397/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9937396",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Libyan Navy, right, and U.S. Navy...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-15T14:09:40+00:00",
-      "url": "https://www.dvidshub.net/image/9937396/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9937393",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A member of the Libyan Navy boards Tunisian ship NRF...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-15T14:09:39+00:00",
-      "url": "https://www.dvidshub.net/image/9937393/allies-partners-train-together-during-phoenix-express-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9937392",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "A Force Reconnaissance Marine with Force Reconnaissance...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-15T14:09:39+00:00",
-      "url": "https://www.dvidshub.net/image/9937392/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
