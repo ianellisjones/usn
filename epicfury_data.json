@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-16T15:22:36.938140+00:00",
+  "generated": "2026-09-16T19:47:44.222436+00:00",
   "news_count": 0,
-  "dvids_count": 18,
+  "dvids_count": 25,
   "news": [],
   "dvids": [
     {
-      "id": "image:9940834",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct chemical,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-16T13:22:58+00:00",
-      "url": "https://www.dvidshub.net/image/9940834/allies-partners-train-together-during-phoenix-express-2026",
+      "id": "news:574909",
+      "title": "NY Army Guard's 42nd Infantry Division marks return from Middle East and Operation Epic Fury missions",
+      "desc": "TROY, New York –Five hundred New York Army National Guard Soldiers assigned to the 42nd Infantry who deployed to the Middle East in June of 2025, and eventually conducted combat operations against Iran, were officially welcomed home Sept. 11-13.\n\nDuring a Sept. 11 ceremony at the division’s Troy, Ne",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "New York National Guard",
+      "timestamp": "2026-09-16T19:19:44+00:00",
+      "url": "https://www.dvidshub.net/news/574909/ny-army-guards-42nd-infantry-division-marks-return-middle-east-and-operation-epic-fury-missions",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9940836",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct a tactical...",
+      "id": "image:9941227",
+      "title": "Eager Lion 2026 Command Post Exercise Training",
+      "desc": "Instructors provide training to U.S. military and...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-16T13:22:55+00:00",
-      "url": "https://www.dvidshub.net/image/9940836/allies-partners-train-together-during-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-16T17:09:59+00:00",
+      "url": "https://www.dvidshub.net/image/9941227/eager-lion-2026-command-post-exercise-training",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9940838",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct a tactical...",
+      "id": "image:9941222",
+      "title": "Eager Lion 2026 Cyber Training Exercise",
+      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-16T13:22:51+00:00",
-      "url": "https://www.dvidshub.net/image/9940838/allies-partners-train-together-during-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-16T17:09:13+00:00",
+      "url": "https://www.dvidshub.net/image/9941222/eager-lion-2026-cyber-training-exercise",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9940828",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct chemical,...",
-      "type": "image",
+      "id": "video:1023216",
+      "title": "USS Boxer Sailors Conduct Energized Work",
+      "desc": "U.S. Sailors assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) conduct maintenance on energized equipment in the ship’s aft compressor room, Sept. 14, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. ",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-16T13:22:40+00:00",
-      "url": "https://www.dvidshub.net/image/9940828/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T16:04:34+00:00",
+      "url": "https://www.dvidshub.net/video/1023216/uss-boxer-sailors-conduct-energized-work",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9940826",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct visit, board, search...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-16T13:22:39+00:00",
-      "url": "https://www.dvidshub.net/image/9940826/allies-partners-train-together-during-phoenix-express-2026",
+      "id": "news:574857",
+      "title": "The Tarheel Paymasters are on the Move",
+      "desc": "Siler City, N.C.- North Carolina National Guard Leaders and Soldiers from the Headquarters and Headquarters Detachment, 130th Theater Finance Battalion, also known as the “Tarheel Paymasters”, conducted a mobilization ceremony at Jordan-Matthews High School in Siler City, N.C., Sept. 13, 2026. The c",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "North Carolina National Guard",
+      "timestamp": "2026-09-16T16:03:57+00:00",
+      "url": "https://www.dvidshub.net/news/574857/tarheel-paymasters-move",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
