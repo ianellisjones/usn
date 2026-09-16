@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-15T19:54:59.317510+00:00",
+  "generated": "2026-09-16T09:40:42.190955+00:00",
   "news_count": 0,
-  "dvids_count": 37,
+  "dvids_count": 29,
   "news": [],
   "dvids": [
     {
-      "id": "image:9937966",
-      "title": "Eager Lion 2026 Opening Ceremonies",
-      "desc": "Brig. Gen. William Diprofio, Director of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-15T19:44:00+00:00",
-      "url": "https://www.dvidshub.net/image/9937966/eager-lion-2026-opening-ceremonies",
+      "id": "video:1023158",
+      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
+      "desc": "U.S. Sailors fire M4 rifles during a small arms live-fire exercise on the flight deck aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sept. 14, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle E",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T05:46:05+00:00",
+      "url": "https://www.dvidshub.net/video/1023158/john-finn-conducts-small-arms-live-fire-exercise",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9937974",
-      "title": "Eager Lion 2026 Opening Ceremonies",
-      "desc": "Brig. Gen. William Diprofio, Director of the Joint...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-15T19:43:22+00:00",
-      "url": "https://www.dvidshub.net/image/9937974/eager-lion-2026-opening-ceremonies",
+      "id": "video:1023157",
+      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
+      "desc": "U.S. Sailors fire M4 rifles during a small arms live-fire exercise on the flight deck aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sept. 14, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle E",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T05:45:19+00:00",
+      "url": "https://www.dvidshub.net/video/1023157/john-finn-conducts-small-arms-live-fire-exercise",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,47 +35,47 @@
       "location_display": ""
     },
     {
-      "id": "image:9937987",
-      "title": "Eager Lion 2026 Opening Ceremonies",
-      "desc": "Brig. Gen. Stephanie Bagley, U.S. Central Command's...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-15T19:41:50+00:00",
-      "url": "https://www.dvidshub.net/image/9937987/eager-lion-2026-opening-ceremonies",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9937395",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "From right, A member of the Libyan Navy and U.S. Navy...",
+      "id": "image:9940347",
+      "title": "Replenishment-at-Sea Aboard USS Mason (DDG 87)",
+      "desc": "A U.S. Sailor communicates via a sound-powered telephone...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-15T14:09:40+00:00",
-      "url": "https://www.dvidshub.net/image/9937395/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T05:43:47+00:00",
+      "url": "https://www.dvidshub.net/image/9940347/replenishment-sea-aboard-uss-mason-ddg-87",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9937397",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "U.S. Navy Hospital Corpsman 2nd Class Brad Carroll, a...",
+      "id": "image:9939303",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-15T14:09:40+00:00",
-      "url": "https://www.dvidshub.net/image/9937397/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T05:43:46+00:00",
+      "url": "https://www.dvidshub.net/image/9939303/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9939300",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-16T05:43:46+00:00",
+      "url": "https://www.dvidshub.net/image/9939300/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
       ],
       "location_display": ""
     }
