@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-16T09:40:42.190955+00:00",
+  "generated": "2026-09-16T15:22:36.938140+00:00",
   "news_count": 0,
-  "dvids_count": 29,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
     {
-      "id": "video:1023158",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "U.S. Sailors fire M4 rifles during a small arms live-fire exercise on the flight deck aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sept. 14, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle E",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T05:46:05+00:00",
-      "url": "https://www.dvidshub.net/video/1023158/john-finn-conducts-small-arms-live-fire-exercise",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1023157",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "U.S. Sailors fire M4 rifles during a small arms live-fire exercise on the flight deck aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sept. 14, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle E",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T05:45:19+00:00",
-      "url": "https://www.dvidshub.net/video/1023157/john-finn-conducts-small-arms-live-fire-exercise",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9940347",
-      "title": "Replenishment-at-Sea Aboard USS Mason (DDG 87)",
-      "desc": "A U.S. Sailor communicates via a sound-powered telephone...",
+      "id": "image:9940834",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct chemical,...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T05:43:47+00:00",
-      "url": "https://www.dvidshub.net/image/9940347/replenishment-sea-aboard-uss-mason-ddg-87",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-16T13:22:58+00:00",
+      "url": "https://www.dvidshub.net/image/9940834/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9939303",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "id": "image:9940836",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct a tactical...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T05:43:46+00:00",
-      "url": "https://www.dvidshub.net/image/9939303/john-finn-stands-watch",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-16T13:22:55+00:00",
+      "url": "https://www.dvidshub.net/image/9940836/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9939300",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "id": "image:9940838",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct a tactical...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T05:43:46+00:00",
-      "url": "https://www.dvidshub.net/image/9939300/john-finn-stands-watch",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-16T13:22:51+00:00",
+      "url": "https://www.dvidshub.net/image/9940838/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9940828",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct chemical,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-16T13:22:40+00:00",
+      "url": "https://www.dvidshub.net/image/9940828/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9940826",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct visit, board, search...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-16T13:22:39+00:00",
+      "url": "https://www.dvidshub.net/image/9940826/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
