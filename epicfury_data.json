@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-17T09:49:08.345153+00:00",
+  "generated": "2026-09-17T15:29:36.964092+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
     {
-      "id": "news:574909",
-      "title": "NY Army Guard's 42nd Infantry Division marks return from Middle East and Operation Epic Fury missions",
-      "desc": "TROY, New York –Five hundred New York Army National Guard Soldiers assigned to the 42nd Infantry who deployed to the Middle East in June of 2025, and eventually conducted combat operations against Iran, were officially welcomed home Sept. 11-13.\n\nDuring a Sept. 11 ceremony at the division’s Troy, Ne",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "New York National Guard",
-      "timestamp": "2026-09-16T19:19:44+00:00",
-      "url": "https://www.dvidshub.net/news/574909/ny-army-guards-42nd-infantry-division-marks-return-middle-east-and-operation-epic-fury-missions",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9941227",
-      "title": "Eager Lion 2026 Command Post Exercise Training",
-      "desc": "Instructors provide training to U.S. military and...",
+      "id": "image:9944109",
+      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
+      "desc": "U.S. Navy Lt. Cmdr. Michael Severin, center,...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-16T17:09:59+00:00",
-      "url": "https://www.dvidshub.net/image/9941227/eager-lion-2026-command-post-exercise-training",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-17T14:21:04+00:00",
+      "url": "https://www.dvidshub.net/image/9944109/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9941222",
-      "title": "Eager Lion 2026 Cyber Training Exercise",
-      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
+      "id": "image:9944110",
+      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
+      "desc": "Nate Clements, right, a drone operator for Commander,...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-16T17:09:13+00:00",
-      "url": "https://www.dvidshub.net/image/9941222/eager-lion-2026-cyber-training-exercise",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-17T14:20:40+00:00",
+      "url": "https://www.dvidshub.net/image/9944110/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:574857",
-      "title": "The Tarheel Paymasters are on the Move",
-      "desc": "Siler City, N.C.- North Carolina National Guard Leaders and Soldiers from the Headquarters and Headquarters Detachment, 130th Theater Finance Battalion, also known as the “Tarheel Paymasters”, conducted a mobilization ceremony at Jordan-Matthews High School in Siler City, N.C., Sept. 13, 2026. The c",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "North Carolina National Guard",
-      "timestamp": "2026-09-16T16:03:57+00:00",
-      "url": "https://www.dvidshub.net/news/574857/tarheel-paymasters-move",
+      "id": "image:9944111",
+      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
+      "desc": "U.S. Navy Vice Adm. J.T. Anderson, second from left,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-17T14:20:20+00:00",
+      "url": "https://www.dvidshub.net/image/9944111/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:574840",
-      "title": "CENTCOM Hosts Jordan for Exercise Eager Lion in Colorado",
-      "desc": "On Sept. 15, U.S. Central Command (CENTCOM) and the Jordanian Armed Forces kicked off exercise Eager Lion 2026 at Fort Carson in Colorado.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-16T12:32:20+00:00",
-      "url": "https://www.dvidshub.net/news/574840/centcom-hosts-jordan-exercise-eager-lion-colorado",
+      "id": "image:9944112",
+      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
+      "desc": "U.S Navy Vice Adm. J.T. Anderson, left, commander of...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-17T14:20:04+00:00",
+      "url": "https://www.dvidshub.net/image/9944112/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9944113",
+      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
+      "desc": "U.S. Navy Vice Adm. J.T. Anderson, left, commander of...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-17T14:19:34+00:00",
+      "url": "https://www.dvidshub.net/image/9944113/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
