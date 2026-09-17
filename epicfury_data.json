@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-17T15:29:36.964092+00:00",
+  "generated": "2026-09-17T19:56:09.031569+00:00",
   "news_count": 0,
-  "dvids_count": 18,
+  "dvids_count": 16,
   "news": [],
   "dvids": [
     {
-      "id": "image:9944109",
-      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
-      "desc": "U.S. Navy Lt. Cmdr. Michael Severin, center,...",
-      "type": "image",
+      "id": "video:1023429",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct various training exercises during Phoenix Express 2026 in Tunisia, Sept. 7-18, 2026. Phoenix Express 2026 is a multinational maritime exercise sponsored by U.S. Africa Command and led by U.S. 6th Fleet under U.S. Naval Forces Africa, bringing together North Africa",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T14:21:04+00:00",
-      "url": "https://www.dvidshub.net/image/9944109/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "timestamp": "2026-09-17T19:35:40+00:00",
+      "url": "https://www.dvidshub.net/video/1023429/allies-partners-train-together-during-phoenix-express-2026",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -20,62 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "image:9944110",
-      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
-      "desc": "Nate Clements, right, a drone operator for Commander,...",
+      "id": "image:9944672",
+      "title": "Eager Lion 26",
+      "desc": "U.S. Military and Jordanian Armed Forces (JAF) high...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T14:20:40+00:00",
-      "url": "https://www.dvidshub.net/image/9944110/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-17T18:08:41+00:00",
+      "url": "https://www.dvidshub.net/image/9944672/eager-lion-26",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9944111",
-      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
-      "desc": "U.S. Navy Vice Adm. J.T. Anderson, second from left,...",
+      "id": "image:9944650",
+      "title": "Eager Lion 26",
+      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T14:20:20+00:00",
-      "url": "https://www.dvidshub.net/image/9944111/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-17T18:08:15+00:00",
+      "url": "https://www.dvidshub.net/image/9944650/eager-lion-26",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9944112",
-      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
-      "desc": "U.S Navy Vice Adm. J.T. Anderson, left, commander of...",
+      "id": "image:9944642",
+      "title": "Eager Lion 26",
+      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T14:20:04+00:00",
-      "url": "https://www.dvidshub.net/image/9944112/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-17T18:08:03+00:00",
+      "url": "https://www.dvidshub.net/image/9944642/eager-lion-26",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9944113",
-      "title": "Commander, U.S. 6th Fleet visits Tunisia for Phoenix Express 2026",
-      "desc": "U.S. Navy Vice Adm. J.T. Anderson, left, commander of...",
+      "id": "image:9944637",
+      "title": "Eager Lion 26",
+      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T14:19:34+00:00",
-      "url": "https://www.dvidshub.net/image/9944113/commander-us-6th-fleet-visits-tunisia-phoenix-express-2026",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-17T18:07:52+00:00",
+      "url": "https://www.dvidshub.net/image/9944637/eager-lion-26",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
