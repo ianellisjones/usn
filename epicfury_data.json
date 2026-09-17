@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T19:47:44.222436+00:00",
+  "generated": "2026-09-17T09:49:08.345153+00:00",
   "news_count": 0,
-  "dvids_count": 25,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
     {
@@ -50,21 +50,6 @@
       "location_display": ""
     },
     {
-      "id": "video:1023216",
-      "title": "USS Boxer Sailors Conduct Energized Work",
-      "desc": "U.S. Sailors assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) conduct maintenance on energized equipment in the ship’s aft compressor room, Sept. 14, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. ",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-16T16:04:34+00:00",
-      "url": "https://www.dvidshub.net/video/1023216/uss-boxer-sailors-conduct-energized-work",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "news:574857",
       "title": "The Tarheel Paymasters are on the Move",
       "desc": "Siler City, N.C.- North Carolina National Guard Leaders and Soldiers from the Headquarters and Headquarters Detachment, 130th Theater Finance Battalion, also known as the “Tarheel Paymasters”, conducted a mobilization ceremony at Jordan-Matthews High School in Siler City, N.C., Sept. 13, 2026. The c",
@@ -73,6 +58,21 @@
       "unit_name": "North Carolina National Guard",
       "timestamp": "2026-09-16T16:03:57+00:00",
       "url": "https://www.dvidshub.net/news/574857/tarheel-paymasters-move",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:574840",
+      "title": "CENTCOM Hosts Jordan for Exercise Eager Lion in Colorado",
+      "desc": "On Sept. 15, U.S. Central Command (CENTCOM) and the Jordanian Armed Forces kicked off exercise Eager Lion 2026 at Fort Carson in Colorado.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-16T12:32:20+00:00",
+      "url": "https://www.dvidshub.net/news/574840/centcom-hosts-jordan-exercise-eager-lion-colorado",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
