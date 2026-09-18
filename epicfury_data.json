@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-17T19:56:09.031569+00:00",
+  "generated": "2026-09-18T09:23:06.632265+00:00",
   "news_count": 0,
-  "dvids_count": 16,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1023462",
+      "title": "Allies, partners train together during Phoenix Express 2026",
+      "desc": "Combined military personnel conduct a military demonstration for distinguished visitors during Phoenix Express 2026 in Bizerte, Tunisia, Sept. 17, 2026. Phoenix Express 2026 is a multinational maritime exercise sponsored by U.S. Africa Command and led by U.S. 6th Fleet under U.S. Naval Forces Africa",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-18T08:13:56+00:00",
+      "url": "https://www.dvidshub.net/video/1023462/allies-partners-train-together-during-phoenix-express-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1023429",
       "title": "Allies, partners train together during Phoenix Express 2026",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-09-17T18:08:03+00:00",
       "url": "https://www.dvidshub.net/image/9944642/eager-lion-26",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9944637",
-      "title": "Eager Lion 26",
-      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-17T18:07:52+00:00",
-      "url": "https://www.dvidshub.net/image/9944637/eager-lion-26",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
