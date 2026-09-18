@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-18T09:23:06.632265+00:00",
+  "generated": "2026-09-18T14:53:30.277500+00:00",
   "news_count": 0,
-  "dvids_count": 14,
+  "dvids_count": 27,
   "news": [],
   "dvids": [
     {
-      "id": "video:1023462",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct a military demonstration for distinguished visitors during Phoenix Express 2026 in Bizerte, Tunisia, Sept. 17, 2026. Phoenix Express 2026 is a multinational maritime exercise sponsored by U.S. Africa Command and led by U.S. 6th Fleet under U.S. Naval Forces Africa",
+      "id": "video:1023546",
+      "title": "AFN Naples Interview - FCC Megyn Forbush",
+      "desc": "260916-N-YQ428-1002 NAPLES, Italy (Sept. 16, 2026) – AFN Naples interview with U.S. Navy Chief Fire Controlman Megyn Forbush, assigned to U.S. 6th Fleet, during a chief pinning ceremony at Naval Support Activity Naples, Italy. (U.S. Navy video by Mass Communication Specialist 2nd Class Andrew McPeek",
       "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-18T08:13:56+00:00",
-      "url": "https://www.dvidshub.net/video/1023462/allies-partners-train-together-during-phoenix-express-2026",
+      "unit_name": "AFN Naples",
+      "timestamp": "2026-09-18T11:23:58+00:00",
+      "url": "https://www.dvidshub.net/video/1023546/afn-naples-interview-fcc-megyn-forbush",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1023429",
-      "title": "Allies, partners train together during Phoenix Express 2026",
-      "desc": "Combined military personnel conduct various training exercises during Phoenix Express 2026 in Tunisia, Sept. 7-18, 2026. Phoenix Express 2026 is a multinational maritime exercise sponsored by U.S. Africa Command and led by U.S. 6th Fleet under U.S. Naval Forces Africa, bringing together North Africa",
-      "type": "video",
+      "id": "image:9947498",
+      "title": "Phoenix Express 2026 concludes in Tunisia",
+      "desc": "Combined military leadership gather for a photo during...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-17T19:35:40+00:00",
-      "url": "https://www.dvidshub.net/video/1023429/allies-partners-train-together-during-phoenix-express-2026",
+      "timestamp": "2026-09-18T11:07:49+00:00",
+      "url": "https://www.dvidshub.net/image/9947498/phoenix-express-2026-concludes-tunisia",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -35,47 +35,47 @@
       "location_display": ""
     },
     {
-      "id": "image:9944672",
-      "title": "Eager Lion 26",
-      "desc": "U.S. Military and Jordanian Armed Forces (JAF) high...",
+      "id": "image:9947497",
+      "title": "Phoenix Express 2026 concludes in Tunisia",
+      "desc": "Tunisian Navy Adm. Adel Jehane, chief of staff of the...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-17T18:08:41+00:00",
-      "url": "https://www.dvidshub.net/image/9944672/eager-lion-26",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-18T11:07:48+00:00",
+      "url": "https://www.dvidshub.net/image/9947497/phoenix-express-2026-concludes-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9944650",
-      "title": "Eager Lion 26",
-      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
+      "id": "image:9947494",
+      "title": "Phoenix Express 2026 concludes in Tunisia",
+      "desc": "U.S. Navy Vice Adm. J.T. Anderson, commander of U.S. 6th...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-17T18:08:15+00:00",
-      "url": "https://www.dvidshub.net/image/9944650/eager-lion-26",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-18T11:07:48+00:00",
+      "url": "https://www.dvidshub.net/image/9947494/phoenix-express-2026-concludes-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9944642",
-      "title": "Eager Lion 26",
-      "desc": "U.S. Military and Jordanian Armed Forces (JAF) personnel...",
+      "id": "image:9947492",
+      "title": "Phoenix Express 2026 concludes in Tunisia",
+      "desc": "U.S. Navy Vice Adm. J.T. Anderson, center, commander of...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-17T18:08:03+00:00",
-      "url": "https://www.dvidshub.net/image/9944642/eager-lion-26",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-18T11:07:47+00:00",
+      "url": "https://www.dvidshub.net/image/9947492/phoenix-express-2026-concludes-tunisia",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     }
