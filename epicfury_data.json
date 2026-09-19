@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-19T09:11:27.665184+00:00",
+  "generated": "2026-09-19T14:17:37.467311+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 17,
   "news": [],
   "dvids": [
     {
-      "id": "image:9947468",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-19T09:02:38+00:00",
-      "url": "https://www.dvidshub.net/image/9947468/john-finn-stands-watch",
+      "id": "video:1023666",
+      "title": "Update from CENTCOM Commander",
+      "desc": "Adm. Brad Cooper, commander of U.S. Central Command, provides an operational update about ongoing missions in the Middle East, Sept. 19, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-19T13:03:29+00:00",
+      "url": "https://www.dvidshub.net/video/1023666/update-centcom-commander",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9947467",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
+      "id": "image:9951108",
+      "title": "John Finn Conducts A Sea-And-Anchor Detail",
+      "desc": "U.S. Sailors handle a line during a sea-and-anchor...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-19T09:02:37+00:00",
-      "url": "https://www.dvidshub.net/image/9947467/john-finn-stands-watch",
+      "timestamp": "2026-09-19T12:54:06+00:00",
+      "url": "https://www.dvidshub.net/image/9951108/john-finn-conducts-sea-and-anchor-detail",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,47 +35,47 @@
       "location_display": ""
     },
     {
-      "id": "image:9951124",
-      "title": "Abraham Lincoln Arrives in Guam",
-      "desc": "U.S. Navy Quartermaster 1st Class Landon Sherrill stands...",
+      "id": "image:9951118",
+      "title": "John Finn Conducts A Sea-And-Anchor Detail",
+      "desc": "U.S. Sailors raise the jackstaff during sea-and-anchor...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-09-19T06:43:25+00:00",
-      "url": "https://www.dvidshub.net/image/9951124/abraham-lincoln-arrives-guam",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-19T12:30:35+00:00",
+      "url": "https://www.dvidshub.net/image/9951118/john-finn-conducts-sea-and-anchor-detail",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9951120",
-      "title": "Abraham Lincoln Arrives in Guam",
-      "desc": "U.S. Navy Boatswain’s Mate Seaman Kolby Jones stands...",
+      "id": "image:9951125",
+      "title": "John Finn Conducts A Sea-And-Anchor Detail",
+      "desc": "U.S. Sailors raise the jackstaff during sea-and-anchor...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-09-19T06:43:25+00:00",
-      "url": "https://www.dvidshub.net/image/9951120/abraham-lincoln-arrives-guam",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-19T12:30:05+00:00",
+      "url": "https://www.dvidshub.net/image/9951125/john-finn-conducts-sea-and-anchor-detail",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9951114",
-      "title": "Abraham Lincoln Arrives in Guam",
-      "desc": "U.S. Navy Cmdr. Patrick Reilly stands watch on the...",
+      "id": "image:9951128",
+      "title": "John Finn Conducts A Sea-And-Anchor Detail",
+      "desc": "]U.S. Sailors man the pilot's ladder during a...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-09-19T06:43:25+00:00",
-      "url": "https://www.dvidshub.net/image/9951114/abraham-lincoln-arrives-guam",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-19T12:25:47+00:00",
+      "url": "https://www.dvidshub.net/image/9951128/john-finn-conducts-sea-and-anchor-detail",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     }
