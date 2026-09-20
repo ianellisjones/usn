@@ -1,9 +1,54 @@
 {
-  "generated": "2026-09-20T14:38:31.682605+00:00",
+  "generated": "2026-09-20T19:10:37.563599+00:00",
   "news_count": 0,
-  "dvids_count": 15,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9951919",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "A U.S. Sailor conducts maintenance aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-20T18:40:53+00:00",
+      "url": "https://www.dvidshub.net/image/9951919/delbert-d-black-sailors-conduct-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9951920",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "U.S. Sailors load a Mark 54 lightweight torpedo into a...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-20T18:40:29+00:00",
+      "url": "https://www.dvidshub.net/image/9951920/delbert-d-black-sailors-conduct-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9951921",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "U.S. Sailors load a Mark 54 lightweight torpedo into a...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-09-20T18:40:03+00:00",
+      "url": "https://www.dvidshub.net/image/9951921/delbert-d-black-sailors-conduct-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1023666",
       "title": "Update from CENTCOM Commander",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-09-19T12:54:06+00:00",
       "url": "https://www.dvidshub.net/image/9951108/john-finn-conducts-sea-and-anchor-detail",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9951118",
-      "title": "John Finn Conducts A Sea-And-Anchor Detail",
-      "desc": "U.S. Sailors raise the jackstaff during sea-and-anchor...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-19T12:30:35+00:00",
-      "url": "https://www.dvidshub.net/image/9951118/john-finn-conducts-sea-and-anchor-detail",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9951125",
-      "title": "John Finn Conducts A Sea-And-Anchor Detail",
-      "desc": "U.S. Sailors raise the jackstaff during sea-and-anchor...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-19T12:30:05+00:00",
-      "url": "https://www.dvidshub.net/image/9951125/john-finn-conducts-sea-and-anchor-detail",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9951128",
-      "title": "John Finn Conducts A Sea-And-Anchor Detail",
-      "desc": "]U.S. Sailors man the pilot's ladder during a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-19T12:25:47+00:00",
-      "url": "https://www.dvidshub.net/image/9951128/john-finn-conducts-sea-and-anchor-detail",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
