@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-21T10:24:24.738727+00:00",
+  "generated": "2026-09-21T16:57:35.298858+00:00",
   "news_count": 0,
-  "dvids_count": 27,
+  "dvids_count": 36,
   "news": [],
   "dvids": [
     {
-      "id": "image:9952293",
-      "title": "John Paul Jones Conducts Flight Operations",
-      "desc": "A U.S. Sailor signals to an MH-60S Sea Hawk, assigned to...",
+      "id": "image:9954187",
+      "title": "USS George H.W. Bush Conducts Daily Operations",
+      "desc": "A U.S. Sailor maintains a T-15 portable generator aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:42:57+00:00",
-      "url": "https://www.dvidshub.net/image/9952293/john-paul-jones-conducts-flight-operations",
+      "timestamp": "2026-09-21T13:14:32+00:00",
+      "url": "https://www.dvidshub.net/image/9954187/uss-george-hw-bush-conducts-daily-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9952296",
-      "title": "John Paul Jones Conducts Replenishment-at-Sea",
-      "desc": "U.S. Sailors heave a line during a replenishment-at-sea...",
+      "id": "image:9954186",
+      "title": "USS George H.W. Bush Conducts Daily Operations",
+      "desc": "A U.S. Sailor prepares meals aboard Nimitz-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:41:52+00:00",
-      "url": "https://www.dvidshub.net/image/9952296/john-paul-jones-conducts-replenishment-sea",
+      "timestamp": "2026-09-21T13:14:11+00:00",
+      "url": "https://www.dvidshub.net/image/9954186/uss-george-hw-bush-conducts-daily-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1023740",
-      "title": "George Washington Conducts Security Reaction Force Training",
-      "desc": "U.S. Sailors endure the effects of oleoresin capsicum (OC) spray during a security action force training course aboard Nimitz-class aircraft carrier USS George Washington (CVN 73), Sept. 1, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and ",
-      "type": "video",
+      "id": "image:9954185",
+      "title": "USS George H.W. Bush Conducts Daily Operations",
+      "desc": "A U.S. Sailor prepares meals aboard Nimitz-class...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:39:29+00:00",
-      "url": "https://www.dvidshub.net/video/1023740/george-washington-conducts-security-reaction-force-training",
+      "timestamp": "2026-09-21T13:13:42+00:00",
+      "url": "https://www.dvidshub.net/image/9954185/uss-george-hw-bush-conducts-daily-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1023739",
-      "title": "George Washington Conducts Gun Shoot",
-      "desc": "U.S Sailors participate in a small-arms gun shoot aboard Nimitz-class aircraft carrier USS George Washington (CVN 73), Sept. 15, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
+      "id": "image:9954184",
+      "title": "USS George H.W. Bush Conducts Daily Operations",
+      "desc": "A U.S. Sailor, assigned to Helicopter Maritime Strike...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:37:56+00:00",
-      "url": "https://www.dvidshub.net/video/1023739/george-washington-conducts-gun-shoot",
+      "timestamp": "2026-09-21T13:13:00+00:00",
+      "url": "https://www.dvidshub.net/image/9954184/uss-george-hw-bush-conducts-daily-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1023738",
-      "title": "George Washington Conducts ESWS Pinning",
-      "desc": "U.S Sailors earn the Navy Enlisted Surface Warfare Specialist insignia aboard Nimitz-class aircraft carrier USS George Washington (CVN 73) during an awards ceremony, Sept. 18, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in t",
-      "type": "video",
+      "id": "image:9954183",
+      "title": "USS George H.W. Bush Conducts Daily Operations",
+      "desc": "U.S. Sailors haul line aboard Nimitz-class aircraft...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:36:08+00:00",
-      "url": "https://www.dvidshub.net/video/1023738/george-washington-conducts-esws-pinning",
+      "timestamp": "2026-09-21T13:12:38+00:00",
+      "url": "https://www.dvidshub.net/image/9954183/uss-george-hw-bush-conducts-daily-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
