@@ -1,18 +1,33 @@
 {
-  "generated": "2026-09-22T09:37:52.664713+00:00",
+  "generated": "2026-09-22T15:28:29.667553+00:00",
   "news_count": 0,
-  "dvids_count": 22,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
-      "id": "image:9954187",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor maintains a T-15 portable generator aboard...",
-      "type": "image",
+      "id": "news:575305",
+      "title": "The Last to Stand the Watch: The Sunset of the USS Georgia (SSGN 729)",
+      "desc": "USS Georgia’s final chapter is being written by the sailors who called her home.\n\"For the last time ever, surface, surface, surface,\" said Senior Chief Machinist’s Mate Auxiliary John Edwards, his voice carrying through the ship's general announcing system.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T13:14:32+00:00",
-      "url": "https://www.dvidshub.net/image/9954187/uss-george-hw-bush-conducts-daily-operations",
+      "unit_name": "Commander, Submarine Group Ten",
+      "timestamp": "2026-09-22T12:38:49+00:00",
+      "url": "https://www.dvidshub.net/news/575305/last-stand-watch-sunset-uss-georgia-ssgn-729",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9954854",
+      "title": "Eager Lion 26 Command Post Exercise (CPX)",
+      "desc": "Illinois and Colorado Army National Guardsman and a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-22T11:05:02+00:00",
+      "url": "https://www.dvidshub.net/image/9954854/eager-lion-26-command-post-exercise-cpx",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9954186",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor prepares meals aboard Nimitz-class...",
+      "id": "image:9954856",
+      "title": "Eager Lion 26 Command Post Exercise (CPX)",
+      "desc": "U.S. Army Maj. Justin Brown, 412th Civil Affairs...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T13:14:11+00:00",
-      "url": "https://www.dvidshub.net/image/9954186/uss-george-hw-bush-conducts-daily-operations",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-22T11:04:24+00:00",
+      "url": "https://www.dvidshub.net/image/9954856/eager-lion-26-command-post-exercise-cpx",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9954185",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor prepares meals aboard Nimitz-class...",
+      "id": "image:9954857",
+      "title": "Eager Lion 26 Command Post Exercise (CPX)",
+      "desc": "Utah, Kansas, Colorado, and Illinois Army National Guard...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T13:13:42+00:00",
-      "url": "https://www.dvidshub.net/image/9954185/uss-george-hw-bush-conducts-daily-operations",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-22T11:03:49+00:00",
+      "url": "https://www.dvidshub.net/image/9954857/eager-lion-26-command-post-exercise-cpx",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9954184",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "A U.S. Sailor, assigned to Helicopter Maritime Strike...",
-      "type": "image",
+      "id": "video:1023740",
+      "title": "George Washington Conducts Security Reaction Force Training",
+      "desc": "U.S. Sailors endure the effects of oleoresin capsicum (OC) spray during a security action force training course aboard Nimitz-class aircraft carrier USS George Washington (CVN 73), Sept. 1, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and ",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T13:13:00+00:00",
-      "url": "https://www.dvidshub.net/image/9954184/uss-george-hw-bush-conducts-daily-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9954183",
-      "title": "USS George H.W. Bush Conducts Daily Operations",
-      "desc": "U.S. Sailors haul line aboard Nimitz-class aircraft...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T13:12:38+00:00",
-      "url": "https://www.dvidshub.net/image/9954183/uss-george-hw-bush-conducts-daily-operations",
+      "timestamp": "2026-09-21T04:39:29+00:00",
+      "url": "https://www.dvidshub.net/video/1023740/george-washington-conducts-security-reaction-force-training",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
