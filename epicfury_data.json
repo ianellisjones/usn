@@ -1,48 +1,18 @@
 {
-  "generated": "2026-09-22T19:57:17.773550+00:00",
+  "generated": "2026-09-23T09:44:47.995965+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "video:1023971",
-      "title": "U.S. Central Command Exercises",
-      "desc": "U.S. Central Command hosts multiple exercises including Exercise Bright Star, Exercise Eager Lion, and Exercise Regional Cooperation. (U.S. Central Command Video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-09-22T18:20:04+00:00",
-      "url": "https://www.dvidshub.net/video/1023971/us-central-command-exercises",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1023970",
-      "title": "USS Milius Conducts Machine Gun Calibration Exercise",
-      "desc": "A Mark 38 machine gun system fires rounds into the ocean during a pre-action calibration exercise aboard the Arleigh Burke-class guided-missile destroyer USS Milius (DDG 69), Sept. 22, 2026. Milius is deployed to the U.S. 5th Fleet area of operations in support of maritime security and stability eff",
-      "type": "video",
+      "id": "image:9959705",
+      "title": "USS Canberra Departs Subic for JCA Sea Phase",
+      "desc": "SUBIC BAY EXCLUSIVE ECONOMIC ZONE, Philippines - Mineman...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-22T18:02:34+00:00",
-      "url": "https://www.dvidshub.net/video/1023970/uss-milius-conducts-machine-gun-calibration-exercise",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:575305",
-      "title": "The Last to Stand the Watch: The Sunset of the USS Georgia (SSGN 729)",
-      "desc": "USS Georgia’s final chapter is being written by the sailors who called her home.\n\"For the last time ever, surface, surface, surface,\" said Senior Chief Machinist’s Mate Auxiliary John Edwards, his voice carrying through the ship's general announcing system.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Commander, Submarine Group Ten",
-      "timestamp": "2026-09-22T12:38:49+00:00",
-      "url": "https://www.dvidshub.net/news/575305/last-stand-watch-sunset-uss-georgia-ssgn-729",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-09-23T09:19:47+00:00",
+      "url": "https://www.dvidshub.net/image/9959705/uss-canberra-departs-subic-jca-sea-phase",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -50,32 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "video:1023740",
-      "title": "George Washington Conducts Security Reaction Force Training",
-      "desc": "U.S. Sailors endure the effects of oleoresin capsicum (OC) spray during a security action force training course aboard Nimitz-class aircraft carrier USS George Washington (CVN 73), Sept. 1, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and ",
-      "type": "video",
+      "id": "image:9959703",
+      "title": "USS Canberra Departs Subic for JCA Sea Phase",
+      "desc": "SUBIC BAY EXCLUSIVE ECONOMIC ZONE, Philippines - Mineman...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:39:29+00:00",
-      "url": "https://www.dvidshub.net/video/1023740/george-washington-conducts-security-reaction-force-training",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-09-23T09:19:47+00:00",
+      "url": "https://www.dvidshub.net/image/9959703/uss-canberra-departs-subic-jca-sea-phase",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "video:1023739",
-      "title": "George Washington Conducts Gun Shoot",
-      "desc": "U.S Sailors participate in a small-arms gun shoot aboard Nimitz-class aircraft carrier USS George Washington (CVN 73), Sept. 15, 2026. George Washington is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
+      "id": "image:9959704",
+      "title": "USS Canberra Departs Subic for JCA Sea Phase",
+      "desc": "SUBIC BAY EXCLUSIVE ECONOMIC ZONE, Philippines - Mineman...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-21T04:37:56+00:00",
-      "url": "https://www.dvidshub.net/video/1023739/george-washington-conducts-gun-shoot",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-09-23T09:19:47+00:00",
+      "url": "https://www.dvidshub.net/image/9959704/uss-canberra-departs-subic-jca-sea-phase",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9959696",
+      "title": "USS Canberra Conducts PHOTOEX As Part of JCA in Philippines",
+      "desc": "PHILIPPINE EXCLUSIVE ECONOMIC ZONE, Philippines - From...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-09-23T09:19:46+00:00",
+      "url": "https://www.dvidshub.net/image/9959696/uss-canberra-conducts-photoex-part-jca-philippines",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9959694",
+      "title": "USS Canberra Conducts PHOTOEX As Part of JCA in Philippines",
+      "desc": "PHILIPPINE EXCLUSIVE ECONOMIC ZONE, Philippines - From...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-09-23T09:19:45+00:00",
+      "url": "https://www.dvidshub.net/image/9959694/uss-canberra-conducts-photoex-part-jca-philippines",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
       ],
       "location_display": ""
     }
