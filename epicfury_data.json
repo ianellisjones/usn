@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-25T15:46:50.966199+00:00",
+  "generated": "2026-09-25T20:10:43.811626+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "news:575717",
+      "title": "CENTCOM Completes Exercise Eager Lion in Colorado",
+      "desc": "CENTCOM Completes Exercise Eager Lion in Colorado",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-25T19:35:16+00:00",
+      "url": "https://www.dvidshub.net/news/575717/centcom-completes-exercise-eager-lion-colorado",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9964549",
       "title": "U.S. Marines conduct Flight Operations",
