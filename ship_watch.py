@@ -3,121 +3,177 @@
 Ship History Watcher
 ====================
 
-Checks ship history pages on uscarriers.net (e.g. cvn73 -> cvn73history.htm)
-and reports when a page has changed since the last check.
-
-For each hull it saves ship_watch/<hull>.json holding the newest entry
-(found with uscn_last_entry.py) and a short hash of every line on the page.
-Only hashes are stored, never the page text, so the next run can show exactly
-which lines are new without keeping a copy of the site's content.
-
-When anything changed, it writes ship_watch_issue.md (first line = title,
-rest = body) for the GitHub workflow to post as an issue.
+Checks a ship's history page on uscarriers.net and shows what's new since your
+last check. Runs locally in Terminal; standard library only, nothing to install.
 
 Usage:
-    python ship_watch.py cvn73               # check, update state, write issue file
-    python ship_watch.py cvn73 cvn78         # several ships
-    python ship_watch.py cvn73 --dry-run     # check and print only, change nothing
+    python3 ship_watch.py cvn73             # check once: shows new lines since last check
+    python3 ship_watch.py cvn73 --daily     # keep running, check once a day
+    python3 ship_watch.py cvn73 cvn78       # several ships
+
+The first check saves the page as a baseline. A plain-text copy of each page
+is kept in ~/.ship_watch to compare against next time.
+
+uscarriers.net refuses requests from cloud servers (e.g. GitHub Actions),
+so this needs to run from your own computer.
 """
 
-import hashlib
 import json
 import os
+import subprocess
 import sys
 import time
+import urllib.error
+import urllib.request
+from datetime import datetime
+from html.parser import HTMLParser
 
-from uscn_last_entry import extract_date, fetch_full_text, find_last_entry, find_location
+USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+STATE_DIR = os.path.expanduser("~/.ship_watch")
+DAY = 24 * 60 * 60
+MAX_NEW_LINES = 40
 
-STATE_DIR = "ship_watch"
-ISSUE_FILE = "ship_watch_issue.md"
-MAX_NEW_LINES = 40  # cap on new lines quoted in one issue
+# Same status words as uscn_last_entry.py, used to pick out the latest entries.
+STATUS_KEYWORDS = [
+    "moored", "anchored", "underway", "arrived", "departed", "transited",
+    "operations", "returned", "participated", "conducted", "moved", "visited",
+    "pulled into", "sea trials", "deployed", "port call", "homeport",
+]
 
 
-def line_hash(line: str) -> str:
-    return hashlib.sha1(line.encode("utf-8")).hexdigest()[:12]
+class TextLines(HTMLParser):
+    """Collect each block of visible text on its own line, skipping scripts/styles."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.lines, self.skip = [], 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self.skip += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self.skip:
+            self.skip -= 1
+
+    def handle_data(self, data):
+        if not self.skip:
+            text = " ".join(data.split())
+            if text:
+                self.lines.append(text)
 
 
-def page_url(hull: str) -> str:
-    return f"http://uscarriers.net/{hull.lower()}history.htm"
+def page_url(hull):
+    return f"https://uscarriers.net/{hull}history.htm"
 
 
-def fetch_with_retry(hull: str) -> str:
+def fetch_lines(hull):
+    req = urllib.request.Request(page_url(hull), headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        html = resp.read().decode("utf-8", "replace")
+    parser = TextLines()
+    parser.feed(html)
+    return parser.lines
+
+
+def latest_entries(lines, n=3):
+    hits = [ln for ln in lines if any(k in ln.lower() for k in STATUS_KEYWORDS)]
+    return hits[-n:]
+
+
+def notify(title, msg):
+    print("\a", end="", flush=True)
+    if sys.platform == "darwin":
+        try:
+            subprocess.run(["osascript", "-e", f"display notification {json.dumps(msg)} "
+                            f"with title {json.dumps(title)} sound name \"Glass\""], timeout=5)
+            subprocess.Popen(["say", msg])
+        except Exception:
+            pass
+
+
+def stamp():
+    return datetime.now().strftime("%b %d %H:%M")
+
+
+def check(hull):
+    hull = hull.lower()
+    name = hull.upper()
     try:
-        return fetch_full_text(hull)
+        lines = fetch_lines(hull)
+    except urllib.error.HTTPError as e:
+        print(f"[{stamp()}] {name}: uscarriers.net refused the request (HTTP {e.code}). "
+              f"Open {page_url(hull)} in your browser instead.")
+        return
     except Exception as e:
-        print(f"{hull.upper()}: fetch failed ({e}), retrying in 60s")
-        time.sleep(60)
-        return fetch_full_text(hull)
+        print(f"[{stamp()}] {name}: couldn't load the page ({e}). Will try again next time.")
+        return
 
+    os.makedirs(STATE_DIR, exist_ok=True)
+    path = os.path.join(STATE_DIR, f"{hull}.txt")
 
-def check(hull: str, dry_run: bool):
-    """Return a markdown section describing changes, or None if unchanged."""
-    text = fetch_with_retry(hull)
-    lines = text.split("\n")
-    entry = find_last_entry(text)
-    location = find_location(entry)
-    date = extract_date(entry)
-    print(f"{hull.upper()} -> {location} ({date})\n  last entry: {entry}\n  {len(lines)} lines on page")
-
-    path = os.path.join(STATE_DIR, f"{hull.lower()}.json")
-    old = None
-    if os.path.exists(path):
-        with open(path) as f:
-            old = json.load(f)
-
-    hashes = sorted({line_hash(ln) for ln in lines})
-    if old and old["last_entry"] == entry and old["line_hashes"] == hashes:
-        print("  no change")
-        return None
-
-    if not dry_run:
-        os.makedirs(STATE_DIR, exist_ok=True)
+    if not os.path.exists(path):
         with open(path, "w") as f:
-            json.dump({"hull": hull.upper(), "last_entry": entry, "location": location,
-                       "line_hashes": hashes}, f, indent=1)
-            f.write("\n")
+            f.write("\n".join(lines) + "\n")
+        print(f"[{stamp()}] {name}: now watching {page_url(hull)} ({len(lines)} lines saved). Latest entries:")
+        for ln in latest_entries(lines):
+            print(f"    {ln}")
+        return
 
-    where = f"{location} ({date})" if location != "Location unclear" else date
-    header = f"### {hull.upper()}: {where}\n\n**Newest entry:** {entry}\n\n{page_url(hull)}\n"
-    if old is None:
-        print("  first check" + ("" if dry_run else ", baseline saved"))
-        return header + "\n_First check: now watching this page for changes._\n"
+    with open(path) as f:
+        old = f.read().splitlines()
+    if len(lines) < len(old) // 2:
+        print(f"[{stamp()}] {name}: page came back much shorter than usual ({len(lines)} lines vs "
+              f"{len(old)}), maybe a block or error page. Not saving it; will try again next time.")
+        return
 
-    seen = set(old["line_hashes"])
-    new_lines = [ln for ln in lines if line_hash(ln) not in seen]
-    print(f"  CHANGED: {len(new_lines)} new line(s)")
-    body = header
-    if new_lines:
-        body += "\n**New on the page:**\n\n" + "\n".join(f"> {ln}" for ln in new_lines[:MAX_NEW_LINES]) + "\n"
-        if len(new_lines) > MAX_NEW_LINES:
-            body += f"\n_...and {len(new_lines) - MAX_NEW_LINES} more lines._\n"
-    else:
-        body += "\n_Lines were removed or reordered; nothing new was added._\n"
-    return body
+    seen = set(old)
+    new = [ln for ln in lines if ln not in seen]
+    with open(path, "w") as f:
+        f.write("\n".join(lines) + "\n")
+
+    if not new:
+        print(f"[{stamp()}] {name}: no new entries")
+        return
+    print("\n" + "=" * 70)
+    print(f"[{stamp()}] *** {name} HISTORY UPDATED: {len(new)} new line(s) ***")
+    for ln in new[:MAX_NEW_LINES]:
+        print(f"  + {ln}")
+    if len(new) > MAX_NEW_LINES:
+        print(f"  ...and {len(new) - MAX_NEW_LINES} more")
+    print(f"  {page_url(hull)}")
+    print("=" * 70 + "\n")
+    notify(f"{name} history updated", f"{name} has {len(new)} new line(s) on uscarriers.net")
 
 
 def main(argv):
-    dry_run = "--dry-run" in argv
+    daily = "--daily" in argv
     hulls = [a for a in argv[1:] if not a.startswith("--")]
     if not hulls:
         print(__doc__)
         return 1
 
-    sections = [s for s in (check(hull, dry_run) for hull in hulls) if s]
-    if not sections:
+    if not daily:
+        for hull in hulls:
+            check(hull)
         return 0
 
-    names = ", ".join(s.split(":")[0].replace("### ", "") for s in sections)
-    title = f"Ship history updated: {names}"
-    if all("_First check:" in s for s in sections):
-        title = f"Now watching ship history: {names}"
-    if dry_run:
-        print(f"\n[dry run] would open issue: {title}")
-        return 0
-    with open(ISSUE_FILE, "w") as f:
-        f.write(title + "\n" + "\n".join(sections))
-    return 0
+    print(f"[{stamp()}] Checking {', '.join(h.upper() for h in hulls)} once a day. "
+          "Leave this window open; Ctrl+C to stop.")
+    last = 0.0
+    while True:
+        # Wake every 10 minutes and check once 24h have passed by the wall clock,
+        # so the schedule doesn't drift while the Mac is asleep.
+        if time.time() - last >= DAY:
+            last = time.time()
+            for hull in hulls:
+                check(hull)
+        time.sleep(600)
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+    try:
+        sys.exit(main(sys.argv))
+    except KeyboardInterrupt:
+        print("\nstopped.")
