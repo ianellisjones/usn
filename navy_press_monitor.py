@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-Watch https://www.navy.mil/Press-Office/ and alert the moment a new article appears.
+Watch a press/news page and alert the moment a new article appears.
+Defaults to https://www.navy.mil/Press-Office/ ; pass any other URL to watch that instead.
 
 Usage:
-    python3 navy_press_monitor.py                  # check every 30s
+    python3 navy_press_monitor.py                  # navy.mil, check every 30s
+    python3 navy_press_monitor.py https://boeing.mediaroom.com/news-releases-statements
     python3 navy_press_monitor.py -i 15            # check every 15s
     python3 navy_press_monitor.py -k aircraft F/A-XX   # extra-loud alert on keywords
     python3 navy_press_monitor.py --no-open        # don't auto-open new articles
@@ -13,16 +15,17 @@ Standard library only - no pip install needed.
 import argparse
 import hashlib
 import html
+import json
 import re
 import subprocess
 import sys
 import time
+import urllib.parse
 import urllib.request
 import webbrowser
 from datetime import datetime
 
 URL = "https://www.navy.mil/Press-Office/"
-BASE = "https://www.navy.mil"
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
@@ -31,13 +34,18 @@ HEADERS = {
     "Cache-Control": "no-cache",
     "Pragma": "no-cache",
 }
-# Article links on navy.mil look like /Press-Office/News-Stories/Article/4312345/some-title/
-ARTICLE_RE = re.compile(r'<a[^>]+href="([^"]*/Article/\d+[^"]*)"[^>]*>(.*?)</a>', re.I | re.S)
+# Article link formats:
+#   navy.mil:        /Press-Office/News-Stories/Article/4312345/some-title/
+#   mediaroom sites: /2026-09-29-Boeing-Some-Title  or  ?item=131234  (Boeing, etc.)
+ARTICLE_RE = re.compile(
+    r'<a[^>]+href=["\']([^"\']*(?:/Article/\d+|/\d{4}-\d{2}-\d{2}-[A-Za-z0-9]|[?&]item=\d+)[^"\']*)["\'][^>]*>(.*?)</a>',
+    re.I | re.S)
 
 
-def fetch():
+def fetch(url):
     # cache-buster so we never get a stale CDN copy
-    req = urllib.request.Request(f"{URL}?_={int(time.time())}", headers=HEADERS)
+    sep = "&" if "?" in url else "?"
+    req = urllib.request.Request(f"{url}{sep}_={int(time.time())}", headers=HEADERS)
     with urllib.request.urlopen(req, timeout=20) as r:
         return r.read().decode("utf-8", "replace")
 
@@ -46,11 +54,11 @@ def clean(s):
     return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", s)).split())
 
 
-def articles(page):
+def articles(page, page_url):
     """Return {url: title} for every article link on the page."""
     found = {}
     for href, text in ARTICLE_RE.findall(page):
-        url = href if href.startswith("http") else BASE + href
+        url = urllib.parse.urljoin(page_url, html.unescape(href))
         title = clean(text)
         if title and len(title) > len(found.get(url, "")):
             found[url] = title
@@ -70,7 +78,7 @@ def alert(title, msg):
     try:
         if sys.platform == "darwin":
             subprocess.run(["osascript", "-e",
-                            f'display notification {msg!r} with title {title!r} sound name "Glass"'],
+                            f'display notification {json.dumps(msg)} with title {json.dumps(title)} sound name "Glass"'],
                            timeout=5)
             subprocess.Popen(["say", title])
         elif sys.platform.startswith("linux"):
@@ -88,20 +96,23 @@ def now():
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Monitor navy.mil Press Office for new posts")
+    ap = argparse.ArgumentParser(description="Monitor a press/news page for new posts")
+    ap.add_argument("url", nargs="?", default=URL, help=f"page to watch (default {URL})")
     ap.add_argument("-i", "--interval", type=int, default=30, help="seconds between checks (default 30)")
-    ap.add_argument("-k", "--keywords", nargs="*", default=["aircraft", "F/A-XX", "fighter", "6th gen", "sixth"],
+    ap.add_argument("-k", "--keywords", nargs="*", default=["aircraft", "F/A-XX", "fighter", "6th gen", "sixth", "Navy"],
                     help="keywords that trigger a louder alert")
     ap.add_argument("--no-open", action="store_true", help="don't open new articles in the browser")
     args = ap.parse_args()
     kws = [k.lower() for k in args.keywords]
 
-    print(f"[{now()}] Watching {URL} every {args.interval}s  (Ctrl+C to stop)")
+    url = args.url
+    host = urllib.parse.urlparse(url).netloc.replace("www.", "")
+    print(f"[{now()}] Watching {url} every {args.interval}s  (Ctrl+C to stop)")
     seen, fingerprint = None, None
     while True:
         try:
-            page = fetch()
-            arts = articles(page)
+            page = fetch(url)
+            arts = articles(page, url)
             if seen is None:
                 seen, fingerprint = set(arts), text_hash(page)
                 print(f"[{now()}] Baseline: {len(arts)} articles. Latest:")
@@ -119,7 +130,7 @@ def main():
                         print(f"  {'>>> KEYWORD MATCH <<< ' if hit else ''}{t}\n    {url}")
                     print("=" * 70 + "\n")
                     first_t = next(iter(new.values()))
-                    alert("NAVY: NEW PRESS RELEASE", first_t)
+                    alert(f"NEW POST on {host}", first_t)
                     if not args.no_open:
                         for url in list(new)[:3]:
                             webbrowser.open(url)
@@ -127,10 +138,10 @@ def main():
                 elif not arts:
                     fp = text_hash(page)
                     if fp != fingerprint:
-                        print(f"\n[{now()}] *** PAGE CHANGED *** {URL}\n")
-                        alert("NAVY: Press Office page changed", URL)
+                        print(f"\n[{now()}] *** PAGE CHANGED *** {url}\n")
+                        alert(f"{host} page changed", url)
                         if not args.no_open:
-                            webbrowser.open(URL)
+                            webbrowser.open(url)
                         fingerprint = fp
                     else:
                         print(f"[{now()}] no change")
