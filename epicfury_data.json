@@ -1,81 +1,81 @@
 {
-  "generated": "2026-09-28T22:20:13.895880+00:00",
+  "generated": "2026-09-29T11:06:41.765363+00:00",
   "news_count": 0,
-  "dvids_count": 8,
+  "dvids_count": 21,
   "news": [],
   "dvids": [
     {
-      "id": "image:9969701",
-      "title": "Delbert D. Black Sailors Conduct Maintenance",
-      "desc": "U.S. Sailors conduct maintenance on a safety switch...",
-      "type": "image",
+      "id": "video:1024853",
+      "title": "Atlantic Thunder 26 B-roll",
+      "desc": "ATLANTIC OCEAN (Sept. 20, 2026) The decommissioned guided-missile frigate ex-USS Klakring (FFG 42) is struck during a sinking exercise (SINKEX) as part of Exercise Atlantic Thunder 2026. Atlantic Thunder 2026 is a U.S. 6th Fleet-led, multi-domain SINKEX that strengthens U.S.-UK interoperability and ",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-28T19:08:41+00:00",
-      "url": "https://www.dvidshub.net/image/9969701/delbert-d-black-sailors-conduct-maintenance",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-29T08:45:30+00:00",
+      "url": "https://www.dvidshub.net/video/1024853/atlantic-thunder-26-b-roll",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9969690",
-      "title": "George Washington Conducts Flight Operations",
-      "desc": "An MH-60S Sea Hawk attached to Helicopter Sea Combat...",
-      "type": "image",
+      "id": "news:575850",
+      "title": "Exercise Atlantic Thunder 2026 Concludes in United Kingdom",
+      "desc": "Ships, aircraft, and a submarine from the United States and the United Kingdom concluded Exercise Atlantic Thunder 2026, a multi-domain sinking exercise (SINKEX) led by U.S. 6th Fleet, in the North Atlantic, Sept. 25, 2026.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-28T19:05:17+00:00",
-      "url": "https://www.dvidshub.net/image/9969690/george-washington-conducts-flight-operations",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-09-29T06:55:51+00:00",
+      "url": "https://www.dvidshub.net/news/575850/exercise-atlantic-thunder-2026-concludes-united-kingdom",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "EUCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9969695",
-      "title": "Delbert D. Black Sailors Conduct Maintenance",
-      "desc": "U.S. Sailors assigned to Helicopter Maritime Strike...",
-      "type": "image",
+      "id": "news:575842",
+      "title": "USS Frank E. Petersen Jr. (DDG 121) returns to Hawaii from 10-month deployment",
+      "desc": "PEARL HARBOR, Hawaii – Arleigh Burke-class guided-missile destroyer USS Frank E. Petersen Jr. (DDG 121) returned to its home port of Joint Base Pearl Harbor-Hickam, Sept. 28, 2026, following a 10-month deployment to the U.S. 5th and 7th Fleet areas of operations (AO), including direct support to Ope",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-28T19:04:51+00:00",
-      "url": "https://www.dvidshub.net/image/9969695/delbert-d-black-sailors-conduct-maintenance",
+      "unit_name": "Carrier Strike Group Three (CSG 3)",
+      "timestamp": "2026-09-29T01:40:01+00:00",
+      "url": "https://www.dvidshub.net/news/575842/uss-frank-e-petersen-jr-ddg-121-returns-hawaii-10-month-deployment",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9969697",
-      "title": "Delbert D. Black Sailors Conduct Maintenance",
-      "desc": "A U.S. Sailor assigned to Helicopter Maritime Strike...",
+      "id": "image:9971717",
+      "title": "Frank E. Petersen Jr. Return to Joint Base Pearl Harbor-Hickham",
+      "desc": "A U.S. Sailor embrace his spouse as Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-28T19:04:27+00:00",
-      "url": "https://www.dvidshub.net/image/9969697/delbert-d-black-sailors-conduct-maintenance",
+      "unit_name": "USS Frank E. Petersen Jr.",
+      "timestamp": "2026-09-29T00:49:22+00:00",
+      "url": "https://www.dvidshub.net/image/9971717/frank-e-petersen-jr-return-joint-base-pearl-harbor-hickham",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9969699",
-      "title": "Delbert D. Black Sailors Conduct Maintenance",
-      "desc": "A U.S. Sailor assigned to Helicopter Maritime Strike...",
+      "id": "image:9971720",
+      "title": "Frank E. Petersen Jr. Returns to Joint Base Pearl Harbor-Hickham",
+      "desc": "A U.S. Sailor embrace his family as Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-09-28T19:04:00+00:00",
-      "url": "https://www.dvidshub.net/image/9969699/delbert-d-black-sailors-conduct-maintenance",
+      "unit_name": "USS Frank E. Petersen Jr.",
+      "timestamp": "2026-09-29T00:47:34+00:00",
+      "url": "https://www.dvidshub.net/image/9971720/frank-e-petersen-jr-returns-joint-base-pearl-harbor-hickham",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
