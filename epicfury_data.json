@@ -1,9 +1,24 @@
 {
-  "generated": "2026-09-30T10:54:03.673319+00:00",
+  "generated": "2026-09-30T16:45:47.404506+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1024987",
+      "title": "SOCEUR Welcome Video",
+      "desc": "U.S. Special Operations Command Europe is a sub-unified command of U.S. Special Operations Command headquartered at Patch Barracks in Stuttgart, Germany. SOCEUR prepares for conflict and conducts irregular warfare to support U.S. European Command's denial efforts across the European theater. (U.S. A",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Special Operations Command Europe",
+      "timestamp": "2026-09-30T14:17:07+00:00",
+      "url": "https://www.dvidshub.net/video/1024987/soceur-welcome-video",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:575965",
       "title": "U.S. Forces End Operation Inherent Resolve Mission in Iraq",
@@ -58,21 +73,6 @@
       "unit_name": "Carrier Strike Group Three (CSG 3)",
       "timestamp": "2026-09-29T01:40:01+00:00",
       "url": "https://www.dvidshub.net/news/575842/uss-frank-e-petersen-jr-ddg-121-returns-hawaii-10-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9971709",
-      "title": "Frank E. Petersen Jr. Return to Joint Base Pearl Harbor-Hickham",
-      "desc": "Friends and family of U.S. Sailors await to be reunited...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Frank E. Petersen Jr.",
-      "timestamp": "2026-09-29T00:38:33+00:00",
-      "url": "https://www.dvidshub.net/image/9971709/frank-e-petersen-jr-return-joint-base-pearl-harbor-hickham",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
