@@ -1,18 +1,33 @@
 {
-  "generated": "2026-09-29T21:09:10.172202+00:00",
+  "generated": "2026-09-30T10:54:03.673319+00:00",
   "news_count": 0,
-  "dvids_count": 21,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
     {
-      "id": "video:1024853",
-      "title": "Atlantic Thunder 26 B-roll",
-      "desc": "ATLANTIC OCEAN (Sept. 20, 2026) The decommissioned guided-missile frigate ex-USS Klakring (FFG 42) is struck during a sinking exercise (SINKEX) as part of Exercise Atlantic Thunder 2026. Atlantic Thunder 2026 is a U.S. 6th Fleet-led, multi-domain SINKEX that strengthens U.S.-UK interoperability and ",
-      "type": "video",
+      "id": "news:575965",
+      "title": "U.S. Forces End Operation Inherent Resolve Mission in Iraq",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) completed the orderly departure of U.S. forces and equipment from Erbil Air Base, Sept. 30, marking the end of the Operation Inherent Resolve mission in Iraq.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-09-30T09:01:04+00:00",
+      "url": "https://www.dvidshub.net/news/575965/us-forces-end-operation-inherent-resolve-mission-iraq",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:575959",
+      "title": "USS Gonzalez departs Cyprus",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Gonzalez (DDG 66) completed a scheduled port visit in Limassol, Cyprus, Sept. 29.",
+      "type": "news",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-29T08:45:30+00:00",
-      "url": "https://www.dvidshub.net/video/1024853/atlantic-thunder-26-b-roll",
+      "timestamp": "2026-09-30T07:01:38+00:00",
+      "url": "https://www.dvidshub.net/news/575959/uss-gonzalez-departs-cyprus",
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9971717",
+      "id": "image:9971709",
       "title": "Frank E. Petersen Jr. Return to Joint Base Pearl Harbor-Hickham",
-      "desc": "A U.S. Sailor embrace his spouse as Arleigh Burke-class...",
+      "desc": "Friends and family of U.S. Sailors await to be reunited...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Frank E. Petersen Jr.",
-      "timestamp": "2026-09-29T00:49:22+00:00",
-      "url": "https://www.dvidshub.net/image/9971717/frank-e-petersen-jr-return-joint-base-pearl-harbor-hickham",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9971720",
-      "title": "Frank E. Petersen Jr. Returns to Joint Base Pearl Harbor-Hickham",
-      "desc": "A U.S. Sailor embrace his family as Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Frank E. Petersen Jr.",
-      "timestamp": "2026-09-29T00:47:34+00:00",
-      "url": "https://www.dvidshub.net/image/9971720/frank-e-petersen-jr-returns-joint-base-pearl-harbor-hickham",
+      "timestamp": "2026-09-29T00:38:33+00:00",
+      "url": "https://www.dvidshub.net/image/9971709/frank-e-petersen-jr-return-joint-base-pearl-harbor-hickham",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
