@@ -1,9 +1,39 @@
 {
-  "generated": "2026-10-01T11:23:02.296139+00:00",
+  "generated": "2026-10-01T17:20:09.820509+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9978292",
+      "title": "USS Canberra visits White Beach Naval Facility, Okinawa, Japan",
+      "desc": "Independence-variant littoral combat ship USS Canberra...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Expeditionary Strike Group 7",
+      "timestamp": "2026-10-01T12:15:32+00:00",
+      "url": "https://www.dvidshub.net/image/9978292/uss-canberra-visits-white-beach-naval-facility-okinawa-japan",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9978291",
+      "title": "USS San Diego and USS Canberra visit White Beach Naval Facility, Okinawa, Japan",
+      "desc": "San Antonio-class amphibious transport dock USS San...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Expeditionary Strike Group 7",
+      "timestamp": "2026-10-01T12:15:32+00:00",
+      "url": "https://www.dvidshub.net/image/9978291/uss-san-diego-and-uss-canberra-visit-white-beach-naval-facility-okinawa-japan",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576075",
       "title": "From the Middle East to Waiʻōhinu: Deployed Soldier Expresses Deep Gratitude for Hawaiʻi National Guard Hurricane Lala Recovery",
@@ -46,36 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:575959",
-      "title": "USS Gonzalez departs Cyprus",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Gonzalez (DDG 66) completed a scheduled port visit in Limassol, Cyprus, Sept. 29.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-30T07:01:38+00:00",
-      "url": "https://www.dvidshub.net/news/575959/uss-gonzalez-departs-cyprus",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:575850",
-      "title": "Exercise Atlantic Thunder 2026 Concludes in United Kingdom",
-      "desc": "Ships, aircraft, and a submarine from the United States and the United Kingdom concluded Exercise Atlantic Thunder 2026, a multi-domain sinking exercise (SINKEX) led by U.S. 6th Fleet, in the North Atlantic, Sept. 25, 2026.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-09-29T06:55:51+00:00",
-      "url": "https://www.dvidshub.net/news/575850/exercise-atlantic-thunder-2026-concludes-united-kingdom",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
