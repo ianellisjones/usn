@@ -1,9 +1,54 @@
 {
-  "generated": "2026-10-02T10:55:11.680762+00:00",
+  "generated": "2026-10-02T16:34:49.377854+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9981653",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-02T16:00:57+00:00",
+      "url": "https://www.dvidshub.net/image/9981653/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9981658",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-02T16:00:32+00:00",
+      "url": "https://www.dvidshub.net/image/9981658/john-finn-stands-watch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9981359",
+      "title": "DDG 117 Arrives In Sweden",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-10-02T12:54:51+00:00",
+      "url": "https://www.dvidshub.net/image/9981359/ddg-117-arrives-sweden",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576075",
       "title": "From the Middle East to Waiʻōhinu: Deployed Soldier Expresses Deep Gratitude for Hawaiʻi National Guard Hurricane Lala Recovery",
