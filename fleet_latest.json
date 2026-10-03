@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02 12:08 UTC",
+  "updated": "2026-10-03 11:19 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
@@ -70,9 +70,9 @@
       "hull": "CVN76",
       "name": "USS Ronald Reagan",
       "type": "CVN",
-      "location": "Bremerton / Kitsap",
-      "date": "Dec. 2",
-      "status": "November 12,  USS Ronald Reagan moored at Bravo Pier on Naval Base Kitsap-Bremerton; Underway for FRS-CQ, in the SOCAL Op. Area, from Dec. 2-13."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN77",
