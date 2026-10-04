@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-03T19:35:33.286932+00:00",
+  "generated": "2026-10-04T10:53:56.196038+00:00",
   "news_count": 0,
   "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "news:576303",
+      "title": "George H.W. Bush Carrier Strike Group Arrives in Thailand",
+      "desc": "PHUKET, Thailand –Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), flagship of Carrier Strike Group (CSG) 10, and Arleigh Burke-class guided-missile destroyer USS Delbert D. Black (DDG 119) arrived in Phuket for a scheduled port visit, Oct. 4, 2026.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "USS George H.W. Bush (CVN 77)",
+      "timestamp": "2026-10-04T03:17:36+00:00",
+      "url": "https://www.dvidshub.net/news/576303/george-hw-bush-carrier-strike-group-arrives-thailand",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576260",
       "title": "Purple Heart Award is given to Soldier after surviving attack during Operation Epic Fury",
@@ -13,21 +28,6 @@
       "unit_name": "William Beaumont Army Medical Center",
       "timestamp": "2026-10-02T17:24:17+00:00",
       "url": "https://www.dvidshub.net/news/576260/purple-heart-award-given-soldier-after-surviving-attack-during-operation-epic-fury",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576075",
-      "title": "From the Middle East to Waiʻōhinu: Deployed Soldier Expresses Deep Gratitude for Hawaiʻi National Guard Hurricane Lala Recovery",
-      "desc": "While serving thousands of miles away in the Middle East, U.S. Army 1st Lt. Makena Galimba experienced the anxiety that comes with watching a natural disaster strike your hometown from afar. Galimba, a 66H Medical-Surgical Nurse with the 131st Field Hospital, was deployed supporting Operation Epic F",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "State of Hawaii, Department of Defense, Public Affairs Office",
-      "timestamp": "2026-09-30T21:27:06+00:00",
-      "url": "https://www.dvidshub.net/news/576075/middle-east-waiohinu-deployed-soldier-expresses-deep-gratitude-hawaii-national-guard-hurricane-lala-recovery",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
