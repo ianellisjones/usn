@@ -1,81 +1,81 @@
 {
-  "generated": "2026-10-05T12:02:29.474165+00:00",
+  "generated": "2026-10-05T22:59:35.739280+00:00",
   "news_count": 0,
-  "dvids_count": 24,
+  "dvids_count": 26,
   "news": [],
   "dvids": [
     {
-      "id": "image:9985461",
-      "title": "Nevada Air Guard returns from historic deployment supporting Operation Epic Fury",
-      "desc": "A U.S. Air Force C-130H Hercules, 152nd Airlift Wing,...",
-      "type": "image",
+      "id": "news:576379",
+      "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
+      "desc": "TAMPA, Fla. — On Oct. 5, U.S. Central Command (CENTCOM) forces redirected the 130th commercial vessel in the Middle East during strict enforcement of the ongoing U.S. naval blockade against Iran.",
+      "type": "news",
       "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:15:19+00:00",
-      "url": "https://www.dvidshub.net/image/9985461/nevada-air-guard-returns-historic-deployment-supporting-operation-epic-fury",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-05T21:00:48+00:00",
+      "url": "https://www.dvidshub.net/news/576379/centcom-maintains-strict-enforcement-us-blockade-against-iran",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9985463",
-      "title": "Nevada Air Guard returns from historic deployment supporting Operation Epic Fury",
-      "desc": "A U.S. Air Force C-130H Hercules, 152nd Airlift Wing,...",
+      "id": "image:9985750",
+      "title": "SMMC visits medical units in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:15:16+00:00",
-      "url": "https://www.dvidshub.net/image/9985463/nevada-air-guard-returns-historic-deployment-supporting-operation-epic-fury",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:31+00:00",
+      "url": "https://www.dvidshub.net/image/9985750/smmc-visits-medical-units-centcom-aor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9985464",
-      "title": "Nevada Air Guard returns from historic deployment supporting Operation Epic Fury",
-      "desc": "A U.S. Air Force C-130H Hercules, 152nd Airlift Wing,...",
+      "id": "image:9985749",
+      "title": "SMMC visits medical units in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:15:13+00:00",
-      "url": "https://www.dvidshub.net/image/9985464/nevada-air-guard-returns-historic-deployment-supporting-operation-epic-fury",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:30+00:00",
+      "url": "https://www.dvidshub.net/image/9985749/smmc-visits-medical-units-centcom-aor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9985465",
-      "title": "Nevada Air Guard returns from historic deployment supporting Operation Epic Fury",
-      "desc": "U.S. Air Force Airmen from the 152nd Airlift Wing,...",
+      "id": "image:9985748",
+      "title": "SMMC visits medical units in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:15:09+00:00",
-      "url": "https://www.dvidshub.net/image/9985465/nevada-air-guard-returns-historic-deployment-supporting-operation-epic-fury",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:30+00:00",
+      "url": "https://www.dvidshub.net/image/9985748/smmc-visits-medical-units-centcom-aor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:9985466",
-      "title": "Nevada Air Guard returns from historic deployment supporting Operation Epic Fury",
-      "desc": "A U.S. Air Force Airman from the 152nd Airlift Wing,...",
+      "id": "image:9985760",
+      "title": "SMMC visits service members in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:15:06+00:00",
-      "url": "https://www.dvidshub.net/image/9985466/nevada-air-guard-returns-historic-deployment-supporting-operation-epic-fury",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:16+00:00",
+      "url": "https://www.dvidshub.net/image/9985760/smmc-visits-service-members-centcom-aor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     }
