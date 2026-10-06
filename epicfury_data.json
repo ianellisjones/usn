@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-06T11:48:08.255381+00:00",
+  "generated": "2026-10-06T17:07:06.869165+00:00",
   "news_count": 0,
-  "dvids_count": 26,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
     {
@@ -20,51 +20,6 @@
       "location_display": ""
     },
     {
-      "id": "image:9985750",
-      "title": "SMMC visits medical units in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:31+00:00",
-      "url": "https://www.dvidshub.net/image/9985750/smmc-visits-medical-units-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9985749",
-      "title": "SMMC visits medical units in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:30+00:00",
-      "url": "https://www.dvidshub.net/image/9985749/smmc-visits-medical-units-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9985748",
-      "title": "SMMC visits medical units in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:30+00:00",
-      "url": "https://www.dvidshub.net/image/9985748/smmc-visits-medical-units-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "image:9985760",
       "title": "SMMC visits service members in CENTCOM AOR",
       "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
@@ -73,6 +28,51 @@
       "unit_name": "Sergeant Major of the Marine Corps",
       "timestamp": "2026-10-05T18:49:16+00:00",
       "url": "https://www.dvidshub.net/image/9985760/smmc-visits-service-members-centcom-aor",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9985759",
+      "title": "SMMC visits service members in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:15+00:00",
+      "url": "https://www.dvidshub.net/image/9985759/smmc-visits-service-members-centcom-aor",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9985758",
+      "title": "SMMC visits service members in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:15+00:00",
+      "url": "https://www.dvidshub.net/image/9985758/smmc-visits-service-members-centcom-aor",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9985757",
+      "title": "SMMC visits service members in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-05T18:49:14+00:00",
+      "url": "https://www.dvidshub.net/image/9985757/smmc-visits-service-members-centcom-aor",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
