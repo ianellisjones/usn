@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-06T17:07:06.869165+00:00",
+  "generated": "2026-10-06T21:22:39.745155+00:00",
   "news_count": 0,
-  "dvids_count": 18,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9995204",
+      "title": "SMMC visits Marines and Sailors in CENTCOM AOR",
+      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "Sergeant Major of the Marine Corps",
+      "timestamp": "2026-10-06T18:12:34+00:00",
+      "url": "https://www.dvidshub.net/image/9995204/smmc-visits-marines-and-sailors-centcom-aor",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576379",
       "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
@@ -20,59 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:9985760",
-      "title": "SMMC visits service members in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:16+00:00",
-      "url": "https://www.dvidshub.net/image/9985760/smmc-visits-service-members-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9985759",
-      "title": "SMMC visits service members in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:15+00:00",
-      "url": "https://www.dvidshub.net/image/9985759/smmc-visits-service-members-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9985758",
-      "title": "SMMC visits service members in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:15+00:00",
-      "url": "https://www.dvidshub.net/image/9985758/smmc-visits-service-members-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9985757",
-      "title": "SMMC visits service members in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-05T18:49:14+00:00",
-      "url": "https://www.dvidshub.net/image/9985757/smmc-visits-service-members-centcom-aor",
+      "id": "news:576332",
+      "title": "Nevada Air Guardsmen return from historic deployment supporting Operation Epic Fury",
+      "desc": "Six months after a one-week notice federal callup, Nevada Air National Guardsmen and four C-130 aircraft returned home Sunday from deployment to the U.S. Central Command area of responsibility in support of Operation Epic Fury.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
+      "timestamp": "2026-10-05T03:11:57+00:00",
+      "url": "https://www.dvidshub.net/news/576332/nevada-air-guardsmen-return-historic-deployment-supporting-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
