@@ -1,9 +1,39 @@
 {
-  "generated": "2026-10-07T11:31:21.774608+00:00",
+  "generated": "2026-10-07T17:43:55.977590+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "image:9997135",
+      "title": "John Finn Conducts Maintenance Checks",
+      "desc": "A U.S. Sailor establishes communications while...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-07T17:18:33+00:00",
+      "url": "https://www.dvidshub.net/image/9997135/john-finn-conducts-maintenance-checks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9997136",
+      "title": "John Finn Conducts Maintenance",
+      "desc": "A U.S. Sailor conducts maintenance on an Mk 45 Mod 4...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-07T17:16:29+00:00",
+      "url": "https://www.dvidshub.net/image/9997136/john-finn-conducts-maintenance",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576379",
       "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
