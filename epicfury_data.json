@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-07T17:43:55.977590+00:00",
+  "generated": "2026-10-07T21:41:41.030819+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1025720",
+      "title": "Hegseth Speaks to Returning Aircraft Carrier Crew",
+      "desc": "Secretary of War Pete Hegseth speaks to sailors during an all hands call aboard the aircraft carrier USS Abraham Lincoln near San Diego, Oct. 7, 2026. The ship is returning home after a more than 300-day deployment that included supporting operations in the Arabian Sea.",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "War.gov",
+      "timestamp": "2026-10-07T19:06:04+00:00",
+      "url": "https://www.dvidshub.net/video/1025720/hegseth-speaks-returning-aircraft-carrier-crew",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:9997135",
       "title": "John Finn Conducts Maintenance Checks",
