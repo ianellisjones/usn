@@ -1,24 +1,9 @@
 {
-  "generated": "2026-10-06T21:22:39.745155+00:00",
+  "generated": "2026-10-07T11:31:21.774608+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
-    {
-      "id": "image:9995204",
-      "title": "SMMC visits Marines and Sailors in CENTCOM AOR",
-      "desc": "U.S. Marine Corps Sgt. Maj. Carlos A. Ruiz, the 20th...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "Sergeant Major of the Marine Corps",
-      "timestamp": "2026-10-06T18:12:34+00:00",
-      "url": "https://www.dvidshub.net/image/9995204/smmc-visits-marines-and-sailors-centcom-aor",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:576379",
       "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
@@ -28,21 +13,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-10-05T21:00:48+00:00",
       "url": "https://www.dvidshub.net/news/576379/centcom-maintains-strict-enforcement-us-blockade-against-iran",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576332",
-      "title": "Nevada Air Guardsmen return from historic deployment supporting Operation Epic Fury",
-      "desc": "Six months after a one-week notice federal callup, Nevada Air National Guardsmen and four C-130 aircraft returned home Sunday from deployment to the U.S. Central Command area of responsibility in support of Operation Epic Fury.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Nevada Joint Force Headquarters Public Affairs",
-      "timestamp": "2026-10-05T03:11:57+00:00",
-      "url": "https://www.dvidshub.net/news/576332/nevada-air-guardsmen-return-historic-deployment-supporting-operation-epic-fury",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
