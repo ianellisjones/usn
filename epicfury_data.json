@@ -1,81 +1,81 @@
 {
-  "generated": "2026-10-08T17:48:29.987462+00:00",
+  "generated": "2026-10-08T21:37:47.702267+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 10,
   "news": [],
   "dvids": [
     {
-      "id": "news:576632",
-      "title": "USS Arleigh Burke enters dry dock in Spain, expanding the U.S. Navy’s forward-deployed maintenance capability in Europe",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Arleigh Burke (DDG 51) entered dry dock at the Navantia shipyard in Cadiz, Spain, Oct. 7, marking the first such evolution in the U.S. 6th Fleet area of operations since the arrival of Forward Deployed Naval Forces – Europe (FDNF-E) destroyers.",
+      "id": "image:10000849",
+      "title": "USS Abraham Lincoln Returns to Homeport",
+      "desc": "U.S. Navy Sailors secure mooring lines as the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-08T21:26:58+00:00",
+      "url": "https://www.dvidshub.net/image/10000849/uss-abraham-lincoln-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10000851",
+      "title": "USS Abraham Lincoln Returns to Homeport",
+      "desc": "U.S. Navy Sailors assigned to Nimitz-class aircraft...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-08T21:26:53+00:00",
+      "url": "https://www.dvidshub.net/image/10000851/uss-abraham-lincoln-returns-homeport",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10000786",
+      "title": "USS Abraham Lincoln Returns to Home Port",
+      "desc": "U.S. Navy Nimitz-class aircraft carrier USS Abraham...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-08T20:55:36+00:00",
+      "url": "https://www.dvidshub.net/image/10000786/uss-abraham-lincoln-returns-home-port",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10000552",
+      "title": "USS Abraham Lincoln Returns to its Home Port of San Diego",
+      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-08T19:38:51+00:00",
+      "url": "https://www.dvidshub.net/image/10000552/uss-abraham-lincoln-returns-its-home-port-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:576681",
+      "title": "USS Abraham Lincoln (CVN 72) returns to San Diego after 10-month combat deployment",
+      "desc": "SAN DIEGO – Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) returned to its homeport of San Diego following 10 months of operations in the U.S. 3rd, 5th and 7th Fleet areas of operations, Oct. 8, 2026.",
       "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-08T14:21:18+00:00",
-      "url": "https://www.dvidshub.net/news/576632/uss-arleigh-burke-enters-dry-dock-spain-expanding-us-navys-forward-deployed-maintenance-capability-europe",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9999550",
-      "title": "DDG 117 Chiefs Become Officers",
-      "desc": "Chief Electronics Technician Clay Rattenbury receives...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-08T13:02:57+00:00",
-      "url": "https://www.dvidshub.net/image/9999550/ddg-117-chiefs-become-officers",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-08T19:37:19+00:00",
+      "url": "https://www.dvidshub.net/news/576681/uss-abraham-lincoln-cvn-72-returns-san-diego-after-10-month-combat-deployment",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9999549",
-      "title": "DDG 117 Chiefs Become Officers",
-      "desc": "Chief Operations Specialist Steven Maxwell, left,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-08T13:02:57+00:00",
-      "url": "https://www.dvidshub.net/image/9999549/ddg-117-chiefs-become-officers",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1025720",
-      "title": "Hegseth Speaks to Returning Aircraft Carrier Crew",
-      "desc": "Secretary of War Pete Hegseth speaks to sailors during an all hands call aboard the aircraft carrier USS Abraham Lincoln near San Diego, Oct. 7, 2026. The ship is returning home after a more than 300-day deployment that included supporting operations in the Arabian Sea.",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "War.gov",
-      "timestamp": "2026-10-07T19:06:04+00:00",
-      "url": "https://www.dvidshub.net/video/1025720/hegseth-speaks-returning-aircraft-carrier-crew",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9997135",
-      "title": "John Finn Conducts Maintenance Checks",
-      "desc": "A U.S. Sailor establishes communications while...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-07T17:18:33+00:00",
-      "url": "https://www.dvidshub.net/image/9997135/john-finn-conducts-maintenance-checks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
