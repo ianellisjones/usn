@@ -1,9 +1,54 @@
 {
-  "generated": "2026-10-08T11:46:44.199159+00:00",
+  "generated": "2026-10-08T17:48:29.987462+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "news:576632",
+      "title": "USS Arleigh Burke enters dry dock in Spain, expanding the U.S. Navy’s forward-deployed maintenance capability in Europe",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Arleigh Burke (DDG 51) entered dry dock at the Navantia shipyard in Cadiz, Spain, Oct. 7, marking the first such evolution in the U.S. 6th Fleet area of operations since the arrival of Forward Deployed Naval Forces – Europe (FDNF-E) destroyers.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-10-08T14:21:18+00:00",
+      "url": "https://www.dvidshub.net/news/576632/uss-arleigh-burke-enters-dry-dock-spain-expanding-us-navys-forward-deployed-maintenance-capability-europe",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9999550",
+      "title": "DDG 117 Chiefs Become Officers",
+      "desc": "Chief Electronics Technician Clay Rattenbury receives...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-10-08T13:02:57+00:00",
+      "url": "https://www.dvidshub.net/image/9999550/ddg-117-chiefs-become-officers",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:9999549",
+      "title": "DDG 117 Chiefs Become Officers",
+      "desc": "Chief Operations Specialist Steven Maxwell, left,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-10-08T13:02:57+00:00",
+      "url": "https://www.dvidshub.net/image/9999549/ddg-117-chiefs-become-officers",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1025720",
       "title": "Hegseth Speaks to Returning Aircraft Carrier Crew",
@@ -20,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "news:576379",
-      "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
-      "desc": "TAMPA, Fla. — On Oct. 5, U.S. Central Command (CENTCOM) forces redirected the 130th commercial vessel in the Middle East during strict enforcement of the ongoing U.S. naval blockade against Iran.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-05T21:00:48+00:00",
-      "url": "https://www.dvidshub.net/news/576379/centcom-maintains-strict-enforcement-us-blockade-against-iran",
+      "id": "image:9997135",
+      "title": "John Finn Conducts Maintenance Checks",
+      "desc": "A U.S. Sailor establishes communications while...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-07T17:18:33+00:00",
+      "url": "https://www.dvidshub.net/image/9997135/john-finn-conducts-maintenance-checks",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
