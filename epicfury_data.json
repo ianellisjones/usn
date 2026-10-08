@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-07T21:41:41.030819+00:00",
+  "generated": "2026-10-08T11:46:44.199159+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
@@ -16,36 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9997135",
-      "title": "John Finn Conducts Maintenance Checks",
-      "desc": "A U.S. Sailor establishes communications while...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-07T17:18:33+00:00",
-      "url": "https://www.dvidshub.net/image/9997135/john-finn-conducts-maintenance-checks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:9997136",
-      "title": "John Finn Conducts Maintenance",
-      "desc": "A U.S. Sailor conducts maintenance on an Mk 45 Mod 4...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-07T17:16:29+00:00",
-      "url": "https://www.dvidshub.net/image/9997136/john-finn-conducts-maintenance",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     },
