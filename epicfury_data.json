@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-09T11:39:18.249733+00:00",
+  "generated": "2026-10-09T17:23:49.555047+00:00",
   "news_count": 0,
-  "dvids_count": 37,
+  "dvids_count": 27,
   "news": [],
   "dvids": [
     {
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10001343",
+      "id": "image:10001360",
       "title": "Abraham Lincoln Returns to San Diego",
       "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:40:28+00:00",
-      "url": "https://www.dvidshub.net/image/10001343/abraham-lincoln-returns-san-diego",
+      "timestamp": "2026-10-09T02:39:51+00:00",
+      "url": "https://www.dvidshub.net/image/10001360/abraham-lincoln-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10001347",
+      "id": "image:10001363",
       "title": "Abraham Lincoln Returns to San Diego",
       "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:40:23+00:00",
-      "url": "https://www.dvidshub.net/image/10001347/abraham-lincoln-returns-san-diego",
+      "timestamp": "2026-10-09T02:39:45+00:00",
+      "url": "https://www.dvidshub.net/image/10001363/abraham-lincoln-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10001352",
+      "id": "image:10001367",
       "title": "Abraham Lincoln Returns to San Diego",
-      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "desc": "U.S. Airman Ariana Bryant mans the rails as Nimitz-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:40:18+00:00",
-      "url": "https://www.dvidshub.net/image/10001352/abraham-lincoln-returns-san-diego",
+      "timestamp": "2026-10-09T02:39:35+00:00",
+      "url": "https://www.dvidshub.net/image/10001367/abraham-lincoln-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10001354",
+      "id": "image:10001372",
       "title": "Abraham Lincoln Returns to San Diego",
       "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:40:12+00:00",
-      "url": "https://www.dvidshub.net/image/10001354/abraham-lincoln-returns-san-diego",
+      "timestamp": "2026-10-09T02:39:30+00:00",
+      "url": "https://www.dvidshub.net/image/10001372/abraham-lincoln-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
