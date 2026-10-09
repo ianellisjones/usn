@@ -1,81 +1,81 @@
 {
-  "generated": "2026-10-09T17:23:49.555047+00:00",
+  "generated": "2026-10-09T21:23:42.937728+00:00",
   "news_count": 0,
-  "dvids_count": 27,
+  "dvids_count": 14,
   "news": [],
   "dvids": [
     {
-      "id": "news:576708",
-      "title": "US, Sweden, Finland reaffirm trilateral interoperability during historic Gulf of Bothnia transit",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul Ignatius (DDG 117) completed a historic multi-day maritime transit through the Baltic Sea and the Gulf of Bothnia, arriving in Helsinki Oct. 8 following a successful port visit to Stockholm.",
+      "id": "news:576758",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw’s Meeting with Royal Saudi Defense Leaders",
+      "desc": "TAMPA, Fla. -- Commander of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces (NAVCENT/C5F/CMF) Vice Adm. Curt Renshaw met with Saudi defense leaders during a trip to Riyadh, Saudi Arabia, Oct. 6-7.",
       "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-09T07:39:53+00:00",
-      "url": "https://www.dvidshub.net/news/576708/us-sweden-finland-reaffirm-trilateral-interoperability-during-historic-gulf-bothnia-transit",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-09T19:48:20+00:00",
+      "url": "https://www.dvidshub.net/news/576758/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-royal",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10001360",
-      "title": "Abraham Lincoln Returns to San Diego",
-      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
-      "type": "image",
+      "id": "news:576750",
+      "title": "Carrier Air Wing 9 completes 10-month combat deployment",
+      "desc": "SAN DIEGO — Carrier Air Wing (CVW) 9 has concluded a 10-month combat deployment aboard Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), Oct. 8. Since embarking Nov. 21, 2025, the Navy’s premier next-generation air wing served as the primary offensive power for the Abraham Lincoln Carrier ",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:39:51+00:00",
-      "url": "https://www.dvidshub.net/image/10001360/abraham-lincoln-returns-san-diego",
+      "unit_name": "Carrier Strike Group Three (CSG 3)",
+      "timestamp": "2026-10-09T18:53:07+00:00",
+      "url": "https://www.dvidshub.net/news/576750/carrier-air-wing-9-completes-10-month-combat-deployment",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10001363",
-      "title": "Abraham Lincoln Returns to San Diego",
-      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "id": "image:10002972",
+      "title": "Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor",
+      "desc": "The Rear Admiral Edwin T. Layton Leadership Award was...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:39:45+00:00",
-      "url": "https://www.dvidshub.net/image/10001363/abraham-lincoln-returns-san-diego",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-09T17:26:02+00:00",
+      "url": "https://www.dvidshub.net/image/10002972/rear-admiral-edwin-t-layton-leadership-award-presented-us-naval-forces-central-command-us-5th-fleet-sailor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10001367",
-      "title": "Abraham Lincoln Returns to San Diego",
-      "desc": "U.S. Airman Ariana Bryant mans the rails as Nimitz-class...",
+      "id": "image:10002980",
+      "title": "Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor",
+      "desc": "The Rear Admiral Edwin T. Layton Leadership Award was...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:39:35+00:00",
-      "url": "https://www.dvidshub.net/image/10001367/abraham-lincoln-returns-san-diego",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-09T17:25:50+00:00",
+      "url": "https://www.dvidshub.net/image/10002980/rear-admiral-edwin-t-layton-leadership-award-presented-us-naval-forces-central-command-us-5th-fleet-sailor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10001372",
-      "title": "Abraham Lincoln Returns to San Diego",
-      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
-      "type": "image",
+      "id": "news:576742",
+      "title": "Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor",
+      "desc": "TAMPA, Fla. – The Rear Admiral Edwin T. Layton Leadership Award was presented to Cmdr. Benjamin DeWitt, collections and targets department head, U.S. Naval Forces Central Command/U.S. 5th Fleet (NAVCENT/C5F), Sept. 16, 2026.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-09T02:39:30+00:00",
-      "url": "https://www.dvidshub.net/image/10001372/abraham-lincoln-returns-san-diego",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-09T17:24:22+00:00",
+      "url": "https://www.dvidshub.net/news/576742/rear-admiral-edwin-t-layton-leadership-award-presented-us-naval-forces-central-command-us-5th-fleet-sailor",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     }
