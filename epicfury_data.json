@@ -1,78 +1,78 @@
 {
-  "generated": "2026-10-08T21:37:47.702267+00:00",
+  "generated": "2026-10-09T11:39:18.249733+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 37,
   "news": [],
   "dvids": [
     {
-      "id": "image:10000849",
-      "title": "USS Abraham Lincoln Returns to Homeport",
-      "desc": "U.S. Navy Sailors secure mooring lines as the...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-08T21:26:58+00:00",
-      "url": "https://www.dvidshub.net/image/10000849/uss-abraham-lincoln-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10000851",
-      "title": "USS Abraham Lincoln Returns to Homeport",
-      "desc": "U.S. Navy Sailors assigned to Nimitz-class aircraft...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-08T21:26:53+00:00",
-      "url": "https://www.dvidshub.net/image/10000851/uss-abraham-lincoln-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10000786",
-      "title": "USS Abraham Lincoln Returns to Home Port",
-      "desc": "U.S. Navy Nimitz-class aircraft carrier USS Abraham...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-08T20:55:36+00:00",
-      "url": "https://www.dvidshub.net/image/10000786/uss-abraham-lincoln-returns-home-port",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10000552",
-      "title": "USS Abraham Lincoln Returns to its Home Port of San Diego",
-      "desc": "Nimitz-class aircraft carrier USS Abraham Lincoln (CVN...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-08T19:38:51+00:00",
-      "url": "https://www.dvidshub.net/image/10000552/uss-abraham-lincoln-returns-its-home-port-san-diego",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576681",
-      "title": "USS Abraham Lincoln (CVN 72) returns to San Diego after 10-month combat deployment",
-      "desc": "SAN DIEGO – Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72) returned to its homeport of San Diego following 10 months of operations in the U.S. 3rd, 5th and 7th Fleet areas of operations, Oct. 8, 2026.",
+      "id": "news:576708",
+      "title": "US, Sweden, Finland reaffirm trilateral interoperability during historic Gulf of Bothnia transit",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul Ignatius (DDG 117) completed a historic multi-day maritime transit through the Baltic Sea and the Gulf of Bothnia, arriving in Helsinki Oct. 8 following a successful port visit to Stockholm.",
       "type": "news",
       "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-10-09T07:39:53+00:00",
+      "url": "https://www.dvidshub.net/news/576708/us-sweden-finland-reaffirm-trilateral-interoperability-during-historic-gulf-bothnia-transit",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10001343",
+      "title": "Abraham Lincoln Returns to San Diego",
+      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "type": "image",
+      "branch": "Navy",
       "unit_name": "USS Abraham Lincoln (CVN 72)",
-      "timestamp": "2026-10-08T19:37:19+00:00",
-      "url": "https://www.dvidshub.net/news/576681/uss-abraham-lincoln-cvn-72-returns-san-diego-after-10-month-combat-deployment",
+      "timestamp": "2026-10-09T02:40:28+00:00",
+      "url": "https://www.dvidshub.net/image/10001343/abraham-lincoln-returns-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10001347",
+      "title": "Abraham Lincoln Returns to San Diego",
+      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-09T02:40:23+00:00",
+      "url": "https://www.dvidshub.net/image/10001347/abraham-lincoln-returns-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10001352",
+      "title": "Abraham Lincoln Returns to San Diego",
+      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-09T02:40:18+00:00",
+      "url": "https://www.dvidshub.net/image/10001352/abraham-lincoln-returns-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10001354",
+      "title": "Abraham Lincoln Returns to San Diego",
+      "desc": "U.S. Sailors man the rails as Nimitz-class aircraft...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Abraham Lincoln (CVN 72)",
+      "timestamp": "2026-10-09T02:40:12+00:00",
+      "url": "https://www.dvidshub.net/image/10001354/abraham-lincoln-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
