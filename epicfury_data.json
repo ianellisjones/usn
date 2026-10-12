@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-12T20:12:17.227837+00:00",
+  "generated": "2026-10-12T23:21:06.490920+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
     {
@@ -50,21 +50,6 @@
       "location_display": ""
     },
     {
-      "id": "news:576770",
-      "title": "USS Oregon arrives in Norway",
-      "desc": "Virginia-class fast-attack submarine USS Oregon (SSN 793) arrived at the Port of Grøtsund near Tromsø for a scheduled port visit Oct. 6.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-11T07:10:02+00:00",
-      "url": "https://www.dvidshub.net/news/576770/uss-oregon-arrives-norway",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "video:1026100",
       "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade",
       "desc": "U.S. Central Command (CENTCOM) forces disabled a commercial cargo vessel in the Gulf of Oman, Oct. 10, after the ship’s crew ignored repeated warnings and attempted to run the ongoing naval blockade against Iran. (U.S. Central Command Video)",
@@ -73,6 +58,21 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-10-11T00:13:07+00:00",
       "url": "https://www.dvidshub.net/video/1026100/us-forces-disable-cargo-vessel-attempting-violate-blockade",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:576778",
+      "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade",
+      "desc": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces disabled a commercial cargo vessel in the Gulf of Oman, Oct. 10, after the ship’s crew ignored repeated warnings and attempted to run the ongoing naval blockade against Iran.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-11T00:12:22+00:00",
+      "url": "https://www.dvidshub.net/news/576778/us-forces-disable-cargo-vessel-attempting-violate-blockade",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
