@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-13T18:04:55.126378+00:00",
+  "generated": "2026-10-13T21:38:26.241000+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "news:576840",
+      "title": "One Mission, Many Perspectives: Minnesota National Guard Soldiers and Families Face Deployment Together",
+      "desc": "On Oct. 11, 2026, Soldiers, families and friends gathered in Red Wing, Minnesota, for a deployment ceremony honoring approximately 100 Soldiers assigned to the 434th Chemical Company. The Soldiers are preparing to deploy later this fall to the U.S. Central Command (CENTCOM) area of responsibility, w",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Minnesota National Guard",
+      "timestamp": "2026-10-13T18:15:00+00:00",
+      "url": "https://www.dvidshub.net/news/576840/one-mission-many-perspectives-minnesota-national-guard-soldiers-and-families-face-deployment-together",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576804",
       "title": "USS Stout departs Morocco",
@@ -16,51 +31,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10006867",
-      "title": "USS Paul Ignatius Conducts Joint Exercise in the Gulf of Bothnia",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-12T07:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/10006867/uss-paul-ignatius-conducts-joint-exercise-gulf-bothnia",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10006866",
-      "title": "USS Paul Ignatius Conducts Joint Exercise in the Gulf of Bothnia",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-12T07:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/10006866/uss-paul-ignatius-conducts-joint-exercise-gulf-bothnia",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10006862",
-      "title": "USS Paul Ignatius Conducts Joint Exercise in the Gulf of Bothnia",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Paul...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-12T07:45:28+00:00",
-      "url": "https://www.dvidshub.net/image/10006862/uss-paul-ignatius-conducts-joint-exercise-gulf-bothnia",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     },
