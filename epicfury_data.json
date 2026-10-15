@@ -1,18 +1,33 @@
 {
-  "generated": "2026-10-15T15:32:56.500592+00:00",
+  "generated": "2026-10-15T20:07:07.587444+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
-      "id": "image:10012901",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
+      "id": "image:10014665",
+      "title": "Paul Ignatius Celebrates Navy’s 251st Birthday",
+      "desc": "Interior Communications Electrician 1st Class Matthew...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-10-15T18:35:09+00:00",
+      "url": "https://www.dvidshub.net/image/10014665/paul-ignatius-celebrates-navys-251st-birthday",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10013084",
+      "title": "George Washington’s Dental Team Embarks on Shoup",
+      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:43+00:00",
-      "url": "https://www.dvidshub.net/image/10012901/uss-george-hw-bush-sails-sunrise",
+      "timestamp": "2026-10-15T17:53:09+00:00",
+      "url": "https://www.dvidshub.net/image/10013084/george-washingtons-dental-team-embarks-shoup",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10012900",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
+      "id": "image:10013087",
+      "title": "George Washington’s Dental Team Embarks on Shoup",
+      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:42+00:00",
-      "url": "https://www.dvidshub.net/image/10012900/uss-george-hw-bush-sails-sunrise",
+      "timestamp": "2026-10-15T17:52:15+00:00",
+      "url": "https://www.dvidshub.net/image/10013087/george-washingtons-dental-team-embarks-shoup",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10012899",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
+      "id": "image:10013063",
+      "title": "USS George Washington Conducts Aircraft Maintenance",
+      "desc": "A U.S. Sailor inspects a retention plate on an MH-60R...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:42+00:00",
-      "url": "https://www.dvidshub.net/image/10012899/uss-george-hw-bush-sails-sunrise",
+      "timestamp": "2026-10-15T17:44:45+00:00",
+      "url": "https://www.dvidshub.net/image/10013063/uss-george-washington-conducts-aircraft-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,32 +65,17 @@
       "location_display": ""
     },
     {
-      "id": "image:10012898",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
+      "id": "image:10013064",
+      "title": "USS George Washington Conducts Aircraft Maintenance",
+      "desc": "A U.S. Sailor removes panels off of an F/A-18 Super...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:42+00:00",
-      "url": "https://www.dvidshub.net/image/10012898/uss-george-hw-bush-sails-sunrise",
+      "timestamp": "2026-10-15T17:36:15+00:00",
+      "url": "https://www.dvidshub.net/image/10013064/uss-george-washington-conducts-aircraft-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576872",
-      "title": "USS John Basilone arrives at new homeport in Rota, Spain",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS John Basilone (DDG 122) arrived at its new homeport of Naval Station Rota, Spain, Oct. 14, joining forward-deployed U.S. naval forces operating in Europe.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-14T12:15:16+00:00",
-      "url": "https://www.dvidshub.net/news/576872/uss-john-basilone-arrives-new-homeport-rota-spain",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
