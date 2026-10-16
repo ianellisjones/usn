@@ -1,9 +1,54 @@
 {
-  "generated": "2026-10-16T15:19:31.277297+00:00",
+  "generated": "2026-10-16T19:45:23.191583+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
+    {
+      "id": "news:577094",
+      "title": "251 Years of Excellence: Happy Birthday, Navy!",
+      "desc": "U.S. Sailors and Marines Aboard USS Boxer recognize 251 years of storied history and remain committed to carrying that legacy forward during a celebration of the U.S. Navy's 251st birthday.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-16T19:21:49+00:00",
+      "url": "https://www.dvidshub.net/news/577094/251-years-excellence-happy-birthday-navy",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:577138",
+      "title": "Task Force 57 Holds Change of Command Ceremony",
+      "desc": "TAMPA, Fla. (Oct. 16, 2026) – U.S. Naval Forces Central Command’s (NAVCENT) Task Force (TF) 57 welcomed a new commander during a change of command ceremony on MacDill Air Force Base in Tampa, Florida, Oct. 15.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-16T18:50:35+00:00",
+      "url": "https://www.dvidshub.net/news/577138/task-force-57-holds-change-command-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1026628",
+      "title": "Update from CENTCOM Commander",
+      "desc": "Adm. Brad Cooper, CENTCOM commander, provides an update, Oct. 16, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-16T18:12:21+00:00",
+      "url": "https://www.dvidshub.net/video/1026628/update-centcom-commander",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:576977",
       "title": "USS McFaul completes African circumnavigation transit",
@@ -28,51 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-10-16T12:35:22+00:00",
       "url": "https://www.dvidshub.net/news/576854/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-united",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10014665",
-      "title": "Paul Ignatius Celebrates Navy’s 251st Birthday",
-      "desc": "Interior Communications Electrician 1st Class Matthew...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-15T18:35:09+00:00",
-      "url": "https://www.dvidshub.net/image/10014665/paul-ignatius-celebrates-navys-251st-birthday",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10013084",
-      "title": "George Washington’s Dental Team Embarks on Shoup",
-      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T17:53:09+00:00",
-      "url": "https://www.dvidshub.net/image/10013084/george-washingtons-dental-team-embarks-shoup",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10013087",
-      "title": "George Washington’s Dental Team Embarks on Shoup",
-      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T17:52:15+00:00",
-      "url": "https://www.dvidshub.net/image/10013087/george-washingtons-dental-team-embarks-shoup",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
