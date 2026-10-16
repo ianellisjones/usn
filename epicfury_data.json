@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-15T20:07:07.587444+00:00",
+  "generated": "2026-10-16T09:29:45.000568+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10013063",
-      "title": "USS George Washington Conducts Aircraft Maintenance",
-      "desc": "A U.S. Sailor inspects a retention plate on an MH-60R...",
+      "id": "image:10012901",
+      "title": "USS George H.W. Bush Sails at Sunrise",
+      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T17:44:45+00:00",
-      "url": "https://www.dvidshub.net/image/10013063/uss-george-washington-conducts-aircraft-maintenance",
+      "timestamp": "2026-10-15T12:39:43+00:00",
+      "url": "https://www.dvidshub.net/image/10012901/uss-george-hw-bush-sails-sunrise",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10013064",
-      "title": "USS George Washington Conducts Aircraft Maintenance",
-      "desc": "A U.S. Sailor removes panels off of an F/A-18 Super...",
+      "id": "image:10012900",
+      "title": "USS George H.W. Bush Sails at Sunrise",
+      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T17:36:15+00:00",
-      "url": "https://www.dvidshub.net/image/10013064/uss-george-washington-conducts-aircraft-maintenance",
+      "timestamp": "2026-10-15T12:39:42+00:00",
+      "url": "https://www.dvidshub.net/image/10012900/uss-george-hw-bush-sails-sunrise",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
