@@ -1,9 +1,39 @@
 {
-  "generated": "2026-10-16T09:29:45.000568+00:00",
+  "generated": "2026-10-16T15:19:31.277297+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
+    {
+      "id": "news:576977",
+      "title": "USS McFaul completes African circumnavigation transit",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS McFaul (DDG 74) completed a circumnavigation transit of the African continent, underscoring expeditionary readiness and maritime cooperation with partner nations across the region.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-10-16T13:23:36+00:00",
+      "url": "https://www.dvidshub.net/news/576977/uss-mcfaul-completes-african-circumnavigation-transit",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:576854",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm, Curt Renshaw's Meeting with United Arab Emirates Defense Leaders",
+      "desc": "TAMPA, Fla. (Oct. 16, 2026) U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with United Arab Emirates Naval Forces and regional key leaders during a trip to United Arab Emirates (UAE), Oct. 7-9.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-16T12:35:22+00:00",
+      "url": "https://www.dvidshub.net/news/576854/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-united",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10014665",
       "title": "Paul Ignatius Celebrates Navy’s 251st Birthday",
@@ -43,36 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-10-15T17:52:15+00:00",
       "url": "https://www.dvidshub.net/image/10013087/george-washingtons-dental-team-embarks-shoup",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10012901",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:43+00:00",
-      "url": "https://www.dvidshub.net/image/10012901/uss-george-hw-bush-sails-sunrise",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10012900",
-      "title": "USS George H.W. Bush Sails at Sunrise",
-      "desc": "Nimitz-class aircraft carrier USS George H.W. Bush (CVN...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-15T12:39:42+00:00",
-      "url": "https://www.dvidshub.net/image/10012900/uss-george-hw-bush-sails-sunrise",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
