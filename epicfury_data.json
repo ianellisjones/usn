@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-17T18:56:35.025950+00:00",
+  "generated": "2026-10-18T09:19:43.185266+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
@@ -46,21 +46,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576977",
-      "title": "USS McFaul completes African circumnavigation transit",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS McFaul (DDG 74) completed a circumnavigation transit of the African continent, underscoring expeditionary readiness and maritime cooperation with partner nations across the region.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-16T13:23:36+00:00",
-      "url": "https://www.dvidshub.net/news/576977/uss-mcfaul-completes-african-circumnavigation-transit",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     },
