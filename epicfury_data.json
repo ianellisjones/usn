@@ -1,9 +1,39 @@
 {
-  "generated": "2026-10-19T17:23:56.042792+00:00",
+  "generated": "2026-10-19T21:17:35.420501+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "image:10030294",
+      "title": "Delbert D. Black Conducts Flight Operations",
+      "desc": "U.S. Sailors secure chocks and chains on an MH-60R Sea...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-19T19:02:54+00:00",
+      "url": "https://www.dvidshub.net/image/10030294/delbert-d-black-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10030295",
+      "title": "Delbert D. Black Conducts Flight Operations",
+      "desc": "A U.S. Sailor directs an MH-60R Sea Hawk on the flight...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-19T19:02:37+00:00",
+      "url": "https://www.dvidshub.net/image/10030295/delbert-d-black-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1026786",
       "title": "What is U.S. Central Command?",
@@ -13,21 +43,6 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-10-19T14:01:31+00:00",
       "url": "https://www.dvidshub.net/video/1026786/us-central-command",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10029527",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor conducts maintenance on an oxygen...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-19T13:53:59+00:00",
-      "url": "https://www.dvidshub.net/image/10029527/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
