@@ -1,7 +1,68 @@
 {
-  "generated": "2026-10-19T10:30:32.659965+00:00",
+  "generated": "2026-10-19T17:23:56.042792+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 4,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "video:1026786",
+      "title": "What is U.S. Central Command?",
+      "desc": "Informational video about U.S. Central Command, released June 24, 2026. (U.S. Central Command video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-19T14:01:31+00:00",
+      "url": "https://www.dvidshub.net/video/1026786/us-central-command",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10029527",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor conducts maintenance on an oxygen...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-19T13:53:59+00:00",
+      "url": "https://www.dvidshub.net/image/10029527/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:577220",
+      "title": "Navy Medicine Sailors return home from deployment",
+      "desc": "An elite, far-forward Navy Medicine surgical asset returned to U.S. soil on Oct. 17, 2026, touching down at the military air terminal at Naval Air Station Norfolk following a seven-month deployment to the U.S. Central Command (CENTCOM) area of responsibility.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Navy Bureau of Medicine and Surgery",
+      "timestamp": "2026-10-19T13:16:53+00:00",
+      "url": "https://www.dvidshub.net/news/577220/navy-medicine-sailors-return-home-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:577217",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Kuwaiti Defense Leaders",
+      "desc": "TAMPA, Fla. (Oct. 19, 2026) U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with key Kuwaiti political and defense leaders during a trip to Kuwait City, Kuwait, Oct. 18-19.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-19T12:19:21+00:00",
+      "url": "https://www.dvidshub.net/news/577217/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-kuwaiti",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
