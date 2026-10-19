@@ -1,68 +1,7 @@
 {
-  "generated": "2026-10-18T19:04:13.340576+00:00",
+  "generated": "2026-10-19T10:30:32.659965+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 0,
   "news": [],
-  "dvids": [
-    {
-      "id": "news:577094",
-      "title": "251 Years of Excellence: Happy Birthday, Navy!",
-      "desc": "U.S. Sailors and Marines Aboard USS Boxer recognize 251 years of storied history and remain committed to carrying that legacy forward during a celebration of the U.S. Navy's 251st birthday.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-16T19:21:49+00:00",
-      "url": "https://www.dvidshub.net/news/577094/251-years-excellence-happy-birthday-navy",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:577138",
-      "title": "Task Force 57 Holds Change of Command Ceremony",
-      "desc": "TAMPA, Fla. (Oct. 16, 2026) – U.S. Naval Forces Central Command’s (NAVCENT) Task Force (TF) 57 welcomed a new commander during a change of command ceremony on MacDill Air Force Base in Tampa, Florida, Oct. 15.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-16T18:50:35+00:00",
-      "url": "https://www.dvidshub.net/news/577138/task-force-57-holds-change-command-ceremony",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1026628",
-      "title": "Update from CENTCOM Commander",
-      "desc": "Adm. Brad Cooper, CENTCOM commander, provides an update, Oct. 16, 2026. (U.S. Central Command video)",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-16T18:12:21+00:00",
-      "url": "https://www.dvidshub.net/video/1026628/update-centcom-commander",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:576854",
-      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm, Curt Renshaw's Meeting with United Arab Emirates Defense Leaders",
-      "desc": "TAMPA, Fla. (Oct. 16, 2026) U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with United Arab Emirates Naval Forces and regional key leaders during a trip to United Arab Emirates (UAE), Oct. 7-9.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-16T12:35:22+00:00",
-      "url": "https://www.dvidshub.net/news/576854/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-united",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    }
-  ]
+  "dvids": []
 }
