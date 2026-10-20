@@ -1,9 +1,54 @@
 {
-  "generated": "2026-10-20T09:48:12.663478+00:00",
+  "generated": "2026-10-20T15:36:02.140797+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
+    {
+      "id": "image:10032396",
+      "title": "Flight Quarters aboard USS Gonzalez",
+      "desc": "An MH-60R Seahawk lands on the flight deck aboard...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T15:06:50+00:00",
+      "url": "https://www.dvidshub.net/image/10032396/flight-quarters-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10032413",
+      "title": "Flight Quarters aboard USS Gonzalez",
+      "desc": "U.S. Sailors transit the flight deck after securing an...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T15:03:07+00:00",
+      "url": "https://www.dvidshub.net/image/10032413/flight-quarters-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10032416",
+      "title": "Flight Quarters aboard USS Gonzalez",
+      "desc": "A U.S. Sailor serves as a landing signalman enlisted...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T15:00:24+00:00",
+      "url": "https://www.dvidshub.net/image/10032416/flight-quarters-aboard-uss-gonzalez",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1026786",
       "title": "What is U.S. Central Command?",
@@ -28,21 +73,6 @@
       "unit_name": "U.S. Navy Bureau of Medicine and Surgery",
       "timestamp": "2026-10-19T13:16:53+00:00",
       "url": "https://www.dvidshub.net/news/577220/navy-medicine-sailors-return-home-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:577217",
-      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Kuwaiti Defense Leaders",
-      "desc": "TAMPA, Fla. (Oct. 19, 2026) U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with key Kuwaiti political and defense leaders during a trip to Kuwait City, Kuwait, Oct. 18-19.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-19T12:19:21+00:00",
-      "url": "https://www.dvidshub.net/news/577217/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-kuwaiti",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
