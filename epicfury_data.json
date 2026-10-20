@@ -1,39 +1,9 @@
 {
-  "generated": "2026-10-19T21:17:35.420501+00:00",
+  "generated": "2026-10-20T09:48:12.663478+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
-    {
-      "id": "image:10030294",
-      "title": "Delbert D. Black Conducts Flight Operations",
-      "desc": "U.S. Sailors secure chocks and chains on an MH-60R Sea...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-19T19:02:54+00:00",
-      "url": "https://www.dvidshub.net/image/10030294/delbert-d-black-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10030295",
-      "title": "Delbert D. Black Conducts Flight Operations",
-      "desc": "A U.S. Sailor directs an MH-60R Sea Hawk on the flight...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-19T19:02:37+00:00",
-      "url": "https://www.dvidshub.net/image/10030295/delbert-d-black-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "video:1026786",
       "title": "What is U.S. Central Command?",
