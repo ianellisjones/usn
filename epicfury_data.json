@@ -1,63 +1,18 @@
 {
-  "generated": "2026-10-20T15:36:02.140797+00:00",
+  "generated": "2026-10-20T20:12:24.007242+00:00",
   "news_count": 0,
-  "dvids_count": 6,
+  "dvids_count": 16,
   "news": [],
   "dvids": [
     {
-      "id": "image:10032396",
-      "title": "Flight Quarters aboard USS Gonzalez",
-      "desc": "An MH-60R Seahawk lands on the flight deck aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T15:06:50+00:00",
-      "url": "https://www.dvidshub.net/image/10032396/flight-quarters-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10032413",
-      "title": "Flight Quarters aboard USS Gonzalez",
-      "desc": "U.S. Sailors transit the flight deck after securing an...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T15:03:07+00:00",
-      "url": "https://www.dvidshub.net/image/10032413/flight-quarters-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10032416",
-      "title": "Flight Quarters aboard USS Gonzalez",
-      "desc": "A U.S. Sailor serves as a landing signalman enlisted...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T15:00:24+00:00",
-      "url": "https://www.dvidshub.net/image/10032416/flight-quarters-aboard-uss-gonzalez",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1026786",
-      "title": "What is U.S. Central Command?",
-      "desc": "Informational video about U.S. Central Command, released June 24, 2026. (U.S. Central Command video)",
+      "id": "video:1026955",
+      "title": "USS Boxer Conducts Flight Operations",
+      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4) conducts flight operations, Oct. 20, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
       "type": "video",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-19T14:01:31+00:00",
-      "url": "https://www.dvidshub.net/video/1026786/us-central-command",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T18:41:49+00:00",
+      "url": "https://www.dvidshub.net/video/1026955/uss-boxer-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +20,59 @@
       "location_display": ""
     },
     {
-      "id": "news:577220",
-      "title": "Navy Medicine Sailors return home from deployment",
-      "desc": "An elite, far-forward Navy Medicine surgical asset returned to U.S. soil on Oct. 17, 2026, touching down at the military air terminal at Naval Air Station Norfolk following a seven-month deployment to the U.S. Central Command (CENTCOM) area of responsibility.",
-      "type": "news",
+      "id": "image:10034176",
+      "title": "John Finn Conducts Pre-Flight Checks",
+      "desc": "U.S. Sailors remove a clamp attached to an MH-60R Sea...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Navy Bureau of Medicine and Surgery",
-      "timestamp": "2026-10-19T13:16:53+00:00",
-      "url": "https://www.dvidshub.net/news/577220/navy-medicine-sailors-return-home-deployment",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T18:04:56+00:00",
+      "url": "https://www.dvidshub.net/image/10034176/john-finn-conducts-pre-flight-checks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10034178",
+      "title": "John Finn Conducts Pre-Flight Checks",
+      "desc": "Released\r\nU.S. Naval Forces Central Command / U.S. 5th...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T18:03:09+00:00",
+      "url": "https://www.dvidshub.net/image/10034178/john-finn-conducts-pre-flight-checks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10034179",
+      "title": "John Finn Conducts Pre-Flight Checks",
+      "desc": "A U.S. Sailor conducts pre-flight checks on an MH-60R...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T18:02:01+00:00",
+      "url": "https://www.dvidshub.net/image/10034179/john-finn-conducts-pre-flight-checks",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10034180",
+      "title": "John Finn Conducts Pre-Flight Checks",
+      "desc": "A U.S. Sailor conducts pre-flight checks on an MH-60R...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-20T17:47:42+00:00",
+      "url": "https://www.dvidshub.net/image/10034180/john-finn-conducts-pre-flight-checks",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
