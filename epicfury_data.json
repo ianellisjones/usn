@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20T20:12:24.007242+00:00",
+  "generated": "2026-10-21T09:49:23.773607+00:00",
   "news_count": 0,
-  "dvids_count": 16,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10034176",
-      "title": "John Finn Conducts Pre-Flight Checks",
-      "desc": "U.S. Sailors remove a clamp attached to an MH-60R Sea...",
-      "type": "image",
+      "id": "news:577220",
+      "title": "Navy Medicine Sailors return home from deployment",
+      "desc": "An elite, far-forward Navy Medicine surgical asset returned to U.S. soil on Oct. 17, 2026, touching down at the military air terminal at Naval Air Station Norfolk following a seven-month deployment to the U.S. Central Command (CENTCOM) area of responsibility.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T18:04:56+00:00",
-      "url": "https://www.dvidshub.net/image/10034176/john-finn-conducts-pre-flight-checks",
+      "unit_name": "U.S. Navy Bureau of Medicine and Surgery",
+      "timestamp": "2026-10-19T13:16:53+00:00",
+      "url": "https://www.dvidshub.net/news/577220/navy-medicine-sailors-return-home-deployment",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,44 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10034178",
-      "title": "John Finn Conducts Pre-Flight Checks",
-      "desc": "Released\r\nU.S. Naval Forces Central Command / U.S. 5th...",
-      "type": "image",
+      "id": "news:577217",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Kuwaiti Defense Leaders",
+      "desc": "TAMPA, Fla. (Oct. 19, 2026) U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with key Kuwaiti political and defense leaders during a trip to Kuwait City, Kuwait, Oct. 18-19.",
+      "type": "news",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T18:03:09+00:00",
-      "url": "https://www.dvidshub.net/image/10034178/john-finn-conducts-pre-flight-checks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10034179",
-      "title": "John Finn Conducts Pre-Flight Checks",
-      "desc": "A U.S. Sailor conducts pre-flight checks on an MH-60R...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T18:02:01+00:00",
-      "url": "https://www.dvidshub.net/image/10034179/john-finn-conducts-pre-flight-checks",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10034180",
-      "title": "John Finn Conducts Pre-Flight Checks",
-      "desc": "A U.S. Sailor conducts pre-flight checks on an MH-60R...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T17:47:42+00:00",
-      "url": "https://www.dvidshub.net/image/10034180/john-finn-conducts-pre-flight-checks",
+      "timestamp": "2026-10-19T12:19:21+00:00",
+      "url": "https://www.dvidshub.net/news/577217/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-kuwaiti",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
