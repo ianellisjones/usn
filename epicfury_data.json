@@ -1,9 +1,39 @@
 {
-  "generated": "2026-10-22T15:50:26.421612+00:00",
+  "generated": "2026-10-22T20:20:44.631323+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "news:577630",
+      "title": "USS Pinckney Begins Second Depot Modernization Period Under DDG MOD 2.0 Program",
+      "desc": "WASHINGTON, D.C. — The Arleigh Burke-class guided missile destroyer USS Pinckney\n(DDG 91) has commenced the second phase of upgrades under the Destroyer Modernization 2.0\n(DDG MOD 2.0) program in a Depot Modernization Period (DMP) at General Dynamics\nNASSCO in San Diego.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Portfolio Acquisition Executive Maritime (PAE Maritime)",
+      "timestamp": "2026-10-22T18:29:26+00:00",
+      "url": "https://www.dvidshub.net/news/577630/uss-pinckney-begins-second-depot-modernization-period-under-ddg-mod-20-program",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1027167",
+      "title": "USS Boxer Conducts Flight Operations",
+      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4) conducts flight operations, Oct. 20, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-22T18:15:02+00:00",
+      "url": "https://www.dvidshub.net/video/1027167/uss-boxer-conducts-flight-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1026955",
       "title": "USS Boxer Conducts Flight Operations",
