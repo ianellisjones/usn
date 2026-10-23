@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-22 11:25 UTC",
+  "updated": "2026-10-23 11:13 UTC",
   "source": "http://uscarriers.net",
   "ships": [
     {
       "hull": "CVN68",
       "name": "USS Nimitz",
       "type": "CVN",
-      "location": "Bremerton / Kitsap",
-      "date": "2027",
-      "status": ", USS Nimitz moored at Pier 14N in its new homeport of Naval Station Norfolk, for the first time in nearly 40 years, after a four-month transit from Bremerton, Washington."
+      "location": "Pacific Ocean",
+      "date": "Unknown",
+      "status": "No recent status found."
     },
     {
       "hull": "CVN69",
