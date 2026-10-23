@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-22T20:20:44.631323+00:00",
+  "generated": "2026-10-23T09:44:34.968815+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 1,
   "news": [],
   "dvids": [
     {
@@ -16,36 +16,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1027167",
-      "title": "USS Boxer Conducts Flight Operations",
-      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4) conducts flight operations, Oct. 20, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-22T18:15:02+00:00",
-      "url": "https://www.dvidshub.net/video/1027167/uss-boxer-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1026955",
-      "title": "USS Boxer Conducts Flight Operations",
-      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4) conducts flight operations, Oct. 20, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-20T18:41:49+00:00",
-      "url": "https://www.dvidshub.net/video/1026955/uss-boxer-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
