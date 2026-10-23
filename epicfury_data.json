@@ -1,48 +1,78 @@
 {
-  "generated": "2026-10-23T15:41:27.673069+00:00",
+  "generated": "2026-10-23T20:08:40.189550+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
-      "id": "image:10042961",
-      "title": "USS Winston S. Churchill (DDG 81) Ship's Store re-opens",
-      "desc": "Capt. Daryl Wilson, Naval Supply Systems Command...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "NAVSUP FLC Jacksonville",
-      "timestamp": "2026-10-23T15:30:36+00:00",
-      "url": "https://www.dvidshub.net/image/10042961/uss-winston-s-churchill-ddg-81-ships-store-re-opens",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10042960",
-      "title": "USS Winston S. Churchill (DDG 81) Ship's Store re-opens",
-      "desc": "Capt. Daryl Wilson, Naval Supply Systems Command...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "NAVSUP FLC Jacksonville",
-      "timestamp": "2026-10-23T15:30:36+00:00",
-      "url": "https://www.dvidshub.net/image/10042960/uss-winston-s-churchill-ddg-81-ships-store-re-opens",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:577630",
-      "title": "USS Pinckney Begins Second Depot Modernization Period Under DDG MOD 2.0 Program",
-      "desc": "WASHINGTON, D.C. — The Arleigh Burke-class guided missile destroyer USS Pinckney\n(DDG 91) has commenced the second phase of upgrades under the Destroyer Modernization 2.0\n(DDG MOD 2.0) program in a Depot Modernization Period (DMP) at General Dynamics\nNASSCO in San Diego.",
+      "id": "news:577757",
+      "title": "USS McFaul (DDG 74) Returns to Norfolk Following Deployment",
+      "desc": "NAVAL STATION NORFOLK, Va. – The Arleigh Burke-class guided-missile destroyer USS McFaul (DDG 74) returned to Naval Station Norfolk, Oct. 23, 2026, concluding an 11-month deployment to the U.S. 5th and 6th Fleet areas of operation.",
       "type": "news",
       "branch": "Navy",
-      "unit_name": "Portfolio Acquisition Executive Maritime (PAE Maritime)",
-      "timestamp": "2026-10-22T18:29:26+00:00",
-      "url": "https://www.dvidshub.net/news/577630/uss-pinckney-begins-second-depot-modernization-period-under-ddg-mod-20-program",
+      "unit_name": "Commander, Naval Surface Force Atlantic",
+      "timestamp": "2026-10-23T19:53:29+00:00",
+      "url": "https://www.dvidshub.net/news/577757/uss-mcfaul-ddg-74-returns-norfolk-following-deployment",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10043775",
+      "title": "USS McFaul ( DDG 74) Returns To Naval Station Norfolk",
+      "desc": "NAVAL STATION NORFOLK, Va. (Oct. 23, 2026) – A Sailor...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Surface Force Atlantic",
+      "timestamp": "2026-10-23T19:51:54+00:00",
+      "url": "https://www.dvidshub.net/image/10043775/uss-mcfaul-ddg-74-returns-naval-station-norfolk",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10043774",
+      "title": "USS McFaul ( DDG 74) Returns To Naval Station Norfolk",
+      "desc": "NAVAL STATION NORFOLK, Va.  (Oct. 23, 2026) – A Sailor...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Surface Force Atlantic",
+      "timestamp": "2026-10-23T19:51:54+00:00",
+      "url": "https://www.dvidshub.net/image/10043774/uss-mcfaul-ddg-74-returns-naval-station-norfolk",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10043773",
+      "title": "USS McFaul ( DDG 74) Returns To Naval Station Norfolk",
+      "desc": "NAVAL STATION NORFOLK, Va. (Oct. 23, 2026) – A U.S....",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Surface Force Atlantic",
+      "timestamp": "2026-10-23T19:51:54+00:00",
+      "url": "https://www.dvidshub.net/image/10043773/uss-mcfaul-ddg-74-returns-naval-station-norfolk",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10043772",
+      "title": "USS McFaul ( DDG 74) Returns To Naval Station Norfolk",
+      "desc": "NAVAL STATION NORFOLK Va. (Oct. 23, 2026) – U.S. Navy...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Naval Surface Force Atlantic",
+      "timestamp": "2026-10-23T19:51:54+00:00",
+      "url": "https://www.dvidshub.net/image/10043772/uss-mcfaul-ddg-74-returns-naval-station-norfolk",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
