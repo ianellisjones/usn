@@ -1,78 +1,78 @@
 {
-  "generated": "2026-10-26T10:45:38.568663+00:00",
+  "generated": "2026-10-26T17:14:26.121213+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 13,
   "news": [],
   "dvids": [
     {
-      "id": "image:10047349",
-      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
-      "desc": "Members of the U.S. European Command (USEUCOM) Joint...",
+      "id": "image:10046980",
+      "title": "USS Carl M. Levin Conducts Fresh Water Wash-down",
+      "desc": "U.S. Sailors participate in a freshwater wash-down on...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-10-25T22:36:33+00:00",
-      "url": "https://www.dvidshub.net/image/10047349/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-26T13:40:18+00:00",
+      "url": "https://www.dvidshub.net/image/10046980/uss-carl-m-levin-conducts-fresh-water-wash-down",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10047350",
-      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
-      "desc": "Players of the New Orleans Saints stand on the sidelines...",
+      "id": "image:10046981",
+      "title": "USS Carl M. Levin Conducts Routine Operations",
+      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-10-25T22:35:46+00:00",
-      "url": "https://www.dvidshub.net/image/10047350/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-26T13:39:59+00:00",
+      "url": "https://www.dvidshub.net/image/10046981/uss-carl-m-levin-conducts-routine-operations",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10047351",
-      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
-      "desc": "The U.S. European Command (USEUCOM) Joint Service Color...",
+      "id": "image:10046982",
+      "title": "USS Carl M. Levin Conducts Routine Operations",
+      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-10-25T22:34:40+00:00",
-      "url": "https://www.dvidshub.net/image/10047351/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-26T13:36:48+00:00",
+      "url": "https://www.dvidshub.net/image/10046982/uss-carl-m-levin-conducts-routine-operations",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10047362",
-      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
-      "desc": "U.S. Air Force Gen. Alexus Grynkewich, commander of U.S....",
+      "id": "image:10046983",
+      "title": "USS Carl M. Levin Conducts Routine Operations",
+      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "Regional Media Center AFN Europe",
-      "timestamp": "2026-10-25T22:24:41+00:00",
-      "url": "https://www.dvidshub.net/image/10047362/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-26T13:36:33+00:00",
+      "url": "https://www.dvidshub.net/image/10046983/uss-carl-m-levin-conducts-routine-operations",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10047130",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
+      "id": "image:10046977",
+      "title": "USS Carl M. Levin Conducts Routine Operations",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
       "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:22+00:00",
-      "url": "https://www.dvidshub.net/image/10047130/centcom-commander-visits-strait-hormuz-during-milestone-week",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-26T13:28:40+00:00",
+      "url": "https://www.dvidshub.net/image/10046977/uss-carl-m-levin-conducts-routine-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
