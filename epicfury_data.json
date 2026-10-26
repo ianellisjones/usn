@@ -1,9 +1,69 @@
 {
-  "generated": "2026-10-25T19:22:36.306791+00:00",
+  "generated": "2026-10-26T10:45:38.568663+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
+    {
+      "id": "image:10047349",
+      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
+      "desc": "Members of the U.S. European Command (USEUCOM) Joint...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-10-25T22:36:33+00:00",
+      "url": "https://www.dvidshub.net/image/10047349/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10047350",
+      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
+      "desc": "Players of the New Orleans Saints stand on the sidelines...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-10-25T22:35:46+00:00",
+      "url": "https://www.dvidshub.net/image/10047350/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10047351",
+      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
+      "desc": "The U.S. European Command (USEUCOM) Joint Service Color...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-10-25T22:34:40+00:00",
+      "url": "https://www.dvidshub.net/image/10047351/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10047362",
+      "title": "USEUCOM Joint Service Color Guard Honors Historic NFL Paris Game",
+      "desc": "U.S. Air Force Gen. Alexus Grynkewich, commander of U.S....",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Regional Media Center AFN Europe",
+      "timestamp": "2026-10-25T22:24:41+00:00",
+      "url": "https://www.dvidshub.net/image/10047362/useucom-joint-service-color-guard-honors-historic-nfl-paris-game",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10047130",
       "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
@@ -16,66 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10047128",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:21+00:00",
-      "url": "https://www.dvidshub.net/image/10047128/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10047127",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:21+00:00",
-      "url": "https://www.dvidshub.net/image/10047127/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:577799",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:42:55+00:00",
-      "url": "https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10046984",
-      "title": "USS McFaul Returns to Homeport",
-      "desc": "Arleigh Burke-class Flight II guided-missile destroyer...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "PCU John F. Kennedy (CVN 79)",
-      "timestamp": "2026-10-25T14:19:49+00:00",
-      "url": "https://www.dvidshub.net/image/10046984/uss-mcfaul-returns-homeport",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
