@@ -1,18 +1,33 @@
 {
-  "generated": "2026-10-26T21:15:25.174343+00:00",
+  "generated": "2026-10-27T10:12:05.917238+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
     {
-      "id": "image:10046980",
-      "title": "USS Carl M. Levin Conducts Fresh Water Wash-down",
-      "desc": "U.S. Sailors participate in a freshwater wash-down on...",
-      "type": "image",
+      "id": "news:577938",
+      "title": "USS Canberra arrives in Colombo for Second Visit in 2026",
+      "desc": "The Independence-variant littoral combat ship USS Canberra (LCS 30) arrived at Colombo, Sri Lanka, Oct. 26, 2026, for a scheduled logistics port call to strengthen relations with the Sri Lanka Navy and regional partners.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-26T13:40:18+00:00",
-      "url": "https://www.dvidshub.net/image/10046980/uss-carl-m-levin-conducts-fresh-water-wash-down",
+      "unit_name": "Commander, U.S. 7th Fleet",
+      "timestamp": "2026-10-27T02:11:59+00:00",
+      "url": "https://www.dvidshub.net/news/577938/uss-canberra-arrives-colombo-second-visit-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10047130",
+      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-25T16:43:22+00:00",
+      "url": "https://www.dvidshub.net/image/10047130/centcom-commander-visits-strait-hormuz-during-milestone-week",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10046981",
-      "title": "USS Carl M. Levin Conducts Routine Operations",
-      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
+      "id": "image:10047128",
+      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-26T13:39:59+00:00",
-      "url": "https://www.dvidshub.net/image/10046981/uss-carl-m-levin-conducts-routine-operations",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-25T16:43:21+00:00",
+      "url": "https://www.dvidshub.net/image/10047128/centcom-commander-visits-strait-hormuz-during-milestone-week",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10046982",
-      "title": "USS Carl M. Levin Conducts Routine Operations",
-      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
+      "id": "image:10047127",
+      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
+      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
       "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-26T13:36:48+00:00",
-      "url": "https://www.dvidshub.net/image/10046982/uss-carl-m-levin-conducts-routine-operations",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-25T16:43:21+00:00",
+      "url": "https://www.dvidshub.net/image/10047127/centcom-commander-visits-strait-hormuz-during-milestone-week",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10046983",
-      "title": "USS Carl M. Levin Conducts Routine Operations",
-      "desc": "A U.S. Sailor conducts maintenance on a gas turbine...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-26T13:36:33+00:00",
-      "url": "https://www.dvidshub.net/image/10046983/uss-carl-m-levin-conducts-routine-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10046978",
-      "title": "USS Carl M. Levin Conducts Routine Operations",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-26T13:28:28+00:00",
-      "url": "https://www.dvidshub.net/image/10046978/uss-carl-m-levin-conducts-routine-operations",
+      "id": "news:577799",
+      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
+      "desc": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-10-25T16:42:55+00:00",
+      "url": "https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
