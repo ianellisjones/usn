@@ -1,9 +1,69 @@
 {
-  "generated": "2026-10-27T16:22:10.357288+00:00",
+  "generated": "2026-10-27T21:02:44.123793+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 19,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1027650",
+      "title": "USS Boxer, USNS Oscar V. Peterson, USNS Cesar Chavez Conduct RAS, VERTREP",
+      "desc": "Wasp-class amphibious assault ship USS Boxer (LHD 4) conducts a replenishment-at-sea with John Lewis-class fleet replenishment oiler USNS Oscar V. Peterson (T-AO 206) and a vertical replenishment with Lewis and Clark-class dry cargo ship USNS Cesar Chavez (T-AKE 14), Oct. 26, 2026. Boxer is deployed",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-27T18:51:59+00:00",
+      "url": "https://www.dvidshub.net/video/1027650/uss-boxer-usns-oscar-v-peterson-usns-cesar-chavez-conduct-ras-vertrep",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10052509",
+      "title": "USS Oscar Austin maintains warfighting readiness",
+      "desc": "U.S. Navy Sailors conduct small-arms qualifications on...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-10-27T17:34:30+00:00",
+      "url": "https://www.dvidshub.net/image/10052509/uss-oscar-austin-maintains-warfighting-readiness",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10052503",
+      "title": "USS Oscar Austin maintains warfighting readiness",
+      "desc": "U.S. Navy Sailors conduct small-arms qualifications on...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-10-27T17:34:30+00:00",
+      "url": "https://www.dvidshub.net/image/10052503/uss-oscar-austin-maintains-warfighting-readiness",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10052502",
+      "title": "USS Oscar Austin maintains warfighting readiness",
+      "desc": "U.S. Navy Sailors conduct small-arms qualifications on...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-10-27T17:34:30+00:00",
+      "url": "https://www.dvidshub.net/image/10052502/uss-oscar-austin-maintains-warfighting-readiness",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:577938",
       "title": "USS Canberra arrives in Colombo for Second Visit in 2026",
@@ -16,66 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:577799",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:42:55+00:00",
-      "url": "https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10049390",
-      "title": "USS Carl M. Levin Conducts Small Boat Operations",
-      "desc": "A rigid-hull inflatable boat assigned to Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "1970-01-01T00:00:00+00:00",
-      "url": "https://www.dvidshub.net/image/10049390/uss-carl-m-levin-conducts-small-boat-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10049387",
-      "title": "USS Carl M. Levin Conducts Small Boat Operations",
-      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "1970-01-01T00:00:00+00:00",
-      "url": "https://www.dvidshub.net/image/10049387/uss-carl-m-levin-conducts-small-boat-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10049384",
-      "title": "USS Carl M. Levin Conducts Small Boat Operations",
-      "desc": "A U.S. Sailor stands by for small boat operations aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "1970-01-01T00:00:00+00:00",
-      "url": "https://www.dvidshub.net/image/10049384/uss-carl-m-levin-conducts-small-boat-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
       ],
       "location_display": ""
     }
