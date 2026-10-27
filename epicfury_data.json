@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-27T10:12:05.917238+00:00",
+  "generated": "2026-10-27T16:22:10.357288+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
@@ -20,51 +20,6 @@
       "location_display": ""
     },
     {
-      "id": "image:10047130",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:22+00:00",
-      "url": "https://www.dvidshub.net/image/10047130/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10047128",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:21+00:00",
-      "url": "https://www.dvidshub.net/image/10047128/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10047127",
-      "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-      "desc": "U.S. Navy Adm. Brad Cooper, commander of U.S. Central...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Central Command Public Affairs",
-      "timestamp": "2026-10-25T16:43:21+00:00",
-      "url": "https://www.dvidshub.net/image/10047127/centcom-commander-visits-strait-hormuz-during-milestone-week",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
       "id": "news:577799",
       "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
       "desc": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
@@ -73,6 +28,51 @@
       "unit_name": "U.S. Central Command Public Affairs",
       "timestamp": "2026-10-25T16:42:55+00:00",
       "url": "https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10049390",
+      "title": "USS Carl M. Levin Conducts Small Boat Operations",
+      "desc": "A rigid-hull inflatable boat assigned to Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "1970-01-01T00:00:00+00:00",
+      "url": "https://www.dvidshub.net/image/10049390/uss-carl-m-levin-conducts-small-boat-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10049387",
+      "title": "USS Carl M. Levin Conducts Small Boat Operations",
+      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "1970-01-01T00:00:00+00:00",
+      "url": "https://www.dvidshub.net/image/10049387/uss-carl-m-levin-conducts-small-boat-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10049384",
+      "title": "USS Carl M. Levin Conducts Small Boat Operations",
+      "desc": "A U.S. Sailor stands by for small boat operations aboard...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "1970-01-01T00:00:00+00:00",
+      "url": "https://www.dvidshub.net/image/10049384/uss-carl-m-levin-conducts-small-boat-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
