@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-28T21:25:09.993171+00:00",
+  "generated": "2026-10-29T11:18:00.115045+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 15,
   "news": [],
   "dvids": [
+    {
+      "id": "news:578023",
+      "title": "FASTCENT Debuts C-UAS, Alert Platoon Activated",
+      "desc": "NAVAL SUPPORT ACTIVITY BAHRAIN - U.S. Marines assigned to Fleet Antiterrorism Security Team Central Command (FASTCENT) recently executed the first direct, land-based counter-drone campaign in U.S. Marine Corps history and activated the first emergency embassy alert mission in 15 years while operatin",
+      "type": "news",
+      "branch": "Marines",
+      "unit_name": "Task Force 51/5th Marine Expeditionary Brigade",
+      "timestamp": "2026-10-29T00:28:40+00:00",
+      "url": "https://www.dvidshub.net/news/578023/fastcent-debuts-c-uas-alert-platoon-activated",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10054531",
       "title": "Paul Ignatius Returns Home",
@@ -61,21 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:578029",
-      "title": "USS Canberra Departs Colombo After Scheduled Port Visit",
-      "desc": "The Independence-variant littoral combat ship USS Canberra (LCS 30) departed Colombo, Sri Lanka, Oct. 27, 2026, following a scheduled logistics port call to strengthen relations with the Sri Lanka Navy and regional partners.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 7",
-      "timestamp": "2026-10-28T01:37:48+00:00",
-      "url": "https://www.dvidshub.net/news/578029/uss-canberra-departs-colombo-after-scheduled-port-visit",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
