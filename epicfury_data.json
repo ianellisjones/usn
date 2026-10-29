@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-29T11:18:00.115045+00:00",
+  "generated": "2026-10-29T17:22:06.279521+00:00",
   "news_count": 0,
   "dvids_count": 15,
   "news": [],
   "dvids": [
     {
-      "id": "news:578023",
-      "title": "FASTCENT Debuts C-UAS, Alert Platoon Activated",
-      "desc": "NAVAL SUPPORT ACTIVITY BAHRAIN - U.S. Marines assigned to Fleet Antiterrorism Security Team Central Command (FASTCENT) recently executed the first direct, land-based counter-drone campaign in U.S. Marine Corps history and activated the first emergency embassy alert mission in 15 years while operatin",
-      "type": "news",
-      "branch": "Marines",
-      "unit_name": "Task Force 51/5th Marine Expeditionary Brigade",
-      "timestamp": "2026-10-29T00:28:40+00:00",
-      "url": "https://www.dvidshub.net/news/578023/fastcent-debuts-c-uas-alert-platoon-activated",
+      "id": "image:10055049",
+      "title": "USS Tulsa conducts flight quarters",
+      "desc": "U.S. Sailors cross the flight deck during a vertical...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-29T17:06:58+00:00",
+      "url": "https://www.dvidshub.net/image/10055049/uss-tulsa-conducts-flight-quarters",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,62 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "image:10054531",
-      "title": "Paul Ignatius Returns Home",
-      "desc": "Families and friends welcome Arleigh Burke-class...",
+      "id": "image:10054911",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "U.S. Sailors signal to an MH-60S Sea Hawk assigned to...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-28T10:17:58+00:00",
-      "url": "https://www.dvidshub.net/image/10054531/paul-ignatius-returns-home",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-29T16:21:03+00:00",
+      "url": "https://www.dvidshub.net/image/10054911/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10054530",
-      "title": "Paul Ignatius Returns Home",
-      "desc": "Sailors man the rails during a sea and anchor evolution...",
+      "id": "image:10054914",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "A U.S. Sailor signals to an MH-60S Sea Hawk assigned to...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-28T10:17:58+00:00",
-      "url": "https://www.dvidshub.net/image/10054530/paul-ignatius-returns-home",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-29T16:20:51+00:00",
+      "url": "https://www.dvidshub.net/image/10054914/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10054529",
-      "title": "Paul Ignatius Returns Home",
-      "desc": "Sailors man the rails during a sea and anchor evolution...",
+      "id": "image:10054913",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "A U.S. Sailor oversees flight operations with an MH-60S...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
-      "timestamp": "2026-10-28T10:17:58+00:00",
-      "url": "https://www.dvidshub.net/image/10054529/paul-ignatius-returns-home",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-29T16:20:37+00:00",
+      "url": "https://www.dvidshub.net/image/10054913/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "news:578038",
-      "title": "USS Oscar Austin Visits Slovenia During Sovereignty Day Observance",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Oscar Austin (DDG 79) concluded a scheduled port visit to Koper, Slovenia, Oct. 27, 2026, during the country’s Sovereignty Day observance.",
-      "type": "news",
+      "id": "image:10054912",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "U.S. Sailors signal to an MH-60S Sea Hawk assigned to...",
+      "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-28T08:22:10+00:00",
-      "url": "https://www.dvidshub.net/news/578038/uss-oscar-austin-visits-slovenia-during-sovereignty-day-observance",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-29T16:20:25+00:00",
+      "url": "https://www.dvidshub.net/image/10054912/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
-        "EUCOM"
+        "CENTCOM"
       ],
       "location_display": ""
     }
