@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-29T21:29:07.058871+00:00",
+  "generated": "2026-10-30T11:10:40.963652+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
@@ -31,36 +31,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:578023",
-      "title": "FASTCENT Debuts C-UAS, Alert Platoon Activated",
-      "desc": "NAVAL SUPPORT ACTIVITY BAHRAIN - U.S. Marines assigned to Fleet Antiterrorism Security Team Central Command (FASTCENT) recently executed the first direct, land-based counter-drone campaign in U.S. Marine Corps history and activated the first emergency embassy alert mission in 15 years while operatin",
-      "type": "news",
-      "branch": "Marines",
-      "unit_name": "Task Force 51/5th Marine Expeditionary Brigade",
-      "timestamp": "2026-10-29T00:28:40+00:00",
-      "url": "https://www.dvidshub.net/news/578023/fastcent-debuts-c-uas-alert-platoon-activated",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:578038",
-      "title": "USS Oscar Austin Visits Slovenia During Sovereignty Day Observance",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Oscar Austin (DDG 79) concluded a scheduled port visit to Koper, Slovenia, Oct. 27, 2026, during the country’s Sovereignty Day observance.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
-      "timestamp": "2026-10-28T08:22:10+00:00",
-      "url": "https://www.dvidshub.net/news/578038/uss-oscar-austin-visits-slovenia-during-sovereignty-day-observance",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
