@@ -1,24 +1,9 @@
 {
-  "generated": "2026-10-30T21:13:31.432770+00:00",
+  "generated": "2026-10-31T10:43:34.399497+00:00",
   "news_count": 0,
-  "dvids_count": 23,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
-    {
-      "id": "video:1027781",
-      "title": "John Finn Conducts A Visit, Board, Search, and Seizure Drill",
-      "desc": "U.S. Sailors conduct a visit, board, search, and seizure drill aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Oct. 28, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-30T17:59:03+00:00",
-      "url": "https://www.dvidshub.net/video/1027781/john-finn-conducts-visit-board-search-and-seizure-drill",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "image:10060233",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
@@ -73,6 +58,21 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-10-30T17:48:47+00:00",
       "url": "https://www.dvidshub.net/image/10060240/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10059623",
+      "title": "George Washington Conducts Flight Operations",
+      "desc": "An F-35C Lightning II, attached to Strike Fighter...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-10-30T15:04:32+00:00",
+      "url": "https://www.dvidshub.net/image/10059623/george-washington-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
