@@ -1,48 +1,18 @@
 {
-  "generated": "2026-11-01T20:54:00.180018+00:00",
+  "generated": "2026-11-02T13:05:46.055152+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 22,
   "news": [],
   "dvids": [
     {
-      "id": "news:578380",
-      "title": "U.S. Navy Assists Mariners Experiencing Engine Trouble in Arabian Sea",
-      "desc": "ARABIAN SEA (Nov. 1, 2026) - The U.S. Navy assisted five mariners aboard the Indian-flagged Motor Vessel (M/V) Mira, after the dhow experienced a power failure in the Arabian Sea, Oct. 31.",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-01T12:56:56+00:00",
-      "url": "https://www.dvidshub.net/news/578380/us-navy-assists-mariners-experiencing-engine-trouble-arabian-sea",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "news:578258",
-      "title": "USS George Washington Sailors cast their votes while deployed",
-      "desc": "Thousands of Sailors move steadily through the narrow passageways of Nimitz-class aircraft carrier USS George Washington (CVN 73) as the sound of jets launching and landing reverberates from the flight deck. These same Sailors made their voices heard during a voting rodeo held in the ship’s library,",
-      "type": "news",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-01T12:21:33+00:00",
-      "url": "https://www.dvidshub.net/news/578258/uss-george-washington-sailors-cast-their-votes-while-deployed",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10060233",
+      "id": "image:10063428",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "U.S. Sailors participate in a color run aboard...",
+      "desc": "An E-2C Hawkeye, attached to Airborne Command and...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-30T17:51:02+00:00",
-      "url": "https://www.dvidshub.net/image/10060233/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-02T02:36:31+00:00",
+      "url": "https://www.dvidshub.net/image/10063428/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10060235",
+      "id": "image:10063427",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "U.S. Sailors participate in a color run aboard...",
+      "desc": "U.S. Sailors conduct flight operations aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-30T17:49:13+00:00",
-      "url": "https://www.dvidshub.net/image/10060235/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-02T02:36:30+00:00",
+      "url": "https://www.dvidshub.net/image/10063427/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +35,44 @@
       "location_display": ""
     },
     {
-      "id": "image:10060237",
+      "id": "image:10063426",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor participates in a game of bingo aboard...",
+      "desc": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-10-30T17:48:59+00:00",
-      "url": "https://www.dvidshub.net/image/10060237/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-02T02:36:30+00:00",
+      "url": "https://www.dvidshub.net/image/10063426/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10063425",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-02T02:36:30+00:00",
+      "url": "https://www.dvidshub.net/image/10063425/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10063423",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-02T02:36:30+00:00",
+      "url": "https://www.dvidshub.net/image/10063423/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
