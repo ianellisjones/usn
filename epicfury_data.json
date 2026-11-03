@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-03T18:19:48.016988+00:00",
+  "generated": "2026-11-03T22:07:48.275362+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 15,
   "news": [],
   "dvids": [
     {
-      "id": "image:10067079",
-      "title": "USS Donald Cook (DDG 75) Conducts Flight Operations",
-      "desc": "U.S. Sailors conduct flight operations with Helicopter...",
+      "id": "image:10067528",
+      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T13:41:38+00:00",
-      "url": "https://www.dvidshub.net/image/10067079/uss-donald-cook-ddg-75-conducts-flight-operations",
+      "timestamp": "2026-11-03T21:27:34+00:00",
+      "url": "https://www.dvidshub.net/image/10067528/bridge-operations-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067073",
-      "title": "USS Donald Cook (DDG 75) Conducts Flight Operations",
-      "desc": "U.S. Sailors conduct flight operations with Helicopter...",
+      "id": "image:10067532",
+      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
+      "desc": "A U.S. Sailor records information in a logbook on the...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T13:41:04+00:00",
-      "url": "https://www.dvidshub.net/image/10067073/uss-donald-cook-ddg-75-conducts-flight-operations",
+      "timestamp": "2026-11-03T21:27:19+00:00",
+      "url": "https://www.dvidshub.net/image/10067532/bridge-operations-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067061",
-      "title": "USS Donald Cook (DDG 75) Conducts Flight Operations",
-      "desc": "A U.S. Sailor guides in a MH-60S from Helicopter Sea...",
+      "id": "image:10067523",
+      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
+      "desc": "A U.S. Sailor welds a component onto a door aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T13:39:32+00:00",
-      "url": "https://www.dvidshub.net/image/10067061/uss-donald-cook-ddg-75-conducts-flight-operations",
+      "timestamp": "2026-11-03T21:10:51+00:00",
+      "url": "https://www.dvidshub.net/image/10067523/bridge-operations-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067067",
-      "title": "USS Donald Cook (DDG 75) Conducts Flight Operations",
-      "desc": "A U.S. Sailor completes refueling an MH-60S from...",
+      "id": "image:10067522",
+      "title": "Gun system diagnostic check Aboard USS Ross (DDG 71)",
+      "desc": "U.S. Sailors complete a diagnostic check on a gun system...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T13:39:25+00:00",
-      "url": "https://www.dvidshub.net/image/10067067/uss-donald-cook-ddg-75-conducts-flight-operations",
+      "timestamp": "2026-11-03T21:09:24+00:00",
+      "url": "https://www.dvidshub.net/image/10067522/gun-system-diagnostic-check-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10066865",
-      "title": "USS Carl M. Levin Conducts Routine Operations",
-      "desc": "A U.S. Sailor cuts hair in the barbershop of Arleigh...",
+      "id": "image:10067521",
+      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
+      "desc": "A U.S. Sailor communicates over an integrated voice...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T13:37:06+00:00",
-      "url": "https://www.dvidshub.net/image/10066865/uss-carl-m-levin-conducts-routine-operations",
+      "timestamp": "2026-11-03T21:08:58+00:00",
+      "url": "https://www.dvidshub.net/image/10067521/bridge-operations-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
