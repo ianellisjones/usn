@@ -1,9 +1,24 @@
 {
-  "generated": "2026-11-02T23:44:05.478931+00:00",
+  "generated": "2026-11-03T12:37:12.837145+00:00",
   "news_count": 0,
   "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "image:10066830",
+      "title": "USS Paul Ignatius DDG 117 conducts underway operations",
+      "desc": "Damage Controlman Fireman Noah Tracy performs...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS PAUL IGNATIUS (DDG 117)",
+      "timestamp": "2026-11-03T09:59:36+00:00",
+      "url": "https://www.dvidshub.net/image/10066830/uss-paul-ignatius-ddg-117-conducts-underway-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10064298",
       "title": "USS Carl M. Levin Conducts Routine Operations",
@@ -43,21 +58,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-02T14:32:15+00:00",
       "url": "https://www.dvidshub.net/image/10064300/uss-carl-m-levin-conducts-routine-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1028334",
-      "title": "Carl M. Levin Conducts Replenishment-at-sea",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Carl M. Levin (DDG 120) conducts a replenishment-at-sea with John Lewis-class fleet replenishment oiler USNS Oscar V. Peterson (T-AO 206), Oct. 31, 2026. Carl M. Levin is deployed to the U.S. 5th Fleet area of operations to support maritime security a",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-02T14:31:09+00:00",
-      "url": "https://www.dvidshub.net/video/1028334/carl-m-levin-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
