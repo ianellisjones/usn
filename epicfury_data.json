@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-04T12:46:21.481119+00:00",
+  "generated": "2026-11-04T18:32:23.430692+00:00",
   "news_count": 0,
-  "dvids_count": 19,
+  "dvids_count": 21,
   "news": [],
   "dvids": [
     {
-      "id": "image:10068233",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor assigned to Strike Fighter Squadron (VFA)...",
+      "id": "image:10069237",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T12:40:42+00:00",
-      "url": "https://www.dvidshub.net/image/10068233/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T15:21:14+00:00",
+      "url": "https://www.dvidshub.net/image/10069237/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068234",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor conducts maintenance on an aircraft...",
+      "id": "image:10069238",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T12:40:18+00:00",
-      "url": "https://www.dvidshub.net/image/10068234/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T15:20:38+00:00",
+      "url": "https://www.dvidshub.net/image/10069238/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068235",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor uses a multimeter to test wiring aboard...",
+      "id": "image:10069239",
+      "title": "John Finn Stands Watch",
+      "desc": "U.S. Sailors stand watch on the bridge wing aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T12:40:01+00:00",
-      "url": "https://www.dvidshub.net/image/10068235/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T15:20:14+00:00",
+      "url": "https://www.dvidshub.net/image/10069239/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068236",
+      "id": "image:10068250",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor conducts maintenance on an F/A-18 Super...",
+      "desc": "Two EA-18G Growlers attached to Electronic Attack...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T12:39:43+00:00",
-      "url": "https://www.dvidshub.net/image/10068236/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T13:06:25+00:00",
+      "url": "https://www.dvidshub.net/image/10068250/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068237",
+      "id": "image:10068251",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor organizes books in the library aboard...",
+      "desc": "An F/A-18E Super Hornet conducts flight operations with...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T12:38:26+00:00",
-      "url": "https://www.dvidshub.net/image/10068237/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T13:06:04+00:00",
+      "url": "https://www.dvidshub.net/image/10068251/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
