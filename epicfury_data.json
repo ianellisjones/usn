@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-04T18:32:23.430692+00:00",
+  "generated": "2026-11-04T22:16:21.009239+00:00",
   "news_count": 0,
-  "dvids_count": 21,
+  "dvids_count": 30,
   "news": [],
   "dvids": [
     {
-      "id": "image:10069237",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "id": "image:10069555",
+      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
+      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T15:21:14+00:00",
-      "url": "https://www.dvidshub.net/image/10069237/john-finn-stands-watch",
+      "timestamp": "2026-11-04T19:21:43+00:00",
+      "url": "https://www.dvidshub.net/image/10069555/uss-carl-m-levin-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069238",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "id": "image:10069554",
+      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
+      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T15:20:38+00:00",
-      "url": "https://www.dvidshub.net/image/10069238/john-finn-stands-watch",
+      "timestamp": "2026-11-04T19:21:18+00:00",
+      "url": "https://www.dvidshub.net/image/10069554/uss-carl-m-levin-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069239",
-      "title": "John Finn Stands Watch",
-      "desc": "U.S. Sailors stand watch on the bridge wing aboard...",
+      "id": "image:10069557",
+      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
+      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T15:20:14+00:00",
-      "url": "https://www.dvidshub.net/image/10069239/john-finn-stands-watch",
+      "timestamp": "2026-11-04T19:20:56+00:00",
+      "url": "https://www.dvidshub.net/image/10069557/uss-carl-m-levin-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068250",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "Two EA-18G Growlers attached to Electronic Attack...",
+      "id": "image:10069558",
+      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
+      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T13:06:25+00:00",
-      "url": "https://www.dvidshub.net/image/10068250/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T19:20:35+00:00",
+      "url": "https://www.dvidshub.net/image/10069558/uss-carl-m-levin-conducts-replenishment-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10068251",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "An F/A-18E Super Hornet conducts flight operations with...",
+      "id": "image:10069903",
+      "title": "Gas Turbine Maintenance aboard USS Gonzalez (DDG 66)",
+      "desc": "A U.S. Sailor inspects engineering equipment aboard the...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T13:06:04+00:00",
-      "url": "https://www.dvidshub.net/image/10068251/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-04T19:09:57+00:00",
+      "url": "https://www.dvidshub.net/image/10069903/gas-turbine-maintenance-aboard-uss-gonzalez-ddg-66",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
