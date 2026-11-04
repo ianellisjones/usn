@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-03T22:07:48.275362+00:00",
+  "generated": "2026-11-04T12:46:21.481119+00:00",
   "news_count": 0,
-  "dvids_count": 15,
+  "dvids_count": 19,
   "news": [],
   "dvids": [
     {
-      "id": "image:10067528",
-      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
-      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
+      "id": "image:10068233",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor assigned to Strike Fighter Squadron (VFA)...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T21:27:34+00:00",
-      "url": "https://www.dvidshub.net/image/10067528/bridge-operations-aboard-uss-ross-ddg-71",
+      "timestamp": "2026-11-04T12:40:42+00:00",
+      "url": "https://www.dvidshub.net/image/10068233/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067532",
-      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
-      "desc": "A U.S. Sailor records information in a logbook on the...",
+      "id": "image:10068234",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor conducts maintenance on an aircraft...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T21:27:19+00:00",
-      "url": "https://www.dvidshub.net/image/10067532/bridge-operations-aboard-uss-ross-ddg-71",
+      "timestamp": "2026-11-04T12:40:18+00:00",
+      "url": "https://www.dvidshub.net/image/10068234/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067523",
-      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
-      "desc": "A U.S. Sailor welds a component onto a door aboard...",
+      "id": "image:10068235",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor uses a multimeter to test wiring aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T21:10:51+00:00",
-      "url": "https://www.dvidshub.net/image/10067523/bridge-operations-aboard-uss-ross-ddg-71",
+      "timestamp": "2026-11-04T12:40:01+00:00",
+      "url": "https://www.dvidshub.net/image/10068235/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067522",
-      "title": "Gun system diagnostic check Aboard USS Ross (DDG 71)",
-      "desc": "U.S. Sailors complete a diagnostic check on a gun system...",
+      "id": "image:10068236",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor conducts maintenance on an F/A-18 Super...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T21:09:24+00:00",
-      "url": "https://www.dvidshub.net/image/10067522/gun-system-diagnostic-check-aboard-uss-ross-ddg-71",
+      "timestamp": "2026-11-04T12:39:43+00:00",
+      "url": "https://www.dvidshub.net/image/10068236/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10067521",
-      "title": "Bridge Operations Aboard USS Ross (DDG 71)",
-      "desc": "A U.S. Sailor communicates over an integrated voice...",
+      "id": "image:10068237",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor organizes books in the library aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-03T21:08:58+00:00",
-      "url": "https://www.dvidshub.net/image/10067521/bridge-operations-aboard-uss-ross-ddg-71",
+      "timestamp": "2026-11-04T12:38:26+00:00",
+      "url": "https://www.dvidshub.net/image/10068237/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
