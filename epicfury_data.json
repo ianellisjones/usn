@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-04T22:16:21.009239+00:00",
+  "generated": "2026-11-05T12:56:03.908054+00:00",
   "news_count": 0,
-  "dvids_count": 30,
+  "dvids_count": 28,
   "news": [],
   "dvids": [
     {
-      "id": "image:10069555",
-      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
+      "id": "image:10072214",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "A U.S. Sailor operates a compressor aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T19:21:43+00:00",
-      "url": "https://www.dvidshub.net/image/10069555/uss-carl-m-levin-conducts-replenishment-sea",
+      "timestamp": "2026-11-05T12:46:56+00:00",
+      "url": "https://www.dvidshub.net/image/10072214/delbert-d-black-sailors-conduct-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069554",
-      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
-      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
+      "id": "image:10072215",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "A U.S. Sailor conducts maintenance aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T19:21:18+00:00",
-      "url": "https://www.dvidshub.net/image/10069554/uss-carl-m-levin-conducts-replenishment-sea",
+      "timestamp": "2026-11-05T12:46:33+00:00",
+      "url": "https://www.dvidshub.net/image/10072215/delbert-d-black-sailors-conduct-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069557",
-      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
-      "desc": "U.S. Sailors assigned to Arleigh Burke-class...",
+      "id": "image:10072217",
+      "title": "Delbert D. Black Sailors Conduct Maintenance",
+      "desc": "A U.S. Sailor conducts maintenance aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T19:20:56+00:00",
-      "url": "https://www.dvidshub.net/image/10069557/uss-carl-m-levin-conducts-replenishment-sea",
+      "timestamp": "2026-11-05T12:45:53+00:00",
+      "url": "https://www.dvidshub.net/image/10072217/delbert-d-black-sailors-conduct-maintenance",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069558",
-      "title": "USS Carl M. Levin Conducts Replenishment-at-Sea",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
+      "id": "image:10072210",
+      "title": "Delbert D. Black Sailors Stand Watch",
+      "desc": "A U.S. Sailor stands watch aboard Arleigh Burke-class...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T19:20:35+00:00",
-      "url": "https://www.dvidshub.net/image/10069558/uss-carl-m-levin-conducts-replenishment-sea",
+      "timestamp": "2026-11-05T12:42:44+00:00",
+      "url": "https://www.dvidshub.net/image/10072210/delbert-d-black-sailors-stand-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10069903",
-      "title": "Gas Turbine Maintenance aboard USS Gonzalez (DDG 66)",
-      "desc": "A U.S. Sailor inspects engineering equipment aboard the...",
+      "id": "image:10072007",
+      "title": "George Washington’s Supply Department",
+      "desc": "A U.S. Sailor purchases items in the ship store aboard...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-04T19:09:57+00:00",
-      "url": "https://www.dvidshub.net/image/10069903/gas-turbine-maintenance-aboard-uss-gonzalez-ddg-66",
+      "timestamp": "2026-11-05T12:40:36+00:00",
+      "url": "https://www.dvidshub.net/image/10072007/george-washingtons-supply-department",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
