@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05T18:38:28.772082+00:00",
+  "generated": "2026-11-05T22:26:57.484441+00:00",
   "news_count": 0,
-  "dvids_count": 19,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10071982",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "A U.S. Sailor sets up a gun range during a small arms...",
+      "id": "image:10070917",
+      "title": "Flight Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "An F/A-18E Super Hornet attached Strike Fighter Squadron...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T12:38:36+00:00",
-      "url": "https://www.dvidshub.net/image/10071982/john-finn-conducts-small-arms-live-fire-exercise",
+      "timestamp": "2026-11-05T12:36:31+00:00",
+      "url": "https://www.dvidshub.net/image/10070917/flight-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
