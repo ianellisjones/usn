@@ -1,18 +1,33 @@
 {
-  "generated": "2026-11-05T22:26:57.484441+00:00",
+  "generated": "2026-11-06T12:42:55.187195+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
     {
-      "id": "image:10072566",
-      "title": "Watchstanders aboard USS Gonzalez (DDG 66)",
-      "desc": "A U.S. Sailor uses radio communications inside the...",
+      "id": "news:578768",
+      "title": "Shipyard Spotlight: Adrian Morris, Insulation Shop Supervisor Supporting USS Gerald R. Ford Planned Incremental Availability",
+      "desc": "Norfolk Naval Shipyard’s Adrian Morris, an Insulation Shop (Shop 57) Supervisor currently supporting topside and propulsion plant work on the USS Gerald R. Ford (CVN 78) project, has been with NNSY for 10 years. Morris started out at NNSY as an apprentice with Shop 57 and graduated three months earl",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "Norfolk Naval Shipyard",
+      "timestamp": "2026-11-06T12:18:57+00:00",
+      "url": "https://www.dvidshub.net/news/578768/shipyard-spotlight-adrian-morris-insulation-shop-supervisor-supporting-uss-gerald-r-ford-planned-incremental-availability",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10075361",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T18:13:54+00:00",
-      "url": "https://www.dvidshub.net/image/10072566/watchstanders-aboard-uss-gonzalez-ddg-66",
+      "timestamp": "2026-11-06T11:58:09+00:00",
+      "url": "https://www.dvidshub.net/image/10075361/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10072567",
-      "title": "Watchstanders aboard USS Gonzalez (DDG 66)",
-      "desc": "A U.S. Sailor stands watch as the tactical integration...",
+      "id": "image:10075362",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T18:13:19+00:00",
-      "url": "https://www.dvidshub.net/image/10072567/watchstanders-aboard-uss-gonzalez-ddg-66",
+      "timestamp": "2026-11-06T11:56:33+00:00",
+      "url": "https://www.dvidshub.net/image/10075362/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10072568",
-      "title": "Watchstanders aboard USS Gonzalez (DDG 66)",
-      "desc": "A U.S. Sailor stands watch as the missile systems...",
+      "id": "image:10075363",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T18:12:53+00:00",
-      "url": "https://www.dvidshub.net/image/10072568/watchstanders-aboard-uss-gonzalez-ddg-66",
+      "timestamp": "2026-11-06T11:54:33+00:00",
+      "url": "https://www.dvidshub.net/image/10075363/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10072007",
-      "title": "George Washington’s Supply Department",
-      "desc": "A U.S. Sailor purchases items in the ship store aboard...",
+      "id": "image:10075364",
+      "title": "John Finn Stands Watch",
+      "desc": "A U.S. Sailor stands watch in the combat information...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T12:40:36+00:00",
-      "url": "https://www.dvidshub.net/image/10072007/george-washingtons-supply-department",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10070917",
-      "title": "Flight Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "An F/A-18E Super Hornet attached Strike Fighter Squadron...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-05T12:36:31+00:00",
-      "url": "https://www.dvidshub.net/image/10070917/flight-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-06T11:54:13+00:00",
+      "url": "https://www.dvidshub.net/image/10075364/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
