@@ -1,9 +1,9 @@
 {
   "date": "2026-11-07",
-  "timestamp": "2026-11-07T17:14:01.494083",
-  "total_count": 397,
+  "timestamp": "2026-11-07T21:07:02.163253",
+  "total_count": 398,
   "by_country": {
-    "United States": 323,
+    "United States": 324,
     "Germany": 10,
     "Indian Ocean": 1,
     "Japan": 27,
@@ -24,24 +24,83 @@
     "Arabian Sea": 1
   },
   "by_type": {
-    "image": 174,
+    "video": 113,
     "news": 111,
-    "video": 112
+    "image": 174
   },
   "by_branch": {
-    "Joint": 144,
+    "Joint": 145,
     "Marines": 91,
     "Navy": 133,
     "Coast Guard": 29
   },
   "by_command": {
-    "CENTCOM": 11,
+    "CENTCOM": 13,
     "INDOPACOM": 18,
     "SOUTHCOM": 2,
     "EUCOM": 1
   },
-  "carrier_count": 160,
+  "carrier_count": 152,
   "items": [
+    {
+      "id": "video:1029004",
+      "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Naval Blockade",
+      "description": "U.S. Central Command (CENTCOM) forces disabled a commercial vessel in the Gulf of Oman, Nov. 7, after the ship\u2019s civilian crew ignored repeated warnings and attempted to violate the naval blockade against Iran multiple times. (U.S. Central Command Video)",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "date_published": "Nov 07, 2026 20:32 UTC",
+      "timestamp": "2026-11-07T20:32:09+00:00",
+      "country": "United States",
+      "state": "Florida",
+      "city": "Tampa",
+      "location_display": "Tampa, Florida, United States",
+      "url": "https://www.dvidshub.net/video/1029004/us-forces-disable-cargo-vessel-attempting-violate-naval-blockade",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2611/1029004/DOD_112131177.0000001/122x92_q95.jpg",
+      "keywords": [
+        "blockade",
+        "CENTCOM"
+      ],
+      "credit": "",
+      "duration": 17,
+      "aspect_ratio": "16:9",
+      "commands": [
+        "CENTCOM"
+      ],
+      "hours_old": 0.5771425583333333,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "news:578872",
+      "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Naval Blockade",
+      "description": "TAMPA, Fla. \u2014 U.S. Central Command (CENTCOM) forces disabled a commercial vessel in the Gulf of Oman, Nov. 7, after the ship\u2019s civilian crew ignored repeated warnings and attempted to violate the naval blockade against Iran multiple times.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "date_published": "Nov 07, 2026 20:31 UTC",
+      "timestamp": "2026-11-07T20:31:51+00:00",
+      "country": "United States",
+      "state": "Florida",
+      "city": "Tampa",
+      "location_display": "Tampa, Florida, United States",
+      "url": "https://www.dvidshub.net/news/578872/us-forces-disable-cargo-vessel-attempting-violate-naval-blockade",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2611/1029004/DOD_112131177.0000001/122x92_q95.jpg",
+      "keywords": [
+        "CENTCOM"
+      ],
+      "credit": "",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "hours_old": 0.5817980505555554,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
     {
       "id": "image:10077254",
       "title": "NORAD, NORTHCOM Commander addresses OPLAW students",
@@ -68,7 +127,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.01384301,
+      "hours_old": 4.897796821666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -99,7 +158,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.014120793611111,
+      "hours_old": 4.898074606388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -129,7 +188,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 1.7638825894444443,
+      "hours_old": 5.6479312550000005,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -161,7 +220,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.3946109627777776,
+      "hours_old": 6.278646641666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -193,7 +252,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9368331802777776,
+      "hours_old": 6.820868964166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -225,7 +284,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9498887308333335,
+      "hours_old": 6.833924513333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -257,7 +316,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9521108772222227,
+      "hours_old": 6.836146648888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -289,7 +348,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9523886605555556,
+      "hours_old": 6.836424433611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -321,7 +380,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9523886658333334,
+      "hours_old": 6.83642444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -353,39 +412,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.952388671111111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10078796",
-      "title": "Combat Logistics Battalion 26 Hosts 251st Marine Corps Birthday Ball",
-      "description": "U.S. Marine Corps Pfc. Noah Bender, right, youngest...",
-      "type": "image",
-      "branch": "Marines",
-      "unit_name": "2nd Marine Logistics Group",
-      "date_published": "Nov 07, 2026 14:16 UTC",
-      "timestamp": "2026-11-07T14:16:31+00:00",
-      "country": "United States",
-      "state": "South Carolina",
-      "city": "Myrtle Beach",
-      "location_display": "Myrtle Beach, South Carolina, United States",
-      "url": "https://www.dvidshub.net/image/10078796/combat-logistics-battalion-26-hosts-251st-marine-corps-birthday-ball",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10078796/122x92_q95.jpg",
-      "keywords": [
-        "Birthday Ball",
-        "USMCNews",
-        "Ceremony",
-        "family",
-        "traditions",
-        "Cake Cutting"
-      ],
-      "credit": "Cpl Salvador Flores Perez",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 2.9523886777777775,
+      "hours_old": 6.836424446388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -417,7 +444,39 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.952388682777778,
+      "hours_old": 6.836424452222222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10078796",
+      "title": "Combat Logistics Battalion 26 Hosts 251st Marine Corps Birthday Ball",
+      "description": "U.S. Marine Corps Pfc. Noah Bender, right, youngest...",
+      "type": "image",
+      "branch": "Marines",
+      "unit_name": "2nd Marine Logistics Group",
+      "date_published": "Nov 07, 2026 14:16 UTC",
+      "timestamp": "2026-11-07T14:16:31+00:00",
+      "country": "United States",
+      "state": "South Carolina",
+      "city": "Myrtle Beach",
+      "location_display": "Myrtle Beach, South Carolina, United States",
+      "url": "https://www.dvidshub.net/image/10078796/combat-logistics-battalion-26-hosts-251st-marine-corps-birthday-ball",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10078796/122x92_q95.jpg",
+      "keywords": [
+        "Birthday Ball",
+        "USMCNews",
+        "Ceremony",
+        "family",
+        "traditions",
+        "Cake Cutting"
+      ],
+      "credit": "Cpl Salvador Flores Perez",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 6.836424525555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -449,7 +508,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.952666465277778,
+      "hours_old": 6.836702236944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -481,7 +540,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9526664702777774,
+      "hours_old": 6.836702242777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -513,7 +572,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.952666475,
+      "hours_old": 6.836702248611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -545,7 +604,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9526664791666666,
+      "hours_old": 6.836702253611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -577,7 +636,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9526664838888887,
+      "hours_old": 6.836702259166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -609,7 +668,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9529442675,
+      "hours_old": 6.836980042777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -641,7 +700,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9529442719444443,
+      "hours_old": 6.836980047777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -673,7 +732,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.9529442763888887,
+      "hours_old": 6.836980053333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -705,7 +764,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.952944281111111,
+      "hours_old": 6.836980059166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -737,7 +796,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.3051665244444446,
+      "hours_old": 7.189202309444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -766,7 +825,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 3.703668296388889,
+      "hours_old": 7.587631401944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -798,7 +857,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524055253333334,
+      "hours_old": 8.408091008888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -830,7 +889,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524333044166667,
+      "hours_old": 8.408368802222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -862,7 +921,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524333051666667,
+      "hours_old": 8.408368810277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -894,7 +953,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524333057222222,
+      "hours_old": 8.408368816666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -926,7 +985,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524610839722222,
+      "hours_old": 8.408646601111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -958,7 +1017,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524610844722222,
+      "hours_old": 8.408646606388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -990,7 +1049,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.524888626944445,
+      "hours_old": 8.408924389166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1022,7 +1081,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.5248886313888885,
+      "hours_old": 8.408924394444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1054,7 +1113,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.525166413888889,
+      "hours_old": 8.409202177222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1086,7 +1145,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.525166418611111,
+      "hours_old": 8.4092021825,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1118,7 +1177,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.525166423611111,
+      "hours_old": 8.4092021875,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1150,7 +1209,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 4.525444206111111,
+      "hours_old": 8.409479970277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1181,7 +1240,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 9.838390573888889,
+      "hours_old": 13.722353689444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1212,7 +1271,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 9.838565224444444,
+      "hours_old": 13.722519034722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1246,7 +1305,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 10.156234093055554,
+      "hours_old": 14.040347802777779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1273,7 +1332,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.224289573055556,
+      "hours_old": 16.108403291944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1300,7 +1359,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.224289580833334,
+      "hours_old": 16.108403300000003,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1327,7 +1386,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.22428958638889,
+      "hours_old": 16.10840330611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1354,7 +1413,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.224289591666667,
+      "hours_old": 16.108403311666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1381,7 +1440,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.224289597222223,
+      "hours_old": 16.108403317500002,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1408,7 +1467,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 12.224289601944443,
+      "hours_old": 16.10840332277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1435,7 +1494,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 12.2242896075,
+      "hours_old": 16.10840332861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1464,7 +1523,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.327900611388888,
+      "hours_old": 17.212014319444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1493,7 +1552,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.327900616666666,
+      "hours_old": 17.212014325277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1522,7 +1581,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.327900623055555,
+      "hours_old": 17.212014333333336,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1551,7 +1610,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.327900627222222,
+      "hours_old": 17.212014338055557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1580,7 +1639,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.328178409166666,
+      "hours_old": 17.212292120277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1609,7 +1668,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.328178413055555,
+      "hours_old": 17.212292125,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1638,7 +1697,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.328178416944445,
+      "hours_old": 17.212292129166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1667,7 +1726,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.32817842138889,
+      "hours_old": 17.212292134166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1692,7 +1751,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718178305555554,
+      "hours_old": 17.602291993055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1717,7 +1776,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718456094722221,
+      "hours_old": 17.602569791944443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1742,7 +1801,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718456101388888,
+      "hours_old": 17.602569799999998,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1767,7 +1826,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718456106666666,
+      "hours_old": 17.60256980638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1792,7 +1851,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718733889166668,
+      "hours_old": 17.60284758972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1817,7 +1876,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718733893333333,
+      "hours_old": 17.602847594722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1842,7 +1901,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.718733898055556,
+      "hours_old": 17.60284760027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1867,7 +1926,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.71901168,
+      "hours_old": 17.60312538277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1892,7 +1951,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 13.719011683611111,
+      "hours_old": 17.60312538722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1917,7 +1976,7 @@
       "duration": 51,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 14.179035182222222,
+      "hours_old": 18.062975967777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1949,7 +2008,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 15.68773187,
+      "hours_old": 19.57168567638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1981,7 +2040,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 15.688842975277778,
+      "hours_old": 19.572796780277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2008,7 +2067,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 15.693390565000001,
+      "hours_old": 19.57735367138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2042,7 +2101,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 16.320999908888886,
+      "hours_old": 20.205035695000003,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2076,7 +2135,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 16.32099991638889,
+      "hours_old": 20.205035702777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2108,7 +2167,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.321277699444444,
+      "hours_old": 20.20531348638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2137,7 +2196,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.514676328055554,
+      "hours_old": 20.39863013833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2166,7 +2225,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 16.52050965361111,
+      "hours_old": 20.404463461666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2191,7 +2250,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 16.7661683125,
+      "hours_old": 20.65013141388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2222,7 +2281,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 17.11951729638889,
+      "hours_old": 21.00357393361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2253,7 +2312,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.921833197222224,
+      "hours_old": 21.80586898388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2284,7 +2343,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.921833203055556,
+      "hours_old": 21.80586899111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2315,7 +2374,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.921833213333333,
+      "hours_old": 21.805869005555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2346,7 +2405,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.921833218333333,
+      "hours_old": 21.805869011388886,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2377,7 +2436,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.921833223055557,
+      "hours_old": 21.805869016944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2408,7 +2467,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.92183323611111,
+      "hours_old": 21.805869022222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2439,7 +2498,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 17.92211098611111,
+      "hours_old": 21.80614677694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2472,7 +2531,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 17.96605240027778,
+      "hours_old": 21.850185560555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2501,7 +2560,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 18.009663530555557,
+      "hours_old": 21.89379669166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2529,7 +2588,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749120614166664,
+      "hours_old": 22.63307442916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2557,7 +2616,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749120634444445,
+      "hours_old": 22.6330744525,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2585,7 +2644,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.74939839583333,
+      "hours_old": 22.63335221166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2613,7 +2672,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749398399722224,
+      "hours_old": 22.63335221638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2641,7 +2700,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.74939840388889,
+      "hours_old": 22.63335222111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2669,7 +2728,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.74967611888889,
+      "hours_old": 22.633629929444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2697,7 +2756,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.749676139166667,
+      "hours_old": 22.633629951944446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2725,7 +2784,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.74967615138889,
+      "hours_old": 22.633629964722225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2753,7 +2812,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749676165555556,
+      "hours_old": 22.633629979166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2781,7 +2840,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749676185833334,
+      "hours_old": 22.633630003333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2809,7 +2868,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749676194166664,
+      "hours_old": 22.633630012500003,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2837,7 +2896,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749676198611112,
+      "hours_old": 22.6336300175,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2865,7 +2924,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.74995390833333,
+      "hours_old": 22.633907722222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2893,7 +2952,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.7499539225,
+      "hours_old": 22.633907735833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2921,7 +2980,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.74995393388889,
+      "hours_old": 22.63390774777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2949,7 +3008,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.74995393888889,
+      "hours_old": 22.6339077525,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2977,7 +3036,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749953980555556,
+      "hours_old": 22.63390780027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3005,7 +3064,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.749953984444446,
+      "hours_old": 22.633907805,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3033,7 +3092,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.7499539925,
+      "hours_old": 22.633907813611113,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3061,7 +3120,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.74995407361111,
+      "hours_old": 22.633907878055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3089,7 +3148,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.75023177583333,
+      "hours_old": 22.6341855975,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3117,7 +3176,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.750231779722224,
+      "hours_old": 22.634185601944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3145,7 +3204,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.75023178611111,
+      "hours_old": 22.634185606388886,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3173,7 +3232,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.75023181722222,
+      "hours_old": 22.634185629444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3201,7 +3260,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.75023183388889,
+      "hours_old": 22.634185646666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3229,7 +3288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.750231844444446,
+      "hours_old": 22.63418565111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3257,7 +3316,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.75023185611111,
+      "hours_old": 22.63418566027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3285,7 +3344,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.750231860000003,
+      "hours_old": 22.63418566472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3313,7 +3372,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.75050954416667,
+      "hours_old": 22.634463364722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3341,7 +3400,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.7505095725,
+      "hours_old": 22.63446338861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3369,7 +3428,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.750509579722223,
+      "hours_old": 22.63446339277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3397,7 +3456,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.750509584166668,
+      "hours_old": 22.634463401666665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3425,7 +3484,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.75050959972222,
+      "hours_old": 22.63446341138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3453,7 +3512,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.750509603888887,
+      "hours_old": 22.634463415833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3481,7 +3540,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 18.750509607777776,
+      "hours_old": 22.634463420277775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3512,7 +3571,7 @@
       "duration": 341,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 19.573406275,
+      "hours_old": 23.457462895000003,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3543,7 +3602,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.751789551666665,
+      "hours_old": 23.635903265833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3574,7 +3633,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 19.751789558333336,
+      "hours_old": 23.63590327444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3605,7 +3664,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.751789563055556,
+      "hours_old": 23.63590328,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3636,7 +3695,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 19.75178956861111,
+      "hours_old": 23.63590328638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3665,7 +3724,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 19.974223918055557,
+      "hours_old": 23.858187036388887,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3692,7 +3751,7 @@
       "duration": 134,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.694590695833334,
+      "hours_old": 24.578531483055553,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3719,7 +3778,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.69459070361111,
+      "hours_old": 24.578531491666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3746,7 +3805,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 20.69459071027778,
+      "hours_old": 24.578531499444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3776,7 +3835,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 20.787771526388887,
+      "hours_old": 24.671820201666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3807,7 +3866,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 21.103390823888887,
+      "hours_old": 24.987354014444442,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3838,7 +3897,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.430956322777778,
+      "hours_old": 25.315070031944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3870,7 +3929,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.439239210833335,
+      "hours_old": 25.323269815277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3900,7 +3959,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 21.456052516666666,
+      "hours_old": 25.340185685277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3929,7 +3988,7 @@
       "duration": 6209,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 21.6017396025,
+      "hours_old": 25.485796221111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3958,7 +4017,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 21.652279569444445,
+      "hours_old": 25.53624271416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3988,7 +4047,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861343031666667,
+      "hours_old": 25.745296847499997,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4018,7 +4077,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861343036111112,
+      "hours_old": 25.74529686638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4048,7 +4107,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861343040277777,
+      "hours_old": 25.745296871944443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4078,7 +4137,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861343045277778,
+      "hours_old": 25.745296876944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4108,7 +4167,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861343049722223,
+      "hours_old": 25.745296881666665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4138,7 +4197,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.86162079833333,
+      "hours_old": 25.745574611944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4168,7 +4227,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.86162080416667,
+      "hours_old": 25.745574619444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4198,7 +4257,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.861620831666666,
+      "hours_old": 25.745574664166668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4230,7 +4289,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.930695291944446,
+      "hours_old": 25.814703475833337,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4262,7 +4321,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.93069529833333,
+      "hours_old": 25.814703483333332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4294,7 +4353,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.93069530388889,
+      "hours_old": 25.814703489444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4326,7 +4385,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.93069530861111,
+      "hours_old": 25.814703494722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4358,7 +4417,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 21.93069531333333,
+      "hours_old": 25.814703500833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4385,7 +4444,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 22.2156785675,
+      "hours_old": 26.099792279166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4412,7 +4471,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 22.21595635,
+      "hours_old": 26.100070065833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4443,7 +4502,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.219224236111113,
+      "hours_old": 26.103187445555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4474,7 +4533,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.236789465555557,
+      "hours_old": 26.120903169444443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4505,7 +4564,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.23678947166667,
+      "hours_old": 26.120903176944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4536,7 +4595,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.237067254444447,
+      "hours_old": 26.121180960833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4567,7 +4626,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.237067259444444,
+      "hours_old": 26.121180966111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4598,7 +4657,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.23706726388889,
+      "hours_old": 26.121180971388892,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4629,7 +4688,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 22.23706726861111,
+      "hours_old": 26.121180976111113,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4660,7 +4719,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 22.23706727305556,
+      "hours_old": 26.12118098111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4689,7 +4748,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.258668404722222,
+      "hours_old": 26.142631556666668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4720,7 +4779,7 @@
       "duration": 115,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 22.293924561944443,
+      "hours_old": 26.177926204444443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4751,7 +4810,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 22.32589079083333,
+      "hours_old": 26.20985397361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4776,7 +4835,7 @@
       "duration": 394,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.342850702222226,
+      "hours_old": 26.226907319166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4807,7 +4866,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 22.349035126666667,
+      "hours_old": 26.2329759175,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4838,7 +4897,7 @@
       "duration": 15,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 22.793961730555555,
+      "hours_old": 26.678018365,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -4863,7 +4922,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.072557212222222,
+      "hours_old": 26.956520314722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4894,7 +4953,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.114611073055553,
+      "hours_old": 26.998646877222225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4925,7 +4984,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 23.11488885611111,
+      "hours_old": 26.998924661666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4950,7 +5009,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.15533510472222,
+      "hours_old": 27.039298210555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4975,7 +5034,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.73133021,
+      "hours_old": 27.615463372777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5000,7 +5059,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.8666079975,
+      "hours_old": 27.750741161666664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5027,7 +5086,7 @@
       "duration": 188,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 23.927257921944445,
+      "hours_old": 27.811259571666664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5058,7 +5117,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.155335093055555,
+      "hours_old": 28.039298251111113,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5086,7 +5145,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.506446110833334,
+      "hours_old": 28.39040921666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5118,7 +5177,7 @@
       "duration": 536,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 24.852295115833336,
+      "hours_old": 28.736351738333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5152,7 +5211,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 25.00755730277778,
+      "hours_old": 28.891520456944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5184,7 +5243,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 25.42905551222222,
+      "hours_old": 29.31309131527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5216,7 +5275,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 25.42943816138889,
+      "hours_old": 29.313486830833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5243,7 +5302,7 @@
       "duration": 171,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.876183937222223,
+      "hours_old": 29.76024056888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5270,7 +5329,7 @@
       "duration": 71,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.043757665833333,
+      "hours_old": 29.92769852,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5301,7 +5360,7 @@
       "duration": 109,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 26.150350095555552,
+      "hours_old": 30.034380666944443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5332,7 +5391,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.25116838638889,
+      "hours_old": 30.13513151861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5364,7 +5423,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.355219140277775,
+      "hours_old": 30.239352318055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5401,7 +5460,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.431446226388886,
+      "hours_old": 30.31540930888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5431,7 +5490,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 26.545890618888887,
+      "hours_old": 30.429853731388892,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5458,7 +5517,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 27.109517332222225,
+      "hours_old": 30.993573945555557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5490,7 +5549,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.582163573333332,
+      "hours_old": 31.466296748333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5522,7 +5581,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 27.60923914583333,
+      "hours_old": 31.49326970027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5552,7 +5611,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 28.457017570555557,
+      "hours_old": 32.34107426055555,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -5580,7 +5639,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.62061281833333,
+      "hours_old": 32.50457593861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5610,7 +5669,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.641330266666667,
+      "hours_old": 32.525463447777774,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5640,7 +5699,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.911052450277776,
+      "hours_old": 32.79518561555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5665,7 +5724,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.25172414888889,
+      "hours_old": 33.1356873375,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5692,7 +5751,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 29.25790074777778,
+      "hours_old": 33.14201446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5719,7 +5778,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 29.28456741,
+      "hours_old": 33.1686811225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5746,7 +5805,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 29.317900738055556,
+      "hours_old": 33.20201445083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5773,7 +5832,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 29.323456279166667,
+      "hours_old": 33.207570000555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5798,7 +5857,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.52262287055556,
+      "hours_old": 33.406736583611114,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5823,7 +5882,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.522622875555555,
+      "hours_old": 33.40673658972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5848,7 +5907,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.52290065861111,
+      "hours_old": 33.40701437222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5879,7 +5938,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 30.101535429722222,
+      "hours_old": 33.98547628055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5909,7 +5968,7 @@
       "duration": 23,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 30.925146385833333,
+      "hours_old": 34.80908719138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5943,7 +6002,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 31.858456328888888,
+      "hours_old": 35.742570039166665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5977,7 +6036,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 31.858456334722224,
+      "hours_old": 35.74257004638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6011,7 +6070,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 31.858734116944447,
+      "hours_old": 35.74284783,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6043,7 +6102,7 @@
       "duration": 99,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 31.91059121388889,
+      "hours_old": 35.794592851666664,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6074,7 +6133,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42933326111111,
+      "hours_old": 37.31336904888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6105,7 +6164,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42933326638889,
+      "hours_old": 37.31336906666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6136,7 +6195,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42961104916667,
+      "hours_old": 37.31364685027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6167,7 +6226,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42961105361111,
+      "hours_old": 37.313646855277774,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6198,7 +6257,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42988883638888,
+      "hours_old": 37.31392463777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6229,7 +6288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 33.42988884138889,
+      "hours_old": 37.31392464277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6260,7 +6319,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.04061290972222,
+      "hours_old": 37.92457605861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6292,7 +6351,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 35.022215995555555,
+      "hours_old": 38.906264676666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6323,7 +6382,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 35.27868398611111,
+      "hours_old": 39.16274069694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6354,7 +6413,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.02931315166667,
+      "hours_old": 39.91325398888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6386,7 +6445,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.02931315944444,
+      "hours_old": 39.91325399861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6413,7 +6472,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.43347988083334,
+      "hours_old": 40.31742073333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6440,7 +6499,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 36.45951748361111,
+      "hours_old": 40.34357413027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6468,7 +6527,7 @@
       "duration": 48,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 39.02792425277778,
+      "hours_old": 42.91186508611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6496,7 +6555,7 @@
       "duration": 45,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 39.14070195055555,
+      "hours_old": 43.02464275916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6527,7 +6586,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 39.886052525833335,
+      "hours_old": 43.770185695555554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6555,7 +6614,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.11125761305555,
+      "hours_old": 43.99519845333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6583,7 +6642,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.11125761805556,
+      "hours_old": 43.995198459722225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6615,7 +6674,7 @@
       "duration": 3772,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.20007236888889,
+      "hours_old": 44.084102952222224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6647,7 +6706,7 @@
       "duration": 760,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 40.603127936111115,
+      "hours_old": 44.487158522777776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6672,7 +6731,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 41.03700198916667,
+      "hours_old": 44.92096519166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6700,7 +6759,7 @@
       "duration": 37,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 41.6100723475,
+      "hours_old": 45.494102925,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6731,7 +6790,7 @@
       "duration": 236,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.14868412944445,
+      "hours_old": 46.03274072083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6763,7 +6822,7 @@
       "duration": 133,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.18007233638889,
+      "hours_old": 47.06410291138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6795,7 +6854,7 @@
       "duration": 3566,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.22423910083333,
+      "hours_old": 47.108269667222224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6827,7 +6886,7 @@
       "duration": 29,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 43.57701687,
+      "hours_old": 47.46104743472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6859,7 +6918,7 @@
       "duration": 244,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.698405735,
+      "hours_old": 47.582436313888884,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6888,7 +6947,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 43.85249374,
+      "hours_old": 47.73654241388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6919,7 +6978,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 43.877441732777775,
+      "hours_old": 47.761574966944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6949,7 +7008,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.08783522722222,
+      "hours_old": 47.971798407222224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6978,7 +7037,7 @@
       "duration": 106,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 44.09625746583333,
+      "hours_old": 47.98019825111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7008,7 +7067,7 @@
       "duration": 104,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.09764636611111,
+      "hours_old": 47.98158715416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7039,7 +7098,7 @@
       "duration": 331,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.13535019194445,
+      "hours_old": 48.01938078805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7066,7 +7125,7 @@
       "duration": 9,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.343128424444444,
+      "hours_old": 48.22718513444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7097,7 +7156,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.463946416666666,
+      "hours_old": 48.34790961583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7126,7 +7185,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 44.552835209444446,
+      "hours_old": 48.43679839,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7155,7 +7214,7 @@
       "duration": 74,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.63729522166667,
+      "hours_old": 48.521351878333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7186,7 +7245,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 44.66673965472222,
+      "hours_old": 48.550796309166664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7213,7 +7272,7 @@
       "duration": 346,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.06403522638889,
+      "hours_old": 48.94797602083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7238,7 +7297,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 45.11549704138889,
+      "hours_old": 48.999630215277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7263,7 +7322,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 45.22817852972222,
+      "hours_old": 49.112292241944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7295,7 +7354,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 45.38589075361111,
+      "hours_old": 49.269853921111114,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7320,7 +7379,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 45.464663692222224,
+      "hours_old": 49.348796863611106,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7351,7 +7410,7 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.48257235388889,
+      "hours_old": 49.366602932777774,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7380,7 +7439,7 @@
       "duration": 78,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.4831279175,
+      "hours_old": 49.36715849833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7411,7 +7470,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.511257622222224,
+      "hours_old": 49.395198465,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7441,7 +7500,7 @@
       "duration": 45,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 45.92951730611111,
+      "hours_old": 49.813574015,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -7472,7 +7531,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.42133033777778,
+      "hours_old": 50.30546351527777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7503,7 +7562,7 @@
       "duration": 97,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 46.42725791388889,
+      "hours_old": 50.31125954944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7531,7 +7590,7 @@
       "duration": 14,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.90840624138889,
+      "hours_old": 50.79246286166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7563,7 +7622,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.91110484083333,
+      "hours_old": 50.79515351305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7588,7 +7647,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 46.94144625194444,
+      "hours_old": 50.82540942222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7619,7 +7678,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 46.94368406527778,
+      "hours_old": 50.82774071055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7648,7 +7707,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.12041740805556,
+      "hours_old": 52.00442560277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7677,7 +7736,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.120417420833334,
+      "hours_old": 52.00442560944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7706,7 +7765,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.12041742944445,
+      "hours_old": 52.004425616111114,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7735,7 +7794,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.12041743555556,
+      "hours_old": 52.00442562944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7764,7 +7823,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.120417441111115,
+      "hours_old": 52.00442563583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7793,7 +7852,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.120417446944444,
+      "hours_old": 52.004425642499996,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7822,7 +7881,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.12041745222222,
+      "hours_old": 52.00442564861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7851,7 +7910,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.1204174575,
+      "hours_old": 52.00442565416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7880,7 +7939,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.120417467222225,
+      "hours_old": 52.00442566527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7909,7 +7968,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.12041747166667,
+      "hours_old": 52.004425670277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7938,7 +7997,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.12041748083333,
+      "hours_old": 52.004425681111115,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7967,7 +8026,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.120695240277776,
+      "hours_old": 52.00470343777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7996,7 +8055,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 48.12069525416666,
+      "hours_old": 52.004703453333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8025,7 +8084,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.12069526305556,
+      "hours_old": 52.004703465,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8054,7 +8113,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 48.12069526777778,
+      "hours_old": 52.00470347083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8087,7 +8146,7 @@
       "duration": 8,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.159868565833335,
+      "hours_old": 52.04380932555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8117,7 +8176,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.18894629888889,
+      "hours_old": 52.07290945416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8149,7 +8208,7 @@
       "duration": 190,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 48.473757435555555,
+      "hours_old": 52.357698199999994,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8180,7 +8239,7 @@
       "duration": 127,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.72847960611111,
+      "hours_old": 52.612420396666664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8212,7 +8271,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.95188588222222,
+      "hours_old": 52.8360190575,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8243,7 +8302,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.08200181527778,
+      "hours_old": 52.96596498805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8275,7 +8334,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.080497030833335,
+      "hours_old": 52.96463020361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8306,7 +8365,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.2428351575,
+      "hours_old": 53.126798332222215,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8334,7 +8393,7 @@
       "duration": 42,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 49.32736868944444,
+      "hours_old": 53.21130947361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8365,7 +8424,7 @@
       "duration": 187,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.44340579333333,
+      "hours_old": 53.32743635638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8396,7 +8455,7 @@
       "duration": 346,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.46896189833333,
+      "hours_old": 53.35301852222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8423,7 +8482,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.752719239166666,
+      "hours_old": 53.636852447500004,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8456,7 +8515,7 @@
       "duration": 12,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.19070186166667,
+      "hours_old": 54.07464267333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8484,7 +8543,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.34688597361111,
+      "hours_old": 54.231019167777774,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8513,7 +8572,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.452017417777775,
+      "hours_old": 54.33607412222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8542,7 +8601,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.49255743916666,
+      "hours_old": 54.37652059944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8569,7 +8628,7 @@
       "duration": 6,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.66125748638889,
+      "hours_old": 54.54519827777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8596,7 +8655,7 @@
       "duration": 12,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.66125749166667,
+      "hours_old": 54.54519828388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8621,7 +8680,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.763946393055555,
+      "hours_old": 54.64790958638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8653,7 +8712,7 @@
       "duration": 47,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.882646450277775,
+      "hours_old": 54.76658724166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8685,7 +8744,7 @@
       "duration": 195,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.89535033916666,
+      "hours_old": 54.77938093972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8717,7 +8776,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.907924219444446,
+      "hours_old": 54.79186500944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8744,7 +8803,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.94701756305555,
+      "hours_old": 54.83107425111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8772,7 +8831,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.02729520361111,
+      "hours_old": 54.91135189111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8803,7 +8862,7 @@
       "duration": 7,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.10931309972222,
+      "hours_old": 54.99325388805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8835,7 +8894,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.16646197805555,
+      "hours_old": 55.05051864027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8862,7 +8921,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.787850741111114,
+      "hours_old": 55.671907401111106,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8893,7 +8952,7 @@
       "duration": 97,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.161257569166665,
+      "hours_old": 56.04519832138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8924,7 +8983,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.18618422083333,
+      "hours_old": 56.07024090694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8954,7 +9013,7 @@
       "duration": 48,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 52.56486875611111,
+      "hours_old": 56.44880960555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8986,7 +9045,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.56327476,
+      "hours_old": 56.44740793166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9016,7 +9075,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.22383041166666,
+      "hours_old": 58.10796360166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9048,7 +9107,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.74653530277777,
+      "hours_old": 58.63047616777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9080,7 +9139,7 @@
       "duration": 120,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.79625763638889,
+      "hours_old": 58.680198482777776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9110,7 +9169,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.40383048416667,
+      "hours_old": 59.28796368972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9139,7 +9198,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 59.54005746694444,
+      "hours_old": 63.424020651666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9171,7 +9230,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 63.11866875361111,
+      "hours_old": 67.00263197694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9198,7 +9257,7 @@
       "duration": 653,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.63896191972222,
+      "hours_old": 67.52301859361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9230,7 +9289,37 @@
       "duration": 195,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 65.35951689416666,
+      "hours_old": 69.24354749694444,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "news:578471",
+      "title": "Capital Gains: D.C. National Guard Recruiting Teams Rise to the Top of National Rankings",
+      "description": "When it comes to recruiting excellence, the nation\u2019s capital isn't just competing\u2014it\u2019s setting the pace. The D.C. National Guard\u2019s Army and Air recruiting teams surged to the top of national rankings in fiscal year 2026, achieving historic milestones and demonstrating what it takes to build a winning force.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "DC National Guard",
+      "date_published": "Nov 04, 2026 23:01 UTC",
+      "timestamp": "2026-11-04T23:01:49+00:00",
+      "country": "United States",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "location_display": "Washington, District of Columbia, United States",
+      "url": "https://www.dvidshub.net/news/578471/capital-gains-dc-national-guard-recruiting-teams-rise-top-national-rankings",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10066085/122x92_q95.jpg",
+      "keywords": [
+        "113th Wing",
+        "DCNG",
+        "D.C. National Guard",
+        "Recruitment and Retention"
+      ],
+      "credit": "Ayan Sheikh",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 70.08235385111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9264,7 +9353,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 66.42285024638889,
+      "hours_old": 70.30688084111111,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9297,7 +9386,7 @@
       "duration": 14,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 66.57153531194444,
+      "hours_old": 70.45547618666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9329,7 +9418,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.11521927194444,
+      "hours_old": 70.9993524575,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9356,7 +9445,7 @@
       "duration": 125,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.24340577555556,
+      "hours_old": 71.1274363763889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9386,7 +9475,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.18410827666666,
+      "hours_old": 72.06824148694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9416,7 +9505,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.40644639972223,
+      "hours_old": 72.29040960361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9446,7 +9535,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 68.62089086916666,
+      "hours_old": 72.50485407055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9473,7 +9562,7 @@
       "duration": 91,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.62653549277778,
+      "hours_old": 72.51047632805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9504,7 +9593,7 @@
       "duration": 64,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.63653528916666,
+      "hours_old": 72.52047615972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9529,7 +9618,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 69.69910821694444,
+      "hours_old": 73.58324143166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9561,7 +9650,7 @@
       "duration": 35,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 70.01059123805555,
+      "hours_old": 73.89459289361112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9593,7 +9682,7 @@
       "duration": 77,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 70.09542418416666,
+      "hours_old": 73.97936503916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9620,7 +9709,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 70.13138264527778,
+      "hours_old": 74.01543132222221,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9650,7 +9739,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.19827487722222,
+      "hours_old": 74.08240808000001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9675,7 +9764,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.22188602277778,
+      "hours_old": 74.10601919888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9704,7 +9793,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 70.60402860555556,
+      "hours_old": 74.48803667472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9734,7 +9823,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 70.60402861055556,
+      "hours_old": 74.48803668972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9764,7 +9853,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 70.60402861555555,
+      "hours_old": 74.48803670027779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9794,7 +9883,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 70.60402862027777,
+      "hours_old": 74.48803670722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9821,7 +9910,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 71.18673972222223,
+      "hours_old": 75.07079638194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9848,7 +9937,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 71.18673976583334,
+      "hours_old": 75.07079644666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9873,7 +9962,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 71.26610490583333,
+      "hours_old": 75.15015358472222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9898,7 +9987,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.31799705916666,
+      "hours_old": 76.20213024666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9927,7 +10016,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.38688601055556,
+      "hours_old": 76.2710192211111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9956,7 +10045,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.38866870916667,
+      "hours_old": 76.2726319236111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9981,7 +10070,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 73.07188598277779,
+      "hours_old": 76.95601918333332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10013,7 +10102,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 73.0913826536111,
+      "hours_old": 76.97543133222221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10044,7 +10133,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 73.40966373722223,
+      "hours_old": 77.29379692694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10073,7 +10162,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 73.91616863166666,
+      "hours_old": 77.80013181722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10104,7 +10193,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 74.29589080833334,
+      "hours_old": 78.17985399527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10135,7 +10224,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 75.75951748972221,
+      "hours_old": 79.64357416805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10167,7 +10256,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.31181324500001,
+      "hours_old": 80.19575412611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10194,7 +10283,7 @@
       "duration": 8,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.59459092416667,
+      "hours_old": 80.47853176027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10219,7 +10308,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 80.20477972083334,
+      "hours_old": 84.08874291333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10251,7 +10340,7 @@
       "duration": 166,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 80.93764651805556,
+      "hours_old": 84.82158736277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10281,7 +10370,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 82.99188606305556,
+      "hours_old": 86.87601927527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10309,7 +10398,7 @@
       "duration": 2,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 86.01312861805556,
+      "hours_old": 89.89718531777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10341,7 +10430,7 @@
       "duration": 235,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 87.04201696555556,
+      "hours_old": 90.92604756083333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10373,7 +10462,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 88.67716387444445,
+      "hours_old": 92.56129709111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10400,7 +10489,7 @@
       "duration": 12,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 88.99340584277779,
+      "hours_old": 92.87743640944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10427,7 +10516,7 @@
       "duration": 7,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.04340584833334,
+      "hours_old": 92.92743641861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10454,7 +10543,7 @@
       "duration": 8,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.07673915361111,
+      "hours_old": 92.96076976,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10481,7 +10570,7 @@
       "duration": 5,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.12673916027778,
+      "hours_old": 93.01076976777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10508,7 +10597,7 @@
       "duration": 8,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.19340583388889,
+      "hours_old": 93.07743644166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10535,7 +10624,7 @@
       "duration": 11,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.26007253694445,
+      "hours_old": 93.14410314055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10566,7 +10655,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 89.2616082538889,
+      "hours_old": 93.14574145750001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10594,7 +10683,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 89.30618366583333,
+      "hours_old": 93.19021428333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10625,7 +10714,7 @@
       "duration": 118,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.20285030666666,
+      "hours_old": 95.08688090805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10656,7 +10745,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.77255755277777,
+      "hours_old": 95.65652075722222,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -10688,7 +10777,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 91.78471600833333,
+      "hours_old": 95.66876468666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10720,7 +10809,7 @@
       "duration": 65,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.91701751416667,
+      "hours_old": 95.80107421527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10750,7 +10839,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 92.29811319055557,
+      "hours_old": 96.18207641222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10779,7 +10868,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.18827493527778,
+      "hours_old": 97.07240814305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10809,7 +10898,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 93.48839089388889,
+      "hours_old": 97.37235410083332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10841,7 +10930,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.13494163749999,
+      "hours_old": 98.01907485222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10872,39 +10961,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 94.30700202166668,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:578513",
-      "title": "David Grant Medical Center Receives National Honor for Surgical Excellence",
-      "description": "David Grant Medical Center at Travis Air Force Base, Calif., has been named among the nation\u2019s top-performing surgical hospitals, earning meritorious recognition from the American College of Surgeons National Surgical Quality Improvement Program.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Defense Health Network Central",
-      "date_published": "Nov 03, 2026 17:43 UTC",
-      "timestamp": "2026-11-03T17:43:24+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "",
-      "location_display": "Texas, United States",
-      "url": "https://www.dvidshub.net/news/578513/david-grant-medical-center-receives-national-honor-surgical-excellence",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2610/10060336/122x92_q95.jpg",
-      "keywords": [
-        "acs",
-        "military-health--system",
-        "military-health",
-        "nsqip",
-        "defense-health--agency",
-        "david-grant-medical-center"
-      ],
-      "credit": "Elaine Sanchez",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 95.50533542722222,
+      "hours_old": 98.19096523138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10935,7 +10992,7 @@
       "duration": 192,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 95.52618418861111,
+      "hours_old": 99.41024084833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10965,7 +11022,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 95.84339091944445,
+      "hours_old": 99.72735413027779,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10990,7 +11047,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 96.81327497888888,
+      "hours_old": 100.69740819444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11021,7 +11078,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.2722798286111,
+      "hours_old": 101.15624304583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11050,32 +11107,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 97.55505761527778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:578487",
-      "title": "BACH Announces Available Services Veterans Day Federal Holiday, Fort Campbell DONSA",
-      "description": "Blanchfield Army Community Hospital announces modified hours for outpatient and specialty services during the Veterans Day federal holiday on Wednesday, November 11, and the Fort Campbell Day of No Scheduled Activities (DONSA) Friday, November 13.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "Blanchfield Army Community Hospital",
-      "date_published": "Nov 03, 2026 14:36 UTC",
-      "timestamp": "2026-11-03T14:36:31+00:00",
-      "country": "United States",
-      "state": "Kentucky",
-      "city": "Fort Campbell",
-      "location_display": "Fort Campbell, Kentucky, United States",
-      "url": "https://www.dvidshub.net/news/578487/bach-announces-available-services-veterans-day-federal-holiday-fort-campbell-donsa",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/graphics/2611/48937/122x92_q95.png",
-      "keywords": [],
-      "credit": "Justin Moeller",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [],
-      "hours_old": 98.6200576586111,
+      "hours_old": 101.43902083472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11106,7 +11138,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 99.96089096027777,
+      "hours_old": 103.84485418083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11131,7 +11163,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 100.34299718361112,
+      "hours_old": 104.22713039694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11163,7 +11195,7 @@
       "commands": [
         "EUCOM"
       ],
-      "hours_old": 103.88097993027777,
+      "hours_old": 107.76492074972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11194,7 +11226,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 111.61744169944444,
+      "hours_old": 115.50157493722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11224,7 +11256,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 112.39021951944444,
+      "hours_old": 116.27435275583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11256,7 +11288,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.88110491416666,
+      "hours_old": 118.76515359527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11285,7 +11317,7 @@
       "duration": 347,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 116.23070214138889,
+      "hours_old": 120.11464298083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11319,7 +11351,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 116.46049726222223,
+      "hours_old": 120.34463048333333,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11349,7 +11381,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.1246639486111,
+      "hours_old": 121.00879718083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11379,7 +11411,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.40438615972221,
+      "hours_old": 121.28851939055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11411,7 +11443,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 117.83716391055555,
+      "hours_old": 121.72129713611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11442,7 +11474,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 118.22966388388889,
+      "hours_old": 122.11379710333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11467,7 +11499,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 121.70355278444444,
+      "hours_old": 125.58768600694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11492,7 +11524,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 122.07431323361111,
+      "hours_old": 125.95825411388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11519,7 +11551,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 122.79875772222222,
+      "hours_old": 126.68269857916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11546,7 +11578,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.04327501361111,
+      "hours_old": 127.92740823749999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11577,7 +11609,7 @@
       "duration": 105,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 129.81146145833333,
+      "hours_old": 133.69549206916668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11609,7 +11641,7 @@
       "duration": 233,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 129.82229480194442,
+      "hours_old": 133.70632541444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11639,7 +11671,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.25216398472222,
+      "hours_old": 135.13629722583335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11668,7 +11700,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 132.6245175775,
+      "hours_old": 136.50857426888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11699,7 +11731,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 132.6442398111111,
+      "hours_old": 136.52829650500001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11726,7 +11758,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 136.6913827011111,
+      "hours_old": 140.57543138472224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11753,7 +11785,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 148.27799730388887,
+      "hours_old": 152.16213054222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11780,7 +11812,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 148.86771953222222,
+      "hours_old": 152.75185277166668,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11816,7 +11848,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.778159143055557,
+      "hours_old": 27.661883780555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11852,7 +11884,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.778159155833333,
+      "hours_old": 27.661883796944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11888,7 +11920,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.778159163333335,
+      "hours_old": 27.661883804722223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11924,7 +11956,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.778159169166667,
+      "hours_old": 27.66188381138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11960,7 +11992,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.778436951944443,
+      "hours_old": 27.662161595555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -11996,7 +12028,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.77843695888889,
+      "hours_old": 27.662161601111112,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12032,7 +12064,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.77843696388889,
+      "hours_old": 27.662161606111113,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12068,7 +12100,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.77843696861111,
+      "hours_old": 27.66216161111111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12104,7 +12136,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 23.787603639722224,
+      "hours_old": 27.671328283333334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12139,7 +12171,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 27.04704808888889,
+      "hours_old": 30.930772733055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12174,7 +12206,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 27.052881428333333,
+      "hours_old": 30.93660607361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12209,7 +12241,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 27.059270322777778,
+      "hours_old": 30.94299496916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12241,7 +12273,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 28.461612705833335,
+      "hours_old": 32.34532104333333,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -12273,7 +12305,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.917593526111112,
+      "hours_old": 32.80113759694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12306,7 +12338,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 47.03406703305555,
+      "hours_old": 50.91775140083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12339,7 +12371,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15169186194444,
+      "hours_old": 53.03555987388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12372,7 +12404,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.151969655555554,
+      "hours_old": 53.035837668333336,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12405,7 +12437,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15196966305555,
+      "hours_old": 53.03583767638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12438,7 +12470,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15196966972222,
+      "hours_old": 53.035837684722225,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12471,7 +12503,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15196967888889,
+      "hours_old": 53.035837696111116,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12504,7 +12536,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.1519696875,
+      "hours_old": 53.03583770611111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12537,7 +12569,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15224747222223,
+      "hours_old": 53.036115492499995,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12570,7 +12602,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15224747944445,
+      "hours_old": 53.03611550083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12603,7 +12635,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.152247485555556,
+      "hours_old": 53.03611550833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12636,7 +12668,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15224749083333,
+      "hours_old": 53.03611551472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12669,7 +12701,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15224749583333,
+      "hours_old": 53.03611552388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12702,7 +12734,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15252527888889,
+      "hours_old": 53.03639330833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12735,7 +12767,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.152525284444444,
+      "hours_old": 53.03639331527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12768,7 +12800,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15252528888889,
+      "hours_old": 53.036393321111106,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12801,7 +12833,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15252529333333,
+      "hours_old": 53.03639332638888,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12834,7 +12866,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15502529777778,
+      "hours_old": 53.03889333138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12867,7 +12899,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15502530222222,
+      "hours_old": 53.03889333638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12900,7 +12932,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15530308444444,
+      "hours_old": 53.039171118888895,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12933,7 +12965,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.155303088888886,
+      "hours_old": 53.039171124444444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12966,7 +12998,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15530309333334,
+      "hours_old": 53.03917112944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12999,7 +13031,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15530309777778,
+      "hours_old": 53.039171134444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13032,7 +13064,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.1553031025,
+      "hours_old": 53.03917113944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13065,7 +13097,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15558088527778,
+      "hours_old": 53.03944892222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13098,7 +13130,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.155580889722216,
+      "hours_old": 53.039448926944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13130,7 +13162,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15558089416667,
+      "hours_old": 53.03944893194444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13162,7 +13194,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.155580899722224,
+      "hours_old": 53.03944893888889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13195,7 +13227,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15558090527778,
+      "hours_old": 53.03944894555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13228,7 +13260,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15585868833333,
+      "hours_old": 53.039726735,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13261,7 +13293,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 49.155858693055556,
+      "hours_old": 53.03972674083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13294,7 +13326,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15585869833333,
+      "hours_old": 53.039726747222225,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13327,7 +13359,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.1597475925,
+      "hours_old": 53.04361564194445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13360,7 +13392,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15974759777777,
+      "hours_old": 53.04361564861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13393,7 +13425,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.15974760527777,
+      "hours_old": 53.04361565944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13426,7 +13458,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16002539,
+      "hours_old": 53.043893445555554,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13458,7 +13490,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16002539583333,
+      "hours_old": 53.04389345277777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13490,7 +13522,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.160025401111106,
+      "hours_old": 53.04389345916666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13522,7 +13554,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16002540583334,
+      "hours_old": 53.04389346416667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13554,7 +13586,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.160025410833335,
+      "hours_old": 53.04389347,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13586,7 +13618,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16030319361111,
+      "hours_old": 53.044171253888884,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13618,7 +13650,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16030319805555,
+      "hours_old": 53.04417125916666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13650,7 +13682,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16030320611112,
+      "hours_old": 53.044171265555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13682,7 +13714,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.160303210555554,
+      "hours_old": 53.04417127055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13714,7 +13746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16030321527778,
+      "hours_old": 53.044171275555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13746,7 +13778,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16058099944444,
+      "hours_old": 53.04444905833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13778,7 +13810,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16058100777778,
+      "hours_old": 53.04444906305556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13810,7 +13842,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16446990222222,
+      "hours_old": 53.048337956944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13842,7 +13874,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16446990666667,
+      "hours_old": 53.04833796166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13875,7 +13907,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16446991111111,
+      "hours_old": 53.048337966666665,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13908,7 +13940,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.16446991638889,
+      "hours_old": 53.04833797249999,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13941,7 +13973,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 49.1647477,
+      "hours_old": 53.04861575527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13970,7 +14002,7 @@
       "duration": 59,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.79069800194444,
+      "hours_old": 55.674555634444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14000,13 +14032,13 @@
         "CVN 73",
         "FlightDeck"
       ],
-      "credit": "NAVCENT Public Affairs",
+      "credit": "",
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.43065921611112,
+      "hours_old": 56.31438386333333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14040,7 +14072,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.476770332777775,
+      "hours_old": 56.36049498083334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14076,7 +14108,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.48177033777778,
+      "hours_old": 56.36549498722222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14112,7 +14144,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.485659231944446,
+      "hours_old": 56.36938388222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14147,7 +14179,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.5551036825,
+      "hours_old": 56.438828332777774,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14182,7 +14214,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.55954813555556,
+      "hours_old": 56.44327279055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14217,7 +14249,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.56482592027778,
+      "hours_old": 56.44855057666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14252,7 +14284,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.569825926388894,
+      "hours_old": 56.45355058388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14288,7 +14320,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.574270376111116,
+      "hours_old": 56.457995034444444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14323,7 +14355,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.61538149277777,
+      "hours_old": 56.49910615166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14352,7 +14384,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.624581015555556,
+      "hours_old": 56.50814641916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14381,7 +14413,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.62902547388889,
+      "hours_old": 56.512590877777775,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14410,7 +14442,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.63291437027778,
+      "hours_old": 56.51647977416666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14439,7 +14471,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.63846993138889,
+      "hours_old": 56.52203533666667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14468,7 +14500,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.69430327,
+      "hours_old": 56.57786868777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14497,7 +14529,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.699858830833335,
+      "hours_old": 56.58342425194444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14526,7 +14558,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.70319216944445,
+      "hours_old": 56.58675759138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14555,7 +14587,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.71124773138889,
+      "hours_old": 56.59481315527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14584,7 +14616,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.731803292222224,
+      "hours_old": 56.61536871722222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14613,7 +14645,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.966525519166666,
+      "hours_old": 56.85009094527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14642,7 +14674,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.977081079444446,
+      "hours_old": 56.86064650694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14671,7 +14703,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 52.98152552861111,
+      "hours_old": 56.86509095694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14700,7 +14732,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 53.02763664388889,
+      "hours_old": 56.91120207388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14734,7 +14766,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36645590611111,
+      "hours_old": 69.25005333111112,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14768,7 +14800,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36645591888889,
+      "hours_old": 69.25005334694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14802,7 +14834,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.3664559288889,
+      "hours_old": 69.25005335861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14835,7 +14867,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36645593527778,
+      "hours_old": 69.2500533663889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14868,7 +14900,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36673372083332,
+      "hours_old": 69.25033115388888,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14901,7 +14933,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 65.36673372777778,
+      "hours_old": 69.25033116166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14934,7 +14966,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36673373388889,
+      "hours_old": 69.25033116861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14967,7 +14999,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36673373944444,
+      "hours_old": 69.250331185,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15000,7 +15032,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.36673374472223,
+      "hours_old": 69.25033119444444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15034,7 +15066,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 65.37034486055555,
+      "hours_old": 69.25394231222222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15068,7 +15100,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 65.37284486611111,
+      "hours_old": 69.25644231944445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15097,7 +15129,7 @@
       "duration": 72,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 71.18958690694444,
+      "hours_old": 75.0734445425,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15126,7 +15158,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 71.18958692083334,
+      "hours_old": 75.07344455944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15159,7 +15191,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 75.76341385722222,
+      "hours_old": 79.64718753277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15190,7 +15222,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579676916666,
+      "hours_old": 79.689570145,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15221,7 +15253,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579678333334,
+      "hours_old": 79.68957016055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15252,7 +15284,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579679055555,
+      "hours_old": 79.68957016888889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15283,7 +15315,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579679666666,
+      "hours_old": 79.68957017555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15314,7 +15346,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579680194444,
+      "hours_old": 79.68957018166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15345,7 +15377,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579680666666,
+      "hours_old": 79.6895701875,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15376,7 +15408,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 75.80579681111112,
+      "hours_old": 79.68957019277777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15405,7 +15437,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.12624775916666,
+      "hours_old": 80.00981319,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15434,7 +15466,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.13208109722223,
+      "hours_old": 80.01564652944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15463,7 +15495,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.13708110194445,
+      "hours_old": 80.02064653555556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15492,7 +15524,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.14596999527778,
+      "hours_old": 80.02953543027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15521,7 +15553,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.18430333555555,
+      "hours_old": 80.06786876944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15550,7 +15582,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.1884700075,
+      "hours_old": 80.07203544166667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15579,7 +15611,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.19485890083334,
+      "hours_old": 80.07842433555557,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15608,7 +15640,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.20097001666667,
+      "hours_old": 80.08453545194445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15637,7 +15669,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.20458113194445,
+      "hours_old": 80.08814656833334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15666,7 +15698,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.22319224861111,
+      "hours_old": 80.10675768472223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15695,7 +15727,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.23069225361111,
+      "hours_old": 80.11425769,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15724,7 +15756,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.23680336944446,
+      "hours_old": 80.12036880638888,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15753,7 +15785,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.24374781888889,
+      "hours_old": 80.12731325666665,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15782,7 +15814,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.55485893472222,
+      "hours_old": 80.43842437305555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15811,7 +15843,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.56152560555556,
+      "hours_old": 80.44509104472223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15840,7 +15872,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.56624783250001,
+      "hours_old": 80.4498132725,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15869,7 +15901,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.57124783666667,
+      "hours_old": 80.45481327833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15898,7 +15930,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 76.59263672972223,
+      "hours_old": 80.47620217277779,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15927,7 +15959,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.6934700675,
+      "hours_old": 103.57703551138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15956,7 +15988,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.69680340527778,
+      "hours_old": 103.58036885,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -15985,7 +16017,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.73152563166667,
+      "hours_old": 103.6150910775,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16014,7 +16046,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.73485896916667,
+      "hours_old": 103.61842441583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16043,7 +16075,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.74069230694445,
+      "hours_old": 103.62425775444444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16072,7 +16104,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.74874786694446,
+      "hours_old": 103.63231331472223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16101,7 +16133,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 100.39958120472221,
+      "hours_old": 104.28314665305555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16130,7 +16162,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 100.41430343138889,
+      "hours_old": 104.29786888055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16159,7 +16191,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 100.41874788027778,
+      "hours_old": 104.30231333027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16188,7 +16220,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 100.4240256625,
+      "hours_old": 104.30759111305555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16217,7 +16249,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 100.42902566666666,
+      "hours_old": 104.31259111833333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16250,7 +16282,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.81562264916667,
+      "hours_old": 116.69922010388888,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16284,7 +16316,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.82645598805554,
+      "hours_old": 116.71005344583332,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16317,7 +16349,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.83478932666667,
+      "hours_old": 116.71838678583333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16351,7 +16383,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.84034488750001,
+      "hours_old": 116.72394234805556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16385,7 +16417,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.84812267472222,
+      "hours_old": 116.7317201325,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16419,7 +16451,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.86062268083333,
+      "hours_old": 116.74422013861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16453,7 +16485,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.88145601944444,
+      "hours_old": 116.76505347916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16487,7 +16519,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.89034491388888,
+      "hours_old": 116.77394237472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16521,7 +16553,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.89867825388889,
+      "hours_old": 116.78227571444445,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16555,7 +16587,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.90590048138888,
+      "hours_old": 116.78949794333333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16589,7 +16621,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 112.92340048694444,
+      "hours_old": 116.80699794944444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -16625,243 +16657,11 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 116.46351799055556,
+      "hours_old": 120.34739511055555,
       "is_deployment": true,
       "views": 0,
       "carriers": [
         "USS Nimitz (CVN 68)"
-      ]
-    },
-    {
-      "id": "image:10063428",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "An E-2C Hawkeye, attached to Airborne Command and...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:31+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063428/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063428/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62458122666666,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063427",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "U.S. Sailors conduct flight operations aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:30+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063427/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063427/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62485900888888,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063426",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:30+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063426/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063426/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62485901444444,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063425",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:30+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063425/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063425/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62485901888888,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063423",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:30+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063423/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063423/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62485902277777,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063422",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "A U.S. Sailor refuels an F/A-18E Super Hornet aboard...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:30+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063422/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063422/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62485902666668,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063420",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "An F/A-18E Super Hornet, attached to Strike Fighter...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:29+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063420/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063420/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62513680944443,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
-      ]
-    },
-    {
-      "id": "image:10063418",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "description": "A U.S. Sailor, assigned to Strike Fighter Squadron (VFA)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "date_published": "Nov 02, 2026 02:36 UTC",
-      "timestamp": "2026-11-02T02:36:29+00:00",
-      "country": "At Sea",
-      "state": "",
-      "city": "",
-      "location_display": "At Sea",
-      "url": "https://www.dvidshub.net/image/10063418/daily-operations-aboard-uss-george-hw-bush-cvn-77",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10063418/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "NAVCENT Public Affairs",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "CENTCOM"
-      ],
-      "hours_old": 134.62513681388887,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": [
-        "USS George H.W. Bush (CVN 77)"
       ]
     },
     {
@@ -16886,7 +16686,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 148.87248836333333,
+      "hours_old": 152.75622054027778,
       "is_deployment": true,
       "views": 0,
       "carriers": [
