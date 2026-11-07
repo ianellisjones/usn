@@ -1,9 +1,24 @@
 {
-  "generated": "2026-11-07T11:30:43.216600+00:00",
+  "generated": "2026-11-07T16:47:17.434892+00:00",
   "news_count": 0,
-  "dvids_count": 7,
+  "dvids_count": 8,
   "news": [],
   "dvids": [
+    {
+      "id": "news:578868",
+      "title": "CENTCOM Launches Task Force to Disrupt Iranian Ground Transit Routes Supporting Illegal Shipments",
+      "desc": "TAMPA, Fla. — On Nov. 7, the commander of U.S. Central Command (CENTCOM) directed the establishment of a task force that will support ongoing U.S. government efforts to prevent Iran from using ground routes to transport advanced weapons and other materials.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-11-07T13:31:30+00:00",
+      "url": "https://www.dvidshub.net/news/578868/centcom-launches-task-force-disrupt-iranian-ground-transit-routes-supporting-illegal-shipments",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10075946",
       "title": "USS Carl M. Levin Conducts Flight Operations",
@@ -58,21 +73,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-06T11:58:09+00:00",
       "url": "https://www.dvidshub.net/image/10075361/john-finn-stands-watch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10075362",
-      "title": "John Finn Stands Watch",
-      "desc": "A U.S. Sailor stands watch in the combat information...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-06T11:56:33+00:00",
-      "url": "https://www.dvidshub.net/image/10075362/john-finn-stands-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
