@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-07T20:35:45.229587+00:00",
+  "generated": "2026-11-08T11:41:28.830792+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 4,
   "news": [],
   "dvids": [
     {
@@ -50,32 +50,17 @@
       "location_display": ""
     },
     {
-      "id": "image:10075946",
-      "title": "USS Carl M. Levin Conducts Flight Operations",
-      "desc": "A U.S. Sailor oversees flight operations on the flight...",
-      "type": "image",
+      "id": "news:578768",
+      "title": "Shipyard Spotlight: Adrian Morris, Insulation Shop Supervisor Supporting USS Gerald R. Ford Planned Incremental Availability",
+      "desc": "Norfolk Naval Shipyard’s Adrian Morris, an Insulation Shop (Shop 57) Supervisor currently supporting topside and propulsion plant work on the USS Gerald R. Ford (CVN 78) project, has been with NNSY for 10 years. Morris started out at NNSY as an apprentice with Shop 57 and graduated three months earl",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-06T19:00:41+00:00",
-      "url": "https://www.dvidshub.net/image/10075946/uss-carl-m-levin-conducts-flight-operations",
+      "unit_name": "Norfolk Naval Shipyard",
+      "timestamp": "2026-11-06T12:18:57+00:00",
+      "url": "https://www.dvidshub.net/news/578768/shipyard-spotlight-adrian-morris-insulation-shop-supervisor-supporting-uss-gerald-r-ford-planned-incremental-availability",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10075945",
-      "title": "USS Carl M. Levin Conducts Flight Operations",
-      "desc": "A U.S. Sailor directs an MH-60R Sea Hawk assigned to...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-06T19:00:40+00:00",
-      "url": "https://www.dvidshub.net/image/10075945/uss-carl-m-levin-conducts-flight-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     }
