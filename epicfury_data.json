@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-09T13:37:09.070451+00:00",
+  "generated": "2026-11-09T21:22:22.334587+00:00",
   "news_count": 0,
-  "dvids_count": 23,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "image:10079177",
-      "title": "George Washington Conducts RAS",
-      "desc": "U.S. Sailor maintain tension on a phone-and-distance...",
+      "id": "image:10082808",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "A U.S. Sailor stands fire safety watch during flight...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-09T03:10:17+00:00",
-      "url": "https://www.dvidshub.net/image/10079177/george-washington-conducts-ras",
+      "timestamp": "2026-11-09T18:33:48+00:00",
+      "url": "https://www.dvidshub.net/image/10082808/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10079178",
-      "title": "George Washington Conducts RAS",
-      "desc": "U.S. Sailor maintain tension on a phone-and-distance...",
+      "id": "image:10082807",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "U.S. Sailors chock and chain an MH-60R Sea Hawk assigned...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-09T03:10:17+00:00",
-      "url": "https://www.dvidshub.net/image/10079178/george-washington-conducts-ras",
+      "timestamp": "2026-11-09T18:33:48+00:00",
+      "url": "https://www.dvidshub.net/image/10082807/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10079173",
-      "title": "George Washington Conducts RAS",
-      "desc": "An AS-332 Super Puma Eurocopter, attached to Lewis and...",
+      "id": "image:10082806",
+      "title": "USS Carl M. Levin Conducts Flight Operations",
+      "desc": "A U.S. Sailor leads a foreign object debris walkdown on...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-09T03:10:16+00:00",
-      "url": "https://www.dvidshub.net/image/10079173/george-washington-conducts-ras",
+      "timestamp": "2026-11-09T18:33:48+00:00",
+      "url": "https://www.dvidshub.net/image/10082806/uss-carl-m-levin-conducts-flight-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10079171",
-      "title": "George Washington Conducts RAS",
-      "desc": "U.S. Sailors heave line in the hangar bay aboard of...",
+      "id": "image:10080382",
+      "title": "Watch standing aboard USS Gonzalez (DDG 66)",
+      "desc": "A U.S. Sailor updates the ship’s deck log during watch...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-09T03:10:16+00:00",
-      "url": "https://www.dvidshub.net/image/10079171/george-washington-conducts-ras",
+      "timestamp": "2026-11-09T02:45:56+00:00",
+      "url": "https://www.dvidshub.net/image/10080382/watch-standing-aboard-uss-gonzalez-ddg-66",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10079169",
-      "title": "George Washington Conducts RAS",
-      "desc": "U.S. Sailor heave line in the hangar bay aboard...",
+      "id": "image:10080381",
+      "title": "Watch standing aboard USS Gonzalez (DDG 66)",
+      "desc": "A U.S. Sailor updates the ship’s deck log during watch...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-09T03:10:15+00:00",
-      "url": "https://www.dvidshub.net/image/10079169/george-washington-conducts-ras",
+      "timestamp": "2026-11-09T02:45:56+00:00",
+      "url": "https://www.dvidshub.net/image/10080381/watch-standing-aboard-uss-gonzalez-ddg-66",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
