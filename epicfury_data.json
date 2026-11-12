@@ -1,7 +1,68 @@
 {
-  "generated": "2026-11-12T13:31:29.761900+00:00",
+  "generated": "2026-11-12T18:46:46.505554+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 4,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:10089944",
+      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
+      "desc": "A U.S. Sailor fires an M18 pistol during a small arms...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-12T16:43:57+00:00",
+      "url": "https://www.dvidshub.net/image/10089944/john-finn-conducts-small-arms-live-fire-exercise",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10089939",
+      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
+      "desc": "A U.S. Sailor handles an M4 rifle during a small arms...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-12T16:41:21+00:00",
+      "url": "https://www.dvidshub.net/image/10089939/john-finn-conducts-small-arms-live-fire-exercise",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10089935",
+      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
+      "desc": "U.S. Sailors set up a gun range during a small arms...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-12T16:41:07+00:00",
+      "url": "https://www.dvidshub.net/image/10089935/john-finn-conducts-small-arms-live-fire-exercise",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10088957",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor directs the towing of an E-2C Hawkeye...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-12T15:59:08+00:00",
+      "url": "https://www.dvidshub.net/image/10088957/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
