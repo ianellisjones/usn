@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-12T18:46:46.505554+00:00",
+  "generated": "2026-11-12T22:29:16.485950+00:00",
   "news_count": 0,
-  "dvids_count": 4,
+  "dvids_count": 23,
   "news": [],
   "dvids": [
     {
-      "id": "image:10089944",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "A U.S. Sailor fires an M18 pistol during a small arms...",
-      "type": "image",
+      "id": "news:578926",
+      "title": "Deployed Resiliency Counseling While at Sea",
+      "desc": "U.S. Navy deployments routinely test Sailors with physical and mental demands that come with shipboard life. Sailors have many resources available to them to include the Deployment Resiliency Counselor (DRC), to help them cope with underway challenges and stress.",
+      "type": "news",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-12T16:43:57+00:00",
-      "url": "https://www.dvidshub.net/image/10089944/john-finn-conducts-small-arms-live-fire-exercise",
+      "timestamp": "2026-11-12T22:06:08+00:00",
+      "url": "https://www.dvidshub.net/news/578926/deployed-resiliency-counseling-while-sea",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10089939",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "A U.S. Sailor handles an M4 rifle during a small arms...",
-      "type": "image",
+      "id": "news:579226",
+      "title": "USS Michael Murphy Returns to Pearl Harbor Following an 11-Month Combat Deployment",
+      "desc": "PEARL HARBOR, Hawaii — Arleigh Burke-class guided-missile destroyer USS Michael Murphy (DDG 112), with embarked Helicopter Maritime Strike Squadron (HSM) 71 Detachment 2, returned to its homeport of Joint Base Pearl Harbor-Hickam, Hawaii following an 11-month deployment to the U.S. 3rd, 7th, and 5th",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-12T16:41:21+00:00",
-      "url": "https://www.dvidshub.net/image/10089939/john-finn-conducts-small-arms-live-fire-exercise",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-11-12T20:39:18+00:00",
+      "url": "https://www.dvidshub.net/news/579226/uss-michael-murphy-returns-pearl-harbor-following-11-month-combat-deployment",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,32 +35,47 @@
       "location_display": ""
     },
     {
-      "id": "image:10089935",
-      "title": "John Finn Conducts A Small Arms Live-Fire Exercise",
-      "desc": "U.S. Sailors set up a gun range during a small arms...",
+      "id": "image:10091047",
+      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-12T16:41:07+00:00",
-      "url": "https://www.dvidshub.net/image/10089935/john-finn-conducts-small-arms-live-fire-exercise",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-12T20:23:34+00:00",
+      "url": "https://www.dvidshub.net/image/10091047/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10088957",
-      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "A U.S. Sailor directs the towing of an E-2C Hawkeye...",
+      "id": "image:10091044",
+      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-12T15:59:08+00:00",
-      "url": "https://www.dvidshub.net/image/10088957/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-12T20:23:29+00:00",
+      "url": "https://www.dvidshub.net/image/10091044/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
       "thumbnail_url": "",
       "commands": [
-        "CENTCOM"
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10091042",
+      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-12T20:23:24+00:00",
+      "url": "https://www.dvidshub.net/image/10091042/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
       ],
       "location_display": ""
     }
