@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-11",
-  "timestamp": "2026-11-11T23:44:51.925934",
-  "total_count": 405,
+  "date": "2026-11-12",
+  "timestamp": "2026-11-12T04:28:15.570026",
+  "total_count": 406,
   "by_country": {
-    "United States": 337,
+    "United States": 347,
     "United Kingdom": 10,
     "Germany": 10,
-    "Panama": 12,
+    "Panama": 3,
     "At Sea": 2,
     "Spain": 2,
     "Undisclosed Location": 3,
@@ -20,23 +20,968 @@
     "Angola": 1
   },
   "by_type": {
-    "image": 165,
+    "video": 130,
     "news": 111,
-    "video": 129
+    "image": 165
   },
   "by_branch": {
-    "Navy": 146,
-    "Marines": 90,
+    "Navy": 147,
     "Joint": 150,
+    "Marines": 90,
     "Coast Guard": 19
   },
   "by_command": {
-    "SOUTHCOM": 14,
+    "SOUTHCOM": 4,
     "INDOPACOM": 9,
     "CENTCOM": 8
   },
   "carrier_count": 74,
   "items": [
+    {
+      "id": "video:1029532",
+      "title": "Cake Cutting Ceremony | FWSD2026",
+      "description": "U.S. Marines with 3d Marine Aircraft Wing, I Marine Expeditionary Force, conduct a cake cutting ceremony for the Marine Corps\u2019 birthday during Fleet Week San Diego, Nov. 11, 2026. Fleet Week San Diego, now in its 25th iteration, is an opportunity for San Diego residents and tourists to meet their Navy, Marine Corps, and Coast Guard teams and experience America\u2019s sea services firsthand. During the event, service members participate in various community service events and showcase capabilities and...",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 02:11 UTC",
+      "timestamp": "2026-11-12T02:11:57+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/video/1029532/cake-cutting-ceremony-fwsd2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2611/1029532/DOD_112142217.0000001/122x92_q95.jpg",
+      "keywords": [
+        "I MEF",
+        "3d MAW",
+        "MAG 16",
+        "ceremony",
+        "Marines",
+        "FWSD2026"
+      ],
+      "credit": "LCpl Melanie Soni Flores",
+      "duration": 92,
+      "aspect_ratio": "16:9",
+      "commands": [],
+      "hours_old": 2.2654779394444446,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "news:579152",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 02:10 UTC",
+      "timestamp": "2026-11-12T02:10:24+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "",
+      "location_display": "Alaska, United States",
+      "url": "https://www.dvidshub.net/news/579152/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089264/122x92_q95.jpg",
+      "keywords": [],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "",
+      "commands": [],
+      "hours_old": 2.292649256388889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089261",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:15+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089261/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089261/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.545319518888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089257",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:15+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089257/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089257/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5453195483333335,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089264",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089264/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089264/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.545597289722222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089262",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089262/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089262/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.545597293611111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089260",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089260/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089260/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.545597299722222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089259",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089259/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089259/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5455973024999996,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089258",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089258/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089258/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.545597305277778,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089256",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089256/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089256/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5455973097222224,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089255",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089255/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089255/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5455973133333334,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089254",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089254/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089254/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5455973163888888,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089251",
+      "title": "Veterans Day 2026",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:55 UTC",
+      "timestamp": "2026-11-12T01:55:14+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089251/veterans-day-2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089251/122x92_q95.jpg",
+      "keywords": [
+        "Veterans Day"
+      ],
+      "credit": "Alejandro Pena",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5455973191666668,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089253",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:20+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089253/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089253/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.577263918888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089250",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:20+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089250/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089250/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 2.577263936111111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089252",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089252/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089252/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.577541708888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089249",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089249/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089249/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 2.5775417180555555,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089248",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089248/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089248/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 2.5775417216666665,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089247",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089247/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089247/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.577541724722222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089245",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089245/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089245/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.5775417280555555,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089244",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Veterans, service members, family and friends attend a...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089244/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089244/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "portrait",
+      "commands": [],
+      "hours_old": 2.5775417311111113,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089246",
+      "title": "Alaska Department of Military and Veterans Affairs hosts JBER Veterans Day ceremony",
+      "description": "Vietnam War veteran George Bennett, of Sitka, speaks to...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Alaska National Guard",
+      "date_published": "Nov 12, 2026 01:53 UTC",
+      "timestamp": "2026-11-12T01:53:19+00:00",
+      "country": "United States",
+      "state": "Alaska",
+      "city": "Joint Base Elmendorf-Richardson",
+      "location_display": "Joint Base Elmendorf-Richardson, Alaska, United States",
+      "url": "https://www.dvidshub.net/image/10089246/alaska-department-military-and-veterans-affairs-hosts-jber-veterans-day-ceremony",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089246/122x92_q95.jpg",
+      "keywords": [
+        "Alaska National Guard",
+        "Team Alaska"
+      ],
+      "credit": "Maj. David Bedard",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.577541766388889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088525",
+      "title": "Veterans Day ceremony honors generations of service at OKGuard Museum",
+      "description": "U.S. Army Veterans stand for the playing of the Army...",
+      "type": "image",
+      "branch": "Joint",
+      "unit_name": "Oklahoma National Guard",
+      "date_published": "Nov 12, 2026 01:30 UTC",
+      "timestamp": "2026-11-12T01:30:46+00:00",
+      "country": "United States",
+      "state": "Oklahoma",
+      "city": "",
+      "location_display": "Oklahoma, United States",
+      "url": "https://www.dvidshub.net/image/10088525/veterans-day-ceremony-honors-generations-service-okguard-museum",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088525/122x92_q95.jpg",
+      "keywords": [
+        "Oklahoma National Guard",
+        "OKGuard",
+        "ceremony",
+        "National Guard",
+        "Veterans Day"
+      ],
+      "credit": "SGT Danielle Rayon",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 2.9533751069444447,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089201",
+      "title": "Veterans Day Boat Parade | FWSD2026",
+      "description": "U.S. service members, civilians and veterans participate...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:46 UTC",
+      "timestamp": "2026-11-12T00:46:12+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10089201/veterans-day-boat-parade-fwsd2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089201/122x92_q95.jpg",
+      "keywords": [
+        "I MEF",
+        "Marines",
+        "Coast Guard",
+        "Navy",
+        "FWSD2026"
+      ],
+      "credit": "Sgt Jessi Stegall",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6944485208333333,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089197",
+      "title": "Veterans Day Boat Parade | FWSD2026",
+      "description": "U.S. service members, civilians and veterans wave during...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:46 UTC",
+      "timestamp": "2026-11-12T00:46:12+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10089197/veterans-day-boat-parade-fwsd2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089197/122x92_q95.jpg",
+      "keywords": [
+        "I MEF",
+        "Marines",
+        "Coast Guard",
+        "Navy",
+        "FWSD2026"
+      ],
+      "credit": "Sgt Jessi Stegall",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.694448524722222,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089194",
+      "title": "Veterans Day Boat Parade | FWSD2026",
+      "description": "U.S. service members, civilians and veterans participate...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:46 UTC",
+      "timestamp": "2026-11-12T00:46:11+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10089194/veterans-day-boat-parade-fwsd2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089194/122x92_q95.jpg",
+      "keywords": [
+        "I MEF",
+        "Marines",
+        "Coast Guard",
+        "Navy",
+        "FWSD2026"
+      ],
+      "credit": "Sgt Jessi Stegall",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6947263058333335,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10089193",
+      "title": "Veterans Day Boat Parade | FWSD2026",
+      "description": "A family poses for a photo with the Yacht America before...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:46 UTC",
+      "timestamp": "2026-11-12T00:46:10+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10089193/veterans-day-boat-parade-fwsd2026",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10089193/122x92_q95.jpg",
+      "keywords": [
+        "I MEF",
+        "Marines",
+        "Coast Guard",
+        "Navy",
+        "FWSD2026"
+      ],
+      "credit": "Sgt Jessi Stegall",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.6950040872222223,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088829",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "Run To Honor representatives participate in the Veterans...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:28 UTC",
+      "timestamp": "2026-11-12T00:28:17+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10088829/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088829/122x92_q95.jpg",
+      "keywords": [
+        "VETERANS DAY PARADE",
+        "Fleet Week San Diego",
+        "Downtown San Diego",
+        "Veterans",
+        "FWSD2026"
+      ],
+      "credit": "SN Vanessa Astorga Granado",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 3.9930596161111107,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088830",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "Veterans participate in the Veterans Day parade in...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:18 UTC",
+      "timestamp": "2026-11-12T00:18:17+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "San Diego",
+      "location_display": "San Diego, United States",
+      "url": "https://www.dvidshub.net/image/10088830/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088830/122x92_q95.jpg",
+      "keywords": [
+        "VETERANS DAY PARADE",
+        "USN",
+        "Fleet Week San Diego",
+        "Downtown San Diego",
+        "USMC",
+        "FWSD2026"
+      ],
+      "credit": "SN Vanessa Astorga Granado",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.159726271111111,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088833",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "Parade participants drive down Harbor Drive during the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:14 UTC",
+      "timestamp": "2026-11-12T00:14:15+00:00",
+      "country": "United States",
+      "state": "",
+      "city": "San Diego",
+      "location_display": "San Diego, United States",
+      "url": "https://www.dvidshub.net/image/10088833/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088833/122x92_q95.jpg",
+      "keywords": [
+        "VETERANS DAY PARADE",
+        "Fleet Week San Diego",
+        "Downtown San Diego",
+        "parade float",
+        "FWSD2026"
+      ],
+      "credit": "SN Vanessa Astorga Granado",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.226948488888889,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088818",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "U.S. Navy veterans ride down Harbor Drive during the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 12, 2026 00:05 UTC",
+      "timestamp": "2026-11-12T00:05:13+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10088818/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088818/122x92_q95.jpg",
+      "keywords": [
+        "VETERANS DAY PARADE",
+        "USN",
+        "Fleet Week San Diego",
+        "Navy Veterans",
+        "Downtown San Diego",
+        "FWSD2026"
+      ],
+      "credit": "SN Vanessa Astorga Granado",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.37750404,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088827",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "Point Loma High School Navy Junior ROTC cadets march...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 11, 2026 23:55 UTC",
+      "timestamp": "2026-11-11T23:55:03+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10088827/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088827/122x92_q95.jpg",
+      "keywords": [
+        "USN",
+        "Fleet Week San Diego",
+        "FWSD2026"
+      ],
+      "credit": "SA Shamariya Poole",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.546948513055556,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "image:10088826",
+      "title": "Celebrating Veterans Day in Downtown San Diego",
+      "description": "U.S. Navy Band Southwest performs during the Veterans...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Navy Region Southwest",
+      "date_published": "Nov 11, 2026 23:50 UTC",
+      "timestamp": "2026-11-11T23:50:09+00:00",
+      "country": "United States",
+      "state": "California",
+      "city": "San Diego",
+      "location_display": "San Diego, California, United States",
+      "url": "https://www.dvidshub.net/image/10088826/celebrating-veterans-day-downtown-san-diego",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088826/122x92_q95.jpg",
+      "keywords": [
+        "USN",
+        "Fleet Week San Diego",
+        "FWSD2026"
+      ],
+      "credit": "SA Shamariya Poole",
+      "duration": "",
+      "aspect_ratio": "landscape",
+      "commands": [],
+      "hours_old": 4.628615183333333,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
     {
       "id": "image:10088825",
       "title": "Celebrating Veterans Day in Downtown San Diego",
@@ -61,7 +1006,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.034283825,
+      "hours_old": 4.757781832222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -90,7 +1035,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.12595048666666667,
+      "hours_old": 4.849448509444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -119,7 +1064,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.32622825916666665,
+      "hours_old": 5.049726258055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -151,7 +1096,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5279462080555555,
+      "hours_old": 5.251400696388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -183,7 +1128,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.527946216388889,
+      "hours_old": 5.251400703611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -215,7 +1160,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5279462244444445,
+      "hours_old": 5.25140071,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -247,7 +1192,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5279462313888889,
+      "hours_old": 5.251400715277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -279,7 +1224,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5279462372222222,
+      "hours_old": 5.2514007197222226,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -311,7 +1256,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 0.5280293930555556,
+      "hours_old": 5.251507626944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -343,7 +1288,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5282240216666666,
+      "hours_old": 5.2516785025,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -375,7 +1320,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5282240283333334,
+      "hours_old": 5.251678507499999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -407,7 +1352,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5282240352777777,
+      "hours_old": 5.251678512222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -439,7 +1384,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5282240413888889,
+      "hours_old": 5.251678516388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -471,7 +1416,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 0.5282240475,
+      "hours_old": 5.251678521666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -501,7 +1446,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839277777779,
+      "hours_old": 5.795281897777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -531,7 +1476,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839333333334,
+      "hours_old": 5.7952819077777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -561,7 +1506,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839380555556,
+      "hours_old": 5.795281911666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -591,7 +1536,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839425,
+      "hours_old": 5.795281915277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -621,7 +1566,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839466666668,
+      "hours_old": 5.795281918333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -651,7 +1596,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839505555555,
+      "hours_old": 5.795281921388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -681,7 +1626,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839547222223,
+      "hours_old": 5.795281924444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -711,7 +1656,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.071783958611111,
+      "hours_old": 5.7952819275000005,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -741,7 +1686,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.0717839627777779,
+      "hours_old": 5.795281931111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -770,7 +1715,7 @@
       "duration": 31,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 1.1739647105555555,
+      "hours_old": 5.897434734444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -801,7 +1746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6385016355555555,
+      "hours_old": 6.361956161388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -832,7 +1777,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6385016475,
+      "hours_old": 6.361956172777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -863,7 +1808,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6385016661111111,
+      "hours_old": 6.361956178611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -894,7 +1839,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6385016730555557,
+      "hours_old": 6.361956183333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -925,7 +1870,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.638501678611111,
+      "hours_old": 6.361956187222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -956,7 +1901,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6385016888888888,
+      "hours_old": 6.3619561947222225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -987,7 +1932,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 1.638779462222222,
+      "hours_old": 6.362233969166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1018,7 +1963,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387794716666668,
+      "hours_old": 6.3622339766666665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1049,7 +1994,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387794763888888,
+      "hours_old": 6.362233981388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1080,7 +2025,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.638779481388889,
+      "hours_old": 6.362233985277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1111,7 +2056,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387794858333333,
+      "hours_old": 6.362233988888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1142,7 +2087,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.638779490277778,
+      "hours_old": 6.362233992222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1173,7 +2118,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387794947222223,
+      "hours_old": 6.362233995277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1204,7 +2149,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 1.6387794994444445,
+      "hours_old": 6.3622339991666665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1235,7 +2180,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 1.638779503888889,
+      "hours_old": 6.3622340025,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1266,7 +2211,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.638779508888889,
+      "hours_old": 6.362234006666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1297,7 +2242,7 @@
       "duration": "",
       "aspect_ratio": "square",
       "commands": [],
-      "hours_old": 1.6387795133333334,
+      "hours_old": 6.36223401,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1328,7 +2273,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387795175,
+      "hours_old": 6.362234013888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1359,7 +2304,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387795227777777,
+      "hours_old": 6.362234017222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1390,7 +2335,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387795275,
+      "hours_old": 6.3622340202777785,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1421,7 +2366,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387795327777779,
+      "hours_old": 6.362234023611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1452,7 +2397,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.6387795372222222,
+      "hours_old": 6.362234026666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1477,7 +2422,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.923450471388889,
+      "hours_old": 6.646948472777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1502,7 +2447,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 1.923450476388889,
+      "hours_old": 6.646948476666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1533,7 +2478,7 @@
       "duration": 78,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.032575917777778,
+      "hours_old": 6.756045927500001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1563,7 +2508,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568172600833333,
+      "hours_old": 7.291670623055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1593,7 +2538,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5681726197222225,
+      "hours_old": 7.29167064,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1623,7 +2568,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5681726252777777,
+      "hours_old": 7.291670644166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1653,7 +2598,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568172630277778,
+      "hours_old": 7.291670647777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1683,7 +2628,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5681726355555554,
+      "hours_old": 7.291670651111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1713,7 +2658,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568172640277778,
+      "hours_old": 7.291670655,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1743,7 +2688,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568172653888889,
+      "hours_old": 7.291670665277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1773,7 +2718,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568172658611111,
+      "hours_old": 7.291670669166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1803,7 +2748,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684503902777776,
+      "hours_old": 7.291948412222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1833,7 +2778,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568450423333333,
+      "hours_old": 7.291948436944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1863,7 +2808,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684504275,
+      "hours_old": 7.29194844,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1893,7 +2838,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684504408333337,
+      "hours_old": 7.291948450277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1923,7 +2868,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568450446388889,
+      "hours_old": 7.291948453888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1953,7 +2898,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684504513888893,
+      "hours_old": 7.291948457777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -1983,7 +2928,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.568450456388889,
+      "hours_old": 7.291948461666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2013,7 +2958,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684504613888888,
+      "hours_old": 7.2919484655555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2043,7 +2988,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 2.5684504666666665,
+      "hours_old": 7.291948469444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2075,7 +3020,7 @@
       "duration": 104,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 2.677094865277778,
+      "hours_old": 7.400502636666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2100,7 +3045,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.7046585541666666,
+      "hours_old": 7.428149393611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2127,7 +3072,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 2.7932696458333335,
+      "hours_old": 7.516760487777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2158,7 +3103,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 3.342158899444444,
+      "hours_old": 8.065649669722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2187,32 +3132,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.5187283658333333,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088647",
-      "title": "USS Kearsarge Conducts SWATT Exercises",
-      "description": "261111-N-QE928-1002 NAVAL STATION NORFOLK (Nov 11, 2026)...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Kearsarge (LHD 3)",
-      "date_published": "Nov 11, 2026 20:12 UTC",
-      "timestamp": "2026-11-11T20:12:52+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088647/uss-kearsarge-conducts-swatt-exercises",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088647/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "CPO Erika Kugler",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.526506090555556,
+      "hours_old": 8.2422263375,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2239,7 +3159,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.653206055,
+      "hours_old": 8.376662911666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2264,7 +3184,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.653206066666667,
+      "hours_old": 8.376662922222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2292,7 +3212,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.653206073055556,
+      "hours_old": 8.3766629275,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2320,232 +3240,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 3.653206078611111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088617",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088617/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088617/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.8034505505555556,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088613",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088613/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088613/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.8034505566666668,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088609",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088609/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088609/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.803450561111111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088606",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088606/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088606/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.8034505647222225,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088601",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088601/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088601/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.8034505686111113,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088598",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:15+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088598/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088598/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "portrait",
-      "commands": [],
-      "hours_old": 3.8034505722222223,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088597",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:14+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088597/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088597/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.803728354722222,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088595",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:14+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088595/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088595/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.803728358611111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10088594",
-      "title": "2026 Veterans Day Ceremony",
-      "description": "Service members, veterans, and community gathered for a...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Naval District Washington",
-      "date_published": "Nov 11, 2026 19:56 UTC",
-      "timestamp": "2026-11-11T19:56:14+00:00",
-      "country": "United States",
-      "state": "",
-      "city": "",
-      "location_display": "United States",
-      "url": "https://www.dvidshub.net/image/10088594/2026-veterans-day-ceremony",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10088594/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 RuKiyah Mack",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 3.803728362222222,
+      "hours_old": 8.376662931666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2572,7 +3267,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 4.39243639,
+      "hours_old": 9.115927220833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2601,7 +3296,7 @@
       "duration": 4784,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.108483688055555,
+      "hours_old": 9.831891471111112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2626,7 +3321,7 @@
       "duration": 77,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.4025345158333336,
+      "hours_old": 10.12603351111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2651,7 +3346,7 @@
       "duration": 174,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.4025345975,
+      "hours_old": 10.126033576666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2678,7 +3373,7 @@
       "duration": 90,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 5.887372589444444,
+      "hours_old": 10.610780371666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2709,7 +3404,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 6.149595104166667,
+      "hours_old": 10.873002819444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2734,7 +3429,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 6.9386459525,
+      "hours_old": 11.66214486888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2765,7 +3460,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.001614485,
+      "hours_old": 11.725041778055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2796,7 +3491,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.001892277222222,
+      "hours_old": 11.725319560277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2827,7 +3522,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.001892288055555,
+      "hours_old": 11.725319564166668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2858,7 +3553,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.001892294444444,
+      "hours_old": 11.725319567777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2889,7 +3584,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.001892301111111,
+      "hours_old": 11.725319570833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2919,7 +3614,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.4668923425,
+      "hours_old": 12.190319600555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2949,7 +3644,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.467725671944445,
+      "hours_old": 12.191152930833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -2979,7 +3674,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.468836778888889,
+      "hours_old": 12.19226403888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3009,7 +3704,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.469670107777778,
+      "hours_old": 12.193097368333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3039,7 +3734,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.470225658888889,
+      "hours_old": 12.193652920555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3069,7 +3764,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.471058988055555,
+      "hours_old": 12.194486250833332,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3099,7 +3794,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.472170094722222,
+      "hours_old": 12.19559735888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3129,7 +3824,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.473003423055555,
+      "hours_old": 12.196430688888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3159,7 +3854,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 7.474114528055556,
+      "hours_old": 12.197541795833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3188,7 +3883,7 @@
       "duration": 797,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 8.358483857222222,
+      "hours_old": 13.081891607777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3217,7 +3912,7 @@
       "duration": 942,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 8.358483870555556,
+      "hours_old": 13.081891617222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3249,7 +3944,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.362668579444446,
+      "hours_old": 13.086123041944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3281,7 +3976,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 8.362668584722222,
+      "hours_old": 13.08612304638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3312,7 +4007,7 @@
       "duration": 563,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 11.895983783333334,
+      "hours_old": 16.61939154222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3343,7 +4038,7 @@
       "duration": 461,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 12.463761552222222,
+      "hours_old": 17.18716932722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3375,7 +4070,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.480867910277777,
+      "hours_old": 20.204366887777777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3404,7 +4099,7 @@
       "duration": 63,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.517812365000001,
+      "hours_old": 20.24131134055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3436,7 +4131,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.58725682638889,
+      "hours_old": 20.310755804444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3465,7 +4160,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.624756788333332,
+      "hours_old": 20.34825576833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3495,7 +4190,7 @@
       "duration": 76,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.661423443333334,
+      "hours_old": 20.38492242583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3527,7 +4222,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.694756883611111,
+      "hours_old": 20.418255835277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3556,7 +4251,7 @@
       "duration": 65,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.728923560555554,
+      "hours_old": 20.45242251,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3587,7 +4282,7 @@
       "duration": 64,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.771423541666667,
+      "hours_old": 20.49492252611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3617,7 +4312,7 @@
       "duration": 77,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 15.850312421388889,
+      "hours_old": 20.573811407500003,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3646,7 +4341,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.02956160888889,
+      "hours_old": 22.753059646388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3675,7 +4370,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.029561615,
+      "hours_old": 22.75305965,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3704,7 +4399,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.029561619166667,
+      "hours_old": 22.75305965277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3733,7 +4428,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.0295616275,
+      "hours_old": 22.753059658888887,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3762,7 +4457,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.029839401388887,
+      "hours_old": 22.75333743361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3791,7 +4486,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.029839410833333,
+      "hours_old": 22.753337439444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3820,7 +4515,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.029839415833333,
+      "hours_old": 22.75333744222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3849,7 +4544,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 18.02983942,
+      "hours_old": 22.75333744583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3880,7 +4575,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 23.354214075555554,
+      "hours_old": 28.07764947916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3912,7 +4607,7 @@
       "duration": 78,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 23.747020350277776,
+      "hours_old": 28.470490344444443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3942,7 +4637,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 24.441713805555555,
+      "hours_old": 29.16514926972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -3974,7 +4669,7 @@
       "duration": 64,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.210034528888887,
+      "hours_old": 29.933533517777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4002,347 +4697,7 @@
       "duration": 3102,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 25.34459507,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086913",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "A wreath, donated by the U.S. Department of War, is...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086913/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086913/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.54272583222222,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086910",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Defense Officials, the Ambassador to Panama and the...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086910/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086910/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725839444444,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086902",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "Gen. Dan Caine, Chairman of the Joint Chiefs of Staff,...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086902/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086902/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725845,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086898",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Navy Capt. Daniel Betancourt, senior defense...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086898/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086898/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.54272585,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086896",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Marines assigned to the U.S. Embassy of Panama walk...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086896/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086896/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725856111108,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086895",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Marines assigned to the U.S. Embassy of Panama...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086895/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086895/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725861111112,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086892",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "Multiple wreaths are displayed during a Veterans Day...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086892/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086892/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725865833333,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086890",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Marines assigned to the U.S. Embassy of Panama pose...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086890/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086890/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725870555554,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086889",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "A decorated grave is displayed in the Corozal American...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086889/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086889/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725875000002,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086887",
-      "title": "Veterans Day Wreath Laying Ceremony with CJCS Gen. Dan Caine and Ambassador to Panama",
-      "description": "U.S. Army Command Sgt. Maj Edisson Collado, the senior...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 10, 2026 22:12 UTC",
-      "timestamp": "2026-11-10T22:12:00+00:00",
-      "country": "Panama",
-      "state": "",
-      "city": "",
-      "location_display": "Panama",
-      "url": "https://www.dvidshub.net/image/10086887/veterans-day-wreath-laying-ceremony-with-cjcs-gen-dan-caine-and-ambassador-panama",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086887/122x92_q95.jpg",
-      "keywords": [
-        "USSOUTHCOM",
-        "Joint Chief of Staff",
-        "Wreath Laying",
-        "Panama",
-        "Veterans Day",
-        "JSCG-P"
-      ],
-      "credit": "PFC Carolyn Dodge",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 25.542725879722223,
+      "hours_old": 30.06800279277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4374,7 +4729,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.52322409111111,
+      "hours_old": 31.246678555555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4406,7 +4761,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 26.568501859444446,
+      "hours_old": 31.29195632638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4440,7 +4795,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 26.599103223611113,
+      "hours_old": 31.3225940225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4472,7 +4827,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.639890743055556,
+      "hours_old": 31.363345211944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4504,7 +4859,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.66127961,
+      "hours_old": 31.384734081666668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4536,7 +4891,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.713224086666663,
+      "hours_old": 31.436678552222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4568,7 +4923,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.717946282777778,
+      "hours_old": 31.441400752777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4600,7 +4955,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.752112959722222,
+      "hours_old": 31.47556743,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4632,7 +4987,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.794612954722222,
+      "hours_old": 31.518067425555557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4664,7 +5019,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.819612985000003,
+      "hours_old": 31.54306744972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4696,7 +5051,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.866001878333332,
+      "hours_old": 31.589456341944445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4721,7 +5076,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.90161466527778,
+      "hours_old": 31.625041879444446,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4746,182 +5101,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 26.902170225555558,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086701",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:23+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086701/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086701/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.90300356361111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086697",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:20+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086697/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086697/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.903836901388885,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086695",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:17+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086695/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086695/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.904670239444446,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086694",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:14+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086694/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086694/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.90550357777778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086686",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:10+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086686/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086686/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 Charlotte Duran",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.90661469361111,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086684",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:07+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086684/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086684/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 Charlotte Duran",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.907448031666664,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086683",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:50 UTC",
-      "timestamp": "2026-11-10T20:50:02+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086683/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086683/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 Charlotte Duran",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 26.908836925277775,
+      "hours_old": 31.625597440555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4948,7 +5128,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.014491708333335,
+      "hours_old": 31.737927118333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -4977,7 +5157,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.26542830638889,
+      "hours_old": 31.98888515861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5006,7 +5186,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.265428312222223,
+      "hours_old": 31.988885163055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5035,7 +5215,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.2657061025,
+      "hours_old": 31.989162945277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5064,118 +5244,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.265706108333333,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086614",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:27 UTC",
-      "timestamp": "2026-11-10T20:27:03+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086614/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086614/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 Charlotte Duran",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 27.29189243777778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086616",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:26 UTC",
-      "timestamp": "2026-11-10T20:26:59+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "Washington",
-      "location_display": "Washington, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086616/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086616/122x92_q95.jpg",
-      "keywords": [],
-      "credit": "PO2 Charlotte Duran",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 27.293003542500003,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086623",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:26 UTC",
-      "timestamp": "2026-11-10T20:26:54+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086623/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086623/122x92_q95.jpg",
-      "keywords": [
-        "Poland",
-        "Washington  dc",
-        "Pentagon",
-        "SecWar",
-        "Secwar Hegseth"
-      ],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 27.294392425277778,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "image:10086628",
-      "title": "SECWAR hosts Polish Deputy Prime Minister and Minister of Defence W\u0142adys\u0142aw Kosiniak-Kamysz",
-      "description": "Secretary of War Pete Hegseth hosts Polish Deputy Prime...",
-      "type": "image",
-      "branch": "Joint",
-      "unit_name": "Office of the Secretary of War Public Affairs",
-      "date_published": "Nov 10, 2026 20:26 UTC",
-      "timestamp": "2026-11-10T20:26:49+00:00",
-      "country": "United States",
-      "state": "District of Columbia",
-      "city": "The Pentagon",
-      "location_display": "The Pentagon, District of Columbia, United States",
-      "url": "https://www.dvidshub.net/image/10086628/secwar-hosts-polish-deputy-prime-minister-and-minister-defence-wladyslaw-kosiniak-kamysz",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10086628/122x92_q95.jpg",
-      "keywords": [
-        "Poland",
-        "Pentagon",
-        "SecWar",
-        "Secwar Hegseth"
-      ],
-      "credit": "SSgt Eugene Oliver",
-      "duration": "",
-      "aspect_ratio": "landscape",
-      "commands": [],
-      "hours_old": 27.29578130722222,
+      "hours_old": 31.989162949166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5210,7 +5279,7 @@
       "duration": 75,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 27.349594824444445,
+      "hours_old": 32.07300261638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5242,7 +5311,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.42969610638889,
+      "hours_old": 32.15317432333333,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -5271,7 +5340,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 27.60105908027778,
+      "hours_old": 32.32448631972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5301,7 +5370,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.599658563055556,
+      "hours_old": 32.32314940055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5330,7 +5399,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 27.60217018611111,
+      "hours_old": 32.32559742638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5359,7 +5428,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.60300351388889,
+      "hours_old": 32.326430756111115,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5388,7 +5457,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.603836842222222,
+      "hours_old": 32.327264085555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5417,7 +5486,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.604947947777777,
+      "hours_old": 32.32837519277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5446,7 +5515,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 27.606336830555556,
+      "hours_old": 32.32976407861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5475,7 +5544,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 27.60772571361111,
+      "hours_old": 32.33115296305555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5505,7 +5574,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 27.64282493722222,
+      "hours_old": 32.3662603925,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5530,7 +5599,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.023936405555553,
+      "hours_old": 32.747371783333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5559,7 +5628,7 @@
       "duration": 55,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 28.191817081666667,
+      "hours_old": 32.915224833888885,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5591,7 +5660,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.562714139444445,
+      "hours_old": 33.28620498138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5623,7 +5692,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 28.584103046944445,
+      "hours_old": 33.30759388027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5654,7 +5723,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.609491667500002,
+      "hours_old": 33.33292710222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5686,7 +5755,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.64271412861111,
+      "hours_old": 33.36620497277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5714,7 +5783,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.744213903333332,
+      "hours_old": 33.46764934972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5745,7 +5814,41 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.811085006944445,
+      "hours_old": 33.534563220277775,
+      "is_deployment": false,
+      "views": 0,
+      "carriers": []
+    },
+    {
+      "id": "video:1029419",
+      "title": "U.S. Army DHC Team Works with Panamanian Healthcare Professionals at Nicolas Solano Hospital",
+      "description": "U.S. Army Capt. Megan Taylor, assigned to Alpha Co., William Beaumont Army Medical Center at Fort Bliss, Texas, currently attached to the Joint Security Cooperation Group - Panama, speaks about her experience of working with Panamanian medical personnel assigned to Nicol\u00e1s Solano Hospital, La Chorrera, Panama, Oct. 6, 2026. Working alongside Panamanian medical personnel in the trauma center allows U.S. and Panamanian medical teams to share medical knowledge, exchange experiences and strengthen t...",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Southern Command",
+      "date_published": "Nov 10, 2026 18:55 UTC",
+      "timestamp": "2026-11-10T18:55:18+00:00",
+      "country": "Panama",
+      "state": "",
+      "city": "",
+      "location_display": "Panama",
+      "url": "https://www.dvidshub.net/video/1029419/us-army-dhc-team-works-with-panamanian-healthcare-professionals-nicolas-solano-hospital",
+      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2611/1029419/DOD_112139108.0000001/122x92_q95.jpg",
+      "keywords": [
+        "Trauma",
+        "U.S. SOUTHCOM",
+        "Humanitarian",
+        "Medicine",
+        "Panama",
+        "Interoperability"
+      ],
+      "credit": "PFC Carolyn Dodge",
+      "duration": 162,
+      "aspect_ratio": "16:9",
+      "commands": [
+        "SOUTHCOM"
+      ],
+      "hours_old": 33.544669542777775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5775,7 +5878,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.970492025000002,
+      "hours_old": 33.693982840833336,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5805,7 +5908,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.978102725000003,
+      "hours_old": 33.701538177500005,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5836,7 +5939,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 28.978281262499998,
+      "hours_old": 33.70170851388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5868,7 +5971,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 28.981362745000002,
+      "hours_old": 33.704840975833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5895,7 +5998,7 @@
       "duration": 44,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 29.11586787611111,
+      "hours_old": 33.83936686055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5926,7 +6029,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.16754717888889,
+      "hours_old": 33.890982629166665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5957,7 +6060,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.167725698333335,
+      "hours_old": 33.89115295111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -5989,7 +6092,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.274213866944443,
+      "hours_old": 33.99764931222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6021,7 +6124,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.35655745833333,
+      "hours_old": 34.08001192305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6053,7 +6156,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.358224120833334,
+      "hours_old": 34.08167858638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6085,7 +6188,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.35989078277778,
+      "hours_old": 34.08334524888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6117,7 +6220,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.362946333333333,
+      "hours_old": 34.08640080027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6149,7 +6252,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 29.36489077222222,
+      "hours_old": 34.088345239166664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6180,7 +6283,7 @@
       "duration": "",
       "aspect_ratio": "portrait",
       "commands": [],
-      "hours_old": 29.376557462222223,
+      "hours_old": 34.10001192611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6208,7 +6311,7 @@
       "duration": 58,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.46265051638889,
+      "hours_old": 34.18605824111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6236,7 +6339,7 @@
       "duration": 167,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 29.48487273111111,
+      "hours_old": 34.2082804575,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6268,7 +6371,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 29.910047189444445,
+      "hours_old": 34.6334826375,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6300,7 +6403,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.292269559166666,
+      "hours_old": 35.01570497666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6325,7 +6428,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 30.406713913055558,
+      "hours_old": 35.13014935722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6357,7 +6460,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 30.475150397500002,
+      "hours_old": 35.198558178333336,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6388,7 +6491,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.494947902222222,
+      "hours_old": 35.21837515916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6419,7 +6522,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.4949479075,
+      "hours_old": 35.218375163333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6450,7 +6553,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.494947911944443,
+      "hours_old": 35.21837516666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6481,7 +6584,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 30.494947915833336,
+      "hours_old": 35.21837517027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6510,7 +6613,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.467257161666666,
+      "hours_old": 36.19075606,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6539,7 +6642,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.49364583,
+      "hours_old": 36.217144776666665,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6570,7 +6673,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 31.843380642499998,
+      "hours_old": 36.56681605888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6602,7 +6705,7 @@
       "duration": 26,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 32.1681313925,
+      "hours_old": 36.891601414722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6629,7 +6732,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 32.469595184166664,
+      "hours_old": 37.19300288416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6656,7 +6759,7 @@
       "duration": 50,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 32.46959519194444,
+      "hours_old": 37.193002890555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6686,7 +6789,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.534936414722225,
+      "hours_old": 37.258427242222226,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -6711,7 +6814,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 32.76358497694444,
+      "hours_old": 37.48706320583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6738,7 +6841,7 @@
       "duration": 10,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.375150374166665,
+      "hours_old": 38.098558155,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6763,7 +6866,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.4386583275,
+      "hours_old": 38.16209376416666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6788,7 +6891,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 33.52143614444444,
+      "hours_old": 38.24487155611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6818,7 +6921,7 @@
       "duration": 198,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 33.73765038861111,
+      "hours_old": 38.46105815972223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6847,7 +6950,7 @@
       "duration": 1533,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 33.904594853611115,
+      "hours_old": 38.62800263222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6883,7 +6986,7 @@
       "duration": 178,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 34.15459487388889,
+      "hours_old": 38.878002643888884,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6908,7 +7011,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 34.20326987638889,
+      "hours_old": 38.92676063555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6942,7 +7045,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 35.84864572527778,
+      "hours_old": 40.57214470111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6970,7 +7073,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 38.24225695944445,
+      "hours_old": 42.96575590111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -6998,7 +7101,7 @@
       "duration": 199,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 38.256423634444445,
+      "hours_old": 42.979922574722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7027,7 +7130,7 @@
       "duration": 61,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.11197914416667,
+      "hours_old": 46.83547810333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7055,7 +7158,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.366423578888885,
+      "hours_old": 47.089922540277776,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7087,7 +7190,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 42.427812458888894,
+      "hours_old": 47.15131142222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7119,7 +7222,7 @@
       "duration": 3244,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 43.64063140611111,
+      "hours_old": 48.364101426666664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7150,7 +7253,7 @@
       "duration": 3213,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 45.82202037222223,
+      "hours_old": 50.54549038,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7180,7 +7283,7 @@
       "duration": 243,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.053964748055556,
+      "hours_old": 50.777434767777784,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7212,7 +7315,7 @@
       "duration": 1282,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.122256846388886,
+      "hours_old": 50.84575582027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7244,7 +7347,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 46.222534634166664,
+      "hours_old": 50.94603360583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7278,7 +7381,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 47.212853664444445,
+      "hours_old": 51.93632369666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7310,7 +7413,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.13854751416666,
+      "hours_old": 52.86203834194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7342,7 +7445,7 @@
       "duration": 96,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 48.46035385305556,
+      "hours_old": 53.183823833611115,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7374,7 +7477,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.80004735638889,
+      "hours_old": 53.523482769999994,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7399,7 +7502,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.867714398055554,
+      "hours_old": 53.591205189444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7429,7 +7532,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 48.97271428972223,
+      "hours_old": 53.696205112499996,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7460,7 +7563,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.38632533333333,
+      "hours_old": 54.109816155,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7492,7 +7595,7 @@
       "duration": 70,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 49.41479809722222,
+      "hours_old": 54.13826813194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7524,7 +7627,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.556325351666665,
+      "hours_old": 54.279816168611106,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7554,7 +7657,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 49.93830723805555,
+      "hours_old": 54.661785449722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7583,7 +7686,7 @@
       "duration": 457,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.025150699722225,
+      "hours_old": 54.748558405555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7612,7 +7715,7 @@
       "duration": 171,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.02515071055555,
+      "hours_old": 54.748558415,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7641,36 +7744,7 @@
       "duration": 223,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.02515072083334,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "video:1029282",
-      "title": "DARPA Triage Challenge Finals: Gate 1",
-      "description": "During DARPA Triage Challenge Events 1 and 2, teams fielded robots and drones in scenarios that mirrored the chaos of real-world disasters and battlefields.\r\n\r\nIn Challenge Event 3, Systems teams will face new scenarios across two lanes:\r\n\r\nLane 1 consists of four \u201cgates\u201d that systematically test critical triage functions: Locating casualties, conducting swift initial assessments, detailed trauma evaluation, and capturing vital signs. Each gate is scored separately.\r\n\r\nLane 2 is a human-machine ...",
-      "type": "video",
-      "branch": "Joint",
-      "unit_name": "DARPA",
-      "date_published": "Nov 09, 2026 21:42 UTC",
-      "timestamp": "2026-11-09T21:42:04+00:00",
-      "country": "United States",
-      "state": "Texas",
-      "city": "College Station",
-      "location_display": "College Station, Texas, United States",
-      "url": "https://www.dvidshub.net/video/1029282/darpa-triage-challenge-finals-gate-1",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/2611/1029282/DOD_112136613.0000001/122x92_q95.jpg",
-      "keywords": [
-        "triage",
-        "Defense Advanced Research Projects Agency (DARPA)",
-        "DARPA Triage Challenge"
-      ],
-      "credit": "",
-      "duration": 105,
-      "aspect_ratio": "16:9",
-      "commands": [],
-      "hours_old": 50.04181739805556,
+      "hours_old": 54.748558423055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7695,7 +7769,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 50.08854753833334,
+      "hours_old": 54.81203836333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7725,7 +7799,7 @@
       "commands": [
         "SOUTHCOM"
       ],
-      "hours_old": 50.258483819999995,
+      "hours_old": 54.981891588888885,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7754,7 +7828,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 50.29181715944445,
+      "hours_old": 55.01522492694445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7784,7 +7858,7 @@
       "duration": 24,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 50.55535374583334,
+      "hours_old": 55.278823744444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7813,7 +7887,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.12215865833333,
+      "hours_old": 55.84564948111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7842,7 +7916,7 @@
       "duration": 204,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 51.166261612777774,
+      "hours_old": 55.88966937916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7872,7 +7946,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.29754742638889,
+      "hours_old": 56.0209828275,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7904,7 +7978,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 51.73754732583333,
+      "hours_old": 56.46098274527778,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -7936,7 +8010,7 @@
       "duration": 177,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.2084838125,
+      "hours_old": 56.93189155444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7964,7 +8038,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.24215884888889,
+      "hours_old": 56.96564962777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -7991,7 +8065,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.374491794166666,
+      "hours_old": 57.09792720888889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8020,7 +8094,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.57171394944445,
+      "hours_old": 57.29514937277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8050,7 +8124,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.58910319583334,
+      "hours_old": 57.3125939575,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8079,7 +8153,7 @@
       "duration": 57,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 52.62515047,
+      "hours_old": 57.34855822722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8107,7 +8181,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.62993652138889,
+      "hours_old": 57.353427295833335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8139,7 +8213,7 @@
       "duration": 114,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 52.77449378527778,
+      "hours_old": 57.49794478611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8164,7 +8238,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 52.92615838583333,
+      "hours_old": 57.64959380916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8196,7 +8270,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.04688093722223,
+      "hours_old": 57.77037176361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8225,7 +8299,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.67910320194444,
+      "hours_old": 58.40259400861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8250,7 +8324,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.711603151666665,
+      "hours_old": 58.43509398083334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8284,7 +8358,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 54.00507595638889,
+      "hours_old": 58.728545958611114,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -8309,7 +8383,7 @@
       "duration": 451,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.108483791944444,
+      "hours_old": 58.83189158027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8334,7 +8408,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.21643626833333,
+      "hours_old": 58.93987167805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8363,7 +8437,7 @@
       "duration": 1917,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 54.458483797777774,
+      "hours_old": 59.18189158444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8395,7 +8469,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 54.80115848138889,
+      "hours_old": 59.524593888333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8429,7 +8503,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 55.21532506916666,
+      "hours_old": 59.93876049027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8454,7 +8528,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.24330725833333,
+      "hours_old": 59.96678546583333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8483,7 +8557,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.403102857777775,
+      "hours_old": 60.12653827555555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8508,7 +8582,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.6832698825,
+      "hours_old": 60.40676068222222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8533,7 +8607,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.68560292111111,
+      "hours_old": 60.40903833944444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8564,7 +8638,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 55.998825365,
+      "hours_old": 60.72231621638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8594,7 +8668,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.06143627555556,
+      "hours_old": 61.78487168416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8626,7 +8700,7 @@
       "duration": 30,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 57.213483950000004,
+      "hours_old": 61.93689167416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8651,7 +8725,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 57.73021428138889,
+      "hours_old": 62.453705085277775,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8683,7 +8757,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.12910312055556,
+      "hours_old": 63.852593939722226,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8714,7 +8788,7 @@
       "duration": 2,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 59.473368167500006,
+      "hours_old": 64.19686704,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8739,7 +8813,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 59.47632555916667,
+      "hours_old": 64.19981633055556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8770,7 +8844,7 @@
       "duration": 130,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 59.70063145305556,
+      "hours_old": 64.42410144833333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8801,7 +8875,7 @@
       "duration": 42,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 60.3868172725,
+      "hours_old": 65.11022499333333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8826,7 +8900,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 62.08615843166667,
+      "hours_old": 66.80959385194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8858,7 +8932,7 @@
       "duration": 51,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.46452031166667,
+      "hours_old": 68.18799033027777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8890,7 +8964,7 @@
       "duration": 103,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.48202042111111,
+      "hours_old": 68.20549041777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8922,7 +8996,7 @@
       "duration": 158,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.48202042916667,
+      "hours_old": 68.20549042444443,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8954,7 +9028,7 @@
       "duration": 92,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 63.93181726527778,
+      "hours_old": 68.6552250011111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -8979,7 +9053,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 67.02726961527777,
+      "hours_old": 71.7507050225,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9011,7 +9085,7 @@
       "duration": 467,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.06479815805555,
+      "hours_old": 71.78826816416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9042,7 +9116,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94570613416667,
+      "hours_old": 72.66911386694444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9073,7 +9147,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94570613972223,
+      "hours_old": 72.66911387055555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9104,7 +9178,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94570614444444,
+      "hours_old": 72.66911387444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9135,7 +9209,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94598388777779,
+      "hours_old": 72.66939162777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9166,7 +9240,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94598389416666,
+      "hours_old": 72.66939163222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9197,7 +9271,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94598392722222,
+      "hours_old": 72.66939165583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9228,7 +9302,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94626167833333,
+      "hours_old": 72.66966941416668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9259,7 +9333,7 @@
       "duration": 29,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 67.94626168361111,
+      "hours_old": 72.66966941861111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9286,7 +9360,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.94642382305555,
+      "hours_old": 72.66992272222222,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9315,7 +9389,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.95059048416667,
+      "hours_old": 72.67408937138889,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9346,7 +9420,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.95642381111111,
+      "hours_old": 72.67992269944445,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9378,7 +9452,7 @@
       "duration": 183,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 68.06570622388888,
+      "hours_old": 72.78911393722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9409,7 +9483,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 70.19865851083333,
+      "hours_old": 74.92209391638889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9436,7 +9510,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 72.27077003083333,
+      "hours_old": 76.99426080305557,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -9468,7 +9542,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 76.09921408388888,
+      "hours_old": 80.82264948638888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9497,7 +9571,7 @@
       "duration": 54,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 76.46032713666666,
+      "hours_old": 81.18377813555556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9522,7 +9596,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.46320613666667,
+      "hours_old": 84.18666296972222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9547,7 +9621,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.4643172438889,
+      "hours_old": 84.18777407805555,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9572,7 +9646,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.46542835083332,
+      "hours_old": 84.18888518611111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9597,7 +9671,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.46653947416667,
+      "hours_old": 84.18999630666666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9622,7 +9696,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.46792834611112,
+      "hours_old": 84.19138518305556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9647,7 +9721,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.46931723027778,
+      "hours_old": 84.19277406833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9672,7 +9746,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 79.47153944749999,
+      "hours_old": 84.19499628666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9703,7 +9777,7 @@
       "duration": 151,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 81.9498728588889,
+      "hours_old": 86.67328057916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9734,7 +9808,7 @@
       "duration": 157,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 81.95015064555555,
+      "hours_old": 86.67355836416668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9763,7 +9837,7 @@
       "duration": 63,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 90.90336812472222,
+      "hours_old": 95.62686706111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9795,7 +9869,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 90.93364589222222,
+      "hours_old": 95.65714483083335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9827,7 +9901,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 90.96642366111111,
+      "hours_old": 95.68992260138889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9857,7 +9931,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.01059035833333,
+      "hours_old": 95.7340892911111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9887,7 +9961,7 @@
       "duration": 70,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.07031260194445,
+      "hours_old": 95.79381152833334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9916,7 +9990,7 @@
       "duration": 69,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 91.10392370277778,
+      "hours_old": 95.82742263222221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9948,7 +10022,7 @@
       "duration": 92,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 94.57531250472222,
+      "hours_old": 99.29881144861112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -9977,7 +10051,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 95.51810300527778,
+      "hours_old": 100.24153840111111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10007,7 +10081,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.20709509666666,
+      "hours_old": 103.93050281361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10036,7 +10110,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 99.21171409916666,
+      "hours_old": 103.93514950000001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10066,7 +10140,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 104.27775169388889,
+      "hours_old": 109.00122990277778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10095,7 +10169,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 106.21754744083333,
+      "hours_old": 110.94098283916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10126,7 +10200,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 112.35226971694445,
+      "hours_old": 117.07570510000001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10153,7 +10227,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 114.7382699138889,
+      "hours_old": 119.4617607075,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10180,7 +10254,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 118.20726970777777,
+      "hours_old": 122.93070509388889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10205,7 +10279,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 119.28004745777777,
+      "hours_old": 124.00348285166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10236,7 +10310,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 119.6333682475,
+      "hours_old": 124.35686716,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10269,7 +10343,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 120.47993656583334,
+      "hours_old": 125.20342736277777,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10298,7 +10372,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 120.5235476836111,
+      "hours_old": 125.24703847916668,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10329,7 +10403,7 @@
       "duration": 341,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 122.08725712694445,
+      "hours_old": 126.8107560425,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10358,7 +10432,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 122.48810306194444,
+      "hours_old": 127.21153844194444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10385,7 +10459,7 @@
       "duration": 134,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 123.20848401527778,
+      "hours_old": 127.93189172500001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10412,7 +10486,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 123.20848402138888,
+      "hours_old": 127.93189172999999,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10439,7 +10513,7 @@
       "duration": 126,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 123.20848402694445,
+      "hours_old": 127.93189173444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10469,7 +10543,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 123.30164062666667,
+      "hours_old": 128.02511882722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10499,7 +10573,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 123.9699366613889,
+      "hours_old": 128.6934274361111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10528,36 +10602,7 @@
       "duration": 6209,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 124.11559043722222,
-      "is_deployment": false,
-      "views": 0,
-      "carriers": []
-    },
-    {
-      "id": "news:578829",
-      "title": "SOUTHCOM Commander Supports Military Youth at Doral Purple Star School Designation",
-      "description": "U.S. Marine Corps Gen. Francis L. Donovan, commander of U.S. Southern Command (SOUTHCOM), participated in a Military Child Education Coalition forum, Nov. 5, 2026, at J.C. Bermudez High School to recognize  Miami-Dade County Public Schools for their commitment in supporting the unique needs of military-connected children.",
-      "type": "news",
-      "branch": "Joint",
-      "unit_name": "U.S. Southern Command",
-      "date_published": "Nov 06, 2026 19:34 UTC",
-      "timestamp": "2026-11-06T19:34:35+00:00",
-      "country": "United States",
-      "state": "Florida",
-      "city": "",
-      "location_display": "Florida, United States",
-      "url": "https://www.dvidshub.net/news/578829/southcom-commander-supports-military-youth-doral-purple-star-school-designation",
-      "thumbnail_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10076081/122x92_q95.jpg",
-      "keywords": [
-        "southcom-francis-donovan-purple-star-military-child-education-coalition-mcec"
-      ],
-      "credit": "PO1 Omar-Kareem Powell",
-      "duration": "",
-      "aspect_ratio": "",
-      "commands": [
-        "SOUTHCOM"
-      ],
-      "hours_old": 124.16615871,
+      "hours_old": 128.8390893461111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10586,7 +10631,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 124.77254760638888,
+      "hours_old": 129.49598294194445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10617,7 +10662,7 @@
       "duration": 115,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 124.8078271575,
+      "hours_old": 129.53127815333335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10642,7 +10687,7 @@
       "duration": 394,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 124.85670156194445,
+      "hours_old": 129.5802004688889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10673,7 +10718,7 @@
       "duration": 82,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 124.86292845277777,
+      "hours_old": 129.58633616444445,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10704,7 +10749,7 @@
       "duration": 15,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 125.3078125413889,
+      "hours_old": 130.03131147722223,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -10729,7 +10774,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.58643635499999,
+      "hours_old": 130.30987174722222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10754,7 +10799,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 125.66921424527777,
+      "hours_old": 130.39264959222223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10779,7 +10824,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.24521436388889,
+      "hours_old": 130.9687051563889,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10804,7 +10849,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.38049214916666,
+      "hours_old": 131.10398294,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10835,7 +10880,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 126.6692142338889,
+      "hours_old": 131.39264962666667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10863,7 +10908,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.02032525194446,
+      "hours_old": 131.74376064305557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10895,7 +10940,7 @@
       "duration": 536,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 127.36614598472222,
+      "hours_old": 132.08964489472223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10929,7 +10974,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.52143644277777,
+      "hours_old": 132.24487183805556,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10961,7 +11006,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 127.94330726527777,
+      "hours_old": 132.66678547166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -10988,7 +11033,7 @@
       "duration": 171,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 128.3900347536111,
+      "hours_old": 133.1135336925,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11019,7 +11064,7 @@
       "duration": 109,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 128.66424261166668,
+      "hours_old": 133.38771261611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11050,7 +11095,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.7650475325,
+      "hours_old": 133.48848290805557,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11082,7 +11127,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.86910330166666,
+      "hours_old": 133.59259408388888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11119,7 +11164,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 128.9453253663889,
+      "hours_old": 133.66876071166666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11149,7 +11194,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 129.05976974694445,
+      "hours_old": 133.78320512416667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11176,7 +11221,7 @@
       "duration": 62,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 129.6233681913889,
+      "hours_old": 134.3468671047222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11208,7 +11253,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 130.09604772138889,
+      "hours_old": 134.81953850888888,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11236,7 +11281,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.13449198694443,
+      "hours_old": 135.85792736027778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11266,7 +11311,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.1552144247222,
+      "hours_old": 135.87870520527778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11296,7 +11341,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.42493660027776,
+      "hours_old": 136.14842738972223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11328,7 +11373,7 @@
       "duration": 99,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 134.424493815,
+      "hours_old": 139.14794481222222,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11359,7 +11404,7 @@
       "duration": 60,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 137.7925348636111,
+      "hours_old": 142.51603377583334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11390,7 +11435,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 142.39993668694444,
+      "hours_old": 147.12342745499998,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11422,7 +11467,7 @@
       "duration": 3772,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 142.7139649086111,
+      "hours_old": 147.43743490611112,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11454,7 +11499,7 @@
       "duration": 760,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 143.11702048444445,
+      "hours_old": 147.8404904711111,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11482,7 +11527,7 @@
       "duration": 37,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 144.12396488944444,
+      "hours_old": 148.84743488333334,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11514,7 +11559,7 @@
       "duration": 133,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 145.69396488083333,
+      "hours_old": 150.41743487444444,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11546,7 +11591,7 @@
       "duration": 3566,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 145.73813161333334,
+      "hours_old": 150.46160159638887,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11578,7 +11623,7 @@
       "duration": 29,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 146.0909093827778,
+      "hours_old": 150.81437936722224,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11610,7 +11655,7 @@
       "duration": 244,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 146.2122982538889,
+      "hours_old": 150.93576823305554,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11639,7 +11684,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 146.36636284083335,
+      "hours_old": 151.0898410433333,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11670,7 +11715,7 @@
       "duration": 331,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 146.64924273194444,
+      "hours_old": 151.37271271416665,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11697,7 +11742,7 @@
       "duration": 9,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 146.85697929111112,
+      "hours_old": 151.58047821166667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11722,7 +11767,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 147.62938120583334,
+      "hours_old": 152.35287196666664,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11747,7 +11792,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 147.97854785805555,
+      "hours_old": 152.70203861583335,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11778,7 +11823,7 @@
       "duration": 81,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 147.996464895,
+      "hours_old": 152.71993488777778,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11807,7 +11852,7 @@
       "duration": 78,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 147.99702045777778,
+      "hours_old": 152.7204904497222,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11837,7 +11882,7 @@
       "duration": 45,
       "aspect_ratio": "4:3",
       "commands": [],
-      "hours_old": 148.44336818500003,
+      "hours_old": 153.16686709527778,
       "is_deployment": true,
       "views": 0,
       "carriers": []
@@ -11868,7 +11913,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 148.93521450444445,
+      "hours_old": 153.65870527250001,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11896,7 +11941,7 @@
       "duration": 14,
       "aspect_ratio": "16:9",
       "commands": [],
-      "hours_old": 149.42225710888889,
+      "hours_old": 154.14575601722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11928,7 +11973,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 149.4249739427778,
+      "hours_old": 154.14845214722223,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11960,7 +12005,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 151.46577004944444,
+      "hours_old": 156.18926081916666,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -11992,7 +12037,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 151.59438119694445,
+      "hours_old": 156.31787195916667,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -12019,7 +12064,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 152.26660340527778,
+      "hours_old": 156.990094175,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -12051,7 +12096,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 155.07715892805555,
+      "hours_old": 159.80064969972221,
       "is_deployment": false,
       "views": 0,
       "carriers": []
@@ -12080,7 +12125,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 27.833297344444443,
+      "hours_old": 32.55655317638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12109,7 +12154,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.14607513388889,
+      "hours_old": 35.869330965277776,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12138,7 +12183,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.155519585,
+      "hours_old": 35.87877541555555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12167,7 +12212,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.160519590833335,
+      "hours_old": 35.88377541972223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12196,7 +12241,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.164964040555557,
+      "hours_old": 35.88821986805556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12225,7 +12270,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.171630711666666,
+      "hours_old": 35.89488653777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12254,7 +12299,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.190797382777777,
+      "hours_old": 35.914053208055556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12283,7 +12328,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.19663072111111,
+      "hours_old": 35.919886545,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12312,7 +12357,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.206075170277778,
+      "hours_old": 35.929330992222226,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12341,7 +12386,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.210797397222223,
+      "hours_old": 35.93405321805555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12370,7 +12415,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.231075179444442,
+      "hours_old": 35.95433099916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12399,7 +12444,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.27913073972222,
+      "hours_old": 36.00238655888889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12428,7 +12473,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.28357518861111,
+      "hours_old": 36.0068310075,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12457,7 +12502,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.28913074861111,
+      "hours_old": 36.01238656638889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12486,7 +12531,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.292464086111114,
+      "hours_old": 36.01571990361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12515,7 +12560,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.297464090555554,
+      "hours_old": 36.02071990722222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12544,7 +12589,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.31301965027778,
+      "hours_old": 36.036275465833334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12573,7 +12618,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.31690854388889,
+      "hours_old": 36.04016435861111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12602,7 +12647,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.323019659722224,
+      "hours_old": 36.04627547361111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12631,7 +12676,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.327186330277776,
+      "hours_old": 36.050442143333335,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12660,7 +12705,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.331075223611112,
+      "hours_old": 36.054331035833336,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12689,7 +12734,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.35913078361111,
+      "hours_old": 36.08238659472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12718,7 +12763,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.36357523277778,
+      "hours_old": 36.086831042777774,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12747,7 +12792,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.369130792500002,
+      "hours_old": 36.09238660111111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12778,7 +12823,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.473418530555556,
+      "hours_old": 36.196667259722226,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -12809,7 +12854,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 31.4998074325,
+      "hours_old": 36.22305616083334,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -12841,7 +12886,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.08168537333333,
+      "hours_old": 40.80504504694444,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12873,7 +12918,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.0816853875,
+      "hours_old": 40.805045058888886,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12905,7 +12950,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.08168539472222,
+      "hours_old": 40.80504506472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12937,7 +12982,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.08168540083334,
+      "hours_old": 40.80504506916666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12969,7 +13014,7 @@
       "commands": [
         "INDOPACOM"
       ],
-      "hours_old": 36.081685406388885,
+      "hours_old": 40.80504507277778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -12996,7 +13041,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 53.71464374194445,
+      "hours_old": 58.43806784611111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13030,7 +13075,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.3622635725,
+      "hours_old": 59.08568334527778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13064,7 +13109,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.36226358583334,
+      "hours_old": 59.0856833625,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13098,7 +13143,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.36254137722222,
+      "hours_old": 59.08596114583334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13132,7 +13177,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.36254138444444,
+      "hours_old": 59.085961150277775,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13166,7 +13211,7 @@
       "duration": "",
       "aspect_ratio": "landscape",
       "commands": [],
-      "hours_old": 54.362541390833336,
+      "hours_old": 59.085961155,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13201,7 +13246,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 57.54462761694444,
+      "hours_old": 62.267956643611114,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13236,7 +13281,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 57.583794295833336,
+      "hours_old": 62.307123321388886,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13265,7 +13310,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.95113967305555,
+      "hours_old": 72.67446141972222,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13296,7 +13341,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.9553063525,
+      "hours_old": 72.67862810083334,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13329,7 +13374,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 67.96113969416666,
+      "hours_old": 72.68446144083333,
       "is_deployment": true,
       "views": 0,
       "carriers": [
@@ -13365,7 +13410,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44518319194444,
+      "hours_old": 73.16851221583335,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13401,7 +13446,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44546097611111,
+      "hours_old": 73.16878999833332,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13436,7 +13481,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44573875972223,
+      "hours_old": 73.16906778055555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13471,7 +13516,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44573876777778,
+      "hours_old": 73.1690677875,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13506,7 +13551,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44573877444445,
+      "hours_old": 73.1690677925,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13541,7 +13586,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.44601655888889,
+      "hours_old": 73.169345575,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13577,7 +13622,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57434989888888,
+      "hours_old": 73.29767891305555,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13613,7 +13658,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57434990472223,
+      "hours_old": 73.29767891777777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13649,7 +13694,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57434990972223,
+      "hours_old": 73.29767892138888,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13685,7 +13730,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57462769277778,
+      "hours_old": 73.2979567036111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13721,7 +13766,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57462769777777,
+      "hours_old": 73.29795670777777,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13757,7 +13802,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57490548055556,
+      "hours_old": 73.29823448972222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13793,7 +13838,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57490548555556,
+      "hours_old": 73.2982344936111,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13829,7 +13874,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57490549055555,
+      "hours_old": 73.2982344975,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13865,7 +13910,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.57518327305556,
+      "hours_old": 73.29851227916667,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13894,7 +13939,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.98607524138889,
+      "hours_old": 73.70933104916666,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13923,7 +13968,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.98635302388888,
+      "hours_old": 73.70960883083333,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13952,7 +13997,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.98635302777778,
+      "hours_old": 73.7096088338889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -13981,7 +14026,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.98635303388889,
+      "hours_old": 73.70960883777778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14010,7 +14055,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 68.98663082277777,
+      "hours_old": 73.70988661888889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14039,7 +14084,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 69.12940860805556,
+      "hours_old": 73.85266439972223,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14068,7 +14113,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 69.12940861638889,
+      "hours_old": 73.8526644063889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14097,7 +14142,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 69.12940862138889,
+      "hours_old": 73.85266441027778,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14126,7 +14171,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 69.12940862583334,
+      "hours_old": 73.85266441388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14155,7 +14200,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 69.12968640805555,
+      "hours_old": 73.85294219472222,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14184,7 +14229,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 82.54774196805555,
+      "hours_old": 87.27099775388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14213,7 +14258,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 82.5535753063889,
+      "hours_old": 87.27683109138889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14242,7 +14287,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 82.63718642166667,
+      "hours_old": 87.36044220583334,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14271,7 +14316,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 82.70663087027778,
+      "hours_old": 87.42988665388889,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14300,7 +14345,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 83.22663087444445,
+      "hours_old": 87.94988665805556,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14332,7 +14377,7 @@
       "duration": "",
       "aspect_ratio": "",
       "commands": [],
-      "hours_old": 131.431595585,
+      "hours_old": 136.15484099611112,
       "is_deployment": false,
       "views": 0,
       "carriers": [
@@ -14367,7 +14412,7 @@
       "commands": [
         "CENTCOM"
       ],
-      "hours_old": 155.06907216666667,
+      "hours_old": 159.79240117166665,
       "is_deployment": false,
       "views": 0,
       "carriers": [
