@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-12T22:29:16.485950+00:00",
+  "generated": "2026-11-13T12:51:44.127602+00:00",
   "news_count": 0,
-  "dvids_count": 23,
+  "dvids_count": 40,
   "news": [],
   "dvids": [
     {
-      "id": "news:578926",
-      "title": "Deployed Resiliency Counseling While at Sea",
-      "desc": "U.S. Navy deployments routinely test Sailors with physical and mental demands that come with shipboard life. Sailors have many resources available to them to include the Deployment Resiliency Counselor (DRC), to help them cope with underway challenges and stress.",
-      "type": "news",
+      "id": "image:10091066",
+      "title": "Sea and Anchor aboard USS Gonzalez (DDG 66) Nov. 12, 2026",
+      "desc": "A U.S. Sailor stands watch inside the pilot house during...",
+      "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-12T22:06:08+00:00",
-      "url": "https://www.dvidshub.net/news/578926/deployed-resiliency-counseling-while-sea",
+      "timestamp": "2026-11-13T12:49:42+00:00",
+      "url": "https://www.dvidshub.net/image/10091066/sea-and-anchor-aboard-uss-gonzalez-ddg-66-nov-12-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,44 @@
       "location_display": ""
     },
     {
-      "id": "news:579226",
-      "title": "USS Michael Murphy Returns to Pearl Harbor Following an 11-Month Combat Deployment",
-      "desc": "PEARL HARBOR, Hawaii — Arleigh Burke-class guided-missile destroyer USS Michael Murphy (DDG 112), with embarked Helicopter Maritime Strike Squadron (HSM) 71 Detachment 2, returned to its homeport of Joint Base Pearl Harbor-Hickam, Hawaii following an 11-month deployment to the U.S. 3rd, 7th, and 5th",
-      "type": "news",
+      "id": "video:1029694",
+      "title": "USS Mount Whitney Holds Key Leader Engagement in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount Whitney (LCC 20) conducts a Key Leader Engagment on the main deck in Piraeus, Greece, November 12, 2026. Mount Whitney is on a scheduled deployment in the U.S. 6th Fleet area of operations to support the warfighting effectiveness, lethality and",
+      "type": "video",
       "branch": "Navy",
-      "unit_name": "Commander, U.S. 3rd Fleet",
-      "timestamp": "2026-11-12T20:39:18+00:00",
-      "url": "https://www.dvidshub.net/news/579226/uss-michael-murphy-returns-pearl-harbor-following-11-month-combat-deployment",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-13T12:38:20+00:00",
+      "url": "https://www.dvidshub.net/video/1029694/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1029693",
+      "title": "USS Mount Whitney Arrives in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount Whitney (LCC 20) arrives in Piraeus, Greece, November 12, 2026. Mount Whitney is on a scheduled deployment in the U.S. 6th Fleet area of operations to support the warfighting effectiveness, lethality and readiness of U.S. Naval Forces Europe-Af",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-13T12:38:11+00:00",
+      "url": "https://www.dvidshub.net/video/1029693/uss-mount-whitney-arrives-piraeus-greece",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1029652",
+      "title": "Michael Murphy Return to Joint Base Pearl Harbor-Hickham",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Michael Murphy (DDG 112) returns home to Joint Base Pearl Harbor-Hickam, Hawaii, following an 11-month deployment to the U.S. 3rd, 7th, and 5th Fleet areas of operations, Nov. 12, 2026. An integral part of the U.S. Pacific Fleet, U.S. 3rd Fleet leads ",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "USS MICHAEL MURPHY",
+      "timestamp": "2026-11-13T01:18:04+00:00",
+      "url": "https://www.dvidshub.net/video/1029652/michael-murphy-return-joint-base-pearl-harbor-hickham",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,44 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10091047",
-      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
-      "desc": "The Blue Ridge-class command and control ship USS Mount...",
+      "id": "image:10091514",
+      "title": "USS Michael Murphy Returns to Pearl Harbor after an 11-Month Deployment",
+      "desc": "U.S. Navy Cmdr. Michael Maxwell, executive officer of...",
       "type": "image",
       "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-11-12T20:23:34+00:00",
-      "url": "https://www.dvidshub.net/image/10091047/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10091044",
-      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
-      "desc": "The Blue Ridge-class command and control ship USS Mount...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-11-12T20:23:29+00:00",
-      "url": "https://www.dvidshub.net/image/10091044/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10091042",
-      "title": "USS Mount Whitney Holds a Key Leader Engagement in Piraeus, Greece",
-      "desc": "The Blue Ridge-class command and control ship USS Mount...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-11-12T20:23:24+00:00",
-      "url": "https://www.dvidshub.net/image/10091042/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
+      "unit_name": "USS MICHAEL MURPHY",
+      "timestamp": "2026-11-13T00:25:59+00:00",
+      "url": "https://www.dvidshub.net/image/10091514/uss-michael-murphy-returns-pearl-harbor-after-11-month-deployment",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
