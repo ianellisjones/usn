@@ -1,9 +1,39 @@
 {
-  "generated": "2026-11-13T12:51:44.127602+00:00",
+  "generated": "2026-11-13T18:27:48.845114+00:00",
   "news_count": 0,
-  "dvids_count": 40,
+  "dvids_count": 34,
   "news": [],
   "dvids": [
+    {
+      "id": "news:579289",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Israeli Navy Leadership",
+      "desc": "HAIFA, Israel (Nov. 13, 2026) - U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with Israeli Navy key leaders during a trip to Haifa, Israel, Nov. 11.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-13T16:41:44+00:00",
+      "url": "https://www.dvidshub.net/news/579289/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-israeli",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "news:579243",
+      "title": "George Washington Dental Team Boosts Readiness in U.S. 5th Fleet",
+      "desc": "ARABIAN SEA (Nov. 13, 2026) — A dental tiger team from the Nimitz-class aircraft carrier USS George Washington (CVN 73) embarked on six destroyers during its deployment, providing dental care to more than 600 Sailors – most recently the Arleigh Burke-class guided-missile destroyer USS Shoup (DDG 86)",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-13T13:01:34+00:00",
+      "url": "https://www.dvidshub.net/news/579243/george-washington-dental-team-boosts-readiness-us-5th-fleet",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10091066",
       "title": "Sea and Anchor aboard USS Gonzalez (DDG 66) Nov. 12, 2026",
@@ -46,36 +76,6 @@
       "thumbnail_url": "",
       "commands": [
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1029652",
-      "title": "Michael Murphy Return to Joint Base Pearl Harbor-Hickham",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS Michael Murphy (DDG 112) returns home to Joint Base Pearl Harbor-Hickam, Hawaii, following an 11-month deployment to the U.S. 3rd, 7th, and 5th Fleet areas of operations, Nov. 12, 2026. An integral part of the U.S. Pacific Fleet, U.S. 3rd Fleet leads ",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "USS MICHAEL MURPHY",
-      "timestamp": "2026-11-13T01:18:04+00:00",
-      "url": "https://www.dvidshub.net/video/1029652/michael-murphy-return-joint-base-pearl-harbor-hickham",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10091514",
-      "title": "USS Michael Murphy Returns to Pearl Harbor after an 11-Month Deployment",
-      "desc": "U.S. Navy Cmdr. Michael Maxwell, executive officer of...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS MICHAEL MURPHY",
-      "timestamp": "2026-11-13T00:25:59+00:00",
-      "url": "https://www.dvidshub.net/image/10091514/uss-michael-murphy-returns-pearl-harbor-after-11-month-deployment",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     }
