@@ -1,33 +1,18 @@
 {
-  "generated": "2026-11-14T16:56:13.276571+00:00",
+  "generated": "2026-11-14T21:00:05.210866+00:00",
   "news_count": 0,
-  "dvids_count": 26,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "image:10094178",
-      "title": "USS Spruance Returns to Naval Base San Diego",
-      "desc": "A U.S. Navy Sailor and his family speak to the media...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:47:01+00:00",
-      "url": "https://www.dvidshub.net/image/10094178/uss-spruance-returns-naval-base-san-diego",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10094100",
+      "id": "image:10093498",
       "title": "USS Spruance Returns to San Diego",
       "desc": "Arleigh Burke-class guided-missile destroyer USS...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:17:03+00:00",
-      "url": "https://www.dvidshub.net/image/10094100/uss-spruance-returns-san-diego",
+      "timestamp": "2026-11-13T19:04:30+00:00",
+      "url": "https://www.dvidshub.net/image/10093498/uss-spruance-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
@@ -35,47 +20,62 @@
       "location_display": ""
     },
     {
-      "id": "image:10094109",
-      "title": "USS Spruance Returns to San Diego",
-      "desc": "U.S. Navy Gas Turbine Systems Technician Electrical 2nd...",
-      "type": "image",
+      "id": "news:579238",
+      "title": "USS Spruance returns to San Diego following historic 12-month combat deployment",
+      "desc": "SAN DIEGO — Arleigh Burke-class guided-missile destroyer USS Spruance (DDG 111), with embarked Helicopter Maritime Strike Squadron (HSM) 71 Detachment, returned to its home port of Naval Base San Diego, concluding a 12-month deployment to the U.S. 3rd, 7th, and 5th Fleet areas of operations, Nov. 13",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:15:25+00:00",
-      "url": "https://www.dvidshub.net/image/10094109/uss-spruance-returns-san-diego",
+      "unit_name": "Commander, U.S. 3rd Fleet",
+      "timestamp": "2026-11-13T18:41:25+00:00",
+      "url": "https://www.dvidshub.net/news/579238/uss-spruance-returns-san-diego-following-historic-12-month-combat-deployment",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10094108",
-      "title": "USS Spruance (DDG 111) Returns to Homeport",
-      "desc": "A Sailor assigned to Arleigh Burke-class guided-missile...",
-      "type": "image",
+      "id": "news:579289",
+      "title": "Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Israeli Navy Leadership",
+      "desc": "HAIFA, Israel (Nov. 13, 2026) - U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with Israeli Navy key leaders during a trip to Haifa, Israel, Nov. 11.",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:15:24+00:00",
-      "url": "https://www.dvidshub.net/image/10094108/uss-spruance-ddg-111-returns-homeport",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-13T16:41:44+00:00",
+      "url": "https://www.dvidshub.net/news/579289/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-israeli",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
       ],
       "location_display": ""
     },
     {
-      "id": "image:10094107",
-      "title": "USS Spruance Returns to San Diego",
-      "desc": "U.S. Navy Gas Turbine Systems Technician Electrical 2nd...",
-      "type": "image",
+      "id": "news:579243",
+      "title": "George Washington Dental Team Boosts Readiness in U.S. 5th Fleet",
+      "desc": "ARABIAN SEA (Nov. 13, 2026) — A dental tiger team from the Nimitz-class aircraft carrier USS George Washington (CVN 73) embarked on six destroyers during its deployment, providing dental care to more than 600 Sailors – most recently the Arleigh Burke-class guided-missile destroyer USS Shoup (DDG 86)",
+      "type": "news",
       "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:15:24+00:00",
-      "url": "https://www.dvidshub.net/image/10094107/uss-spruance-returns-san-diego",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-13T13:01:34+00:00",
+      "url": "https://www.dvidshub.net/news/579243/george-washington-dental-team-boosts-readiness-us-5th-fleet",
       "thumbnail_url": "",
       "commands": [
-        "JOINT"
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1029694",
+      "title": "USS Mount Whitney Holds Key Leader Engagement in Piraeus, Greece",
+      "desc": "The Blue Ridge-class command and control ship USS Mount Whitney (LCC 20) conducts a Key Leader Engagment on the main deck in Piraeus, Greece, November 12, 2026. Mount Whitney is on a scheduled deployment in the U.S. 6th Fleet area of operations to support the warfighting effectiveness, lethality and",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "USS Mount Whitney (LCC 20)",
+      "timestamp": "2026-11-13T12:38:20+00:00",
+      "url": "https://www.dvidshub.net/video/1029694/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
       ],
       "location_display": ""
     }
