@@ -1,9 +1,39 @@
 {
-  "generated": "2026-11-13T22:17:26.341229+00:00",
+  "generated": "2026-11-14T11:56:01.694008+00:00",
   "news_count": 0,
-  "dvids_count": 27,
+  "dvids_count": 26,
   "news": [],
   "dvids": [
+    {
+      "id": "image:10094178",
+      "title": "USS Spruance Returns to Naval Base San Diego",
+      "desc": "A U.S. Navy Sailor and his family speak to the media...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Spruance (DDG 111)",
+      "timestamp": "2026-11-13T22:47:01+00:00",
+      "url": "https://www.dvidshub.net/image/10094178/uss-spruance-returns-naval-base-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10094100",
+      "title": "USS Spruance Returns to San Diego",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS Spruance (DDG 111)",
+      "timestamp": "2026-11-13T22:17:03+00:00",
+      "url": "https://www.dvidshub.net/image/10094100/uss-spruance-returns-san-diego",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "image:10094109",
       "title": "USS Spruance Returns to San Diego",
@@ -43,36 +73,6 @@
       "unit_name": "USS Spruance (DDG 111)",
       "timestamp": "2026-11-13T22:15:24+00:00",
       "url": "https://www.dvidshub.net/image/10094107/uss-spruance-returns-san-diego",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10094106",
-      "title": "USS Spruance Returns to San Diego",
-      "desc": "U.S. Navy Gas Turbine Systems Technician Electrical 2nd...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:15:23+00:00",
-      "url": "https://www.dvidshub.net/image/10094106/uss-spruance-returns-san-diego",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10094105",
-      "title": "USS Spruance Returns to San Diego",
-      "desc": "U.S. Navy Information Systems Technician 2nd Class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T22:15:23+00:00",
-      "url": "https://www.dvidshub.net/image/10094105/uss-spruance-returns-san-diego",
       "thumbnail_url": "",
       "commands": [
         "JOINT"
