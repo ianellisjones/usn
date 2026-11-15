@@ -1,24 +1,9 @@
 {
-  "generated": "2026-11-14T21:00:05.210866+00:00",
+  "generated": "2026-11-15T12:30:22.675932+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
-    {
-      "id": "image:10093498",
-      "title": "USS Spruance Returns to San Diego",
-      "desc": "Arleigh Burke-class guided-missile destroyer USS...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS Spruance (DDG 111)",
-      "timestamp": "2026-11-13T19:04:30+00:00",
-      "url": "https://www.dvidshub.net/image/10093498/uss-spruance-returns-san-diego",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
     {
       "id": "news:579238",
       "title": "USS Spruance returns to San Diego following historic 12-month combat deployment",
@@ -61,21 +46,6 @@
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "video:1029694",
-      "title": "USS Mount Whitney Holds Key Leader Engagement in Piraeus, Greece",
-      "desc": "The Blue Ridge-class command and control ship USS Mount Whitney (LCC 20) conducts a Key Leader Engagment on the main deck in Piraeus, Greece, November 12, 2026. Mount Whitney is on a scheduled deployment in the U.S. 6th Fleet area of operations to support the warfighting effectiveness, lethality and",
-      "type": "video",
-      "branch": "Navy",
-      "unit_name": "USS Mount Whitney (LCC 20)",
-      "timestamp": "2026-11-13T12:38:20+00:00",
-      "url": "https://www.dvidshub.net/video/1029694/uss-mount-whitney-holds-key-leader-engagement-piraeus-greece",
-      "thumbnail_url": "",
-      "commands": [
-        "EUCOM"
       ],
       "location_display": ""
     }
