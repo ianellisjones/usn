@@ -1,7 +1,83 @@
 {
-  "generated": "2026-11-16T13:21:24.153815+00:00",
+  "generated": "2026-11-16T20:53:33.438936+00:00",
   "news_count": 0,
-  "dvids_count": 0,
+  "dvids_count": 10,
   "news": [],
-  "dvids": []
+  "dvids": [
+    {
+      "id": "image:10098633",
+      "title": "USS Oscar Austin conducts small boat operations",
+      "desc": "Sailors assigned to Arleigh Burke-class guided-missile...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-11-16T20:12:44+00:00",
+      "url": "https://www.dvidshub.net/image/10098633/uss-oscar-austin-conducts-small-boat-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10098559",
+      "title": "USS Oscar Austin conducts pinning ceremony",
+      "desc": "Chief Machinist Mate Regievictor Villanueva, left, pins...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-11-16T19:56:12+00:00",
+      "url": "https://www.dvidshub.net/image/10098559/uss-oscar-austin-conducts-pinning-ceremony",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10098398",
+      "title": "USS Oscar Austin conducts FWWD",
+      "desc": "Sailors conduct a freshwater washdown aboard Arleigh...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
+      "timestamp": "2026-11-16T19:28:54+00:00",
+      "url": "https://www.dvidshub.net/image/10098398/uss-oscar-austin-conducts-fwwd",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10097882",
+      "title": "USS Theodore Roosevelt Enters U.S. 5th Fleet Area of Operations",
+      "desc": "An MH-60S Sea Hawk assigned to Helicopter Sea Combat...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-16T18:49:45+00:00",
+      "url": "https://www.dvidshub.net/image/10097882/uss-theodore-roosevelt-enters-us-5th-fleet-area-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10097868",
+      "title": "USS Theodore Roosevelt Enters U.S. 5th Fleet Area of Operations",
+      "desc": "A U.S. Sailor assigned to Strike Fighter Squadron (VFA)...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-16T18:49:19+00:00",
+      "url": "https://www.dvidshub.net/image/10097868/uss-theodore-roosevelt-enters-us-5th-fleet-area-operations",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    }
+  ]
 }
