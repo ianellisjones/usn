@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-17T14:06:19.750301+00:00",
+  "generated": "2026-11-17T19:43:35.824153+00:00",
   "news_count": 0,
-  "dvids_count": 22,
+  "dvids_count": 18,
   "news": [],
   "dvids": [
     {
@@ -13,21 +13,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-17T12:22:16+00:00",
       "url": "https://www.dvidshub.net/video/1030017/john-finn-prepares-lunch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10099637",
-      "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor carves a turkey while preparing lunch in...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:52:13+00:00",
-      "url": "https://www.dvidshub.net/image/10099637/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -73,6 +58,21 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-17T11:51:35+00:00",
       "url": "https://www.dvidshub.net/image/10099644/john-finn-prepares-lunch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10099645",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor moves mashed potatoes into a serving...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-17T11:51:23+00:00",
+      "url": "https://www.dvidshub.net/image/10099645/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
