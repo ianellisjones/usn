@@ -1,63 +1,18 @@
 {
-  "generated": "2026-11-17T00:33:43.373001+00:00",
+  "generated": "2026-11-17T14:06:19.750301+00:00",
   "news_count": 0,
-  "dvids_count": 10,
+  "dvids_count": 22,
   "news": [],
   "dvids": [
     {
-      "id": "image:10098633",
-      "title": "USS Oscar Austin conducts small boat operations",
-      "desc": "Sailors assigned to Arleigh Burke-class guided-missile...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
-      "timestamp": "2026-11-16T20:12:44+00:00",
-      "url": "https://www.dvidshub.net/image/10098633/uss-oscar-austin-conducts-small-boat-operations",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10098559",
-      "title": "USS Oscar Austin conducts pinning ceremony",
-      "desc": "Chief Machinist Mate Regievictor Villanueva, left, pins...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
-      "timestamp": "2026-11-16T19:56:12+00:00",
-      "url": "https://www.dvidshub.net/image/10098559/uss-oscar-austin-conducts-pinning-ceremony",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10098398",
-      "title": "USS Oscar Austin conducts FWWD",
-      "desc": "Sailors conduct a freshwater washdown aboard Arleigh...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS OSCAR AUSTIN (DDG 79)",
-      "timestamp": "2026-11-16T19:28:54+00:00",
-      "url": "https://www.dvidshub.net/image/10098398/uss-oscar-austin-conducts-fwwd",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10097882",
-      "title": "USS Theodore Roosevelt Enters U.S. 5th Fleet Area of Operations",
-      "desc": "An MH-60S Sea Hawk assigned to Helicopter Sea Combat...",
-      "type": "image",
+      "id": "video:1030017",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor carves a turkey while preparing lunch in the galley aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Nov. 16, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-16T18:49:45+00:00",
-      "url": "https://www.dvidshub.net/image/10097882/uss-theodore-roosevelt-enters-us-5th-fleet-area-operations",
+      "timestamp": "2026-11-17T12:22:16+00:00",
+      "url": "https://www.dvidshub.net/video/1030017/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +20,59 @@
       "location_display": ""
     },
     {
-      "id": "image:10097868",
-      "title": "USS Theodore Roosevelt Enters U.S. 5th Fleet Area of Operations",
-      "desc": "A U.S. Sailor assigned to Strike Fighter Squadron (VFA)...",
+      "id": "image:10099637",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor carves a turkey while preparing lunch in...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-16T18:49:19+00:00",
-      "url": "https://www.dvidshub.net/image/10097868/uss-theodore-roosevelt-enters-us-5th-fleet-area-operations",
+      "timestamp": "2026-11-17T11:52:13+00:00",
+      "url": "https://www.dvidshub.net/image/10099637/john-finn-prepares-lunch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10099640",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-17T11:52:03+00:00",
+      "url": "https://www.dvidshub.net/image/10099640/john-finn-prepares-lunch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10099642",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-17T11:51:51+00:00",
+      "url": "https://www.dvidshub.net/image/10099642/john-finn-prepares-lunch",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10099644",
+      "title": "John Finn Prepares Lunch",
+      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-17T11:51:35+00:00",
+      "url": "https://www.dvidshub.net/image/10099644/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
