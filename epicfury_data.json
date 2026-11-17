@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-17T19:43:35.824153+00:00",
+  "generated": "2026-11-17T23:41:21.941282+00:00",
   "news_count": 0,
-  "dvids_count": 18,
+  "dvids_count": 12,
   "news": [],
   "dvids": [
     {
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10099640",
+      "id": "image:10099631",
       "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "desc": "A U.S. Sailor carves a turkey while preparing lunch in...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:52:03+00:00",
-      "url": "https://www.dvidshub.net/image/10099640/john-finn-prepares-lunch",
+      "timestamp": "2026-11-17T11:37:43+00:00",
+      "url": "https://www.dvidshub.net/image/10099631/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10099642",
+      "id": "image:10099632",
       "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "desc": "A U.S. Sailor writes down the daily menu while preparing...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:51:51+00:00",
-      "url": "https://www.dvidshub.net/image/10099642/john-finn-prepares-lunch",
+      "timestamp": "2026-11-17T11:37:29+00:00",
+      "url": "https://www.dvidshub.net/image/10099632/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10099644",
+      "id": "image:10099636",
       "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor grills fish while preparing lunch in the...",
+      "desc": "A U.S. Sailor sorts through spice containers while...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:51:35+00:00",
-      "url": "https://www.dvidshub.net/image/10099644/john-finn-prepares-lunch",
+      "timestamp": "2026-11-17T11:37:16+00:00",
+      "url": "https://www.dvidshub.net/image/10099636/john-finn-prepares-lunch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10099645",
-      "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor moves mashed potatoes into a serving...",
+      "id": "image:10099284",
+      "title": "Daily Routine Flight Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "An F/A-18F Super Hornet, attached to Strike Fighter...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:51:23+00:00",
-      "url": "https://www.dvidshub.net/image/10099645/john-finn-prepares-lunch",
+      "timestamp": "2026-11-17T11:34:06+00:00",
+      "url": "https://www.dvidshub.net/image/10099284/daily-routine-flight-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
