@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T13:39:44.691385+00:00",
+  "generated": "2026-11-18T19:19:51.082057+00:00",
   "news_count": 0,
-  "dvids_count": 5,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
     {
@@ -17,36 +17,6 @@
       "commands": [
         "CENTCOM",
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10102578",
-      "title": "USS Delbert D. Black Arrives in Mombasa, Kenya",
-      "desc": "U.S. Navy Sailors handle line aboard Arleigh Burke-class...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS DELBERT D BLACK (DDG 119)",
-      "timestamp": "2026-11-18T09:03:32+00:00",
-      "url": "https://www.dvidshub.net/image/10102578/uss-delbert-d-black-arrives-mombasa-kenya",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10102577",
-      "title": "USS Delbert D. Black Arrives in Mombasa, Kenya",
-      "desc": "U.S. Navy Gunner’s Mate 3rd Class Williams Hughes,...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "USS DELBERT D BLACK (DDG 119)",
-      "timestamp": "2026-11-18T09:03:32+00:00",
-      "url": "https://www.dvidshub.net/image/10102577/uss-delbert-d-black-arrives-mombasa-kenya",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     },
