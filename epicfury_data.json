@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T19:19:51.082057+00:00",
+  "generated": "2026-11-18T23:12:38.617713+00:00",
   "news_count": 0,
-  "dvids_count": 3,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
     {
@@ -17,21 +17,6 @@
       "commands": [
         "CENTCOM",
         "EUCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10100379",
-      "title": "USS Tulsa pulls into Singapore",
-      "desc": "U.S. Navy Mineman Seaman Apprentice Nicholas Colvin...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "Commander, Destroyer Squadron 7",
-      "timestamp": "2026-11-18T07:12:36+00:00",
-      "url": "https://www.dvidshub.net/image/10100379/uss-tulsa-pulls-into-singapore",
-      "thumbnail_url": "",
-      "commands": [
-        "JOINT"
       ],
       "location_display": ""
     },
