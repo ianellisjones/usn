@@ -1,9 +1,70 @@
 {
-  "generated": "2026-11-17T23:41:21.941282+00:00",
+  "generated": "2026-11-18T13:39:44.691385+00:00",
   "news_count": 0,
-  "dvids_count": 12,
+  "dvids_count": 5,
   "news": [],
   "dvids": [
+    {
+      "id": "news:579597",
+      "title": "LRMC Simulation Center Strengthens Medical Readiness Across Europe",
+      "desc": "Medical readiness begins long before an ambulance reaches a hospital or a helicopter land on a medical evacuation pad. At Landstuhl Regional Medical Center, that preparation takes place inside the European Medical Simulation Center where medical professionals practice critical skills in realistic tr",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "Landstuhl Regional Medical Center",
+      "timestamp": "2026-11-18T12:30:20+00:00",
+      "url": "https://www.dvidshub.net/news/579597/lrmc-simulation-center-strengthens-medical-readiness-across-europe",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM",
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10102578",
+      "title": "USS Delbert D. Black Arrives in Mombasa, Kenya",
+      "desc": "U.S. Navy Sailors handle line aboard Arleigh Burke-class...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS DELBERT D BLACK (DDG 119)",
+      "timestamp": "2026-11-18T09:03:32+00:00",
+      "url": "https://www.dvidshub.net/image/10102578/uss-delbert-d-black-arrives-mombasa-kenya",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10102577",
+      "title": "USS Delbert D. Black Arrives in Mombasa, Kenya",
+      "desc": "U.S. Navy Gunner’s Mate 3rd Class Williams Hughes,...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "USS DELBERT D BLACK (DDG 119)",
+      "timestamp": "2026-11-18T09:03:32+00:00",
+      "url": "https://www.dvidshub.net/image/10102577/uss-delbert-d-black-arrives-mombasa-kenya",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10100379",
+      "title": "USS Tulsa pulls into Singapore",
+      "desc": "U.S. Navy Mineman Seaman Apprentice Nicholas Colvin...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "Commander, Destroyer Squadron 7",
+      "timestamp": "2026-11-18T07:12:36+00:00",
+      "url": "https://www.dvidshub.net/image/10100379/uss-tulsa-pulls-into-singapore",
+      "thumbnail_url": "",
+      "commands": [
+        "JOINT"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1030017",
       "title": "John Finn Prepares Lunch",
@@ -13,66 +74,6 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-17T12:22:16+00:00",
       "url": "https://www.dvidshub.net/video/1030017/john-finn-prepares-lunch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10099631",
-      "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor carves a turkey while preparing lunch in...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:37:43+00:00",
-      "url": "https://www.dvidshub.net/image/10099631/john-finn-prepares-lunch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10099632",
-      "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor writes down the daily menu while preparing...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:37:29+00:00",
-      "url": "https://www.dvidshub.net/image/10099632/john-finn-prepares-lunch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10099636",
-      "title": "John Finn Prepares Lunch",
-      "desc": "A U.S. Sailor sorts through spice containers while...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:37:16+00:00",
-      "url": "https://www.dvidshub.net/image/10099636/john-finn-prepares-lunch",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10099284",
-      "title": "Daily Routine Flight Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "An F/A-18F Super Hornet, attached to Strike Fighter...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-17T11:34:06+00:00",
-      "url": "https://www.dvidshub.net/image/10099284/daily-routine-flight-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
