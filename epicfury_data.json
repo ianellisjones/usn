@@ -1,9 +1,25 @@
 {
-  "generated": "2026-11-19T14:07:07.175795+00:00",
+  "generated": "2026-11-19T19:26:29.263301+00:00",
   "news_count": 0,
-  "dvids_count": 1,
+  "dvids_count": 2,
   "news": [],
   "dvids": [
+    {
+      "id": "video:1030367",
+      "title": "Army – Navy Game Shout-out",
+      "desc": "NAVAL SUPPORT ACTIVITY NAPLES, Italy (Nov. 19, 2026) U.S. Navy Sailors, U.S. Naval Academy alumni and civilians assigned to U.S. Naval Support Activity (NSA) Naples, Italy, cheer on the U.S. Naval Academy Navy Midshipman football team in anticipation of the upcoming game against the U.S. Military Ac",
+      "type": "video",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Support Activity Naples",
+      "timestamp": "2026-11-19T17:53:25+00:00",
+      "url": "https://www.dvidshub.net/video/1030367/army-navy-game-shout-out",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM",
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "news:579597",
       "title": "LRMC Simulation Center Strengthens Medical Readiness Across Europe",
