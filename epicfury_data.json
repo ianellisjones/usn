@@ -1,9 +1,24 @@
 {
-  "generated": "2026-11-19T23:20:15.934058+00:00",
+  "generated": "2026-11-20T13:49:48.789130+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 3,
   "news": [],
   "dvids": [
+    {
+      "id": "news:579825",
+      "title": "USS Bulkeley participates in Mavi Balina 2026",
+      "desc": "Arleigh Burke-class guided-missile destroyer USS Bulkeley (DDG 84) participated in Turkish-led exercise Mavi Balina 2026 in the Eastern Mediterranean Sea, Nov. 9-20.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-11-20T13:42:34+00:00",
+      "url": "https://www.dvidshub.net/news/579825/uss-bulkeley-participates-mavi-balina-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
     {
       "id": "video:1030367",
       "title": "Army – Navy Game Shout-out",
