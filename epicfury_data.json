@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-22T18:22:52.062379+00:00",
+  "generated": "2026-11-22T22:13:39.547457+00:00",
   "news_count": 0,
-  "dvids_count": 13,
+  "dvids_count": 40,
   "news": [],
   "dvids": [
     {
-      "id": "image:10111264",
-      "title": "FOD walkdown aboard USS Gonzalez (DDG 660, Nov. 22, 2026",
-      "desc": "U.S. Sailors perform a FOD walkdown aboard the Arleigh...",
+      "id": "image:10109915",
+      "title": "Maintenance aboard Theodore Roosevelt",
+      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T17:34:40+00:00",
-      "url": "https://www.dvidshub.net/image/10111264/fod-walkdown-aboard-uss-gonzalez-ddg-660-nov-22-2026",
+      "timestamp": "2026-11-22T20:49:50+00:00",
+      "url": "https://www.dvidshub.net/image/10109915/maintenance-aboard-theodore-roosevelt",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10111261",
-      "title": "FOD walkdown aboard USS Gonzalez (DDG 660, Nov. 22, 2026",
-      "desc": "U.S. Sailors perform a FOD walkdown aboard the Arleigh...",
+      "id": "image:10109904",
+      "title": "Maintenance Aboard Theodore Roosevelt",
+      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T17:34:34+00:00",
-      "url": "https://www.dvidshub.net/image/10111261/fod-walkdown-aboard-uss-gonzalez-ddg-660-nov-22-2026",
+      "timestamp": "2026-11-22T20:49:26+00:00",
+      "url": "https://www.dvidshub.net/image/10109904/maintenance-aboard-theodore-roosevelt",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10111259",
-      "title": "FOD walkdown aboard USS Gonzalez (DDG 660, Nov. 22, 2026",
-      "desc": "U.S. Sailors perform a FOD walkdown aboard the Arleigh...",
+      "id": "image:10109879",
+      "title": "Flight Deck Operations aboard Theodore Roosevelt",
+      "desc": "U.S. Sailors assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T17:34:26+00:00",
-      "url": "https://www.dvidshub.net/image/10111259/fod-walkdown-aboard-uss-gonzalez-ddg-660-nov-22-2026",
+      "timestamp": "2026-11-22T20:47:35+00:00",
+      "url": "https://www.dvidshub.net/image/10109879/flight-deck-operations-aboard-theodore-roosevelt",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10111165",
-      "title": "USS John Paul Jones Conducts Flight Operations",
-      "desc": "U.S. Sailors assigned Arleigh Burke-class guided-missile...",
+      "id": "image:10109870",
+      "title": "Flight Deck PT abord Theodore Roosevelt",
+      "desc": "U.S. Sailors assigned to Nimitz-class aircraft carrier...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T15:24:18+00:00",
-      "url": "https://www.dvidshub.net/image/10111165/uss-john-paul-jones-conducts-flight-operations",
+      "timestamp": "2026-11-22T20:47:24+00:00",
+      "url": "https://www.dvidshub.net/image/10109870/flight-deck-pt-abord-theodore-roosevelt",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10111166",
-      "title": "USS John Paul Jones Conducts Flight Operations",
-      "desc": "A U.S. Sailor assigned to Arleigh Burke-class...",
+      "id": "image:10110777",
+      "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "F/A-18E Super Hornet attached to Strike Fighter Squadron...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T15:24:02+00:00",
-      "url": "https://www.dvidshub.net/image/10111166/uss-john-paul-jones-conducts-flight-operations",
+      "timestamp": "2026-11-22T19:54:47+00:00",
+      "url": "https://www.dvidshub.net/image/10110777/daily-operations-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
