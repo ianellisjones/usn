@@ -1,78 +1,78 @@
 {
-  "generated": "2026-11-22T22:13:39.547457+00:00",
+  "generated": "2026-11-23T15:40:55.417806+00:00",
   "news_count": 0,
   "dvids_count": 40,
   "news": [],
   "dvids": [
     {
-      "id": "image:10109915",
-      "title": "Maintenance aboard Theodore Roosevelt",
-      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T20:49:50+00:00",
-      "url": "https://www.dvidshub.net/image/10109915/maintenance-aboard-theodore-roosevelt",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10109904",
-      "title": "Maintenance Aboard Theodore Roosevelt",
-      "desc": "A U.S. Sailor assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T20:49:26+00:00",
-      "url": "https://www.dvidshub.net/image/10109904/maintenance-aboard-theodore-roosevelt",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10109879",
-      "title": "Flight Deck Operations aboard Theodore Roosevelt",
-      "desc": "U.S. Sailors assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T20:47:35+00:00",
-      "url": "https://www.dvidshub.net/image/10109879/flight-deck-operations-aboard-theodore-roosevelt",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10109870",
-      "title": "Flight Deck PT abord Theodore Roosevelt",
-      "desc": "U.S. Sailors assigned to Nimitz-class aircraft carrier...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T20:47:24+00:00",
-      "url": "https://www.dvidshub.net/image/10109870/flight-deck-pt-abord-theodore-roosevelt",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10110777",
+      "id": "image:10111323",
       "title": "Daily Operations Aboard USS George H.W. Bush (CVN 77)",
-      "desc": "F/A-18E Super Hornet attached to Strike Fighter Squadron...",
+      "desc": "A U.S. Sailor checks the air pressure gauge of an MH-60S...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-22T19:54:47+00:00",
-      "url": "https://www.dvidshub.net/image/10110777/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "timestamp": "2026-11-23T15:04:24+00:00",
+      "url": "https://www.dvidshub.net/image/10111323/daily-operations-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10111331",
+      "title": "Small-Arms Live-Fire Exercise  Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "U.S. Sailors prepare for a small-arms live-fire exercise...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T14:42:06+00:00",
+      "url": "https://www.dvidshub.net/image/10111331/small-arms-live-fire-exercise-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10111332",
+      "title": "Small-Arms Live-Fire Exercise  Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "Loaded M18 service pistol magazines are arranged during...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T14:41:42+00:00",
+      "url": "https://www.dvidshub.net/image/10111332/small-arms-live-fire-exercise-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10111333",
+      "title": "Small-Arms Live-Fire Exercise  Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor prepares to fire an M18 service pistol...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T14:41:17+00:00",
+      "url": "https://www.dvidshub.net/image/10111333/small-arms-live-fire-exercise-aboard-uss-george-hw-bush-cvn-77",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10111334",
+      "title": "Small-Arms Live-Fire Exercise  Aboard USS George H.W. Bush (CVN 77)",
+      "desc": "A U.S. Sailor prepares to fire an M18 service pistol...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T14:41:00+00:00",
+      "url": "https://www.dvidshub.net/image/10111334/small-arms-live-fire-exercise-aboard-uss-george-hw-bush-cvn-77",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
