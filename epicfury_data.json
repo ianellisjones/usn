@@ -1,39 +1,9 @@
 {
-  "generated": "2026-11-24T03:05:30.123722+00:00",
+  "generated": "2026-11-24T15:31:26.994485+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
-    {
-      "id": "image:10112916",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 23, 2026",
-      "desc": "A U.S. Sailor, right, searches a simulated active...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-23T20:13:20+00:00",
-      "url": "https://www.dvidshub.net/image/10112916/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-23-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10112918",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 23, 2026",
-      "desc": "A U.S. Sailor uses internal communications during an...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-23T20:12:30+00:00",
-      "url": "https://www.dvidshub.net/image/10112918/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-23-2026",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
     {
       "id": "image:10112915",
       "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 23, 2026",
@@ -73,6 +43,36 @@
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
       "timestamp": "2026-11-23T20:09:17+00:00",
       "url": "https://www.dvidshub.net/image/10112912/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-23-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10112911",
+      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 23, 2026",
+      "desc": "A U.S. Sailor uses radio communication during an...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T20:08:14+00:00",
+      "url": "https://www.dvidshub.net/image/10112911/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-23-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10112909",
+      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 23, 2026",
+      "desc": "A U.S. Sailor completes clearing barrel procedures...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-23T20:05:22+00:00",
+      "url": "https://www.dvidshub.net/image/10112909/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-23-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
