@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-26T00:46:05.538362+00:00",
+  "generated": "2026-11-26T14:43:16.243849+00:00",
   "news_count": 0,
-  "dvids_count": 2,
+  "dvids_count": 9,
   "news": [],
   "dvids": [
     {
-      "id": "image:10118471",
+      "id": "image:10118466",
       "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor stands guard during an anti-terrorism...",
+      "desc": "A U.S. Sailor guards a compartment during an...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-25T16:17:30+00:00",
-      "url": "https://www.dvidshub.net/image/10118471/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T14:01:14+00:00",
+      "url": "https://www.dvidshub.net/image/10118466/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,59 @@
       "location_display": ""
     },
     {
-      "id": "image:10118470",
+      "id": "image:10118465",
       "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor stands guard during an anti-terrorism...",
+      "desc": "Two U.S. Sailors search for a simulated active shooter...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-25T16:13:36+00:00",
-      "url": "https://www.dvidshub.net/image/10118470/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T14:00:36+00:00",
+      "url": "https://www.dvidshub.net/image/10118465/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10118464",
+      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
+      "desc": "A U.S. Sailor clears a ladderwell during an...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-26T13:59:07+00:00",
+      "url": "https://www.dvidshub.net/image/10118464/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10118463",
+      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
+      "desc": "A U.S. Sailor clears a passageway during an...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-26T13:54:45+00:00",
+      "url": "https://www.dvidshub.net/image/10118463/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "thumbnail_url": "",
+      "commands": [
+        "CENTCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "image:10118462",
+      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
+      "desc": "A U.S. Sailor simulates an active shooter during an...",
+      "type": "image",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
+      "timestamp": "2026-11-26T13:53:43+00:00",
+      "url": "https://www.dvidshub.net/image/10118462/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
