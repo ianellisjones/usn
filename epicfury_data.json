@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-26T14:43:16.243849+00:00",
+  "generated": "2026-11-26T20:03:08.053425+00:00",
   "news_count": 0,
-  "dvids_count": 9,
+  "dvids_count": 6,
   "news": [],
   "dvids": [
     {
-      "id": "image:10118466",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor guards a compartment during an...",
+      "id": "image:10120516",
+      "title": "Watch standing Aboard USS Ross (DDG 71)",
+      "desc": "A U.S. Sailor stands watch on the bridge aboard Arleigh...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-26T14:01:14+00:00",
-      "url": "https://www.dvidshub.net/image/10118466/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T15:21:52+00:00",
+      "url": "https://www.dvidshub.net/image/10120516/watch-standing-aboard-uss-ross-ddg-71",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10118465",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "Two U.S. Sailors search for a simulated active shooter...",
+      "id": "image:10120513",
+      "title": "USS Boxer Sailor Stand Navigation Watch",
+      "desc": "A U.S. Sailor assigned to Wasp-class amphibious assault...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-26T14:00:36+00:00",
-      "url": "https://www.dvidshub.net/image/10118465/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T15:17:45+00:00",
+      "url": "https://www.dvidshub.net/image/10120513/uss-boxer-sailor-stand-navigation-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10118464",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor clears a ladderwell during an...",
+      "id": "image:10120511",
+      "title": "USS Boxer Sailors Stand CIC Watch",
+      "desc": "A U.S. Sailor assigned to Wasp-class amphibious assault...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-26T13:59:07+00:00",
-      "url": "https://www.dvidshub.net/image/10118464/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T15:16:55+00:00",
+      "url": "https://www.dvidshub.net/image/10120511/uss-boxer-sailors-stand-cic-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,14 +50,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10118463",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor clears a passageway during an...",
+      "id": "image:10120510",
+      "title": "USS Boxer Sailors Stand CIC Watch",
+      "desc": "U.S. Sailors assigned to Wasp-class amphibious assault...",
       "type": "image",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-26T13:54:45+00:00",
-      "url": "https://www.dvidshub.net/image/10118463/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T15:16:05+00:00",
+      "url": "https://www.dvidshub.net/image/10120510/uss-boxer-sailors-stand-cic-watch",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10118462",
-      "title": "Anti-terrorism training team drill aboard USS Gonzalez (DDG 66), Nov. 25, 2026",
-      "desc": "A U.S. Sailor simulates an active shooter during an...",
-      "type": "image",
+      "id": "video:1031182",
+      "title": "USS Theodore Roosevelt (CVN 71) Thanksgiving 2026",
+      "desc": "U.S. Sailors assigned to Nimitz-class aircraft carrier USS Theodore Roosevelt (CVN 71) enjoy Thanksgiving dinner, Nov. 26, 2026. Theodore Roosevelt is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-26T13:53:43+00:00",
-      "url": "https://www.dvidshub.net/image/10118462/anti-terrorism-training-team-drill-aboard-uss-gonzalez-ddg-66-nov-25-2026",
+      "timestamp": "2026-11-26T11:42:29+00:00",
+      "url": "https://www.dvidshub.net/video/1031182/uss-theodore-roosevelt-cvn-71-thanksgiving-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
