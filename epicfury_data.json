@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-27T14:42:12.286349+00:00",
+  "generated": "2026-11-27T19:52:07.606529+00:00",
   "news_count": 0,
-  "dvids_count": 16,
+  "dvids_count": 11,
   "news": [],
   "dvids": [
     {
-      "id": "image:10121401",
-      "title": "USS Charleston Celebrates Thanksgiving",
-      "desc": "A U.S. Sailor onboard Independence-variant littoral...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T13:28:49+00:00",
-      "url": "https://www.dvidshub.net/image/10121401/uss-charleston-celebrates-thanksgiving",
+      "id": "news:580348",
+      "title": "U.S. Forces Disable Commercial Vessel During Blockade Enforcement Against Iran",
+      "desc": "TAMPA, Fla. – U.S. Central Command (CENTCOM) disabled a commercial vessel in the Gulf of Oman, Nov. 26, after the crew attempted to run the U.S. naval blockade, despite multiple warnings, following departure from an Iranian port.",
+      "type": "news",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-11-27T16:14:21+00:00",
+      "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -20,14 +20,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10121403",
-      "title": "USS Charleston Celebrates Thanksgiving",
-      "desc": "A U.S. Sailor onboard Independence-variant littoral...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T13:27:47+00:00",
-      "url": "https://www.dvidshub.net/image/10121403/uss-charleston-celebrates-thanksgiving",
+      "id": "video:1031212",
+      "title": "U.S. Forces Disable Commercial Vessel During Blockade Enforcement Against Iran",
+      "desc": "CENTCOM disabled a commercial vessel in the Gulf of Oman, Nov. 26, after the crew attempted to run the U.S. naval blockade, despite multiple warnings, following departure from Bandar Abbas. A U.S. military aircraft launched precision munitions that struck the stern of Palau-flagged M/V Pacific Arche",
+      "type": "video",
+      "branch": "Joint",
+      "unit_name": "U.S. Central Command Public Affairs",
+      "timestamp": "2026-11-27T16:08:22+00:00",
+      "url": "https://www.dvidshub.net/video/1031212/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -35,14 +35,29 @@
       "location_display": ""
     },
     {
-      "id": "image:10121404",
-      "title": "USS Charleston Celebrates Thanksgiving",
-      "desc": "A U.S. Sailor onboard Independence-variant littoral...",
-      "type": "image",
+      "id": "news:580341",
+      "title": "USS Delbert D. Black Concludes Port Visit to Cape Town Following Thanksgiving with U.S. Ambassador L. Brent Bozell III",
+      "desc": "CAPE TOWN, South Africa — The Arleigh Burke-class guided-missile destroyer USS Delbert D. Black (DDG 119) departed Cape Town, South Africa, Nov. 27, 2026, following a scheduled, routine port visit to conduct resupply and refueling operations.",
+      "type": "news",
+      "branch": "Navy",
+      "unit_name": "U.S. Naval Forces Europe-Africa/U.S. Sixth Fleet",
+      "timestamp": "2026-11-27T15:49:28+00:00",
+      "url": "https://www.dvidshub.net/news/580341/uss-delbert-d-black-concludes-port-visit-cape-town-following-thanksgiving-with-us-ambassador-l-brent-bozell-iii",
+      "thumbnail_url": "",
+      "commands": [
+        "EUCOM"
+      ],
+      "location_display": ""
+    },
+    {
+      "id": "video:1031207",
+      "title": "USS George H.W. Bush Thanksgiving 2026",
+      "desc": "U.S. Sailors eat dinner aboard USS George H.W. Bush (CVN 77) as part of Thanksgiving celebrations, Nov. 26, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T13:25:40+00:00",
-      "url": "https://www.dvidshub.net/image/10121404/uss-charleston-celebrates-thanksgiving",
+      "timestamp": "2026-11-27T15:29:43+00:00",
+      "url": "https://www.dvidshub.net/video/1031207/uss-george-hw-bush-thanksgiving-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
@@ -50,29 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "image:10121406",
-      "title": "USS Charleston Celebrates Thanksgiving",
-      "desc": "A U.S. Sailor onboard Independence-variant littoral...",
-      "type": "image",
+      "id": "video:1031195",
+      "title": "USS Boxer, ACU 5 Conduct LCAC Operations",
+      "desc": "U.S. Sailors assigned to Assault Craft Unit (ACU) 5 conduct landing craft, air cushion operations alongside Wasp-class amphibious assault ship USS Boxer (LHD 4), Nov. 25, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (",
+      "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T13:24:14+00:00",
-      "url": "https://www.dvidshub.net/image/10121406/uss-charleston-celebrates-thanksgiving",
-      "thumbnail_url": "",
-      "commands": [
-        "CENTCOM"
-      ],
-      "location_display": ""
-    },
-    {
-      "id": "image:10121416",
-      "title": "USS Charleston Celebrates Thanksgiving",
-      "desc": "A U.S. Sailor onboard Independence-variant littoral...",
-      "type": "image",
-      "branch": "Navy",
-      "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T13:18:50+00:00",
-      "url": "https://www.dvidshub.net/image/10121416/uss-charleston-celebrates-thanksgiving",
+      "timestamp": "2026-11-27T15:24:39+00:00",
+      "url": "https://www.dvidshub.net/video/1031195/uss-boxer-acu-5-conduct-lcac-operations",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
