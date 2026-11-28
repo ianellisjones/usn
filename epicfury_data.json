@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-28T00:17:58.803020+00:00",
+  "generated": "2026-11-28T13:53:52.305226+00:00",
   "news_count": 0,
-  "dvids_count": 11,
+  "dvids_count": 7,
   "news": [],
   "dvids": [
     {
@@ -65,14 +65,14 @@
       "location_display": ""
     },
     {
-      "id": "video:1031195",
-      "title": "USS Boxer, ACU 5 Conduct LCAC Operations",
-      "desc": "U.S. Sailors assigned to Assault Craft Unit (ACU) 5 conduct landing craft, air cushion operations alongside Wasp-class amphibious assault ship USS Boxer (LHD 4), Nov. 25, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (",
+      "id": "video:1031208",
+      "title": "USS George H.W. Bush Thanksgiving 2026",
+      "desc": "U.S. Sailors play sports as part of Thanksgiving celebrations aboard USS George H.W. Bush (CVN 77), Nov. 26, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)",
       "type": "video",
       "branch": "Navy",
       "unit_name": "U.S. Naval Forces Central Command / U.S. 5th Fleet",
-      "timestamp": "2026-11-27T15:24:39+00:00",
-      "url": "https://www.dvidshub.net/video/1031195/uss-boxer-acu-5-conduct-lcac-operations",
+      "timestamp": "2026-11-27T15:24:00+00:00",
+      "url": "https://www.dvidshub.net/video/1031208/uss-george-hw-bush-thanksgiving-2026",
       "thumbnail_url": "",
       "commands": [
         "CENTCOM"
